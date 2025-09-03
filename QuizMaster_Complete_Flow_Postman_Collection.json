@@ -1,0 +1,749 @@
+{
+  "info": {
+    "name": "QuizMaster Complete Flow Test",
+    "description": "Teste completo do fluxo do QuizMaster - desde cadastro até jogo em equipe",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    },
+    {
+      "key": "hostId",
+      "value": ""
+    },
+    {
+      "key": "player1Id",
+      "value": ""
+    },
+    {
+      "key": "player2Id",
+      "value": ""
+    },
+    {
+      "key": "player3Id",
+      "value": ""
+    },
+    {
+      "key": "roomCode",
+      "value": ""
+    },
+    {
+      "key": "gameId",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "FASE 1 - Cadastro de Usuários",
+      "item": [
+        {
+          "name": "1.1 Criar Host (João)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"joao_host\",\n  \"email\": \"joao@email.com\",\n  \"fullName\": \"João Silva (Host)\",\n  \"avatar\": \"https://example.com/avatar1.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/users",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    pm.environment.set('hostId', response.id);",
+                  "    console.log('Host ID:', response.id);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.2 Criar Player 1 (Maria)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"maria_player\",\n  \"email\": \"maria@email.com\",\n  \"fullName\": \"Maria Santos\",\n  \"avatar\": \"https://example.com/avatar2.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/users",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    pm.environment.set('player1Id', response.id);",
+                  "    console.log('Player 1 ID:', response.id);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.3 Criar Player 2 (Carlos)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"carlos_player\",\n  \"email\": \"carlos@email.com\",\n  \"fullName\": \"Carlos Oliveira\",\n  \"avatar\": \"https://example.com/avatar3.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/users",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    pm.environment.set('player2Id', response.id);",
+                  "    console.log('Player 2 ID:', response.id);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.4 Criar Player 3 (Ana)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"username\": \"ana_player\",\n  \"email\": \"ana@email.com\",\n  \"fullName\": \"Ana Costa\",\n  \"avatar\": \"https://example.com/avatar4.jpg\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/users",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    pm.environment.set('player3Id', response.id);",
+                  "    console.log('Player 3 ID:', response.id);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FASE 2 - Autenticação",
+      "item": [
+        {
+          "name": "2.1 Login do Host",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login?username=joao_host",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
+              "query": [
+                {
+                  "key": "username",
+                  "value": "joao_host"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "2.2 Login Player 1",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login?username=maria_player",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
+              "query": [
+                {
+                  "key": "username",
+                  "value": "maria_player"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "2.3 Login Player 2",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login?username=carlos_player",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
+              "query": [
+                {
+                  "key": "username",
+                  "value": "carlos_player"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "2.4 Login Player 3",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/auth/login?username=ana_player",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "auth", "login"],
+              "query": [
+                {
+                  "key": "username",
+                  "value": "ana_player"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FASE 3 - Criação da Sala",
+      "item": [
+        {
+          "name": "3.1 Host Cria Sala",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"roomName\": \"Quiz em Equipe - Teste\",\n  \"password\": null,\n  \"gameMode\": \"TEAM\",\n  \"difficulty\": \"MEDIUM\",\n  \"maxPlayers\": 6,\n  \"questionTime\": 25,\n  \"questionCount\": 8,\n  \"categories\": [\"MATH\", \"SCIENCE\", \"GEOGRAPHY\"],\n  \"assignmentType\": \"CHOOSE\",\n  \"allowSpectators\": false,\n  \"enableChat\": true,\n  \"showRealTimeRanking\": true,\n  \"allowReconnection\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms?hostId={{hostId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms"],
+              "query": [
+                {
+                  "key": "hostId",
+                  "value": "{{hostId}}"
+                }
+              ]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    pm.environment.set('roomCode', response.roomCode);",
+                  "    console.log('Room Code:', response.roomCode);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3.2 Verificar Detalhes da Sala",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FASE 4 - Jogadores Entram na Sala",
+      "item": [
+        {
+          "name": "4.1 Maria Entra na Sala",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/join?userId={{player1Id}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "join"],
+              "query": [
+                {
+                  "key": "userId",
+                  "value": "{{player1Id}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "4.2 Carlos Entra na Sala",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/join?userId={{player2Id}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "join"],
+              "query": [
+                {
+                  "key": "userId",
+                  "value": "{{player2Id}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "4.3 Ana Entra na Sala",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/join?userId={{player3Id}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "join"],
+              "query": [
+                {
+                  "key": "userId",
+                  "value": "{{player3Id}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "4.4 Verificar Jogadores na Sala",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/players",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "players"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FASE 5 - Configuração de Equipes",
+      "item": [
+        {
+          "name": "5.1 Maria - Equipe AZUL",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/players/{{player1Id}}/team?team=BLUE",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "players", "{{player1Id}}", "team"],
+              "query": [
+                {
+                  "key": "team",
+                  "value": "BLUE"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "5.2 Carlos - Equipe AZUL",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/players/{{player2Id}}/team?team=BLUE",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "players", "{{player2Id}}", "team"],
+              "query": [
+                {
+                  "key": "team",
+                  "value": "BLUE"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "5.3 Ana - Equipe VERMELHA",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/players/{{player3Id}}/team?team=RED",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "players", "{{player3Id}}", "team"],
+              "query": [
+                {
+                  "key": "team",
+                  "value": "RED"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FASE 6 - Preparação para o Jogo",
+      "item": [
+        {
+          "name": "6.1 Maria - Pronta",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/players/{{player1Id}}/ready",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "players", "{{player1Id}}", "ready"]
+            }
+          }
+        },
+        {
+          "name": "6.2 Carlos - Pronto",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/players/{{player2Id}}/ready",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "players", "{{player2Id}}", "ready"]
+            }
+          }
+        },
+        {
+          "name": "6.3 Ana - Pronta",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/players/{{player3Id}}/ready",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "players", "{{player3Id}}", "ready"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FASE 7 - Início do Jogo",
+      "item": [
+        {
+          "name": "7.1 Host Inicia o Jogo",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}/start?hostId={{hostId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}", "start"],
+              "query": [
+                {
+                  "key": "hostId",
+                  "value": "{{hostId}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "7.2 Obter Detalhes do Jogo",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/rooms/{{roomCode}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "rooms", "{{roomCode}}"]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "    const response = pm.response.json();",
+                  "    if (response.gameId) {",
+                  "        pm.environment.set('gameId', response.gameId);",
+                  "        console.log('Game ID:', response.gameId);",
+                  "    }",
+                  "}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FASE 8 - Durante o Jogo",
+      "item": [
+        {
+          "name": "8.1 Obter Perguntas - Maria",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/questions?userId={{player1Id}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "questions"],
+              "query": [
+                {
+                  "key": "userId",
+                  "value": "{{player1Id}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "8.2 Obter Pergunta Atual (0)",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/questions/0",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "questions", "0"]
+            }
+          }
+        },
+        {
+          "name": "8.3 Maria Responde Pergunta 1",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": {{player1Id}},\n  \"questionId\": 1,\n  \"selectedAnswer\": 1,\n  \"timeSpent\": 18000\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/answers",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "answers"]
+            }
+          }
+        },
+        {
+          "name": "8.4 Carlos Responde Pergunta 1",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": {{player2Id}},\n  \"questionId\": 1,\n  \"selectedAnswer\": 1,\n  \"timeSpent\": 22000\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/answers",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "answers"]
+            }
+          }
+        },
+        {
+          "name": "8.5 Ana Responde Pergunta 1",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"userId\": {{player3Id}},\n  \"questionId\": 1,\n  \"selectedAnswer\": 2,\n  \"timeSpent\": 15000\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/answers",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "answers"]
+            }
+          }
+        },
+        {
+          "name": "8.6 Verificar Leaderboard Live",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/leaderboard/live",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "leaderboard", "live"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FASE 9 - Finalização",
+      "item": [
+        {
+          "name": "9.1 Host Finaliza Jogo",
+          "request": {
+            "method": "POST",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/finish?hostId={{hostId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "finish"],
+              "query": [
+                {
+                  "key": "hostId",
+                  "value": "{{hostId}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "9.2 Obter Resultados Finais",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/results",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "results"]
+            }
+          }
+        },
+        {
+          "name": "9.3 Verificar Leaderboard Final",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/leaderboard",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "leaderboard"]
+            }
+          }
+        },
+        {
+          "name": "9.4 Estatísticas do Jogo",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/stats",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "stats"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "FASE 10 - Análises Pós-Jogo",
+      "item": [
+        {
+          "name": "10.1 Stats Maria",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/users/{{player1Id}}/stats",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users", "{{player1Id}}", "stats"]
+            }
+          }
+        },
+        {
+          "name": "10.2 Histórico Maria",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/users/{{player1Id}}/history",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users", "{{player1Id}}", "history"]
+            }
+          }
+        },
+        {
+          "name": "10.3 Respostas Maria",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/games/{{gameId}}/players/{{player1Id}}/answers",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "games", "{{gameId}}", "players", "{{player1Id}}", "answers"]
+            }
+          }
+        },
+        {
+          "name": "10.4 Ranking Geral",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/api/users/ranking?period=global&page=0&size=10",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "users", "ranking"],
+              "query": [
+                {
+                  "key": "period",
+                  "value": "global"
+                },
+                {
+                  "key": "page",
+                  "value": "0"
+                },
+                {
+                  "key": "size",
+                  "value": "10"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

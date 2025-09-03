@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster WebSocket Test - Jogo em Equipe</title>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/stompjs@2.3.3/lib/stomp.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .status {
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .connected { background-color: #d4edda; color: #155724; }
+        .disconnected { background-color: #f8d7da; color: #721c24; }
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .btn:hover { background-color: #0056b3; }
+        .btn:disabled { background-color: #6c757d; cursor: not-allowed; }
+        .input-group {
+            margin: 10px 0;
+        }
+        .input-group label {
+            display: inline-block;
+            width: 120px;
+            font-weight: bold;
+        }
+        .input-group input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 200px;
+        }
+        .messages {
+            border: 1px solid #ddd;
+            height: 400px;
+            overflow-y: auto;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .message {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        .message.room { background-color: #e3f2fd; }
+        .message.game { background-color: #e8f5e8; }
+        .message.chat { background-color: #fff3cd; }
+        .message.error { background-color: #f8d7da; }
+        .players-section {
+            display: flex;
+            gap: 20px;
+        }
+        .player-card {
+            flex: 1;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+        }
+        .team-blue { border-left: 5px solid #007bff; }
+        .team-red { border-left: 5px solid #dc3545; }
+        .host { border-left: 5px solid #28a745; }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 QuizMaster WebSocket Test - Jogo em Equipe</h1>
+    
+    <div class="container">
+        <div id="status" class="status disconnected">Status: Desconectado</div>
+        <button onclick="connect()" class="btn">🔌 Conectar</button>
+        <button onclick="disconnect()" class="btn">❌ Desconectar</button>
+    </div>
+
+    <div class="grid">
+        <!-- Configuração -->
+        <div class="container">
+            <h3>⚙️ Configuração</h3>
+            <div class="input-group">
+                <label>Room Code:</label>
+                <input type="text" id="roomCode" placeholder="ex: ABC123" value="ABC123">
+            </div>
+            <div class="input-group">
+                <label>Game ID:</label>
+                <input type="text" id="gameId" placeholder="ex: 1" value="1">
+            </div>
+        </div>
+
+        <!-- Jogadores -->
+        <div class="container">
+            <h3>👥 Simulação de Jogadores</h3>
+            <div class="players-section">
+                <div class="player-card host">
+                    <h4>🎮 Host - João</h4>
+                    <p>ID: 1</p>
+                    <button onclick="simulateHost()" class="btn">Simular Host</button>
+                </div>
+                <div class="player-card team-blue">
+                    <h4>🔵 Maria (Azul)</h4>
+                    <p>ID: 2</p>
+                    <button onclick="simulatePlayer1()" class="btn">Simular Maria</button>
+                </div>
+                <div class="player-card team-blue">
+                    <h4>🔵 Carlos (Azul)</h4>
+                    <p>ID: 3</p>
+                    <button onclick="simulatePlayer2()" class="btn">Simular Carlos</button>
+                </div>
+                <div class="player-card team-red">
+                    <h4>🔴 Ana (Vermelha)</h4>
+                    <p>ID: 4</p>
+                    <button onclick="simulatePlayer3()" class="btn">Simular Ana</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid">
+        <!-- Eventos da Sala -->
+        <div class="container">
+            <h3>🏠 Eventos da Sala</h3>
+            <button onclick="joinRoom(1, 'joao_host')" class="btn">👋 João Entra</button>
+            <button onclick="joinRoom(2, 'maria_player')" class="btn">👋 Maria Entra</button>
+            <button onclick="joinRoom(3, 'carlos_player')" class="btn">👋 Carlos Entra</button>
+            <button onclick="joinRoom(4, 'ana_player')" class="btn">👋 Ana Entra</button>
+            <br>
+            <button onclick="assignTeam(2, 'maria_player', 'BLUE')" class="btn">🔵 Maria → Azul</button>
+            <button onclick="assignTeam(3, 'carlos_player', 'BLUE')" class="btn">🔵 Carlos → Azul</button>
+            <button onclick="assignTeam(4, 'ana_player', 'RED')" class="btn">🔴 Ana → Vermelha</button>
+            <br>
+            <button onclick="toggleReady(2, 'maria_player')" class="btn">✅ Maria Pronta</button>
+            <button onclick="toggleReady(3, 'carlos_player')" class="btn">✅ Carlos Pronto</button>
+            <button onclick="toggleReady(4, 'ana_player')" class="btn">✅ Ana Pronta</button>
+            <br>
+            <button onclick="startGame()" class="btn">🚀 Iniciar Jogo</button>
+            <br>
+            <div class="input-group">
+                <input type="text" id="chatMessage" placeholder="Mensagem do chat" style="width: 250px;">
+                <button onclick="sendChat()" class="btn">💬 Enviar Chat</button>
+            </div>
+        </div>
+
+        <!-- Eventos do Jogo -->
+        <div class="container">
+            <h3>🎲 Eventos do Jogo</h3>
+            <button onclick="startQuestion()" class="btn">❓ Iniciar Pergunta</button>
+            <button onclick="submitAnswer(2, 'maria_player', 0, true)" class="btn">✅ Maria Acerta</button>
+            <button onclick="submitAnswer(3, 'carlos_player', 1, false)" class="btn">❌ Carlos Erra</button>
+            <button onclick="submitAnswer(4, 'ana_player', 0, true)" class="btn">✅ Ana Acerta</button>
+            <br>
+            <button onclick="updateLeaderboard()" class="btn">🏆 Atualizar Ranking</button>
+            <button onclick="finishGame()" class="btn">🏁 Finalizar Jogo</button>
+            <br>
+            <h4>🎯 Respostas Rápidas:</h4>
+            <button onclick="simulateQuestion1()" class="btn">📝 Simular Pergunta 1</button>
+            <button onclick="simulateQuestion2()" class="btn">📝 Simular Pergunta 2</button>
+            <button onclick="simulateCompleteGame()" class="btn">🎮 Jogo Completo</button>
+        </div>
+    </div>
+
+    <!-- Messages -->
+    <div class="container">
+        <h3>📨 Mensagens WebSocket</h3>
+        <button onclick="clearMessages()" class="btn">🗑️ Limpar</button>
+        <div id="messages" class="messages"></div>
+    </div>
+
+    <script>
+        let stompClient = null;
+        let connected = false;
+        let currentQuestionIndex = 0;
+
+        function connect() {
+            const socket = new SockJS('http://localhost:8080/ws');
+            stompClient = Stomp.over(socket);
+            
+            stompClient.connect({}, function (frame) {
+                console.log('Connected: ' + frame);
+                updateStatus('Conectado', true);
+                connected = true;
+                
+                // Subscribe to room updates
+                const roomCode = document.getElementById('roomCode').value;
+                stompClient.subscribe('/topic/room/' + roomCode, function (message) {
+                    showMessage('ROOM', JSON.parse(message.body));
+                });
+                
+                stompClient.subscribe('/topic/room/' + roomCode + '/chat', function (message) {
+                    showMessage('CHAT', JSON.parse(message.body));
+                });
+                
+                // Subscribe to game updates
+                const gameId = document.getElementById('gameId').value;
+                stompClient.subscribe('/topic/game/' + gameId, function (message) {
+                    showMessage('GAME', JSON.parse(message.body));
+                });
+                
+                showMessage('SYSTEM', { message: 'Conectado com sucesso!', timestamp: new Date().toISOString() });
+            }, function(error) {
+                console.error('Connection error:', error);
+                updateStatus('Erro de conexão: ' + error, false);
+                showMessage('ERROR', { message: 'Erro de conexão: ' + error, timestamp: new Date().toISOString() });
+            });
+        }
+
+        function disconnect() {
+            if (stompClient !== null) {
+                stompClient.disconnect();
+            }
+            updateStatus('Desconectado', false);
+            connected = false;
+        }
+
+        function updateStatus(message, isConnected) {
+            const statusEl = document.getElementById('status');
+            statusEl.innerText = 'Status: ' + message;
+            statusEl.className = 'status ' + (isConnected ? 'connected' : 'disconnected');
+        }
+
+        function showMessage(type, message) {
+            const messages = document.getElementById('messages');
+            const messageElement = document.createElement('div');
+            messageElement.className = 'message ' + type.toLowerCase();
+            
+            const timestamp = new Date(message.timestamp || new Date()).toLocaleTimeString();
+            const typeIcon = {
+                'ROOM': '🏠',
+                'GAME': '🎲',
+                'CHAT': '💬',
+                'SYSTEM': '⚙️',
+                'ERROR': '❌'
+            }[type] || '📨';
+            
+            messageElement.innerHTML = `
+                <strong>${typeIcon} [${type}] ${timestamp}</strong><br>
+                <pre>${JSON.stringify(message, null, 2)}</pre>
+            `;
+            
+            messages.appendChild(messageElement);
+            messages.scrollTop = messages.scrollHeight;
+        }
+
+        function clearMessages() {
+            document.getElementById('messages').innerHTML = '';
+        }
+
+        // Room Events
+        function joinRoom(userId, username) {
+            if (!connected) return alert('Conecte primeiro!');
+            const roomCode = document.getElementById('roomCode').value;
+            const message = {
+                userId: userId,
+                username: username,
+                avatar: `https://example.com/avatar${userId}.jpg`,
+                roomCode: roomCode,
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/room/" + roomCode + "/join", {}, JSON.stringify(message));
+        }
+
+        function assignTeam(userId, username, team) {
+            if (!connected) return alert('Conecte primeiro!');
+            const roomCode = document.getElementById('roomCode').value;
+            const message = {
+                userId: userId,
+                username: username,
+                team: team,
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/room/" + roomCode + "/team", {}, JSON.stringify(message));
+        }
+
+        function toggleReady(userId, username) {
+            if (!connected) return alert('Conecte primeiro!');
+            const roomCode = document.getElementById('roomCode').value;
+            const message = {
+                userId: userId,
+                username: username,
+                isReady: true,
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/room/" + roomCode + "/ready", {}, JSON.stringify(message));
+        }
+
+        function startGame() {
+            if (!connected) return alert('Conecte primeiro!');
+            const roomCode = document.getElementById('roomCode').value;
+            const gameId = document.getElementById('gameId').value;
+            const message = {
+                gameId: parseInt(gameId),
+                roomCode: roomCode,
+                hostId: 1,
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/room/" + roomCode + "/start", {}, JSON.stringify(message));
+        }
+
+        function sendChat() {
+            if (!connected) return alert('Conecte primeiro!');
+            const roomCode = document.getElementById('roomCode').value;
+            const chatText = document.getElementById('chatMessage').value;
+            if (!chatText.trim()) return;
+            
+            const message = {
+                userId: 1,
+                username: "joao_host",
+                message: chatText,
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/room/" + roomCode + "/chat", {}, JSON.stringify(message));
+            document.getElementById('chatMessage').value = '';
+        }
+
+        // Game Events
+        function startQuestion() {
+            if (!connected) return alert('Conecte primeiro!');
+            const gameId = document.getElementById('gameId').value;
+            currentQuestionIndex++;
+            const message = {
+                questionId: currentQuestionIndex,
+                questionIndex: currentQuestionIndex - 1,
+                questionText: `Pergunta ${currentQuestionIndex}: Quanto é ${currentQuestionIndex} + ${currentQuestionIndex}?`,
+                options: [`${currentQuestionIndex * 2}`, `${currentQuestionIndex * 2 + 1}`, `${currentQuestionIndex * 2 + 2}`, `${currentQuestionIndex * 2 + 3}`],
+                timeLimit: 30,
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/game/" + gameId + "/question", {}, JSON.stringify(message));
+        }
+
+        function submitAnswer(userId, username, selectedAnswer, isCorrect) {
+            if (!connected) return alert('Conecte primeiro!');
+            const gameId = document.getElementById('gameId').value;
+            const timeSpent = Math.floor(Math.random() * 25000) + 5000; // 5-30 seconds
+            
+            const message = {
+                userId: userId,
+                username: username,
+                questionId: currentQuestionIndex,
+                selectedAnswer: selectedAnswer,
+                timeSpent: timeSpent,
+                isCorrect: isCorrect,
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/game/" + gameId + "/answer", {}, JSON.stringify(message));
+        }
+
+        function updateLeaderboard() {
+            if (!connected) return alert('Conecte primeiro!');
+            const gameId = document.getElementById('gameId').value;
+            const message = {
+                leaderboard: [
+                    { userId: 2, username: "maria_player", score: 1200, position: 1, team: "BLUE" },
+                    { userId: 4, username: "ana_player", score: 1000, position: 2, team: "RED" },
+                    { userId: 3, username: "carlos_player", score: 800, position: 3, team: "BLUE" }
+                ],
+                teamScores: {
+                    "BLUE": 2000,
+                    "RED": 1000
+                },
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/game/" + gameId + "/leaderboard", {}, JSON.stringify(message));
+        }
+
+        function finishGame() {
+            if (!connected) return alert('Conecte primeiro!');
+            const gameId = document.getElementById('gameId').value;
+            const message = {
+                gameId: parseInt(gameId),
+                winner: { userId: 2, username: "maria_player", score: 1200, team: "BLUE" },
+                winningTeam: "BLUE",
+                finalResults: [
+                    { userId: 2, username: "maria_player", score: 1200, position: 1, team: "BLUE" },
+                    { userId: 4, username: "ana_player", score: 1000, position: 2, team: "RED" },
+                    { userId: 3, username: "carlos_player", score: 800, position: 3, team: "BLUE" }
+                ],
+                teamResults: {
+                    "BLUE": { score: 2000, players: 2 },
+                    "RED": { score: 1000, players: 1 }
+                },
+                timestamp: new Date().toISOString()
+            };
+            stompClient.send("/app/game/" + gameId + "/finish", {}, JSON.stringify(message));
+        }
+
+        // Simulation Functions
+        function simulateHost() {
+            joinRoom(1, 'joao_host');
+            setTimeout(() => startGame(), 1000);
+        }
+
+        function simulatePlayer1() {
+            joinRoom(2, 'maria_player');
+            setTimeout(() => assignTeam(2, 'maria_player', 'BLUE'), 500);
+            setTimeout(() => toggleReady(2, 'maria_player'), 1000);
+        }
+
+        function simulatePlayer2() {
+            joinRoom(3, 'carlos_player');
+            setTimeout(() => assignTeam(3, 'carlos_player', 'BLUE'), 500);
+            setTimeout(() => toggleReady(3, 'carlos_player'), 1000);
+        }
+
+        function simulatePlayer3() {
+            joinRoom(4, 'ana_player');
+            setTimeout(() => assignTeam(4, 'ana_player', 'RED'), 500);
+            setTimeout(() => toggleReady(4, 'ana_player'), 1000);
+        }
+
+        function simulateQuestion1() {
+            startQuestion();
+            setTimeout(() => submitAnswer(2, 'maria_player', 0, true), 1000);
+            setTimeout(() => submitAnswer(3, 'carlos_player', 1, false), 1500);
+            setTimeout(() => submitAnswer(4, 'ana_player', 0, true), 2000);
+            setTimeout(() => updateLeaderboard(), 2500);
+        }
+
+        function simulateQuestion2() {
+            startQuestion();
+            setTimeout(() => submitAnswer(2, 'maria_player', 1, false), 800);
+            setTimeout(() => submitAnswer(3, 'carlos_player', 0, true), 1200);
+            setTimeout(() => submitAnswer(4, 'ana_player', 0, true), 1800);
+            setTimeout(() => updateLeaderboard(), 2300);
+        }
+
+        function simulateCompleteGame() {
+            if (!connected) return alert('Conecte primeiro!');
+            
+            // Simula todo o fluxo
+            simulateHost();
+            setTimeout(() => simulatePlayer1(), 1000);
+            setTimeout(() => simulatePlayer2(), 2000);
+            setTimeout(() => simulatePlayer3(), 3000);
+            
+            // Inicia o jogo após todos entrarem
+            setTimeout(() => startGame(), 5000);
+            
+            // Simula 3 perguntas
+            setTimeout(() => simulateQuestion1(), 6000);
+            setTimeout(() => simulateQuestion2(), 10000);
+            setTimeout(() => simulateQuestion1(), 14000);
+            
+            // Finaliza o jogo
+            setTimeout(() => finishGame(), 18000);
+        }
+
+        // Initialize
+        window.onload = function() {
+            showMessage('SYSTEM', { 
+                message: 'Página carregada. Clique em "Conectar" para começar o teste!',
+                timestamp: new Date().toISOString() 
+            });
+        };
+    </script>
+</body>
+</html>
