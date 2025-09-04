@@ -26,6 +26,8 @@ public class RoomResponse {
     private String roomName;
     private GameMode gameMode;
     private Difficulty difficulty;
+    private LocalDateTime startsAt;
+
     private Integer maxPlayers;
     private Integer questionTime;
     private Integer questionCount;

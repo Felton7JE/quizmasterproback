@@ -28,6 +28,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -45,6 +46,8 @@ public class RoomService {
     private final UserRepository userRepository;
     private final GameRepository gameRepository;
     private final CategoryService categoryService;
+    // NEW: publisher para SSE
+    private final RoomEventsPublisher roomEventsPublisher;
 
     public RoomResponse createRoom(CreateRoomRequest request, Long hostId) {
         // Verificar se o usuário existe
@@ -249,7 +252,7 @@ public class RoomService {
             throw new RuntimeException("Apenas o host pode iniciar o jogo");
         }
 
-        if (room.getPlayers().size() < 2) {
+        if (room.getPlayers() == null || room.getPlayers().size() < 2) {
             throw new RuntimeException("É necessário pelo menos 2 jogadores para iniciar o jogo");
         }
 
@@ -260,20 +263,23 @@ public class RoomService {
             throw new RuntimeException("Nem todos os jogadores estão prontos");
         }
 
-        // ✅ CRIAR O JOGO
+        // NEW: alinhar com o app - STARTING + startsAt para sincronizar countdown
+        LocalDateTime startsAt = LocalDateTime.now().plusSeconds(3);
+        room.setStatus(RoomStatus.STARTING);
+        room.setStartsAt(startsAt);
+        roomRepository.save(room);
+
+        // Criar o jogo imediatamente (o estado do jogo em si fica IN_PROGRESS)
         Game game = new Game();
         game.setRoom(room);
         game.setStatus(GameStatus.IN_PROGRESS);
         game.setStartedAt(LocalDateTime.now());
-        
-        // Salvar o jogo
         game = gameRepository.save(game);
 
-        // Atualizar status da room
-        room.setStatus(RoomStatus.IN_GAME);
-        roomRepository.save(room);
-        
-        // ✅ RETORNAR RESPOSTA COM GAME ID
+        // Notificar clientes (web/mobile) em tempo real
+        roomEventsPublisher.publishRoomStarted(room.getRoomCode(), startsAt, game.getId());
+
+        // Resposta
         GameResponse response = new GameResponse();
         response.setId(game.getId());
         response.setRoomCode(room.getRoomCode());
@@ -283,7 +289,6 @@ public class RoomService {
         response.setGameMode(room.getGameMode().toString());
         response.setDifficulty(room.getDifficulty().toString());
         response.setStartTime(game.getStartedAt().atZone(java.time.ZoneId.systemDefault()).toInstant().toEpochMilli());
-        
         return response;
     }
 
@@ -320,9 +325,10 @@ public class RoomService {
         response.setRoomName(room.getRoomName());
         response.setRoomCode(room.getRoomCode());
         
-        // ✅ CORREÇÃO: Use setHostName() em vez de setHostId()
+        // ✅ CORREÇÃO: Use setHostName()
         response.setHostName(room.getHost() != null ? room.getHost().getUsername() : null);
         
+        // map enums to objects
         response.setGameMode(room.getGameMode());
         response.setDifficulty(room.getDifficulty());
         response.setMaxPlayers(room.getMaxPlayers());
@@ -339,6 +345,7 @@ public class RoomService {
         
         response.setAssignmentType(room.getAssignmentType());
         response.setCategoryAssignmentMode(room.getCategoryAssignmentMode());
+        // status como string
         response.setStatus(room.getStatus());
         response.setCreatedAt(room.getCreatedAt());
         response.setAllowSpectators(room.getAllowSpectators());
@@ -348,7 +355,7 @@ public class RoomService {
         response.setAllowReconnection(room.getAllowReconnection());
         response.setIsPrivate(room.getPassword() != null);
         
-        // ✅ PROTEÇÃO CONTRA NULL:
+        // players -> PlayerResponse
         if (room.getPlayers() != null) {
             response.setCurrentPlayers(room.getPlayers().size());
             List<PlayerResponse> players = room.getPlayers().stream()
@@ -359,6 +366,9 @@ public class RoomService {
             response.setCurrentPlayers(0);
             response.setPlayers(new ArrayList<>());
         }
+
+        // NEW: startsAt como LocalDateTime
+        response.setStartsAt(room.getStartsAt());
         
         return response;
     }
@@ -375,7 +385,8 @@ public class RoomService {
         response.setPreferredCategory(roomPlayer.getPreferredCategory());
         response.setAssignedCategory(roomPlayer.getAssignedCategory());
         response.setIsHost(roomPlayer.getIsHost()); // Mudança aqui
-        
+        // isLeader removed — use isHost only
+
         return response;
     }
     
@@ -568,3 +579,4 @@ public class RoomService {
                 .allMatch(p -> p.getAssignedCategory() != null);
     }
 }
+ 

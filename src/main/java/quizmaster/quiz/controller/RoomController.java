@@ -7,6 +7,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import jakarta.validation.Valid;
+import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
+import quizmaster.quiz.service.RoomEventsPublisher;
 
 import java.util.List;
 
@@ -17,6 +19,7 @@ import java.util.List;
 public class RoomController {
 
     private final RoomService roomService;
+    private final RoomEventsPublisher roomEventsPublisher;
 
     @PostMapping
     public ResponseEntity<RoomResponse> createRoom(@Valid @RequestBody CreateRoomRequest request) {
@@ -150,4 +153,12 @@ public class RoomController {
         boolean allAssigned = roomService.areAllCategoriesAssigned(roomCode);
         return ResponseEntity.ok(allAssigned);
     }
+
+    // NEW: SSE subscribe
+    @GetMapping("/{roomCode}/events")
+    public SseEmitter subscribeRoomEvents(@PathVariable String roomCode) {
+        return roomEventsPublisher.subscribe(roomCode);
+    }
+
+
 }

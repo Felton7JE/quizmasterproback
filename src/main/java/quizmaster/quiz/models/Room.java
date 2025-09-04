@@ -76,6 +76,10 @@ public class Room {
     @OneToMany(mappedBy = "room", cascade = CascadeType.ALL)
     private List<Game> games;
     
+
+    private LocalDateTime startsAt;
+
+
     // Settings
     private Boolean allowSpectators = true;
     private Boolean enableChat = true;
