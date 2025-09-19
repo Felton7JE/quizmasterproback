@@ -1,6 +1,5 @@
 package quizmaster.quiz.service;
 
-
 import lombok.RequiredArgsConstructor;
 import quizmaster.quiz.dto.AnswerResponse;
 import quizmaster.quiz.dto.GameResponse;
@@ -17,6 +16,7 @@ import quizmaster.quiz.enums.Team;
 import quizmaster.quiz.models.Answer;
 import quizmaster.quiz.models.Game;
 import quizmaster.quiz.models.GameResult;
+import quizmaster.quiz.models.GameQuestion;
 import quizmaster.quiz.models.Question;
 import quizmaster.quiz.models.Room;
 import quizmaster.quiz.models.User;
@@ -26,13 +26,20 @@ import quizmaster.quiz.repository.GameResultRepository;
 import quizmaster.quiz.repository.QuestionRepository;
 import quizmaster.quiz.repository.RoomRepository;
 import quizmaster.quiz.repository.UserRepository;
+import quizmaster.quiz.repository.GameQuestionRepository;
+import quizmaster.quiz.repository.GameCategoryQuestionRepository;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.stream.Collectors;
+import quizmaster.quiz.models.RoomPlayer;
+import quizmaster.quiz.models.Category;
 
 @Service
 @RequiredArgsConstructor
@@ -46,6 +53,8 @@ public class GameService {
     private final UserRepository userRepository;
     private final RoomRepository roomRepository;
     
+    private final GameQuestionRepository gameQuestionRepository; // Added field
+    private final GameCategoryQuestionRepository gameCategoryQuestionRepository;
     public Game createGame(Long roomId) {
         Room room = roomRepository.findById(roomId)
                 .orElseThrow(() -> new RuntimeException("Sala não encontrada"));
@@ -74,27 +83,9 @@ public class GameService {
             result.setTeam(roomPlayer.getTeam());
             gameResultRepository.save(result);
         });
-    }
-    
-    public List<QuestionResponse> getGameQuestions(Long gameId) {
-        Game game = gameRepository.findById(gameId)
-                .orElseThrow(() -> new RuntimeException("Jogo não encontrado"));
-        
-        Room room = game.getRoom();
-        
-        // Buscar perguntas baseadas nas configurações da sala
-        List<String> categoryNames = room.getCategories().stream()
-                .map(category -> category.getName())
-                .collect(Collectors.toList());
-        
-        List<Question> questions = questionRepository.findRandomQuestions(
-                categoryNames,
-                room.getDifficulty().name()
-        );
-        
-        return questions.stream()
-                .map(this::convertToQuestionResponse)
-                .collect(Collectors.toList());
+
+    // Gerar sequência de perguntas global inicial (por enquanto via categorias da sala)
+    generateGameQuestions(game, room);
     }
     
     public AnswerResponse submitAnswer(Long gameId, SubmitAnswerRequest request) {
@@ -103,21 +94,42 @@ public class GameService {
         
         User user = userRepository.findById(request.getUserId())
                 .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
-        
-        Question question = questionRepository.findById(request.getQuestionId())
-                .orElseThrow(() -> new RuntimeException("Pergunta não encontrada"));
-        
-        // Verificar se já respondeu
+        // Obter jogador na sala e categoria atribuída
+        Room room = game.getRoom();
+        var roomPlayer = room.getPlayers().stream()
+                .filter(p -> p.getUser().getId().equals(user.getId()))
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("Jogador não pertence à sala"));
+        var assignedCategory = roomPlayer.getAssignedCategory();
+        if (assignedCategory == null) {
+            throw new RuntimeException("Jogador não possui categoria atribuída");
+        }
+
+        Question question;
+        // Se veio questionId, validar que pertence à categoria do jogador
+        if (request.getQuestionId() != null) {
+            question = questionRepository.findById(request.getQuestionId())
+                    .orElseThrow(() -> new RuntimeException("Pergunta não encontrada"));
+            if (!assignedCategory.equals(question.getCategory())) {
+                throw new RuntimeException("Pergunta não pertence à categoria do jogador");
+            }
+        } else {
+            // Selecionar próxima pergunta não respondida da categoria
+            List<Answer> prevAnswers = answerRepository.findByGameAndUser(game, user);
+            java.util.Set<Long> answeredIds = prevAnswers.stream().map(a -> a.getQuestion().getId()).collect(java.util.stream.Collectors.toSet());
+            List<Question> pool = questionRepository.findRandomByCategory(assignedCategory.getId(), room.getDifficulty().name());
+            question = pool.stream().filter(q -> !answeredIds.contains(q.getId())).findFirst()
+                    .orElseThrow(() -> new RuntimeException("Sem novas perguntas para esta categoria"));
+        }
+
+        // Verificar duplicidade de resposta
         if (answerRepository.existsByGameAndUserAndQuestion(game, user, question)) {
             throw new RuntimeException("Pergunta já foi respondida");
         }
-        
+
         boolean isCorrect = question.getCorrectAnswer().equals(request.getSelectedAnswer());
-        
-        // Calcular pontos baseado no tempo
         Integer points = calculatePoints(question, request.getTimeToAnswer(), isCorrect);
-        
-        // Salvar resposta
+
         Answer answer = new Answer();
         answer.setGame(game);
         answer.setUser(user);
@@ -272,7 +284,7 @@ public class GameService {
                 .orElseThrow(() -> new RuntimeException("Game not found"));
         
         GameResponse response = new GameResponse();
-        response.setId(game.getId());
+        response.setGameId(game.getId());
         response.setRoomCode(game.getRoom().getRoomCode());
         response.setStatus(game.getStatus().toString());
         response.setCurrentQuestionIndex(0); // TODO: Implement current question tracking
@@ -297,23 +309,91 @@ public class GameService {
         
         Game game = gameRepository.findById(gameId)
                 .orElseThrow(() -> new RuntimeException("Jogo não encontrado com ID: " + gameId));
-        
-        // Rest of your logic...
-        return getGameQuestions(gameId);
+        Room room = game.getRoom();
+
+        // Encontrar o jogador dentro da sala
+        var roomPlayerOpt = room.getPlayers().stream()
+                .filter(p -> p.getUser().getId().equals(userId))
+                .findFirst();
+
+        if (roomPlayerOpt.isEmpty()) {
+            throw new RuntimeException("Jogador não pertence a esta sala");
+        }
+
+        var roomPlayer = roomPlayerOpt.get();
+
+        // Categoria atribuída ao jogador (prioridade) senão preferida, senão todas da sala
+        quizmaster.quiz.models.Category playerCategory = roomPlayer.getAssignedCategory();
+        if (playerCategory == null) {
+            playerCategory = roomPlayer.getPreferredCategory();
+        }
+
+        List<Question> questions;
+        if (playerCategory != null) {
+            // Buscar perguntas aleatórias apenas da categoria do jogador
+            questions = questionRepository.findRandomByCategory(playerCategory.getId(), room.getDifficulty().name());
+        } else {
+            // Fallback: usa categorias gerais da sala
+            List<String> categoryNames = room.getCategories().stream()
+                    .map(c -> c.getName())
+                    .collect(java.util.stream.Collectors.toList());
+            questions = questionRepository.findRandomQuestions(categoryNames, room.getDifficulty().name());
+        }
+
+        // Limitar ao questionCount definido na sala
+        int limit = room.getQuestionCount() != null ? room.getQuestionCount() : questions.size();
+        if (questions.size() > limit) {
+            questions = questions.subList(0, limit);
+        }
+
+        return questions.stream().map(this::convertToQuestionResponse).collect(java.util.stream.Collectors.toList());
     }
     
     public QuestionResponse getCurrentQuestion(Long gameId, Integer questionIndex) {
-        gameRepository.findById(gameId)
-                .orElseThrow(() -> new RuntimeException("Game not found"));
-        
-        // TODO: Implement proper question retrieval
-        List<Question> questions = questionRepository.findAll();
-        
-        if (questionIndex >= questions.size()) {
-            throw new RuntimeException("Question index out of bounds");
+    gameRepository.findById(gameId)
+        .orElseThrow(() -> new RuntimeException("Game not found"));
+        List<GameQuestion> seq = gameQuestionRepository.findByGameOrdered(gameId);
+        if (questionIndex < 0 || questionIndex >= seq.size()) {
+            throw new RuntimeException("Invalid question index");
         }
-        
-        return convertToQuestionResponse(questions.get(questionIndex));
+        return convertToQuestionResponse(seq.get(questionIndex).getQuestion());
+    }
+
+    public QuestionResponse getCurrentQuestion(Long gameId) {
+        Game game = gameRepository.findById(gameId)
+                .orElseThrow(() -> new RuntimeException("Game not found"));
+        List<GameQuestion> seq = gameQuestionRepository.findByGameOrdered(gameId);
+        int idx = game.getCurrentQuestionIndex() != null ? game.getCurrentQuestionIndex() : 0;
+        if (seq.isEmpty()) {
+            // Não gerar erro aqui para não quebrar fluxo quando usando modo por categoria
+            return null;
+        }
+        if (idx < 0 || idx >= seq.size()) {
+            idx = 0; // fallback
+        }
+        return convertToQuestionResponse(seq.get(idx).getQuestion());
+    }
+
+    public QuestionResponse getCurrentQuestionForPlayer(Long gameId, Long userId) {
+    Game game = gameRepository.findById(gameId)
+        .orElseThrow(() -> new RuntimeException("Game not found"));
+    Room room = game.getRoom();
+    var roomPlayer = room.getPlayers().stream()
+        .filter(p -> p.getUser().getId().equals(userId))
+        .findFirst()
+        .orElseThrow(() -> new RuntimeException("Player not in room"));
+    Category cat = roomPlayer.getAssignedCategory();
+    if (cat == null) {
+        throw new RuntimeException("Player has no assigned category");
+    }
+    // Lista de perguntas já geradas por categoria (se quisermos gerar antecipadamente no futuro)
+    // Por ora, seleciona dinamicamente a próxima não respondida dessa categoria
+    List<Answer> playerAnswers = answerRepository.findByGameAndUser(game, roomPlayer.getUser());
+    Set<Long> answeredIds = playerAnswers.stream().map(a -> a.getQuestion().getId()).collect(Collectors.toSet());
+    List<Question> pool = questionRepository.findRandomByCategory(cat.getId(), room.getDifficulty().name());
+    Question next = pool.stream().filter(q -> !answeredIds.contains(q.getId())).findFirst()
+        .orElseThrow(() -> new RuntimeException("Sem novas perguntas para categoria do jogador"));
+    return convertToQuestionResponse(next);
     }
     
     public List<PlayerResultResponse> getLiveLeaderboard(Long gameId) {
@@ -405,5 +485,84 @@ public class GameService {
                     return response;
                 })
                 .collect(Collectors.toList());
+    }
+
+    public QuestionResponse advanceToNextQuestion(Long gameId, Long hostId) {
+        Game game = gameRepository.findById(gameId)
+                .orElseThrow(() -> new RuntimeException("Game not found"));
+        if (!game.getRoom().getHost().getId().equals(hostId)) {
+            throw new RuntimeException("Only host can advance question");
+        }
+        List<GameQuestion> seq = gameQuestionRepository.findByGameOrdered(gameId);
+        int current = game.getCurrentQuestionIndex() != null ? game.getCurrentQuestionIndex() : 0;
+        if (current + 1 >= seq.size()) {
+            game.setStatus(GameStatus.FINISHED);
+            game.setEndedAt(LocalDateTime.now());
+            gameRepository.save(game);
+            return null;
+        }
+        game.setCurrentQuestionIndex(current + 1);
+        gameRepository.save(game);
+        return convertToQuestionResponse(seq.get(current + 1).getQuestion());
+    }
+
+    private void generateGameQuestions(Game game, Room room) {
+        int limit = room.getQuestionCount() != null ? room.getQuestionCount() : 10;
+
+        List<RoomPlayer> playersWithCategory = room.getPlayers().stream()
+                .filter(p -> p.getAssignedCategory() != null)
+                .collect(Collectors.toList());
+
+        if (playersWithCategory.isEmpty()) {
+            List<String> catNames = room.getCategories().stream().map(Category::getName).collect(Collectors.toList());
+            List<Question> fallback = questionRepository.findRandomQuestions(catNames, room.getDifficulty().name());
+            if (fallback.size() > limit) fallback = fallback.subList(0, limit);
+            int idx = 0;
+            for (Question q : fallback) {
+                GameQuestion gq = new GameQuestion();
+                gq.setGame(game);
+                gq.setQuestion(q);
+                gq.setOrderIndex(idx++);
+                gameQuestionRepository.save(gq);
+            }
+            return;
+        }
+
+        Set<Long> used = new HashSet<>();
+        List<GameQuestion> sequence = new ArrayList<>();
+        int order = 0;
+
+        List<String> allCatNames = room.getCategories().stream().map(Category::getName).collect(Collectors.toList());
+        List<Question> fallbackPool = questionRepository.findRandomQuestions(allCatNames, room.getDifficulty().name());
+
+        outer: while (sequence.size() < limit) {
+            boolean added = false;
+            for (RoomPlayer rp : playersWithCategory) {
+                if (sequence.size() >= limit) break outer;
+                Category cat = rp.getAssignedCategory();
+                if (cat == null) continue;
+                List<Question> candidates = questionRepository.findRandomByCategory(cat.getId(), room.getDifficulty().name());
+                Question chosen = null;
+                for (Question q : candidates) {
+                    if (!used.contains(q.getId())) { chosen = q; break; }
+                }
+                if (chosen == null) {
+                    for (Question q : fallbackPool) {
+                        if (!used.contains(q.getId())) { chosen = q; break; }
+                    }
+                }
+                if (chosen != null) {
+                    used.add(chosen.getId());
+                    GameQuestion gq = new GameQuestion();
+                    gq.setGame(game);
+                    gq.setQuestion(chosen);
+                    gq.setOrderIndex(order++);
+                    gameQuestionRepository.save(gq);
+                    sequence.add(gq);
+                    added = true;
+                }
+            }
+            if (!added) break; // evita loop infinito
+        }
     }
 }

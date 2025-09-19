@@ -270,18 +270,19 @@ public class RoomService {
         roomRepository.save(room);
 
         // Criar o jogo imediatamente (o estado do jogo em si fica IN_PROGRESS)
-        Game game = new Game();
-        game.setRoom(room);
-        game.setStatus(GameStatus.IN_PROGRESS);
-        game.setStartedAt(LocalDateTime.now());
-        game = gameRepository.save(game);
+    Game game = new Game();
+    game.setRoom(room);
+    game.setStatus(GameStatus.IN_PROGRESS);
+    game.setStartedAt(LocalDateTime.now());
+    game.setCurrentQuestionIndex(0);
+    game = gameRepository.save(game);
 
         // Notificar clientes (web/mobile) em tempo real
         roomEventsPublisher.publishRoomStarted(room.getRoomCode(), startsAt, game.getId());
 
         // Resposta
         GameResponse response = new GameResponse();
-        response.setId(game.getId());
+        response.setGameId(game.getId()); // ID do jogo
         response.setRoomCode(room.getRoomCode());
         response.setStatus(game.getStatus().toString());
         response.setCurrentQuestionIndex(0);

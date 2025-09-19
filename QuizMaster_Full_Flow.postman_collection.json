@@ -1,0 +1,140 @@
+{
+  "info": {
+    "_postman_id": "e3f1c2b0-aaaa-4c11-bb22-demo123456789",
+    "name": "QuizMaster Full Flow (Categorias + Progressão)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Fluxo completo: usuários, sala, equipes, categorias (manual/auto), início de jogo, progressão pergunta a pergunta, respostas, leaderboard e resultados."
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:8080" },
+    { "key": "ROOM_CODE", "value": "SUBSTITUIR" },
+    { "key": "GAME_ID", "value": "SUBSTITUIR" },
+    { "key": "hostId", "value": "1" },
+    { "key": "player2Id", "value": "2" },
+    { "key": "categoryId1", "value": "1" },
+    { "key": "categoryId2", "value": "2" }
+  ],
+  "item": [
+    {
+      "name": "1 - Criar Usuário Host",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {"mode": "raw", "raw": "{\n  \"username\": \"host1\",\n  \"email\": \"host1@example.com\",\n  \"avatar\": \"dragon\"\n}"},
+        "url": {"raw": "{{baseUrl}}/api/users", "host": ["{{baseUrl}}"], "path": ["api","users"]}
+      }
+    },
+    {
+      "name": "2 - Criar Usuário Player2",
+      "request": {
+        "method": "POST",
+        "header": [ { "key": "Content-Type", "value": "application/json" } ],
+        "body": {"mode": "raw", "raw": "{\n  \"username\": \"player2\",\n  \"email\": \"player2@example.com\",\n  \"avatar\": \"wizard\"\n}"},
+        "url": {"raw": "{{baseUrl}}/api/users", "host": ["{{baseUrl}}"], "path": ["api","users"]}
+      }
+    },
+    {
+      "name": "3 - Listar Categorias",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/categories", "host": ["{{baseUrl}}"], "path": ["api","categories"]}}
+    },
+    {
+      "name": "4 - Criar Sala",
+      "request": {
+        "method": "POST",
+        "header": [ {"key": "Content-Type", "value": "application/json"} ],
+        "body": {"mode": "raw", "raw": "{\n  \"roomName\": \"Sala Teste\",\n  \"password\": null,\n  \"gameMode\": \"TEAM\",\n  \"difficulty\": \"EASY\",\n  \"maxPlayers\": 10,\n  \"questionTime\": 30000,\n  \"questionCount\": 8,\n  \"categoryIds\": [{{categoryId1}}, {{categoryId2}}],\n  \"assignmentType\": \"CHOOSE\",\n  \"categoryAssignmentMode\": \"MANUAL\",\n  \"allowSpectators\": true,\n  \"enableChat\": true,\n  \"showRealTimeRanking\": true,\n  \"allowReconnection\": true,\n  \"hostId\": {{hostId}}\n}"},
+        "url": {"raw": "{{baseUrl}}/api/rooms", "host": ["{{baseUrl}}"], "path": ["api","rooms"]}
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {"exec": [
+            "const json = pm.response.json();",
+            "if (json.roomCode) { pm.collectionVariables.set('ROOM_CODE', json.roomCode); pm.test('ROOM_CODE capturado', () => true); }"
+          ],"type": "text/javascript"}
+        }
+      ]
+    },
+    {
+      "name": "5 - Jogador Entra (Player2)",
+      "request": {
+        "method": "POST",
+        "header": [ {"key": "Content-Type", "value": "application/json"} ],
+        "body": {"mode": "raw", "raw": "{\n  \"userId\": {{player2Id}},\n  \"password\": null\n}"},
+        "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/join", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","join"]}
+      }
+    },
+    {
+      "name": "6 - Definir Time Player2 (A)",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw": "{\n  \"team\": \"A\"\n}"}, "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/players/{{player2Id}}/team", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","players","{{player2Id}}","team"]}}
+    },
+    {
+      "name": "7 - Definir Time Host (B)",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw": "{\n  \"team\": \"B\"\n}"}, "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/players/{{hostId}}/team", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","players","{{hostId}}","team"]}}
+    },
+    {
+      "name": "8 - Player2 Ready",
+      "request": {"method": "POST", "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/players/{{player2Id}}/ready", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","players","{{player2Id}}","ready"]}}
+    },
+    {
+      "name": "9 - Host Ready",
+      "request": {"method": "POST", "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/players/{{hostId}}/ready", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","players","{{hostId}}","ready"]}}
+    },
+    {
+      "name": "10 - Atribuir Categoria Player2 (Manual)",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw": "{\n  \"playerId\": {{player2Id}},\n  \"categoryId\": {{categoryId1}}\n}"}, "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/assign-category", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","assign-category"]}}
+    },
+    {
+      "name": "11 - Atribuir Categoria Host (Manual)",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw": "{\n  \"playerId\": {{hostId}},\n  \"categoryId\": {{categoryId2}}\n}"}, "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/assign-category", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","assign-category"]}}
+    },
+    {
+      "name": "12 - Ver Distribuição de Categorias",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/category-distribution", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","category-distribution"]}}
+    },
+    {
+      "name": "13 - Iniciar Jogo (Host)",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw": "{\n  \"hostId\": {{hostId}}\n}"}, "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/start", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","start"]}},
+      "event": [ {"listen":"test","script":{"exec":[
+        "const json = pm.response.json();",
+        "if (json.id) { pm.collectionVariables.set('GAME_ID', json.id); pm.test('GAME_ID capturado', () => true); }"
+      ],"type":"text/javascript"}} ]
+    },
+    {
+      "name": "14 - Pergunta Atual",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/games/{{GAME_ID}}/current-question", "host": ["{{baseUrl}}"], "path": ["api","games","{{GAME_ID}}","current-question"]}}
+    },
+    {
+      "name": "14b - Pergunta Atual Player2 (Categoria)",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/games/{{GAME_ID}}/players/{{player2Id}}/current-question", "host": ["{{baseUrl}}"], "path": ["api","games","{{GAME_ID}}","players","{{player2Id}}","current-question"]}}
+    },
+    {
+      "name": "15 - Responder Pergunta (Player2)",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw": "{\n  \"userId\": {{player2Id}},\n  \"questionId\": 1,\n  \"selectedAnswer\": 0,\n  \"timeToAnswer\": 5000\n}"}, "url": {"raw": "{{baseUrl}}/api/games/{{GAME_ID}}/answers", "host": ["{{baseUrl}}"], "path": ["api","games","{{GAME_ID}}","answers"]}}
+    },
+    {
+      "name": "16 - Avançar para Próxima (Host)",
+      "request": {"method": "POST", "url": {"raw": "{{baseUrl}}/api/games/{{GAME_ID}}/next?hostId={{hostId}}", "host": ["{{baseUrl}}"], "path": ["api","games","{{GAME_ID}}","next"], "query": [{"key":"hostId","value":"{{hostId}}"}]}}
+    },
+    {
+      "name": "17 - Leaderboard",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/games/{{GAME_ID}}/leaderboard", "host": ["{{baseUrl}}"], "path": ["api","games","{{GAME_ID}}","leaderboard"]}}
+    },
+    {
+      "name": "18 - Resultados Finais",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/games/{{GAME_ID}}/results", "host": ["{{baseUrl}}"], "path": ["api","games","{{GAME_ID}}","results"]}}
+    },
+    {
+      "name": "Extra - Distribuir Categorias Automaticamente (Host)",
+      "request": {"method": "POST", "header": [{"key":"Content-Type","value":"application/json"}], "body": {"mode":"raw","raw": "{\n  \"hostId\": {{hostId}}\n}"}, "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/distribute-categories", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","distribute-categories"]}}
+    },
+    {
+      "name": "Extra - Categorias Disponíveis para Player2",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/players/{{player2Id}}/available-categories", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","players","{{player2Id}}","available-categories"]}}
+    },
+    {
+      "name": "Extra - Verificar se Todas Categorias Atribuídas",
+      "request": {"method": "GET", "url": {"raw": "{{baseUrl}}/api/rooms/{{ROOM_CODE}}/categories-assignment-status", "host": ["{{baseUrl}}"], "path": ["api","rooms","{{ROOM_CODE}}","categories-assignment-status"]}}
+    }
+  ]
+}

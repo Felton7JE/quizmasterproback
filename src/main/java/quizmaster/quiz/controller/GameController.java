@@ -45,6 +45,25 @@ public class GameController {
         QuestionResponse question = gameService.getCurrentQuestion(gameId, questionIndex);
         return ResponseEntity.ok(question);
     }
+
+    @GetMapping("/{gameId}/current-question")
+    public ResponseEntity<QuestionResponse> currentQuestion(@PathVariable Long gameId) {
+        return ResponseEntity.ok(gameService.getCurrentQuestion(gameId));
+    }
+
+    @GetMapping("/{gameId}/players/{userId}/current-question")
+    public ResponseEntity<QuestionResponse> currentQuestionForPlayer(
+            @PathVariable Long gameId,
+            @PathVariable Long userId) {
+        return ResponseEntity.ok(gameService.getCurrentQuestionForPlayer(gameId, userId));
+    }
+
+    @PostMapping("/{gameId}/next")
+    public ResponseEntity<QuestionResponse> nextQuestion(
+            @PathVariable Long gameId,
+            @RequestParam Long hostId) {
+        return ResponseEntity.ok(gameService.advanceToNextQuestion(gameId, hostId));
+    }
     
     @PostMapping("/{gameId}/answers")
     public ResponseEntity<AnswerResponse> submitAnswer(

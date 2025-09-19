@@ -38,4 +38,10 @@ public class Game {
     
     @OneToMany(mappedBy = "game", cascade = CascadeType.ALL)
     private List<Answer> answers;
+
+    @OneToMany(mappedBy = "game", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<GameQuestion> gameQuestions;
+
+    @Column(name = "current_question_index")
+    private Integer currentQuestionIndex = 0;
 }

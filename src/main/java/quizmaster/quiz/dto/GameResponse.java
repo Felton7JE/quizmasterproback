@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class GameResponse {
-    private Long id;
+    private Long gameId; // ID do jogo
     private String roomCode;
     private String status;
     private Integer currentQuestionIndex;
