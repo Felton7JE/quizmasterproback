@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/rooms")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+
 public class RoomController {
 
     private final RoomService roomService;
@@ -61,6 +61,14 @@ public class RoomController {
             @Valid @RequestBody StartGameRequest request) {
         GameResponse game = roomService.startGame(roomCode, request.getHostId());
         return ResponseEntity.ok(game);
+    }
+    
+    @PostMapping("/{roomCode}/play-again")
+    public ResponseEntity<Void> playAgain(
+            @PathVariable String roomCode,
+            @Valid @RequestBody StartGameRequest request) { // Using StartGameRequest because it only has hostId
+        roomService.playAgain(roomCode, request.getHostId());
+        return ResponseEntity.ok().build();
     }
 
     @PostMapping("/{roomCode}/players/{userId}/team")
@@ -160,5 +168,12 @@ public class RoomController {
         return roomEventsPublisher.subscribe(roomCode);
     }
 
+    @PostMapping("/{roomCode}/add-bots")
+    public ResponseEntity<Void> addBotsToRoom(
+            @PathVariable String roomCode,
+            @Valid @RequestBody AddBotsRequest request) {
+        roomService.addBotsToRoom(roomCode, request.getHostId(), request.getCount());
+        return ResponseEntity.ok().build();
+    }
 
 }

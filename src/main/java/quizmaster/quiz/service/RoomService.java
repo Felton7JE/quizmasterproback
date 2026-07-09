@@ -5,6 +5,7 @@ import quizmaster.quiz.dto.CategoryDistributionStatsResponse;
 import quizmaster.quiz.dto.CategoryResponse;
 import quizmaster.quiz.dto.AssignCategoryParams;
 import quizmaster.quiz.dto.CreateRoomRequest;
+import quizmaster.quiz.dto.GameEventMessage;
 import quizmaster.quiz.dto.GameResponse;
 import quizmaster.quiz.dto.PlayerResponse;
 import quizmaster.quiz.dto.RoomResponse;
@@ -23,6 +24,7 @@ import quizmaster.quiz.repository.RoomPlayerRepository;
 import quizmaster.quiz.repository.RoomRepository;
 import quizmaster.quiz.repository.UserRepository;
 
+import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -46,8 +48,10 @@ public class RoomService {
     private final UserRepository userRepository;
     private final GameRepository gameRepository;
     private final CategoryService categoryService;
-    // NEW: publisher para SSE
     private final RoomEventsPublisher roomEventsPublisher;
+    private final GameService gameService;
+    // WebSocket: broadcast de eventos em tempo real para todos os clientes
+    private final SimpMessagingTemplate messagingTemplate;
 
     public RoomResponse createRoom(CreateRoomRequest request, Long hostId) {
         // Verificar se o usuário existe
@@ -252,7 +256,8 @@ public class RoomService {
             throw new RuntimeException("Apenas o host pode iniciar o jogo");
         }
 
-        if (room.getPlayers() == null || room.getPlayers().size() < 2) {
+        boolean isSolo = room.getGameMode() == GameMode.CLASSIC;
+        if (room.getPlayers() == null || (!isSolo && room.getPlayers().size() < 2)) {
             throw new RuntimeException("É necessário pelo menos 2 jogadores para iniciar o jogo");
         }
 
@@ -269,20 +274,42 @@ public class RoomService {
         room.setStartsAt(startsAt);
         roomRepository.save(room);
 
-        // Criar o jogo imediatamente (o estado do jogo em si fica IN_PROGRESS)
-    Game game = new Game();
-    game.setRoom(room);
-    game.setStatus(GameStatus.IN_PROGRESS);
-    game.setStartedAt(LocalDateTime.now());
-    game.setCurrentQuestionIndex(0);
-    game = gameRepository.save(game);
+        // Criar o jogo e gerar perguntas usando o GameService
+        Game game = gameService.startGame(room);
 
-        // Notificar clientes (web/mobile) em tempo real
+        // --- Notificar via SSE (legado, mantido para compatibilidade) ---
         roomEventsPublisher.publishRoomStarted(room.getRoomCode(), startsAt, game.getId());
 
-        // Resposta
+        // --- Notificar via WebSocket STOMP (principal) ---
+        // Construir lista de categorias por jogador para que cada cliente descubra a sua
+        List<Map<String, Object>> playerCategories = room.getPlayers().stream()
+                .map(rp -> {
+                    Map<String, Object> entry = new HashMap<>();
+                    entry.put("userId", rp.getUser().getId());
+                    // Prioridade: assignedCategory > preferredCategory > null
+                    Category cat = rp.getAssignedCategory() != null
+                            ? rp.getAssignedCategory()
+                            : rp.getPreferredCategory();
+                    entry.put("categoryId", cat != null ? cat.getId() : null);
+                    entry.put("categoryName", cat != null ? cat.getName() : null);
+                    return entry;
+                })
+                .collect(Collectors.toList());
+
+        long startsAtMs = startsAt.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();
+
+        GameEventMessage wsEvent = new GameEventMessage();
+        wsEvent.setType("GAME_STARTED");
+        wsEvent.setRoomCode(room.getRoomCode());
+        wsEvent.setGameId(game.getId());
+        wsEvent.setStartsAt(startsAtMs);
+        wsEvent.setPlayerCategories(playerCategories);
+        // Broadcast para todos os jogadores subscritos na sala
+        messagingTemplate.convertAndSend("/topic/room/" + room.getRoomCode(), wsEvent);
+
+        // Resposta REST (para o host)
         GameResponse response = new GameResponse();
-        response.setGameId(game.getId()); // ID do jogo
+        response.setGameId(game.getId());
         response.setRoomCode(room.getRoomCode());
         response.setStatus(game.getStatus().toString());
         response.setCurrentQuestionIndex(0);
@@ -291,6 +318,35 @@ public class RoomService {
         response.setDifficulty(room.getDifficulty().toString());
         response.setStartTime(game.getStartedAt().atZone(java.time.ZoneId.systemDefault()).toInstant().toEpochMilli());
         return response;
+    }
+
+    public void playAgain(String roomCode, Long hostId) {
+        Room room = roomRepository.findByRoomCode(roomCode)
+                .orElseThrow(() -> new RuntimeException("Sala não encontrada"));
+
+        if (!room.getHost().getId().equals(hostId)) {
+            throw new RuntimeException("Apenas o host pode reiniciar a sala");
+        }
+
+        room.setStatus(RoomStatus.WAITING);
+        room.setStartsAt(null);
+        
+        for (RoomPlayer player : room.getPlayers()) {
+            player.setIsReady(false);
+            if (player.getUser().getId().equals(hostId)) {
+                player.setIsReady(true);
+            }
+            player.setAssignedCategory(null);
+            roomPlayerRepository.save(player);
+        }
+        
+        roomRepository.save(room);
+        
+        GameEventMessage wsEvent = new GameEventMessage();
+        wsEvent.setType("ROOM_UPDATED");
+        wsEvent.setRoomCode(room.getRoomCode());
+        wsEvent.setPlayerCategories(new ArrayList<>());
+        messagingTemplate.convertAndSend("/topic/room/" + room.getRoomCode(), wsEvent);
     }
 
     private void transferHostToNextPlayer(Room room, Long currentHostId) {
@@ -435,7 +491,8 @@ public class RoomService {
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Jogador não encontrado na sala"));
 
-        if (roomPlayer.getTeam() == null) {
+        // Só exige equipe no modo TEAM
+        if (room.getGameMode() == GameMode.TEAM && roomPlayer.getTeam() == null) {
             throw new RuntimeException("Jogador deve estar em uma equipe antes de selecionar disciplina");
         }
 
@@ -464,15 +521,6 @@ public class RoomService {
             throw new RuntimeException("Apenas o host pode distribuir disciplinas automaticamente");
         }
         
-        // Obter jogadores divididos por equipe
-        List<RoomPlayer> teamAPlayers = room.getPlayers().stream()
-                .filter(p -> p.getTeam() == Team.A)
-                .collect(Collectors.toList());
-        
-        List<RoomPlayer> teamBPlayers = room.getPlayers().stream()
-                .filter(p -> p.getTeam() == Team.B)
-                .collect(Collectors.toList());
-        
         // Limpar atribuições anteriores
         room.getPlayers().forEach(player -> {
             player.setAssignedCategory(null);
@@ -483,11 +531,32 @@ public class RoomService {
         Random random = new Random();
         List<Category> availableCategories = new ArrayList<>(room.getCategories());
         
-        // Distribuir para equipe A
-        distributeCategoriesToTeam(teamAPlayers, availableCategories, random);
-        
-        // Distribuir para equipe B
-        distributeCategoriesToTeam(teamBPlayers, availableCategories, random);
+        if (room.getGameMode() != null && room.getGameMode() == GameMode.TEAM) {
+            // Obter jogadores divididos por equipe
+            List<RoomPlayer> teamAPlayers = room.getPlayers().stream()
+                    .filter(p -> p.getTeam() == Team.A)
+                    .collect(Collectors.toList());
+            
+            List<RoomPlayer> teamBPlayers = room.getPlayers().stream()
+                    .filter(p -> p.getTeam() == Team.B)
+                    .collect(Collectors.toList());
+            
+            // Distribuir para equipe A
+            distributeCategoriesToTeam(teamAPlayers, availableCategories, random);
+            // Distribuir para equipe B
+            distributeCategoriesToTeam(teamBPlayers, availableCategories, random);
+            
+            // Para acautelar jogadores que por ventura ainda não tenham equipa (apesar de ser modo Team)
+            List<RoomPlayer> noTeamPlayers = room.getPlayers().stream()
+                    .filter(p -> p.getTeam() == null)
+                    .collect(Collectors.toList());
+            if (!noTeamPlayers.isEmpty()) {
+                distributeCategoriesToTeam(noTeamPlayers, availableCategories, random);
+            }
+        } else {
+            // Em modos sem equipa (DUEL, FFA, etc), distribuir para todos os jogadores
+            distributeCategoriesToTeam(new ArrayList<>(room.getPlayers()), availableCategories, random);
+        }
     }
     
     private void distributeCategoriesToTeam(List<RoomPlayer> teamPlayers, List<Category> availableCategories, Random random) {
@@ -578,6 +647,55 @@ public class RoomService {
         
         return playersWithTeams.stream()
                 .allMatch(p -> p.getAssignedCategory() != null);
+    }
+
+    public void addBotsToRoom(String roomCode, Long hostId, int count) {
+        Room room = roomRepository.findByRoomCode(roomCode)
+                .orElseThrow(() -> new RuntimeException("Sala não encontrada"));
+
+        if (!room.getHost().getId().equals(hostId)) {
+            throw new RuntimeException("Apenas o host pode adicionar bots");
+        }
+
+        if (room.getStatus() != RoomStatus.WAITING) {
+            throw new RuntimeException("Sala não está em espera");
+        }
+
+        for (int i = 1; i <= count; i++) {
+            User bot = new User();
+            long t = System.currentTimeMillis() % 10000;
+            bot.setUsername("Bot_" + i + "_" + t);
+            bot.setEmail("bot_" + i + "_" + t + "@test.com");
+            bot = userRepository.save(bot);
+
+            RoomPlayer roomPlayer = new RoomPlayer();
+            roomPlayer.setRoom(room);
+            roomPlayer.setUser(bot);
+            roomPlayer.setIsReady(true);
+            roomPlayer.setIsHost(false);
+            roomPlayer.setJoinedAt(LocalDateTime.now());
+            
+            if (room.getGameMode() == GameMode.TEAM) {
+                long teamA = room.getPlayers().stream().filter(p -> p.getTeam() == Team.A).count();
+                long teamB = room.getPlayers().stream().filter(p -> p.getTeam() == Team.B).count();
+                if (teamA <= teamB) {
+                    roomPlayer.setTeam(Team.A);
+                } else {
+                    roomPlayer.setTeam(Team.B);
+                }
+            }
+            
+            roomPlayerRepository.save(roomPlayer);
+            room.getPlayers().add(roomPlayer);
+        }
+
+        // Notify room updated
+        List<Map<String, Object>> emptyList = new ArrayList<>();
+        GameEventMessage wsEvent = new GameEventMessage();
+        wsEvent.setType("ROOM_UPDATED");
+        wsEvent.setRoomCode(room.getRoomCode());
+        wsEvent.setPlayerCategories(emptyList);
+        messagingTemplate.convertAndSend("/topic/room/" + room.getRoomCode(), wsEvent);
     }
 }
  
