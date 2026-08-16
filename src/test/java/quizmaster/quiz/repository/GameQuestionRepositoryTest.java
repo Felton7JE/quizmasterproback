@@ -8,14 +8,11 @@ import quizmaster.quiz.models.Game;
 import quizmaster.quiz.models.GameQuestion;
 import quizmaster.quiz.enums.GameStatus;
 
-import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
-
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
-@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 public class GameQuestionRepositoryTest {
 
     @Autowired
