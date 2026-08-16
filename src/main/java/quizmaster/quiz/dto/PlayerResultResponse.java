@@ -15,4 +15,12 @@ public class PlayerResultResponse {
     private Integer bestStreak;
     private Long totalTime;
     private Integer position;
+    private Integer coinsEarned;
+    private Integer xpEarned;
+    private Integer eloEarned;
+    private Long activeBannerId;
+    private Long activeAvatarId;
+    private Long activeFrameId;
+    private Long activePhraseId;
+    private Boolean isVip;
 }

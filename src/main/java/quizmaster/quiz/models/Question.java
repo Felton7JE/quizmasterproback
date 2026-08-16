@@ -23,6 +23,7 @@ public class Question {
     private String questionText;
     
     @ElementCollection
+    @OrderColumn(name = "option_index")
     private List<String> options;
     
     private Integer correctAnswer;

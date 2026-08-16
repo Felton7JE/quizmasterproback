@@ -68,4 +68,15 @@ public class UserController {
         List<UserResponse> users = userService.searchUsers(query);
         return ResponseEntity.ok(users);
     }
+    
+    @PostMapping("/{userId}/referral/apply")
+    public ResponseEntity<?> applyReferral(@PathVariable Long userId, @RequestBody java.util.Map<String, String> body) {
+        try {
+            String code = body.get("referralCode");
+            java.util.Map<String, Object> result = userService.applyReferralCode(userId, code);
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(java.util.Map.of("error", e.getMessage() != null ? e.getMessage() : "Erro ao aplicar convite."));
+        }
+    }
 }

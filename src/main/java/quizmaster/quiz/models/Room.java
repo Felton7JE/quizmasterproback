@@ -41,6 +41,8 @@ public class Room {
     private Integer questionTime;
     private Integer questionCount;
     
+    private Integer entryFee = 0;
+    
     @Enumerated(EnumType.STRING)
     private AssignmentType assignmentType;
     

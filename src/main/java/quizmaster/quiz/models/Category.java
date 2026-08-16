@@ -7,14 +7,18 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
+import lombok.EqualsAndHashCode;
+
 @Table(name = "categories")
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @EqualsAndHashCode.Include
     private Long id;
     
     @Column(unique = true, nullable = false, length = 50)

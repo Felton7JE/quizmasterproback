@@ -45,4 +45,5 @@ public class RoomResponse {
     private Boolean showRealTimeRanking;
     private Boolean allowReconnection;
     private Boolean isPrivate;
+    private Integer entryFee;
 }

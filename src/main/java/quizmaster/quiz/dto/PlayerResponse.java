@@ -22,4 +22,15 @@ public class PlayerResponse {
     private Category assignedCategory;
     private Boolean isHost;
     private Boolean isReady;
+    
+    // Gamification & Cosmetics fields
+    private Long activeTitleId;
+    private Long activeBannerId;
+    private Long activePhraseId;
+    private Long activeAvatarId;
+    private Long activeFrameId;
+    private Long activeEmoteId;
+    private Integer level;
+    private Integer eloPoints;
+    private Boolean isVip;
 }

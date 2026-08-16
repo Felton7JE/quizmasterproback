@@ -13,4 +13,12 @@ public class RankingResponse {
     private Integer gamesWon;
     private Double accuracy;
     private Double winRate;
+    private Integer streak;
+    private Integer level;
+    private Long activeTitleId;
+    private String activeTitleName;
+    private Long activeBannerId;
+    private String activeBannerUrl;
+    private Long activePhraseId;
+    private Boolean isVip;
 }

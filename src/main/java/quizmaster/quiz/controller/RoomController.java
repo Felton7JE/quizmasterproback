@@ -71,6 +71,14 @@ public class RoomController {
         return ResponseEntity.ok().build();
     }
 
+    @PostMapping("/{roomCode}/rematch-request")
+    public ResponseEntity<Void> requestRematch(
+            @PathVariable String roomCode,
+            @Valid @RequestBody RematchRequest request) {
+        roomService.requestRematch(roomCode, request.getUserId());
+        return ResponseEntity.ok().build();
+    }
+
     @PostMapping("/{roomCode}/players/{userId}/team")
     public ResponseEntity<Void> assignTeam(
             @PathVariable String roomCode,

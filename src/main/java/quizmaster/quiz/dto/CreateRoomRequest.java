@@ -25,6 +25,7 @@ public class CreateRoomRequest {
     private Integer maxPlayers;
     private Integer questionTime;
     private Integer questionCount;
+    private Integer entryFee;
     private List<Long> categoryIds;
     private AssignmentType assignmentType;
     private CategoryAssignmentMode categoryAssignmentMode;

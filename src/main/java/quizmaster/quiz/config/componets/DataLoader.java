@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
-@Component
+//@Component
 @RequiredArgsConstructor
 public class DataLoader implements CommandLineRunner {
     

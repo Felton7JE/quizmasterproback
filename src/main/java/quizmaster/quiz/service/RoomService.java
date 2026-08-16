@@ -23,6 +23,7 @@ import quizmaster.quiz.repository.GameRepository;
 import quizmaster.quiz.repository.RoomPlayerRepository;
 import quizmaster.quiz.repository.RoomRepository;
 import quizmaster.quiz.repository.UserRepository;
+import quizmaster.quiz.repository.UserSeasonProgressRepository;
 
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
@@ -46,6 +47,7 @@ public class RoomService {
     private final RoomRepository roomRepository;
     private final RoomPlayerRepository roomPlayerRepository;
     private final UserRepository userRepository;
+    private final UserSeasonProgressRepository progressRepository;
     private final GameRepository gameRepository;
     private final CategoryService categoryService;
     private final RoomEventsPublisher roomEventsPublisher;
@@ -57,6 +59,25 @@ public class RoomService {
         // Verificar se o usuário existe
         User host = userRepository.findById(hostId)
             .orElseThrow(() -> new RuntimeException("Host não encontrado"));
+            
+        int entryFee = (request.getEntryFee() != null) ? request.getEntryFee() : 0;
+        if (entryFee > 0 && entryFee < 50) {
+            throw new RuntimeException("A aposta mínima é 50 moedas");
+        }
+        if (host.getCoins() < entryFee) {
+            throw new RuntimeException("Saldo de moedas insuficiente para criar a sala com esta aposta");
+        }
+        
+        if (host.getEnergy() == null || host.getEnergy() < 10) {
+            throw new RuntimeException("Energia insuficiente para criar a sala. (Custo: 10)");
+        }
+        
+        if (entryFee > 0) {
+            host.setCoins(host.getCoins() - entryFee);
+        }
+        
+        host.setEnergy(host.getEnergy() - 10);
+        userRepository.save(host);
         
         // Criar a sala
         Room room = new Room();
@@ -69,6 +90,7 @@ public class RoomService {
         room.setMaxPlayers(request.getMaxPlayers());
         room.setQuestionTime(request.getQuestionTime());
         room.setQuestionCount(request.getQuestionCount());
+        room.setEntryFee((request.getEntryFee() != null) ? request.getEntryFee() : 0);
         
         // Processar categoryIds e buscar as categorias
         if (request.getCategoryIds() != null && !request.getCategoryIds().isEmpty()) {
@@ -151,6 +173,25 @@ public class RoomService {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
 
+        // Verificar e deduzir energia (custo: 10 por partida online)
+        if (user.getEnergy() == null || user.getEnergy() < 10) {
+            throw new RuntimeException("Energia insuficiente para entrar na sala. (Custo: 10)");
+        }
+        user.setEnergy(user.getEnergy() - 10);
+        userRepository.save(user);
+
+        int entryFee = room.getEntryFee() != null ? room.getEntryFee() : 0;
+        if (entryFee > 0) {
+            if (user.getCoins() < entryFee) {
+                // Reembolsar energia se não tiver moedas para a aposta
+                user.setEnergy(user.getEnergy() + 10);
+                userRepository.save(user);
+                throw new RuntimeException("Saldo insuficiente para pagar a aposta desta sala");
+            }
+            user.setCoins(user.getCoins() - entryFee);
+            userRepository.save(user);
+        }
+
         RoomPlayer roomPlayer = new RoomPlayer();
         roomPlayer.setRoom(room);
         roomPlayer.setUser(user);
@@ -172,6 +213,22 @@ public class RoomService {
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Jogador não encontrado na sala"));
 
+        // Se a sala estiver em WAITING, reembolsar a aposta e a energia
+        if (room.getStatus() == RoomStatus.WAITING) {
+            User user = roomPlayer.getUser();
+            // Reembolsar moedas da aposta
+            if (room.getEntryFee() != null && room.getEntryFee() > 0) {
+                user.setCoins(user.getCoins() + room.getEntryFee());
+            }
+            // Reembolsar energia consumida ao entrar
+            if (user.getEnergy() != null) {
+                user.setEnergy(Math.min(100, user.getEnergy() + 10));
+            }
+            userRepository.save(user);
+        }
+
+        // Remove o jogador da lista em memória para evitar erro de cascade do Hibernate
+        room.getPlayers().remove(roomPlayer);
         roomPlayerRepository.delete(roomPlayer);
 
         // Se o host saiu, transferir para próximo jogador
@@ -180,7 +237,7 @@ public class RoomService {
         }
 
         // Se a sala ficou vazia, deletar
-        if (room.getPlayers().size() <= 1) {
+        if (room.getPlayers().isEmpty()) {
             roomRepository.delete(room);
         }
     }
@@ -227,6 +284,13 @@ public class RoomService {
                 .filter(p -> p.getUser().getId().equals(targetUserId))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Jogador não encontrado na sala"));
+
+        // Reembolsar aposta se ainda estiver em WAITING
+        if (room.getStatus() == RoomStatus.WAITING && room.getEntryFee() != null && room.getEntryFee() > 0) {
+            User user = roomPlayer.getUser();
+            user.setCoins(user.getCoins() + room.getEntryFee());
+            userRepository.save(user);
+        }
 
         roomPlayerRepository.delete(roomPlayer);
     }
@@ -320,20 +384,16 @@ public class RoomService {
         return response;
     }
 
-    public void playAgain(String roomCode, Long hostId) {
+    public void playAgain(String roomCode, Long userId) {
         Room room = roomRepository.findByRoomCode(roomCode)
                 .orElseThrow(() -> new RuntimeException("Sala não encontrada"));
-
-        if (!room.getHost().getId().equals(hostId)) {
-            throw new RuntimeException("Apenas o host pode reiniciar a sala");
-        }
 
         room.setStatus(RoomStatus.WAITING);
         room.setStartsAt(null);
         
         for (RoomPlayer player : room.getPlayers()) {
             player.setIsReady(false);
-            if (player.getUser().getId().equals(hostId)) {
+            if (player.getUser().getId().equals(userId)) {
                 player.setIsReady(true);
             }
             player.setAssignedCategory(null);
@@ -343,10 +403,26 @@ public class RoomService {
         roomRepository.save(room);
         
         GameEventMessage wsEvent = new GameEventMessage();
-        wsEvent.setType("ROOM_UPDATED");
+        wsEvent.setType("RETURN_TO_LOBBY");
         wsEvent.setRoomCode(room.getRoomCode());
         wsEvent.setPlayerCategories(new ArrayList<>());
         messagingTemplate.convertAndSend("/topic/room/" + room.getRoomCode(), wsEvent);
+    }
+
+    public void requestRematch(String roomCode, Long userId) {
+        Room room = roomRepository.findByRoomCode(roomCode)
+                .orElseThrow(() -> new RuntimeException("Sala não encontrada"));
+
+        RoomPlayer requester = room.getPlayers().stream()
+                .filter(p -> p.getUser().getId().equals(userId))
+                .findFirst()
+                .orElseThrow(() -> new RuntimeException("Jogador não encontrado na sala"));
+
+        GameEventMessage wsEvent = new GameEventMessage();
+        wsEvent.setType("REMATCH_REQUEST");
+        wsEvent.setRoomCode(roomCode);
+        wsEvent.setRequesterName(requester.getUser().getUsername());
+        messagingTemplate.convertAndSend("/topic/room/" + roomCode, wsEvent);
     }
 
     private void transferHostToNextPlayer(Room room, Long currentHostId) {
@@ -411,6 +487,7 @@ public class RoomService {
         response.setShowRealTimeRanking(room.getShowRealTimeRanking());
         response.setAllowReconnection(room.getAllowReconnection());
         response.setIsPrivate(room.getPassword() != null);
+        response.setEntryFee(room.getEntryFee());
         
         // players -> PlayerResponse
         if (room.getPlayers() != null) {
@@ -443,6 +520,17 @@ public class RoomService {
         response.setAssignedCategory(roomPlayer.getAssignedCategory());
         response.setIsHost(roomPlayer.getIsHost()); // Mudança aqui
         // isLeader removed — use isHost only
+        
+        // Cosmetics and Progression
+        response.setActiveTitleId(roomPlayer.getUser().getActiveTitleId());
+        response.setActiveBannerId(roomPlayer.getUser().getActiveBannerId());
+        response.setActivePhraseId(roomPlayer.getUser().getActivePhraseId());
+        response.setActiveAvatarId(roomPlayer.getUser().getActiveAvatarId());
+        response.setActiveFrameId(roomPlayer.getUser().getActiveFrameId());
+        response.setActiveEmoteId(roomPlayer.getUser().getActiveEmoteId());
+        response.setLevel(roomPlayer.getUser().getLevel());
+        response.setEloPoints(roomPlayer.getUser().getEloPoints());
+        response.setIsVip(progressRepository.existsByUserIdAndSeason_ActiveTrueAndIsPremiumPassTrue(roomPlayer.getUser().getId()));
 
         return response;
     }

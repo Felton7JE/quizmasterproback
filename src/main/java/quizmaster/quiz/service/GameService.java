@@ -62,8 +62,12 @@ public class GameService {
     private final RoomRepository roomRepository;
     private final GameQuestionRepository gameQuestionRepository;
     private final GameCategoryQuestionRepository gameCategoryQuestionRepository;
+    private final quizmaster.quiz.repository.UserCategoryStatsRepository userCategoryStatsRepository;
+    private final quizmaster.quiz.repository.UserItemRepository userItemRepository;
     private final SimpMessagingTemplate messagingTemplate;
     private final TransactionTemplate transactionTemplate;
+    private final quizmaster.quiz.services.GamificationService gamificationService;
+    private final ActivityService activityService;
 
     // Scheduler for Kahoot mode auto-advance
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(4);
@@ -78,8 +82,12 @@ public class GameService {
             RoomRepository roomRepository,
             GameQuestionRepository gameQuestionRepository,
             GameCategoryQuestionRepository gameCategoryQuestionRepository,
+            quizmaster.quiz.repository.UserCategoryStatsRepository userCategoryStatsRepository,
+            quizmaster.quiz.repository.UserItemRepository userItemRepository,
             SimpMessagingTemplate messagingTemplate,
-            PlatformTransactionManager transactionManager) {
+            PlatformTransactionManager transactionManager,
+            quizmaster.quiz.services.GamificationService gamificationService,
+            ActivityService activityService) {
         this.gameRepository = gameRepository;
         this.questionRepository = questionRepository;
         this.answerRepository = answerRepository;
@@ -88,8 +96,12 @@ public class GameService {
         this.roomRepository = roomRepository;
         this.gameQuestionRepository = gameQuestionRepository;
         this.gameCategoryQuestionRepository = gameCategoryQuestionRepository;
+        this.userCategoryStatsRepository = userCategoryStatsRepository;
+        this.userItemRepository = userItemRepository;
         this.messagingTemplate = messagingTemplate;
         this.transactionTemplate = new TransactionTemplate(transactionManager);
+        this.gamificationService = gamificationService;
+        this.activityService = activityService;
     }
 
 
@@ -180,6 +192,7 @@ public class GameService {
                         freshGame.setStatus(GameStatus.FINISHED);
                         freshGame.setEndedAt(LocalDateTime.now());
                         gameRepository.save(freshGame);
+                        processGameFinishedMissions(freshGame);
 
                         GameEventMessage endEvent = new GameEventMessage();
                         endEvent.setType("GAME_ENDED");
@@ -311,9 +324,28 @@ public class GameService {
             gameResult.setCorrectAnswers(gameResult.getCorrectAnswers() + 1);
         }
         gameResult.setTotalPoints(gameResult.getTotalPoints() + points);
+        
+        if (question.getCategory() != null) {
+            Category cat = question.getCategory();
+            gameResult.getCategoryPoints().put(cat, gameResult.getCategoryPoints().getOrDefault(cat, 0) + points);
+        }
+        
         gameResult.setAccuracy((double) gameResult.getCorrectAnswers() / gameResult.getTotalQuestions() * 100);
 
         gameResultRepository.save(gameResult);
+
+        // Progresso das missões
+        try {
+            gamificationService.progressMission(user, "ANSWER_ANY");
+            if (isCorrect) {
+                gamificationService.progressMission(user, "ANSWER_CORRECT");
+            }
+            if (room.getGameMode() == GameMode.CLASSIC) {
+                gamificationService.progressMission(user, "ANSWER_SOLO");
+            }
+        } catch (Exception e) {
+            System.err.println("Erro ao progredir missão: " + e.getMessage());
+        }
 
         // Preparar resposta
         AnswerResponse response = new AnswerResponse();
@@ -322,6 +354,7 @@ public class GameService {
         response.setExplanation(question.getExplanation());
         response.setPoints(points);
         response.setTotalPoints(gameResult.getTotalPoints());
+        response.setQuestionId(question.getId());
 
         // Broadcast leaderboard update via WebSocket
         try {
@@ -428,6 +461,15 @@ public class GameService {
         response.setBestStreak(result.getBestStreak());
         response.setTotalTime(result.getTotalTime());
         response.setPosition(result.getPosition());
+        response.setCoinsEarned(result.getCoinsEarned());
+        response.setXpEarned(result.getXpEarned());
+        response.setEloEarned(result.getEloEarned());
+        if (result.getUser() != null) {
+            response.setActiveBannerId(result.getUser().getActiveBannerId());
+            response.setActiveAvatarId(result.getUser().getActiveAvatarId());
+            response.setActiveFrameId(result.getUser().getActiveFrameId());
+            response.setActivePhraseId(result.getUser().getActivePhraseId());
+        }
         return response;
     }
 
@@ -643,8 +685,154 @@ public class GameService {
         game.setStatus(GameStatus.FINISHED);
         game.setEndedAt(java.time.LocalDateTime.now());
         gameRepository.save(game);
+        
+        distributeRewards(game);
+        
+        processGameFinishedMissions(game);
 
         return getGameResults(gameId);
+    }
+    
+    private void distributeRewards(Game game) {
+        List<GameResult> results = gameResultRepository.findByGameOrderByTotalPointsDesc(game);
+        if (results.isEmpty()) return;
+        
+        long realPlayersCount = results.stream().filter(r -> !r.getUser().getUsername().startsWith("Bot_")).count();
+        boolean isSoloMode = realPlayersCount <= 1;
+
+        int entryFee = game.getRoom().getEntryFee() != null ? game.getRoom().getEntryFee() : 0;
+        int totalPlayers = results.size(); // Inclui bots se houver
+        int totalPot = entryFee * totalPlayers;
+        
+        // Descontar taxa da casa de 5% se houver pote
+        int potAfterFee = totalPot > 0 ? (int)(totalPot * 0.95) : 0;
+        
+        // Recompensas base XP e Elo
+        int baseXP = 50;
+        int baseElo = 10;
+        
+        // Multiplicador de dificuldade
+        double difficultyMultiplier = 1.0;
+        if (game.getRoom().getDifficulty() != null) {
+            switch (game.getRoom().getDifficulty()) {
+                case HARD: difficultyMultiplier = 2.0; break;
+                case MEDIUM: difficultyMultiplier = 1.5; break;
+                case EASY: difficultyMultiplier = 1.0; break;
+            }
+        }
+        
+        // Em duelo, apenas o primeiro lugar ganha o pote. Se for outro modo, pode ser dividido (mas por simplificação, 1º lugar ganha tudo)
+        // Se houver empate no 1º lugar, dividimos o pote.
+        int topScore = results.get(0).getTotalPoints();
+        List<GameResult> winners = new java.util.ArrayList<>();
+        for (GameResult res : results) {
+            if (res.getTotalPoints() == topScore && topScore > 0) {
+                winners.add(res);
+            }
+        }
+        
+        int coinsPerWinner = winners.isEmpty() ? 0 : potAfterFee / winners.size();
+        
+        int position = 1;
+        for (GameResult res : results) {
+            boolean isWinner = winners.contains(res);
+            
+            int coinsEarned = isWinner ? coinsPerWinner : 0;
+            // Posições mais altas ganham mais XP/Elo
+            int xpEarned = (int)(baseXP * difficultyMultiplier * (isWinner ? 2.0 : 1.0));
+            int eloEarned = isWinner ? (int)(baseElo * difficultyMultiplier) : (int)(-baseElo * 0.5); 
+            
+            // Restrições anti-farming para o Modo Solo/Treino
+            if (isSoloMode) {
+                coinsEarned = 0;
+                xpEarned = (int) (xpEarned * 0.10); // Apenas 10% do XP original
+                eloEarned = 0;
+            }
+            
+            // Checar XP_BOOST equipado (para jogadores reais)
+            if (!res.getUser().getUsername().startsWith("Bot_")) {
+                java.util.List<quizmaster.quiz.models.UserItem> userItems = userItemRepository.findByUser(res.getUser());
+                java.util.Optional<quizmaster.quiz.models.UserItem> xpBoostOpt = userItems.stream()
+                        .filter(ui -> ui.getStoreItem().getType() == quizmaster.quiz.enums.ItemType.XP_BOOST && ui.getIsEquipped())
+                        .findFirst();
+                if (xpBoostOpt.isPresent()) {
+                    xpEarned *= 2; // Dobra o XP
+                    userItemRepository.delete(xpBoostOpt.get()); // Consome o boost
+                }
+            }
+            
+            res.setCoinsEarned(coinsEarned);
+            res.setXpEarned(xpEarned);
+            res.setEloEarned(eloEarned);
+            res.setPosition(position++);
+            
+            gameResultRepository.save(res);
+            
+            // Atualizar o User no banco (apenas para não-bots)
+            if (!res.getUser().getUsername().startsWith("Bot_")) {
+                User user = res.getUser();
+                user.setCoins((user.getCoins() != null ? user.getCoins() : 0) + coinsEarned);
+                user.setXp((user.getXp() != null ? user.getXp() : 0) + xpEarned);
+                
+                // Atualizar estatísticas de Ranking e Vitórias (Apenas se NÃO for modo Solo)
+                if (!isSoloMode) {
+                    user.setTotalPoints((user.getTotalPoints() != null ? user.getTotalPoints() : 0) + res.getTotalPoints());
+                    user.setWeeklyPoints((user.getWeeklyPoints() != null ? user.getWeeklyPoints() : 0) + res.getTotalPoints());
+                    user.setMonthlyPoints((user.getMonthlyPoints() != null ? user.getMonthlyPoints() : 0) + res.getTotalPoints());
+                    
+                    if (isWinner) {
+                        user.setGamesWon((user.getGamesWon() != null ? user.getGamesWon() : 0) + 1);
+                        user.setCurrentStreak((user.getCurrentStreak() != null ? user.getCurrentStreak() : 0) + 1);
+                        if (user.getCurrentStreak() > (user.getBestStreak() != null ? user.getBestStreak() : 0)) {
+                            user.setBestStreak(user.getCurrentStreak());
+                        }
+                    } else {
+                        user.setCurrentStreak(0);
+                    }
+                    
+                    // Atualizar estatísticas por categoria
+                    if (res.getCategoryPoints() != null) {
+                        for (java.util.Map.Entry<Category, Integer> entry : res.getCategoryPoints().entrySet()) {
+                            Category cat = entry.getKey();
+                            Integer pts = entry.getValue();
+                            quizmaster.quiz.models.UserCategoryStats stats = userCategoryStatsRepository.findByUserAndCategory(user, cat)
+                                    .orElseGet(() -> {
+                                        quizmaster.quiz.models.UserCategoryStats newStats = new quizmaster.quiz.models.UserCategoryStats();
+                                        newStats.setUser(user);
+                                        newStats.setCategory(cat);
+                                        newStats.setTotalPoints(0);
+                                        newStats.setWeeklyPoints(0);
+                                        newStats.setMonthlyPoints(0);
+                                        return newStats;
+                                    });
+                            stats.setTotalPoints((stats.getTotalPoints() != null ? stats.getTotalPoints() : 0) + pts);
+                            stats.setWeeklyPoints((stats.getWeeklyPoints() != null ? stats.getWeeklyPoints() : 0) + pts);
+                            stats.setMonthlyPoints((stats.getMonthlyPoints() != null ? stats.getMonthlyPoints() : 0) + pts);
+                            userCategoryStatsRepository.save(stats);
+                        }
+                    }
+                }
+                
+                // Sempre contar a partida como jogada para missões e histórico
+                user.setGamesPlayed((user.getGamesPlayed() != null ? user.getGamesPlayed() : 0) + 1);
+                
+                // Atualizar o nível com base na curva exponencial centralizada
+                int oldLevel = user.getLevel() != null ? user.getLevel() : 1;
+                user.updateLevelBasedOnXp();
+                int newLevel = user.getLevel();
+                if (newLevel > oldLevel) {
+                    activityService.logLevelUp(user, "Subida de Nível!", "Alcançou o nível " + newLevel + "!");
+                }
+                userRepository.save(user);
+
+                // Log Activity
+                String title = game.getRoom().getGameMode().name();
+                String desc = isWinner ? "Vitória! " : "Partida concluída. ";
+                desc += res.getCorrectAnswers() + " corretas.";
+                String pointsStr = "+" + res.getTotalPoints() + " pts";
+                activityService.logGame(user, title, desc, pointsStr);
+            }
+        }
     }
 
     public GameStatsResponse getGameStats(Long gameId) {
@@ -707,6 +895,7 @@ public class GameService {
             game.setStatus(GameStatus.FINISHED);
             game.setEndedAt(LocalDateTime.now());
             gameRepository.save(game);
+            processGameFinishedMissions(game);
             return null;
         }
         game.setCurrentQuestionIndex(current + 1);
@@ -780,8 +969,82 @@ public class GameService {
                     added = true;
                 }
             }
-            if (!added)
+                if (!added)
                 break; // evita loop infinito
+        }
+    }
+
+    private void processGameFinishedMissions(Game game) {
+        if (game.getRoom() == null || game.getRoom().getPlayers() == null) return;
+        
+        GameResultResponse results = getGameResults(game.getId());
+        PlayerResultResponse winnerPlayer = results.getWinner();
+        TeamResultResponse teamResult = results.getTeamResults();
+        String winningTeam = teamResult != null ? teamResult.getWinnerTeam() : null;
+
+        int entryFee = game.getRoom().getEntryFee() != null ? game.getRoom().getEntryFee() : 0;
+        int totalPlayers = game.getRoom().getPlayers().size();
+        int totalPot = (int) ((entryFee * totalPlayers) * 0.95); // 5% house edge
+
+        double diffMultiplier = 1.0;
+        if (game.getRoom().getDifficulty() != null) {
+            switch(game.getRoom().getDifficulty().name()) {
+                case "HARD": diffMultiplier = 2.0; break;
+                case "MEDIUM": diffMultiplier = 1.5; break;
+            }
+        }
+
+        // Determine winners
+        Set<Long> winnerIds = new HashSet<>();
+        if (game.getRoom().getGameMode() == GameMode.TEAM && winningTeam != null && !winningTeam.equals("DRAW")) {
+            for (RoomPlayer player : game.getRoom().getPlayers()) {
+                if (player.getTeam() != null && player.getTeam().name().equals(winningTeam)) {
+                    winnerIds.add(player.getUser().getId());
+                }
+            }
+        } else if (winnerPlayer != null && winnerPlayer.getUserId() != null) {
+            winnerIds.add(winnerPlayer.getUserId());
+        }
+
+        int potPerWinner = winnerIds.isEmpty() ? 0 : totalPot / winnerIds.size();
+
+        for (RoomPlayer player : game.getRoom().getPlayers()) {
+            User user = player.getUser();
+            if (user != null) {
+                boolean isWinner = winnerIds.contains(user.getId());
+                
+                // Distribuição de XP e Elo
+                int xpGained = (int) ((isWinner ? 50 : 10) * diffMultiplier);
+                int eloChange = (int) ((isWinner ? 20 : -10) * diffMultiplier);
+                int coinsEarned = isWinner ? potPerWinner : 0;
+
+                // Em caso de empate absoluto (sem vencedores), devolvemos a aposta original
+                if (winnerIds.isEmpty() && entryFee > 0) {
+                    coinsEarned = entryFee;
+                }
+
+                gamificationService.addMatchRewards(user, coinsEarned, eloChange);
+                
+                // Add XP (since it's not in addMatchRewards yet)
+                user.setXp((user.getXp() != null ? user.getXp() : 0) + xpGained);
+                user.updateLevelBasedOnXp();
+                userRepository.save(user);
+
+                // Progressão de Missões
+                try {
+                    gamificationService.progressMission(user, "PLAY_ANY");
+                    if (isWinner) gamificationService.progressMission(user, "WIN_ANY");
+                    
+                    if (game.getRoom().getGameMode() == GameMode.DUEL) {
+                        gamificationService.progressMission(user, "PLAY_DUEL");
+                        if (isWinner) gamificationService.progressMission(user, "WIN_DUEL");
+                    } else if (game.getRoom().getGameMode() == GameMode.TEAM) {
+                        if (isWinner) gamificationService.progressMission(user, "WIN_TEAM");
+                    }
+                } catch (Exception e) {
+                    System.err.println("Erro ao progredir missões ao final do jogo: " + e.getMessage());
+                }
+            }
         }
     }
 }

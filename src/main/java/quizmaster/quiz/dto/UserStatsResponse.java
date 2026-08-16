@@ -17,4 +17,14 @@ public class UserStatsResponse {
     private Map<String, Integer> categoryStats;
     private Integer globalRanking;
     private Integer weeklyRanking;
+
+    // Free Mode Stats
+    private Integer survivalHighScore;
+    private Integer survivalBestStreak;
+    private Integer timeAttackHighScore;
+
+    // Season Stats
+    private Integer seasonLevel;
+    private Integer seasonPoints;
+    private Boolean hasPremiumPass;
 }

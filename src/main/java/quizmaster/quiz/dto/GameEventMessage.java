@@ -15,6 +15,8 @@ import java.util.Map;
  *   - ROOM_UPDATED: dados da sala foram atualizados
  *   - NEXT_QUESTION: próxima pergunta do modo Kahoot (enviada pelo servidor)
  *   - GAME_ENDED: jogo finalizado (modo Kahoot)
+ *   - RETURN_TO_LOBBY: todos retornam ao lobby
+ *   - REMATCH_REQUEST: pedido de revanche
  */
 @Data
 @NoArgsConstructor
@@ -39,6 +41,9 @@ public class GameEventMessage {
      * Presente em GAME_STARTED para que cada cliente descubra a sua categoria.
      */
     private List<Map<String, Object>> playerCategories;
+
+    /** Nome do jogador que solicitou a revanche (REMATCH_REQUEST) */
+    private String requesterName;
 
     // ---- Campos específicos do modo Kahoot ----
 

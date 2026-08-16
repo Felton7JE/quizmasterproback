@@ -35,4 +35,14 @@ public class GameResult {
     private Team team;
     
     private Integer position;
+    
+    private Integer coinsEarned = 0;
+    private Integer xpEarned = 0;
+    private Integer eloEarned = 0;
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    @CollectionTable(name = "game_result_category_points", joinColumns = @JoinColumn(name = "game_result_id"))
+    @MapKeyJoinColumn(name = "category_id")
+    @Column(name = "points")
+    private java.util.Map<Category, Integer> categoryPoints = new java.util.HashMap<>();
 }

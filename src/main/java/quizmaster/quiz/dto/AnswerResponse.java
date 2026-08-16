@@ -10,4 +10,5 @@ public class AnswerResponse {
     private Integer points;
     private Integer currentStreak;
     private Integer totalPoints;
+    private Long questionId;
 }
