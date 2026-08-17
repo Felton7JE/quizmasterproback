@@ -12,10 +12,17 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void configureMessageBroker(MessageBrokerRegistry config) {
+        // Criar um TaskScheduler para lidar com os heartbeats
+        org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler te = new org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler();
+        te.setPoolSize(1);
+        te.setThreadNamePrefix("wss-heartbeat-thread-");
+        te.initialize();
+
         // /topic = broadcast (ex: sala, jogo)
         // /queue = mensagens por utilizador (ex: pergunta específica do jogador)
         config.enableSimpleBroker("/topic", "/queue")
-              .setHeartbeatValue(new long[]{20000, 20000}); // Heartbeat a cada 20s (evita timeout de 55s no Heroku)
+              .setTaskScheduler(te)
+              .setHeartbeatValue(new long[]{20000, 20000}); // Heartbeat a cada 20s (evita timeout de 55s no Heroku/Azure)
         config.setApplicationDestinationPrefixes("/app");
         config.setUserDestinationPrefix("/user");
     }
