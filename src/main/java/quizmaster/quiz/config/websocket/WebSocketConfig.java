@@ -14,7 +14,8 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     public void configureMessageBroker(MessageBrokerRegistry config) {
         // /topic = broadcast (ex: sala, jogo)
         // /queue = mensagens por utilizador (ex: pergunta específica do jogador)
-        config.enableSimpleBroker("/topic", "/queue");
+        config.enableSimpleBroker("/topic", "/queue")
+              .setHeartbeatValue(new long[]{20000, 20000}); // Heartbeat a cada 20s (evita timeout de 55s no Heroku)
         config.setApplicationDestinationPrefixes("/app");
         config.setUserDestinationPrefix("/user");
     }
