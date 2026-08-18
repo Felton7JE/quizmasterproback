@@ -63,6 +63,18 @@ public class UserController {
         return ResponseEntity.ok(history);
     }
     
+    @PutMapping("/{userId}/crystals")
+    public ResponseEntity<?> updateCrystals(@PathVariable Long userId, @RequestBody java.util.Map<String, Integer> body) {
+        try {
+            Integer crystals = body.get("crystals");
+            if (crystals == null) return ResponseEntity.badRequest().body("O campo 'crystals' é obrigatório.");
+            UserResponse response = userService.updateCrystals(userId, crystals);
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(java.util.Map.of("error", e.getMessage() != null ? e.getMessage() : "Erro"));
+        }
+    }
+    
     @GetMapping("/search")
     public ResponseEntity<List<UserResponse>> searchUsers(@RequestParam String query) {
         List<UserResponse> users = userService.searchUsers(query);

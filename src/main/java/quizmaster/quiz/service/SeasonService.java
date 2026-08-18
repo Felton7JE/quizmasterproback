@@ -189,12 +189,12 @@ public class SeasonService {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("Usuário não encontrado."));
 
-        int vipPrice = 500;
-        if (user.getCoins() == null || user.getCoins() < vipPrice) {
-            throw new RuntimeException("Moedas insuficientes para comprar o Passe VIP. (Custo: " + vipPrice + " moedas)");
+        int vipPrice = 50;
+        if (user.getCrystals() == null || user.getCrystals() < vipPrice) {
+            throw new RuntimeException("Cristais insuficientes para comprar o Passe VIP. (Custo: " + vipPrice + " cristais)");
         }
 
-        user.setCoins(user.getCoins() - vipPrice);
+        user.setCrystals(user.getCrystals() - vipPrice);
         userRepository.save(user);
 
         UserSeasonProgress progress = progressRepository.findByUserIdAndSeasonId(userId, activeSeason.getId())

@@ -300,6 +300,14 @@ public class UserService {
         return List.of();
     }
     
+    public UserResponse updateCrystals(Long userId, Integer crystals) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("Usuário não encontrado."));
+        user.setCrystals(crystals);
+        userRepository.save(user);
+        return convertToUserResponse(user);
+    }
+    
     private UserResponse convertToUserResponse(User user) {
         UserResponse response = new UserResponse();
         response.setId(user.getId());

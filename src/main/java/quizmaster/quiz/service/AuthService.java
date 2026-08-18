@@ -33,8 +33,8 @@ public class AuthService {
                 String email = payload.getEmail();
                 String name = (String) payload.get("name");
 
-                // Try to find the user by username (which is email)
-                return userRepository.findFirstByUsernameAndActiveTrue(email)
+                // Try to find the user by email first
+                return userRepository.findFirstByEmailAndActiveTrue(email)
                         .orElseGet(() -> {
                             User newUser = new User();
                             newUser.setUsername(email);
