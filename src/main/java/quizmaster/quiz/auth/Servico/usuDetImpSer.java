@@ -24,15 +24,24 @@ public class usuDetImpSer implements UserDetailsService {
  
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        // 1. Try cadastro table by login
         var optCadastro = cadastroRep.findByLogin(username);
         if (optCadastro.isPresent()) {
             this.cadastroEnt = optCadastro.get();
             return UsuDetImp.build(this.cadastroEnt);
         }
         
+        // 2. Try User table by username
         var optUser = userRepository.findFirstByUsernameAndActiveTrue(username);
         if (optUser.isPresent()) {
             this.userEnt = optUser.get();
+            return UsuDetImp.build(this.userEnt);
+        }
+
+        // 3. Try User table by email (fallback for Google login tokens)
+        var optUserByEmail = userRepository.findFirstByEmailAndActiveTrue(username);
+        if (optUserByEmail.isPresent()) {
+            this.userEnt = optUserByEmail.get();
             return UsuDetImp.build(this.userEnt);
         }
 
