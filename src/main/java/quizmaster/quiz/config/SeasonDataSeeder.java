@@ -11,6 +11,7 @@ import quizmaster.quiz.repository.SeasonRepository;
 import quizmaster.quiz.repository.SeasonRewardRepository;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Component
 @RequiredArgsConstructor
@@ -22,7 +23,34 @@ public class SeasonDataSeeder implements CommandLineRunner {
     @Override
     @Transactional
     public void run(String... args) throws Exception {
+        String baseUrl = "/assets/temporada1";
+
         if (seasonRepository.count() > 0) {
+            // Atualiza URLs antigas se estiverem usando localhost
+            List<Season> seasons = seasonRepository.findAll();
+            if (!seasons.isEmpty()) {
+                Season existing = seasons.get(0);
+                if (existing.getBannerUrl() != null && existing.getBannerUrl().contains("http://localhost:8080")) {
+                    existing.setBannerUrl(baseUrl + "/banner/banner_temporada.jpg");
+                    existing.setMapBackgroundUrl(baseUrl + "/map/map_background.jpg");
+                    existing.setLockedNodeIconUrl(baseUrl + "/map/icon_cadeado_temporada1.png");
+                    existing.setCurrentNodeIconUrl(baseUrl + "/map/icon_fase_atual.png");
+                    existing.setCompletedNodeIconUrl(baseUrl + "/map/icon_fase_concluida.png");
+                    seasonRepository.save(existing);
+                    
+                    List<SeasonReward> rewards = seasonRewardRepository.findAll();
+                    for (SeasonReward reward : rewards) {
+                        if (reward.getBossImageUrl() != null && reward.getBossImageUrl().contains("http://localhost:8080")) {
+                            reward.setBossImageUrl(reward.getBossImageUrl().replace("http://localhost:8080/assets/temporada1", baseUrl));
+                        }
+                        if (reward.getPremiumRewardImageUrl() != null && reward.getPremiumRewardImageUrl().contains("http://localhost:8080")) {
+                            reward.setPremiumRewardImageUrl(reward.getPremiumRewardImageUrl().replace("http://localhost:8080/assets/temporada1", baseUrl));
+                        }
+                        seasonRewardRepository.save(reward);
+                    }
+                    System.out.println("✅ [SeasonDataSeeder] URLs da Temporada 1 atualizadas para caminhos relativos!");
+                }
+            }
             return; // Temporada já configurada no banco
         }
 
@@ -34,8 +62,7 @@ public class SeasonDataSeeder implements CommandLineRunner {
         season.setActive(true);
         season.setExclusiveCategoryId(1L); 
         
-        // URLs locais
-        String baseUrl = "http://localhost:8080/assets/temporada1";
+        // URLs relativas
         season.setBannerUrl(baseUrl + "/banner/banner_temporada.jpg");
         season.setMapBackgroundUrl(baseUrl + "/map/map_background.jpg");
         season.setLockedNodeIconUrl(baseUrl + "/map/icon_cadeado_temporada1.png");
