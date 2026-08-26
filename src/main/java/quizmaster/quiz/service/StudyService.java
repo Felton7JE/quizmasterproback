@@ -237,12 +237,21 @@ public class StudyService {
         if (geminiApiKey != null && !geminiApiKey.trim().isEmpty() && !geminiApiKey.equalsIgnoreCase("SUA_CHAVE_AQUI")) {
             try {
                 acquireGeminiToken();
-                finalResponse = callGeminiForQuiz(title, topic, content, targetQuestions, difficulty, request.getSourceFileName(), request.getSourceType());
+                finalResponse = callGeminiForQuiz(geminiModel, title, topic, content, targetQuestions, difficulty, request.getSourceFileName(), request.getSourceType());
                 if (finalResponse != null && finalResponse.getQuestions() != null && !finalResponse.getQuestions().isEmpty()) {
                     topicQuizCache.put(cacheKey, new CachedQuizEntry(finalResponse));
                 }
             } catch (Exception e) {
-                log.warn("Falha ou indisponibilidade na API Gemini ({}). Ativando Motor Semântico Local...", e.getMessage());
+                log.warn("Falha no modelo principal {}: {}. Tentando modelo fallback...", geminiModel, e.getMessage());
+                try {
+                    String fallbackModel = geminiModel.equals("gemini-1.0-pro") ? "gemini-1.5-flash-latest" : "gemini-1.0-pro";
+                    finalResponse = callGeminiForQuiz(fallbackModel, title, topic, content, targetQuestions, difficulty, request.getSourceFileName(), request.getSourceType());
+                    if (finalResponse != null && finalResponse.getQuestions() != null && !finalResponse.getQuestions().isEmpty()) {
+                        topicQuizCache.put(cacheKey, new CachedQuizEntry(finalResponse));
+                    }
+                } catch (Exception ex) {
+                    log.warn("Falha ou indisponibilidade na API Gemini após fallback ({}). Ativando Motor Semântico Local...", ex.getMessage());
+                }
             }
         }
 
@@ -298,9 +307,9 @@ public class StudyService {
     // ─────────────────────────────────────────────────────────────────────────
 
     private StudyQuizResponse callGeminiForQuiz(
-            String title, String topic, String content, int questionCount, String difficulty, String sourceFileName, String sourceType) {
+            String modelToUse, String title, String topic, String content, int questionCount, String difficulty, String sourceFileName, String sourceType) {
         
-        String url = "https://generativelanguage.googleapis.com/v1beta/models/" + geminiModel + ":generateContent?key=" + geminiApiKey.trim();
+        String url = "https://generativelanguage.googleapis.com/v1beta/models/" + modelToUse + ":generateContent?key=" + geminiApiKey.trim();
 
         String prompt = buildPrompt(title, topic, content, questionCount, difficulty);
 
