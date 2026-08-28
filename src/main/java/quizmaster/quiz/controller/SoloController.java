@@ -33,11 +33,12 @@ public class SoloController {
     @PostMapping("/free-mode/questions")
     public ResponseEntity<java.util.List<QuestionResponse>> getFreeModeQuestions(
             @RequestBody(required = false) java.util.List<Long> seenIds,
-            @RequestParam(defaultValue = "10") int limit) {
+            @RequestParam(defaultValue = "10") int limit,
+            @RequestParam(required = false) String gameMode) {
         if (seenIds == null) {
             seenIds = new java.util.ArrayList<>();
         }
-        return ResponseEntity.ok(soloService.getFreeModeQuestions(seenIds, limit));
+        return ResponseEntity.ok(soloService.getFreeModeQuestions(seenIds, limit, gameMode));
     }
 
     @PostMapping("/free-mode/score")

@@ -19,10 +19,22 @@ import quizmaster.quiz.repository.StoreItemRepository;
 import quizmaster.quiz.repository.TitleRepository;
 import java.time.LocalDateTime;
 
+import quizmaster.quiz.models.Season;
+import quizmaster.quiz.models.SeasonReward;
+import quizmaster.quiz.repository.SeasonRepository;
+import quizmaster.quiz.repository.SeasonRewardRepository;
+import quizmaster.quiz.enums.RewardType;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.core.io.ClassPathResource;
+import java.io.InputStream;
+
 
 @Component
 @RequiredArgsConstructor
@@ -33,6 +45,8 @@ public class DataInitializer implements CommandLineRunner {
     private final UserRepository userRepo;
     private final StoreItemRepository storeItemRepo;
     private final TitleRepository titleRepo;
+    private final SeasonRepository seasonRepo;
+    private final SeasonRewardRepository seasonRewardRepo;
 
     @Override
     @Transactional
@@ -42,6 +56,7 @@ public class DataInitializer implements CommandLineRunner {
         initQuestions();
         initStoreItems();
         initTitles();
+        initSeasons();
     }
 
     private void initUsers() {
@@ -76,13 +91,14 @@ public class DataInitializer implements CommandLineRunner {
                 new Category("GEOGRAPHY", "Geografia", "Questões de geografia"),
                 new Category("SCIENCE", "Ciências", "Questões de ciências"),
                 new Category("ENGLISH", "Inglês", "Questões de inglês"),
-                new Category("MIXED", "Misto", "Questões variadas")
+                new Category("MIXED", "Misto", "Questões variadas"),
+                new Category("POP_CULTURE", "Cultura Pop", "Cinema, TV e Cultura Pop")
         );
         categoryRepo.saveAll(categories);
     }
 
     private void initQuestions() {
-        if (questionRepo.count() > 0) return;
+        if (questionRepo.count() > 2000) return;
 
         // Mapear categorias pelo nome para fácil acesso
         Map<String, Category> catMap = categoryRepo.findAll().stream()
@@ -167,6 +183,63 @@ public class DataInitializer implements CommandLineRunner {
                     questionRepo.save(q);
                 }
             }
+        }
+
+        System.out.println("Loading JSON questions...");
+        ObjectMapper mapper = new ObjectMapper();
+        loadQuestionsFromJson("questoes/portugues_500_questoes.json", "PORTUGUESE", catMap, mapper);
+        loadQuestionsFromJson("questoes/matematica_500_questoes.json", "MATH", catMap, mapper);
+        loadQuestionsFromJson("questoes/historia_500_questoes.json", "HISTORY", catMap, mapper);
+        loadQuestionsFromJson("questoes/geografia_500_questoes.json", "GEOGRAPHY", catMap, mapper);
+        loadQuestionsFromJson("questoes/ingles_500_questoes.json", "ENGLISH", catMap, mapper);
+        loadQuestionsFromJson("questoes/cultura_pop_500_questoes.json", "POP_CULTURE", catMap, mapper);
+    }
+
+    private void loadQuestionsFromJson(String filePath, String categoryName, Map<String, Category> catMap, ObjectMapper mapper) {
+        Category category = catMap.get(categoryName);
+        if (category == null) return;
+
+        try (InputStream is = new ClassPathResource(filePath).getInputStream()) {
+            JsonNode root = mapper.readTree(is);
+            if (root.isArray()) {
+                List<Question> questionsToSave = new java.util.ArrayList<>();
+                int index = 1;
+                for (JsonNode node : root) {
+                    Question q = new Question();
+                    q.setCategory(category);
+                    q.setQuestionText(node.get("pergunta").asText());
+                    
+                    List<String> options = new java.util.ArrayList<>();
+                    for (JsonNode opt : node.get("opcoes")) {
+                        options.add(opt.asText());
+                    }
+                    q.setOptions(options);
+                    q.setCorrectAnswer(node.get("resposta_correta").asInt());
+                    q.setExplanation("");
+                    
+                    Difficulty diff;
+                    int pts;
+                    if (index <= 165) {
+                        diff = Difficulty.EASY;
+                        pts = 100;
+                    } else if (index <= 335) {
+                        diff = Difficulty.MEDIUM;
+                        pts = 150;
+                    } else {
+                        diff = Difficulty.HARD;
+                        pts = 200;
+                    }
+                    q.setDifficulty(diff);
+                    q.setPoints(pts);
+                    
+                    questionsToSave.add(q);
+                    index++;
+                }
+                questionRepo.saveAll(questionsToSave);
+                System.out.println("Loaded " + questionsToSave.size() + " questions for " + categoryName);
+            }
+        } catch (Exception e) {
+            System.err.println("Could not load questions from " + filePath + ": " + e.getMessage());
         }
     }
 
@@ -405,5 +478,49 @@ public class DataInitializer implements CommandLineRunner {
         t.setConditionType(type);
         t.setConditionValue(val);
         return t;
+    }
+
+    private void initSeasons() {
+        if (seasonRepo.count() > 0) return;
+
+        Category popCultureCat = categoryRepo.findAll().stream()
+            .filter(c -> c.getName().equals("POP_CULTURE"))
+            .findFirst()
+            .orElse(null);
+
+        if (popCultureCat == null) return;
+
+        Season season = new Season();
+        season.setName("Passe de Batalha: Cinema, TV e Cultura Pop!");
+        season.setDescription("Mostre que você sabe tudo sobre filmes, séries e música.");
+        season.setStartDate(LocalDateTime.now());
+        season.setEndDate(LocalDateTime.now().plusDays(90)); // 90 days season
+        season.setActive(true);
+        season.setExclusiveCategoryId(popCultureCat.getId());
+        
+        season = seasonRepo.save(season);
+
+        List<SeasonReward> rewards = new java.util.ArrayList<>();
+        for (int i = 1; i <= 30; i++) {
+            SeasonReward reward = new SeasonReward();
+            reward.setSeason(season);
+            reward.setLevelRequired(i);
+            
+            boolean isBoss = (i % 5 == 0);
+            reward.setIsBossLevel(isBoss);
+            if (isBoss) {
+                reward.setBossName("Chefão Nível " + i);
+            }
+
+            reward.setFreeRewardType(RewardType.COIN);
+            reward.setFreeRewardValue(String.valueOf(i * 10)); // 10, 20, 30...
+
+            reward.setPremiumRewardType(RewardType.XP);
+            reward.setPremiumRewardValue(String.valueOf(i * 20));
+
+            rewards.add(reward);
+        }
+        seasonRewardRepo.saveAll(rewards);
+        System.out.println("Season 'Cultura Pop' created with 30 levels.");
     }
 }

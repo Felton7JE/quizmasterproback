@@ -1,0 +1,6502 @@
+[
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Em que cidade fictícia vive Batman?",
+    "opcoes": [
+      "Hill Valley",
+      "Gotham City",
+      "Metropolis",
+      "Derry"
+    ],
+    "resposta_correta": 1,
+    "id": 1
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual é o nome do cowboy de Toy Story?",
+    "opcoes": [
+      "Andy",
+      "Rex",
+      "Woody",
+      "Buzz Lightyear"
+    ],
+    "resposta_correta": 2,
+    "id": 2
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem é o protagonista de The Matrix?",
+    "opcoes": [
+      "Morpheus",
+      "Trinity",
+      "Agent Smith",
+      "Neo"
+    ],
+    "resposta_correta": 3,
+    "id": 3
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual filme apresenta o navio Titanic?",
+    "opcoes": [
+      "Titanic",
+      "Avatar",
+      "Jaws",
+      "Rocky"
+    ],
+    "resposta_correta": 0,
+    "id": 4
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual é o alter ego de Superman?",
+    "opcoes": [
+      "Steve Rogers",
+      "Clark Kent",
+      "Bruce Wayne",
+      "Peter Parker"
+    ],
+    "resposta_correta": 1,
+    "id": 5
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: que objeto Harry Potter usa para fazer magia?",
+    "opcoes": [
+      "Anel",
+      "Martelo",
+      "Varinha",
+      "Escudo"
+    ],
+    "resposta_correta": 2,
+    "id": 6
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual herói usa um escudo com estrela?",
+    "opcoes": [
+      "Iron Man",
+      "Thor",
+      "Hulk",
+      "Captain America"
+    ],
+    "resposta_correta": 3,
+    "id": 7
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é o planeta natal de Luke Skywalker?",
+    "opcoes": [
+      "Tatooine",
+      "Naboo",
+      "Alderaan",
+      "Hoth"
+    ],
+    "resposta_correta": 0,
+    "id": 8
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Quem é a princesa de Frozen?",
+    "opcoes": [
+      "Jasmine",
+      "Elsa",
+      "Moana",
+      "Merida"
+    ],
+    "resposta_correta": 1,
+    "id": 9
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: em O Rei Leão, quem é o pai de Simba?",
+    "opcoes": [
+      "Timon",
+      "Rafiki",
+      "Mufasa",
+      "Scar"
+    ],
+    "resposta_correta": 2,
+    "id": 10
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme tem Jack Sparrow?",
+    "opcoes": [
+      "Indiana Jones",
+      "The Mummy",
+      "Jurassic Park",
+      "Pirates of the Caribbean"
+    ],
+    "resposta_correta": 3,
+    "id": 11
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é o nome do ogre verde da DreamWorks?",
+    "opcoes": [
+      "Shrek",
+      "Fiona",
+      "Donkey",
+      "Po"
+    ],
+    "resposta_correta": 0,
+    "id": 12
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Que super-herói é conhecido como Homem-Aranha?",
+    "opcoes": [
+      "Aquaman",
+      "Spider-Man",
+      "Ant-Man",
+      "Batman"
+    ],
+    "resposta_correta": 1,
+    "id": 13
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme acompanha as emoções Alegria e Tristeza?",
+    "opcoes": [
+      "Coco",
+      "Cars",
+      "Inside Out",
+      "Up"
+    ],
+    "resposta_correta": 2,
+    "id": 14
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem interpreta Jack em Titanic?",
+    "opcoes": [
+      "Tom Hanks",
+      "Brad Pitt",
+      "Matt Damon",
+      "Leonardo DiCaprio"
+    ],
+    "resposta_correta": 3,
+    "id": 15
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é a escola de magia de Harry Potter?",
+    "opcoes": [
+      "Hogwarts",
+      "Beauxbatons",
+      "Durmstrang",
+      "Ilvermorny"
+    ],
+    "resposta_correta": 0,
+    "id": 16
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual é o vilão roxo da Marvel que procura as Joias do Infinito?",
+    "opcoes": [
+      "Red Skull",
+      "Thanos",
+      "Loki",
+      "Ultron"
+    ],
+    "resposta_correta": 1,
+    "id": 17
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme acompanha um tubarão gigante numa praia?",
+    "opcoes": [
+      "Psycho",
+      "The Birds",
+      "Jaws",
+      "Alien"
+    ],
+    "resposta_correta": 2,
+    "id": 18
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual é o nome do robô de WALL-E?",
+    "opcoes": [
+      "EVE",
+      "R2-D2",
+      "C-3PO",
+      "WALL-E"
+    ],
+    "resposta_correta": 3,
+    "id": 19
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual herói da DC é associado ao tridente?",
+    "opcoes": [
+      "Aquaman",
+      "Flash",
+      "Green Lantern",
+      "Cyborg"
+    ],
+    "resposta_correta": 0,
+    "id": 20
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Em Coco, qual instrumento Miguel deseja tocar?",
+    "opcoes": [
+      "Bateria",
+      "Guitarra",
+      "Piano",
+      "Violino"
+    ],
+    "resposta_correta": 1,
+    "id": 21
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual é o nome da boneca protagonista de Barbie (2023)?",
+    "opcoes": [
+      "Sasha",
+      "Skipper",
+      "Barbie",
+      "Gloria"
+    ],
+    "resposta_correta": 2,
+    "id": 22
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem interpreta Iron Man no MCU?",
+    "opcoes": [
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Mark Ruffalo",
+      "Robert Downey Jr."
+    ],
+    "resposta_correta": 3,
+    "id": 23
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é o nome do leão vilão em The Lion King?",
+    "opcoes": [
+      "Scar",
+      "Mufasa",
+      "Simba",
+      "Zazu"
+    ],
+    "resposta_correta": 0,
+    "id": 24
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Em Harry Potter, qual animal é Hedwig?",
+    "opcoes": [
+      "Cão",
+      "Coruja",
+      "Gato",
+      "Rato"
+    ],
+    "resposta_correta": 1,
+    "id": 25
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme da Pixar tem carros como personagens?",
+    "opcoes": [
+      "Brave",
+      "Luca",
+      "Cars",
+      "Ratatouille"
+    ],
+    "resposta_correta": 2,
+    "id": 26
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual é a identidade civil de Wonder Woman?",
+    "opcoes": [
+      "Lois Lane",
+      "Selina Kyle",
+      "Barbara Gordon",
+      "Diana Prince"
+    ],
+    "resposta_correta": 3,
+    "id": 27
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual saga cinematográfica tem Frodo?",
+    "opcoes": [
+      "The Lord of the Rings",
+      "The Hunger Games",
+      "Divergent",
+      "Twilight"
+    ],
+    "resposta_correta": 0,
+    "id": 28
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual é o nome do boneco espacial de Toy Story?",
+    "opcoes": [
+      "Slink",
+      "Buzz Lightyear",
+      "Woody",
+      "Forky"
+    ],
+    "resposta_correta": 1,
+    "id": 29
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual realizador dirigiu E.T.?",
+    "opcoes": [
+      "James Cameron",
+      "Tim Burton",
+      "Steven Spielberg",
+      "George Lucas"
+    ],
+    "resposta_correta": 2,
+    "id": 30
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme mostra um parque com dinossauros clonados?",
+    "opcoes": [
+      "King Kong",
+      "Godzilla",
+      "The Lost World",
+      "Jurassic Park"
+    ],
+    "resposta_correta": 3,
+    "id": 31
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual atriz interpreta Hermione Granger?",
+    "opcoes": [
+      "Emma Watson",
+      "Emma Stone",
+      "Keira Knightley",
+      "Natalie Portman"
+    ],
+    "resposta_correta": 0,
+    "id": 32
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Em Star Wars, quem é o pai de Luke Skywalker?",
+    "opcoes": [
+      "Yoda",
+      "Darth Vader",
+      "Obi-Wan Kenobi",
+      "Han Solo"
+    ],
+    "resposta_correta": 1,
+    "id": 33
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme musical acompanha uma família colombiana com poderes?",
+    "opcoes": [
+      "Tangled",
+      "Soul",
+      "Encanto",
+      "Mulan"
+    ],
+    "resposta_correta": 2,
+    "id": 34
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual é o nome do reino de Frozen?",
+    "opcoes": [
+      "Agrabah",
+      "Corona",
+      "Genovia",
+      "Arendelle"
+    ],
+    "resposta_correta": 3,
+    "id": 35
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual vilão da DC é inimigo clássico de Batman?",
+    "opcoes": [
+      "Joker",
+      "Magneto",
+      "Loki",
+      "Green Goblin"
+    ],
+    "resposta_correta": 0,
+    "id": 36
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual personagem de The Lord of the Rings carrega o Um Anel?",
+    "opcoes": [
+      "Legolas",
+      "Frodo Baggins",
+      "Aragorn",
+      "Gandalf"
+    ],
+    "resposta_correta": 1,
+    "id": 37
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme tem a frase “I am your father”?",
+    "opcoes": [
+      "A New Hope",
+      "Rogue One",
+      "The Empire Strikes Back",
+      "Return of the Jedi"
+    ],
+    "resposta_correta": 2,
+    "id": 38
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual é o nome do rato cozinheiro de Ratatouille?",
+    "opcoes": [
+      "Emile",
+      "Alfredo",
+      "Anton",
+      "Remy"
+    ],
+    "resposta_correta": 3,
+    "id": 39
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: que atriz interpreta Katniss Everdeen?",
+    "opcoes": [
+      "Jennifer Lawrence",
+      "Shailene Woodley",
+      "Kristen Stewart",
+      "Scarlett Johansson"
+    ],
+    "resposta_correta": 0,
+    "id": 40
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual filme é conhecido como O Poderoso Chefão?",
+    "opcoes": [
+      "Scarface",
+      "The Godfather",
+      "The Departed",
+      "Goodfellas"
+    ],
+    "resposta_correta": 1,
+    "id": 41
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual herói pode transformar-se num gigante verde?",
+    "opcoes": [
+      "Vision",
+      "Hawkeye",
+      "Hulk",
+      "Thor"
+    ],
+    "resposta_correta": 2,
+    "id": 42
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual é o nome do hotel em The Shining?",
+    "opcoes": [
+      "Bates Motel",
+      "Grand Budapest",
+      "Hotel Transylvania",
+      "Overlook Hotel"
+    ],
+    "resposta_correta": 3,
+    "id": 43
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual personagem tem nariz que cresce quando mente?",
+    "opcoes": [
+      "Pinocchio",
+      "Dumbo",
+      "Bambi",
+      "Peter Pan"
+    ],
+    "resposta_correta": 0,
+    "id": 44
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual filme da Pixar acompanha Carl e Russell?",
+    "opcoes": [
+      "The Incredibles",
+      "Up",
+      "Toy Story 3",
+      "Finding Nemo"
+    ],
+    "resposta_correta": 1,
+    "id": 45
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: quem dirigiu Pulp Fiction?",
+    "opcoes": [
+      "Martin Scorsese",
+      "David Fincher",
+      "Quentin Tarantino",
+      "Christopher Nolan"
+    ],
+    "resposta_correta": 2,
+    "id": 46
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual é a profissão de Peter Parker?",
+    "opcoes": [
+      "Advogado",
+      "Médico",
+      "Professor",
+      "Fotógrafo"
+    ],
+    "resposta_correta": 3,
+    "id": 47
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual saga tem o distrito chamado Panem?",
+    "opcoes": [
+      "The Hunger Games",
+      "Maze Runner",
+      "Divergent",
+      "Twilight"
+    ],
+    "resposta_correta": 0,
+    "id": 48
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Em Finding Nemo, que animal é Nemo?",
+    "opcoes": [
+      "Golfinho",
+      "Peixe-palhaço",
+      "Tubarão",
+      "Tartaruga"
+    ],
+    "resposta_correta": 1,
+    "id": 49
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual personagem usa o martelo Mjolnir?",
+    "opcoes": [
+      "Odin",
+      "Hawkeye",
+      "Thor",
+      "Loki"
+    ],
+    "resposta_correta": 2,
+    "id": 50
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual longa de 1994 acompanha Forrest?",
+    "opcoes": [
+      "The Green Mile",
+      "Apollo 13",
+      "Cast Away",
+      "Forrest Gump"
+    ],
+    "resposta_correta": 3,
+    "id": 51
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é o nome do pai de Ariel?",
+    "opcoes": [
+      "King Triton",
+      "Sebastian",
+      "Flounder",
+      "Prince Eric"
+    ],
+    "resposta_correta": 0,
+    "id": 52
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual filme acompanha Indiana Jones?",
+    "opcoes": [
+      "The Prestige",
+      "Raiders of the Lost Ark",
+      "The Godfather",
+      "The Shining"
+    ],
+    "resposta_correta": 1,
+    "id": 53
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual é o nome da parceira de Mickey Mouse?",
+    "opcoes": [
+      "Elsa",
+      "Belle",
+      "Minnie Mouse",
+      "Daisy Duck"
+    ],
+    "resposta_correta": 2,
+    "id": 54
+  },
+  {
+    "nivel": "facil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme apresenta a personagem Amélie Poulain?",
+    "opcoes": [
+      "The Intouchables",
+      "La Haine",
+      "Blue Is the Warmest Color",
+      "Amélie"
+    ],
+    "resposta_correta": 3,
+    "id": 55
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Em Stranger Things, como se chama a rapariga com poderes?",
+    "opcoes": [
+      "Eleven",
+      "Max",
+      "Nancy",
+      "Robin"
+    ],
+    "resposta_correta": 0,
+    "id": 56
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é a cidade principal de Stranger Things?",
+    "opcoes": [
+      "Smallville",
+      "Hawkins",
+      "Riverdale",
+      "Sunnydale"
+    ],
+    "resposta_correta": 1,
+    "id": 57
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, quem é o protagonista de Breaking Bad?",
+    "opcoes": [
+      "Saul Goodman",
+      "Hank Schrader",
+      "Walter White",
+      "Jesse Pinkman"
+    ],
+    "resposta_correta": 2,
+    "id": 58
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é a profissão inicial de Walter White?",
+    "opcoes": [
+      "Advogado",
+      "Polícia",
+      "Jornalista",
+      "Professor de química"
+    ],
+    "resposta_correta": 3,
+    "id": 59
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Em Friends, qual personagem é paleontólogo?",
+    "opcoes": [
+      "Ross Geller",
+      "Chandler Bing",
+      "Joey Tribbiani",
+      "Mike Hannigan"
+    ],
+    "resposta_correta": 0,
+    "id": 60
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual personagem de Friends trabalha como chef?",
+    "opcoes": [
+      "Janice Litman",
+      "Monica Geller",
+      "Rachel Green",
+      "Phoebe Buffay"
+    ],
+    "resposta_correta": 1,
+    "id": 61
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, onde os amigos de Friends costumam reunir-se?",
+    "opcoes": [
+      "Monk’s Café",
+      "Luke’s Diner",
+      "Central Perk",
+      "MacLaren’s Pub"
+    ],
+    "resposta_correta": 2,
+    "id": 62
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual família de Game of Thrones usa “Winter is Coming”?",
+    "opcoes": [
+      "House Lannister",
+      "House Targaryen",
+      "House Tyrell",
+      "House Stark"
+    ],
+    "resposta_correta": 3,
+    "id": 63
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Quem é conhecida como Mother of Dragons?",
+    "opcoes": [
+      "Daenerys Targaryen",
+      "Cersei Lannister",
+      "Sansa Stark",
+      "Arya Stark"
+    ],
+    "resposta_correta": 0,
+    "id": 64
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: como é chamado o líder do assalto em La Casa de Papel?",
+    "opcoes": [
+      "The Colonel",
+      "The Professor",
+      "Berlin",
+      "Denver"
+    ],
+    "resposta_correta": 1,
+    "id": 65
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o nome da protagonista de Wednesday?",
+    "opcoes": [
+      "Morticia Addams",
+      "Bianca Barclay",
+      "Wednesday Addams",
+      "Enid Sinclair"
+    ],
+    "resposta_correta": 2,
+    "id": 66
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: em The Office (EUA), quem é gerente de Scranton?",
+    "opcoes": [
+      "Jim Halpert",
+      "Dwight Schrute",
+      "Andy Bernard",
+      "Michael Scott"
+    ],
+    "resposta_correta": 3,
+    "id": 67
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual série acompanha a família Simpson?",
+    "opcoes": [
+      "The Simpsons",
+      "Family Guy",
+      "Futurama",
+      "South Park"
+    ],
+    "resposta_correta": 0,
+    "id": 68
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é a cidade dos Simpsons?",
+    "opcoes": [
+      "South Park",
+      "Springfield",
+      "Shelbyville",
+      "Quahog"
+    ],
+    "resposta_correta": 1,
+    "id": 69
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, em The Last of Us, quem acompanha Joel?",
+    "opcoes": [
+      "Tess",
+      "Marlene",
+      "Ellie",
+      "Sarah"
+    ],
+    "resposta_correta": 2,
+    "id": 70
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: quem é protagonista titular de Sherlock?",
+    "opcoes": [
+      "John Watson",
+      "Mycroft Holmes",
+      "Greg Lestrade",
+      "Sherlock Holmes"
+    ],
+    "resposta_correta": 3,
+    "id": 71
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual série tem o advogado Saul Goodman?",
+    "opcoes": [
+      "Better Call Saul",
+      "Suits",
+      "Ozark",
+      "Mad Men"
+    ],
+    "resposta_correta": 0,
+    "id": 72
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: em The Mandalorian, quem é chamado de Baby Yoda?",
+    "opcoes": [
+      "Greef Karga",
+      "Grogu",
+      "Moff Gideon",
+      "Din Djarin"
+    ],
+    "resposta_correta": 1,
+    "id": 73
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série acompanha a família real britânica dramatizada?",
+    "opcoes": [
+      "Downton Abbey",
+      "The Tudors",
+      "The Crown",
+      "Bridgerton"
+    ],
+    "resposta_correta": 2,
+    "id": 74
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: em Bridgerton, quem narra os acontecimentos?",
+    "opcoes": [
+      "Lady Danbury",
+      "Violet Bridgerton",
+      "Queen Charlotte",
+      "Lady Whistledown"
+    ],
+    "resposta_correta": 3,
+    "id": 75
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual é o nome do bruxo protagonista de The Witcher?",
+    "opcoes": [
+      "Geralt of Rivia",
+      "Jaskier",
+      "Vesemir",
+      "Emhyr"
+    ],
+    "resposta_correta": 0,
+    "id": 76
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual personagem de Avatar: The Last Airbender é o Avatar?",
+    "opcoes": [
+      "Iroh",
+      "Aang",
+      "Zuko",
+      "Sokka"
+    ],
+    "resposta_correta": 1,
+    "id": 77
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, quem pretende tornar-se Rei dos Piratas em One Piece?",
+    "opcoes": [
+      "Sanji",
+      "Usopp",
+      "Monkey D. Luffy",
+      "Roronoa Zoro"
+    ],
+    "resposta_correta": 2,
+    "id": 78
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual série tem Sheldon Cooper?",
+    "opcoes": [
+      "Young Sheldon",
+      "How I Met Your Mother",
+      "Community",
+      "The Big Bang Theory"
+    ],
+    "resposta_correta": 3,
+    "id": 79
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual série acompanha o assassino que trabalha como analista forense?",
+    "opcoes": [
+      "Dexter",
+      "You",
+      "Hannibal",
+      "Mindhunter"
+    ],
+    "resposta_correta": 0,
+    "id": 80
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o nome do protagonista de Peaky Blinders?",
+    "opcoes": [
+      "Michael Gray",
+      "Thomas Shelby",
+      "Arthur Shelby",
+      "Alfie Solomons"
+    ],
+    "resposta_correta": 1,
+    "id": 81
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série espanhola acompanha estudantes de escola de elite?",
+    "opcoes": [
+      "The Pier",
+      "Sky Rojo",
+      "Élite",
+      "Vis a Vis"
+    ],
+    "resposta_correta": 2,
+    "id": 82
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual série sul-africana acompanha adolescentes numa escola de elite?",
+    "opcoes": [
+      "Queen Sono",
+      "Jiva!",
+      "How to Ruin Christmas",
+      "Blood & Water"
+    ],
+    "resposta_correta": 3,
+    "id": 83
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual série africana tem a espiã Queen Sono?",
+    "opcoes": [
+      "Queen Sono",
+      "Blood & Water",
+      "Savage Beauty",
+      "Jiva!"
+    ],
+    "resposta_correta": 0,
+    "id": 84
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: em Squid Game, qual jogo usa uma boneca gigante?",
+    "opcoes": [
+      "Marbles",
+      "Red Light, Green Light",
+      "Dalgona",
+      "Tug of War"
+    ],
+    "resposta_correta": 1,
+    "id": 85
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série tem a personagem Rue Bennett?",
+    "opcoes": [
+      "Gossip Girl",
+      "Normal People",
+      "Euphoria",
+      "Skins"
+    ],
+    "resposta_correta": 2,
+    "id": 86
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: em The Bear, qual é o negócio central?",
+    "opcoes": [
+      "Uma escola",
+      "Um jornal",
+      "Um hotel",
+      "Um restaurante"
+    ],
+    "resposta_correta": 3,
+    "id": 87
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual série animada tem Rick e Morty?",
+    "opcoes": [
+      "Rick and Morty",
+      "BoJack Horseman",
+      "Archer",
+      "Invincible"
+    ],
+    "resposta_correta": 0,
+    "id": 88
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: em The Queen’s Gambit, qual jogo Beth domina?",
+    "opcoes": [
+      "Damas",
+      "Xadrez",
+      "Poker",
+      "Go"
+    ],
+    "resposta_correta": 1,
+    "id": 89
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série policial acompanha Raymond Holt?",
+    "opcoes": [
+      "CSI",
+      "NCIS",
+      "Brooklyn Nine-Nine",
+      "The Wire"
+    ],
+    "resposta_correta": 2,
+    "id": 90
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: em Loki, o protagonista é uma versão de que personagem?",
+    "opcoes": [
+      "Thor",
+      "Odin",
+      "Heimdall",
+      "Loki"
+    ],
+    "resposta_correta": 3,
+    "id": 91
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Em Dark, a história envolve principalmente?",
+    "opcoes": [
+      "Viagens no tempo",
+      "Super-heróis",
+      "Zumbis",
+      "Piratas"
+    ],
+    "resposta_correta": 0,
+    "id": 92
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o sobrenome da família central de The Simpsons?",
+    "opcoes": [
+      "Hill",
+      "Simpson",
+      "Griffin",
+      "Belcher"
+    ],
+    "resposta_correta": 1,
+    "id": 93
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, em The Office, qual é o nome da empresa de papel?",
+    "opcoes": [
+      "Vance Refrigeration",
+      "Sabre",
+      "Dunder Mifflin",
+      "Wernham Hogg"
+    ],
+    "resposta_correta": 2,
+    "id": 94
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual série tem BoJack como cavalo ator?",
+    "opcoes": [
+      "Archer",
+      "F Is for Family",
+      "Big Mouth",
+      "BoJack Horseman"
+    ],
+    "resposta_correta": 3,
+    "id": 95
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Em House, qual é a especialidade do médico titular?",
+    "opcoes": [
+      "Diagnóstico",
+      "Cirurgia cardíaca",
+      "Pediatria",
+      "Psiquiatria"
+    ],
+    "resposta_correta": 0,
+    "id": 96
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual série tem a personagem June Osborne?",
+    "opcoes": [
+      "Normal People",
+      "The Handmaid’s Tale",
+      "The Morning Show",
+      "The Newsroom"
+    ],
+    "resposta_correta": 1,
+    "id": 97
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série apresenta o episódio “The Constant”?",
+    "opcoes": [
+      "The Leftovers",
+      "Fringe",
+      "Lost",
+      "Dark"
+    ],
+    "resposta_correta": 2,
+    "id": 98
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual sitcom acompanha Jerry, George, Elaine e Kramer?",
+    "opcoes": [
+      "Frasier",
+      "Cheers",
+      "Curb Your Enthusiasm",
+      "Seinfeld"
+    ],
+    "resposta_correta": 3,
+    "id": 99
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual série tem os personagens Fleabag e Claire?",
+    "opcoes": [
+      "Fleabag",
+      "Killing Eve",
+      "I May Destroy You",
+      "Normal People"
+    ],
+    "resposta_correta": 0,
+    "id": 100
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual série tem Jon Snow?",
+    "opcoes": [
+      "Spartacus",
+      "Game of Thrones",
+      "Vikings",
+      "The Last Kingdom"
+    ],
+    "resposta_correta": 1,
+    "id": 101
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série acompanha a família Roy?",
+    "opcoes": [
+      "Industry",
+      "The Newsroom",
+      "Succession",
+      "Billions"
+    ],
+    "resposta_correta": 2,
+    "id": 102
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual série tem o grupo The 100?",
+    "opcoes": [
+      "Lost",
+      "Terra Nova",
+      "Manifest",
+      "The 100"
+    ],
+    "resposta_correta": 3,
+    "id": 103
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual é o nome do líder dos Seven em The Boys?",
+    "opcoes": [
+      "Homelander",
+      "Butcher",
+      "Hughie Campbell",
+      "A-Train"
+    ],
+    "resposta_correta": 0,
+    "id": 104
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual série tem a organização Lumon Industries?",
+    "opcoes": [
+      "Upload",
+      "Severance",
+      "Westworld",
+      "Black Mirror"
+    ],
+    "resposta_correta": 1,
+    "id": 105
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual episódio de Black Mirror acompanha uma avaliação social por estrelas?",
+    "opcoes": [
+      "San Junipero",
+      "Shut Up and Dance",
+      "Nosedive",
+      "White Bear"
+    ],
+    "resposta_correta": 2,
+    "id": 106
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual série acompanha a família Gallagher?",
+    "opcoes": [
+      "This Is Us",
+      "The Fosters",
+      "The Affair",
+      "Shameless"
+    ],
+    "resposta_correta": 3,
+    "id": 107
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual série tem os sobreviventes de um voo da Oceanic Airlines?",
+    "opcoes": [
+      "Lost",
+      "Manifest",
+      "Yellowjackets",
+      "The Wilds"
+    ],
+    "resposta_correta": 0,
+    "id": 108
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual série se passa no hospital Grey Sloan Memorial?",
+    "opcoes": [
+      "The Good Doctor",
+      "Grey’s Anatomy",
+      "House",
+      "ER"
+    ],
+    "resposta_correta": 1,
+    "id": 109
+  },
+  {
+    "nivel": "facil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série tem o detetive Hercule Poirot?",
+    "opcoes": [
+      "Dexter",
+      "Monk",
+      "Agatha Christie’s Poirot",
+      "Luther"
+    ],
+    "resposta_correta": 2,
+    "id": 110
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem cantou Thriller?",
+    "opcoes": [
+      "Prince",
+      "Elton John",
+      "Bruno Mars",
+      "Michael Jackson"
+    ],
+    "resposta_correta": 3,
+    "id": 111
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual cantora lançou o álbum 21?",
+    "opcoes": [
+      "Adele",
+      "Beyoncé",
+      "Rihanna",
+      "Shakira"
+    ],
+    "resposta_correta": 0,
+    "id": 112
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem é conhecido como King of Pop?",
+    "opcoes": [
+      "Stevie Wonder",
+      "Michael Jackson",
+      "Justin Timberlake",
+      "Usher"
+    ],
+    "resposta_correta": 1,
+    "id": 113
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual grupo cantou Bohemian Rhapsody?",
+    "opcoes": [
+      "Oasis",
+      "Coldplay",
+      "Queen",
+      "The Beatles"
+    ],
+    "resposta_correta": 2,
+    "id": 114
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem cantou Shape of You?",
+    "opcoes": [
+      "Sam Smith",
+      "Harry Styles",
+      "Shawn Mendes",
+      "Ed Sheeran"
+    ],
+    "resposta_correta": 3,
+    "id": 115
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual cantora é conhecida pelo álbum Lemonade?",
+    "opcoes": [
+      "Beyoncé",
+      "Adele",
+      "Taylor Swift",
+      "Lady Gaga"
+    ],
+    "resposta_correta": 0,
+    "id": 116
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem cantou Despacito com Luis Fonsi?",
+    "opcoes": [
+      "Maluma",
+      "Daddy Yankee",
+      "Bad Bunny",
+      "J Balvin"
+    ],
+    "resposta_correta": 1,
+    "id": 117
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual cantora portuguesa é famosa pelo fado?",
+    "opcoes": [
+      "Sia",
+      "Dua Lipa",
+      "Amália Rodrigues",
+      "Mariza"
+    ],
+    "resposta_correta": 2,
+    "id": 118
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual cantora moçambicana é associada à marrabenta?",
+    "opcoes": [
+      "Lizha James",
+      "Dama do Bling",
+      "Sabrina Mahara",
+      "Mingas"
+    ],
+    "resposta_correta": 3,
+    "id": 119
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual cantor angolano lançou Não Me Toca?",
+    "opcoes": [
+      "Anselmo Ralph",
+      "Nelson Freitas",
+      "C4 Pedro",
+      "Dino D’Santiago"
+    ],
+    "resposta_correta": 0,
+    "id": 120
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual prémio tem uma estatueta de gramofone?",
+    "opcoes": [
+      "Tonys",
+      "Grammy Awards",
+      "Oscars",
+      "Emmys"
+    ],
+    "resposta_correta": 1,
+    "id": 121
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: no Minecraft, o jogador constrói com?",
+    "opcoes": [
+      "Pistas",
+      "Peças de xadrez",
+      "Blocos",
+      "Cartas"
+    ],
+    "resposta_correta": 2,
+    "id": 122
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual jogo tem modo Battle Royale e uma tempestade?",
+    "opcoes": [
+      "Tetris",
+      "The Sims",
+      "FIFA",
+      "Fortnite"
+    ],
+    "resposta_correta": 3,
+    "id": 123
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual empresa publica Grand Theft Auto?",
+    "opcoes": [
+      "Rockstar Games",
+      "Nintendo",
+      "Valve",
+      "Ubisoft"
+    ],
+    "resposta_correta": 0,
+    "id": 124
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual criatura amarela é mascote de Pokémon?",
+    "opcoes": [
+      "Meowth",
+      "Pikachu",
+      "Eevee",
+      "Charmander"
+    ],
+    "resposta_correta": 1,
+    "id": 125
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual anime acompanha Naruto Uzumaki?",
+    "opcoes": [
+      "One Piece",
+      "Yu Yu Hakusho",
+      "Naruto",
+      "Bleach"
+    ],
+    "resposta_correta": 2,
+    "id": 126
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem pretende ser Rei dos Piratas em One Piece?",
+    "opcoes": [
+      "Goku",
+      "Naruto",
+      "Ichigo",
+      "Monkey D. Luffy"
+    ],
+    "resposta_correta": 3,
+    "id": 127
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: que esfera mágica dá nome a Dragon Ball?",
+    "opcoes": [
+      "Dragon Ball",
+      "Poké Ball",
+      "Chaos Emerald",
+      "Power Stone"
+    ],
+    "resposta_correta": 0,
+    "id": 128
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual anime tem Tanjiro e Nezuko?",
+    "opcoes": [
+      "Fairy Tail",
+      "Demon Slayer",
+      "Jujutsu Kaisen",
+      "Bleach"
+    ],
+    "resposta_correta": 1,
+    "id": 129
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: em Attack on Titan, a humanidade vive protegida por?",
+    "opcoes": [
+      "Naves",
+      "Montanhas artificiais",
+      "Muralhas",
+      "Cúpulas de vidro"
+    ],
+    "resposta_correta": 2,
+    "id": 130
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual jogo de futebol foi conhecido como FIFA?",
+    "opcoes": [
+      "Football Manager",
+      "eFootball",
+      "Rocket League",
+      "EA Sports FC"
+    ],
+    "resposta_correta": 3,
+    "id": 131
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual plataforma é associada ao jogo Roblox?",
+    "opcoes": [
+      "Roblox",
+      "Steam",
+      "Twitch",
+      "Discord"
+    ],
+    "resposta_correta": 0,
+    "id": 132
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem cantou Ai Se Eu Te Pego?",
+    "opcoes": [
+      "Wesley Safadão",
+      "Michel Teló",
+      "Gusttavo Lima",
+      "Luan Santana"
+    ],
+    "resposta_correta": 1,
+    "id": 133
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual cantora brasileira lançou Show das Poderosas?",
+    "opcoes": [
+      "Ludmilla",
+      "Claudia Leitte",
+      "Anitta",
+      "Ivete Sangalo"
+    ],
+    "resposta_correta": 2,
+    "id": 134
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem cantou Waka Waka?",
+    "opcoes": [
+      "Rihanna",
+      "Katy Perry",
+      "Jennifer Lopez",
+      "Shakira"
+    ],
+    "resposta_correta": 3,
+    "id": 135
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual artista nigeriano é conhecido por Ye?",
+    "opcoes": [
+      "Burna Boy",
+      "Wizkid",
+      "Davido",
+      "Rema"
+    ],
+    "resposta_correta": 0,
+    "id": 136
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, que estilo sul-africano se tornou fenómeno global?",
+    "opcoes": [
+      "Reggae",
+      "Amapiano",
+      "Fado",
+      "Forró"
+    ],
+    "resposta_correta": 1,
+    "id": 137
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual cantor cabo-verdiano é associado a Sodade?",
+    "opcoes": [
+      "Koffi Olomidé",
+      "Fally Ipupa",
+      "Cesária Évora",
+      "Bonga"
+    ],
+    "resposta_correta": 2,
+    "id": 138
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual jogo tem Mario e Luigi?",
+    "opcoes": [
+      "Sonic the Hedgehog",
+      "Zelda",
+      "Kirby",
+      "Super Mario"
+    ],
+    "resposta_correta": 3,
+    "id": 139
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual bloco do Minecraft é famoso por explodir?",
+    "opcoes": [
+      "Creeper",
+      "Zombie",
+      "Skeleton",
+      "Enderman"
+    ],
+    "resposta_correta": 0,
+    "id": 140
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, em Fortnite, de onde saltam os jogadores?",
+    "opcoes": [
+      "Castelo",
+      "Battle Bus",
+      "Comboio",
+      "Submarino"
+    ],
+    "resposta_correta": 1,
+    "id": 141
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é a evolução de Charmander?",
+    "opcoes": [
+      "Squirtle",
+      "Bulbasaur",
+      "Charmeleon",
+      "Charizard"
+    ],
+    "resposta_correta": 2,
+    "id": 142
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual personagem de Dragon Ball usa uniforme laranja?",
+    "opcoes": [
+      "Vegeta",
+      "Piccolo",
+      "Krillin",
+      "Goku"
+    ],
+    "resposta_correta": 3,
+    "id": 143
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é o nome da aldeia de Naruto?",
+    "opcoes": [
+      "Konohagakure",
+      "Soul Society",
+      "Marineford",
+      "Wano"
+    ],
+    "resposta_correta": 0,
+    "id": 144
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual objeto captura Pokémon?",
+    "opcoes": [
+      "Batarang",
+      "Poké Ball",
+      "Master Sword",
+      "Nether Star"
+    ],
+    "resposta_correta": 1,
+    "id": 145
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: quem canta Rolling in the Deep?",
+    "opcoes": [
+      "Sia",
+      "Florence Welch",
+      "Adele",
+      "Amy Winehouse"
+    ],
+    "resposta_correta": 2,
+    "id": 146
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual cantor canadiano lançou Sorry?",
+    "opcoes": [
+      "The Weeknd",
+      "Drake",
+      "Shawn Mendes",
+      "Justin Bieber"
+    ],
+    "resposta_correta": 3,
+    "id": 147
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual banda tem John, Paul, George e Ringo?",
+    "opcoes": [
+      "The Beatles",
+      "The Rolling Stones",
+      "ABBA",
+      "U2"
+    ],
+    "resposta_correta": 0,
+    "id": 148
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem venceu o primeiro Eurovision por Portugal?",
+    "opcoes": [
+      "Maro",
+      "Salvador Sobral",
+      "Amália Rodrigues",
+      "Carlos do Carmo"
+    ],
+    "resposta_correta": 1,
+    "id": 149
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual meme mostra uma mulher a discutir com um gato?",
+    "opcoes": [
+      "Doge",
+      "Pepe the Frog",
+      "Woman Yelling at a Cat",
+      "Success Kid"
+    ],
+    "resposta_correta": 2,
+    "id": 150
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual jogo é conhecido por peças que caem e formam linhas?",
+    "opcoes": [
+      "Minecraft",
+      "Pac-Man",
+      "Fortnite",
+      "Tetris"
+    ],
+    "resposta_correta": 3,
+    "id": 151
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual personagem é o ouriço azul da Sega?",
+    "opcoes": [
+      "Sonic",
+      "Crash Bandicoot",
+      "Pikachu",
+      "Kirby"
+    ],
+    "resposta_correta": 0,
+    "id": 152
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual cantora lançou Future Nostalgia?",
+    "opcoes": [
+      "Camila Cabello",
+      "Dua Lipa",
+      "Selena Gomez",
+      "Miley Cyrus"
+    ],
+    "resposta_correta": 1,
+    "id": 153
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual rapper sul-africano usava o nome AKA?",
+    "opcoes": [
+      "Cassper Nyovest",
+      "Black Coffee",
+      "Kiernan Forbes",
+      "Nasty C"
+    ],
+    "resposta_correta": 2,
+    "id": 154
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual cantor moçambicano é associado ao pandza?",
+    "opcoes": [
+      "Stewart Sukuma",
+      "Bonga",
+      "Caló Pascoal",
+      "Ziqo"
+    ],
+    "resposta_correta": 3,
+    "id": 155
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é a cidade de GTA V?",
+    "opcoes": [
+      "Los Santos",
+      "Liberty City",
+      "Vice City",
+      "San Fierro"
+    ],
+    "resposta_correta": 0,
+    "id": 156
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual anime tem Ichigo Kurosaki?",
+    "opcoes": [
+      "Death Note",
+      "Bleach",
+      "Naruto",
+      "One Piece"
+    ],
+    "resposta_correta": 1,
+    "id": 157
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual anime tem um caderno que mata ao escrever nomes?",
+    "opcoes": [
+      "One Punch Man",
+      "Sailor Moon",
+      "Death Note",
+      "Monster"
+    ],
+    "resposta_correta": 2,
+    "id": 158
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual tipo é associado a Pikachu?",
+    "opcoes": [
+      "Fogo",
+      "Água",
+      "Psíquico",
+      "Elétrico"
+    ],
+    "resposta_correta": 3,
+    "id": 159
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: quem canta Hello?",
+    "opcoes": [
+      "Adele",
+      "Jessie J",
+      "Leona Lewis",
+      "Paloma Faith"
+    ],
+    "resposta_correta": 0,
+    "id": 160
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem cantou Uptown Funk com Mark Ronson?",
+    "opcoes": [
+      "Usher",
+      "Bruno Mars",
+      "The Weeknd",
+      "Pharrell Williams"
+    ],
+    "resposta_correta": 1,
+    "id": 161
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual prémio distingue videoclipes da MTV?",
+    "opcoes": [
+      "BET Awards",
+      "Billboard Music Awards",
+      "MTV Video Music Awards",
+      "Brit Awards"
+    ],
+    "resposta_correta": 2,
+    "id": 162
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual jogo de construção foi criado pela Mojang?",
+    "opcoes": [
+      "Fortnite",
+      "GTA V",
+      "The Sims",
+      "Minecraft"
+    ],
+    "resposta_correta": 3,
+    "id": 163
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual anime apresenta Rasengan?",
+    "opcoes": [
+      "Naruto",
+      "One Piece",
+      "Dragon Ball",
+      "Demon Slayer"
+    ],
+    "resposta_correta": 0,
+    "id": 164
+  },
+  {
+    "nivel": "facil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual cantora lançou Water em 2023?",
+    "opcoes": [
+      "Tiwa Savage",
+      "Tyla",
+      "Tems",
+      "Ayra Starr"
+    ],
+    "resposta_correta": 1,
+    "id": 165
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Em que ano estreou Back to the Future?",
+    "opcoes": [
+      "1989",
+      "1993",
+      "1985",
+      "1982"
+    ],
+    "resposta_correta": 2,
+    "id": 166
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: quem realizou Inception?",
+    "opcoes": [
+      "Denis Villeneuve",
+      "David Fincher",
+      "Ridley Scott",
+      "Christopher Nolan"
+    ],
+    "resposta_correta": 3,
+    "id": 167
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, que filme ganhou o Óscar de Melhor Filme na cerimónia de 2020?",
+    "opcoes": [
+      "Parasite",
+      "1917",
+      "Joker",
+      "Once Upon a Time in Hollywood"
+    ],
+    "resposta_correta": 0,
+    "id": 168
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: em The Dark Knight, quem interpretou o Joker?",
+    "opcoes": [
+      "Jared Leto",
+      "Heath Ledger",
+      "Joaquin Phoenix",
+      "Jack Nicholson"
+    ],
+    "resposta_correta": 1,
+    "id": 169
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual foi o primeiro filme do MCU?",
+    "opcoes": [
+      "Captain America: The First Avenger",
+      "Thor",
+      "Iron Man",
+      "The Avengers"
+    ],
+    "resposta_correta": 2,
+    "id": 170
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: quem realizou The Lord of the Rings?",
+    "opcoes": [
+      "James Cameron",
+      "Guillermo del Toro",
+      "Peter Weir",
+      "Peter Jackson"
+    ],
+    "resposta_correta": 3,
+    "id": 171
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme de 1999 tem Tyler Durden?",
+    "opcoes": [
+      "Fight Club",
+      "American Beauty",
+      "The Sixth Sense",
+      "The Green Mile"
+    ],
+    "resposta_correta": 0,
+    "id": 172
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual família é central em The Godfather?",
+    "opcoes": [
+      "Bonanno",
+      "Corleone",
+      "Soprano",
+      "Capone"
+    ],
+    "resposta_correta": 1,
+    "id": 173
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual atriz protagoniza Black Swan?",
+    "opcoes": [
+      "Anne Hathaway",
+      "Amy Adams",
+      "Natalie Portman",
+      "Mila Kunis"
+    ],
+    "resposta_correta": 2,
+    "id": 174
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: em Avatar, como se chama a lua dos Na’vi?",
+    "opcoes": [
+      "Endor",
+      "Arrakis",
+      "Krypton",
+      "Pandora"
+    ],
+    "resposta_correta": 3,
+    "id": 175
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem compôs a banda sonora de The Good, the Bad and the Ugly?",
+    "opcoes": [
+      "Ennio Morricone",
+      "Hans Zimmer",
+      "John Williams",
+      "Bernard Herrmann"
+    ],
+    "resposta_correta": 0,
+    "id": 176
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: em The Matrix, qual é a nave de Morpheus?",
+    "opcoes": [
+      "Serenity",
+      "Nebuchadnezzar",
+      "Millennium Falcon",
+      "Nostromo"
+    ],
+    "resposta_correta": 1,
+    "id": 177
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Quem interpreta Wolverine na maioria dos filmes X-Men?",
+    "opcoes": [
+      "Ian McKellen",
+      "James McAvoy",
+      "Hugh Jackman",
+      "Patrick Stewart"
+    ],
+    "resposta_correta": 2,
+    "id": 178
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: quem realizou Spirited Away?",
+    "opcoes": [
+      "Satoshi Kon",
+      "Makoto Shinkai",
+      "Isao Takahata",
+      "Hayao Miyazaki"
+    ],
+    "resposta_correta": 3,
+    "id": 179
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, em The Silence of the Lambs, quem entrevista Hannibal Lecter?",
+    "opcoes": [
+      "Clarice Starling",
+      "Marge Gunderson",
+      "Ellen Ripley",
+      "Dana Scully"
+    ],
+    "resposta_correta": 0,
+    "id": 180
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual realizador dirigiu Get Out?",
+    "opcoes": [
+      "Ryan Coogler",
+      "Jordan Peele",
+      "Spike Lee",
+      "Barry Jenkins"
+    ],
+    "resposta_correta": 1,
+    "id": 181
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual é a cidade de Blade Runner?",
+    "opcoes": [
+      "Seattle",
+      "New York",
+      "Los Angeles",
+      "Chicago"
+    ],
+    "resposta_correta": 2,
+    "id": 182
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: em Mad Max: Fury Road, quem conduz a fuga?",
+    "opcoes": [
+      "Max Rockatansky",
+      "Immortan Joe",
+      "Nux",
+      "Imperator Furiosa"
+    ],
+    "resposta_correta": 3,
+    "id": 183
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual atriz interpreta Evelyn Wang?",
+    "opcoes": [
+      "Michelle Yeoh",
+      "Awkwafina",
+      "Sandra Oh",
+      "Lucy Liu"
+    ],
+    "resposta_correta": 0,
+    "id": 184
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: que filme de Bong Joon-ho venceu Melhor Filme?",
+    "opcoes": [
+      "Memories of Murder",
+      "Parasite",
+      "Okja",
+      "Snowpiercer"
+    ],
+    "resposta_correta": 1,
+    "id": 185
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Em The Prestige, quais são os mágicos rivais?",
+    "opcoes": [
+      "Walt e Jesse",
+      "Ethan e Joel",
+      "Robert Angier e Alfred Borden",
+      "Victor e Hugo"
+    ],
+    "resposta_correta": 2,
+    "id": 186
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme apresenta Roy Batty?",
+    "opcoes": [
+      "Alien",
+      "Minority Report",
+      "Total Recall",
+      "Blade Runner"
+    ],
+    "resposta_correta": 3,
+    "id": 187
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem compôs a música principal de Star Wars?",
+    "opcoes": [
+      "John Williams",
+      "Danny Elfman",
+      "Howard Shore",
+      "James Horner"
+    ],
+    "resposta_correta": 0,
+    "id": 188
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual atriz ganhou Óscar por Edith Piaf?",
+    "opcoes": [
+      "Audrey Tautou",
+      "Marion Cotillard",
+      "Juliette Binoche",
+      "Isabelle Huppert"
+    ],
+    "resposta_correta": 1,
+    "id": 189
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Em The Departed, a ação decorre em?",
+    "opcoes": [
+      "Miami",
+      "Seattle",
+      "Boston",
+      "Los Angeles"
+    ],
+    "resposta_correta": 2,
+    "id": 190
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: quem realizou Roma?",
+    "opcoes": [
+      "Alejandro G. Iñárritu",
+      "Guillermo del Toro",
+      "Pedro Almodóvar",
+      "Alfonso Cuarón"
+    ],
+    "resposta_correta": 3,
+    "id": 191
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, em The Martian, onde fica preso Mark Watney?",
+    "opcoes": [
+      "Marte",
+      "Lua",
+      "Europa",
+      "Titã"
+    ],
+    "resposta_correta": 0,
+    "id": 192
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual filme acompanha Oskar Schindler?",
+    "opcoes": [
+      "Munich",
+      "Schindler’s List",
+      "Saving Private Ryan",
+      "Lincoln"
+    ],
+    "resposta_correta": 1,
+    "id": 193
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Quem interpretou Vito Corleone no primeiro Godfather?",
+    "opcoes": [
+      "Robert De Niro",
+      "James Caan",
+      "Marlon Brando",
+      "Al Pacino"
+    ],
+    "resposta_correta": 2,
+    "id": 194
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme apresenta Ellen Ripley?",
+    "opcoes": [
+      "The Terminator",
+      "Gravity",
+      "Contact",
+      "Alien"
+    ],
+    "resposta_correta": 3,
+    "id": 195
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, em The Social Network, qual plataforma é criada?",
+    "opcoes": [
+      "Facebook",
+      "Google",
+      "Twitter",
+      "Napster"
+    ],
+    "resposta_correta": 0,
+    "id": 196
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual ator interpreta Neo?",
+    "opcoes": [
+      "Christian Bale",
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Hugo Weaving"
+    ],
+    "resposta_correta": 1,
+    "id": 197
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Quem realizou Pan’s Labyrinth?",
+    "opcoes": [
+      "Pedro Almodóvar",
+      "J.A. Bayona",
+      "Guillermo del Toro",
+      "Alejandro Amenábar"
+    ],
+    "resposta_correta": 2,
+    "id": 198
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: que ator interpreta Aragorn?",
+    "opcoes": [
+      "Orlando Bloom",
+      "Sean Bean",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ],
+    "resposta_correta": 3,
+    "id": 199
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme tem a personagem Amélie Poulain?",
+    "opcoes": [
+      "Amélie",
+      "La Haine",
+      "The Intouchables",
+      "The Artist"
+    ],
+    "resposta_correta": 0,
+    "id": 200
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: quem realizou Psycho?",
+    "opcoes": [
+      "Fritz Lang",
+      "Alfred Hitchcock",
+      "Orson Welles",
+      "Billy Wilder"
+    ],
+    "resposta_correta": 1,
+    "id": 201
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual é o nome do hotel em The Grand Budapest Hotel?",
+    "opcoes": [
+      "The French Dispatch",
+      "The Darjeeling Limited",
+      "The Grand Budapest",
+      "The Royal Tenenbaums"
+    ],
+    "resposta_correta": 2,
+    "id": 202
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual personagem é “the Mockingjay”?",
+    "opcoes": [
+      "Peeta Mellark",
+      "Gale Hawthorne",
+      "Haymitch Abernathy",
+      "Katniss Everdeen"
+    ],
+    "resposta_correta": 3,
+    "id": 203
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme de 2014 venceu Melhor Filme?",
+    "opcoes": [
+      "12 Years a Slave",
+      "Gravity",
+      "American Hustle",
+      "Dallas Buyers Club"
+    ],
+    "resposta_correta": 0,
+    "id": 204
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: quem interpreta Elle Woods?",
+    "opcoes": [
+      "Jennifer Aniston",
+      "Reese Witherspoon",
+      "Cameron Diaz",
+      "Sandra Bullock"
+    ],
+    "resposta_correta": 1,
+    "id": 205
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual realizador assinou Pulp Fiction e Kill Bill?",
+    "opcoes": [
+      "Guy Ritchie",
+      "Paul Thomas Anderson",
+      "Quentin Tarantino",
+      "Robert Rodriguez"
+    ],
+    "resposta_correta": 2,
+    "id": 206
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme tem um parque com dinossauros clonados?",
+    "opcoes": [
+      "King Kong",
+      "Godzilla",
+      "The Lost World",
+      "Jurassic Park"
+    ],
+    "resposta_correta": 3,
+    "id": 207
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem realizou The Godfather?",
+    "opcoes": [
+      "Francis Ford Coppola",
+      "Martin Scorsese",
+      "Steven Spielberg",
+      "Brian De Palma"
+    ],
+    "resposta_correta": 0,
+    "id": 208
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual filme introduziu T’Challa no MCU?",
+    "opcoes": [
+      "Iron Man 3",
+      "Captain America: Civil War",
+      "Black Panther",
+      "Avengers: Age of Ultron"
+    ],
+    "resposta_correta": 1,
+    "id": 209
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual cidade aparece em Casablanca?",
+    "opcoes": [
+      "Rabat",
+      "Tangier",
+      "Casablanca",
+      "Marrakesh"
+    ],
+    "resposta_correta": 2,
+    "id": 210
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual longa Pixar se passa no Día de los Muertos?",
+    "opcoes": [
+      "Soul",
+      "Up",
+      "Turning Red",
+      "Coco"
+    ],
+    "resposta_correta": 3,
+    "id": 211
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem interpreta Jack Torrance?",
+    "opcoes": [
+      "Jack Nicholson",
+      "Dustin Hoffman",
+      "Gene Hackman",
+      "Christopher Walken"
+    ],
+    "resposta_correta": 0,
+    "id": 212
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual foi o primeiro Toy Story?",
+    "opcoes": [
+      "Toy Story 4 (2019)",
+      "Toy Story (1995)",
+      "Toy Story 2 (1999)",
+      "Toy Story 3 (2010)"
+    ],
+    "resposta_correta": 1,
+    "id": 213
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual ator interpreta Daniel Plainview?",
+    "opcoes": [
+      "Joaquin Phoenix",
+      "Philip Seymour Hoffman",
+      "Daniel Day-Lewis",
+      "Paul Dano"
+    ],
+    "resposta_correta": 2,
+    "id": 214
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual atriz interpreta Clarice Starling?",
+    "opcoes": [
+      "Sigourney Weaver",
+      "Julianne Moore",
+      "Glenn Close",
+      "Jodie Foster"
+    ],
+    "resposta_correta": 3,
+    "id": 215
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme de Spielberg acompanha Oskar Schindler?",
+    "opcoes": [
+      "Schindler’s List",
+      "Saving Private Ryan",
+      "Lincoln",
+      "Munich"
+    ],
+    "resposta_correta": 0,
+    "id": 216
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual realizador dirigiu City of God?",
+    "opcoes": [
+      "Kleber Mendonça Filho",
+      "Fernando Meirelles",
+      "Walter Salles",
+      "José Padilha"
+    ],
+    "resposta_correta": 1,
+    "id": 217
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual ator interpreta Travis Bickle?",
+    "opcoes": [
+      "Dustin Hoffman",
+      "Harvey Keitel",
+      "Robert De Niro",
+      "Al Pacino"
+    ],
+    "resposta_correta": 2,
+    "id": 218
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme apresenta a personagem Ellen Ripley?",
+    "opcoes": [
+      "The Terminator",
+      "Gravity",
+      "Contact",
+      "Alien"
+    ],
+    "resposta_correta": 3,
+    "id": 219
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual cineasta dirigiu Oldboy (2003)?",
+    "opcoes": [
+      "Park Chan-wook",
+      "Bong Joon-ho",
+      "Kim Jee-woon",
+      "Lee Chang-dong"
+    ],
+    "resposta_correta": 0,
+    "id": 220
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual filme de 1950 satiriza Hollywood?",
+    "opcoes": [
+      "The Apartment",
+      "Sunset Boulevard",
+      "Some Like It Hot",
+      "Double Indemnity"
+    ],
+    "resposta_correta": 1,
+    "id": 221
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Em que ano estreou Stranger Things?",
+    "opcoes": [
+      "2018",
+      "2020",
+      "2016",
+      "2014"
+    ],
+    "resposta_correta": 2,
+    "id": 222
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o laboratório ligado a Eleven?",
+    "opcoes": [
+      "Los Alamos Laboratory",
+      "Umbrella Academy",
+      "Weyland-Yutani",
+      "Hawkins National Laboratory"
+    ],
+    "resposta_correta": 3,
+    "id": 223
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o pseudónimo de Walter White?",
+    "opcoes": [
+      "Heisenberg",
+      "Cap’n Cook",
+      "Mr. White",
+      "The Chemist"
+    ],
+    "resposta_correta": 0,
+    "id": 224
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é o nome do irmão de Walter White?",
+    "opcoes": [
+      "Tuco Salamanca",
+      "Hank Schrader",
+      "Gus Fring",
+      "Mike Ehrmantraut"
+    ],
+    "resposta_correta": 1,
+    "id": 225
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é a irmã de Ross?",
+    "opcoes": [
+      "Phoebe",
+      "Janice",
+      "Monica",
+      "Rachel"
+    ],
+    "resposta_correta": 2,
+    "id": 226
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: onde Monica e Chandler se casam?",
+    "opcoes": [
+      "New York",
+      "London",
+      "Chicago",
+      "Las Vegas"
+    ],
+    "resposta_correta": 3,
+    "id": 227
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, quem mata o Night King?",
+    "opcoes": [
+      "Arya Stark",
+      "Jon Snow",
+      "Daenerys Targaryen",
+      "Brienne of Tarth"
+    ],
+    "resposta_correta": 0,
+    "id": 228
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual casa usa “Hear Me Roar”?",
+    "opcoes": [
+      "House Martell",
+      "House Lannister",
+      "House Stark",
+      "House Greyjoy"
+    ],
+    "resposta_correta": 1,
+    "id": 229
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é o nome real de The Professor?",
+    "opcoes": [
+      "Ricardo de Oliveira",
+      "Martín Berrote",
+      "Sergio Marquina",
+      "Andrés de Fonollosa"
+    ],
+    "resposta_correta": 2,
+    "id": 230
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: quem se casa com Jim Halpert?",
+    "opcoes": [
+      "Angela Martin",
+      "Erin Hannon",
+      "Karen Filippelli",
+      "Pam Beesly"
+    ],
+    "resposta_correta": 3,
+    "id": 231
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o nome do chefe de polícia em Stranger Things?",
+    "opcoes": [
+      "Jim Hopper",
+      "Murray Bauman",
+      "Bob Newby",
+      "Sam Owens"
+    ],
+    "resposta_correta": 0,
+    "id": 232
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: que fungo causa a pandemia em The Last of Us?",
+    "opcoes": [
+      "Penicillium",
+      "Cordyceps",
+      "Aspergillus",
+      "Candida"
+    ],
+    "resposta_correta": 1,
+    "id": 233
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é a relação inicial entre Joel e Ellie?",
+    "opcoes": [
+      "Irmãos",
+      "Polícia e testemunha",
+      "Contrabandista e passageira",
+      "Professor e aluna"
+    ],
+    "resposta_correta": 2,
+    "id": 234
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é a escola de Wednesday?",
+    "opcoes": [
+      "Ravenwood Institute",
+      "Briarcliff Academy",
+      "Blackwood School",
+      "Nevermore Academy"
+    ],
+    "resposta_correta": 3,
+    "id": 235
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, quem interpreta Wednesday?",
+    "opcoes": [
+      "Jenna Ortega",
+      "Christina Ricci",
+      "Emma Myers",
+      "Millie Bobby Brown"
+    ],
+    "resposta_correta": 0,
+    "id": 236
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é o dono da central nuclear de The Simpsons?",
+    "opcoes": [
+      "Principal Skinner",
+      "Montgomery Burns",
+      "Ned Flanders",
+      "Krusty the Clown"
+    ],
+    "resposta_correta": 1,
+    "id": 237
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Quem cultiva beterrabas em The Office?",
+    "opcoes": [
+      "Creed Bratton",
+      "Stanley Hudson",
+      "Dwight Schrute",
+      "Michael Scott"
+    ],
+    "resposta_correta": 2,
+    "id": 238
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: quem interpreta Elizabeth II nas temporadas 3 e 4 de The Crown?",
+    "opcoes": [
+      "Claire Foy",
+      "Imelda Staunton",
+      "Helen Mirren",
+      "Olivia Colman"
+    ],
+    "resposta_correta": 3,
+    "id": 239
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o nome de nascimento de Saul Goodman?",
+    "opcoes": [
+      "Jimmy McGill",
+      "Kim Wexler",
+      "Howard Hamlin",
+      "Chuck McGill"
+    ],
+    "resposta_correta": 0,
+    "id": 240
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é a profissão de Don Draper?",
+    "opcoes": [
+      "Professor",
+      "Publicitário",
+      "Médico",
+      "Advogado"
+    ],
+    "resposta_correta": 1,
+    "id": 241
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é o nome da nave de Din Djarin?",
+    "opcoes": [
+      "Rocinante",
+      "Serenity",
+      "Razor Crest",
+      "Millennium Falcon"
+    ],
+    "resposta_correta": 2,
+    "id": 242
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o nome da companhia aérea de Lost?",
+    "opcoes": [
+      "Pacific Air",
+      "Atlantic Airways",
+      "Island Air",
+      "Oceanic Airlines"
+    ],
+    "resposta_correta": 3,
+    "id": 243
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o trabalho de Dexter Morgan?",
+    "opcoes": [
+      "Analista de padrões de sangue",
+      "Detetive particular",
+      "Médico legista",
+      "Promotor"
+    ],
+    "resposta_correta": 0,
+    "id": 244
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: em Peaky Blinders, em que cidade atua a família Shelby?",
+    "opcoes": [
+      "Manchester",
+      "Birmingham",
+      "Liverpool",
+      "London"
+    ],
+    "resposta_correta": 1,
+    "id": 245
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é o nome da família de Succession?",
+    "opcoes": [
+      "Sopranos",
+      "Lannister",
+      "Roy",
+      "Murdoch"
+    ],
+    "resposta_correta": 2,
+    "id": 246
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual o número de Seong Gi-hun em Squid Game?",
+    "opcoes": [
+      "001",
+      "218",
+      "067",
+      "456"
+    ],
+    "resposta_correta": 3,
+    "id": 247
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é a área de Sheldon?",
+    "opcoes": [
+      "Física teórica",
+      "Biologia",
+      "Engenharia",
+      "Astronomia observacional"
+    ],
+    "resposta_correta": 0,
+    "id": 248
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual a patente de Raymond Holt?",
+    "opcoes": [
+      "Comissário",
+      "Capitão",
+      "Sargento",
+      "Detetive"
+    ],
+    "resposta_correta": 1,
+    "id": 249
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é a cidade de Dark?",
+    "opcoes": [
+      "Bonn",
+      "Essen",
+      "Winden",
+      "Wolfsburg"
+    ],
+    "resposta_correta": 2,
+    "id": 250
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: quem é o professor de ética em The Good Place?",
+    "opcoes": [
+      "Michael",
+      "Jason Mendoza",
+      "Tahani Al-Jamil",
+      "Chidi Anagonye"
+    ],
+    "resposta_correta": 3,
+    "id": 251
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o nome da empresa em Severance?",
+    "opcoes": [
+      "Lumon Industries",
+      "Massive Dynamic",
+      "InGen",
+      "Tyrell Corporation"
+    ],
+    "resposta_correta": 0,
+    "id": 252
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é o arquiteto do bairro em The Good Place?",
+    "opcoes": [
+      "Derek",
+      "Michael",
+      "Shawn",
+      "Chidi"
+    ],
+    "resposta_correta": 1,
+    "id": 253
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual série acompanha a família Gallagher?",
+    "opcoes": [
+      "The Fosters",
+      "The Affair",
+      "Shameless",
+      "This Is Us"
+    ],
+    "resposta_correta": 2,
+    "id": 254
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual personagem é líder dos Seven?",
+    "opcoes": [
+      "Butcher",
+      "Hughie Campbell",
+      "A-Train",
+      "Homelander"
+    ],
+    "resposta_correta": 3,
+    "id": 255
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, quem é a protagonista de Orphan Black?",
+    "opcoes": [
+      "Sarah Manning",
+      "Cosima Niehaus",
+      "Alison Hendrix",
+      "Rachel Duncan"
+    ],
+    "resposta_correta": 0,
+    "id": 256
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: como são chamadas as mulheres férteis em The Handmaid’s Tale?",
+    "opcoes": [
+      "Econowives",
+      "Handmaids",
+      "Marthas",
+      "Wives"
+    ],
+    "resposta_correta": 1,
+    "id": 257
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Quem ensina Beth no orfanato?",
+    "opcoes": [
+      "Harry Beltik",
+      "Townes",
+      "Mr. Shaibel",
+      "Benny Watts"
+    ],
+    "resposta_correta": 2,
+    "id": 258
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o grupo que procura cura em The Last of Us?",
+    "opcoes": [
+      "Hunters",
+      "Seraphites",
+      "WLF",
+      "Fireflies"
+    ],
+    "resposta_correta": 3,
+    "id": 259
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, quem é o Imp de Game of Thrones?",
+    "opcoes": [
+      "Tyrion Lannister",
+      "Jaime Lannister",
+      "Varys",
+      "Petyr Baelish"
+    ],
+    "resposta_correta": 0,
+    "id": 260
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual era o macaco de Ross?",
+    "opcoes": [
+      "Hugsy",
+      "Marcel",
+      "Gunther",
+      "Chappy"
+    ],
+    "resposta_correta": 1,
+    "id": 261
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é a cidade principal de The Wire?",
+    "opcoes": [
+      "Chicago",
+      "Philadelphia",
+      "Baltimore",
+      "Detroit"
+    ],
+    "resposta_correta": 2,
+    "id": 262
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: em The Americans, os protagonistas trabalham secretamente para?",
+    "opcoes": [
+      "CIA",
+      "MI6",
+      "Mossad",
+      "KGB"
+    ],
+    "resposta_correta": 3,
+    "id": 263
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o título do episódio final de Breaking Bad?",
+    "opcoes": [
+      "Felina",
+      "Ozymandias",
+      "Granite State",
+      "Face Off"
+    ],
+    "resposta_correta": 0,
+    "id": 264
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual episódio de Game of Thrones contém o Casamento Vermelho?",
+    "opcoes": [
+      "The Watchers on the Wall",
+      "The Rains of Castamere",
+      "Blackwater",
+      "The Lion and the Rose"
+    ],
+    "resposta_correta": 1,
+    "id": 265
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é o título do episódio final de Friends?",
+    "opcoes": [
+      "The One After I Do",
+      "The One with the Proposal",
+      "The Last One",
+      "The One with Ross’s Wedding"
+    ],
+    "resposta_correta": 2,
+    "id": 266
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual episódio de Black Mirror se passa em San Junipero?",
+    "opcoes": [
+      "USS Callister",
+      "Hang the DJ",
+      "Metalhead",
+      "San Junipero"
+    ],
+    "resposta_correta": 3,
+    "id": 267
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o nome da prisão de Orange Is the New Black?",
+    "opcoes": [
+      "Litchfield Penitentiary",
+      "Rikers Island",
+      "Folsom State",
+      "Black Dolphin"
+    ],
+    "resposta_correta": 0,
+    "id": 268
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é o nome de nascimento de Offred?",
+    "opcoes": [
+      "Janine Lindo",
+      "June Osborne",
+      "Serena Joy",
+      "Emily Malek"
+    ],
+    "resposta_correta": 1,
+    "id": 269
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é o título do episódio final de The Sopranos?",
+    "opcoes": [
+      "Long Term Parking",
+      "Funhouse",
+      "Made in America",
+      "The Blue Comet"
+    ],
+    "resposta_correta": 2,
+    "id": 270
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual série tem Kim Wexler?",
+    "opcoes": [
+      "The Good Wife",
+      "Suits",
+      "Damages",
+      "Better Call Saul"
+    ],
+    "resposta_correta": 3,
+    "id": 271
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual cantora lançou Back to Black?",
+    "opcoes": [
+      "Amy Winehouse",
+      "Adele",
+      "Duffy",
+      "Norah Jones"
+    ],
+    "resposta_correta": 0,
+    "id": 272
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: quem lançou Uptown Funk com Mark Ronson?",
+    "opcoes": [
+      "Calvin Harris",
+      "Bruno Mars",
+      "Pharrell Williams",
+      "Drake"
+    ],
+    "resposta_correta": 1,
+    "id": 273
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual artista venceu o Grammy de Álbum do Ano por 1989?",
+    "opcoes": [
+      "Lady Gaga",
+      "Ariana Grande",
+      "Taylor Swift",
+      "Katy Perry"
+    ],
+    "resposta_correta": 2,
+    "id": 274
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual banda lançou The Dark Side of the Moon?",
+    "opcoes": [
+      "Led Zeppelin",
+      "The Who",
+      "Radiohead",
+      "Pink Floyd"
+    ],
+    "resposta_correta": 3,
+    "id": 275
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem está por trás de Blinding Lights?",
+    "opcoes": [
+      "The Weeknd",
+      "Post Malone",
+      "Frank Ocean",
+      "Drake"
+    ],
+    "resposta_correta": 0,
+    "id": 276
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual artista moçambicana lançou Mamana?",
+    "opcoes": [
+      "Sumbana",
+      "Mingas",
+      "Lizha James",
+      "Dama do Bling"
+    ],
+    "resposta_correta": 1,
+    "id": 277
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem é Black Coffee?",
+    "opcoes": [
+      "Master KG",
+      "Kabza De Small",
+      "Nkosinathi Maphumulo",
+      "Kiernan Forbes"
+    ],
+    "resposta_correta": 2,
+    "id": 278
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: quem lançou Essence com Tems?",
+    "opcoes": [
+      "Burna Boy",
+      "Davido",
+      "Rema",
+      "Wizkid"
+    ],
+    "resposta_correta": 3,
+    "id": 279
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual prémio reconhece sobretudo música britânica?",
+    "opcoes": [
+      "Brit Awards",
+      "Grammy Awards",
+      "Mercury Prize",
+      "Soul Train Awards"
+    ],
+    "resposta_correta": 0,
+    "id": 280
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual meme nasceu de um cão Shiba Inu?",
+    "opcoes": [
+      "Nyan Cat",
+      "Doge",
+      "Pepe",
+      "Trollface"
+    ],
+    "resposta_correta": 1,
+    "id": 281
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual dimensão contém Ender Dragon?",
+    "opcoes": [
+      "Overworld",
+      "Deep Dark",
+      "The End",
+      "The Nether"
+    ],
+    "resposta_correta": 2,
+    "id": 282
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual material é necessário para uma mesa de encantamentos?",
+    "opcoes": [
+      "Diamante apenas",
+      "Redstone apenas",
+      "Ferro",
+      "Obsidian"
+    ],
+    "resposta_correta": 3,
+    "id": 283
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual cidade inspirou Liberty City?",
+    "opcoes": [
+      "New York City",
+      "Los Angeles",
+      "Miami",
+      "Las Vegas"
+    ],
+    "resposta_correta": 0,
+    "id": 284
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é o protagonista de GTA San Andreas?",
+    "opcoes": [
+      "Michael De Santa",
+      "Carl “CJ” Johnson",
+      "Tommy Vercetti",
+      "Niko Bellic"
+    ],
+    "resposta_correta": 1,
+    "id": 285
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é a moeda de Roblox?",
+    "opcoes": [
+      "Minecoins",
+      "GTA Dollars",
+      "Robux",
+      "V-Bucks"
+    ],
+    "resposta_correta": 2,
+    "id": 286
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é a região de Pokémon Red e Blue?",
+    "opcoes": [
+      "Johto",
+      "Hoenn",
+      "Sinnoh",
+      "Kanto"
+    ],
+    "resposta_correta": 3,
+    "id": 287
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é o Pokémon Genético?",
+    "opcoes": [
+      "Mewtwo",
+      "Mew",
+      "Ditto",
+      "Genesect"
+    ],
+    "resposta_correta": 0,
+    "id": 288
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é a besta de nove caudas de Naruto?",
+    "opcoes": [
+      "Matatabi",
+      "Kurama",
+      "Shukaku",
+      "Gyuki"
+    ],
+    "resposta_correta": 1,
+    "id": 289
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é a organização criminosa de Naruto?",
+    "opcoes": [
+      "Phantom Troupe",
+      "Black Bulls",
+      "Akatsuki",
+      "Espada"
+    ],
+    "resposta_correta": 2,
+    "id": 290
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o espadachim da tripulação de Luffy?",
+    "opcoes": [
+      "Trafalgar Law",
+      "Portgas D. Ace",
+      "Shanks",
+      "Roronoa Zoro"
+    ],
+    "resposta_correta": 3,
+    "id": 291
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é a raça de Goku?",
+    "opcoes": [
+      "Saiyan",
+      "Namekian",
+      "Android",
+      "Human"
+    ],
+    "resposta_correta": 0,
+    "id": 292
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual transformação dourada é icónica em Dragon Ball?",
+    "opcoes": [
+      "Gear Second",
+      "Super Saiyan",
+      "Bankai",
+      "Sage Mode"
+    ],
+    "resposta_correta": 1,
+    "id": 293
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é a irmã de Tanjiro?",
+    "opcoes": [
+      "Mitsuri",
+      "Kanao",
+      "Nezuko",
+      "Shinobu"
+    ],
+    "resposta_correta": 2,
+    "id": 294
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual corpo explora o exterior das muralhas?",
+    "opcoes": [
+      "Military Police Brigade",
+      "Garrison Regiment",
+      "Demon Slayer Corps",
+      "Survey Corps"
+    ],
+    "resposta_correta": 3,
+    "id": 295
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual álbum é de Billie Eilish?",
+    "opcoes": [
+      "Happier Than Ever",
+      "Future Nostalgia",
+      "Lemonade",
+      "25"
+    ],
+    "resposta_correta": 0,
+    "id": 296
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual grupo lançou Dynamite?",
+    "opcoes": [
+      "TWICE",
+      "BTS",
+      "BLACKPINK",
+      "EXO"
+    ],
+    "resposta_correta": 1,
+    "id": 297
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual artista nigeriano lançou African Giant?",
+    "opcoes": [
+      "Davido",
+      "Fela Kuti",
+      "Burna Boy",
+      "Wizkid"
+    ],
+    "resposta_correta": 2,
+    "id": 298
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual cantor ugandês usa o nome Eddy Kenzo?",
+    "opcoes": [
+      "Bobi Wine",
+      "Vampino",
+      "Jose Chameleone",
+      "Edrisa Musuuza"
+    ],
+    "resposta_correta": 3,
+    "id": 299
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual género jamaicano precedeu o reggae?",
+    "opcoes": [
+      "Ska",
+      "Amapiano",
+      "Marrabenta",
+      "Kizomba"
+    ],
+    "resposta_correta": 0,
+    "id": 300
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: quem criou Hatsune Miku?",
+    "opcoes": [
+      "Studio Ghibli",
+      "Crypton Future Media",
+      "Nintendo",
+      "Bandai Namco"
+    ],
+    "resposta_correta": 1,
+    "id": 301
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual jogo acompanha Link e Zelda?",
+    "opcoes": [
+      "Metroid",
+      "Star Fox",
+      "The Legend of Zelda",
+      "Fire Emblem"
+    ],
+    "resposta_correta": 2,
+    "id": 302
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual modo de EA Sports FC gere equipas por épocas?",
+    "opcoes": [
+      "Ultimate Team",
+      "Volta Arcade",
+      "Kick-Off",
+      "Career Mode"
+    ],
+    "resposta_correta": 3,
+    "id": 303
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quais são os três protagonistas de GTA V?",
+    "opcoes": [
+      "Michael, Franklin e Trevor",
+      "Carl, Tommy e Niko",
+      "Arthur, John e Dutch",
+      "Joel, Ellie e Abby"
+    ],
+    "resposta_correta": 0,
+    "id": 304
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual Pokémon evolui de Pikachu com Thunder Stone?",
+    "opcoes": [
+      "Electabuzz",
+      "Raichu",
+      "Pichu",
+      "Plusle"
+    ],
+    "resposta_correta": 1,
+    "id": 305
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é o rival principal de Naruto na equipa 7?",
+    "opcoes": [
+      "Neji Hyuga",
+      "Shikamaru Nara",
+      "Sasuke Uchiha",
+      "Gaara"
+    ],
+    "resposta_correta": 2,
+    "id": 306
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o nome do navio após Going Merry?",
+    "opcoes": [
+      "Red Force",
+      "Moby Dick",
+      "Polar Tang",
+      "Thousand Sunny"
+    ],
+    "resposta_correta": 3,
+    "id": 307
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem é o príncipe dos Saiyans?",
+    "opcoes": [
+      "Vegeta",
+      "Gohan",
+      "Broly",
+      "Trunks"
+    ],
+    "resposta_correta": 0,
+    "id": 308
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual técnica é onda de energia de Goku?",
+    "opcoes": [
+      "Fire Style",
+      "Kamehameha",
+      "Rasengan",
+      "Getsuga Tensho"
+    ],
+    "resposta_correta": 1,
+    "id": 309
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é o título dos espadachins de elite de Demon Slayer?",
+    "opcoes": [
+      "Jonin",
+      "Quincy",
+      "Hashira",
+      "Kage"
+    ],
+    "resposta_correta": 2,
+    "id": 310
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o Titã de Armin?",
+    "opcoes": [
+      "Armored Titan",
+      "Beast Titan",
+      "Female Titan",
+      "Colossal Titan"
+    ],
+    "resposta_correta": 3,
+    "id": 311
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é a ilha natal de Eren?",
+    "opcoes": [
+      "Paradis",
+      "Marley",
+      "Hizuru",
+      "Ragako"
+    ],
+    "resposta_correta": 0,
+    "id": 312
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual cantora lançou The Miseducation of Lauryn Hill?",
+    "opcoes": [
+      "Erykah Badu",
+      "Lauryn Hill",
+      "Mary J. Blige",
+      "Missy Elliott"
+    ],
+    "resposta_correta": 1,
+    "id": 313
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual artista lançou To Pimp a Butterfly?",
+    "opcoes": [
+      "Jay-Z",
+      "Kanye West",
+      "Kendrick Lamar",
+      "J. Cole"
+    ],
+    "resposta_correta": 2,
+    "id": 314
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: quem lançou Water?",
+    "opcoes": [
+      "Tems",
+      "Ayra Starr",
+      "Tiwa Savage",
+      "Tyla"
+    ],
+    "resposta_correta": 3,
+    "id": 315
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual meme mostra duas opções e uma pessoa a suar?",
+    "opcoes": [
+      "Two Buttons",
+      "Drake Hotline Bling",
+      "This Is Fine",
+      "Expanding Brain"
+    ],
+    "resposta_correta": 0,
+    "id": 316
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual jogo online tem Creative, Survival e Adventure?",
+    "opcoes": [
+      "Terraria",
+      "Minecraft",
+      "Fortnite",
+      "Roblox"
+    ],
+    "resposta_correta": 1,
+    "id": 317
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual jogo usa V-Bucks?",
+    "opcoes": [
+      "Roblox",
+      "GTA V",
+      "Fortnite",
+      "Minecraft"
+    ],
+    "resposta_correta": 2,
+    "id": 318
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual anime apresenta Ichigo Kurosaki?",
+    "opcoes": [
+      "Naruto",
+      "One Piece",
+      "Death Note",
+      "Bleach"
+    ],
+    "resposta_correta": 3,
+    "id": 319
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual cantor cabo-verdiano é associado a Sodade?",
+    "opcoes": [
+      "Cesária Évora",
+      "Bonga",
+      "Koffi Olomidé",
+      "Fally Ipupa"
+    ],
+    "resposta_correta": 0,
+    "id": 320
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual estilo musical é associado a Moçambique?",
+    "opcoes": [
+      "Bluegrass",
+      "Marrabenta",
+      "Amapiano",
+      "Fado"
+    ],
+    "resposta_correta": 1,
+    "id": 321
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual prémio musical tem uma estatueta de gramofone?",
+    "opcoes": [
+      "Emmys",
+      "Tonys",
+      "Grammy Awards",
+      "Oscars"
+    ],
+    "resposta_correta": 2,
+    "id": 322
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual plataforma transmite videojogos ao vivo?",
+    "opcoes": [
+      "Roblox",
+      "Spotify",
+      "IMDb",
+      "Twitch"
+    ],
+    "resposta_correta": 3,
+    "id": 323
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual foi o primeiro filme sonoro vencedor do Óscar de Melhor Filme?",
+    "opcoes": [
+      "The Broadway Melody",
+      "All Quiet on the Western Front",
+      "Wings",
+      "It Happened One Night"
+    ],
+    "resposta_correta": 0,
+    "id": 324
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: quem realizou 2001: A Space Odyssey?",
+    "opcoes": [
+      "Andrei Tarkovsky",
+      "Stanley Kubrick",
+      "Arthur C. Clarke",
+      "Ridley Scott"
+    ],
+    "resposta_correta": 1,
+    "id": 325
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, em que ano estreou Citizen Kane?",
+    "opcoes": [
+      "1945",
+      "1952",
+      "1941",
+      "1939"
+    ],
+    "resposta_correta": 2,
+    "id": 326
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual foi o primeiro longa-metragem da Pixar?",
+    "opcoes": [
+      "A Bug’s Life",
+      "Monsters, Inc.",
+      "Finding Nemo",
+      "Toy Story"
+    ],
+    "resposta_correta": 3,
+    "id": 327
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual filme ganhou Palma de Ouro e Óscar de Melhor Filme?",
+    "opcoes": [
+      "Parasite",
+      "The Tree of Life",
+      "Pulp Fiction",
+      "The Pianist"
+    ],
+    "resposta_correta": 0,
+    "id": 328
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual é o computador de bordo em 2001?",
+    "opcoes": [
+      "Mother",
+      "HAL 9000",
+      "MU-TH-UR",
+      "GERTY"
+    ],
+    "resposta_correta": 1,
+    "id": 329
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, em Apocalypse Now, qual rio é percorrido?",
+    "opcoes": [
+      "Mississippi",
+      "Congo",
+      "Mekong",
+      "Amazonas"
+    ],
+    "resposta_correta": 2,
+    "id": 330
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: quem interpreta Anton Chigurh?",
+    "opcoes": [
+      "Tommy Lee Jones",
+      "Josh Brolin",
+      "Woody Harrelson",
+      "Javier Bardem"
+    ],
+    "resposta_correta": 3,
+    "id": 331
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Em The Godfather Part II, quem interpreta o jovem Vito?",
+    "opcoes": [
+      "Robert De Niro",
+      "Al Pacino",
+      "Marlon Brando",
+      "Andy García"
+    ],
+    "resposta_correta": 0,
+    "id": 332
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual realizador assinou a trilogia Before?",
+    "opcoes": [
+      "Jim Jarmusch",
+      "Richard Linklater",
+      "Eric Rohmer",
+      "Wong Kar-wai"
+    ],
+    "resposta_correta": 1,
+    "id": 333
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, em Memento, que recurso estrutura a narrativa?",
+    "opcoes": [
+      "Stop-motion",
+      "Viagem espacial",
+      "Cronologia fragmentada",
+      "Narrador omnisciente"
+    ],
+    "resposta_correta": 2,
+    "id": 334
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: quem realizou Metropolis?",
+    "opcoes": [
+      "F.W. Murnau",
+      "Sergei Eisenstein",
+      "Buster Keaton",
+      "Fritz Lang"
+    ],
+    "resposta_correta": 3,
+    "id": 335
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Em Alien, qual é a nave comercial?",
+    "opcoes": [
+      "Nostromo",
+      "Sulaco",
+      "Prometheus",
+      "Event Horizon"
+    ],
+    "resposta_correta": 0,
+    "id": 336
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual atriz ganhou Óscar por The Queen?",
+    "opcoes": [
+      "Cate Blanchett",
+      "Helen Mirren",
+      "Judi Dench",
+      "Meryl Streep"
+    ],
+    "resposta_correta": 1,
+    "id": 337
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem compôs Schindler’s List?",
+    "opcoes": [
+      "Hans Zimmer",
+      "Philip Glass",
+      "John Williams",
+      "Ennio Morricone"
+    ],
+    "resposta_correta": 2,
+    "id": 338
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual filme de Kurosawa inspirou The Magnificent Seven?",
+    "opcoes": [
+      "Rashomon",
+      "Ikiru",
+      "Yojimbo",
+      "Seven Samurai"
+    ],
+    "resposta_correta": 3,
+    "id": 339
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem interpreta Daniel Plainview?",
+    "opcoes": [
+      "Daniel Day-Lewis",
+      "Paul Dano",
+      "Joaquin Phoenix",
+      "Philip Seymour Hoffman"
+    ],
+    "resposta_correta": 0,
+    "id": 340
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme de Billy Wilder satiriza Hollywood?",
+    "opcoes": [
+      "The Apartment",
+      "Sunset Boulevard",
+      "Some Like It Hot",
+      "Double Indemnity"
+    ],
+    "resposta_correta": 1,
+    "id": 341
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem realizou La Dolce Vita?",
+    "opcoes": [
+      "Roberto Rossellini",
+      "Vittorio De Sica",
+      "Federico Fellini",
+      "Michelangelo Antonioni"
+    ],
+    "resposta_correta": 2,
+    "id": 342
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: em The Seventh Seal, o cavaleiro joga xadrez com?",
+    "opcoes": [
+      "Um rei",
+      "Um anjo",
+      "Um demónio",
+      "A Morte"
+    ],
+    "resposta_correta": 3,
+    "id": 343
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem realizou Oldboy?",
+    "opcoes": [
+      "Park Chan-wook",
+      "Bong Joon-ho",
+      "Kim Jee-woon",
+      "Lee Chang-dong"
+    ],
+    "resposta_correta": 0,
+    "id": 344
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: em The 400 Blows, qual é o jovem protagonista?",
+    "opcoes": [
+      "Amélie Poulain",
+      "Antoine Doinel",
+      "Jean Valjean",
+      "Michel Poiccard"
+    ],
+    "resposta_correta": 1,
+    "id": 345
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual filme de Agnes Varda acompanha Cléo?",
+    "opcoes": [
+      "The Gleaners and I",
+      "One Sings, the Other Doesn’t",
+      "Cléo from 5 to 7",
+      "Vagabond"
+    ],
+    "resposta_correta": 2,
+    "id": 346
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: quem realizou City of God?",
+    "opcoes": [
+      "Walter Salles",
+      "José Padilha",
+      "Kleber Mendonça Filho",
+      "Fernando Meirelles"
+    ],
+    "resposta_correta": 3,
+    "id": 347
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem interpreta Travis Bickle?",
+    "opcoes": [
+      "Robert De Niro",
+      "Al Pacino",
+      "Dustin Hoffman",
+      "Harvey Keitel"
+    ],
+    "resposta_correta": 0,
+    "id": 348
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme usa Singin’ in the Rain numa cena de violência?",
+    "opcoes": [
+      "Eyes Wide Shut",
+      "A Clockwork Orange",
+      "Full Metal Jacket",
+      "Barry Lyndon"
+    ],
+    "resposta_correta": 1,
+    "id": 349
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem realizou The Exorcist?",
+    "opcoes": [
+      "John Carpenter",
+      "Wes Craven",
+      "William Friedkin",
+      "Roman Polanski"
+    ],
+    "resposta_correta": 2,
+    "id": 350
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é a cidade de In the Mood for Love?",
+    "opcoes": [
+      "Taipei",
+      "Tokyo",
+      "Shanghai",
+      "Hong Kong"
+    ],
+    "resposta_correta": 3,
+    "id": 351
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem realizou The Lives of Others?",
+    "opcoes": [
+      "Florian Henckel von Donnersmarck",
+      "Michael Haneke",
+      "Tom Tykwer",
+      "Fatih Akin"
+    ],
+    "resposta_correta": 0,
+    "id": 352
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual é a profissão de Harry Caul?",
+    "opcoes": [
+      "Músico",
+      "Especialista em vigilância sonora",
+      "Detetive",
+      "Fotógrafo"
+    ],
+    "resposta_correta": 1,
+    "id": 353
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem realizou Do the Right Thing?",
+    "opcoes": [
+      "Barry Jenkins",
+      "Steve McQueen",
+      "Spike Lee",
+      "John Singleton"
+    ],
+    "resposta_correta": 2,
+    "id": 354
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é o hotel de Barton Fink?",
+    "opcoes": [
+      "Overlook Hotel",
+      "Bates Motel",
+      "Hotel Chelsea",
+      "Hotel Earle"
+    ],
+    "resposta_correta": 3,
+    "id": 355
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Que arte é central em The Red Shoes?",
+    "opcoes": [
+      "Ballet",
+      "Ópera",
+      "Teatro kabuki",
+      "Circo"
+    ],
+    "resposta_correta": 0,
+    "id": 356
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: quem realizou Portrait of a Lady on Fire?",
+    "opcoes": [
+      "Alice Guy-Blaché",
+      "Céline Sciamma",
+      "Agnès Varda",
+      "Claire Denis"
+    ],
+    "resposta_correta": 1,
+    "id": 357
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual foi o primeiro filme de Miyazaki para Ghibli como realizador?",
+    "opcoes": [
+      "My Neighbor Totoro",
+      "Kiki’s Delivery Service",
+      "Castle in the Sky",
+      "Nausicaä of the Valley of the Wind"
+    ],
+    "resposta_correta": 2,
+    "id": 358
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: em Eternal Sunshine, qual procedimento é realizado?",
+    "opcoes": [
+      "Clonar pessoas",
+      "Viajar no tempo",
+      "Trocar identidades",
+      "Apagar memórias"
+    ],
+    "resposta_correta": 3,
+    "id": 359
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem realizou The French Connection?",
+    "opcoes": [
+      "William Friedkin",
+      "Sidney Lumet",
+      "Francis Ford Coppola",
+      "Michael Mann"
+    ],
+    "resposta_correta": 0,
+    "id": 360
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual instrumento acompanha The Third Man?",
+    "opcoes": [
+      "Acordeão",
+      "Cítara",
+      "Piano",
+      "Violino"
+    ],
+    "resposta_correta": 1,
+    "id": 361
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem interpreta Ellen Ripley?",
+    "opcoes": [
+      "Julianne Moore",
+      "Glenn Close",
+      "Sigourney Weaver",
+      "Jodie Foster"
+    ],
+    "resposta_correta": 2,
+    "id": 362
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual realizador dirigiu Rashomon?",
+    "opcoes": [
+      "Yasujirō Ozu",
+      "Kenji Mizoguchi",
+      "Hayao Miyazaki",
+      "Akira Kurosawa"
+    ],
+    "resposta_correta": 3,
+    "id": 363
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem interpreta Marlon Brando jovem Vito?",
+    "opcoes": [
+      "Robert De Niro",
+      "Al Pacino",
+      "Marlon Brando",
+      "James Caan"
+    ],
+    "resposta_correta": 0,
+    "id": 364
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme de 1972 ganhou Melhor Filme?",
+    "opcoes": [
+      "Rocky",
+      "The Godfather",
+      "The French Connection",
+      "One Flew over the Cuckoo’s Nest"
+    ],
+    "resposta_correta": 1,
+    "id": 365
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual realizador dirigiu Taxi Driver?",
+    "opcoes": [
+      "Brian De Palma",
+      "Sidney Lumet",
+      "Martin Scorsese",
+      "Francis Ford Coppola"
+    ],
+    "resposta_correta": 2,
+    "id": 366
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual é a profissão de C.C. Baxter em The Apartment?",
+    "opcoes": [
+      "Editor",
+      "Professor",
+      "Médico",
+      "Funcionário de seguros"
+    ],
+    "resposta_correta": 3,
+    "id": 367
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem realizou The Seventh Seal?",
+    "opcoes": [
+      "Ingmar Bergman",
+      "Federico Fellini",
+      "Luis Buñuel",
+      "Vittorio De Sica"
+    ],
+    "resposta_correta": 0,
+    "id": 368
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme apresenta Roy Batty?",
+    "opcoes": [
+      "Total Recall",
+      "Blade Runner",
+      "Alien",
+      "Minority Report"
+    ],
+    "resposta_correta": 1,
+    "id": 369
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, quem compôs The Lord of the Rings?",
+    "opcoes": [
+      "James Newton Howard",
+      "Danny Elfman",
+      "Howard Shore",
+      "John Williams"
+    ],
+    "resposta_correta": 2,
+    "id": 370
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual atriz interpreta Briony adulta em Atonement?",
+    "opcoes": [
+      "Keira Knightley",
+      "Saoirse Ronan",
+      "Vanessa Redgrave",
+      "Romola Garai"
+    ],
+    "resposta_correta": 3,
+    "id": 371
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem realizou The Shining?",
+    "opcoes": [
+      "Stanley Kubrick",
+      "Alfred Hitchcock",
+      "David Lynch",
+      "Brian De Palma"
+    ],
+    "resposta_correta": 0,
+    "id": 372
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual filme de David Lynch usa uma caixa azul?",
+    "opcoes": [
+      "Inland Empire",
+      "Mulholland Drive",
+      "Blue Velvet",
+      "Lost Highway"
+    ],
+    "resposta_correta": 1,
+    "id": 373
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual é o nome da protagonista de Kill Bill?",
+    "opcoes": [
+      "Elle Driver",
+      "Sophie Fatale",
+      "The Bride",
+      "O-Ren Ishii"
+    ],
+    "resposta_correta": 2,
+    "id": 374
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Identifique a resposta certa: qual filme tem Robert Angier e Alfred Borden?",
+    "opcoes": [
+      "Memento",
+      "Inception",
+      "Insomnia",
+      "The Prestige"
+    ],
+    "resposta_correta": 3,
+    "id": 375
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Quem realizou Get Out?",
+    "opcoes": [
+      "Jordan Peele",
+      "Spike Lee",
+      "Barry Jenkins",
+      "Ryan Coogler"
+    ],
+    "resposta_correta": 0,
+    "id": 376
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual opção responde corretamente: qual atriz interpretou Edith Piaf?",
+    "opcoes": [
+      "Audrey Tautou",
+      "Marion Cotillard",
+      "Juliette Binoche",
+      "Isabelle Huppert"
+    ],
+    "resposta_correta": 1,
+    "id": 377
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "No universo da cultura pop, qual diretor realizou Pan’s Labyrinth?",
+    "opcoes": [
+      "Pedro Almodóvar",
+      "J.A. Bayona",
+      "Guillermo del Toro",
+      "Alejandro Amenábar"
+    ],
+    "resposta_correta": 2,
+    "id": 378
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual é o episódio final de Breaking Bad?",
+    "opcoes": [
+      "Ozymandias",
+      "Granite State",
+      "Face Off",
+      "Felina"
+    ],
+    "resposta_correta": 3,
+    "id": 379
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual episódio de Game of Thrones contém o Casamento Vermelho?",
+    "opcoes": [
+      "The Rains of Castamere",
+      "Blackwater",
+      "The Lion and the Rose",
+      "The Watchers on the Wall"
+    ],
+    "resposta_correta": 0,
+    "id": 380
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual episódio final de Friends?",
+    "opcoes": [
+      "The One with the Proposal",
+      "The Last One",
+      "The One with Ross’s Wedding",
+      "The One After I Do"
+    ],
+    "resposta_correta": 1,
+    "id": 381
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual episódio de The Office envolve o incêndio?",
+    "opcoes": [
+      "The Injury",
+      "Casino Night",
+      "Stress Relief",
+      "Fire Drill"
+    ],
+    "resposta_correta": 2,
+    "id": 382
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual episódio de The Last of Us é centrado em Bill e Frank?",
+    "opcoes": [
+      "Infected",
+      "Endure and Survive",
+      "When We Are in Need",
+      "Long, Long Time"
+    ],
+    "resposta_correta": 3,
+    "id": 383
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual monstro está associado a Tyler em Wednesday?",
+    "opcoes": [
+      "Hyde",
+      "Wendigo",
+      "Demogorgon",
+      "Clicker"
+    ],
+    "resposta_correta": 0,
+    "id": 384
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o centro comercial da terceira temporada de Stranger Things?",
+    "opcoes": [
+      "Russian Mall",
+      "Starcourt Mall",
+      "Hawkins Mall",
+      "Benny’s Plaza"
+    ],
+    "resposta_correta": 1,
+    "id": 385
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é a espada valiriana de Jon Snow?",
+    "opcoes": [
+      "Widow’s Wail",
+      "Oathkeeper",
+      "Longclaw",
+      "Heartsbane"
+    ],
+    "resposta_correta": 2,
+    "id": 386
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual episódio de Lost mostra a perspetiva de Desmond?",
+    "opcoes": [
+      "Flashes Before Your Eyes",
+      "Not in Portland",
+      "Walkabout",
+      "The Constant"
+    ],
+    "resposta_correta": 3,
+    "id": 387
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual primeiro-ministro de The Crown é interpretado por John Lithgow?",
+    "opcoes": [
+      "Winston Churchill",
+      "Anthony Eden",
+      "Harold Wilson",
+      "Alec Douglas-Home"
+    ],
+    "resposta_correta": 0,
+    "id": 388
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual unidade investiga os Barksdale em The Wire?",
+    "opcoes": [
+      "Internal Affairs",
+      "Major Crimes Unit",
+      "Homicide Unit",
+      "Marine Unit"
+    ],
+    "resposta_correta": 1,
+    "id": 389
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: quem narra frequentemente Mr. Robot?",
+    "opcoes": [
+      "Mr. Robot",
+      "Darlene Alderson",
+      "Elliot Alderson",
+      "Tyrell Wellick"
+    ],
+    "resposta_correta": 2,
+    "id": 390
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual empresa é alvo do hack da fsociety?",
+    "opcoes": [
+      "Allsafe",
+      "Dark Army",
+      "FBI",
+      "E Corp"
+    ],
+    "resposta_correta": 3,
+    "id": 391
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o nome de nascimento de Offred?",
+    "opcoes": [
+      "June Osborne",
+      "Serena Joy",
+      "Emily Malek",
+      "Janine Lindo"
+    ],
+    "resposta_correta": 0,
+    "id": 392
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual episódio de Black Mirror acompanha uma avaliação por estrelas?",
+    "opcoes": [
+      "Shut Up and Dance",
+      "Nosedive",
+      "White Bear",
+      "San Junipero"
+    ],
+    "resposta_correta": 1,
+    "id": 393
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual episódio de Black Mirror se passa em San Junipero?",
+    "opcoes": [
+      "Hang the DJ",
+      "Metalhead",
+      "San Junipero",
+      "USS Callister"
+    ],
+    "resposta_correta": 2,
+    "id": 394
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual empresa pertence aos Roy em Succession?",
+    "opcoes": [
+      "Pierce Global Media",
+      "GoJo",
+      "Vaulter",
+      "Waystar Royco"
+    ],
+    "resposta_correta": 3,
+    "id": 395
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: quem fundou Waystar Royco?",
+    "opcoes": [
+      "Logan Roy",
+      "Kendall Roy",
+      "Roman Roy",
+      "Ewan Roy"
+    ],
+    "resposta_correta": 0,
+    "id": 396
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual empresa gere os super-heróis em The Boys?",
+    "opcoes": [
+      "LexCorp",
+      "Vought International",
+      "Umbrella Corporation",
+      "Oscorp"
+    ],
+    "resposta_correta": 1,
+    "id": 397
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual velocista aparece em The Boys?",
+    "opcoes": [
+      "Black Noir",
+      "Translucent",
+      "A-Train",
+      "The Deep"
+    ],
+    "resposta_correta": 2,
+    "id": 398
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual é a nave de Holden em The Expanse?",
+    "opcoes": [
+      "Behemoth",
+      "Nauvoo",
+      "Donnager",
+      "Rocinante"
+    ],
+    "resposta_correta": 3,
+    "id": 399
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual parque é central em Westworld?",
+    "opcoes": [
+      "Westworld",
+      "Futureworld",
+      "Shogunworld",
+      "The Raj"
+    ],
+    "resposta_correta": 0,
+    "id": 400
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual é o nome da protagonista de Orphan Black?",
+    "opcoes": [
+      "Rachel Duncan",
+      "Sarah Manning",
+      "Cosima Niehaus",
+      "Alison Hendrix"
+    ],
+    "resposta_correta": 1,
+    "id": 401
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: em The Sopranos, qual é a terapeuta de Tony?",
+    "opcoes": [
+      "Dr. Elliot Kupferberg",
+      "Dr. Lilian Thurman",
+      "Dr. Jennifer Melfi",
+      "Dr. Wendy Rhoades"
+    ],
+    "resposta_correta": 2,
+    "id": 402
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual é o negócio de Christopher em The Sopranos?",
+    "opcoes": [
+      "Jornalismo",
+      "Medicina",
+      "Construção naval",
+      "Máfia e produção cinematográfica"
+    ],
+    "resposta_correta": 3,
+    "id": 403
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é a cidade de Chernobyl evacuada junto à central?",
+    "opcoes": [
+      "Pripyat",
+      "Kyiv",
+      "Minsk",
+      "Moscow"
+    ],
+    "resposta_correta": 0,
+    "id": 404
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual episódio final de Mad Men termina com Don a meditar?",
+    "opcoes": [
+      "Shut the Door. Have a Seat",
+      "Person to Person",
+      "The Suitcase",
+      "The Wheel"
+    ],
+    "resposta_correta": 1,
+    "id": 405
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é o título do episódio de Lost chamado “The Constant”?",
+    "opcoes": [
+      "Walkabout",
+      "The Other Woman",
+      "The Constant",
+      "Flashes Before Your Eyes"
+    ],
+    "resposta_correta": 2,
+    "id": 406
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual arquiteto cria o bairro de The Good Place?",
+    "opcoes": [
+      "Shawn",
+      "Chidi",
+      "Derek",
+      "Michael"
+    ],
+    "resposta_correta": 3,
+    "id": 407
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é a assistente virtual de The Good Place?",
+    "opcoes": [
+      "Janet",
+      "Eleanor",
+      "Mindy",
+      "Tahani"
+    ],
+    "resposta_correta": 0,
+    "id": 408
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série começa após o desaparecimento de 2%?",
+    "opcoes": [
+      "The OA",
+      "The Leftovers",
+      "Manifest",
+      "Lost"
+    ],
+    "resposta_correta": 1,
+    "id": 409
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é a prisão de Orange Is the New Black?",
+    "opcoes": [
+      "Folsom State",
+      "Black Dolphin",
+      "Litchfield Penitentiary",
+      "Rikers Island"
+    ],
+    "resposta_correta": 2,
+    "id": 410
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual organização procura cura em The Last of Us?",
+    "opcoes": [
+      "Hunters",
+      "Seraphites",
+      "WLF",
+      "Fireflies"
+    ],
+    "resposta_correta": 3,
+    "id": 411
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual personagem de Game of Thrones é o Imp?",
+    "opcoes": [
+      "Tyrion Lannister",
+      "Jaime Lannister",
+      "Varys",
+      "Petyr Baelish"
+    ],
+    "resposta_correta": 0,
+    "id": 412
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, em The Americans, para quem trabalham secretamente?",
+    "opcoes": [
+      "Mossad",
+      "KGB",
+      "CIA",
+      "MI6"
+    ],
+    "resposta_correta": 1,
+    "id": 413
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual é o nome da cidade em Dark?",
+    "opcoes": [
+      "Bonn",
+      "Essen",
+      "Winden",
+      "Wolfsburg"
+    ],
+    "resposta_correta": 2,
+    "id": 414
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual é o nome da corporação em Severance?",
+    "opcoes": [
+      "Massive Dynamic",
+      "InGen",
+      "Tyrell Corporation",
+      "Lumon Industries"
+    ],
+    "resposta_correta": 3,
+    "id": 415
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o título do episódio “Ozymandias”?",
+    "opcoes": [
+      "Breaking Bad",
+      "Mad Men",
+      "The Sopranos",
+      "Better Call Saul"
+    ],
+    "resposta_correta": 0,
+    "id": 416
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série tem o episódio “The Constant”?",
+    "opcoes": [
+      "Fringe",
+      "Lost",
+      "Dark",
+      "The Leftovers"
+    ],
+    "resposta_correta": 1,
+    "id": 417
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual personagem de The Wire é conhecido como Omar?",
+    "opcoes": [
+      "Bunk Moreland",
+      "Jimmy McNulty",
+      "Omar Little",
+      "Stringer Bell"
+    ],
+    "resposta_correta": 2,
+    "id": 418
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual produto aparece na campanha final de Mad Men?",
+    "opcoes": [
+      "Pepsi",
+      "Lucky Strike",
+      "Kodak",
+      "Coca-Cola"
+    ],
+    "resposta_correta": 3,
+    "id": 419
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o título do episódio final de The Sopranos?",
+    "opcoes": [
+      "Made in America",
+      "The Blue Comet",
+      "Long Term Parking",
+      "Funhouse"
+    ],
+    "resposta_correta": 0,
+    "id": 420
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série apresenta Kim Wexler?",
+    "opcoes": [
+      "Damages",
+      "Better Call Saul",
+      "The Good Wife",
+      "Suits"
+    ],
+    "resposta_correta": 1,
+    "id": 421
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: quem é o líder dos Seven?",
+    "opcoes": [
+      "Hughie Campbell",
+      "A-Train",
+      "Homelander",
+      "Butcher"
+    ],
+    "resposta_correta": 2,
+    "id": 422
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual episódio de Wednesday é ligado ao Rave’N?",
+    "opcoes": [
+      "A Murder of Woes",
+      "Wednesday’s Child Is Full of Woe",
+      "Quiller",
+      "Woe What a Night"
+    ],
+    "resposta_correta": 3,
+    "id": 423
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual é o nome da escola de Wednesday?",
+    "opcoes": [
+      "Nevermore Academy",
+      "Ravenwood Institute",
+      "Briarcliff Academy",
+      "Blackwood School"
+    ],
+    "resposta_correta": 0,
+    "id": 424
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série tem a personagem June Osborne?",
+    "opcoes": [
+      "Normal People",
+      "The Handmaid’s Tale",
+      "The Morning Show",
+      "The Newsroom"
+    ],
+    "resposta_correta": 1,
+    "id": 425
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual série tem o episódio “Long, Long Time”?",
+    "opcoes": [
+      "Lost",
+      "Station Eleven",
+      "The Last of Us",
+      "The Walking Dead"
+    ],
+    "resposta_correta": 2,
+    "id": 426
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual é o nome do grupo de sobreviventes de Lost?",
+    "opcoes": [
+      "Sobreviventes do voo 815 da Pacific Air",
+      "Tripulação da Rocinante",
+      "Equipa de Hawkins",
+      "Sobreviventes do voo Oceanic 815"
+    ],
+    "resposta_correta": 3,
+    "id": 427
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual opção responde corretamente: qual série tem Raymond Holt?",
+    "opcoes": [
+      "Brooklyn Nine-Nine",
+      "The Wire",
+      "CSI",
+      "NCIS"
+    ],
+    "resposta_correta": 0,
+    "id": 428
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "No universo da cultura pop, qual série apresenta Rue Bennett?",
+    "opcoes": [
+      "Normal People",
+      "Euphoria",
+      "Skins",
+      "Gossip Girl"
+    ],
+    "resposta_correta": 1,
+    "id": 429
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Identifique a resposta certa: qual série apresenta Beth Harmon?",
+    "opcoes": [
+      "The Good Wife",
+      "The Killing",
+      "The Queen’s Gambit",
+      "The Crown"
+    ],
+    "resposta_correta": 2,
+    "id": 430
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual é o episódio final de The Leftovers?",
+    "opcoes": [
+      "The Prodigal Son Returns",
+      "International Assassin",
+      "The Most Powerful Man in the World",
+      "The Book of Nora"
+    ],
+    "resposta_correta": 3,
+    "id": 431
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual foi o primeiro álbum Motown de Michael Jackson?",
+    "opcoes": [
+      "Got to Be There",
+      "Off the Wall",
+      "Thriller",
+      "Ben"
+    ],
+    "resposta_correta": 0,
+    "id": 432
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é o nome de nascimento de Black Coffee?",
+    "opcoes": [
+      "Sibusiso Dlamini",
+      "Nkosinathi Innocent Maphumulo",
+      "Kiernan Forbes",
+      "David Jones"
+    ],
+    "resposta_correta": 1,
+    "id": 433
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual foi o primeiro GTA?",
+    "opcoes": [
+      "GTA: Vice City",
+      "GTA V",
+      "Grand Theft Auto (1997)",
+      "GTA III"
+    ],
+    "resposta_correta": 2,
+    "id": 434
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o protagonista silencioso de GTA III?",
+    "opcoes": [
+      "Niko Bellic",
+      "Tommy Vercetti",
+      "CJ",
+      "Claude"
+    ],
+    "resposta_correta": 3,
+    "id": 435
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Que item ativa o portal de The End?",
+    "opcoes": [
+      "Eye of Ender",
+      "Nether Star",
+      "Ender Pearl",
+      "Flint and Steel"
+    ],
+    "resposta_correta": 0,
+    "id": 436
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: que criatura dropa Ender Pearls?",
+    "opcoes": [
+      "Blaze",
+      "Enderman",
+      "Creeper",
+      "Ghast"
+    ],
+    "resposta_correta": 1,
+    "id": 437
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual empresa desenvolveu Fortnite?",
+    "opcoes": [
+      "Mojang",
+      "Valve",
+      "Epic Games",
+      "Riot Games"
+    ],
+    "resposta_correta": 2,
+    "id": 438
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual motor gráfico usa Fortnite?",
+    "opcoes": [
+      "Unity",
+      "Source 2",
+      "Frostbite",
+      "Unreal Engine"
+    ],
+    "resposta_correta": 3,
+    "id": 439
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual geração está em Pokémon Red e Blue?",
+    "opcoes": [
+      "Geração I",
+      "Geração II",
+      "Geração III",
+      "Geração IV"
+    ],
+    "resposta_correta": 0,
+    "id": 440
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual habilidade caracteriza Pikachu?",
+    "opcoes": [
+      "Overgrow",
+      "Static",
+      "Blaze",
+      "Torrent"
+    ],
+    "resposta_correta": 1,
+    "id": 441
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual lendário é mascote de Pokémon Gold?",
+    "opcoes": [
+      "Suicune",
+      "Entei",
+      "Ho-Oh",
+      "Lugia"
+    ],
+    "resposta_correta": 2,
+    "id": 442
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o jutsu ocular do clã Hyuga?",
+    "opcoes": [
+      "Sharingan",
+      "Rinnegan",
+      "Jōgan",
+      "Byakugan"
+    ],
+    "resposta_correta": 3,
+    "id": 443
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é o mentor da equipa 7?",
+    "opcoes": [
+      "Kakashi Hatake",
+      "Jiraiya",
+      "Might Guy",
+      "Iruka Umino"
+    ],
+    "resposta_correta": 0,
+    "id": 444
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual fruta de Luffy foi revelada como Hito Hito no Mi, Model: Nika?",
+    "opcoes": [
+      "Hito Hito no Mi, Model: Nika",
+      "Gomu Gomu no Mi",
+      "Mera Mera no Mi",
+      "Yami Yami no Mi"
+    ],
+    "resposta_correta": 1,
+    "id": 445
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem é o pai de Luffy?",
+    "opcoes": [
+      "Monkey D. Garp",
+      "Silvers Rayleigh",
+      "Monkey D. Dragon",
+      "Gol D. Roger"
+    ],
+    "resposta_correta": 2,
+    "id": 446
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: quem derrota Cell?",
+    "opcoes": [
+      "Goku",
+      "Vegeta",
+      "Trunks",
+      "Gohan"
+    ],
+    "resposta_correta": 3,
+    "id": 447
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual fusão usa brincos Potara?",
+    "opcoes": [
+      "Vegito",
+      "Gogeta",
+      "Gotenks",
+      "Kefla"
+    ],
+    "resposta_correta": 0,
+    "id": 448
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual Hashira usa Respiração da Água?",
+    "opcoes": [
+      "Sanemi Shinazugawa",
+      "Giyu Tomioka",
+      "Kyojuro Rengoku",
+      "Tengen Uzui"
+    ],
+    "resposta_correta": 1,
+    "id": 449
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual Titã é de Armin?",
+    "opcoes": [
+      "Beast Titan",
+      "Female Titan",
+      "Colossal Titan",
+      "Armored Titan"
+    ],
+    "resposta_correta": 2,
+    "id": 450
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é a ilha de Eren?",
+    "opcoes": [
+      "Marley",
+      "Hizuru",
+      "Ragako",
+      "Paradis"
+    ],
+    "resposta_correta": 3,
+    "id": 451
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem ganhou Grammy de Álbum do Ano por Random Access Memories?",
+    "opcoes": [
+      "Daft Punk",
+      "Beyoncé",
+      "Taylor Swift",
+      "Bruno Mars"
+    ],
+    "resposta_correta": 0,
+    "id": 452
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é o primeiro álbum de Adele?",
+    "opcoes": [
+      "30",
+      "19",
+      "21",
+      "25"
+    ],
+    "resposta_correta": 1,
+    "id": 453
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual cantora lançou The Miseducation of Lauryn Hill?",
+    "opcoes": [
+      "Missy Elliott",
+      "Erykah Badu",
+      "Lauryn Hill",
+      "Mary J. Blige"
+    ],
+    "resposta_correta": 2,
+    "id": 454
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: quem lançou African Giant?",
+    "opcoes": [
+      "Wizkid",
+      "Davido",
+      "Fela Kuti",
+      "Burna Boy"
+    ],
+    "resposta_correta": 3,
+    "id": 455
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Quem criou Hatsune Miku?",
+    "opcoes": [
+      "Crypton Future Media",
+      "Nintendo",
+      "Bandai Namco",
+      "Studio Ghibli"
+    ],
+    "resposta_correta": 0,
+    "id": 456
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é a região de Red e Blue?",
+    "opcoes": [
+      "Sinnoh",
+      "Kanto",
+      "Johto",
+      "Hoenn"
+    ],
+    "resposta_correta": 1,
+    "id": 457
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é a evolução de Pikachu?",
+    "opcoes": [
+      "Plusle",
+      "Electabuzz",
+      "Raichu",
+      "Pichu"
+    ],
+    "resposta_correta": 2,
+    "id": 458
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o rival de Naruto na equipa 7?",
+    "opcoes": [
+      "Gaara",
+      "Neji Hyuga",
+      "Shikamaru Nara",
+      "Sasuke Uchiha"
+    ],
+    "resposta_correta": 3,
+    "id": 459
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é o navio após Going Merry?",
+    "opcoes": [
+      "Thousand Sunny",
+      "Red Force",
+      "Moby Dick",
+      "Polar Tang"
+    ],
+    "resposta_correta": 0,
+    "id": 460
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é a técnica de energia de Goku?",
+    "opcoes": [
+      "Fire Style",
+      "Kamehameha",
+      "Rasengan",
+      "Getsuga Tensho"
+    ],
+    "resposta_correta": 1,
+    "id": 461
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual organização combate demónios?",
+    "opcoes": [
+      "Survey Corps",
+      "Akatsuki",
+      "Demon Slayer Corps",
+      "Hashira Council"
+    ],
+    "resposta_correta": 2,
+    "id": 462
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual corpo explora as muralhas em Attack on Titan?",
+    "opcoes": [
+      "Military Police Brigade",
+      "Garrison Regiment",
+      "Demon Slayer Corps",
+      "Survey Corps"
+    ],
+    "resposta_correta": 3,
+    "id": 463
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual rapper lançou To Pimp a Butterfly?",
+    "opcoes": [
+      "Kendrick Lamar",
+      "J. Cole",
+      "Jay-Z",
+      "Kanye West"
+    ],
+    "resposta_correta": 0,
+    "id": 464
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: quem lançou Water?",
+    "opcoes": [
+      "Tiwa Savage",
+      "Tyla",
+      "Tems",
+      "Ayra Starr"
+    ],
+    "resposta_correta": 1,
+    "id": 465
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, quem é o artista de This Is Fine?",
+    "opcoes": [
+      "Scott Fahlman",
+      "Shigetaka Kurita",
+      "K.C. Green",
+      "Matt Furie"
+    ],
+    "resposta_correta": 2,
+    "id": 466
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual meme é um cão Shiba Inu?",
+    "opcoes": [
+      "Pepe",
+      "Trollface",
+      "Nyan Cat",
+      "Doge"
+    ],
+    "resposta_correta": 3,
+    "id": 467
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual motor é usado no modo Career de EA Sports FC?",
+    "opcoes": [
+      "Frostbite",
+      "Unreal Engine",
+      "Unity",
+      "Source 2"
+    ],
+    "resposta_correta": 0,
+    "id": 468
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: quais são os protagonistas de GTA V?",
+    "opcoes": [
+      "Joel, Ellie e Abby",
+      "Michael, Franklin e Trevor",
+      "Carl, Tommy e Niko",
+      "Arthur, John e Dutch"
+    ],
+    "resposta_correta": 1,
+    "id": 469
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é a moeda de Roblox?",
+    "opcoes": [
+      "Minecoins",
+      "GTA Dollars",
+      "Robux",
+      "V-Bucks"
+    ],
+    "resposta_correta": 2,
+    "id": 470
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual item do Minecraft permite localizar fortalezas do End?",
+    "opcoes": [
+      "Compass",
+      "Nether Star",
+      "Clock",
+      "Eye of Ender"
+    ],
+    "resposta_correta": 3,
+    "id": 471
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual anime tem Bankai?",
+    "opcoes": [
+      "Bleach",
+      "Naruto",
+      "One Piece",
+      "Dragon Ball"
+    ],
+    "resposta_correta": 0,
+    "id": 472
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual anime tem Titans?",
+    "opcoes": [
+      "Pokémon",
+      "Attack on Titan",
+      "Demon Slayer",
+      "One Piece"
+    ],
+    "resposta_correta": 1,
+    "id": 473
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é a técnica ocular de Sasuke?",
+    "opcoes": [
+      "Rinnegan",
+      "Jōgan",
+      "Sharingan",
+      "Byakugan"
+    ],
+    "resposta_correta": 2,
+    "id": 474
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é a técnica ocular de Nagato?",
+    "opcoes": [
+      "Sharingan",
+      "Byakugan",
+      "Jōgan",
+      "Rinnegan"
+    ],
+    "resposta_correta": 3,
+    "id": 475
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é a tripulação de Trafalgar Law?",
+    "opcoes": [
+      "Heart Pirates",
+      "Straw Hat Pirates",
+      "Red Hair Pirates",
+      "Whitebeard Pirates"
+    ],
+    "resposta_correta": 0,
+    "id": 476
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é o capitão dos Whitebeard Pirates?",
+    "opcoes": [
+      "Marshall D. Teach",
+      "Edward Newgate",
+      "Shanks",
+      "Kaido"
+    ],
+    "resposta_correta": 1,
+    "id": 477
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é o título dos espadachins de elite?",
+    "opcoes": [
+      "Jonin",
+      "Quincy",
+      "Hashira",
+      "Kage"
+    ],
+    "resposta_correta": 2,
+    "id": 478
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o nome da dimensão de Minecraft com Ender Dragon?",
+    "opcoes": [
+      "The Nether",
+      "Overworld",
+      "Deep Dark",
+      "The End"
+    ],
+    "resposta_correta": 3,
+    "id": 479
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é o género musical de Black Coffee?",
+    "opcoes": [
+      "House music",
+      "Fado",
+      "Marrabenta",
+      "Ska"
+    ],
+    "resposta_correta": 0,
+    "id": 480
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é o nome real de AKA?",
+    "opcoes": [
+      "Nasty C",
+      "Kiernan Forbes",
+      "Nkosinathi Maphumulo",
+      "Burna Boy"
+    ],
+    "resposta_correta": 1,
+    "id": 481
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "No universo da cultura pop, qual é o nome real de Wizkid?",
+    "opcoes": [
+      "David Adeleke",
+      "Divine Ikubor",
+      "Ayodeji Balogun",
+      "Damini Ogulu"
+    ],
+    "resposta_correta": 2,
+    "id": 482
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Identifique a resposta certa: qual é o nome real de Burna Boy?",
+    "opcoes": [
+      "Ayodeji Balogun",
+      "David Adeleke",
+      "Divine Ikubor",
+      "Damini Ogulu"
+    ],
+    "resposta_correta": 3,
+    "id": 483
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual prémio britânico é criado em 1992?",
+    "opcoes": [
+      "Mercury Prize",
+      "Brit Awards",
+      "MOBO Awards",
+      "Ivor Novello Awards"
+    ],
+    "resposta_correta": 0,
+    "id": 484
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual opção responde corretamente: qual é o nome do meme de uma cabeça de gato que voa?",
+    "opcoes": [
+      "Trollface",
+      "Nyan Cat",
+      "Doge",
+      "Pepe"
+    ],
+    "resposta_correta": 1,
+    "id": 485
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual realizador dirigiu The Grand Budapest Hotel?",
+    "opcoes": [
+      "Noah Baumbach",
+      "Sofia Coppola",
+      "Wes Anderson",
+      "Paul Thomas Anderson"
+    ],
+    "resposta_correta": 2,
+    "id": 486
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual filme tem a personagem Edith Piaf?",
+    "opcoes": [
+      "Amélie",
+      "Atonement",
+      "Carol",
+      "La Vie en Rose"
+    ],
+    "resposta_correta": 3,
+    "id": 487
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual realizador dirigiu The Shining?",
+    "opcoes": [
+      "Stanley Kubrick",
+      "Alfred Hitchcock",
+      "David Lynch",
+      "Brian De Palma"
+    ],
+    "resposta_correta": 0,
+    "id": 488
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual filme acompanha o arqueólogo Indiana Jones?",
+    "opcoes": [
+      "The Prestige",
+      "Raiders of the Lost Ark",
+      "The Godfather",
+      "The Shining"
+    ],
+    "resposta_correta": 1,
+    "id": 489
+  },
+  {
+    "nivel": "medio",
+    "tema": "cinema",
+    "pergunta": "Qual filme da Pixar acompanha Carl e Russell?",
+    "opcoes": [
+      "Finding Nemo",
+      "The Incredibles",
+      "Up",
+      "Toy Story 3"
+    ],
+    "resposta_correta": 2,
+    "id": 490
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é o nome do macaco de Ross em Friends?",
+    "opcoes": [
+      "Gunther",
+      "Hugsy",
+      "Chappy",
+      "Marcel"
+    ],
+    "resposta_correta": 3,
+    "id": 491
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual série tem a personagem Eleven?",
+    "opcoes": [
+      "Stranger Things",
+      "Dark",
+      "The OA",
+      "1899"
+    ],
+    "resposta_correta": 0,
+    "id": 492
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual série tem a personagem Kim Wexler?",
+    "opcoes": [
+      "Damages",
+      "Better Call Saul",
+      "The Good Wife",
+      "Suits"
+    ],
+    "resposta_correta": 1,
+    "id": 493
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual série apresenta Jon Snow?",
+    "opcoes": [
+      "The Last Kingdom",
+      "Spartacus",
+      "Game of Thrones",
+      "Vikings"
+    ],
+    "resposta_correta": 2,
+    "id": 494
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual é o nome da cidade em Dark?",
+    "opcoes": [
+      "Wolfsburg",
+      "Bonn",
+      "Essen",
+      "Winden"
+    ],
+    "resposta_correta": 3,
+    "id": 495
+  },
+  {
+    "nivel": "medio",
+    "tema": "series",
+    "pergunta": "Qual série acompanha a família Gallagher?",
+    "opcoes": [
+      "Shameless",
+      "This Is Us",
+      "The Fosters",
+      "The Affair"
+    ],
+    "resposta_correta": 0,
+    "id": 496
+  },
+  {
+    "nivel": "medio",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é o jogo de construção da Mojang?",
+    "opcoes": [
+      "Terraria",
+      "Minecraft",
+      "Fortnite",
+      "Roblox"
+    ],
+    "resposta_correta": 1,
+    "id": 497
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cinema",
+    "pergunta": "Qual realizador dirigiu A Clockwork Orange?",
+    "opcoes": [
+      "Francis Ford Coppola",
+      "David Fincher",
+      "Stanley Kubrick",
+      "Martin Scorsese"
+    ],
+    "resposta_correta": 2,
+    "id": 498
+  },
+  {
+    "nivel": "dificil",
+    "tema": "series",
+    "pergunta": "Qual série apresenta o episódio Ozymandias?",
+    "opcoes": [
+      "The Sopranos",
+      "Mad Men",
+      "Lost",
+      "Breaking Bad"
+    ],
+    "resposta_correta": 3,
+    "id": 499
+  },
+  {
+    "nivel": "dificil",
+    "tema": "cultura_pop_geral",
+    "pergunta": "Qual é o nome do protagonista de GTA III?",
+    "opcoes": [
+      "Claude",
+      "Niko Bellic",
+      "Tommy Vercetti",
+      "Carl Johnson"
+    ],
+    "resposta_correta": 0,
+    "id": 500
+  }
+]

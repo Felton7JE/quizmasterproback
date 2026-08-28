@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Moçambique?",
+    "opcoes": [
+      "Maputo",
+      "Luanda",
+      "Harare",
+      "Lusaka"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Angola?",
+    "opcoes": [
+      "Luanda",
+      "Maputo",
+      "Kinshasa",
+      "Windhoek"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Zimbabué?",
+    "opcoes": [
+      "Gaborone",
+      "Maputo",
+      "Harare",
+      "Lusaka"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Zâmbia?",
+    "opcoes": [
+      "Lilongwe",
+      "Harare",
+      "Gaborone",
+      "Lusaka"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Maláui?",
+    "opcoes": [
+      "Nairobi",
+      "Lusaka",
+      "Lilongwe",
+      "Maputo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Tanzânia?",
+    "opcoes": [
+      "Nairobi",
+      "Mogadíscio",
+      "Dodoma",
+      "Kampala"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Quénia?",
+    "opcoes": [
+      "Nairobi",
+      "Dodoma",
+      "Kampala",
+      "Addis Abeba"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Uganda?",
+    "opcoes": [
+      "Juba",
+      "Nairobi",
+      "Kampala",
+      "Kigali"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Ruanda?",
+    "opcoes": [
+      "Kampala",
+      "Bujumbura",
+      "Nairobi",
+      "Kigali"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Etiópia?",
+    "opcoes": [
+      "Adis Abeba",
+      "Nairobi",
+      "Cartum",
+      "Asmara"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Egipto?",
+    "opcoes": [
+      "Argel",
+      "Cairo",
+      "Túnis",
+      "Trípoli"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Marrocos?",
+    "opcoes": [
+      "Argel",
+      "Dacar",
+      "Túnis",
+      "Rabat"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Argélia?",
+    "opcoes": [
+      "Argel",
+      "Trípoli",
+      "Cairo",
+      "Rabat"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Senegal?",
+    "opcoes": [
+      "Dacar",
+      "Conacri",
+      "Banjul",
+      "Bamaco"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Nigéria?",
+    "opcoes": [
+      "Abuja",
+      "Lagos",
+      "Acra",
+      "Niamei"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Gana?",
+    "opcoes": [
+      "Acra",
+      "Abidjan",
+      "Lomé",
+      "Abuja"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Namíbia?",
+    "opcoes": [
+      "Windhoek",
+      "Gaborone",
+      "Maputo",
+      "Pretória"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Botsuana?",
+    "opcoes": [
+      "Pretória",
+      "Maseru",
+      "Windhoek",
+      "Gaborone"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Lesoto?",
+    "opcoes": [
+      "Maseru",
+      "Pretória",
+      "Mbabane",
+      "Gaborone"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de África do Sul?",
+    "opcoes": [
+      "Joanesburgo",
+      "Cidade do Cabo",
+      "Bloemfontein",
+      "Pretória"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Brasil?",
+    "opcoes": [
+      "Brasília",
+      "Rio de Janeiro",
+      "Salvador",
+      "São Paulo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Argentina?",
+    "opcoes": [
+      "Buenos Aires",
+      "Assunção",
+      "Santiago",
+      "Montevidéu"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Chile?",
+    "opcoes": [
+      "Buenos Aires",
+      "Lima",
+      "Santiago",
+      "La Paz"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Peru?",
+    "opcoes": [
+      "Quito",
+      "Santiago",
+      "Lima",
+      "La Paz"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Colômbia?",
+    "opcoes": [
+      "Caracas",
+      "Quito",
+      "Lima",
+      "Bogotá"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Equador?",
+    "opcoes": [
+      "Quito",
+      "Sucre",
+      "Lima",
+      "Bogotá"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de México?",
+    "opcoes": [
+      "Havana",
+      "Guadalajara",
+      "Monterrei",
+      "Cidade do México"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Canadá?",
+    "opcoes": [
+      "Montreal",
+      "Vancouver",
+      "Ottawa",
+      "Toronto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Estados Unidos da América?",
+    "opcoes": [
+      "Washington, D.C.",
+      "Boston",
+      "Nova Iorque",
+      "Filadélfia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Cuba?",
+    "opcoes": [
+      "Nassau",
+      "Kingston",
+      "Havana",
+      "Santo Domingo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Portugal?",
+    "opcoes": [
+      "Porto",
+      "Coimbra",
+      "Faro",
+      "Lisboa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Espanha?",
+    "opcoes": [
+      "Valência",
+      "Barcelona",
+      "Sevilha",
+      "Madrid"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de França?",
+    "opcoes": [
+      "Nice",
+      "Marselha",
+      "Lyon",
+      "Paris"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Itália?",
+    "opcoes": [
+      "Milão",
+      "Roma",
+      "Nápoles",
+      "Turim"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Alemanha?",
+    "opcoes": [
+      "Frankfurt",
+      "Berlim",
+      "Munique",
+      "Hamburgo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Reino Unido?",
+    "opcoes": [
+      "Manchester",
+      "Londres",
+      "Edimburgo",
+      "Cardiff"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Noruega?",
+    "opcoes": [
+      "Estocolmo",
+      "Copenhaga",
+      "Helsínquia",
+      "Oslo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Suécia?",
+    "opcoes": [
+      "Copenhaga",
+      "Helsínquia",
+      "Oslo",
+      "Estocolmo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Rússia?",
+    "opcoes": [
+      "Moscovo",
+      "Minsk",
+      "São Petersburgo",
+      "Kiev"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de China?",
+    "opcoes": [
+      "Hong Kong",
+      "Xangai",
+      "Nanquim",
+      "Pequim"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Índia?",
+    "opcoes": [
+      "Nova Deli",
+      "Mumbai",
+      "Calcutá",
+      "Islamabad"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Japão?",
+    "opcoes": [
+      "Hiroxima",
+      "Tóquio",
+      "Osaca",
+      "Quioto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Austrália?",
+    "opcoes": [
+      "Brisbane",
+      "Sydney",
+      "Camberra",
+      "Melbourne"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Nova Zelândia?",
+    "opcoes": [
+      "Auckland",
+      "Christchurch",
+      "Hamilton",
+      "Wellington"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital de Turquia?",
+    "opcoes": [
+      "Bursa",
+      "Ancara",
+      "Istambul",
+      "Izmir"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Cabo Delgado em Moçambique?",
+    "opcoes": [
+      "Lichinga",
+      "Quelimane",
+      "Pemba",
+      "Nampula"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Niassa em Moçambique?",
+    "opcoes": [
+      "Nampula",
+      "Lichinga",
+      "Quelimane",
+      "Pemba"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Nampula em Moçambique?",
+    "opcoes": [
+      "Nampula",
+      "Quelimane",
+      "Pemba",
+      "Lichinga"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Zambézia em Moçambique?",
+    "opcoes": [
+      "Pemba",
+      "Nampula",
+      "Lichinga",
+      "Quelimane"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Tete em Moçambique?",
+    "opcoes": [
+      "Pemba",
+      "Nampula",
+      "Tete",
+      "Lichinga"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Manica em Moçambique?",
+    "opcoes": [
+      "Chimoio",
+      "Pemba",
+      "Lichinga",
+      "Nampula"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Sofala em Moçambique?",
+    "opcoes": [
+      "Lichinga",
+      "Beira",
+      "Pemba",
+      "Nampula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Inhambane em Moçambique?",
+    "opcoes": [
+      "Nampula",
+      "Pemba",
+      "Inhambane",
+      "Lichinga"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Gaza em Moçambique?",
+    "opcoes": [
+      "Lichinga",
+      "Pemba",
+      "Xai-Xai",
+      "Nampula"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Maputo Província em Moçambique?",
+    "opcoes": [
+      "Pemba",
+      "Matola",
+      "Nampula",
+      "Lichinga"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 56,
+    "nivel": "facil",
+    "pergunta": "Qual é a capital da província de Maputo Cidade em Moçambique?",
+    "opcoes": [
+      "Nampula",
+      "Pemba",
+      "Lichinga",
+      "Maputo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 57,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Pemba?",
+    "opcoes": [
+      "Cabo Delgado",
+      "Zambézia",
+      "Niassa",
+      "Nampula"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 58,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Lichinga?",
+    "opcoes": [
+      "Niassa",
+      "Zambézia",
+      "Cabo Delgado",
+      "Nampula"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 59,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Nampula?",
+    "opcoes": [
+      "Niassa",
+      "Nampula",
+      "Zambézia",
+      "Cabo Delgado"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 60,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Quelimane?",
+    "opcoes": [
+      "Cabo Delgado",
+      "Niassa",
+      "Zambézia",
+      "Nampula"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 61,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Tete?",
+    "opcoes": [
+      "Niassa",
+      "Cabo Delgado",
+      "Tete",
+      "Nampula"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 62,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Chimoio?",
+    "opcoes": [
+      "Niassa",
+      "Manica",
+      "Nampula",
+      "Cabo Delgado"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 63,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Beira?",
+    "opcoes": [
+      "Nampula",
+      "Niassa",
+      "Sofala",
+      "Cabo Delgado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 64,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Inhambane?",
+    "opcoes": [
+      "Cabo Delgado",
+      "Niassa",
+      "Nampula",
+      "Inhambane"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 65,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Xai-Xai?",
+    "opcoes": [
+      "Gaza",
+      "Niassa",
+      "Nampula",
+      "Cabo Delgado"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 66,
+    "nivel": "facil",
+    "pergunta": "Em que província moçambicana se localiza a cidade de Matola?",
+    "opcoes": [
+      "Cabo Delgado",
+      "Maputo Província",
+      "Niassa",
+      "Nampula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 67,
+    "nivel": "facil",
+    "pergunta": "O maior oceano da Terra é o?",
+    "opcoes": [
+      "Índico",
+      "Ártico",
+      "Atlântico",
+      "Oceano Pacífico"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 68,
+    "nivel": "facil",
+    "pergunta": "O continente onde se localiza Moçambique é a?",
+    "opcoes": [
+      "América do Sul",
+      "Ásia",
+      "África",
+      "Europa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 69,
+    "nivel": "facil",
+    "pergunta": "A linha imaginária que divide a Terra em hemisférios Norte e Sul é o?",
+    "opcoes": [
+      "Trópico de Câncer",
+      "Meridiano de Greenwich",
+      "Trópico de Capricórnio",
+      "Equador"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 70,
+    "nivel": "facil",
+    "pergunta": "O meridiano de referência para a longitude é o de?",
+    "opcoes": [
+      "Câncer",
+      "Equador",
+      "180 graus",
+      "Greenwich"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 71,
+    "nivel": "facil",
+    "pergunta": "O maior continente em área é a?",
+    "opcoes": [
+      "América do Norte",
+      "Europa",
+      "Ásia",
+      "África"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 72,
+    "nivel": "facil",
+    "pergunta": "O deserto do Sara situa-se principalmente em?",
+    "opcoes": [
+      "América do Sul",
+      "Austrália",
+      "Ásia",
+      "África"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 73,
+    "nivel": "facil",
+    "pergunta": "A montanha mais alta acima do nível do mar é o?",
+    "opcoes": [
+      "Monte Elbrus",
+      "Evereste",
+      "Kilimanjaro",
+      "Aconcágua"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 74,
+    "nivel": "facil",
+    "pergunta": "O rio mais extenso da América do Sul é o?",
+    "opcoes": [
+      "Amazonas",
+      "Nilo",
+      "Paraná",
+      "Mississípi"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 75,
+    "nivel": "facil",
+    "pergunta": "O mar que banha a costa oriental de Moçambique é o?",
+    "opcoes": [
+      "Mar das Caraíbas",
+      "Mar Mediterrâneo",
+      "Canal de Moçambique",
+      "Mar Vermelho"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 76,
+    "nivel": "facil",
+    "pergunta": "A camada gasosa que envolve a Terra chama-se?",
+    "opcoes": [
+      "biosfera",
+      "litosfera",
+      "hidrosfera",
+      "atmosfera"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 77,
+    "nivel": "facil",
+    "pergunta": "A água em estado sólido forma?",
+    "opcoes": [
+      "vapor",
+      "orvalho",
+      "gelo",
+      "humidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 78,
+    "nivel": "facil",
+    "pergunta": "O aparelho que mede a temperatura é o?",
+    "opcoes": [
+      "termómetro",
+      "pluviómetro",
+      "anemómetro",
+      "barómetro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 79,
+    "nivel": "facil",
+    "pergunta": "O aparelho que mede a pressão atmosférica é o?",
+    "opcoes": [
+      "barómetro",
+      "higrómetro",
+      "pluviómetro",
+      "termómetro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 80,
+    "nivel": "facil",
+    "pergunta": "A precipitação de água em gotas líquidas chama-se?",
+    "opcoes": [
+      "granizo",
+      "chuva",
+      "geada",
+      "neve"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 81,
+    "nivel": "facil",
+    "pergunta": "A representação reduzida da superfície terrestre é um?",
+    "opcoes": [
+      "vulcão",
+      "arquipélago",
+      "delta",
+      "mapa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 82,
+    "nivel": "facil",
+    "pergunta": "O conjunto de ilhas denomina-se?",
+    "opcoes": [
+      "planície",
+      "arquipélago",
+      "península",
+      "istmo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 83,
+    "nivel": "facil",
+    "pergunta": "Uma porção de terra cercada de água por quase todos os lados é uma?",
+    "opcoes": [
+      "ilha",
+      "duna",
+      "baía",
+      "península"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 84,
+    "nivel": "facil",
+    "pergunta": "A foz de um rio com vários canais e sedimentos chama-se?",
+    "opcoes": [
+      "falésia",
+      "delta",
+      "cabo",
+      "fiorde"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 85,
+    "nivel": "facil",
+    "pergunta": "A área baixa e relativamente plana junto ao mar é uma?",
+    "opcoes": [
+      "depressão oceânica",
+      "meseta",
+      "cordilheira",
+      "planície costeira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 86,
+    "nivel": "facil",
+    "pergunta": "O movimento diário aparente do Sol resulta principalmente da?",
+    "opcoes": [
+      "erosão",
+      "rotação da Terra",
+      "maré",
+      "translação da Terra"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 87,
+    "nivel": "facil",
+    "pergunta": "O movimento da Terra à volta do Sol chama-se?",
+    "opcoes": [
+      "translação",
+      "rotação",
+      "precessão diária",
+      "convecção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 88,
+    "nivel": "facil",
+    "pergunta": "A estação das chuvas está associada, em geral, a maior?",
+    "opcoes": [
+      "precipitação",
+      "latitude",
+      "pressão no subsolo",
+      "salinidade"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 89,
+    "nivel": "facil",
+    "pergunta": "A floresta com árvores adaptadas à água salgada das marés é o?",
+    "opcoes": [
+      "taiga",
+      "mangal",
+      "savana",
+      "tundra"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 90,
+    "nivel": "facil",
+    "pergunta": "A vegetação de gramíneas com árvores espaçadas típica de muitas áreas tropicais é a?",
+    "opcoes": [
+      "taiga",
+      "tundra",
+      "savana",
+      "floresta boreal"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 91,
+    "nivel": "facil",
+    "pergunta": "O bioma de temperaturas muito baixas e sem árvores altas é a?",
+    "opcoes": [
+      "tundra",
+      "savana",
+      "floresta tropical",
+      "estepe"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 92,
+    "nivel": "facil",
+    "pergunta": "A maior parte da água do planeta encontra-se nos?",
+    "opcoes": [
+      "oceanos",
+      "glaciares",
+      "lagos",
+      "rios"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 93,
+    "nivel": "facil",
+    "pergunta": "A energia obtida do movimento do vento é?",
+    "opcoes": [
+      "eólica",
+      "hidráulica",
+      "geotérmica",
+      "nuclear"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 94,
+    "nivel": "facil",
+    "pergunta": "A energia produzida pelo movimento da água é?",
+    "opcoes": [
+      "hidroeléctrica",
+      "solar",
+      "geotérmica",
+      "eólica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 95,
+    "nivel": "facil",
+    "pergunta": "A actividade de cultivo da terra chama-se?",
+    "opcoes": [
+      "mineração",
+      "comércio",
+      "agricultura",
+      "indústria"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 96,
+    "nivel": "facil",
+    "pergunta": "A extracção de minerais do subsolo é a?",
+    "opcoes": [
+      "mineração",
+      "pesca",
+      "silvicultura",
+      "pecuária"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 97,
+    "nivel": "facil",
+    "pergunta": "A criação de gado é chamada?",
+    "opcoes": [
+      "pecuária",
+      "cartografia",
+      "metalurgia",
+      "agricultura"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 98,
+    "nivel": "facil",
+    "pergunta": "O crescimento da população numa cidade é parte da?",
+    "opcoes": [
+      "glaciação",
+      "urbanização",
+      "desertificação",
+      "sedimentação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 99,
+    "nivel": "facil",
+    "pergunta": "A ciência que representa e estuda mapas é a?",
+    "opcoes": [
+      "cartografia",
+      "oceanografia",
+      "geologia",
+      "demografia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 100,
+    "nivel": "facil",
+    "pergunta": "A ciência que estuda a população é a?",
+    "opcoes": [
+      "petrologia",
+      "demografia",
+      "climatologia",
+      "hidrologia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 101,
+    "nivel": "facil",
+    "pergunta": "O ponto cardeal onde nasce o Sol é o?",
+    "opcoes": [
+      "Norte",
+      "Este",
+      "Sul",
+      "Oeste"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 102,
+    "nivel": "facil",
+    "pergunta": "Numa escala 1:100 000, 1 cm no mapa corresponde a?",
+    "opcoes": [
+      "100 m",
+      "100 km",
+      "1 km no terreno",
+      "10 km"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 103,
+    "nivel": "facil",
+    "pergunta": "As linhas que unem pontos de igual altitude chamam-se?",
+    "opcoes": [
+      "isóbaras",
+      "curvas de nível",
+      "isoietas",
+      "meridianos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 104,
+    "nivel": "facil",
+    "pergunta": "As linhas que unem pontos de igual pressão atmosférica são?",
+    "opcoes": [
+      "curvas de nível",
+      "isóbaras",
+      "paralelos",
+      "isotérmicas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 105,
+    "nivel": "facil",
+    "pergunta": "A latitude é medida a partir do?",
+    "opcoes": [
+      "Equador",
+      "Greenwich",
+      "Trópico de Capricórnio",
+      "Pólo Norte"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 106,
+    "nivel": "facil",
+    "pergunta": "A longitude pode variar de 0° até?",
+    "opcoes": [
+      "180° para leste ou oeste",
+      "360° apenas para leste",
+      "90° apenas para norte",
+      "45° em qualquer direcção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 107,
+    "nivel": "facil",
+    "pergunta": "A orientação pelo Norte, Sul, Este e Oeste usa os pontos?",
+    "opcoes": [
+      "colaterais",
+      "altimétricos",
+      "isobáricos",
+      "cardeais"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 108,
+    "nivel": "facil",
+    "pergunta": "O instrumento tradicional para indicar direcções é a?",
+    "opcoes": [
+      "bússola",
+      "luneta",
+      "ampulheta",
+      "balança"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 109,
+    "nivel": "facil",
+    "pergunta": "A legenda de um mapa explica os seus?",
+    "opcoes": [
+      "movimentos tectónicos",
+      "níveis de chuva",
+      "fusos horários",
+      "símbolos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 110,
+    "nivel": "facil",
+    "pergunta": "A escala numérica 1:50 000 é uma relação entre mapa e?",
+    "opcoes": [
+      "clima",
+      "população",
+      "vegetação",
+      "realidade"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 111,
+    "nivel": "facil",
+    "pergunta": "A orientação de um mapa é frequentemente indicada por uma seta para o?",
+    "opcoes": [
+      "Oeste",
+      "Equador",
+      "Norte",
+      "centro da Terra"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 112,
+    "nivel": "facil",
+    "pergunta": "A distância angular ao Norte ou Sul do Equador é a?",
+    "opcoes": [
+      "altitude",
+      "longitude",
+      "latitude",
+      "profundidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 113,
+    "nivel": "facil",
+    "pergunta": "A distância angular a Este ou Oeste de Greenwich é a?",
+    "opcoes": [
+      "latitude",
+      "longitude",
+      "declive",
+      "altitude"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 114,
+    "nivel": "facil",
+    "pergunta": "Um mapa que mostra países e fronteiras é principalmente?",
+    "opcoes": [
+      "climático",
+      "político",
+      "topográfico",
+      "geológico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 115,
+    "nivel": "facil",
+    "pergunta": "Um mapa que mostra relevo e altitude é?",
+    "opcoes": [
+      "linguístico",
+      "económico",
+      "demográfico",
+      "topográfico"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 116,
+    "nivel": "facil",
+    "pergunta": "O mapa de distribuição de temperaturas é um mapa?",
+    "opcoes": [
+      "rodoviário",
+      "cadastral",
+      "político",
+      "climático"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 117,
+    "nivel": "facil",
+    "pergunta": "A diferença de altitude entre dois pontos chama-se?",
+    "opcoes": [
+      "densidade",
+      "desnível",
+      "latitude",
+      "escala"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 118,
+    "nivel": "facil",
+    "pergunta": "O declive indica a variação de altitude por unidade de?",
+    "opcoes": [
+      "distância horizontal",
+      "longitude",
+      "população",
+      "temperatura"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 119,
+    "nivel": "facil",
+    "pergunta": "O lugar exacto de um fenómeno num mapa corresponde à sua?",
+    "opcoes": [
+      "densidade",
+      "hierarquia",
+      "escala temporal",
+      "localização"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 120,
+    "nivel": "facil",
+    "pergunta": "A superfície terrestre é dividida em fusos para organizar?",
+    "opcoes": [
+      "tipos de solo",
+      "fronteiras naturais",
+      "horas legais",
+      "marés"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 121,
+    "nivel": "facil",
+    "pergunta": "A escala gráfica é representada por uma?",
+    "opcoes": [
+      "rosa-dos-ventos",
+      "linha de costa",
+      "barra graduada",
+      "fotografia aérea"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 122,
+    "nivel": "facil",
+    "pergunta": "As fotografias obtidas por satélite são dados de?",
+    "opcoes": [
+      "escavação",
+      "detecção remota",
+      "navegação manual",
+      "amostragem oral"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 123,
+    "nivel": "facil",
+    "pergunta": "O GPS permite determinar principalmente a?",
+    "opcoes": [
+      "posição na superfície terrestre",
+      "salinidade oceânica",
+      "idade das rochas",
+      "composição do núcleo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 124,
+    "nivel": "facil",
+    "pergunta": "A legenda de altitude por cores num mapa hipsométrico usa normalmente?",
+    "opcoes": [
+      "tons para diferentes elevações",
+      "linhas de fronteira apenas",
+      "setas de vento apenas",
+      "símbolos de capitais apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 125,
+    "nivel": "facil",
+    "pergunta": "Num mapa, uma linha que une pontos de igual temperatura é uma?",
+    "opcoes": [
+      "isóbara",
+      "curva batimétrica",
+      "isotérmica",
+      "isoíeta"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 126,
+    "nivel": "facil",
+    "pergunta": "A representação da profundidade do fundo marinho é feita por mapa?",
+    "opcoes": [
+      "batimétrico",
+      "eleitoral",
+      "linguístico",
+      "agrícola"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 127,
+    "nivel": "facil",
+    "pergunta": "A quantidade de habitantes por quilómetro quadrado é a?",
+    "opcoes": [
+      "taxa de natalidade",
+      "densidade populacional",
+      "esperança de vida",
+      "migração líquida"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 128,
+    "nivel": "facil",
+    "pergunta": "A deslocação de pessoas para outro país é uma?",
+    "opcoes": [
+      "rotação",
+      "migração internacional",
+      "erosão",
+      "urbanização vertical"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 129,
+    "nivel": "facil",
+    "pergunta": "A saída de pessoas de um território é a?",
+    "opcoes": [
+      "imigração",
+      "emigração",
+      "natalidade",
+      "densidade"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 130,
+    "nivel": "facil",
+    "pergunta": "A entrada de pessoas num território é a?",
+    "opcoes": [
+      "mortalidade",
+      "imigração",
+      "emigração",
+      "fecundidade"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 131,
+    "nivel": "facil",
+    "pergunta": "A diferença entre nascimentos e mortes é o crescimento?",
+    "opcoes": [
+      "urbano",
+      "migratório",
+      "económico",
+      "natural"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 132,
+    "nivel": "facil",
+    "pergunta": "A produção de bens em fábricas pertence ao sector?",
+    "opcoes": [
+      "terciário",
+      "primário",
+      "doméstico",
+      "secundário"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 133,
+    "nivel": "facil",
+    "pergunta": "O comércio e os transportes pertencem sobretudo ao sector?",
+    "opcoes": [
+      "primário",
+      "terciário",
+      "secundário",
+      "extractivo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 134,
+    "nivel": "facil",
+    "pergunta": "A pesca e a agricultura pertencem ao sector?",
+    "opcoes": [
+      "terciário",
+      "quaternário",
+      "secundário",
+      "primário"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 135,
+    "nivel": "facil",
+    "pergunta": "A transformação de matéria-prima em produto é uma actividade?",
+    "opcoes": [
+      "industrial",
+      "pastoril",
+      "agrícola",
+      "turística"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 136,
+    "nivel": "facil",
+    "pergunta": "O turismo utiliza principalmente serviços de?",
+    "opcoes": [
+      "cultivo de cereais",
+      "lazer e deslocação",
+      "mineração profunda",
+      "metalurgia pesada"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 137,
+    "nivel": "facil",
+    "pergunta": "A perda de cobertura vegetal e degradação de terras é?",
+    "opcoes": [
+      "glaciação",
+      "desertificação",
+      "urbanização",
+      "sedimentação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 138,
+    "nivel": "facil",
+    "pergunta": "Plantar árvores para recuperar uma área chama-se?",
+    "opcoes": [
+      "salinização",
+      "reflorestação",
+      "inundação",
+      "industrialização"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 139,
+    "nivel": "facil",
+    "pergunta": "O uso de recursos sem comprometer as gerações futuras é?",
+    "opcoes": [
+      "desertificação",
+      "crescimento ilimitado",
+      "desenvolvimento sustentável",
+      "consumo predatório"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 140,
+    "nivel": "facil",
+    "pergunta": "A variedade de seres vivos numa área é a?",
+    "opcoes": [
+      "pluviosidade",
+      "densidade urbana",
+      "biodiversidade",
+      "latitude"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 141,
+    "nivel": "facil",
+    "pergunta": "A emissão excessiva de gases com efeito de estufa contribui para o?",
+    "opcoes": [
+      "vulcanismo",
+      "arrefecimento oceânico",
+      "aquecimento global",
+      "eclipse"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 142,
+    "nivel": "facil",
+    "pergunta": "A subida do nível do mar ameaça especialmente áreas?",
+    "opcoes": [
+      "desérticas elevadas",
+      "costeiras baixas",
+      "montanhosas interiores",
+      "polares continentais"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 143,
+    "nivel": "facil",
+    "pergunta": "O dióxido de carbono é um gás com efeito de?",
+    "opcoes": [
+      "monção",
+      "estufa",
+      "maré",
+      "erosão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 144,
+    "nivel": "facil",
+    "pergunta": "A reciclagem procura reduzir a quantidade de?",
+    "opcoes": [
+      "resíduos",
+      "chuva",
+      "latitude",
+      "rocha-mãe"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 145,
+    "nivel": "facil",
+    "pergunta": "A transformação de resíduos orgânicos em adubo é?",
+    "opcoes": [
+      "mineração",
+      "compostagem",
+      "incineração",
+      "irrigação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 146,
+    "nivel": "facil",
+    "pergunta": "A água imprópria para beber pode causar doenças de origem?",
+    "opcoes": [
+      "magnética",
+      "tectónica",
+      "astronómica",
+      "hídrica"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 147,
+    "nivel": "facil",
+    "pergunta": "A rede de rios que drena uma área forma uma?",
+    "opcoes": [
+      "duna",
+      "cordilheira",
+      "bacia hidrográfica",
+      "península"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 148,
+    "nivel": "facil",
+    "pergunta": "O ponto onde um rio começa chama-se?",
+    "opcoes": [
+      "afluente",
+      "foz",
+      "nascente",
+      "estuário"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 149,
+    "nivel": "facil",
+    "pergunta": "Um rio que desagua noutro rio é um?",
+    "opcoes": [
+      "afluente",
+      "cabo",
+      "delta",
+      "meandro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 150,
+    "nivel": "facil",
+    "pergunta": "A curva acentuada no curso de um rio é um?",
+    "opcoes": [
+      "istmo",
+      "fiorde",
+      "arquipélago",
+      "meandro"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 151,
+    "nivel": "facil",
+    "pergunta": "A água subterrânea armazenada em rochas permeáveis forma um?",
+    "opcoes": [
+      "aquífero",
+      "glaciar",
+      "vulcão",
+      "delta"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 152,
+    "nivel": "facil",
+    "pergunta": "O armazenamento de água atrás de uma barragem forma uma?",
+    "opcoes": [
+      "restinga",
+      "falésia",
+      "duna",
+      "albufeira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 153,
+    "nivel": "facil",
+    "pergunta": "A costa rochosa e muito inclinada junto ao mar pode formar uma?",
+    "opcoes": [
+      "savana",
+      "bacia",
+      "planície",
+      "falésia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 154,
+    "nivel": "facil",
+    "pergunta": "A faixa de areia paralela à costa chama-se?",
+    "opcoes": [
+      "cordilheira",
+      "vale glaciar",
+      "planalto",
+      "praia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 155,
+    "nivel": "facil",
+    "pergunta": "O conjunto de formas da superfície terrestre é o?",
+    "opcoes": [
+      "povoamento",
+      "clima",
+      "relevo",
+      "comércio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 156,
+    "nivel": "facil",
+    "pergunta": "A camada superficial onde crescem as plantas é o?",
+    "opcoes": [
+      "oceano",
+      "núcleo",
+      "solo",
+      "manto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 157,
+    "nivel": "facil",
+    "pergunta": "A erosão causada pela água pode transportar?",
+    "opcoes": [
+      "sedimentos",
+      "minerais gasosos",
+      "capitais",
+      "fusos horários"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 158,
+    "nivel": "facil",
+    "pergunta": "A deposição de materiais transportados chama-se?",
+    "opcoes": [
+      "evaporação",
+      "subducção",
+      "sedimentação",
+      "condensação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 159,
+    "nivel": "facil",
+    "pergunta": "A circulação de pessoas, bens e ideias entre países é a?",
+    "opcoes": [
+      "desertificação",
+      "globalização",
+      "glaciação",
+      "isolamento"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 160,
+    "nivel": "facil",
+    "pergunta": "A concentração de pessoas e actividades numa cidade é a?",
+    "opcoes": [
+      "erosão",
+      "urbanização",
+      "sedimentação",
+      "ruralização"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 161,
+    "nivel": "facil",
+    "pergunta": "A divisão de um território em unidades administrativas é uma?",
+    "opcoes": [
+      "orogénese",
+      "precipitação",
+      "organização territorial",
+      "rotação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 162,
+    "nivel": "medio",
+    "pergunta": "A amplitude térmica anual tende a ser menor nas zonas próximas do?",
+    "opcoes": [
+      "topo de montanha",
+      "deserto central",
+      "litoral",
+      "interior continental"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 163,
+    "nivel": "medio",
+    "pergunta": "A altitude elevada geralmente provoca temperaturas?",
+    "opcoes": [
+      "mais baixas",
+      "sempre iguais",
+      "independentes da pressão",
+      "mais altas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 164,
+    "nivel": "medio",
+    "pergunta": "A vertente de uma montanha voltada para o vento húmido tende a receber?",
+    "opcoes": [
+      "mais chuva",
+      "nenhuma precipitação",
+      "menos chuva sempre",
+      "apenas neve"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 165,
+    "nivel": "medio",
+    "pergunta": "A sombra de chuva forma-se no lado de sotavento devido à?",
+    "opcoes": [
+      "maré alta",
+      "subida de ar húmido",
+      "evaporação oceânica nula",
+      "descida de ar mais seco"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 166,
+    "nivel": "medio",
+    "pergunta": "A proximidade do mar moder[a] temperaturas porque a água aquece e arrefece?",
+    "opcoes": [
+      "instantaneamente",
+      "sem absorver energia",
+      "lentamente",
+      "apenas no Inverno"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 167,
+    "nivel": "medio",
+    "pergunta": "Uma corrente marítima fria junto à costa tende a reduzir a?",
+    "opcoes": [
+      "longitude",
+      "duração do dia",
+      "temperatura do ar",
+      "altitude do relevo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 168,
+    "nivel": "medio",
+    "pergunta": "O fenómeno El Niño está associado ao aquecimento anómalo de águas do?",
+    "opcoes": [
+      "Atlântico Norte",
+      "Ártico",
+      "Pacífico equatorial",
+      "Índico sul"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 169,
+    "nivel": "medio",
+    "pergunta": "A monção caracteriza-se por uma inversão sazonal dos?",
+    "opcoes": [
+      "fusos horários",
+      "cursos fluviais",
+      "ventos predominantes",
+      "movimentos das placas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 170,
+    "nivel": "medio",
+    "pergunta": "A convergência de ar quente e frio numa frente pode originar?",
+    "opcoes": [
+      "chuva",
+      "terramoto apenas",
+      "maré baixa",
+      "erosão glacial apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 171,
+    "nivel": "medio",
+    "pergunta": "A humidade relativa tende a aumentar quando o ar?",
+    "opcoes": [
+      "arrefece sem perder vapor",
+      "desce a pressão do solo",
+      "fica mais seco",
+      "aquece muito"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 172,
+    "nivel": "medio",
+    "pergunta": "A evapotranspiração combina evaporação e transpiração das?",
+    "opcoes": [
+      "marés",
+      "nuvens",
+      "rochas",
+      "plantas"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 173,
+    "nivel": "medio",
+    "pergunta": "A floresta tropical húmida apresenta elevada precipitação e?",
+    "opcoes": [
+      "baixa insolação anual",
+      "permafrost",
+      "biodiversidade",
+      "escassez permanente de água"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 174,
+    "nivel": "medio",
+    "pergunta": "A vegetação de uma região é influenciada sobretudo por clima e?",
+    "opcoes": [
+      "solo",
+      "moeda",
+      "fronteiras",
+      "longitude política"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 175,
+    "nivel": "medio",
+    "pergunta": "A latitude baixa recebe, em média, radiação solar mais?",
+    "opcoes": [
+      "oblíqua",
+      "fraca por definição",
+      "inexistente",
+      "directa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 176,
+    "nivel": "medio",
+    "pergunta": "Nas altas latitudes, os raios solares incidem de modo mais?",
+    "opcoes": [
+      "perpendicular todo o ano",
+      "vertical",
+      "oblíquo",
+      "concentrado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 177,
+    "nivel": "medio",
+    "pergunta": "O clima mediterrânico caracteriza-se por Verões?",
+    "opcoes": [
+      "frios e húmidos",
+      "húmidos todo o ano",
+      "quentes e secos",
+      "sem estação definida"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 178,
+    "nivel": "medio",
+    "pergunta": "O clima equatorial apresenta temperaturas altas e chuvas?",
+    "opcoes": [
+      "raras todo o ano",
+      "exclusivamente de neve",
+      "abundantes todo o ano",
+      "apenas no Inverno"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 179,
+    "nivel": "medio",
+    "pergunta": "O clima desértico tem precipitação?",
+    "opcoes": [
+      "muito reduzida",
+      "abundante e regular",
+      "apenas no equinócio",
+      "sempre sob a forma de neve"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 180,
+    "nivel": "medio",
+    "pergunta": "A savana costuma ter uma estação seca e outra?",
+    "opcoes": [
+      "chuvosa",
+      "polar",
+      "sem precipitação",
+      "de gelo permanente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 181,
+    "nivel": "medio",
+    "pergunta": "A aridez resulta de precipitação inferior à?",
+    "opcoes": [
+      "latitude",
+      "densidade urbana",
+      "evapotranspiração potencial",
+      "altitude zero"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 182,
+    "nivel": "medio",
+    "pergunta": "A inversão térmica pode prender poluentes junto ao?",
+    "opcoes": [
+      "solo",
+      "fundo oceânico",
+      "núcleo terrestre",
+      "topo da estratosfera"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 183,
+    "nivel": "medio",
+    "pergunta": "A urbanização pode elevar temperaturas locais por causa da ilha de?",
+    "opcoes": [
+      "maré",
+      "subducção",
+      "salinidade",
+      "calor urbana"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 184,
+    "nivel": "medio",
+    "pergunta": "O albedo elevado de uma superfície significa que ela reflecte?",
+    "opcoes": [
+      "muita radiação solar",
+      "pouca gravidade",
+      "muita chuva",
+      "pouco vento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 185,
+    "nivel": "medio",
+    "pergunta": "O gelo derretido reduz o albedo e pode reforçar o?",
+    "opcoes": [
+      "aquecimento",
+      "movimento de rotação",
+      "vulcanismo",
+      "arrefecimento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 186,
+    "nivel": "medio",
+    "pergunta": "A circulação atmosférica global redistribui principalmente?",
+    "opcoes": [
+      "fronteiras",
+      "calor",
+      "minerais",
+      "população rural"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 187,
+    "nivel": "medio",
+    "pergunta": "A corrente de Humboldt é uma corrente fria junto à costa ocidental da?",
+    "opcoes": [
+      "América do Sul",
+      "Europa ocidental",
+      "África oriental",
+      "Austrália oriental"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 188,
+    "nivel": "medio",
+    "pergunta": "A corrente do Golfo contribui para amenizar o clima da Europa?",
+    "opcoes": [
+      "meridional africana",
+      "ocidental",
+      "central asiática",
+      "oriental"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 189,
+    "nivel": "medio",
+    "pergunta": "A precipitação orográfica ocorre quando o ar húmido é forçado a?",
+    "opcoes": [
+      "parar no oceano",
+      "subir pelo relevo",
+      "descer ao vale",
+      "seguir um meridiano"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 190,
+    "nivel": "medio",
+    "pergunta": "A chuva convectiva é favorecida pelo aquecimento e ascensão de ar?",
+    "opcoes": [
+      "húmido",
+      "salino",
+      "subterrâneo",
+      "frio e seco"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 191,
+    "nivel": "medio",
+    "pergunta": "A geada forma-se quando a superfície arrefece até abaixo de?",
+    "opcoes": [
+      "100 °C",
+      "10 °C",
+      "50 °C",
+      "0 °C"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 192,
+    "nivel": "medio",
+    "pergunta": "A linha que separa duas bacias hidrográficas é o?",
+    "opcoes": [
+      "talvegue",
+      "divisor de águas",
+      "delta",
+      "estuário"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 193,
+    "nivel": "medio",
+    "pergunta": "A infiltração é a entrada da água no?",
+    "opcoes": [
+      "oceano aberto",
+      "núcleo",
+      "solo",
+      "ar estratosférico"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 194,
+    "nivel": "medio",
+    "pergunta": "A impermeabilização urbana tende a aumentar o escoamento?",
+    "opcoes": [
+      "subterrâneo profundo",
+      "atmosférico ascendente",
+      "glacial",
+      "superficial"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 195,
+    "nivel": "medio",
+    "pergunta": "A construção de barragens pode regular caudais, mas também reter?",
+    "opcoes": [
+      "vento solar",
+      "sedimentos",
+      "radiação ultravioleta",
+      "latitude"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 196,
+    "nivel": "medio",
+    "pergunta": "Um estuário mistura água doce do rio com água?",
+    "opcoes": [
+      "subterrânea sem sais",
+      "salgada do mar",
+      "glacial",
+      "vulcânica"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 197,
+    "nivel": "medio",
+    "pergunta": "A maré resulta sobretudo da atracção gravitacional da Lua e do?",
+    "opcoes": [
+      "Sol",
+      "Marte",
+      "núcleo terrestre",
+      "vento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 198,
+    "nivel": "medio",
+    "pergunta": "A erosão costeira tende a ser intensificada por ondas e?",
+    "opcoes": [
+      "subida do nível do mar",
+      "arrefecimento do núcleo",
+      "diminuição das marés",
+      "rotação mais lenta"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 199,
+    "nivel": "medio",
+    "pergunta": "Os recifes de coral desenvolvem-se melhor em águas tropicais rasas e?",
+    "opcoes": [
+      "quentes",
+      "muito turvas",
+      "sem luz",
+      "profundas e geladas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 200,
+    "nivel": "medio",
+    "pergunta": "A laterização em áreas tropicais húmidas está relacionada com forte?",
+    "opcoes": [
+      "glaciação",
+      "intemperismo químico",
+      "deposição de loess",
+      "erosão eólica exclusiva"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 201,
+    "nivel": "medio",
+    "pergunta": "A agricultura em terraços reduz a erosão em?",
+    "opcoes": [
+      "encostas",
+      "praias horizontais",
+      "deltas",
+      "oceanos profundos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 202,
+    "nivel": "medio",
+    "pergunta": "A rotação de culturas ajuda a manter a?",
+    "opcoes": [
+      "fertilidade do solo",
+      "salinidade do oceano",
+      "altitude",
+      "pressão atmosférica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 203,
+    "nivel": "medio",
+    "pergunta": "A irrigação sem drenagem adequada pode provocar?",
+    "opcoes": [
+      "formação de permafrost",
+      "redução de sais",
+      "salinização do solo",
+      "vulcanismo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 204,
+    "nivel": "medio",
+    "pergunta": "A desertificação pode resultar da combinação de seca e?",
+    "opcoes": [
+      "rotação de culturas",
+      "sobrepastoreio",
+      "conservação de água",
+      "reflorestação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 205,
+    "nivel": "medio",
+    "pergunta": "A erosão eólica é mais provável em superfícies secas e com pouca?",
+    "opcoes": [
+      "população",
+      "vegetação",
+      "declividade",
+      "latitude"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 206,
+    "nivel": "medio",
+    "pergunta": "A meteorização física fragmenta a rocha sem alterar necessariamente a sua?",
+    "opcoes": [
+      "altitude",
+      "idade humana",
+      "localização",
+      "composição química"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 207,
+    "nivel": "medio",
+    "pergunta": "Nas dorsais oceânicas ocorre criação de crosta por?",
+    "opcoes": [
+      "expansão do fundo oceânico",
+      "subducção continental",
+      "dobramento sedimentar",
+      "erosão fluvial"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 208,
+    "nivel": "medio",
+    "pergunta": "A subducção ocorre quando uma placa mergulha sob?",
+    "opcoes": [
+      "uma corrente marítima",
+      "a atmosfera",
+      "um rio",
+      "outra placa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 209,
+    "nivel": "medio",
+    "pergunta": "Limites transformantes caracterizam-se por placas que deslizam?",
+    "opcoes": [
+      "afastando-se sempre",
+      "sobre um continente sem fricção",
+      "uma por baixo da outra",
+      "lateralmente"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 210,
+    "nivel": "medio",
+    "pergunta": "A maioria dos terramotos ocorre junto aos limites de?",
+    "opcoes": [
+      "biomas",
+      "bacias hidrográficas",
+      "placas tectónicas",
+      "fusos horários"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 211,
+    "nivel": "medio",
+    "pergunta": "Vulcões associados a zonas de subducção formam frequentemente?",
+    "opcoes": [
+      "arcos de ilhas ou cadeias montanhosas",
+      "deltas",
+      "recifes mortos",
+      "planícies aluviais"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 212,
+    "nivel": "medio",
+    "pergunta": "O rifte africano é exemplo de zona de placas em?",
+    "opcoes": [
+      "colisão frontal",
+      "afastamento",
+      "subducção oceânica",
+      "deslizamento transformante"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 213,
+    "nivel": "medio",
+    "pergunta": "O magma que chega à superfície passa a chamar-se?",
+    "opcoes": [
+      "lava",
+      "granito",
+      "basalto sempre",
+      "sedimento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 214,
+    "nivel": "medio",
+    "pergunta": "O basalto é uma rocha ígnea formada geralmente por arrefecimento?",
+    "opcoes": [
+      "de calcário dissolvido",
+      "de sedimentos",
+      "lento no interior profundo",
+      "rápido de lava"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 215,
+    "nivel": "medio",
+    "pergunta": "Rochas sedimentares formam-se pela acumulação e consolidação de?",
+    "opcoes": [
+      "sedimentos",
+      "vapor de água",
+      "magma apenas",
+      "núcleo metálico"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 216,
+    "nivel": "medio",
+    "pergunta": "Rochas metamórficas resultam da transformação por pressão e?",
+    "opcoes": [
+      "chuva ácida apenas",
+      "temperatura",
+      "marés",
+      "latitude"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 217,
+    "nivel": "medio",
+    "pergunta": "O ciclo das rochas relaciona processos de fusão, erosão e?",
+    "opcoes": [
+      "metamorfismo",
+      "urbanização",
+      "migração",
+      "rotação terrestre"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 218,
+    "nivel": "medio",
+    "pergunta": "A escala de Mercalli avalia principalmente efeitos e intensidade de?",
+    "opcoes": [
+      "terramotos",
+      "secas",
+      "furacões",
+      "marés"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 219,
+    "nivel": "medio",
+    "pergunta": "A magnitude de um terramoto mede a energia libertada na?",
+    "opcoes": [
+      "fronteira política",
+      "nuvem",
+      "fonte sísmica",
+      "foz do rio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 220,
+    "nivel": "medio",
+    "pergunta": "O epicentro é o ponto à superfície directamente acima do?",
+    "opcoes": [
+      "delta",
+      "vulcão adormecido",
+      "manto superior",
+      "hipocentro"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 221,
+    "nivel": "medio",
+    "pergunta": "A sismologia utiliza ondas sísmicas para estudar o interior da?",
+    "opcoes": [
+      "Lua apenas",
+      "hidrosfera superficial",
+      "Terra",
+      "atmosfera exterior"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 222,
+    "nivel": "medio",
+    "pergunta": "O relevo dobrado resulta frequentemente de forças de?",
+    "opcoes": [
+      "sedimentação costeira",
+      "distensão exclusiva",
+      "evaporação",
+      "compressão"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 223,
+    "nivel": "medio",
+    "pergunta": "Falhas geológicas são fracturas com deslocamento de?",
+    "opcoes": [
+      "populações",
+      "oceanos",
+      "nuvens",
+      "blocos rochosos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 224,
+    "nivel": "medio",
+    "pergunta": "A cordilheira dos Andes está associada à subducção da placa de?",
+    "opcoes": [
+      "Nazca sob a Sul-Americana",
+      "Índia sob a Africana",
+      "África sob a Euroasiática",
+      "Pacífico sob a Antárctica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 225,
+    "nivel": "medio",
+    "pergunta": "O arquipélago do Japão situa-se numa região de intensa actividade?",
+    "opcoes": [
+      "glacial",
+      "desértica",
+      "tectónica",
+      "cárstica sem sismos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 226,
+    "nivel": "medio",
+    "pergunta": "A Islândia atravessa uma dorsal situada entre as placas?",
+    "opcoes": [
+      "Antárctica e Australiana",
+      "Norte-Americana e Euroasiática",
+      "Pacífica e Nazca",
+      "Africana e Indiana"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 227,
+    "nivel": "medio",
+    "pergunta": "O carste desenvolve-se sobretudo pela dissolução de rochas?",
+    "opcoes": [
+      "metálicas",
+      "graníticas sem fissuras",
+      "basálticas compactas",
+      "calcárias"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 228,
+    "nivel": "medio",
+    "pergunta": "Grutas calcárias formam-se principalmente por acção de água?",
+    "opcoes": [
+      "salgada sem infiltração",
+      "magmática seca",
+      "congelada permanente",
+      "ligeiramente ácida"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 229,
+    "nivel": "medio",
+    "pergunta": "A erosão glacial escava vales com secção transversal em?",
+    "opcoes": [
+      "V",
+      "círculos concêntricos",
+      "degraus quadrados",
+      "U"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 230,
+    "nivel": "medio",
+    "pergunta": "A erosão fluvial escava frequentemente vales em forma de?",
+    "opcoes": [
+      "anel",
+      "V",
+      "pirâmide",
+      "U largo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 231,
+    "nivel": "medio",
+    "pergunta": "Morainas são depósitos transportados por?",
+    "opcoes": [
+      "ventos alísios",
+      "rios subterrâneos",
+      "glaciares",
+      "correntes quentes"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 232,
+    "nivel": "medio",
+    "pergunta": "Dunas são formas de relevo construídas sobretudo pelo?",
+    "opcoes": [
+      "magma",
+      "gelo marinho",
+      "vento",
+      "escoamento subterrâneo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 233,
+    "nivel": "medio",
+    "pergunta": "A acumulação de sedimentos na foz pode formar um?",
+    "opcoes": [
+      "planalto",
+      "vulcão",
+      "fiorde",
+      "delta"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 234,
+    "nivel": "medio",
+    "pergunta": "Um fiorde é um vale glacial inundado pelo?",
+    "opcoes": [
+      "mar",
+      "lago salgado",
+      "rio de montanha",
+      "lençol freático"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 235,
+    "nivel": "medio",
+    "pergunta": "A isostasia descreve o equilíbrio entre a crosta e o?",
+    "opcoes": [
+      "manto subjacente",
+      "clima",
+      "oceano",
+      "núcleo externo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 236,
+    "nivel": "medio",
+    "pergunta": "O núcleo externo terrestre é predominantemente líquido e rico em?",
+    "opcoes": [
+      "quartzo e feldspato",
+      "ferro e níquel",
+      "carvão e petróleo",
+      "água e gelo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 237,
+    "nivel": "medio",
+    "pergunta": "O rio Zambeze atravessa Moçambique principalmente no sentido do interior para?",
+    "opcoes": [
+      "Lago Niassa",
+      "Mar Mediterrâneo",
+      "o Oceano Índico",
+      "Oceano Atlântico"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 238,
+    "nivel": "medio",
+    "pergunta": "A barragem de Cahora Bassa localiza-se no rio?",
+    "opcoes": [
+      "Save",
+      "Limpopo",
+      "Rovuma",
+      "Zambeze"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 239,
+    "nivel": "medio",
+    "pergunta": "O rio Rovuma marca grande parte da fronteira entre Moçambique e?",
+    "opcoes": [
+      "Zimbabué",
+      "Maláui",
+      "África do Sul",
+      "Tanzânia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 240,
+    "nivel": "medio",
+    "pergunta": "O rio Maputo pertence à drenagem que alcança a baía de?",
+    "opcoes": [
+      "Maputo",
+      "Pemba",
+      "Nacala",
+      "Sofala"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 241,
+    "nivel": "medio",
+    "pergunta": "A cidade da Beira situa-se na costa da província de?",
+    "opcoes": [
+      "Niassa",
+      "Tete",
+      "Gaza",
+      "Sofala"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 242,
+    "nivel": "medio",
+    "pergunta": "Nampula e Pemba pertencem, respectivamente, às províncias de?",
+    "opcoes": [
+      "Sofala e Manica",
+      "Tete e Gaza",
+      "Nampula e Cabo Delgado",
+      "Zambézia e Niassa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 243,
+    "nivel": "medio",
+    "pergunta": "A província moçambicana com litoral no extremo norte é?",
+    "opcoes": [
+      "Cabo Delgado",
+      "Manica",
+      "Gaza",
+      "Tete"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 244,
+    "nivel": "medio",
+    "pergunta": "A província de Tete é predominantemente interior e faz fronteira com?",
+    "opcoes": [
+      "Angola, Namíbia e Botsuana",
+      "Eswatini, Lesoto e África do Sul",
+      "Maláui, Zâmbia e Zimbabué",
+      "Tanzânia, Quénia e Uganda"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 245,
+    "nivel": "medio",
+    "pergunta": "O Lago Niassa é partilhado por Moçambique, Maláui e?",
+    "opcoes": [
+      "Quénia",
+      "Zâmbia",
+      "Zimbabué",
+      "Tanzânia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 246,
+    "nivel": "medio",
+    "pergunta": "O monte Binga, ponto culminante de Moçambique, situa-se na província de?",
+    "opcoes": [
+      "Cabo Delgado",
+      "Nampula",
+      "Gaza",
+      "Manica"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 247,
+    "nivel": "medio",
+    "pergunta": "A Ilha de Moçambique pertence à província de?",
+    "opcoes": [
+      "Inhambane",
+      "Nampula",
+      "Maputo",
+      "Sofala"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 248,
+    "nivel": "medio",
+    "pergunta": "O arquipélago das Quirimbas localiza-se sobretudo em?",
+    "opcoes": [
+      "Gaza",
+      "Tete",
+      "Cabo Delgado",
+      "Manica"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 249,
+    "nivel": "medio",
+    "pergunta": "A baía de Maputo favorece actividades portuárias por estar ligada ao?",
+    "opcoes": [
+      "Oceano Atlântico",
+      "Lago Niassa",
+      "Mar Vermelho",
+      "Oceano Índico"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 250,
+    "nivel": "medio",
+    "pergunta": "A longa costa moçambicana contribui para a importância da?",
+    "opcoes": [
+      "criação de renas",
+      "agricultura de altitude apenas",
+      "pesca e navegação",
+      "mineração polar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 251,
+    "nivel": "medio",
+    "pergunta": "O corredor de Nacala liga o interior ao porto de?",
+    "opcoes": [
+      "Beira",
+      "Pemba",
+      "Maputo",
+      "Nacala"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 252,
+    "nivel": "medio",
+    "pergunta": "O corredor da Beira conecta o porto da Beira a áreas interiores de?",
+    "opcoes": [
+      "Europa ocidental",
+      "África do Norte",
+      "Madagáscar apenas",
+      "Moçambique e países vizinhos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 253,
+    "nivel": "medio",
+    "pergunta": "A produção de gás natural na bacia do Rovuma relaciona-se com recursos?",
+    "opcoes": [
+      "minerais radioactivos exclusivamente",
+      "florestais tropicais apenas",
+      "pesqueiros",
+      "energéticos fósseis"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 254,
+    "nivel": "medio",
+    "pergunta": "Areias pesadas costeiras são fonte de minerais como?",
+    "opcoes": [
+      "sal-gema apenas",
+      "carvão vegetal",
+      "titânio",
+      "calcário agrícola apenas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 255,
+    "nivel": "medio",
+    "pergunta": "O carvão mineral de Moçambique é explorado com destaque na província de?",
+    "opcoes": [
+      "Maputo Cidade",
+      "Tete",
+      "Cabo Delgado",
+      "Inhambane"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 256,
+    "nivel": "medio",
+    "pergunta": "A agricultura familiar moçambicana depende frequentemente da?",
+    "opcoes": [
+      "irrigação glaciar",
+      "maré diária",
+      "precipitação sazonal",
+      "neve permanente"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 257,
+    "nivel": "medio",
+    "pergunta": "Ciclones tropicais afectam com maior frequência a costa moçambicana durante a época?",
+    "opcoes": [
+      "fria e seca",
+      "quente e chuvosa",
+      "polar",
+      "de geadas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 258,
+    "nivel": "medio",
+    "pergunta": "Mangais moçambicanos ajudam a proteger a costa e servem de viveiro para?",
+    "opcoes": [
+      "peixes e crustáceos",
+      "renas",
+      "pinheiros",
+      "camelos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 259,
+    "nivel": "medio",
+    "pergunta": "A erosão costeira pode ser agravada pela remoção de?",
+    "opcoes": [
+      "vegetação dunar e mangal",
+      "rocha do manto",
+      "nuvens",
+      "latitude"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 260,
+    "nivel": "medio",
+    "pergunta": "O vale do Zambeze é importante para agricultura devido a solos aluviais e?",
+    "opcoes": [
+      "altitude polar",
+      "permafrost",
+      "disponibilidade de água",
+      "ausência de rios"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 261,
+    "nivel": "medio",
+    "pergunta": "A metade norte de Moçambique apresenta, em geral, maior influência de?",
+    "opcoes": [
+      "clima polar",
+      "clima mediterrânico europeu",
+      "climas tropicais húmidos",
+      "tundra"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 262,
+    "nivel": "medio",
+    "pergunta": "A densidade populacional tende a ser elevada em áreas urbanas e?",
+    "opcoes": [
+      "zonas sem acessos",
+      "altas montanhas geladas",
+      "desertos sem água",
+      "costeiras férteis"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 263,
+    "nivel": "medio",
+    "pergunta": "Maputo, Matola e Marracuene integram uma área metropolitana no extremo?",
+    "opcoes": [
+      "oeste de Niassa",
+      "centro de Tete",
+      "sul de Moçambique",
+      "norte de Cabo Delgado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 264,
+    "nivel": "medio",
+    "pergunta": "A cidade de Chimoio situa-se num corredor agrícola e de transporte da província de?",
+    "opcoes": [
+      "Manica",
+      "Nampula",
+      "Cabo Delgado",
+      "Gaza"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 265,
+    "nivel": "medio",
+    "pergunta": "A cidade de Quelimane está associada ao delta e litoral da província de?",
+    "opcoes": [
+      "Inhambane",
+      "Tete",
+      "Zambézia",
+      "Maputo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 266,
+    "nivel": "medio",
+    "pergunta": "A cidade de Xai-Xai localiza-se no vale inferior do rio?",
+    "opcoes": [
+      "Zambeze",
+      "Lúrio",
+      "Limpopo",
+      "Rovuma"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 267,
+    "nivel": "medio",
+    "pergunta": "A fronteira ocidental de Moçambique inclui países sem litoral, como?",
+    "opcoes": [
+      "Madagáscar e Maurícia",
+      "Maláui e Zimbabué",
+      "Senegal e Gana",
+      "Egipto e Líbia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 268,
+    "nivel": "medio",
+    "pergunta": "A ilha de Madagáscar fica a leste de Moçambique, separada pelo?",
+    "opcoes": [
+      "Canal de Moçambique",
+      "Golfo da Guiné",
+      "Lago Vitória",
+      "Mar Mediterrâneo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 269,
+    "nivel": "medio",
+    "pergunta": "A localização costeira de Moçambique coloca-o na fachada oriental da?",
+    "opcoes": [
+      "África Ocidental",
+      "Europa Atlântica",
+      "Ásia Central",
+      "África Austral"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 270,
+    "nivel": "medio",
+    "pergunta": "A barragem de Cahora Bassa produz energia principalmente a partir da?",
+    "opcoes": [
+      "combustão de carvão local",
+      "energia das marés apenas",
+      "água armazenada",
+      "radiação solar directa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 271,
+    "nivel": "medio",
+    "pergunta": "A mineração pode gerar emprego, mas também exige controlo de?",
+    "opcoes": [
+      "impactes ambientais",
+      "marés lunares",
+      "fusos horários",
+      "latitude"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 272,
+    "nivel": "medio",
+    "pergunta": "Uma pirâmide etária de base larga indica população com muitos?",
+    "opcoes": [
+      "habitantes urbanos apenas",
+      "idosos",
+      "imigrantes recentes apenas",
+      "jovens"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 273,
+    "nivel": "medio",
+    "pergunta": "Uma pirâmide etária de topo relativamente largo sugere maior proporção de?",
+    "opcoes": [
+      "idosos",
+      "nascimentos",
+      "crianças",
+      "migrações pendulares"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 274,
+    "nivel": "medio",
+    "pergunta": "A transição demográfica geralmente passa de taxas altas de natalidade e mortalidade para?",
+    "opcoes": [
+      "taxas baixas de ambas",
+      "natalidade crescente ilimitada",
+      "mortalidade alta e natalidade nula sempre",
+      "migração zero"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 275,
+    "nivel": "medio",
+    "pergunta": "A migração pendular é uma deslocação regular entre residência e?",
+    "opcoes": [
+      "local de trabalho ou estudo",
+      "continente diferente",
+      "país de nascimento",
+      "zona de guerra apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 276,
+    "nivel": "medio",
+    "pergunta": "A conurbação ocorre quando áreas urbanas vizinhas se?",
+    "opcoes": [
+      "unem fisicamente",
+      "esvaziam totalmente",
+      "separam por oceanos",
+      "transformam em desertos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 277,
+    "nivel": "medio",
+    "pergunta": "A metropolização concentra funções de comando em grandes?",
+    "opcoes": [
+      "glaciares",
+      "zonas agrícolas remotas",
+      "áreas urbanas",
+      "aldeias isoladas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 278,
+    "nivel": "medio",
+    "pergunta": "A rede urbana é mais hierarquizada quando as cidades apresentam diferenças de?",
+    "opcoes": [
+      "pluviosidade diária",
+      "tipo de rocha apenas",
+      "latitude apenas",
+      "funções e influência"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 279,
+    "nivel": "medio",
+    "pergunta": "A agricultura de subsistência destina-se sobretudo ao?",
+    "opcoes": [
+      "abastecimento de fábricas estrangeiras",
+      "mercado internacional exclusivo",
+      "consumo do produtor",
+      "turismo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 280,
+    "nivel": "medio",
+    "pergunta": "A agricultura comercial produz principalmente para?",
+    "opcoes": [
+      "conservação em parques",
+      "consumo familiar exclusivo",
+      "medição de chuva",
+      "venda no mercado"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 281,
+    "nivel": "medio",
+    "pergunta": "A monocultura aumenta a dependência de uma única?",
+    "opcoes": [
+      "cultura agrícola",
+      "capital política",
+      "placa tectónica",
+      "bacia hidrográfica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 282,
+    "nivel": "medio",
+    "pergunta": "A diversificação de culturas pode reduzir riscos de?",
+    "opcoes": [
+      "perdas totais por pragas ou clima",
+      "segurança alimentar",
+      "aumento da biodiversidade",
+      "conservação do solo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 283,
+    "nivel": "medio",
+    "pergunta": "A cadeia de valor inclui produção, transformação, transporte e?",
+    "opcoes": [
+      "subducção",
+      "precipitação",
+      "comercialização",
+      "rotação terrestre"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 284,
+    "nivel": "medio",
+    "pergunta": "O desenvolvimento humano considera rendimento, educação e?",
+    "opcoes": [
+      "saúde",
+      "salinidade",
+      "tectónica",
+      "longitude"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 285,
+    "nivel": "medio",
+    "pergunta": "O PIB mede o valor dos bens e serviços finais produzidos num?",
+    "opcoes": [
+      "oceano num século",
+      "território num período",
+      "agregado familiar num dia",
+      "bioma sem população"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 286,
+    "nivel": "medio",
+    "pergunta": "O PIB por habitante facilita a comparação entre países de diferente?",
+    "opcoes": [
+      "clima",
+      "forma de relevo",
+      "latitude",
+      "população"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 287,
+    "nivel": "medio",
+    "pergunta": "Uma economia dependente de uma só exportação é vulnerável à variação de?",
+    "opcoes": [
+      "altitude",
+      "preços externos",
+      "estações do ano apenas",
+      "marés locais"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 288,
+    "nivel": "medio",
+    "pergunta": "A balança comercial é positiva quando as exportações superam?",
+    "opcoes": [
+      "migrações internas",
+      "importações",
+      "natalidade",
+      "chuva"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 289,
+    "nivel": "medio",
+    "pergunta": "Um porto de transbordo redistribui cargas entre diferentes?",
+    "opcoes": [
+      "meios ou rotas de transporte",
+      "camadas do solo",
+      "fusos geológicos",
+      "biomas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 290,
+    "nivel": "medio",
+    "pergunta": "A globalização económica intensifica fluxos de capitais, mercadorias e?",
+    "opcoes": [
+      "ondas sísmicas",
+      "informação",
+      "sedimentos apenas",
+      "glaciares"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 291,
+    "nivel": "medio",
+    "pergunta": "A vantagem da localização junto a um corredor de transporte é reduzir?",
+    "opcoes": [
+      "custos e tempo de circulação",
+      "latitude",
+      "erosão natural",
+      "radiação solar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 292,
+    "nivel": "medio",
+    "pergunta": "Num mapa coroplético, cores diferentes representam valores por?",
+    "opcoes": [
+      "unidades territoriais",
+      "direcção do vento apenas",
+      "profundidade de um rio",
+      "altitude de uma montanha apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 293,
+    "nivel": "medio",
+    "pergunta": "A projecção de Mercator preserva melhor ângulos, mas distorce áreas em?",
+    "opcoes": [
+      "meridiano zero sempre",
+      "altas latitudes",
+      "Equador apenas",
+      "centro dos oceanos tropicais"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 294,
+    "nivel": "medio",
+    "pergunta": "A projecção equivalente procura preservar?",
+    "opcoes": [
+      "áreas relativas",
+      "formas sem qualquer distorção",
+      "fusos horários",
+      "distâncias globais exactas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 295,
+    "nivel": "medio",
+    "pergunta": "A generalização cartográfica é necessária quando se reduz a escala para?",
+    "opcoes": [
+      "simplificar detalhes",
+      "aumentar a altitude",
+      "medir a pressão",
+      "prever sismos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 296,
+    "nivel": "medio",
+    "pergunta": "Duas localidades na mesma longitude podem ter horas solares semelhantes, mas a hora legal depende do?",
+    "opcoes": [
+      "caudal do rio",
+      "fuso e das decisões políticas",
+      "bioma",
+      "tipo de solo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 297,
+    "nivel": "medio",
+    "pergunta": "A análise de acessibilidade considera distância, tempo e?",
+    "opcoes": [
+      "qualidade das ligações",
+      "salinidade",
+      "latitude do Equador",
+      "idade das rochas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 298,
+    "nivel": "medio",
+    "pergunta": "A vulnerabilidade a cheias aumenta quando se constrói em?",
+    "opcoes": [
+      "encostas estáveis sem rios",
+      "planícies de inundação",
+      "divisores de águas elevados",
+      "desertos rochosos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 299,
+    "nivel": "medio",
+    "pergunta": "A gestão integrada de bacias considera usos da água a montante e?",
+    "opcoes": [
+      "apenas na nascente",
+      "apenas no litoral",
+      "fora da atmosfera",
+      "a jusante"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 300,
+    "nivel": "medio",
+    "pergunta": "A conservação in situ protege espécies no seu?",
+    "opcoes": [
+      "zoológico exclusivamente",
+      "habitat natural",
+      "museu",
+      "laboratório"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 301,
+    "nivel": "medio",
+    "pergunta": "A avaliação de impacte ambiental antecede grandes projectos para prever?",
+    "opcoes": [
+      "capitais mundiais",
+      "órbitas planetárias",
+      "fusos horários",
+      "efeitos no ambiente"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 302,
+    "nivel": "dificil",
+    "pergunta": "A subsidência de um delta costeiro, combinada com subida do nível do mar, aumenta o risco de?",
+    "opcoes": [
+      "inundação e salinização",
+      "arrefecimento urbano",
+      "glaciação continental",
+      "formação de dunas interiores"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 303,
+    "nivel": "dificil",
+    "pergunta": "A retirada de água subterrânea em excesso pode causar?",
+    "opcoes": [
+      "abatimento do terreno",
+      "elevação tectónica imediata",
+      "formação de fiordes",
+      "aumento do caudal do rio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 304,
+    "nivel": "dificil",
+    "pergunta": "A compactação de sedimentos num delta favorece a subsidência porque reduz?",
+    "opcoes": [
+      "a salinidade do mar",
+      "a energia solar",
+      "o volume dos poros",
+      "a latitude"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 305,
+    "nivel": "dificil",
+    "pergunta": "A intrusão salina em aquíferos costeiros é favorecida por sobre-extracção e?",
+    "opcoes": [
+      "chuvas abundantes contínuas",
+      "proximidade do mar",
+      "reflorestação",
+      "subida da montanha"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 306,
+    "nivel": "dificil",
+    "pergunta": "A impermeabilização de uma bacia urbana tende a reduzir a infiltração e aumentar?",
+    "opcoes": [
+      "recarga do aquífero",
+      "o pico de cheia",
+      "evapotranspiração natural",
+      "tempo de concentração"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 307,
+    "nivel": "dificil",
+    "pergunta": "A construção de canais rectilíneos pode aumentar a velocidade da água e a erosão?",
+    "opcoes": [
+      "a jusante",
+      "em desertos sem rios",
+      "no núcleo terrestre",
+      "na estratosfera"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 308,
+    "nivel": "dificil",
+    "pergunta": "A desflorestação a montante pode elevar o transporte de sedimentos e reduzir a capacidade de?",
+    "opcoes": [
+      "salinidade atmosférica",
+      "evaporação oceânica",
+      "latitude",
+      "armazenamento de uma albufeira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 309,
+    "nivel": "dificil",
+    "pergunta": "A sedimentação numa albufeira reduz a sua capacidade e pode diminuir a vida útil da?",
+    "opcoes": [
+      "estação meteorológica",
+      "linha de costa",
+      "cordilheira",
+      "barragem"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 310,
+    "nivel": "dificil",
+    "pergunta": "A regularização de um rio por barragens altera o regime natural de caudais e a migração de?",
+    "opcoes": [
+      "nuvens",
+      "peixes",
+      "dunas",
+      "placas tectónicas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 311,
+    "nivel": "dificil",
+    "pergunta": "Em bacias endorreicas, a água não chega ao mar porque termina em lagos ou?",
+    "opcoes": [
+      "estuários abertos",
+      "depressões interiores",
+      "glaciares costeiros",
+      "dorsais oceânicas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 312,
+    "nivel": "dificil",
+    "pergunta": "A evaporação intensa num lago endorreico tende a concentrar?",
+    "opcoes": [
+      "água doce",
+      "sedimentos glaciares apenas",
+      "oxigénio atmosférico",
+      "sais"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 313,
+    "nivel": "dificil",
+    "pergunta": "A aridez no lado oriental de uma cordilheira subtropical pode resultar de subsidência do ar após?",
+    "opcoes": [
+      "perda de humidade a barlavento",
+      "derretimento de gelo",
+      "convergência frontal polar",
+      "ganho de humidade no oceano"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 314,
+    "nivel": "dificil",
+    "pergunta": "O deserto do Atacama é favorecido por corrente fria costeira e subsidência associada à?",
+    "opcoes": [
+      "convecção amazónica",
+      "circulação subtropical",
+      "frente polar permanente",
+      "monção equatorial húmida"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 315,
+    "nivel": "dificil",
+    "pergunta": "A floresta de coníferas boreal limita-se em grande parte por Invernos longos e?",
+    "opcoes": [
+      "baixa disponibilidade térmica",
+      "excesso de sal marinho",
+      "marés diárias",
+      "vulcanismo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 316,
+    "nivel": "dificil",
+    "pergunta": "A linha de árvores sobe em direcção ao Equador porque aumenta a?",
+    "opcoes": [
+      "temperatura média",
+      "pressão oceânica",
+      "duração da noite",
+      "salinidade do solo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 317,
+    "nivel": "dificil",
+    "pergunta": "O permafrost pode descongelar com aquecimento, libertando carbono e reforçando o?",
+    "opcoes": [
+      "albedo elevado permanente",
+      "efeito de estufa",
+      "arrefecimento global",
+      "movimento das placas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 318,
+    "nivel": "dificil",
+    "pergunta": "A expansão térmica da água do mar contribui para a subida do nível do mar mesmo sem?",
+    "opcoes": [
+      "derretimento de gelo",
+      "urbanização",
+      "erosão fluvial",
+      "chuva tropical"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 319,
+    "nivel": "dificil",
+    "pergunta": "A perda de gelo marinho reduz o albedo, enquanto o gelo continental derretido contribui directamente para?",
+    "opcoes": [
+      "formar desertos frios",
+      "parar as marés",
+      "reduzir a massa oceânica",
+      "subir o nível do mar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 320,
+    "nivel": "dificil",
+    "pergunta": "A circulação termoalina depende de diferenças de temperatura e?",
+    "opcoes": [
+      "vegetação",
+      "longitude e latitude política",
+      "salinidade",
+      "tipo de rocha"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 321,
+    "nivel": "dificil",
+    "pergunta": "A formação de águas profundas é favorecida por arrefecimento e aumento de?",
+    "opcoes": [
+      "evaporação nula",
+      "insolação tropical",
+      "densidade",
+      "caudal fluvial"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 322,
+    "nivel": "dificil",
+    "pergunta": "A ressurgência costeira traz nutrientes das profundezas e pode aumentar a?",
+    "opcoes": [
+      "salinidade dos rios",
+      "produtividade pesqueira",
+      "erosão glacial",
+      "altitude costeira"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 323,
+    "nivel": "dificil",
+    "pergunta": "A ressurgência ao largo do Peru está associada aos ventos e à corrente?",
+    "opcoes": [
+      "de Humboldt",
+      "do Golfo",
+      "da Califórnia quente",
+      "das Agulhas quentes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 324,
+    "nivel": "dificil",
+    "pergunta": "O desvio da água pelo transporte de Ekman pode afastar água superficial da costa e provocar?",
+    "opcoes": [
+      "subducção continental",
+      "ressurgência",
+      "precipitação de neve",
+      "maré baixa global"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 325,
+    "nivel": "dificil",
+    "pergunta": "A acidificação oceânica reduz a disponibilidade de carbonato para organismos que formam?",
+    "opcoes": [
+      "sedimentos eólicos",
+      "raízes terrestres",
+      "nuvens",
+      "conchas e esqueletos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 326,
+    "nivel": "dificil",
+    "pergunta": "A eutrofização resulta de excesso de nutrientes e pode causar diminuição de?",
+    "opcoes": [
+      "pressão tectónica",
+      "latitude",
+      "oxigénio na água",
+      "radiação solar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 327,
+    "nivel": "dificil",
+    "pergunta": "Uma bacia hidrográfica com elevada cobertura vegetal tende a ter menor escoamento superficial e maior?",
+    "opcoes": [
+      "amplitude térmica",
+      "erosão costeira imediata",
+      "infiltração",
+      "salinidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 328,
+    "nivel": "dificil",
+    "pergunta": "A forma convexa das curvas de nível aponta para montante num vale porque indica?",
+    "opcoes": [
+      "um V orientado para a nascente",
+      "uma linha costeira",
+      "um U orientado para a foz",
+      "um divisor oceânico"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 329,
+    "nivel": "dificil",
+    "pergunta": "Curvas de nível muito próximas representam encosta?",
+    "opcoes": [
+      "submersa",
+      "plana",
+      "sem variação",
+      "íngreme"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 330,
+    "nivel": "dificil",
+    "pergunta": "Curvas de nível espaçadas representam declive?",
+    "opcoes": [
+      "vertical",
+      "impossível de medir",
+      "suave",
+      "muito acentuado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 331,
+    "nivel": "dificil",
+    "pergunta": "Num perfil topográfico, uma depressão fechada é indicada por curvas fechadas com?",
+    "opcoes": [
+      "cotas decrescentes para o centro",
+      "cotas crescentes para o centro",
+      "setas para o mar",
+      "linhas paralelas de longitude"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 332,
+    "nivel": "dificil",
+    "pergunta": "A energia potencial de um rio aumenta com a diferença de altitude e pode converter-se em energia?",
+    "opcoes": [
+      "cinética",
+      "eólica exclusivamente",
+      "nuclear",
+      "química de combustão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 333,
+    "nivel": "dificil",
+    "pergunta": "A meandrização tende a ocorrer em vales de baixo declive, onde predomina a erosão?",
+    "opcoes": [
+      "vertical profunda",
+      "glacial",
+      "lateral",
+      "tectónica"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 334,
+    "nivel": "dificil",
+    "pergunta": "A formação de um lago em meandro abandonado resulta do corte de um?",
+    "opcoes": [
+      "colo do meandro",
+      "fiorde",
+      "divisor continental",
+      "vulcão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 335,
+    "nivel": "dificil",
+    "pergunta": "A granulometria dos sedimentos tende a diminuir para jusante devido à selecção e?",
+    "opcoes": [
+      "subducção",
+      "abrasão durante o transporte",
+      "evaporação do núcleo",
+      "convecção solar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 336,
+    "nivel": "dificil",
+    "pergunta": "Um leque aluvial forma-se quando um curso de água perde velocidade ao sair de?",
+    "opcoes": [
+      "uma montanha para uma planície",
+      "um glaciar para o mar",
+      "uma ilha para o vulcão",
+      "um oceano profundo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 337,
+    "nivel": "dificil",
+    "pergunta": "A deposição de sedimentos no interior de uma curva de meandro forma uma?",
+    "opcoes": [
+      "falésia tectónica",
+      "duna parabólica polar",
+      "moraina",
+      "barra de point bar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 338,
+    "nivel": "dificil",
+    "pergunta": "A erosão diferencial pode deixar camadas resistentes como escarpas e camadas brandas como?",
+    "opcoes": [
+      "dorsais oceânicas",
+      "vales",
+      "recifes",
+      "nuvens"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 339,
+    "nivel": "dificil",
+    "pergunta": "A orientação das vertentes influencia insolação, evapotranspiração e?",
+    "opcoes": [
+      "densidade do núcleo",
+      "maré astronómica",
+      "distribuição da vegetação",
+      "longitude absoluta"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 340,
+    "nivel": "dificil",
+    "pergunta": "Em Moçambique, uma encosta voltada para o oceano pode receber mais chuva se interceptar ventos?",
+    "opcoes": [
+      "húmidos marítimos",
+      "secos continentais descendentes",
+      "polares sem vapor",
+      "de leste estratosféricos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 341,
+    "nivel": "dificil",
+    "pergunta": "A posição de Moçambique na margem activa do Índico expõe a costa a riscos de ciclones e?",
+    "opcoes": [
+      "tornados polares diários",
+      "glaciares continentais",
+      "avalanches alpinas frequentes",
+      "inundações costeiras"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 342,
+    "nivel": "dificil",
+    "pergunta": "A variabilidade interanual da chuva no sul de Moçambique relaciona-se com circulação regional e fenómenos como?",
+    "opcoes": [
+      "El Niño mediterrânico",
+      "El Niño–Oscilação Sul",
+      "monção europeia",
+      "maré lunar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 343,
+    "nivel": "dificil",
+    "pergunta": "Em anos de El Niño, partes da África Austral podem sofrer alterações da precipitação por mudanças na?",
+    "opcoes": [
+      "distância entre continentes",
+      "inclinação do eixo em horas",
+      "composição do núcleo",
+      "circulação atmosférica"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 344,
+    "nivel": "dificil",
+    "pergunta": "A localização de Moçambique entre o Equador e o Trópico de Capricórnio explica a predominância de climas?",
+    "opcoes": [
+      "polares",
+      "tropicais",
+      "subárticos",
+      "temperados oceânicos europeus"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 345,
+    "nivel": "dificil",
+    "pergunta": "A influência marítima no litoral moçambicano reduz amplitudes térmicas relativamente ao?",
+    "opcoes": [
+      "interior",
+      "topo da atmosfera",
+      "fundo oceânico",
+      "núcleo externo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 346,
+    "nivel": "dificil",
+    "pergunta": "A subida de ar húmido sobre o canal de Moçambique favorece precipitação por?",
+    "opcoes": [
+      "maré e rotação",
+      "erosão eólica",
+      "convecção e convergência",
+      "subducção e falhamento"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 347,
+    "nivel": "dificil",
+    "pergunta": "Os solos aluviais do vale do Zambeze resultam da deposição periódica de materiais transportados pelo?",
+    "opcoes": [
+      "magma",
+      "vento polar",
+      "gelo marinho",
+      "rio"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 348,
+    "nivel": "dificil",
+    "pergunta": "A salinização de terras irrigadas em zonas quentes ocorre quando a evaporação supera a lavagem de sais pela?",
+    "opcoes": [
+      "tectónica",
+      "fotossíntese",
+      "nebulosidade",
+      "drenagem"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 349,
+    "nivel": "dificil",
+    "pergunta": "A conservação de mangais reduz a energia das ondas e retém sedimentos, funcionando como?",
+    "opcoes": [
+      "placa tectónica",
+      "fonte de terramotos",
+      "barreira climática global",
+      "protecção costeira natural"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 350,
+    "nivel": "dificil",
+    "pergunta": "A fragmentação de habitats por estradas reduz conectividade e pode diminuir o fluxo?",
+    "opcoes": [
+      "de fusos horários",
+      "de magma",
+      "genético",
+      "de marés"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 351,
+    "nivel": "dificil",
+    "pergunta": "Corredores ecológicos ligam fragmentos para facilitar deslocação de espécies e manter?",
+    "opcoes": [
+      "urbanização dispersa",
+      "impermeabilização urbana",
+      "conectividade do habitat",
+      "mineração intensiva"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 352,
+    "nivel": "dificil",
+    "pergunta": "Uma área protegida marinha pode contribuir para a pesca vizinha pelo efeito de?",
+    "opcoes": [
+      "spillover de espécies adultas e larvas",
+      "redução da produtividade",
+      "desertificação",
+      "subducção costeira"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 353,
+    "nivel": "dificil",
+    "pergunta": "A capacidade de carga de um ecossistema limita a população de uma espécie devido a recursos e?",
+    "opcoes": [
+      "fusos horários",
+      "condições ambientais",
+      "longitude",
+      "fronteiras políticas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 354,
+    "nivel": "dificil",
+    "pergunta": "A resiliência socioecológica é a capacidade de um sistema absorver perturbações e?",
+    "opcoes": [
+      "aumentar riscos",
+      "impedir fluxos",
+      "eliminar toda a variabilidade",
+      "recuperar ou adaptar-se"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 355,
+    "nivel": "dificil",
+    "pergunta": "A análise de risco combina ameaça, exposição e?",
+    "opcoes": [
+      "altitude absoluta",
+      "densidade mineral",
+      "latitude",
+      "vulnerabilidade"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 356,
+    "nivel": "dificil",
+    "pergunta": "Um ciclone que atravessa uma planície costeira densamente povoada tem risco elevado pela combinação de ameaça e?",
+    "opcoes": [
+      "declive e latitude",
+      "albedo e maré lunar",
+      "exposição",
+      "longitude e salinidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 357,
+    "nivel": "dificil",
+    "pergunta": "A posição de Moçambique no Canal de Moçambique é estratégica para rotas entre o Índico ocidental e?",
+    "opcoes": [
+      "Pacífico oriental",
+      "portos da África Austral",
+      "Atlântico Norte",
+      "mares do Árctico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 358,
+    "nivel": "dificil",
+    "pergunta": "Um corredor de desenvolvimento combina transporte, energia e serviços para ligar áreas produtoras a?",
+    "opcoes": [
+      "zonas sem população",
+      "glaciares e tundras",
+      "apenas capitais",
+      "mercados e portos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 359,
+    "nivel": "dificil",
+    "pergunta": "O corredor de Nacala pode reduzir custos de exportação do interior por oferecer acesso ferroviário e?",
+    "opcoes": [
+      "fluvial ao Mediterrâneo",
+      "rodoviário ao Árctico",
+      "portuário ao Índico",
+      "aéreo ao Atlântico"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 360,
+    "nivel": "dificil",
+    "pergunta": "A exploração de carvão em Tete enfrenta desafio logístico porque a província é interior e depende de?",
+    "opcoes": [
+      "oleodutos submarinos apenas",
+      "corredores ferroviários e portos",
+      "navegação polar directa",
+      "aeroportos sem carga"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 361,
+    "nivel": "dificil",
+    "pergunta": "A extracção de gás offshore na bacia do Rovuma exige conciliar receitas, segurança e?",
+    "opcoes": [
+      "desertificação polar",
+      "desvio do Equador",
+      "expansão de glaciares",
+      "protecção de ecossistemas costeiros"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 362,
+    "nivel": "dificil",
+    "pergunta": "A concentração de projectos extractivos pode gerar enclave económico se houver pouca ligação com?",
+    "opcoes": [
+      "economia local e diversificação",
+      "cartografia escolar",
+      "latitude regional",
+      "marés"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 363,
+    "nivel": "dificil",
+    "pergunta": "A chamada maldição dos recursos refere-se ao risco de abundância mineral coexistir com fraco desenvolvimento por má governação e?",
+    "opcoes": [
+      "dependência económica",
+      "excesso de biodiversidade",
+      "escala cartográfica",
+      "baixa densidade de rios"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 364,
+    "nivel": "dificil",
+    "pergunta": "A diversificação económica reduz vulnerabilidade porque distribui receitas por?",
+    "opcoes": [
+      "vários sectores e produtos",
+      "uma só mina",
+      "um único mercado",
+      "uma única cultura"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 365,
+    "nivel": "dificil",
+    "pergunta": "Uma queda do preço internacional do alumínio afecta directamente países exportadores pela deterioração dos?",
+    "opcoes": [
+      "fusos horários",
+      "solos aluviais",
+      "termos de troca",
+      "divisores de águas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 366,
+    "nivel": "dificil",
+    "pergunta": "A industrialização orientada para exportação depende de energia, mão de obra e?",
+    "opcoes": [
+      "ligações logísticas eficientes",
+      "ausência de portos",
+      "isolamento territorial",
+      "clima polar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 367,
+    "nivel": "dificil",
+    "pergunta": "A urbanização acelerada sem infra-estruturas pode ampliar assentamentos informais e problemas de?",
+    "opcoes": [
+      "subducção",
+      "neve",
+      "saneamento e mobilidade",
+      "erosão glacial"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 368,
+    "nivel": "dificil",
+    "pergunta": "A expansão periurbana sobre áreas agrícolas tende a aumentar deslocações e perda de?",
+    "opcoes": [
+      "crosta continental",
+      "salinidade oceânica",
+      "caudal de maré",
+      "solo produtivo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 369,
+    "nivel": "dificil",
+    "pergunta": "A segregação socioespacial urbana expressa desigualdade na distribuição de rendimento e?",
+    "opcoes": [
+      "tipo de placa",
+      "acesso a serviços",
+      "latitude",
+      "precipitação mundial"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 370,
+    "nivel": "dificil",
+    "pergunta": "O transporte colectivo de massa pode reduzir congestionamento e emissões por passageiro, se for?",
+    "opcoes": [
+      "acessível e bem integrado",
+      "construído longe da população",
+      "isolado e irregular",
+      "exclusivo para cargas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 371,
+    "nivel": "dificil",
+    "pergunta": "A mobilidade pendular entre Matola e Maputo relaciona-se com integração funcional da?",
+    "opcoes": [
+      "ilha de Moçambique",
+      "bacia do Rovuma",
+      "área metropolitana",
+      "cordilheira de Manica"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 372,
+    "nivel": "dificil",
+    "pergunta": "A localização portuária de Maputo é favorecida pela baía e pela proximidade de áreas industriais da?",
+    "opcoes": [
+      "África Austral interior",
+      "Europa do Norte",
+      "América do Sul",
+      "Ásia Central"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 373,
+    "nivel": "dificil",
+    "pergunta": "A fronteira Moçambique–Maláui é importante para fluxos regionais porque o Maláui é um país?",
+    "opcoes": [
+      "sem litoral",
+      "polar",
+      "insular",
+      "atlântico"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 374,
+    "nivel": "dificil",
+    "pergunta": "O Lago Niassa pode ser recurso partilhado; a sua gestão exige cooperação entre Estados da?",
+    "opcoes": [
+      "bacia amazónica",
+      "Ásia oriental",
+      "União Europeia",
+      "bacia lacustre"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 375,
+    "nivel": "dificil",
+    "pergunta": "Uma bacia hidrográfica transfronteiriça requer acordos para repartir água e reduzir?",
+    "opcoes": [
+      "conflitos a montante e jusante",
+      "fusos horários",
+      "marés",
+      "erupções vulcânicas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 376,
+    "nivel": "dificil",
+    "pergunta": "A Comunidade de Desenvolvimento da África Austral promove integração regional por comércio, infra-estruturas e?",
+    "opcoes": [
+      "cooperação política",
+      "glaciação",
+      "isolamento",
+      "cartografia colonial apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 377,
+    "nivel": "dificil",
+    "pergunta": "A integração regional pode criar desvio de comércio quando importações passam a vir de membro menos eficiente devido a?",
+    "opcoes": [
+      "subducção",
+      "maior distância angular",
+      "preferência tarifária",
+      "clima equatorial"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 378,
+    "nivel": "dificil",
+    "pergunta": "Uma fronteira por rio pode mudar de posição se o curso sofrer avulsão; por isso, acordos definem o?",
+    "opcoes": [
+      "tipo de moeda",
+      "nível de urbanização",
+      "clima local",
+      "critério territorial"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 379,
+    "nivel": "dificil",
+    "pergunta": "A densidade populacional de uma planície aluvial pode ser alta pela fertilidade, mas também aumenta exposição a?",
+    "opcoes": [
+      "avalanches",
+      "cheias",
+      "erupções em dorsais",
+      "permafrost"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 380,
+    "nivel": "dificil",
+    "pergunta": "O crescimento de uma cidade junto a um rio sem zoneamento aumenta a vulnerabilidade por ocupar?",
+    "opcoes": [
+      "leito de cheia e margens",
+      "deserto sem drenagem",
+      "topo de uma dorsal",
+      "divisor de águas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 381,
+    "nivel": "dificil",
+    "pergunta": "A segurança alimentar melhora quando a produção agrícola combina produtividade, acesso e?",
+    "opcoes": [
+      "importações ocasionais",
+      "dependência de uma cultura",
+      "estabilidade do abastecimento",
+      "perda de solos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 382,
+    "nivel": "dificil",
+    "pergunta": "A agricultura de conservação reduz erosão mantendo cobertura do solo e praticando?",
+    "opcoes": [
+      "mobilização mínima",
+      "monocultura contínua",
+      "lavra profunda sempre",
+      "queimadas frequentes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 383,
+    "nivel": "dificil",
+    "pergunta": "A agrofloresta combina culturas agrícolas com árvores, podendo melhorar solo, rendimento e?",
+    "opcoes": [
+      "salinização",
+      "biodiversidade",
+      "impermeabilização",
+      "erosão eólica"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 384,
+    "nivel": "dificil",
+    "pergunta": "A pesca excessiva reduz stocks quando a captura ultrapassa a capacidade de?",
+    "opcoes": [
+      "evaporação do mar",
+      "infiltração do solo",
+      "reprodução das populações",
+      "formação de nuvens"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 385,
+    "nivel": "dificil",
+    "pergunta": "A aquacultura pode aliviar pressão sobre pesca selvagem, mas requer controlo de efluentes e?",
+    "opcoes": [
+      "erosão tectónica",
+      "doenças",
+      "marés astronómicas",
+      "latitude"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 386,
+    "nivel": "dificil",
+    "pergunta": "A economia azul procura utilizar recursos marinhos com conservação dos?",
+    "opcoes": [
+      "solos agrícolas",
+      "glaciares",
+      "desertos interiores",
+      "ecossistemas oceânicos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 387,
+    "nivel": "dificil",
+    "pergunta": "A gestão integrada da zona costeira articula turismo, pesca, portos e?",
+    "opcoes": [
+      "fusos horários",
+      "urbanização polar",
+      "conservação ambiental",
+      "mineração espacial"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 388,
+    "nivel": "dificil",
+    "pergunta": "A subida do mar ameaça mangais, mas a sua migração para o interior pode ser impedida por?",
+    "opcoes": [
+      "barreiras urbanas e agrícolas",
+      "correntes profundas",
+      "rochas metamórficas",
+      "chuvas de monção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 389,
+    "nivel": "dificil",
+    "pergunta": "A adaptação baseada em ecossistemas usa mangais e dunas para reduzir riscos, complementando?",
+    "opcoes": [
+      "placas tectónicas",
+      "infra-estruturas cinzentas",
+      "fronteiras linguísticas",
+      "rotas aéreas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 390,
+    "nivel": "dificil",
+    "pergunta": "O reassentamento após cheias deve considerar meios de vida, acesso a serviços e?",
+    "opcoes": [
+      "apenas distância do litoral",
+      "participação das comunidades",
+      "longitude",
+      "cor da bandeira"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 391,
+    "nivel": "dificil",
+    "pergunta": "A exposição de uma população costeira não implica necessariamente desastre se a vulnerabilidade for reduzida por?",
+    "opcoes": [
+      "alerta precoce e preparação",
+      "aumento da densidade",
+      "remoção de mangais",
+      "construção em dunas móveis"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 392,
+    "nivel": "dificil",
+    "pergunta": "Sistemas de alerta de ciclones são mais eficazes quando ligam previsão, comunicação e?",
+    "opcoes": [
+      "evacuação planeada",
+      "mineração",
+      "navegação recreativa",
+      "urbanização"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 393,
+    "nivel": "dificil",
+    "pergunta": "A justiça climática destaca que comunidades com menor contribuição histórica podem sofrer?",
+    "opcoes": [
+      "mais placas tectónicas",
+      "maiores impactos",
+      "menor radiação solar",
+      "menos biodiversidade sempre"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 394,
+    "nivel": "dificil",
+    "pergunta": "O princípio do poluidor-pagador atribui custos ambientais a quem?",
+    "opcoes": [
+      "causa a poluição",
+      "sofre a seca",
+      "vive a jusante",
+      "mede a chuva"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 395,
+    "nivel": "dificil",
+    "pergunta": "Uma política de mitigação climática reduz emissões; uma política de adaptação reduz?",
+    "opcoes": [
+      "vulnerabilidades aos impactos",
+      "produção de mapas",
+      "longitude",
+      "formação de rochas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 396,
+    "nivel": "dificil",
+    "pergunta": "A transição energética para fontes renováveis pode reduzir emissões, mas exige gestão de?",
+    "opcoes": [
+      "fronteiras",
+      "intermitência e armazenamento",
+      "marés sem lua",
+      "permafrost tropical"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 397,
+    "nivel": "dificil",
+    "pergunta": "A energia hidroeléctrica é renovável, mas uma barragem pode alterar ecossistemas e?",
+    "opcoes": [
+      "latitude do Equador",
+      "órbita lunar",
+      "rotação da Terra",
+      "sedimentos a jusante"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 398,
+    "nivel": "dificil",
+    "pergunta": "A avaliação do ciclo de vida compara impactes desde extracção até?",
+    "opcoes": [
+      "nascente até à foz apenas",
+      "fim de vida do produto",
+      "Equador até ao pólo",
+      "capital até à fronteira"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 399,
+    "nivel": "dificil",
+    "pergunta": "A logística inversa organiza o retorno de produtos e materiais para reutilização ou?",
+    "opcoes": [
+      "subducção",
+      "sedimentação natural",
+      "navegação astronómica",
+      "reciclagem"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 400,
+    "nivel": "dificil",
+    "pergunta": "A economia circular procura manter materiais em uso e reduzir extracção de?",
+    "opcoes": [
+      "população",
+      "recursos virgens",
+      "latitude",
+      "chuva"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 401,
+    "nivel": "dificil",
+    "pergunta": "A pegada ecológica compara consumo humano com capacidade biológica de?",
+    "opcoes": [
+      "rotação dos oceanos",
+      "produção de nuvens",
+      "regeneração da Terra",
+      "formação de montanhas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 402,
+    "nivel": "dificil",
+    "pergunta": "A pegada hídrica de um produto inclui água directa e água incorporada na sua?",
+    "opcoes": [
+      "latitude de origem",
+      "altitude máxima",
+      "fronteira política",
+      "cadeia de produção"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 403,
+    "nivel": "dificil",
+    "pergunta": "A água virtual é a água utilizada para produzir bens que depois são?",
+    "opcoes": [
+      "armazenados no núcleo",
+      "comercializados entre regiões",
+      "evaporados na atmosfera",
+      "transformados em rochas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 404,
+    "nivel": "dificil",
+    "pergunta": "O comércio internacional de alimentos pode aliviar escassez local, mas aumenta dependência de?",
+    "opcoes": [
+      "monções locais apenas",
+      "solos sem uso",
+      "glaciares",
+      "mercados e transportes externos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 405,
+    "nivel": "dificil",
+    "pergunta": "A localização de uma indústria perto da matéria-prima é vantajosa quando o transporte dessa matéria é?",
+    "opcoes": [
+      "leve e gratuito",
+      "impossível de medir",
+      "independente de distância",
+      "pesado ou caro"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 406,
+    "nivel": "dificil",
+    "pergunta": "A indústria orientada para o mercado local escolhe frequentemente proximidade dos consumidores para reduzir?",
+    "opcoes": [
+      "amplitude térmica",
+      "salinidade",
+      "custos de distribuição",
+      "custos tectónicos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 407,
+    "nivel": "dificil",
+    "pergunta": "As economias de aglomeração surgem quando empresas próximas partilham fornecedores, mão de obra e?",
+    "opcoes": [
+      "glaciares",
+      "conhecimento",
+      "fronteiras naturais",
+      "chuva ácida"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 408,
+    "nivel": "dificil",
+    "pergunta": "A desconcentração industrial pode ocorrer quando congestionamento e custos urbanos tornam atractivas áreas?",
+    "opcoes": [
+      "sem estradas",
+      "periféricas com boa acessibilidade",
+      "submersas",
+      "sem energia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 409,
+    "nivel": "dificil",
+    "pergunta": "A rede global de produção divide etapas entre territórios conforme custos, competências e?",
+    "opcoes": [
+      "acessibilidade logística",
+      "tipo de nuvem",
+      "número de oceanos",
+      "inclinação do eixo terrestre"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 410,
+    "nivel": "dificil",
+    "pergunta": "A localização próxima de 0° de latitude e 0° de longitude corresponde ao golfo da?",
+    "opcoes": [
+      "Califórnia",
+      "Bengala",
+      "México",
+      "Guiné"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 411,
+    "nivel": "dificil",
+    "pergunta": "Uma localidade a 20° S está no hemisfério?",
+    "opcoes": [
+      "Oriental apenas",
+      "Ocidental apenas",
+      "Sul",
+      "Norte"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 412,
+    "nivel": "dificil",
+    "pergunta": "Uma localidade a 70° E está no hemisfério?",
+    "opcoes": [
+      "Ocidental",
+      "Sul obrigatoriamente",
+      "Norte obrigatoriamente",
+      "Oriental"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 413,
+    "nivel": "dificil",
+    "pergunta": "Duas localidades na mesma latitude têm, em princípio, igual distância angular ao?",
+    "opcoes": [
+      "Greenwich",
+      "Equador",
+      "pólo mais próximo apenas",
+      "centro da Lua"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 414,
+    "nivel": "dificil",
+    "pergunta": "A distância real de um grau de longitude diminui em direcção aos?",
+    "opcoes": [
+      "desertos subtropicais apenas",
+      "pólos",
+      "trópicos",
+      "oceanos equatoriais"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 415,
+    "nivel": "dificil",
+    "pergunta": "O dia polar ocorre quando a inclinação da Terra mantém o Sol acima do horizonte por 24 horas em?",
+    "opcoes": [
+      "trópicos todos os dias",
+      "altas latitudes",
+      "Equador",
+      "baixas latitudes sempre"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 416,
+    "nivel": "dificil",
+    "pergunta": "Nos equinócios, os hemisférios recebem iluminação mais semelhante e o dia aproxima-se de?",
+    "opcoes": [
+      "18 horas",
+      "30 horas",
+      "6 horas",
+      "12 horas"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 417,
+    "nivel": "dificil",
+    "pergunta": "As estações resultam principalmente da inclinação do eixo e da?",
+    "opcoes": [
+      "translação",
+      "rotação apenas",
+      "distância fixa ao Equador",
+      "maré"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 418,
+    "nivel": "dificil",
+    "pergunta": "O solstício de Junho corresponde ao Verão no hemisfério?",
+    "opcoes": [
+      "Oriental",
+      "Sul apenas",
+      "Ocidental",
+      "Norte"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 419,
+    "nivel": "dificil",
+    "pergunta": "A linha internacional de mudança de data situa-se aproximadamente no meridiano?",
+    "opcoes": [
+      "0°",
+      "90° W",
+      "180°",
+      "45° E"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 420,
+    "nivel": "dificil",
+    "pergunta": "Ao atravessar a linha internacional de oeste para este, a data geralmente?",
+    "opcoes": [
+      "não muda",
+      "retrocede um dia",
+      "avança dois dias",
+      "retrocede um mês"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 421,
+    "nivel": "dificil",
+    "pergunta": "A hora solar local varia com a longitude porque a Terra roda de?",
+    "opcoes": [
+      "este para oeste",
+      "norte para sul",
+      "sul para norte",
+      "oeste para este"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 422,
+    "nivel": "dificil",
+    "pergunta": "A diferença de 15° de longitude corresponde aproximadamente a?",
+    "opcoes": [
+      "15 horas",
+      "quatro minutos",
+      "um dia",
+      "uma hora"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 423,
+    "nivel": "dificil",
+    "pergunta": "Em projecções azimutais, o ponto de contacto é representado com maior fidelidade perto do?",
+    "opcoes": [
+      "centro da projecção",
+      "pólo oposto",
+      "Equador em qualquer caso",
+      "limite exterior sempre"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 424,
+    "nivel": "dificil",
+    "pergunta": "A projecção cónica é adequada para regiões de extensão predominante?",
+    "opcoes": [
+      "este–oeste em latitudes médias",
+      "norte–sul no Equador",
+      "polares sem distorção",
+      "oceânicas globais"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 425,
+    "nivel": "dificil",
+    "pergunta": "A projecção cilíndrica de Mercator exagera áreas à medida que aumenta a latitude por esticar?",
+    "opcoes": [
+      "caudais",
+      "altitudes",
+      "profundidades",
+      "distâncias este–oeste"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 426,
+    "nivel": "dificil",
+    "pergunta": "Num mapa de pequena escala, países inteiros aparecem e detalhes locais são?",
+    "opcoes": [
+      "medidos em metros reais",
+      "generalizados",
+      "ampliados sem alteração",
+      "eliminados do planeta"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 427,
+    "nivel": "dificil",
+    "pergunta": "Se 4 cm representam 20 km, a escala numérica é?",
+    "opcoes": [
+      "1:500 000",
+      "1:5 000 000",
+      "1:5 000",
+      "1:50 000"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 428,
+    "nivel": "dificil",
+    "pergunta": "Se a escala é 1:25 000, 8 cm no mapa correspondem a?",
+    "opcoes": [
+      "200 m",
+      "20 km",
+      "0,2 km",
+      "2 km"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 429,
+    "nivel": "dificil",
+    "pergunta": "Um azimute de 90° indica direcção?",
+    "opcoes": [
+      "Sul",
+      "Oeste",
+      "Norte",
+      "Este"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 430,
+    "nivel": "dificil",
+    "pergunta": "Uma distância de 5 km para norte e 12 km para este tem deslocamento em linha recta de?",
+    "opcoes": [
+      "17 km",
+      "60 km",
+      "13 km",
+      "7 km"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 431,
+    "nivel": "dificil",
+    "pergunta": "A densidade aritmética divide população total pela área total, sem considerar a distribuição dentro do?",
+    "opcoes": [
+      "continente vizinho",
+      "oceano",
+      "fuso horário",
+      "território"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 432,
+    "nivel": "dificil",
+    "pergunta": "A densidade fisiológica relaciona população com área de?",
+    "opcoes": [
+      "água oceânica",
+      "floresta protegida",
+      "território total sempre",
+      "terra arável"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 433,
+    "nivel": "dificil",
+    "pergunta": "Uma densidade agrícola elevada indica muita população rural por área de?",
+    "opcoes": [
+      "território urbano",
+      "floresta total",
+      "água disponível",
+      "terra cultivada"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 434,
+    "nivel": "dificil",
+    "pergunta": "A taxa de dependência aumenta quando cresce a proporção de jovens e idosos face à população?",
+    "opcoes": [
+      "migrante",
+      "urbana",
+      "em idade activa",
+      "costeira"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 435,
+    "nivel": "dificil",
+    "pergunta": "A urbanização pode reduzir a fecundidade média por escolarização e acesso a?",
+    "opcoes": [
+      "isolamento rural",
+      "menor informação",
+      "mais trabalho infantil",
+      "serviços de saúde reprodutiva"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 436,
+    "nivel": "dificil",
+    "pergunta": "A migração selectiva de jovens adultos pode envelhecer a região de origem e reduzir?",
+    "opcoes": [
+      "latitude",
+      "precipitação",
+      "densidade do oceano",
+      "força de trabalho local"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 437,
+    "nivel": "dificil",
+    "pergunta": "Remessas de migrantes podem aumentar rendimento das famílias, mas criar dependência de?",
+    "opcoes": [
+      "marés",
+      "mineração local",
+      "rendimentos externos",
+      "chuva"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 438,
+    "nivel": "dificil",
+    "pergunta": "Um país com crescimento natural negativo pode manter população estável se tiver saldo migratório?",
+    "opcoes": [
+      "igual à mortalidade",
+      "positivo",
+      "nulo obrigatório",
+      "negativo também"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 439,
+    "nivel": "dificil",
+    "pergunta": "O saldo migratório é positivo quando entradas superam?",
+    "opcoes": [
+      "óbitos",
+      "saídas",
+      "exportações",
+      "nascimentos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 440,
+    "nivel": "dificil",
+    "pergunta": "A teoria dos lugares centrais explica a distribuição hierárquica de cidades pela oferta de?",
+    "opcoes": [
+      "bens e serviços",
+      "chuva",
+      "terramotos",
+      "sedimentos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 441,
+    "nivel": "dificil",
+    "pergunta": "O limiar de um serviço é a população mínima necessária para o tornar?",
+    "opcoes": [
+      "viável economicamente",
+      "mais distante",
+      "climático",
+      "subterrâneo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 442,
+    "nivel": "dificil",
+    "pergunta": "O alcance de um serviço é a distância máxima que consumidores aceitam?",
+    "opcoes": [
+      "percorrer para o obter",
+      "um rio pode transbordar",
+      "uma placa pode mover-se",
+      "uma nuvem pode subir"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 443,
+    "nivel": "dificil",
+    "pergunta": "A localização industrial de Weber procura minimizar custos de transporte e de?",
+    "opcoes": [
+      "latitude",
+      "biodiversidade",
+      "mão de obra",
+      "precipitação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 444,
+    "nivel": "dificil",
+    "pergunta": "A teoria da renda fundiária de von Thünen relaciona uso agrícola com distância ao mercado e?",
+    "opcoes": [
+      "tectónica",
+      "custos de transporte",
+      "salinidade oceânica",
+      "albedo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 445,
+    "nivel": "dificil",
+    "pergunta": "No modelo de von Thünen, produtos perecíveis e intensivos tendem a localizar-se?",
+    "opcoes": [
+      "em montanhas geladas",
+      "perto do mercado",
+      "no anel mais distante sempre",
+      "em desertos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 446,
+    "nivel": "dificil",
+    "pergunta": "A vantagem comparativa pode levar países a especializarem-se mesmo quando um país é mais produtivo em?",
+    "opcoes": [
+      "apenas agricultura",
+      "nenhum bem",
+      "todos os bens",
+      "apenas serviços"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 447,
+    "nivel": "dificil",
+    "pergunta": "Termos de troca deterioram-se quando preços de exportação caem relativamente aos de?",
+    "opcoes": [
+      "salários locais",
+      "importação",
+      "transportes urbanos",
+      "chuvas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 448,
+    "nivel": "dificil",
+    "pergunta": "O índice de desenvolvimento humano combina saúde, educação e?",
+    "opcoes": [
+      "latitude",
+      "rendimento",
+      "emissões apenas",
+      "densidade de rios"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 449,
+    "nivel": "dificil",
+    "pergunta": "O coeficiente de Gini mais elevado indica maior?",
+    "opcoes": [
+      "igualdade perfeita",
+      "densidade urbana",
+      "esperança de vida",
+      "desigualdade de rendimento"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 450,
+    "nivel": "dificil",
+    "pergunta": "A pobreza multidimensional inclui privações em saúde, educação e?",
+    "opcoes": [
+      "longitude",
+      "condições de vida",
+      "precipitação",
+      "tectónica"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 451,
+    "nivel": "dificil",
+    "pergunta": "O efeito de estufa natural torna a Terra habitável; o aumento antrópico intensifica?",
+    "opcoes": [
+      "formação de continentes",
+      "reflexão de toda a luz",
+      "retenção de calor",
+      "rotação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 452,
+    "nivel": "dificil",
+    "pergunta": "A concentração de CO2 aumenta quando desflorestação reduz sumidouros e combustíveis fósseis aumentam?",
+    "opcoes": [
+      "emissões",
+      "albedo da neve",
+      "caudal glacial",
+      "infiltração"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 453,
+    "nivel": "dificil",
+    "pergunta": "A salinização de um aquífero costeiro é agravada quando o nível piezométrico cai abaixo do?",
+    "opcoes": [
+      "nível do mar",
+      "divisor de águas",
+      "topo da duna",
+      "nível do rio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 454,
+    "nivel": "dificil",
+    "pergunta": "A retenção de sedimentos por barragens pode causar erosão do delta por falta de?",
+    "opcoes": [
+      "chuva",
+      "salinidade",
+      "sedimentos a jusante",
+      "magma"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 455,
+    "nivel": "dificil",
+    "pergunta": "A chuva ácida resulta sobretudo de óxidos de enxofre e azoto que reagem com a?",
+    "opcoes": [
+      "lava",
+      "areia do deserto",
+      "água atmosférica",
+      "água subterrânea profunda"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 456,
+    "nivel": "dificil",
+    "pergunta": "A ilha de calor urbana é reforçada por asfalto, pouca vegetação e menor?",
+    "opcoes": [
+      "salinidade",
+      "evapotranspiração",
+      "precipitação oceânica",
+      "tectónica"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 457,
+    "nivel": "dificil",
+    "pergunta": "O zoneamento de risco deve evitar novas construções em áreas de?",
+    "opcoes": [
+      "alta latitude",
+      "inundação recorrente",
+      "rocha profunda",
+      "baixa densidade"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 458,
+    "nivel": "dificil",
+    "pergunta": "A soberania sobre recursos de uma bacia transfronteiriça exige partilha de dados e?",
+    "opcoes": [
+      "isolamento",
+      "coordenação entre países",
+      "monocultura",
+      "projecção cartográfica"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 459,
+    "nivel": "dificil",
+    "pergunta": "A subida do preço de combustíveis importados pode deteriorar a balança comercial de um país?",
+    "opcoes": [
+      "exportador de todos os bens",
+      "dependente de importações",
+      "autossuficiente",
+      "sem população"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 460,
+    "nivel": "dificil",
+    "pergunta": "A migração rural-urbana altera a distribuição espacial da população e pode acelerar a?",
+    "opcoes": [
+      "desertificação polar",
+      "glaciação",
+      "metropolização",
+      "subducção"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 461,
+    "nivel": "dificil",
+    "pergunta": "Um mapa de densidade por pontos representa quantidade através da repetição de?",
+    "opcoes": [
+      "curvas de nível",
+      "fotografias",
+      "símbolos",
+      "fusos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 462,
+    "nivel": "dificil",
+    "pergunta": "A distância euclidiana entre dois lugares ignora a forma da rede e os?",
+    "opcoes": [
+      "tipos de solo",
+      "níveis de chuva",
+      "fusos horários",
+      "obstáculos do percurso"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 463,
+    "nivel": "dificil",
+    "pergunta": "A resolução espectral de um sensor indica as bandas de radiação que ele consegue?",
+    "opcoes": [
+      "horas legais",
+      "altitudes",
+      "distinguir",
+      "fronteiras"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 464,
+    "nivel": "dificil",
+    "pergunta": "A vulnerabilidade social a ciclones é maior quando há pobreza, habitação precária e pouco acesso a?",
+    "opcoes": [
+      "latitude",
+      "minérios",
+      "informação e serviços",
+      "marés"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 465,
+    "nivel": "dificil",
+    "pergunta": "A conservação de uma bacia a montante pode melhorar a qualidade da água e reduzir o assoreamento a?",
+    "opcoes": [
+      "jusante",
+      "montante",
+      "no núcleo",
+      "na atmosfera"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 466,
+    "nivel": "facil",
+    "pergunta": "O maior lago de África por área é o?",
+    "opcoes": [
+      "Lago Tanganica",
+      "Lago Chade",
+      "Lago Vitória",
+      "Lago Niassa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 467,
+    "nivel": "facil",
+    "pergunta": "A capital de Cabo Delgado é?",
+    "opcoes": [
+      "Nampula",
+      "Lichinga",
+      "Pemba",
+      "Tete"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 468,
+    "nivel": "facil",
+    "pergunta": "O continente coberto em grande parte por gelo é a?",
+    "opcoes": [
+      "Europa",
+      "África",
+      "Antárctida",
+      "Ásia"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 469,
+    "nivel": "facil",
+    "pergunta": "A passagem directa de sólido para vapor chama-se?",
+    "opcoes": [
+      "sublimação",
+      "fusão",
+      "condensação",
+      "solidificação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 470,
+    "nivel": "medio",
+    "pergunta": "A continentalidade tende a aumentar a amplitude térmica porque o solo aquece e arrefece mais?",
+    "opcoes": [
+      "sem receber radiação",
+      "apenas no Verão",
+      "lentamente",
+      "rapidamente"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 471,
+    "nivel": "medio",
+    "pergunta": "A chuva de relevo ocorre quando o ar húmido sobe numa?",
+    "opcoes": [
+      "depressão oceânica",
+      "planície costeira",
+      "encosta",
+      "duna"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 472,
+    "nivel": "medio",
+    "pergunta": "A frente fria ocorre quando uma massa de ar frio avança e força o ar quente a?",
+    "opcoes": [
+      "congelar no solo",
+      "subir",
+      "descer",
+      "desaparecer"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 473,
+    "nivel": "medio",
+    "pergunta": "A humidade absoluta é a massa de vapor de água por unidade de?",
+    "opcoes": [
+      "pressão",
+      "latitude",
+      "área de solo",
+      "volume de ar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 474,
+    "nivel": "medio",
+    "pergunta": "O balanço hídrico compara entradas e saídas de água num determinado?",
+    "opcoes": [
+      "território",
+      "minério",
+      "continente político",
+      "fuso horário"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 475,
+    "nivel": "medio",
+    "pergunta": "A cheia corresponde a caudal excepcionalmente elevado que pode transbordar o?",
+    "opcoes": [
+      "divisor de águas",
+      "delta oceânico",
+      "aquífero profundo",
+      "leito do rio"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 476,
+    "nivel": "medio",
+    "pergunta": "O assoreamento é a acumulação de sedimentos no leito ou margem de um?",
+    "opcoes": [
+      "deserto",
+      "glaciar",
+      "vulcão",
+      "rio"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 477,
+    "nivel": "medio",
+    "pergunta": "A erosão em ravinas é intensificada pelo escoamento concentrado em?",
+    "opcoes": [
+      "planaltos sem chuva",
+      "vertentes",
+      "oceanos",
+      "nuvens"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 478,
+    "nivel": "medio",
+    "pergunta": "A permeabilidade de uma rocha indica a facilidade com que a água?",
+    "opcoes": [
+      "a atravessa",
+      "a transforma em magma",
+      "a congela",
+      "a aquece"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 479,
+    "nivel": "medio",
+    "pergunta": "A porosidade indica a proporção de espaços vazios numa?",
+    "opcoes": [
+      "placa tectónica",
+      "nuvem",
+      "rocha ou solo",
+      "corrente marítima"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 480,
+    "nivel": "medio",
+    "pergunta": "A recarga de um aquífero ocorre quando água se infiltra até à?",
+    "opcoes": [
+      "zona saturada",
+      "superfície do mar",
+      "lava",
+      "atmosfera superior"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 481,
+    "nivel": "medio",
+    "pergunta": "A nascente de um rio pode ocorrer onde o lençol freático intersecta a?",
+    "opcoes": [
+      "linha internacional",
+      "estratosfera",
+      "superfície",
+      "crosta oceânica profunda"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 482,
+    "nivel": "medio",
+    "pergunta": "A amplitude das marés é maior nas marés vivas por alinhamento do Sol, Terra e?",
+    "opcoes": [
+      "Marte",
+      "Lua",
+      "Vénus",
+      "Júpiter"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 483,
+    "nivel": "medio",
+    "pergunta": "O tsunami é geralmente gerado por deslocamento súbito do fundo?",
+    "opcoes": [
+      "glacial",
+      "marinho",
+      "atmosférico",
+      "fluvial"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 484,
+    "nivel": "medio",
+    "pergunta": "A escala de Richter foi concebida para comparar a magnitude de?",
+    "opcoes": [
+      "cheias",
+      "terramotos",
+      "ciclones",
+      "secas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 485,
+    "nivel": "medio",
+    "pergunta": "A deriva continental foi proposta para explicar o encaixe de continentes e a distribuição de?",
+    "opcoes": [
+      "fósseis semelhantes",
+      "marés",
+      "fusos horários",
+      "nuvens"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 486,
+    "nivel": "medio",
+    "pergunta": "A Pangeia foi um supercontinente que reuniu grande parte das massas?",
+    "opcoes": [
+      "glaciais",
+      "continentais",
+      "atmosféricas",
+      "oceânicas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 487,
+    "nivel": "medio",
+    "pergunta": "A astenosfera situa-se abaixo da litosfera e tem comportamento relativamente?",
+    "opcoes": [
+      "rígido e imóvel",
+      "gasoso",
+      "líquido como o oceano",
+      "plástico"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 488,
+    "nivel": "medio",
+    "pergunta": "O intemperismo químico é mais intenso em climas quentes e?",
+    "opcoes": [
+      "polares",
+      "desérticos frios",
+      "húmidos",
+      "frios e secos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 489,
+    "nivel": "medio",
+    "pergunta": "A vegetação xerófila possui adaptações à?",
+    "opcoes": [
+      "inundação permanente",
+      "salinidade oceânica",
+      "escassez de água",
+      "neve"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 490,
+    "nivel": "medio",
+    "pergunta": "A sucessão ecológica descreve a mudança gradual de comunidades ao longo do?",
+    "opcoes": [
+      "declive",
+      "fuso",
+      "meridiano",
+      "tempo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 491,
+    "nivel": "medio",
+    "pergunta": "Uma espécie endémica ocorre naturalmente numa área?",
+    "opcoes": [
+      "apenas no oceano",
+      "em todos os continentes",
+      "restrita",
+      "sem habitat"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 492,
+    "nivel": "medio",
+    "pergunta": "A população economicamente activa inclui pessoas que trabalham ou procuram?",
+    "opcoes": [
+      "escola infantil",
+      "emprego",
+      "lazer",
+      "reforma"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 493,
+    "nivel": "medio",
+    "pergunta": "A taxa de natalidade relaciona nascimentos com a população?",
+    "opcoes": [
+      "migração internacional",
+      "produção industrial",
+      "total",
+      "área agrícola"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 494,
+    "nivel": "medio",
+    "pergunta": "A esperança de vida é o número médio de anos que uma pessoa pode?",
+    "opcoes": [
+      "estudar",
+      "esperar viver",
+      "trabalhar por dia",
+      "migrar por ano"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 495,
+    "nivel": "medio",
+    "pergunta": "A migração sazonal repete-se em determinadas épocas do?",
+    "opcoes": [
+      "fuso",
+      "ciclo tectónico",
+      "século geológico",
+      "ano"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 496,
+    "nivel": "medio",
+    "pergunta": "A indústria de transformação converte matérias-primas em?",
+    "opcoes": [
+      "coordenadas",
+      "fronteiras",
+      "chuvas",
+      "produtos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 497,
+    "nivel": "medio",
+    "pergunta": "O sector primário obtém recursos directamente da?",
+    "opcoes": [
+      "rede digital",
+      "natureza",
+      "bolsa de valores",
+      "fábrica"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 498,
+    "nivel": "medio",
+    "pergunta": "A balança comercial compara o valor de exportações e?",
+    "opcoes": [
+      "chuvas",
+      "importações",
+      "nascimentos",
+      "altitudes"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 499,
+    "nivel": "medio",
+    "pergunta": "O comércio externo ocorre entre agentes de diferentes?",
+    "opcoes": [
+      "bacias",
+      "países",
+      "vertentes",
+      "biomas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 500,
+    "nivel": "dificil",
+    "pergunta": "A orientação de uma linha de costa em relação aos ventos dominantes influencia a energia das ondas e a erosão",
+    "opcoes": [
+      "exposição",
+      "latitude",
+      "altitude",
+      "densidade"
+    ],
+    "resposta_correta": 0
+  }
+]

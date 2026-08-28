@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “casa”?",
+    "opcoes": [
+      "house",
+      "school",
+      "garden",
+      "street"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “livro”?",
+    "opcoes": [
+      "pen",
+      "book",
+      "table",
+      "door"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “água”?",
+    "opcoes": [
+      "milk",
+      "juice",
+      "water",
+      "bread"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “maçã”?",
+    "opcoes": [
+      "orange",
+      "grape",
+      "banana",
+      "apple"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “cão”?",
+    "opcoes": [
+      "dog",
+      "cat",
+      "horse",
+      "bird"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “janela”?",
+    "opcoes": [
+      "wall",
+      "window",
+      "roof",
+      "floor"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “cadeira”?",
+    "opcoes": [
+      "desk",
+      "bed",
+      "chair",
+      "shelf"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “amigo”?",
+    "opcoes": [
+      "neighbour",
+      "teacher",
+      "brother",
+      "friend"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “feliz”?",
+    "opcoes": [
+      "happy",
+      "angry",
+      "tired",
+      "afraid"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “rápido”?",
+    "opcoes": [
+      "slow",
+      "fast",
+      "late",
+      "weak"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “comer”?",
+    "opcoes": [
+      "drink",
+      "sleep",
+      "eat",
+      "read"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “escrever”?",
+    "opcoes": [
+      "listen",
+      "speak",
+      "draw",
+      "write"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “manhã”?",
+    "opcoes": [
+      "morning",
+      "evening",
+      "night",
+      "afternoon"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “hoje”?",
+    "opcoes": [
+      "tomorrow",
+      "today",
+      "yesterday",
+      "always"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “vermelho”?",
+    "opcoes": [
+      "green",
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “sapato”?",
+    "opcoes": [
+      "shirt",
+      "hat",
+      "sock",
+      "shoe"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “família”?",
+    "opcoes": [
+      "family",
+      "country",
+      "company",
+      "village"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “escola”?",
+    "opcoes": [
+      "hospital",
+      "school",
+      "market",
+      "station"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “trabalho”?",
+    "opcoes": [
+      "holiday",
+      "weather",
+      "work",
+      "music"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “bonito”?",
+    "opcoes": [
+      "difficult",
+      "empty",
+      "noisy",
+      "beautiful"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “grande”?",
+    "opcoes": [
+      "big",
+      "small",
+      "short",
+      "thin"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “pergunta”?",
+    "opcoes": [
+      "answer",
+      "question",
+      "lesson",
+      "story"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “responder”?",
+    "opcoes": [
+      "ask",
+      "forget",
+      "answer",
+      "close"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “comprar”?",
+    "opcoes": [
+      "sell",
+      "borrow",
+      "lose",
+      "buy"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “caro”?",
+    "opcoes": [
+      "expensive",
+      "cheap",
+      "free",
+      "easy"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “rua”?",
+    "opcoes": [
+      "river",
+      "street",
+      "forest",
+      "cloud"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “chuva”?",
+    "opcoes": [
+      "wind",
+      "snow",
+      "rain",
+      "sun"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “ouvir”?",
+    "opcoes": [
+      "look",
+      "touch",
+      "carry",
+      "listen"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “começar”?",
+    "opcoes": [
+      "start",
+      "finish",
+      "break",
+      "change"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “ajudar”?",
+    "opcoes": [
+      "hurt",
+      "help",
+      "hide",
+      "wait"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “pão”?",
+    "opcoes": [
+      "rice",
+      "cheese",
+      "bread",
+      "meat"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “quarto”?",
+    "opcoes": [
+      "kitchen",
+      "garden",
+      "bridge",
+      "room"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “viagem”?",
+    "opcoes": [
+      "journey",
+      "meeting",
+      "message",
+      "building"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “doente”?",
+    "opcoes": [
+      "ready",
+      "ill",
+      "rich",
+      "kind"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “cedo”?",
+    "opcoes": [
+      "slowly",
+      "loudly",
+      "early",
+      "badly"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “sempre”?",
+    "opcoes": [
+      "never",
+      "rarely",
+      "soon",
+      "always"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “esquerda”?",
+    "opcoes": [
+      "left",
+      "right",
+      "straight",
+      "back"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “seguro”?",
+    "opcoes": [
+      "dangerous",
+      "safe",
+      "modern",
+      "famous"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “ensinar”?",
+    "opcoes": [
+      "learn",
+      "drive",
+      "teach",
+      "follow"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “nadar”?",
+    "opcoes": [
+      "climb",
+      "run",
+      "dance",
+      "swim"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “professor”?",
+    "opcoes": [
+      "teacher",
+      "student",
+      "doctor",
+      "farmer"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “mercado”?",
+    "opcoes": [
+      "airport",
+      "market",
+      "library",
+      "factory"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “pequeno”?",
+    "opcoes": [
+      "large",
+      "heavy",
+      "small",
+      "wide"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “noite”?",
+    "opcoes": [
+      "morning",
+      "noon",
+      "week",
+      "night"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “faminto”?",
+    "opcoes": [
+      "hungry",
+      "thirsty",
+      "sleepy",
+      "angry"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “amarelo”?",
+    "opcoes": [
+      "purple",
+      "yellow",
+      "brown",
+      "white"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “montanha”?",
+    "opcoes": [
+      "island",
+      "road",
+      "mountain",
+      "bridge"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “correr”?",
+    "opcoes": [
+      "walk",
+      "sit",
+      "stand",
+      "run"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “vizinho”?",
+    "opcoes": [
+      "neighbour",
+      "driver",
+      "customer",
+      "singer"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “cidade”?",
+    "opcoes": [
+      "village",
+      "city",
+      "country",
+      "forest"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “felicidade”?",
+    "opcoes": [
+      "sadness",
+      "illness",
+      "happiness",
+      "darkness"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “camisa”?",
+    "opcoes": [
+      "trousers",
+      "shoe",
+      "coat",
+      "shirt"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “cozinhar”?",
+    "opcoes": [
+      "cook",
+      "wash",
+      "buy",
+      "sing"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “perigoso”?",
+    "opcoes": [
+      "safe",
+      "dangerous",
+      "quiet",
+      "cheap"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “perto”?",
+    "opcoes": [
+      "far",
+      "late",
+      "near",
+      "slow"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 56,
+    "nivel": "facil",
+    "pergunta": "Complete: ___ orange is rich in vitamin C.",
+    "opcoes": [
+      "A",
+      "The",
+      "No article",
+      "An"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 57,
+    "nivel": "facil",
+    "pergunta": "Complete: She has ___ new bicycle.",
+    "opcoes": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 58,
+    "nivel": "facil",
+    "pergunta": "Complete: ___ sun rises in the east.",
+    "opcoes": [
+      "A",
+      "The",
+      "An",
+      "No article"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 59,
+    "nivel": "facil",
+    "pergunta": "Complete: I need ___ umbrella because it is raining.",
+    "opcoes": [
+      "a",
+      "the",
+      "an",
+      "no article"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 60,
+    "nivel": "facil",
+    "pergunta": "Complete: He is ___ doctor.",
+    "opcoes": [
+      "an",
+      "the",
+      "no article",
+      "a"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 61,
+    "nivel": "facil",
+    "pergunta": "Complete: We visited ___ museum near the harbour.",
+    "opcoes": [
+      "the",
+      "a",
+      "an",
+      "no article"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 62,
+    "nivel": "facil",
+    "pergunta": "Complete: They have ___ English lesson today.",
+    "opcoes": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 63,
+    "nivel": "facil",
+    "pergunta": "Complete: ___ honesty is important.",
+    "opcoes": [
+      "A",
+      "An",
+      "No article",
+      "The"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 64,
+    "nivel": "facil",
+    "pergunta": "Complete: My sister plays ___ piano.",
+    "opcoes": [
+      "a",
+      "an",
+      "no article",
+      "the"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 65,
+    "nivel": "facil",
+    "pergunta": "Complete: She drinks ___ tea every morning.",
+    "opcoes": [
+      "No article",
+      "a",
+      "an",
+      "the"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 66,
+    "nivel": "facil",
+    "pergunta": "Complete: I ___ from Nampula.",
+    "opcoes": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 67,
+    "nivel": "facil",
+    "pergunta": "Complete: She ___ my cousin.",
+    "opcoes": [
+      "am",
+      "are",
+      "is",
+      "be"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 68,
+    "nivel": "facil",
+    "pergunta": "Complete: We ___ ready.",
+    "opcoes": [
+      "is",
+      "am",
+      "be",
+      "are"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 69,
+    "nivel": "facil",
+    "pergunta": "Complete: They ___ at home yesterday.",
+    "opcoes": [
+      "were",
+      "was",
+      "are",
+      "is"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 70,
+    "nivel": "facil",
+    "pergunta": "Complete: He ___ tired last night.",
+    "opcoes": [
+      "were",
+      "was",
+      "is",
+      "are"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 71,
+    "nivel": "facil",
+    "pergunta": "Complete: You ___ very helpful.",
+    "opcoes": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 72,
+    "nivel": "facil",
+    "pergunta": "Complete: There ___ two books on the desk.",
+    "opcoes": [
+      "is",
+      "am",
+      "be",
+      "are"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 73,
+    "nivel": "facil",
+    "pergunta": "Complete: There ___ a problem here.",
+    "opcoes": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 74,
+    "nivel": "facil",
+    "pergunta": "Complete: The children ___ happy yesterday.",
+    "opcoes": [
+      "was",
+      "were",
+      "are",
+      "is"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 75,
+    "nivel": "facil",
+    "pergunta": "Complete: ___ he your brother?",
+    "opcoes": [
+      "Are",
+      "Am",
+      "Is",
+      "Be"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 76,
+    "nivel": "facil",
+    "pergunta": "Complete: She ___ to school every day.",
+    "opcoes": [
+      "go",
+      "going",
+      "went",
+      "goes"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 77,
+    "nivel": "facil",
+    "pergunta": "Complete: They ___ football on Saturdays.",
+    "opcoes": [
+      "play",
+      "plays",
+      "playing",
+      "played"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 78,
+    "nivel": "facil",
+    "pergunta": "Complete: My father ___ tea in the morning.",
+    "opcoes": [
+      "drink",
+      "drinks",
+      "drinking",
+      "drank"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 79,
+    "nivel": "facil",
+    "pergunta": "Complete: I ___ English at home.",
+    "opcoes": [
+      "studies",
+      "studying",
+      "study",
+      "studied"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 80,
+    "nivel": "facil",
+    "pergunta": "Complete: The sun ___ in the east.",
+    "opcoes": [
+      "rise",
+      "rising",
+      "rose",
+      "rises"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 81,
+    "nivel": "facil",
+    "pergunta": "Complete: He ___ TV after dinner.",
+    "opcoes": [
+      "watches",
+      "watch",
+      "watching",
+      "watched"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 82,
+    "nivel": "facil",
+    "pergunta": "Complete: We ___ in a small flat.",
+    "opcoes": [
+      "lives",
+      "live",
+      "living",
+      "lived"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 83,
+    "nivel": "facil",
+    "pergunta": "Complete: The baby ___ a lot.",
+    "opcoes": [
+      "cry",
+      "crying",
+      "cries",
+      "cried"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 84,
+    "nivel": "facil",
+    "pergunta": "Complete: Mary ___ her room weekly.",
+    "opcoes": [
+      "clean",
+      "cleaning",
+      "cleaned",
+      "cleans"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 85,
+    "nivel": "facil",
+    "pergunta": "Complete: Water ___ at 100°C.",
+    "opcoes": [
+      "boils",
+      "boil",
+      "boiling",
+      "boiled"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 86,
+    "nivel": "facil",
+    "pergunta": "Complete: Yesterday I ___ my grandmother.",
+    "opcoes": [
+      "visit",
+      "visited",
+      "visiting",
+      "visits"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 87,
+    "nivel": "facil",
+    "pergunta": "Complete: She ___ a letter last night.",
+    "opcoes": [
+      "write",
+      "writes",
+      "wrote",
+      "writing"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 88,
+    "nivel": "facil",
+    "pergunta": "Complete: We ___ to the market on Monday.",
+    "opcoes": [
+      "go",
+      "goes",
+      "going",
+      "went"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 89,
+    "nivel": "facil",
+    "pergunta": "Complete: He ___ the window.",
+    "opcoes": [
+      "opened",
+      "open",
+      "opens",
+      "opening"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 90,
+    "nivel": "facil",
+    "pergunta": "Complete: They ___ dinner at eight.",
+    "opcoes": [
+      "have",
+      "had",
+      "has",
+      "having"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 91,
+    "nivel": "facil",
+    "pergunta": "Complete: I ___ the answer.",
+    "opcoes": [
+      "know",
+      "knows",
+      "knew",
+      "knowing"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 92,
+    "nivel": "facil",
+    "pergunta": "Complete: The keys are ___ the table.",
+    "opcoes": [
+      "in",
+      "at",
+      "to",
+      "on"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 93,
+    "nivel": "facil",
+    "pergunta": "Complete: She lives ___ Beira.",
+    "opcoes": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 94,
+    "nivel": "facil",
+    "pergunta": "Complete: We arrive ___ school at seven.",
+    "opcoes": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 95,
+    "nivel": "facil",
+    "pergunta": "Complete: He walked ___ the room.",
+    "opcoes": [
+      "on",
+      "at",
+      "into",
+      "from"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 96,
+    "nivel": "facil",
+    "pergunta": "Complete: The cat is ___ the chair.",
+    "opcoes": [
+      "between",
+      "over",
+      "during",
+      "under"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 97,
+    "nivel": "facil",
+    "pergunta": "Complete: I go ___ work by bus.",
+    "opcoes": [
+      "to",
+      "in",
+      "at",
+      "on"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 98,
+    "nivel": "facil",
+    "pergunta": "Complete: The picture is ___ the wall.",
+    "opcoes": [
+      "at",
+      "on",
+      "to",
+      "under"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 99,
+    "nivel": "facil",
+    "pergunta": "Complete: They travelled ___ Maputo to Xai-Xai.",
+    "opcoes": [
+      "at",
+      "on",
+      "from",
+      "in"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 100,
+    "nivel": "facil",
+    "pergunta": "Complete: The shop is ___ the bank and the post office.",
+    "opcoes": [
+      "under",
+      "during",
+      "into",
+      "between"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 101,
+    "nivel": "facil",
+    "pergunta": "Complete: We study ___ Monday.",
+    "opcoes": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 102,
+    "nivel": "facil",
+    "pergunta": "Complete: Maria is my friend. ___ is kind.",
+    "opcoes": [
+      "He",
+      "She",
+      "It",
+      "They"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 103,
+    "nivel": "facil",
+    "pergunta": "Complete: The boys are outside. ___ are playing.",
+    "opcoes": [
+      "He",
+      "She",
+      "They",
+      "It"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 104,
+    "nivel": "facil",
+    "pergunta": "Complete: I gave the book to João. I gave it to ___.",
+    "opcoes": [
+      "her",
+      "them",
+      "us",
+      "him"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 105,
+    "nivel": "facil",
+    "pergunta": "Complete: This present is for Ana and ___.",
+    "opcoes": [
+      "me",
+      "I",
+      "he",
+      "they"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 106,
+    "nivel": "facil",
+    "pergunta": "Complete: The cat is sleeping. ___ is under the table.",
+    "opcoes": [
+      "He",
+      "It",
+      "She",
+      "They"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 107,
+    "nivel": "facil",
+    "pergunta": "Complete: My parents called ___.",
+    "opcoes": [
+      "we",
+      "them",
+      "us",
+      "him"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 108,
+    "nivel": "facil",
+    "pergunta": "Complete: “Whose bag is this?” “It is ___.”",
+    "opcoes": [
+      "my",
+      "me",
+      "I",
+      "mine"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 109,
+    "nivel": "facil",
+    "pergunta": "Complete: That is not your pen; it is ___.",
+    "opcoes": [
+      "hers",
+      "her",
+      "she",
+      "their"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 110,
+    "nivel": "facil",
+    "pergunta": "Complete: These books are ___.",
+    "opcoes": [
+      "their",
+      "theirs",
+      "them",
+      "ours"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 111,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: one child = ___",
+    "opcoes": [
+      "childs",
+      "childes",
+      "children",
+      "child"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 112,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: one tooth = ___",
+    "opcoes": [
+      "tooths",
+      "toothes",
+      "tooth",
+      "teeth"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 113,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: one woman = ___",
+    "opcoes": [
+      "women",
+      "womans",
+      "womanes",
+      "woman"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 114,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: one city = ___",
+    "opcoes": [
+      "citys",
+      "cities",
+      "cityes",
+      "city"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 115,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: one knife = ___",
+    "opcoes": [
+      "knifes",
+      "knifies",
+      "knives",
+      "knife"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 116,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A lion is ___ than a cat.",
+    "opcoes": [
+      "big",
+      "biggest",
+      "more small",
+      "bigger"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 117,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: This road is ___ than that one.",
+    "opcoes": [
+      "longer",
+      "long",
+      "longest",
+      "short"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 118,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: My bag is ___ than yours.",
+    "opcoes": [
+      "heavy",
+      "heavier",
+      "heaviest",
+      "light"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 119,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Today is ___ than yesterday.",
+    "opcoes": [
+      "warm",
+      "warmest",
+      "warmer",
+      "cold"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 120,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: She is ___ than her brother.",
+    "opcoes": [
+      "tall",
+      "tallest",
+      "short",
+      "taller"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 121,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: This exercise is ___ than the last.",
+    "opcoes": [
+      "easier",
+      "easy",
+      "easiest",
+      "difficult"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 122,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: He is ___ at maths than I am.",
+    "opcoes": [
+      "good",
+      "better",
+      "best",
+      "worse"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 123,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: ___ is your name?",
+    "opcoes": [
+      "Where",
+      "When",
+      "What",
+      "Who"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 124,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: ___ do you live?",
+    "opcoes": [
+      "What",
+      "Why",
+      "How",
+      "Where"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 125,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: ___ is your birthday?",
+    "opcoes": [
+      "When",
+      "Where",
+      "Who",
+      "Why"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 126,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: ___ is that man?",
+    "opcoes": [
+      "What",
+      "Who",
+      "Where",
+      "When"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 127,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: ___ are you crying?",
+    "opcoes": [
+      "What",
+      "Who",
+      "Why",
+      "Where"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 128,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: ___ old is your brother?",
+    "opcoes": [
+      "What",
+      "Where",
+      "Why",
+      "How"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 129,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: You ___ brush your teeth twice a day.",
+    "opcoes": [
+      "should",
+      "might",
+      "would",
+      "could"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 130,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: ___ I come in, please?",
+    "opcoes": [
+      "Must",
+      "May",
+      "Need",
+      "Should"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 131,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: He ___ swim when he was five.",
+    "opcoes": [
+      "can",
+      "may",
+      "could",
+      "must"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 132,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: We ___ hurry; there is plenty of time.",
+    "opcoes": [
+      "must not",
+      "could not",
+      "would not",
+      "need not"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 133,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Passengers ___ smoke on the bus.",
+    "opcoes": [
+      "must not",
+      "may",
+      "should",
+      "could"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 134,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Lina has a blue bicycle. What colour is it?",
+    "opcoes": [
+      "Green",
+      "Blue",
+      "Red",
+      "Black"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 135,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Tom eats bread for breakfast. What does he eat?",
+    "opcoes": [
+      "Rice",
+      "Soup",
+      "Bread",
+      "Fruit"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 136,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The shop closes at five. When does it close?",
+    "opcoes": [
+      "At four",
+      "At six",
+      "At seven",
+      "At five"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 137,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Paulo has two sisters. How many?",
+    "opcoes": [
+      "Two",
+      "One",
+      "Three",
+      "Four"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 138,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: It is raining; Ana takes an umbrella. Why?",
+    "opcoes": [
+      "It is sunny",
+      "Because it is raining",
+      "She is swimming",
+      "She is hungry"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 139,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Joana arrives at 7:30 for an 8:00 bus. Is she early?",
+    "opcoes": [
+      "No",
+      "Late",
+      "Yes",
+      "Absent"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 140,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Sam likes mangoes but dislikes bananas. Which fruit?",
+    "opcoes": [
+      "Bananas",
+      "Oranges",
+      "Lemons",
+      "Mangoes"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 141,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The classroom is next to the library. Where is it?",
+    "opcoes": [
+      "Next to the library",
+      "Inside it",
+      "Far from it",
+      "Under it"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 142,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Carlos bought a red shirt. What did he buy?",
+    "opcoes": [
+      "A hat",
+      "A shirt",
+      "A book",
+      "Shoes"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 143,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Mina studies English on Monday and Wednesday. When?",
+    "opcoes": [
+      "Sunday",
+      "Friday",
+      "On Monday and Wednesday",
+      "Saturday"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 144,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The nurse is in the clinic. Where is she?",
+    "opcoes": [
+      "At the market",
+      "On the bus",
+      "Under the bridge",
+      "In the clinic"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 145,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A farmer grows maize. What does he grow?",
+    "opcoes": [
+      "Maize",
+      "Tea",
+      "Shoes",
+      "Books"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 146,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The cup is empty. What is its condition?",
+    "opcoes": [
+      "Full",
+      "Empty",
+      "Broken",
+      "Heavy"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 147,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A bus is slower than a train. Which is faster?",
+    "opcoes": [
+      "The bus",
+      "Neither",
+      "The train",
+      "Both equally"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 148,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A child is eight years old. How old?",
+    "opcoes": [
+      "Six",
+      "Ten",
+      "Twelve",
+      "Eight"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 149,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The meeting starts at nine. When?",
+    "opcoes": [
+      "At nine",
+      "At seven",
+      "At noon",
+      "At five"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 150,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: She owns three goats. How many?",
+    "opcoes": [
+      "One",
+      "Three",
+      "Two",
+      "Four"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 151,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The red bag is on the chair. Where?",
+    "opcoes": [
+      "Under the table",
+      "In the car",
+      "On the chair",
+      "By the door"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 152,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: He is thirsty, so he drinks water. Why?",
+    "opcoes": [
+      "Because he is tired",
+      "Because he is ill",
+      "Because he is late",
+      "Because he is thirsty"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 153,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The road is wide, not narrow. What is it?",
+    "opcoes": [
+      "Wide",
+      "Narrow",
+      "Short",
+      "Low"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 154,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: Amina reads every night. When does she read?",
+    "opcoes": [
+      "Every morning",
+      "Every night",
+      "Only Sundays",
+      "At noon"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 155,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The door is closed; can people enter easily?",
+    "opcoes": [
+      "Yes",
+      "Only by bus",
+      "No",
+      "Only at night"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 156,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A library lends books. What does it lend?",
+    "opcoes": [
+      "Food",
+      "Medicine",
+      "Clothes",
+      "Books"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 157,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The opposite of early is ___.",
+    "opcoes": [
+      "late",
+      "fast",
+      "near",
+      "bright"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 158,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: The opposite of noisy is ___.",
+    "opcoes": [
+      "loud",
+      "quiet",
+      "busy",
+      "large"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 159,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A week has seven days. How many?",
+    "opcoes": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 160,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: If you are hungry, you need ___.",
+    "opcoes": [
+      "sleep",
+      "a coat",
+      "a ticket",
+      "food"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 161,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A mechanic repairs cars. What does he repair?",
+    "opcoes": [
+      "Cars",
+      "Books",
+      "Houses",
+      "Lessons"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 162,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A map helps you find a ___.",
+    "opcoes": [
+      "flavour",
+      "place",
+      "song",
+      "temperature"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 163,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A thermometer measures ___.",
+    "opcoes": [
+      "distance",
+      "weight",
+      "temperature",
+      "time"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 164,
+    "nivel": "facil",
+    "pergunta": "Escolha a resposta correta: A key opens a ___.",
+    "opcoes": [
+      "window",
+      "shoe",
+      "plate",
+      "lock"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 165,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: I ___ my homework already.",
+    "opcoes": [
+      "have finished",
+      "finished",
+      "am finishing",
+      "finish"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 166,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: She ___ in London since 2020.",
+    "opcoes": [
+      "lived",
+      "has lived",
+      "is living",
+      "lives"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 167,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: They ___ the film before we arrived.",
+    "opcoes": [
+      "have seen",
+      "see",
+      "had seen",
+      "were seeing"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 168,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: By June, he ___ the course.",
+    "opcoes": [
+      "completes",
+      "completed",
+      "has completed",
+      "will have completed"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 169,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: We ___ dinner when the phone rang.",
+    "opcoes": [
+      "were having",
+      "have",
+      "had",
+      "are having"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 170,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: Those clouds mean it ___.",
+    "opcoes": [
+      "will be rain",
+      "is going to rain",
+      "has rained",
+      "would"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 171,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: I think Mozambique ___ win.",
+    "opcoes": [
+      "is going to",
+      "has",
+      "will",
+      "did"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 172,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: She ___ for two hours when I called.",
+    "opcoes": [
+      "has studied",
+      "studies",
+      "will study",
+      "had been studying"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 173,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: He ___ to work every day this month.",
+    "opcoes": [
+      "has been walking",
+      "walked",
+      "is walk",
+      "had walk"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 174,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: At eight tomorrow, I ___.",
+    "opcoes": [
+      "travelled",
+      "will be travelling",
+      "have travelled",
+      "travel"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 175,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: When I got home, my family ___.",
+    "opcoes": [
+      "has eaten",
+      "eats",
+      "had eaten",
+      "will eat"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 176,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: She ___ never ___ sushi.",
+    "opcoes": [
+      "have, try",
+      "did, tried",
+      "is, trying",
+      "has, tried"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 177,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: By your arrival, we ___.",
+    "opcoes": [
+      "will have left",
+      "leave",
+      "left",
+      "are leave"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 178,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: The children ___ since lunch.",
+    "opcoes": [
+      "played",
+      "have been playing",
+      "are play",
+      "had play"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 179,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: He ___ the report yet.",
+    "opcoes": [
+      "did not wrote",
+      "does not written",
+      "has not written",
+      "is not write"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 180,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: I ___ this book twice.",
+    "opcoes": [
+      "am reading",
+      "readed",
+      "had read",
+      "have read"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 181,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: They ___ already ___ tickets.",
+    "opcoes": [
+      "have, bought",
+      "has, buy",
+      "did, bought",
+      "are, buying"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 182,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: Before 2019, she ___ never ___ abroad.",
+    "opcoes": [
+      "has, travel",
+      "had, travelled",
+      "did, travelled",
+      "was, travel"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 183,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: Tomorrow we ___ the museum.",
+    "opcoes": [
+      "went to visit",
+      "have visiting",
+      "are going to visit",
+      "had visit"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 184,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: At this time next week, he ___.",
+    "opcoes": [
+      "stayed",
+      "has stayed",
+      "is stay",
+      "will be staying"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 185,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: The film ___ before we arrived.",
+    "opcoes": [
+      "had started",
+      "has started",
+      "starts",
+      "will start"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 186,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: I ___ here for three years.",
+    "opcoes": [
+      "work",
+      "have worked",
+      "am work",
+      "had work"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 187,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: By noon, they ___ the task.",
+    "opcoes": [
+      "complete",
+      "completed",
+      "will have completed",
+      "are complete"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 188,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: She ___ when I entered.",
+    "opcoes": [
+      "reads",
+      "has read",
+      "will read",
+      "was reading"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 189,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: He ___ just ___ the door.",
+    "opcoes": [
+      "has, opened",
+      "have, open",
+      "did, opens",
+      "is, opening"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 190,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: We ___ to the coast next weekend.",
+    "opcoes": [
+      "travelled",
+      "are travelling",
+      "have travel",
+      "were travel"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 191,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: I ___ never ___ such a view.",
+    "opcoes": [
+      "has, saw",
+      "did, see",
+      "have, seen",
+      "am, seeing"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 192,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: When the teacher arrived, students ___.",
+    "opcoes": [
+      "talked",
+      "have talked",
+      "will talk",
+      "were talking"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 193,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: They ___ the house by July.",
+    "opcoes": [
+      "will have painted",
+      "paint",
+      "painted",
+      "are paint"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 194,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: She ___ at the clinic since Monday.",
+    "opcoes": [
+      "worked",
+      "has been working",
+      "is work",
+      "had work"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 195,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: The report ___ before the meeting.",
+    "opcoes": [
+      "has print",
+      "was printing",
+      "had been printed",
+      "prints"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 196,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: By next week, we ___ the results.",
+    "opcoes": [
+      "receive",
+      "received",
+      "are receive",
+      "will have received"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 197,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: He ___ in Maputo since January.",
+    "opcoes": [
+      "has been living",
+      "lived",
+      "is live",
+      "had live"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 198,
+    "nivel": "medio",
+    "pergunta": "Escolha o tempo verbal: When I called, she ___ a shower.",
+    "opcoes": [
+      "takes",
+      "was taking",
+      "has taken",
+      "will take"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 199,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ wear a helmet on a motorbike.",
+    "opcoes": [
+      "might",
+      "would",
+      "must",
+      "could"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 200,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: ___ I borrow your pen?",
+    "opcoes": [
+      "Must",
+      "Should",
+      "Need",
+      "May"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 201,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ see a doctor if ill.",
+    "opcoes": [
+      "should",
+      "can’t",
+      "mustn’t",
+      "wouldn’t"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 202,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: We ___ finish today; deadline is tomorrow.",
+    "opcoes": [
+      "mustn’t",
+      "needn’t",
+      "couldn’t",
+      "wouldn’t"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 203,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: He ___ swim when five.",
+    "opcoes": [
+      "can",
+      "may",
+      "could",
+      "must"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 204,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: It ___ rain later.",
+    "opcoes": [
+      "mustn’t",
+      "ought",
+      "need",
+      "might"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 205,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: Passengers ___ smoke on a plane.",
+    "opcoes": [
+      "must not",
+      "may",
+      "should",
+      "could"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 206,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: Would you ___ the window?",
+    "opcoes": [
+      "must open",
+      "open",
+      "to opening",
+      "opened"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 207,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ have told me earlier.",
+    "opcoes": [
+      "can",
+      "may",
+      "should",
+      "will"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 208,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: She ___ be at home; I saw her car.",
+    "opcoes": [
+      "can’t",
+      "needn’t",
+      "would",
+      "must"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 209,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: ___ you help with this box?",
+    "opcoes": [
+      "Could",
+      "Must",
+      "Need",
+      "Should"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 210,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: We ___ respect older people.",
+    "opcoes": [
+      "might to",
+      "ought to",
+      "can to",
+      "must to"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 211,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: He ___ be the manager; uncertain.",
+    "opcoes": [
+      "must",
+      "shall",
+      "may",
+      "ought"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 212,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ bring food; plenty exists.",
+    "opcoes": [
+      "mustn’t",
+      "couldn’t",
+      "wouldn’t",
+      "don’t have to"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 213,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: If I were you, I ___ apologise.",
+    "opcoes": [
+      "would",
+      "will",
+      "can",
+      "must"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 214,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: Students ___ submit work by Friday.",
+    "opcoes": [
+      "might to",
+      "have to",
+      "would to",
+      "can to"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 215,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ use my phone.",
+    "opcoes": [
+      "must to",
+      "ought",
+      "can",
+      "need to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 216,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: She ___ not have understood.",
+    "opcoes": [
+      "must to",
+      "should to",
+      "can",
+      "may"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 217,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: We ___ have missed the bus.",
+    "opcoes": [
+      "could",
+      "must to",
+      "ought to",
+      "need"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 218,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: He ___ rather stay home.",
+    "opcoes": [
+      "will",
+      "would",
+      "can",
+      "must"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 219,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ not park here.",
+    "opcoes": [
+      "might",
+      "would",
+      "must",
+      "could"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 220,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: They ___ be delayed by traffic.",
+    "opcoes": [
+      "must to",
+      "need to",
+      "should to",
+      "might"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 221,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: I ___ speak to the manager.",
+    "opcoes": [
+      "would like to",
+      "would like",
+      "like to would",
+      "will liking"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 222,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ to check the figures.",
+    "opcoes": [
+      "might",
+      "ought",
+      "would",
+      "need"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 223,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: She ___ have left already.",
+    "opcoes": [
+      "should to",
+      "must to",
+      "could",
+      "can to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 224,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: We ___ not ignore the warning.",
+    "opcoes": [
+      "might",
+      "would",
+      "can",
+      "should"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 225,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: ___ we start now?",
+    "opcoes": [
+      "Shall",
+      "Must",
+      "Need",
+      "Would"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 226,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: He ___ be working late tonight.",
+    "opcoes": [
+      "ought to",
+      "may",
+      "must to",
+      "need"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 227,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: You ___ have asked first.",
+    "opcoes": [
+      "can to",
+      "would to",
+      "could",
+      "must to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 228,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: Visitors ___ register at reception.",
+    "opcoes": [
+      "might",
+      "would",
+      "could",
+      "must"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 229,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: I ___ rather not discuss it.",
+    "opcoes": [
+      "would",
+      "will",
+      "can",
+      "must"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 230,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: The answer ___ be correct.",
+    "opcoes": [
+      "must to",
+      "cannot",
+      "ought to",
+      "need to"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 231,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: We ___ have booked earlier.",
+    "opcoes": [
+      "may to",
+      "can to",
+      "should",
+      "will"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 232,
+    "nivel": "medio",
+    "pergunta": "Complete com o modal correto: She ___ solve it alone.",
+    "opcoes": [
+      "must to",
+      "ought to",
+      "need",
+      "can"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 233,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Please ___ the light when you leave.",
+    "opcoes": [
+      "turn off",
+      "turn on",
+      "look after",
+      "take off"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 234,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: She ___ her old friend at the market.",
+    "opcoes": [
+      "ran out",
+      "ran into",
+      "looked up",
+      "gave away"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 235,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: We have ___ milk.",
+    "opcoes": [
+      "looked after",
+      "put off",
+      "run out of",
+      "turned into"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 236,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Please ___ this word.",
+    "opcoes": [
+      "look after",
+      "look out",
+      "look into",
+      "look up"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 237,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: He ___ smoking last year.",
+    "opcoes": [
+      "gave up",
+      "gave away",
+      "gave in",
+      "gave out"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 238,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The meeting was ___ until Friday.",
+    "opcoes": [
+      "put on",
+      "put off",
+      "put out",
+      "put up"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 239,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: I need to ___ my brother.",
+    "opcoes": [
+      "look for",
+      "look up",
+      "look after",
+      "look into"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 240,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: They ___ the problem carefully.",
+    "opcoes": [
+      "looked after",
+      "looked out",
+      "looked up",
+      "looked into"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 241,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The plane ___ at noon.",
+    "opcoes": [
+      "took off",
+      "took after",
+      "took up",
+      "took in"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 242,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Please ___ your shoes.",
+    "opcoes": [
+      "take after",
+      "take off",
+      "take up",
+      "take in"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 243,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: She ___ a new hobby.",
+    "opcoes": [
+      "took off",
+      "took after",
+      "took up",
+      "took in"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 244,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Fire fighters ___ the fire.",
+    "opcoes": [
+      "put off",
+      "put on",
+      "put up",
+      "put out"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 245,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: I cannot ___ this noise.",
+    "opcoes": [
+      "put up with",
+      "put off",
+      "put out",
+      "put on"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 246,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: He ___ the invitation.",
+    "opcoes": [
+      "turned on",
+      "turned down",
+      "turned into",
+      "turned up"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 247,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Please ___ the volume ___.",
+    "opcoes": [
+      "turn, on",
+      "put, out",
+      "turn, down",
+      "look, after"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 248,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The children ___ a story.",
+    "opcoes": [
+      "made out",
+      "made for",
+      "made off",
+      "made up"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 249,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: She ___ the answer by chance.",
+    "opcoes": [
+      "came across",
+      "came up",
+      "came into",
+      "came over"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 250,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Please ___ the form.",
+    "opcoes": [
+      "fill up with",
+      "fill in",
+      "fill off",
+      "fill over"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 251,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The car ___ on the way home.",
+    "opcoes": [
+      "broke into",
+      "broke up",
+      "broke down",
+      "broke out"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 252,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: They ___ the old building.",
+    "opcoes": [
+      "pulled over",
+      "pulled through",
+      "pulled up",
+      "pulled down"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 253,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Can you ___ the meaning?",
+    "opcoes": [
+      "work out",
+      "work up",
+      "work over",
+      "work in"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 254,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: She ___ her coat.",
+    "opcoes": [
+      "put out",
+      "put on",
+      "put off",
+      "put down"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 255,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: We ___ an old photograph.",
+    "opcoes": [
+      "came up",
+      "came out",
+      "came across",
+      "came over"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 256,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: He ___ the meeting.",
+    "opcoes": [
+      "called on",
+      "called up",
+      "called in",
+      "called off"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 257,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The manager ___ the problem.",
+    "opcoes": [
+      "pointed out",
+      "pointed in",
+      "pointed over",
+      "pointed under"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 258,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: Please ___ the missing details.",
+    "opcoes": [
+      "fill off",
+      "fill in",
+      "fill over",
+      "fill outed"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 259,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The plane ___ at six.",
+    "opcoes": [
+      "takes after",
+      "takes in",
+      "takes off",
+      "takes over"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 260,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: She ___ her younger sister.",
+    "opcoes": [
+      "looks for",
+      "looks up",
+      "looks into",
+      "looks after"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 261,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The fire ___ during the night.",
+    "opcoes": [
+      "broke out",
+      "broke down",
+      "broke into",
+      "broke up"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 262,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: He ___ the offer.",
+    "opcoes": [
+      "turned on",
+      "turned down",
+      "turned into",
+      "turned up"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 263,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: We need to ___ a solution.",
+    "opcoes": [
+      "come down",
+      "come across",
+      "come up with",
+      "come into"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 264,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The old custom has ___ over time.",
+    "opcoes": [
+      "died in",
+      "died up",
+      "died across",
+      "died out"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 265,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: She ___ the truth eventually.",
+    "opcoes": [
+      "found out",
+      "found over",
+      "found up",
+      "found into"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 266,
+    "nivel": "medio",
+    "pergunta": "Escolha o phrasal verb: The team ___ after the argument.",
+    "opcoes": [
+      "made out",
+      "made up",
+      "made off",
+      "made for"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 267,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If you heat ice, it ___.",
+    "opcoes": [
+      "melted",
+      "will melt",
+      "melts",
+      "would melt"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 268,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If it rains tomorrow, we ___ home.",
+    "opcoes": [
+      "stay",
+      "would stay",
+      "stayed",
+      "will stay"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 269,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If I had time, I ___ another language.",
+    "opcoes": [
+      "would learn",
+      "will learn",
+      "learned",
+      "have learnt"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 270,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If she had studied, she ___ the test.",
+    "opcoes": [
+      "will pass",
+      "would have passed",
+      "would pass",
+      "passes"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 271,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: Unless you hurry, you ___ the bus.",
+    "opcoes": [
+      "missed",
+      "would miss",
+      "will miss",
+      "have missed"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 272,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If I ___ you, I would accept.",
+    "opcoes": [
+      "am",
+      "was",
+      "be",
+      "were"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 273,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: We go out if weather ___.",
+    "opcoes": [
+      "improves",
+      "improved",
+      "would improve",
+      "improve"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 274,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If he had called, I ___ him.",
+    "opcoes": [
+      "will help",
+      "would have helped",
+      "helped",
+      "would help"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 275,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: Plants die if they ___ no water.",
+    "opcoes": [
+      "got",
+      "will get",
+      "get",
+      "would get"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 276,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: I would travel if I ___ money.",
+    "opcoes": [
+      "have",
+      "will have",
+      "had had",
+      "had"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 277,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If you mix blue and yellow, you ___ green.",
+    "opcoes": [
+      "get",
+      "got",
+      "will get",
+      "would get"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 278,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: She would be happier if she ___.",
+    "opcoes": [
+      "works less",
+      "worked less",
+      "will work less",
+      "had worked less"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 279,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If they leave now, they ___ on time.",
+    "opcoes": [
+      "arrived",
+      "would arrive",
+      "will arrive",
+      "arrive"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 280,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If I had known, I ___ you.",
+    "opcoes": [
+      "will tell",
+      "told",
+      "would tell",
+      "would have told"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 281,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: You cannot enter unless you ___ a ticket.",
+    "opcoes": [
+      "have",
+      "had",
+      "will have",
+      "would have"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 282,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If he practises, he ___ improve.",
+    "opcoes": [
+      "would",
+      "will",
+      "had",
+      "was"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 283,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If I were rich, I ___ a library.",
+    "opcoes": [
+      "will build",
+      "built",
+      "would build",
+      "have built"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 284,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If they had left, they ___ arrived.",
+    "opcoes": [
+      "will have",
+      "would",
+      "had",
+      "would have"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 285,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: Unless she apologises, I ___ speak.",
+    "opcoes": [
+      "will not",
+      "would not have",
+      "did not",
+      "am not"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 286,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If charged, the device ___.",
+    "opcoes": [
+      "worked",
+      "works",
+      "would work",
+      "will worked"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 287,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If you freeze water, it ___.",
+    "opcoes": [
+      "expanded",
+      "will expand",
+      "expands",
+      "would expand"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 288,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If I see her, I ___ her.",
+    "opcoes": [
+      "greeted",
+      "would greet",
+      "greet",
+      "will greet"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 289,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If he were here, he ___ help.",
+    "opcoes": [
+      "would",
+      "will",
+      "has",
+      "did"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 290,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If we had left earlier, we ___ on time.",
+    "opcoes": [
+      "will arrive",
+      "would have arrived",
+      "arrive",
+      "would arrive"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 291,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: Unless it stops, the match ___.",
+    "opcoes": [
+      "cancelled",
+      "would cancel",
+      "will be cancelled",
+      "has cancel"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 292,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If she studies, she ___ pass.",
+    "opcoes": [
+      "would have",
+      "had",
+      "was",
+      "will"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 293,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If I knew the answer, I ___ tell you.",
+    "opcoes": [
+      "would",
+      "will",
+      "have",
+      "am"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 294,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If they had listened, they ___ the error.",
+    "opcoes": [
+      "avoid",
+      "would have avoided",
+      "will avoid",
+      "avoided"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 295,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If the road is clear, we ___ drive.",
+    "opcoes": [
+      "could have",
+      "would have",
+      "can",
+      "had"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 296,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If you do not hurry, you ___ late.",
+    "opcoes": [
+      "would been",
+      "are yesterday",
+      "have be",
+      "will be"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 297,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If he had money, he ___ travel.",
+    "opcoes": [
+      "would",
+      "will",
+      "has",
+      "did"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 298,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If the alarm rings, everyone ___.",
+    "opcoes": [
+      "left",
+      "leaves",
+      "would leave",
+      "will left"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 299,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If I were you, I ___ wait.",
+    "opcoes": [
+      "will",
+      "am",
+      "would",
+      "have"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 300,
+    "nivel": "medio",
+    "pergunta": "Complete a condicional: If she calls, I ___ answer.",
+    "opcoes": [
+      "would have",
+      "had",
+      "am",
+      "will"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 301,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: Could you ___ me a favour?",
+    "opcoes": [
+      "do",
+      "make",
+      "take",
+      "give"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 302,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: Please ___ attention.",
+    "opcoes": [
+      "make",
+      "pay",
+      "do",
+      "put"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 303,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: She ___ a decision.",
+    "opcoes": [
+      "did",
+      "took",
+      "made",
+      "put"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 304,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: We need to ___ a reservation.",
+    "opcoes": [
+      "do",
+      "pay",
+      "take",
+      "make"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 305,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: He is interested ___ science.",
+    "opcoes": [
+      "in",
+      "on",
+      "at",
+      "for"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 306,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: They are good ___ solving problems.",
+    "opcoes": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 307,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: I am afraid ___ spiders.",
+    "opcoes": [
+      "from",
+      "with",
+      "of",
+      "at"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 308,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: She depends ___ her sister.",
+    "opcoes": [
+      "in",
+      "at",
+      "to",
+      "on"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 309,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The train was ___ by rain.",
+    "opcoes": [
+      "delayed",
+      "cancelled",
+      "early",
+      "empty"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 310,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: A building designer is an ___.",
+    "opcoes": [
+      "accountant",
+      "architect",
+      "artist",
+      "athlete"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 311,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The opposite of polite is ___.",
+    "opcoes": [
+      "quiet",
+      "honest",
+      "rude",
+      "patient"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 312,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: Borrow means take and ___ later.",
+    "opcoes": [
+      "sell",
+      "break",
+      "hide",
+      "return"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 313,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: A receipt shows you have ___.",
+    "opcoes": [
+      "paid",
+      "waited",
+      "arrived",
+      "forgotten"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 314,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: A reliable person is easy to ___.",
+    "opcoes": [
+      "avoid",
+      "trust",
+      "surprise",
+      "blame"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 315,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: Keep your voice ___ in a library.",
+    "opcoes": [
+      "wide",
+      "deep",
+      "low",
+      "strong"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 316,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: She is responsible ___ the project.",
+    "opcoes": [
+      "of",
+      "to",
+      "with",
+      "for"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 317,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: He apologised ___ being late.",
+    "opcoes": [
+      "for",
+      "to",
+      "of",
+      "at"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 318,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: We reached an important ___.",
+    "opcoes": [
+      "agree",
+      "agreement",
+      "agreeable",
+      "agreeing"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 319,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The medicine had a positive ___.",
+    "opcoes": [
+      "affect",
+      "effective",
+      "effect",
+      "effects"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 320,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: He has teaching ___.",
+    "opcoes": [
+      "experiences",
+      "experiment",
+      "experienced",
+      "experience"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 321,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The road is ___ with traffic.",
+    "opcoes": [
+      "crowded",
+      "quiet",
+      "empty",
+      "narrow"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 322,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: I have ___ homework.",
+    "opcoes": [
+      "many",
+      "a lot of",
+      "a few",
+      "an"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 323,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The company wants to ___ services.",
+    "opcoes": [
+      "destroy",
+      "refuse",
+      "improve",
+      "prevent"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 324,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: She gave useful ___.",
+    "opcoes": [
+      "advices",
+      "advise",
+      "advising",
+      "advice"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 325,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The results were ___ to interpretation.",
+    "opcoes": [
+      "open",
+      "opening",
+      "opened",
+      "openness"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 326,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The plan is ___ with the budget.",
+    "opcoes": [
+      "capable",
+      "compatible",
+      "compassionate",
+      "compelled"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 327,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The speaker ___ attention to reform.",
+    "opcoes": [
+      "did",
+      "made",
+      "drew",
+      "took"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 328,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The agreement came into ___.",
+    "opcoes": [
+      "affect",
+      "effective",
+      "effects",
+      "effect"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 329,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The report provides ___ evidence.",
+    "opcoes": [
+      "compelling",
+      "compelled",
+      "compel",
+      "compulsory"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 330,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The issue cast ___ on the claim.",
+    "opcoes": [
+      "doubtful",
+      "doubt",
+      "doubting",
+      "doubted"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 331,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The new rule will take ___ next week.",
+    "opcoes": [
+      "affect",
+      "effective",
+      "effect",
+      "effects"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 332,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: They made a ___ effort.",
+    "opcoes": [
+      "considering",
+      "considerate",
+      "considerably",
+      "considerable"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 333,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The witness gave a ___ account.",
+    "opcoes": [
+      "credible",
+      "credibility",
+      "credibly",
+      "credit"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 334,
+    "nivel": "medio",
+    "pergunta": "Complete a colocação: The reports are broadly ___.",
+    "opcoes": [
+      "consistency",
+      "consistent",
+      "consist",
+      "consistently"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 335,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Meticulous means ___.",
+    "opcoes": [
+      "careless and rushed",
+      "extremely noisy",
+      "very careful and precise",
+      "unable to decide"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 336,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Ambiguous means ___.",
+    "opcoes": [
+      "completely obvious",
+      "legally binding",
+      "very ancient",
+      "open to more than one interpretation"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 337,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Inevitable means ___.",
+    "opcoes": [
+      "certain to happen",
+      "impossible to explain",
+      "easy to prevent",
+      "already forgotten"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 338,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Concise writing is ___.",
+    "opcoes": [
+      "long and repetitive",
+      "brief but clear",
+      "emotional and informal",
+      "full of errors"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 339,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Reluctant means ___.",
+    "opcoes": [
+      "eager and confident",
+      "angry and loud",
+      "unwilling or hesitant",
+      "certain and proud"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 340,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Substantial means ___.",
+    "opcoes": [
+      "tiny and irrelevant",
+      "imaginary only",
+      "temporary and weak",
+      "considerable in amount or importance"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 341,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Pragmatic means focused on ___.",
+    "opcoes": [
+      "practical results",
+      "ancient traditions",
+      "personal appearance",
+      "abstract dreams"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 342,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Coherent speech is ___.",
+    "opcoes": [
+      "random and silent",
+      "logical and well connected",
+      "grammatically impossible",
+      "very expensive"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 343,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Scrutinise means ___.",
+    "opcoes": [
+      "hide completely",
+      "copy quickly",
+      "examine very carefully",
+      "forget deliberately"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 344,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Alleviate means ___.",
+    "opcoes": [
+      "make worse",
+      "measure",
+      "announce",
+      "make less severe"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 345,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Obsolete means ___.",
+    "opcoes": [
+      "no longer in use",
+      "newly invented",
+      "legally required",
+      "very valuable"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 346,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Resilient people can ___.",
+    "opcoes": [
+      "avoid all change",
+      "recover from difficulty",
+      "never learn",
+      "cause confusion"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 347,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Candid means ___.",
+    "opcoes": [
+      "secretive and indirect",
+      "manufactured",
+      "honest and direct",
+      "physically strong"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 348,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Viable means ___.",
+    "opcoes": [
+      "already broken",
+      "morally wrong",
+      "impossible to test",
+      "capable of working successfully"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 349,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Inadvertently means ___.",
+    "opcoes": [
+      "unintentionally",
+      "with great care",
+      "in public",
+      "after a warning"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 350,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: A consequence is a ___.",
+    "opcoes": [
+      "method of payment",
+      "result of an action",
+      "personal opinion",
+      "formal greeting"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 351,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: To infer is to ___.",
+    "opcoes": [
+      "repeat a question",
+      "remove a paragraph",
+      "reach a conclusion from evidence",
+      "make a noise"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 352,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: To concede is to ___.",
+    "opcoes": [
+      "invent evidence",
+      "refuse to listen",
+      "change subject",
+      "admit something is true"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 353,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Notwithstanding means ___.",
+    "opcoes": [
+      "despite",
+      "because of",
+      "instead of",
+      "before"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 354,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Furthermore introduces ___.",
+    "opcoes": [
+      "contradiction only",
+      "additional information",
+      "time limit",
+      "final apology"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 355,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Plausible means ___.",
+    "opcoes": [
+      "certainly false",
+      "physically heavy",
+      "reasonable or believable",
+      "grammatically plural"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 356,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Comprehensive research is ___.",
+    "opcoes": [
+      "limited to one fact",
+      "based on no sources",
+      "written in code",
+      "covering all relevant aspects"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 357,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Eloquent speech is ___.",
+    "opcoes": [
+      "fluent and persuasive",
+      "unclear and hesitant",
+      "silent and private",
+      "short and numerical"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 358,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Ethical behaviour follows ___.",
+    "opcoes": [
+      "weather patterns",
+      "principles of right and wrong",
+      "financial arithmetic",
+      "grammar rules"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 359,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Deteriorate means ___.",
+    "opcoes": [
+      "become identical",
+      "arrive early",
+      "become worse",
+      "grow accurate"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 360,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Exempt means ___.",
+    "opcoes": [
+      "required to participate",
+      "unable to understand",
+      "famous for success",
+      "free from an obligation"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 361,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Tentative plans are ___.",
+    "opcoes": [
+      "not yet definite",
+      "fully completed",
+      "secretly illegal",
+      "physically distant"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 362,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Adept means ___.",
+    "opcoes": [
+      "uninterested",
+      "highly skilled",
+      "afraid",
+      "responsible for cost"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 363,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Discrepancy is a ___.",
+    "opcoes": [
+      "formal agreement",
+      "celebration",
+      "difference that should not exist",
+      "clear instruction"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 364,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Scrupulous means ___.",
+    "opcoes": [
+      "deliberately dishonest",
+      "physically exhausted",
+      "unable to read",
+      "strictly careful about standards"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 365,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Ubiquitous means ___.",
+    "opcoes": [
+      "present or found everywhere",
+      "rare and hidden",
+      "legally prohibited",
+      "newly purchased"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 366,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Austere means ___.",
+    "opcoes": [
+      "ornate and colourful",
+      "plain and without luxury",
+      "generous and warm",
+      "uncertain and brief"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 367,
+    "nivel": "dificil",
+    "pergunta": "Escolha o significado mais preciso: Nuance is a ___.",
+    "opcoes": [
+      "loud disagreement",
+      "complete identity",
+      "subtle distinction in meaning",
+      "financial loss"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 368,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Had I known about the delay, I ___.",
+    "opcoes": [
+      "will leave",
+      "would leave",
+      "left",
+      "would have left earlier"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 369,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Were the proposal accepted, the project ___.",
+    "opcoes": [
+      "would begin",
+      "will began",
+      "begins",
+      "would have begin"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 370,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Rarely ___ such an argument.",
+    "opcoes": [
+      "I have heard",
+      "have I heard",
+      "heard I have",
+      "I had hear"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 371,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Not only ___ late, but he forgot documents.",
+    "opcoes": [
+      "he was",
+      "he had",
+      "was he",
+      "did he been"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 372,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: No sooner had she arrived ___ it began.",
+    "opcoes": [
+      "when",
+      "then",
+      "as",
+      "than"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 373,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: It is essential that every applicant ___ the form.",
+    "opcoes": [
+      "complete",
+      "completes",
+      "completed",
+      "will complete"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 374,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: I wish I ___ more time.",
+    "opcoes": [
+      "have",
+      "had",
+      "would have",
+      "will have"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 375,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: If careful, he ___ so many errors.",
+    "opcoes": [
+      "will not make",
+      "would not have made",
+      "would not make",
+      "did not make"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 376,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: By then, data ___.",
+    "opcoes": [
+      "analysed",
+      "will analyse",
+      "has analysing",
+      "will have been analysed"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 377,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The report, ___ was published, challenges theory.",
+    "opcoes": [
+      "which",
+      "what",
+      "whose",
+      "where"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 378,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: She objected to ___ treated unfairly.",
+    "opcoes": [
+      "be",
+      "being",
+      "have",
+      "been"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 379,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The manager insisted on ___ figures.",
+    "opcoes": [
+      "check",
+      "to check",
+      "checking",
+      "checked"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 380,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: He denied ___ the file.",
+    "opcoes": [
+      "to have open",
+      "open",
+      "has opening",
+      "having opened"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 381,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The task is too complex for one person ___.",
+    "opcoes": [
+      "to complete",
+      "completing",
+      "complete",
+      "completed"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 382,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The more you practise, ___ it becomes.",
+    "opcoes": [
+      "better",
+      "the better",
+      "the best",
+      "best"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 383,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Nobody ___ the persuasive claim.",
+    "opcoes": [
+      "could have refuted",
+      "can refuting",
+      "could refute",
+      "refute to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 384,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: I would rather you ___ privately.",
+    "opcoes": [
+      "discuss",
+      "will discuss",
+      "have discuss",
+      "discussed"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 385,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The evidence is believed ___ by an insider.",
+    "opcoes": [
+      "to have been leaked",
+      "being leak",
+      "have leaked",
+      "to leaking"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 386,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: She speaks as though she ___ the answer.",
+    "opcoes": [
+      "knows",
+      "knew",
+      "will know",
+      "has knowing"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 387,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Under no circumstances ___ files be removed.",
+    "opcoes": [
+      "these files should",
+      "should be",
+      "should",
+      "would files"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 388,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The candidate is expected ___ the interview.",
+    "opcoes": [
+      "attending",
+      "attend",
+      "to attending",
+      "to attend"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 389,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Having ___ the contract, they celebrated.",
+    "opcoes": [
+      "signed",
+      "sign",
+      "been sign",
+      "signing"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 390,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: There is little point in ___ about it.",
+    "opcoes": [
+      "argue",
+      "arguing",
+      "to argue",
+      "argued"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 391,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The book is worth ___.",
+    "opcoes": [
+      "to read",
+      "read",
+      "reading",
+      "be read"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 392,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: He is accustomed to ___ under pressure.",
+    "opcoes": [
+      "work",
+      "worked",
+      "be work",
+      "working"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 393,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: The proposal requires ___.",
+    "opcoes": [
+      "further discussion",
+      "to further discuss",
+      "discussed further",
+      "further discussing it is"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 394,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: She succeeded in ___ the deadline.",
+    "opcoes": [
+      "meet",
+      "meeting",
+      "to meet",
+      "met"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 395,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: What concerns me most ___ the evidence.",
+    "opcoes": [
+      "are",
+      "be",
+      "is",
+      "were"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 396,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: It was the paragraph ___ changed my mind.",
+    "opcoes": [
+      "what",
+      "where",
+      "who",
+      "that"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 397,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Follow instructions, ___ difficult they seem.",
+    "opcoes": [
+      "however",
+      "whatever",
+      "therefore",
+      "despite"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 398,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Scarcely had he spoken ___ lights failed.",
+    "opcoes": [
+      "than",
+      "when",
+      "where",
+      "then"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 399,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Only after audit ___ the error.",
+    "opcoes": [
+      "they discovered",
+      "discovered they",
+      "did they discover",
+      "did discover they"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 400,
+    "nivel": "dificil",
+    "pergunta": "Complete a estrutura avançada: Never before ___ such resistance.",
+    "opcoes": [
+      "we had encountered",
+      "encountered we",
+      "did we encountered",
+      "had we encountered"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 401,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: People believe the painting is authentic.",
+    "opcoes": [
+      "The painting is believed to be authentic.",
+      "The painting believed is authentic.",
+      "It is believing the painting authentic.",
+      "The painting has believed authentic."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 402,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: They should have informed us earlier.",
+    "opcoes": [
+      "We should inform earlier.",
+      "We should have been informed earlier.",
+      "We were informing earlier.",
+      "They were informed us earlier."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 403,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: She said, “I had never seen the sea.”",
+    "opcoes": [
+      "She says she never sees the sea.",
+      "She said she has never saw the sea.",
+      "She said that she had never seen the sea.",
+      "She told that I had seen the sea."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 404,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The committee will review the policy.",
+    "opcoes": [
+      "The policy reviews the committee.",
+      "The committee will be reviewed policy.",
+      "The policy has reviewing the committee.",
+      "The policy will be reviewed by the committee."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 405,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: He asked, “Why did you cancel?”",
+    "opcoes": [
+      "He asked why I had cancelled.",
+      "He asked why did I cancel.",
+      "He asks why I cancelled yesterday.",
+      "He told why I cancel."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 406,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: Someone has stolen my bicycle.",
+    "opcoes": [
+      "My bicycle stole someone.",
+      "My bicycle has been stolen.",
+      "My bicycle is stealing.",
+      "Someone has been stolen my bicycle."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 407,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The lawyer said, “Do not disclose this.”",
+    "opcoes": [
+      "The lawyer said do not disclosed.",
+      "The lawyer asked me to not disclosed it.",
+      "The lawyer asked me not to disclose it.",
+      "The lawyer told that I do not disclose."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 408,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: They are repairing the road.",
+    "opcoes": [
+      "The road repairs them.",
+      "The road has repaired.",
+      "They are being road repaired.",
+      "The road is being repaired."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 409,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: He said, “I can solve it.”",
+    "opcoes": [
+      "He said that he could solve it.",
+      "He said he can solved it.",
+      "He told I could solve it.",
+      "He said that I can solve it."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 410,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The storm damaged several roofs.",
+    "opcoes": [
+      "Several roofs damaged the storm.",
+      "Several roofs were damaged by the storm.",
+      "The storm was damaged roofs.",
+      "Several roofs are damaging."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 411,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: They completed the survey before noon.",
+    "opcoes": [
+      "The survey completed them.",
+      "They had been completed the survey.",
+      "The survey had been completed before noon.",
+      "The survey has completing noon."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 412,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: She said, “You must submit the form.”",
+    "opcoes": [
+      "She said I must submitted.",
+      "She told that I have submit.",
+      "She asked must I submit.",
+      "She said that I had to submit the form."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 413,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The editor is checking every reference.",
+    "opcoes": [
+      "Every reference is being checked by the editor.",
+      "Every reference checks the editor.",
+      "The editor is checked every reference.",
+      "Every reference has checked."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 414,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: He said, “I will have finished by Friday.”",
+    "opcoes": [
+      "He said he will finished Friday.",
+      "He said he would have finished by Friday.",
+      "He said I would finish yesterday.",
+      "He told he had finish by Friday."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 415,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: People speak Portuguese in Mozambique.",
+    "opcoes": [
+      "Portuguese speaks people.",
+      "People are spoken Portuguese.",
+      "Portuguese is spoken in Mozambique.",
+      "Portuguese has speaking."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 416,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: She asked, “Have you read the report?”",
+    "opcoes": [
+      "She asked whether had I read.",
+      "She said if I read the report now.",
+      "She told me have read.",
+      "She asked me whether I had read the report."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 417,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The researcher collected the samples.",
+    "opcoes": [
+      "The samples were collected by the researcher.",
+      "The samples collected the researcher.",
+      "The researcher was collected samples.",
+      "The samples are collecting."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 418,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: Ana said, “I am working on it.”",
+    "opcoes": [
+      "Ana said she is work on it.",
+      "Ana said that she was working on it.",
+      "Ana told I was working.",
+      "Ana said that I had worked it."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 419,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: They may postpone the launch.",
+    "opcoes": [
+      "The launch may postpone them.",
+      "They may be launched postponing.",
+      "The launch may be postponed.",
+      "The launch has postponed."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 420,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: He told me, “Do not forget the appointment.”",
+    "opcoes": [
+      "He reminded me do not forgot.",
+      "He said me not forgetted.",
+      "He asked that I forgot.",
+      "He reminded me not to forget the appointment."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 421,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The nurse will examine the patient.",
+    "opcoes": [
+      "The patient will be examined by the nurse.",
+      "The patient examines the nurse.",
+      "The nurse will be examined patient.",
+      "The patient has examining."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 422,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: Workers have repaired the roof.",
+    "opcoes": [
+      "The roof repaired workers.",
+      "The roof has been repaired by workers.",
+      "Workers have been roof repair.",
+      "The roof is repairing workers."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 423,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: She said, “I cannot attend.”",
+    "opcoes": [
+      "She said she cannot attended.",
+      "She told I could not attend.",
+      "She said that she could not attend.",
+      "She said that I could not attend."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 424,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: Someone is following us.",
+    "opcoes": [
+      "We follow someone being.",
+      "Someone is followed us.",
+      "We have following.",
+      "We are being followed."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 425,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: He asked, “Where have you been?”",
+    "opcoes": [
+      "He asked where I had been.",
+      "He asked where had I been.",
+      "He asked where I have be.",
+      "He told where I was been."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 426,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The chef prepared the meal.",
+    "opcoes": [
+      "The meal prepared the chef.",
+      "The meal was prepared by the chef.",
+      "The chef was prepared meal.",
+      "The meal is preparing."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 427,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: They will announce the results.",
+    "opcoes": [
+      "The results announce them.",
+      "They will be announced results.",
+      "The results will be announced.",
+      "The results have announce."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 428,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The storm has destroyed the crops.",
+    "opcoes": [
+      "The crops destroyed storm.",
+      "The storm has been crops.",
+      "The crops are destroying.",
+      "The crops have been destroyed by the storm."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 429,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: She said, “I may be late.”",
+    "opcoes": [
+      "She said she might be late.",
+      "She said she may late.",
+      "She told I might be late.",
+      "She said she must be late."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 430,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The committee rejected the proposal.",
+    "opcoes": [
+      "The proposal rejected committee.",
+      "The proposal was rejected by the committee.",
+      "The committee was rejected proposal.",
+      "The proposal is rejecting."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 431,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: They are building a new bridge.",
+    "opcoes": [
+      "A bridge builds them.",
+      "They are built bridge.",
+      "A new bridge is being built.",
+      "A bridge has building."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 432,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: He said, “I have finished.”",
+    "opcoes": [
+      "He said he has finish.",
+      "He told I had finished.",
+      "He said that he finished tomorrow.",
+      "He said that he had finished."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 433,
+    "nivel": "dificil",
+    "pergunta": "Reescreva corretamente: The police arrested the suspect.",
+    "opcoes": [
+      "The suspect was arrested by the police.",
+      "The suspect arrested police.",
+      "The police was arrested suspect.",
+      "The suspect is arresting."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 434,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If she had accepted it, she ___ abroad now.",
+    "opcoes": [
+      "will study",
+      "would be studying",
+      "would have studied",
+      "studied"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 435,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If you ___ me, you would not have signed.",
+    "opcoes": [
+      "consulted",
+      "would consult",
+      "had consulted",
+      "have consulted"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 436,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Should you require help, ___ contact reception.",
+    "opcoes": [
+      "you would",
+      "you had",
+      "you are",
+      "please"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 437,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Had it not been for the map, we ___.",
+    "opcoes": [
+      "would have been lost",
+      "will be lost",
+      "are lost",
+      "would be losing"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 438,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Were he to resign, the board ___.",
+    "opcoes": [
+      "will sought",
+      "would seek a replacement",
+      "seeks",
+      "would have seek"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 439,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If correctly taken, symptoms ___.",
+    "opcoes": [
+      "will improved",
+      "might have improve",
+      "might improve",
+      "improve yesterday"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 440,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If not working tomorrow, I ___ you.",
+    "opcoes": [
+      "will accompany",
+      "would have accompanied",
+      "accompanied",
+      "would accompany"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 441,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Had they left earlier, they ___.",
+    "opcoes": [
+      "might have avoided traffic",
+      "might avoid",
+      "will avoid",
+      "avoided"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 442,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Unless evidence changes, verdict ___.",
+    "opcoes": [
+      "would stood",
+      "will stand",
+      "stands yesterday",
+      "has stand"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 443,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If he apologised, dispute ___.",
+    "opcoes": [
+      "can ended",
+      "could have end",
+      "could end",
+      "ends yesterday"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 444,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Not until results arrived ___ celebrate.",
+    "opcoes": [
+      "the team did",
+      "had the team",
+      "the team has",
+      "did the team"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 445,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Only after reading did I ___ implications.",
+    "opcoes": [
+      "understand",
+      "understood",
+      "did understood",
+      "understanding"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 446,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: So convincing ___ that all applauded.",
+    "opcoes": [
+      "her explanation was",
+      "was her explanation",
+      "did her explanation",
+      "her explanation did"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 447,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Little ___ the controversy.",
+    "opcoes": [
+      "they realised",
+      "they did realised",
+      "did they realise",
+      "realised they"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 448,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Should the machine fail, backup ___.",
+    "opcoes": [
+      "would activated",
+      "activates yesterday",
+      "has activating",
+      "will activate"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 449,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If he had listened, accident ___.",
+    "opcoes": [
+      "might have been prevented",
+      "might prevent",
+      "will prevent",
+      "was preventing"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 450,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Were figures accurate, conclusion ___.",
+    "opcoes": [
+      "will different",
+      "would be different",
+      "would have differ",
+      "is differed"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 451,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If I had taken it, I ___.",
+    "opcoes": [
+      "will arrive",
+      "would arrive",
+      "would have arrived",
+      "arrived"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 452,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: On no account ___ data be shared.",
+    "opcoes": [
+      "personal data should",
+      "would personal data",
+      "should be",
+      "should"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 453,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Hardly had speech begun ___ microphone failed.",
+    "opcoes": [
+      "when",
+      "than",
+      "then",
+      "where"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 454,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If plan succeeds, costs ___.",
+    "opcoes": [
+      "may decreased",
+      "may decrease",
+      "would decreasing",
+      "decrease yesterday"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 455,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Had we known, we ___.",
+    "opcoes": [
+      "will act",
+      "would act",
+      "would have acted",
+      "acted"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 456,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Were data complete, result ___.",
+    "opcoes": [
+      "will changed",
+      "might have change",
+      "changes yesterday",
+      "might change"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 457,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Only if funding continues ___ survive.",
+    "opcoes": [
+      "will the programme",
+      "the will",
+      "would the",
+      "the programme will"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 458,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Never would she agree if she ___ risk.",
+    "opcoes": [
+      "understood",
+      "had understood",
+      "would understand",
+      "has understood"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 459,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If the evidence were stronger, the judge ___.",
+    "opcoes": [
+      "will reconsidered",
+      "might have reconsider",
+      "might reconsider",
+      "reconsidered yesterday"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 460,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Had the alarm worked, damage ___.",
+    "opcoes": [
+      "could avoid",
+      "will avoid",
+      "was avoiding",
+      "could have been avoided"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 461,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Were the terms clearer, fewer people ___.",
+    "opcoes": [
+      "would object",
+      "will objected",
+      "would have object",
+      "objected yesterday"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 462,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Should negotiations fail, prices ___.",
+    "opcoes": [
+      "could rose",
+      "could rise",
+      "will rising",
+      "would have rise"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 463,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If the sample were larger, findings ___.",
+    "opcoes": [
+      "will more reliable",
+      "would have reliability",
+      "would be more reliable",
+      "are reliable yesterday"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 464,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Had she not intervened, conflict ___.",
+    "opcoes": [
+      "might escalate",
+      "will escalate",
+      "was escalating",
+      "might have escalated"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 465,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: Were I in your position, I ___.",
+    "opcoes": [
+      "would reconsider",
+      "will reconsider",
+      "reconsidered",
+      "would have reconsider"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 466,
+    "nivel": "dificil",
+    "pergunta": "Complete a inversão ou condicional: If all conditions hold, the method ___.",
+    "opcoes": [
+      "should worked",
+      "should work",
+      "would have work",
+      "works yesterday"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 467,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: Mangroves reduce erosion and provide fish habitats. Main advantage?",
+    "opcoes": [
+      "They eliminate all storms",
+      "They prevent fishing",
+      "They protect coasts while supporting ecosystems",
+      "They require concrete walls"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 468,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: Correlation does not prove causation. Warning?",
+    "opcoes": [
+      "Every correlation is false",
+      "Causes cannot be studied",
+      "Events never coincide",
+      "Association alone does not prove cause"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 469,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: Peer tutoring helps both groups as explaining reinforces learning. Why?",
+    "opcoes": [
+      "Teaching and receiving explanations support learning",
+      "Only tests produce learning",
+      "Tutors avoid work",
+      "Students stop studying"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 470,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A policy increased clinic access but not waiting times. Conclusion?",
+    "opcoes": [
+      "It failed in every respect",
+      "Access improved, but efficiency needs work",
+      "Waiting disappeared",
+      "Clinics became unnecessary"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 471,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A cheap material degrades in heat. Criterion for rejecting it?",
+    "opcoes": [
+      "Short-term colour",
+      "Immediate popularity",
+      "Long-term durability",
+      "Ease of advertising"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 472,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A survey questioned only urban residents. Limitation?",
+    "opcoes": [
+      "Questions were unanswered",
+      "Too many rural residents",
+      "Response rate was zero",
+      "It may not represent rural views"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 473,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A historian compares several sources. Why?",
+    "opcoes": [
+      "To cross-check evidence",
+      "To avoid evidence",
+      "To make history fictional",
+      "To shorten documents"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 474,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: Translation should preserve meaning rather than word order. Principle?",
+    "opcoes": [
+      "Word order over meaning",
+      "Meaning over literal structure",
+      "Deleting cultural references",
+      "No context"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 475,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A drought-resistant crop yields less ideally but survives drought. Trade-off?",
+    "opcoes": [
+      "More water for less survival",
+      "No change",
+      "Lower maximum yield for greater resilience",
+      "Higher yield always"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 476,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A speaker says inaction will cost more. Argument?",
+    "opcoes": [
+      "All expensive plans are wise",
+      "Inaction always cheaper",
+      "Costs irrelevant",
+      "Preventive investment may reduce future costs"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 477,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: An editor removes repetition. Goal?",
+    "opcoes": [
+      "Greater concision",
+      "More ambiguity",
+      "Less coherence",
+      "More repetition"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 478,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: Three labs replicate results. Significance?",
+    "opcoes": [
+      "It proves every theory",
+      "It strengthens confidence in reliability",
+      "Methods unnecessary",
+      "Results subjective"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 479,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A dam brought benefits but destroyed farmland. What?",
+    "opcoes": [
+      "Only harm",
+      "No farmland affected",
+      "Mixed consequences",
+      "Only benefits"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 480,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A legal clause changes if both parties agree in writing. What changes it?",
+    "opcoes": [
+      "A verbal rumour",
+      "One party absent",
+      "A newspaper article",
+      "A written agreement by both parties"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 481,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: Defining terms before evidence makes reasoning ___.",
+    "opcoes": [
+      "clearer",
+      "more ambiguous",
+      "less logical",
+      "irrelevant"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 482,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Bite the bullet” means ___.",
+    "opcoes": [
+      "eat quickly",
+      "face a difficult situation bravely",
+      "avoid all risk",
+      "make a joke"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 483,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Go the extra mile” means ___.",
+    "opcoes": [
+      "travel exactly one mile",
+      "stop working",
+      "make an additional effort",
+      "refuse help"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 484,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “A double-edged sword” has ___.",
+    "opcoes": [
+      "only benefits",
+      "no consequences",
+      "one meaning",
+      "benefits and drawbacks"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 485,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Cut corners” means ___.",
+    "opcoes": [
+      "do something cheaply or carelessly",
+      "improve quality",
+      "take a long route",
+      "draw shapes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 486,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Raise the bar” means ___.",
+    "opcoes": [
+      "lower expectations",
+      "set a higher standard",
+      "lift a table",
+      "end a debate"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 487,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Break the ice” means ___.",
+    "opcoes": [
+      "damage ice",
+      "end a meeting",
+      "start a friendly conversation",
+      "work in winter"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 488,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Once in a blue moon” means ___.",
+    "opcoes": [
+      "every day",
+      "immediately",
+      "in the morning",
+      "very rarely"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 489,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Piece of cake” means ___.",
+    "opcoes": [
+      "very easy",
+      "very expensive",
+      "very cold",
+      "dangerous"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 490,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Hit the nail on the head” means ___.",
+    "opcoes": [
+      "make a mistake",
+      "say exactly the right thing",
+      "build a house",
+      "be late"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 491,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Under the weather” means ___.",
+    "opcoes": [
+      "outside",
+      "very happy",
+      "feeling ill",
+      "working hard"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 492,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Cost an arm and a leg” means ___.",
+    "opcoes": [
+      "be free",
+      "be nearby",
+      "be painless",
+      "be very expensive"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 493,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Keep an eye on” means ___.",
+    "opcoes": [
+      "watch carefully",
+      "ignore",
+      "run away",
+      "close your eyes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 494,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Spill the beans” means ___.",
+    "opcoes": [
+      "cook beans",
+      "reveal a secret",
+      "waste food",
+      "work quickly"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 495,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Call it a day” means ___.",
+    "opcoes": [
+      "phone someone",
+      "start early",
+      "stop working for the day",
+      "choose a date"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 496,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “In hot water” means ___.",
+    "opcoes": [
+      "in a bath",
+      "feeling warm",
+      "near a river",
+      "in trouble"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 497,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “The ball is in your court” means ___.",
+    "opcoes": [
+      "it is your turn to act",
+      "you lost a ball",
+      "you play tennis",
+      "you are in court"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 498,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: “Make ends meet” means ___.",
+    "opcoes": [
+      "join two ropes",
+      "manage financially",
+      "finish a meeting",
+      "make friends"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 499,
+    "nivel": "dificil",
+    "pergunta": "Interpretação ou idiom: A transparent charity publishes accounts. What value?",
+    "opcoes": [
+      "secrecy",
+      "confusion",
+      "accountability",
+      "impatience"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 500,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução inglesa de “ponte”?",
+    "opcoes": [
+      "river",
+      "mountain",
+      "road",
+      "bridge"
+    ],
+    "resposta_correta": 3
+  }
+]

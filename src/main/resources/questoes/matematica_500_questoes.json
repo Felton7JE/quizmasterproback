@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Quanto é 11 + 7?",
+    "opcoes": [
+      "18",
+      "20",
+      "16",
+      "28"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 2,
+    "pergunta": "Quanto é 14 + 9?",
+    "opcoes": [
+      "25",
+      "21",
+      "33",
+      "23"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 3,
+    "pergunta": "Quanto é 17 + 11?",
+    "opcoes": [
+      "26",
+      "38",
+      "28",
+      "30"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 4,
+    "pergunta": "Quanto é 20 + 13?",
+    "opcoes": [
+      "43",
+      "33",
+      "35",
+      "31"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 5,
+    "pergunta": "Quanto é 23 + 15?",
+    "opcoes": [
+      "38",
+      "40",
+      "36",
+      "48"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 6,
+    "pergunta": "Quanto é 26 + 17?",
+    "opcoes": [
+      "45",
+      "41",
+      "53",
+      "43"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 7,
+    "pergunta": "Quanto é 29 + 19?",
+    "opcoes": [
+      "46",
+      "58",
+      "48",
+      "50"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 8,
+    "pergunta": "Quanto é 32 + 21?",
+    "opcoes": [
+      "63",
+      "53",
+      "55",
+      "51"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 9,
+    "pergunta": "Quanto é 35 + 23?",
+    "opcoes": [
+      "58",
+      "60",
+      "56",
+      "68"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 10,
+    "pergunta": "Quanto é 38 + 25?",
+    "opcoes": [
+      "65",
+      "61",
+      "73",
+      "63"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 11,
+    "pergunta": "Quanto é 41 + 27?",
+    "opcoes": [
+      "66",
+      "78",
+      "68",
+      "70"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 12,
+    "pergunta": "Quanto é 44 + 29?",
+    "opcoes": [
+      "83",
+      "73",
+      "75",
+      "71"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 13,
+    "pergunta": "Quanto é 47 + 31?",
+    "opcoes": [
+      "78",
+      "80",
+      "76",
+      "88"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 14,
+    "pergunta": "Quanto é 50 + 33?",
+    "opcoes": [
+      "85",
+      "81",
+      "93",
+      "83"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 15,
+    "pergunta": "Quanto é 53 + 35?",
+    "opcoes": [
+      "86",
+      "98",
+      "88",
+      "90"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 16,
+    "pergunta": "Calcule 50 − 9.",
+    "opcoes": [
+      "59",
+      "41",
+      "43",
+      "39"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 17,
+    "pergunta": "Calcule 54 − 10.",
+    "opcoes": [
+      "44",
+      "46",
+      "42",
+      "64"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 18,
+    "pergunta": "Calcule 58 − 11.",
+    "opcoes": [
+      "49",
+      "45",
+      "69",
+      "47"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 19,
+    "pergunta": "Calcule 62 − 12.",
+    "opcoes": [
+      "48",
+      "74",
+      "50",
+      "52"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 20,
+    "pergunta": "Calcule 66 − 13.",
+    "opcoes": [
+      "79",
+      "53",
+      "55",
+      "51"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 21,
+    "pergunta": "Calcule 70 − 14.",
+    "opcoes": [
+      "56",
+      "58",
+      "54",
+      "84"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 22,
+    "pergunta": "Calcule 74 − 15.",
+    "opcoes": [
+      "61",
+      "57",
+      "89",
+      "59"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 23,
+    "pergunta": "Calcule 78 − 16.",
+    "opcoes": [
+      "60",
+      "94",
+      "62",
+      "64"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 24,
+    "pergunta": "Calcule 82 − 17.",
+    "opcoes": [
+      "99",
+      "65",
+      "67",
+      "63"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 25,
+    "pergunta": "Calcule 86 − 18.",
+    "opcoes": [
+      "68",
+      "70",
+      "66",
+      "104"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 26,
+    "pergunta": "Calcule 90 − 19.",
+    "opcoes": [
+      "73",
+      "69",
+      "109",
+      "71"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 27,
+    "pergunta": "Calcule 94 − 20.",
+    "opcoes": [
+      "72",
+      "114",
+      "74",
+      "76"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 28,
+    "pergunta": "Calcule 98 − 21.",
+    "opcoes": [
+      "119",
+      "77",
+      "79",
+      "75"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 29,
+    "pergunta": "Calcule 102 − 22.",
+    "opcoes": [
+      "80",
+      "82",
+      "78",
+      "124"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 30,
+    "pergunta": "Calcule 106 − 23.",
+    "opcoes": [
+      "85",
+      "81",
+      "129",
+      "83"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 31,
+    "pergunta": "Quanto é 3 × 4?",
+    "opcoes": [
+      "10",
+      "16",
+      "12",
+      "14"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 32,
+    "pergunta": "Quanto é 4 × 5?",
+    "opcoes": [
+      "25",
+      "20",
+      "22",
+      "18"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 33,
+    "pergunta": "Quanto é 5 × 6?",
+    "opcoes": [
+      "30",
+      "32",
+      "28",
+      "36"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 34,
+    "pergunta": "Quanto é 6 × 7?",
+    "opcoes": [
+      "44",
+      "40",
+      "49",
+      "42"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 35,
+    "pergunta": "Quanto é 7 × 8?",
+    "opcoes": [
+      "54",
+      "64",
+      "56",
+      "58"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 36,
+    "pergunta": "Quanto é 8 × 4?",
+    "opcoes": [
+      "36",
+      "32",
+      "34",
+      "30"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 37,
+    "pergunta": "Quanto é 9 × 5?",
+    "opcoes": [
+      "45",
+      "47",
+      "43",
+      "50"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 38,
+    "pergunta": "Quanto é 10 × 6?",
+    "opcoes": [
+      "62",
+      "58",
+      "66",
+      "60"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 39,
+    "pergunta": "Quanto é 11 × 7?",
+    "opcoes": [
+      "75",
+      "84",
+      "77",
+      "79"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 40,
+    "pergunta": "Quanto é 12 × 8?",
+    "opcoes": [
+      "104",
+      "96",
+      "98",
+      "94"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 41,
+    "pergunta": "Quanto é 13 × 4?",
+    "opcoes": [
+      "52",
+      "54",
+      "50",
+      "56"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 42,
+    "pergunta": "Quanto é 14 × 5?",
+    "opcoes": [
+      "72",
+      "68",
+      "75",
+      "70"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 43,
+    "pergunta": "Quanto é 15 × 6?",
+    "opcoes": [
+      "88",
+      "96",
+      "90",
+      "92"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 44,
+    "pergunta": "Quanto é 16 × 7?",
+    "opcoes": [
+      "119",
+      "112",
+      "114",
+      "110"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 45,
+    "pergunta": "Quanto é 17 × 8?",
+    "opcoes": [
+      "136",
+      "138",
+      "134",
+      "144"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 46,
+    "pergunta": "Quanto é 8 ÷ 2?",
+    "opcoes": [
+      "6",
+      "2",
+      "3",
+      "4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 47,
+    "pergunta": "Quanto é 15 ÷ 3?",
+    "opcoes": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 48,
+    "pergunta": "Quanto é 24 ÷ 4?",
+    "opcoes": [
+      "5",
+      "6",
+      "8",
+      "4"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 49,
+    "pergunta": "Quanto é 35 ÷ 5?",
+    "opcoes": [
+      "7",
+      "9",
+      "5",
+      "6"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 50,
+    "pergunta": "Quanto é 48 ÷ 6?",
+    "opcoes": [
+      "10",
+      "6",
+      "7",
+      "8"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 51,
+    "pergunta": "Quanto é 63 ÷ 7?",
+    "opcoes": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 52,
+    "pergunta": "Quanto é 20 ÷ 2?",
+    "opcoes": [
+      "3",
+      "10",
+      "12",
+      "8"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 53,
+    "pergunta": "Quanto é 33 ÷ 3?",
+    "opcoes": [
+      "11",
+      "13",
+      "9",
+      "4"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 54,
+    "pergunta": "Quanto é 48 ÷ 4?",
+    "opcoes": [
+      "14",
+      "10",
+      "5",
+      "12"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 55,
+    "pergunta": "Quanto é 65 ÷ 5?",
+    "opcoes": [
+      "11",
+      "6",
+      "13",
+      "15"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 56,
+    "pergunta": "Quanto é 84 ÷ 6?",
+    "opcoes": [
+      "7",
+      "14",
+      "16",
+      "12"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 57,
+    "pergunta": "Quanto é 105 ÷ 7?",
+    "opcoes": [
+      "15",
+      "17",
+      "13",
+      "8"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 58,
+    "pergunta": "Quanto é 32 ÷ 2?",
+    "opcoes": [
+      "18",
+      "14",
+      "3",
+      "16"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 59,
+    "pergunta": "Quanto é 51 ÷ 3?",
+    "opcoes": [
+      "15",
+      "4",
+      "17",
+      "19"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 60,
+    "pergunta": "Quanto é 72 ÷ 4?",
+    "opcoes": [
+      "5",
+      "18",
+      "20",
+      "16"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 61,
+    "pergunta": "Calcule 1,1 + 0,2.",
+    "opcoes": [
+      "1,3",
+      "1,5",
+      "1,1",
+      "0,9"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 62,
+    "pergunta": "Calcule 1,5 + 0,3.",
+    "opcoes": [
+      "2",
+      "1,6",
+      "1,2",
+      "1,8"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 63,
+    "pergunta": "Calcule 1,9 + 0,4.",
+    "opcoes": [
+      "2,1",
+      "1,5",
+      "2,3",
+      "2,5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 64,
+    "pergunta": "Calcule 2,3 + 0,5.",
+    "opcoes": [
+      "1,8",
+      "2,8",
+      "3",
+      "2,6"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 65,
+    "pergunta": "Calcule 2,7 + 0,6.",
+    "opcoes": [
+      "3,3",
+      "3,5",
+      "3,1",
+      "2,1"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 66,
+    "pergunta": "Calcule 3,1 + 0,2.",
+    "opcoes": [
+      "3,5",
+      "3,1",
+      "2,9",
+      "3,3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 67,
+    "pergunta": "Calcule 3,5 + 0,3.",
+    "opcoes": [
+      "3,6",
+      "3,2",
+      "3,8",
+      "4"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 68,
+    "pergunta": "Calcule 3,9 + 0,4.",
+    "opcoes": [
+      "3,5",
+      "4,3",
+      "4,5",
+      "4,1"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 69,
+    "pergunta": "Calcule 4,3 + 0,5.",
+    "opcoes": [
+      "4,8",
+      "5",
+      "4,6",
+      "3,8"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 70,
+    "pergunta": "Calcule 4,7 + 0,6.",
+    "opcoes": [
+      "5,5",
+      "5,1",
+      "4,1",
+      "5,3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 71,
+    "pergunta": "Calcule 5,1 + 0,2.",
+    "opcoes": [
+      "5,1",
+      "4,9",
+      "5,3",
+      "5,5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 72,
+    "pergunta": "Calcule 5,5 + 0,3.",
+    "opcoes": [
+      "5,2",
+      "5,8",
+      "6",
+      "5,6"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 73,
+    "pergunta": "Calcule 5,9 + 0,4.",
+    "opcoes": [
+      "6,3",
+      "6,5",
+      "6,1",
+      "5,5"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 74,
+    "pergunta": "Calcule 6,3 + 0,5.",
+    "opcoes": [
+      "7",
+      "6,6",
+      "5,8",
+      "6,8"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 75,
+    "pergunta": "Calcule 6,7 + 0,6.",
+    "opcoes": [
+      "7,1",
+      "6,1",
+      "7,3",
+      "7,5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 76,
+    "pergunta": "Quanto é 1/2 + 1/3?",
+    "opcoes": [
+      "19/30",
+      "5/6",
+      "1/6",
+      "31/30"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 77,
+    "pergunta": "Quanto é 2/3 + 1/2?",
+    "opcoes": [
+      "7/6",
+      "1/6",
+      "41/30",
+      "29/30"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 78,
+    "pergunta": "Quanto é 3/4 + 3/5?",
+    "opcoes": [
+      "3/20",
+      "31/20",
+      "23/20",
+      "27/20"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 79,
+    "pergunta": "Quanto é 4/5 + 1/6?",
+    "opcoes": [
+      "7/6",
+      "23/30",
+      "29/30",
+      "19/30"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 80,
+    "pergunta": "Quanto é 5/2 + 2/7?",
+    "opcoes": [
+      "181/70",
+      "39/14",
+      "31/14",
+      "209/70"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 81,
+    "pergunta": "Quanto é 1/3 + 1?",
+    "opcoes": [
+      "4/3",
+      "-2/3",
+      "23/15",
+      "17/15"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 82,
+    "pergunta": "Quanto é 1/2 + 1/4?",
+    "opcoes": [
+      "1/4",
+      "19/20",
+      "11/20",
+      "3/4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 83,
+    "pergunta": "Quanto é 3/5 + 2/5?",
+    "opcoes": [
+      "6/5",
+      "4/5",
+      "1",
+      "1/5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 84,
+    "pergunta": "Quanto é 2 + 1/2?",
+    "opcoes": [
+      "23/10",
+      "5/2",
+      "3/2",
+      "27/10"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 85,
+    "pergunta": "Quanto é 5/3 + 1/7?",
+    "opcoes": [
+      "38/21",
+      "32/21",
+      "211/105",
+      "169/105"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 86,
+    "pergunta": "Quanto é 1/4 + 2/3?",
+    "opcoes": [
+      "-5/12",
+      "67/60",
+      "43/60",
+      "11/12"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 87,
+    "pergunta": "Quanto é 2/5 + 3/4?",
+    "opcoes": [
+      "27/20",
+      "19/20",
+      "23/20",
+      "-7/20"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 88,
+    "pergunta": "Quanto é 3/2 + 1/5?",
+    "opcoes": [
+      "3/2",
+      "17/10",
+      "13/10",
+      "19/10"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 89,
+    "pergunta": "Quanto é 4/3 + 1/3?",
+    "opcoes": [
+      "5/3",
+      "1",
+      "28/15",
+      "22/15"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 90,
+    "pergunta": "Quanto é 5/4 + 3/7?",
+    "opcoes": [
+      "23/28",
+      "263/140",
+      "207/140",
+      "47/28"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 91,
+    "pergunta": "Quanto é 10% de 40?",
+    "opcoes": [
+      "14",
+      "30",
+      "4",
+      "9"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 92,
+    "pergunta": "Quanto é 20% de 50?",
+    "opcoes": [
+      "30",
+      "10",
+      "15",
+      "20"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 93,
+    "pergunta": "Quanto é 25% de 60?",
+    "opcoes": [
+      "15",
+      "20",
+      "25",
+      "35"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 94,
+    "pergunta": "Quanto é 50% de 70?",
+    "opcoes": [
+      "40",
+      "45",
+      "20",
+      "35"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 95,
+    "pergunta": "Quanto é 5% de 80?",
+    "opcoes": [
+      "14",
+      "75",
+      "4",
+      "9"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 96,
+    "pergunta": "Quanto é 10% de 90?",
+    "opcoes": [
+      "80",
+      "9",
+      "14",
+      "19"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 97,
+    "pergunta": "Quanto é 20% de 100?",
+    "opcoes": [
+      "20",
+      "25",
+      "30",
+      "80"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 98,
+    "pergunta": "Quanto é 25% de 110?",
+    "opcoes": [
+      "32",
+      "37",
+      "85",
+      "27"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 99,
+    "pergunta": "Quanto é 50% de 120?",
+    "opcoes": [
+      "70",
+      "63",
+      "60",
+      "65"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 100,
+    "pergunta": "Quanto é 5% de 130?",
+    "opcoes": [
+      "125",
+      "6",
+      "11",
+      "16"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 101,
+    "pergunta": "Quanto é 10% de 140?",
+    "opcoes": [
+      "14",
+      "19",
+      "24",
+      "130"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 102,
+    "pergunta": "Quanto é 20% de 150?",
+    "opcoes": [
+      "35",
+      "40",
+      "130",
+      "30"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 103,
+    "pergunta": "Quanto é 25% de 160?",
+    "opcoes": [
+      "50",
+      "135",
+      "40",
+      "45"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 104,
+    "pergunta": "Quanto é 50% de 170?",
+    "opcoes": [
+      "120",
+      "85",
+      "90",
+      "95"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 105,
+    "pergunta": "Quanto é 5% de 180?",
+    "opcoes": [
+      "9",
+      "14",
+      "19",
+      "175"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 106,
+    "pergunta": "Converta 2 metros para centímetros.",
+    "opcoes": [
+      "20",
+      "202",
+      "2000",
+      "200"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 107,
+    "pergunta": "Converta 3 quilómetros para metros.",
+    "opcoes": [
+      "300",
+      "30000",
+      "3000",
+      "30"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 108,
+    "pergunta": "Converta 4500 gramas para quilogramas.",
+    "opcoes": [
+      "500",
+      "4,5",
+      "45",
+      "4"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 109,
+    "pergunta": "Converta 5 litros para mililitros.",
+    "opcoes": [
+      "5000",
+      "50",
+      "500",
+      "50000"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 110,
+    "pergunta": "Converta 90 minutos para horas.",
+    "opcoes": [
+      "9",
+      "2",
+      "90",
+      "1,5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 111,
+    "pergunta": "Converta 4 semanas para dias.",
+    "opcoes": [
+      "21",
+      "40",
+      "28",
+      "24"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 112,
+    "pergunta": "Converta 7 dias para horas.",
+    "opcoes": [
+      "72",
+      "168",
+      "24",
+      "49"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 113,
+    "pergunta": "Converta 1,5 quilogramas para gramas.",
+    "opcoes": [
+      "1500",
+      "150",
+      "15",
+      "1050"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 114,
+    "pergunta": "Converta 250 centímetros para metros.",
+    "opcoes": [
+      "25",
+      "2",
+      "2500",
+      "2,5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 115,
+    "pergunta": "Converta 6 dezenas para unidades.",
+    "opcoes": [
+      "16",
+      "600",
+      "60",
+      "6"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 116,
+    "pergunta": "Converta 3 horas para minutos.",
+    "opcoes": [
+      "300",
+      "180",
+      "30",
+      "120"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 117,
+    "pergunta": "Converta 800 mililitros para litros.",
+    "opcoes": [
+      "0,8",
+      "8",
+      "80",
+      "1"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 118,
+    "pergunta": "Converta 2,5 metros para centímetros.",
+    "opcoes": [
+      "25",
+      "205",
+      "2500",
+      "250"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 119,
+    "pergunta": "Converta 12 meses para anos.",
+    "opcoes": [
+      "2",
+      "0",
+      "1",
+      "12"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 120,
+    "pergunta": "Converta 3 dias para minutos.",
+    "opcoes": [
+      "720",
+      "4320",
+      "432",
+      "1440"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 121,
+    "pergunta": "Determine o perímetro de um quadrado de lado 6 cm.",
+    "opcoes": [
+      "24",
+      "12",
+      "36",
+      "18"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 122,
+    "pergunta": "Determine o área de um quadrado de lado 5 cm.",
+    "opcoes": [
+      "20",
+      "10",
+      "30",
+      "25"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 123,
+    "pergunta": "Determine o perímetro de um rectângulo de 8 cm por 3 cm.",
+    "opcoes": [
+      "11",
+      "16",
+      "22",
+      "24"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 124,
+    "pergunta": "Determine o área de um rectângulo de 9 m por 4 m.",
+    "opcoes": [
+      "40",
+      "36",
+      "26",
+      "18"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 125,
+    "pergunta": "Determine o perímetro de um triângulo com lados 5 cm, 6 cm e 7 cm.",
+    "opcoes": [
+      "18",
+      "12",
+      "17",
+      "21"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 126,
+    "pergunta": "Determine o área de um triângulo de base 10 cm e altura 4 cm.",
+    "opcoes": [
+      "40",
+      "14",
+      "24",
+      "20"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 127,
+    "pergunta": "Determine o área de um quadrado de lado 7 m.",
+    "opcoes": [
+      "14",
+      "56",
+      "49",
+      "28"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 128,
+    "pergunta": "Determine o perímetro de um rectângulo de 12 m por 5 m.",
+    "opcoes": [
+      "29",
+      "34",
+      "60",
+      "17"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 129,
+    "pergunta": "Determine o área de um paralelogramo de base 8 cm e altura 3 cm.",
+    "opcoes": [
+      "24",
+      "11",
+      "22",
+      "48"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 130,
+    "pergunta": "Determine o perímetro de um pentágono regular de lado 4 cm.",
+    "opcoes": [
+      "16",
+      "9",
+      "25",
+      "20"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 131,
+    "pergunta": "Determine o área de um rectângulo de 15 cm por 2 cm.",
+    "opcoes": [
+      "34",
+      "60",
+      "30",
+      "17"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 132,
+    "pergunta": "Determine o perímetro de um quadrado de área 36 cm².",
+    "opcoes": [
+      "36",
+      "24",
+      "12",
+      "18"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 133,
+    "pergunta": "Determine o área de um triângulo de base 12 m e altura 5 m.",
+    "opcoes": [
+      "30",
+      "60",
+      "17",
+      "35"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 134,
+    "pergunta": "Determine o comprimento em centímetros de 3 m e 75 cm.",
+    "opcoes": [
+      "3075",
+      "3750",
+      "75",
+      "375"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 135,
+    "pergunta": "Determine o número de lados de um hexágono.",
+    "opcoes": [
+      "7",
+      "8",
+      "6",
+      "5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 136,
+    "pergunta": "Qual é o complemento de 35°?",
+    "opcoes": [
+      "145",
+      "55",
+      "45",
+      "65"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 137,
+    "pergunta": "Qual é o suplemento de 120°?",
+    "opcoes": [
+      "60",
+      "30",
+      "240",
+      "70"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 138,
+    "pergunta": "Qual é o ângulo recto?",
+    "opcoes": [
+      "45",
+      "180",
+      "360",
+      "90"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 139,
+    "pergunta": "Qual é o ângulo raso?",
+    "opcoes": [
+      "270",
+      "360",
+      "180",
+      "90"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 140,
+    "pergunta": "Qual é o ângulo completo?",
+    "opcoes": [
+      "270",
+      "360",
+      "180",
+      "90"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 141,
+    "pergunta": "Qual é o soma dos ângulos internos de um triângulo?",
+    "opcoes": [
+      "180",
+      "90",
+      "360",
+      "270"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 142,
+    "pergunta": "Qual é o ângulo que falta num triângulo com 50° e 60°?",
+    "opcoes": [
+      "80",
+      "110",
+      "60",
+      "70"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 143,
+    "pergunta": "Qual é o ângulo que falta num quadrilátero com 90°, 80° e 100°?",
+    "opcoes": [
+      "100",
+      "110",
+      "90",
+      "70"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 144,
+    "pergunta": "Qual é o metade de 140°?",
+    "opcoes": [
+      "280",
+      "70",
+      "60",
+      "80"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 145,
+    "pergunta": "Qual é o dobro de 35°?",
+    "opcoes": [
+      "70",
+      "65",
+      "75",
+      "105"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 146,
+    "pergunta": "Qual é o um quarto de 360°?",
+    "opcoes": [
+      "45",
+      "120",
+      "180",
+      "90"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 147,
+    "pergunta": "Qual é o ângulo externo com ângulos internos não adjacentes de 40° e 65°?",
+    "opcoes": [
+      "115",
+      "125",
+      "105",
+      "95"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 148,
+    "pergunta": "Qual é o complemento de 48°?",
+    "opcoes": [
+      "132",
+      "42",
+      "32",
+      "52"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 149,
+    "pergunta": "Qual é o suplemento de 47°?",
+    "opcoes": [
+      "133",
+      "123",
+      "143",
+      "227"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 150,
+    "pergunta": "Qual é o soma dos ângulos internos de um pentágono?",
+    "opcoes": [
+      "360",
+      "720",
+      "180",
+      "540"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 151,
+    "pergunta": "Qual é o resultado de -12 + (5)?",
+    "opcoes": [
+      "7",
+      "-5",
+      "-7",
+      "-17"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 152,
+    "pergunta": "Qual é o resultado de -9 + (6)?",
+    "opcoes": [
+      "-1",
+      "-3",
+      "-15",
+      "3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 153,
+    "pergunta": "Qual é o resultado de -6 + (7)?",
+    "opcoes": [
+      "1",
+      "-13",
+      "-1",
+      "3"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 154,
+    "pergunta": "Qual é o resultado de -3 + (8)?",
+    "opcoes": [
+      "-11",
+      "-5",
+      "7",
+      "5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 155,
+    "pergunta": "Qual é o resultado de 0 + (9)?",
+    "opcoes": [
+      "11",
+      "12",
+      "9",
+      "-9"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 156,
+    "pergunta": "Qual é o resultado de 3 + (10)?",
+    "opcoes": [
+      "15",
+      "13",
+      "-7",
+      "-13"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 157,
+    "pergunta": "Qual é o resultado de 6 + (11)?",
+    "opcoes": [
+      "17",
+      "-5",
+      "-17",
+      "19"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 158,
+    "pergunta": "Qual é o resultado de 9 + (12)?",
+    "opcoes": [
+      "-3",
+      "-21",
+      "23",
+      "21"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 159,
+    "pergunta": "Na sequência 5, 7, 9, qual é o próximo termo?",
+    "opcoes": [
+      "10",
+      "12",
+      "11",
+      "13"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 160,
+    "pergunta": "Na sequência 6, 9, 12, qual é o próximo termo?",
+    "opcoes": [
+      "16",
+      "15",
+      "18",
+      "14"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 161,
+    "pergunta": "Na sequência 7, 11, 15, qual é o próximo termo?",
+    "opcoes": [
+      "19",
+      "23",
+      "18",
+      "20"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 162,
+    "pergunta": "Na sequência 8, 13, 18, qual é o próximo termo?",
+    "opcoes": [
+      "28",
+      "22",
+      "24",
+      "23"
+    ],
+    "resposta_correta": 3,
+    "nivel": "facil"
+  },
+  {
+    "id": 163,
+    "pergunta": "Na sequência 9, 11, 13, qual é o próximo termo?",
+    "opcoes": [
+      "14",
+      "16",
+      "15",
+      "17"
+    ],
+    "resposta_correta": 2,
+    "nivel": "facil"
+  },
+  {
+    "id": 164,
+    "pergunta": "Na sequência 10, 13, 16, qual é o próximo termo?",
+    "opcoes": [
+      "20",
+      "19",
+      "22",
+      "18"
+    ],
+    "resposta_correta": 1,
+    "nivel": "facil"
+  },
+  {
+    "id": 165,
+    "pergunta": "Na sequência 11, 15, 19, qual é o próximo termo?",
+    "opcoes": [
+      "23",
+      "27",
+      "22",
+      "24"
+    ],
+    "resposta_correta": 0,
+    "nivel": "facil"
+  },
+  {
+    "id": 166,
+    "pergunta": "Resolva 2x + 3 = 7.",
+    "opcoes": [
+      "3",
+      "1",
+      "7",
+      "2"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 167,
+    "pergunta": "Resolva 3x + 4 = 13.",
+    "opcoes": [
+      "2",
+      "13",
+      "3",
+      "4"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 168,
+    "pergunta": "Resolva 4x + 5 = 21.",
+    "opcoes": [
+      "21",
+      "4",
+      "5",
+      "3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 169,
+    "pergunta": "Resolva 5x + 6 = 31.",
+    "opcoes": [
+      "5",
+      "6",
+      "4",
+      "31"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 170,
+    "pergunta": "Resolva 2x + 7 = 19.",
+    "opcoes": [
+      "7",
+      "5",
+      "19",
+      "6"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 171,
+    "pergunta": "Resolva 3x + 3 = 24.",
+    "opcoes": [
+      "6",
+      "24",
+      "7",
+      "8"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 172,
+    "pergunta": "Resolva 4x + 4 = 36.",
+    "opcoes": [
+      "36",
+      "8",
+      "9",
+      "7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 173,
+    "pergunta": "Resolva 5x + 5 = 50.",
+    "opcoes": [
+      "9",
+      "10",
+      "8",
+      "50"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 174,
+    "pergunta": "Resolva 2x + 6 = 26.",
+    "opcoes": [
+      "11",
+      "9",
+      "26",
+      "10"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 175,
+    "pergunta": "Resolva 3x + 7 = 40.",
+    "opcoes": [
+      "10",
+      "40",
+      "11",
+      "12"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 176,
+    "pergunta": "Resolva 4x + 3 = 51.",
+    "opcoes": [
+      "51",
+      "12",
+      "13",
+      "11"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 177,
+    "pergunta": "Resolva 5x + 4 = 69.",
+    "opcoes": [
+      "13",
+      "14",
+      "12",
+      "69"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 178,
+    "pergunta": "Resolva 2x + 5 = 33.",
+    "opcoes": [
+      "15",
+      "13",
+      "33",
+      "14"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 179,
+    "pergunta": "Resolva 3x + 6 = 51.",
+    "opcoes": [
+      "14",
+      "51",
+      "15",
+      "16"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 180,
+    "pergunta": "Resolva 4x + 7 = 71.",
+    "opcoes": [
+      "71",
+      "16",
+      "17",
+      "15"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 181,
+    "pergunta": "Resolva 5x + 3 = 88.",
+    "opcoes": [
+      "17",
+      "18",
+      "16",
+      "88"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 182,
+    "pergunta": "Resolva 2x + 4 = 40.",
+    "opcoes": [
+      "19",
+      "17",
+      "40",
+      "18"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 183,
+    "pergunta": "No sistema x + y = 5 e x − y = -1, qual é x?",
+    "opcoes": [
+      "5",
+      "-1",
+      "2",
+      "3"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 184,
+    "pergunta": "No sistema x + y = 7 e x − y = -1, qual é x?",
+    "opcoes": [
+      "-1",
+      "3",
+      "4",
+      "7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 185,
+    "pergunta": "No sistema x + y = 9 e x − y = -1, qual é x?",
+    "opcoes": [
+      "4",
+      "5",
+      "9",
+      "-1"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 186,
+    "pergunta": "No sistema x + y = 11 e x − y = -1, qual é x?",
+    "opcoes": [
+      "6",
+      "11",
+      "-1",
+      "5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 187,
+    "pergunta": "No sistema x + y = 13 e x − y = -1, qual é x?",
+    "opcoes": [
+      "13",
+      "-1",
+      "6",
+      "7"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 188,
+    "pergunta": "No sistema x + y = 15 e x − y = -1, qual é x?",
+    "opcoes": [
+      "-1",
+      "7",
+      "8",
+      "15"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 189,
+    "pergunta": "No sistema x + y = 11 e x − y = 5, qual é x?",
+    "opcoes": [
+      "8",
+      "3",
+      "11",
+      "5"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 190,
+    "pergunta": "No sistema x + y = 13 e x − y = 5, qual é x?",
+    "opcoes": [
+      "4",
+      "13",
+      "5",
+      "9"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 191,
+    "pergunta": "No sistema x + y = 7 e x − y = -3, qual é x?",
+    "opcoes": [
+      "7",
+      "-3",
+      "2",
+      "5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 192,
+    "pergunta": "No sistema x + y = 9 e x − y = -3, qual é x?",
+    "opcoes": [
+      "-3",
+      "3",
+      "6",
+      "9"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 193,
+    "pergunta": "No sistema x + y = 11 e x − y = -3, qual é x?",
+    "opcoes": [
+      "4",
+      "7",
+      "11",
+      "-3"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 194,
+    "pergunta": "No sistema x + y = 13 e x − y = -3, qual é x?",
+    "opcoes": [
+      "8",
+      "13",
+      "-3",
+      "5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 195,
+    "pergunta": "No sistema x + y = 9 e x − y = 3, qual é x?",
+    "opcoes": [
+      "9",
+      "10",
+      "6",
+      "3"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 196,
+    "pergunta": "No sistema x + y = 11 e x − y = 3, qual é x?",
+    "opcoes": [
+      "3",
+      "7",
+      "4",
+      "11"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 197,
+    "pergunta": "No sistema x + y = 13 e x − y = 3, qual é x?",
+    "opcoes": [
+      "8",
+      "5",
+      "13",
+      "3"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 198,
+    "pergunta": "No sistema x + y = 15 e x − y = 3, qual é x?",
+    "opcoes": [
+      "6",
+      "15",
+      "3",
+      "9"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 199,
+    "pergunta": "No sistema x + y = 9 e x − y = -5, qual é x?",
+    "opcoes": [
+      "9",
+      "-5",
+      "2",
+      "7"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 200,
+    "pergunta": "Na razão 2:3, se o primeiro termo for 4, qual será o segundo?",
+    "opcoes": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 201,
+    "pergunta": "Na razão 3:4, se o primeiro termo for 9, qual será o segundo?",
+    "opcoes": [
+      "12",
+      "13",
+      "11",
+      "9"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 202,
+    "pergunta": "Na razão 4:5, se o primeiro termo for 16, qual será o segundo?",
+    "opcoes": [
+      "21",
+      "19",
+      "16",
+      "20"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 203,
+    "pergunta": "Na razão 5:6, se o primeiro termo for 25, qual será o segundo?",
+    "opcoes": [
+      "29",
+      "25",
+      "30",
+      "31"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 204,
+    "pergunta": "Na razão 6:7, se o primeiro termo for 12, qual será o segundo?",
+    "opcoes": [
+      "12",
+      "14",
+      "15",
+      "13"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 205,
+    "pergunta": "Na razão 7:3, se o primeiro termo for 21, qual será o segundo?",
+    "opcoes": [
+      "9",
+      "10",
+      "8",
+      "21"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 206,
+    "pergunta": "Na razão 2:4, se o primeiro termo for 8, qual será o segundo?",
+    "opcoes": [
+      "17",
+      "15",
+      "8",
+      "16"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 207,
+    "pergunta": "Na razão 3:5, se o primeiro termo for 15, qual será o segundo?",
+    "opcoes": [
+      "24",
+      "15",
+      "25",
+      "26"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 208,
+    "pergunta": "Na razão 4:6, se o primeiro termo for 8, qual será o segundo?",
+    "opcoes": [
+      "8",
+      "12",
+      "13",
+      "11"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 209,
+    "pergunta": "Na razão 5:7, se o primeiro termo for 15, qual será o segundo?",
+    "opcoes": [
+      "21",
+      "22",
+      "20",
+      "15"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 210,
+    "pergunta": "Na razão 6:3, se o primeiro termo for 24, qual será o segundo?",
+    "opcoes": [
+      "13",
+      "11",
+      "24",
+      "12"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 211,
+    "pergunta": "Na razão 7:4, se o primeiro termo for 35, qual será o segundo?",
+    "opcoes": [
+      "19",
+      "35",
+      "20",
+      "21"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 212,
+    "pergunta": "Na razão 2:5, se o primeiro termo for 4, qual será o segundo?",
+    "opcoes": [
+      "4",
+      "10",
+      "11",
+      "9"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 213,
+    "pergunta": "Na razão 3:6, se o primeiro termo for 9, qual será o segundo?",
+    "opcoes": [
+      "18",
+      "19",
+      "17",
+      "9"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 214,
+    "pergunta": "Na razão 4:7, se o primeiro termo for 16, qual será o segundo?",
+    "opcoes": [
+      "29",
+      "27",
+      "16",
+      "28"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 215,
+    "pergunta": "Na razão 5:3, se o primeiro termo for 25, qual será o segundo?",
+    "opcoes": [
+      "14",
+      "25",
+      "15",
+      "16"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 216,
+    "pergunta": "Na razão 6:4, se o primeiro termo for 12, qual será o segundo?",
+    "opcoes": [
+      "12",
+      "8",
+      "9",
+      "7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 217,
+    "pergunta": "Se 2 cadernos custam 6 meticais, quanto custam 3 ao mesmo preço?",
+    "opcoes": [
+      "9",
+      "10",
+      "8",
+      "12"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 218,
+    "pergunta": "Se 3 cadernos custam 7 meticais, quanto custam 4 ao mesmo preço?",
+    "opcoes": [
+      "31/3",
+      "25/3",
+      "11",
+      "28/3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 219,
+    "pergunta": "Se 4 cadernos custam 8 meticais, quanto custam 5 ao mesmo preço?",
+    "opcoes": [
+      "9",
+      "13",
+      "10",
+      "11"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 220,
+    "pergunta": "Se 5 cadernos custam 9 meticais, quanto custam 6 ao mesmo preço?",
+    "opcoes": [
+      "15",
+      "54/5",
+      "59/5",
+      "49/5"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 221,
+    "pergunta": "Se 6 cadernos custam 10 meticais, quanto custam 7 ao mesmo preço?",
+    "opcoes": [
+      "35/3",
+      "38/3",
+      "32/3",
+      "17"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 222,
+    "pergunta": "Se 2 cadernos custam 11 meticais, quanto custam 8 ao mesmo preço?",
+    "opcoes": [
+      "45",
+      "43",
+      "19",
+      "44"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 223,
+    "pergunta": "Se 3 cadernos custam 12 meticais, quanto custam 3 ao mesmo preço?",
+    "opcoes": [
+      "11",
+      "15",
+      "12",
+      "13"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 224,
+    "pergunta": "Se 4 cadernos custam 13 meticais, quanto custam 4 ao mesmo preço?",
+    "opcoes": [
+      "17",
+      "13",
+      "14",
+      "12"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 225,
+    "pergunta": "Se 5 cadernos custam 14 meticais, quanto custam 5 ao mesmo preço?",
+    "opcoes": [
+      "14",
+      "15",
+      "13",
+      "19"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 226,
+    "pergunta": "Se 6 cadernos custam 15 meticais, quanto custam 6 ao mesmo preço?",
+    "opcoes": [
+      "16",
+      "14",
+      "21",
+      "15"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 227,
+    "pergunta": "Se 2 cadernos custam 16 meticais, quanto custam 7 ao mesmo preço?",
+    "opcoes": [
+      "55",
+      "23",
+      "56",
+      "57"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 228,
+    "pergunta": "Se 3 cadernos custam 17 meticais, quanto custam 8 ao mesmo preço?",
+    "opcoes": [
+      "25",
+      "136/3",
+      "139/3",
+      "133/3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 229,
+    "pergunta": "Se 4 cadernos custam 18 meticais, quanto custam 3 ao mesmo preço?",
+    "opcoes": [
+      "27/2",
+      "29/2",
+      "25/2",
+      "21"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 230,
+    "pergunta": "Se 5 cadernos custam 19 meticais, quanto custam 4 ao mesmo preço?",
+    "opcoes": [
+      "81/5",
+      "71/5",
+      "23",
+      "76/5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 231,
+    "pergunta": "Se 6 cadernos custam 20 meticais, quanto custam 5 ao mesmo preço?",
+    "opcoes": [
+      "47/3",
+      "25",
+      "50/3",
+      "53/3"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 232,
+    "pergunta": "Se 2 cadernos custam 21 meticais, quanto custam 6 ao mesmo preço?",
+    "opcoes": [
+      "27",
+      "63",
+      "64",
+      "62"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 233,
+    "pergunta": "Se 3 cadernos custam 22 meticais, quanto custam 7 ao mesmo preço?",
+    "opcoes": [
+      "154/3",
+      "157/3",
+      "151/3",
+      "29"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 234,
+    "pergunta": "Um preço de 100 meticais aumenta 10%. Qual é o novo preço?",
+    "opcoes": [
+      "111",
+      "100",
+      "90",
+      "110"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 235,
+    "pergunta": "Um preço de 150 meticais aumenta 15%. Qual é o novo preço?",
+    "opcoes": [
+      "162",
+      "127",
+      "172",
+      "165"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 236,
+    "pergunta": "Um preço de 200 meticais aumenta 20%. Qual é o novo preço?",
+    "opcoes": [
+      "160",
+      "240",
+      "220",
+      "230"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 237,
+    "pergunta": "Um preço de 250 meticais aumenta 25%. Qual é o novo preço?",
+    "opcoes": [
+      "312",
+      "275",
+      "302",
+      "187"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 238,
+    "pergunta": "Um preço de 300 meticais aumenta 10%. Qual é o novo preço?",
+    "opcoes": [
+      "310",
+      "320",
+      "270",
+      "330"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 239,
+    "pergunta": "Um preço de 350 meticais aumenta 15%. Qual é o novo preço?",
+    "opcoes": [
+      "392",
+      "297",
+      "402",
+      "365"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 240,
+    "pergunta": "Um preço de 400 meticais aumenta 20%. Qual é o novo preço?",
+    "opcoes": [
+      "320",
+      "480",
+      "420",
+      "470"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 241,
+    "pergunta": "Um preço de 450 meticais aumenta 25%. Qual é o novo preço?",
+    "opcoes": [
+      "562",
+      "475",
+      "552",
+      "337"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 242,
+    "pergunta": "Um preço de 100 meticais aumenta 10%. Qual é o novo preço?",
+    "opcoes": [
+      "111",
+      "100",
+      "90",
+      "110"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 243,
+    "pergunta": "Um preço de 150 meticais aumenta 15%. Qual é o novo preço?",
+    "opcoes": [
+      "162",
+      "127",
+      "172",
+      "165"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 244,
+    "pergunta": "Um preço de 200 meticais aumenta 20%. Qual é o novo preço?",
+    "opcoes": [
+      "160",
+      "240",
+      "220",
+      "230"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 245,
+    "pergunta": "Um preço de 250 meticais aumenta 25%. Qual é o novo preço?",
+    "opcoes": [
+      "312",
+      "275",
+      "302",
+      "187"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 246,
+    "pergunta": "Um preço de 300 meticais aumenta 10%. Qual é o novo preço?",
+    "opcoes": [
+      "310",
+      "320",
+      "270",
+      "330"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 247,
+    "pergunta": "Um preço de 350 meticais aumenta 15%. Qual é o novo preço?",
+    "opcoes": [
+      "392",
+      "297",
+      "402",
+      "365"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 248,
+    "pergunta": "Um preço de 400 meticais aumenta 20%. Qual é o novo preço?",
+    "opcoes": [
+      "320",
+      "480",
+      "420",
+      "470"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 249,
+    "pergunta": "Um preço de 450 meticais aumenta 25%. Qual é o novo preço?",
+    "opcoes": [
+      "562",
+      "475",
+      "552",
+      "337"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 250,
+    "pergunta": "Um preço de 100 meticais aumenta 10%. Qual é o novo preço?",
+    "opcoes": [
+      "111",
+      "100",
+      "90",
+      "110"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 251,
+    "pergunta": "Qual é a média de 2, 4, 6, 8?",
+    "opcoes": [
+      "2",
+      "8",
+      "5",
+      "20"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 252,
+    "pergunta": "Qual é a média de 3, 5, 7, 9?",
+    "opcoes": [
+      "9",
+      "6",
+      "24",
+      "3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 253,
+    "pergunta": "Qual é a média de 4, 6, 8, 10?",
+    "opcoes": [
+      "7",
+      "28",
+      "4",
+      "10"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 254,
+    "pergunta": "Qual é a média de 5, 7, 9, 11?",
+    "opcoes": [
+      "32",
+      "5",
+      "11",
+      "8"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 255,
+    "pergunta": "Qual é a média de 6, 8, 10, 12?",
+    "opcoes": [
+      "6",
+      "12",
+      "9",
+      "36"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 256,
+    "pergunta": "Qual é a média de 7, 9, 11, 13?",
+    "opcoes": [
+      "13",
+      "10",
+      "40",
+      "7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 257,
+    "pergunta": "Qual é a média de 8, 10, 12, 14?",
+    "opcoes": [
+      "11",
+      "44",
+      "8",
+      "14"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 258,
+    "pergunta": "Qual é a média de 9, 11, 13, 15?",
+    "opcoes": [
+      "48",
+      "9",
+      "15",
+      "12"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 259,
+    "pergunta": "Qual é a média de 10, 12, 14, 16?",
+    "opcoes": [
+      "10",
+      "16",
+      "13",
+      "52"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 260,
+    "pergunta": "Qual é a média de 11, 13, 15, 17?",
+    "opcoes": [
+      "17",
+      "14",
+      "56",
+      "11"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 261,
+    "pergunta": "Qual é a média de 12, 14, 16, 18?",
+    "opcoes": [
+      "15",
+      "60",
+      "12",
+      "18"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 262,
+    "pergunta": "Qual é a média de 13, 15, 17, 19?",
+    "opcoes": [
+      "64",
+      "13",
+      "19",
+      "16"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 263,
+    "pergunta": "Qual é a média de 14, 16, 18, 20?",
+    "opcoes": [
+      "14",
+      "20",
+      "17",
+      "68"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 264,
+    "pergunta": "Qual é a média de 15, 17, 19, 21?",
+    "opcoes": [
+      "21",
+      "18",
+      "72",
+      "15"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 265,
+    "pergunta": "Qual é a média de 16, 18, 20, 22?",
+    "opcoes": [
+      "19",
+      "76",
+      "16",
+      "22"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 266,
+    "pergunta": "Qual é a média de 17, 19, 21, 23?",
+    "opcoes": [
+      "80",
+      "17",
+      "23",
+      "20"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 267,
+    "pergunta": "Qual é a média de 18, 20, 22, 24?",
+    "opcoes": [
+      "18",
+      "24",
+      "21",
+      "84"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 268,
+    "pergunta": "Qual é a probabilidade de obter 6 num dado?",
+    "opcoes": [
+      "1/15",
+      "1/6",
+      "5/6",
+      "4/15"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 269,
+    "pergunta": "Qual é a probabilidade de obter cara numa moeda?",
+    "opcoes": [
+      "1/2",
+      "3/2",
+      "3/5",
+      "2/5"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 270,
+    "pergunta": "Qual é a probabilidade de retirar uma bola azul de uma caixa com 3 azuis e 7 vermelhas?",
+    "opcoes": [
+      "7/10",
+      "2/5",
+      "1/5",
+      "3/10"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 271,
+    "pergunta": "Qual é a probabilidade de sortear um número par entre 1 e 4?",
+    "opcoes": [
+      "3/5",
+      "2/5",
+      "1/2",
+      "3/2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 272,
+    "pergunta": "Qual é a probabilidade de retirar uma peça branca entre 2 brancas e 3 pretas?",
+    "opcoes": [
+      "3/10",
+      "2/5",
+      "3/5",
+      "1/2"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 273,
+    "pergunta": "Qual é a probabilidade de obter um múltiplo de 3 ao lançar um dado?",
+    "opcoes": [
+      "1/3",
+      "2/3",
+      "13/30",
+      "7/30"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 274,
+    "pergunta": "Qual é a probabilidade de retirar uma vogal de um conjunto com 2 vogais e 2 consoantes?",
+    "opcoes": [
+      "3/2",
+      "3/5",
+      "2/5",
+      "1/2"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 275,
+    "pergunta": "Qual é a probabilidade de obter um número menor que 5 ao lançar um dado?",
+    "opcoes": [
+      "23/30",
+      "17/30",
+      "2/3",
+      "1/3"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 276,
+    "pergunta": "Qual é a probabilidade de sortear o número 4 entre 5 números igualmente prováveis?",
+    "opcoes": [
+      "1/10",
+      "1/5",
+      "4/5",
+      "3/10"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 277,
+    "pergunta": "Qual é a probabilidade de obter soma par ao lançar dois dados?",
+    "opcoes": [
+      "1/2",
+      "3/2",
+      "3/5",
+      "2/5"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 278,
+    "pergunta": "Qual é a probabilidade de não obter 1 num dado?",
+    "opcoes": [
+      "1/6",
+      "14/15",
+      "11/15",
+      "5/6"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 279,
+    "pergunta": "Qual é a probabilidade de retirar a única bola verde entre 10 bolas?",
+    "opcoes": [
+      "1/5",
+      "0",
+      "1/10",
+      "9/10"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 280,
+    "pergunta": "Qual é a probabilidade de obter duas caras em dois lançamentos de moeda?",
+    "opcoes": [
+      "3/20",
+      "1/4",
+      "3/4",
+      "7/20"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 281,
+    "pergunta": "Qual é a probabilidade de obter um número primo específico entre 1 e 6?",
+    "opcoes": [
+      "1/6",
+      "5/6",
+      "4/15",
+      "1/15"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 282,
+    "pergunta": "Qual é a probabilidade de escolher uma rapariga entre uma rapariga e um rapaz?",
+    "opcoes": [
+      "3/2",
+      "3/5",
+      "2/5",
+      "1/2"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 283,
+    "pergunta": "Qual é a probabilidade de obter pelo menos uma cara em dois lançamentos?",
+    "opcoes": [
+      "17/20",
+      "13/20",
+      "3/4",
+      "1/4"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 284,
+    "pergunta": "Qual é a probabilidade de sortear um múltiplo de 3 entre 1 e 9?",
+    "opcoes": [
+      "7/30",
+      "1/3",
+      "2/3",
+      "13/30"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 285,
+    "pergunta": "Determine o área de um círculo de raio 3 cm, usando π=3,14.",
+    "opcoes": [
+      "28,26",
+      "18,84",
+      "9,42",
+      "56,52"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 286,
+    "pergunta": "Determine o comprimento de uma circunferência de raio 5 cm, usando π=3,14.",
+    "opcoes": [
+      "15,7",
+      "78,5",
+      "25",
+      "31,4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 287,
+    "pergunta": "Determine o hipotenusa com catetos 6 e 8.",
+    "opcoes": [
+      "14",
+      "8",
+      "10",
+      "12"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 288,
+    "pergunta": "Determine o diagonal de um quadrado de lado 4 cm, em forma exacta.",
+    "opcoes": [
+      "16",
+      "4√2",
+      "4",
+      "8"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 289,
+    "pergunta": "Determine o volume de um cubo de aresta 3 cm.",
+    "opcoes": [
+      "27",
+      "9",
+      "18",
+      "81"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 290,
+    "pergunta": "Determine o volume de um prisma de base 12 cm² e altura 5 cm.",
+    "opcoes": [
+      "17",
+      "30",
+      "120",
+      "60"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 291,
+    "pergunta": "Determine o área de um trapézio com bases 8 e 12 e altura 5.",
+    "opcoes": [
+      "100",
+      "25",
+      "50",
+      "40"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 292,
+    "pergunta": "Determine o soma dos ângulos internos de um hexágono.",
+    "opcoes": [
+      "360",
+      "720",
+      "540",
+      "900"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 293,
+    "pergunta": "Determine o raio de um círculo de diâmetro 14 cm.",
+    "opcoes": [
+      "7",
+      "14",
+      "28",
+      "3,5"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 294,
+    "pergunta": "Determine o área de um losango com diagonais 10 e 6.",
+    "opcoes": [
+      "60",
+      "16",
+      "26",
+      "30"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 295,
+    "pergunta": "Determine o ângulo do triângulo isósceles com outros ângulos 50° e 50°.",
+    "opcoes": [
+      "100",
+      "70",
+      "80",
+      "50"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 296,
+    "pergunta": "Determine o perímetro de um círculo de diâmetro 10, usando π=3,14.",
+    "opcoes": [
+      "20",
+      "31,4",
+      "15,7",
+      "62,8"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 297,
+    "pergunta": "Determine o área de sector de 90° e raio 4, usando π=3,14.",
+    "opcoes": [
+      "12,56",
+      "25,12",
+      "50,24",
+      "6,28"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 298,
+    "pergunta": "Determine o distância entre (0,0) e (3,4).",
+    "opcoes": [
+      "6",
+      "7",
+      "12",
+      "5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 299,
+    "pergunta": "Determine o declive entre (1,2) e (3,8).",
+    "opcoes": [
+      "4",
+      "6",
+      "3",
+      "2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 300,
+    "pergunta": "Determine o área de um rectângulo de lados 7 e 2.",
+    "opcoes": [
+      "28",
+      "14",
+      "9",
+      "18"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 301,
+    "pergunta": "Determine o volume de cilindro de raio 2 e altura 5, usando π=3,14.",
+    "opcoes": [
+      "62,8",
+      "31,4",
+      "20",
+      "125,6"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 302,
+    "pergunta": "Calcule 2^2.",
+    "opcoes": [
+      "8",
+      "6",
+      "5",
+      "4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 303,
+    "pergunta": "Qual é √9?",
+    "opcoes": [
+      "2",
+      "6",
+      "3",
+      "4"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 304,
+    "pergunta": "Se f(x)=3x−2, determine f(3).",
+    "opcoes": [
+      "1",
+      "7",
+      "11",
+      "10"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 305,
+    "pergunta": "Qual é o 6º termo da PG que começa em 5 e tem razão 3?",
+    "opcoes": [
+      "1215",
+      "3645",
+      "23",
+      "1218"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 306,
+    "pergunta": "Calcule 6^3.",
+    "opcoes": [
+      "1296",
+      "18",
+      "217",
+      "216"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 307,
+    "pergunta": "Qual é √49?",
+    "opcoes": [
+      "6",
+      "24",
+      "7",
+      "8"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 308,
+    "pergunta": "Se f(x)=3x−2, determine f(7).",
+    "opcoes": [
+      "5",
+      "19",
+      "23",
+      "22"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 309,
+    "pergunta": "Qual é o 6º termo da PG que começa em 4 e tem razão 3?",
+    "opcoes": [
+      "972",
+      "2916",
+      "22",
+      "975"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 310,
+    "pergunta": "Calcule 5^4.",
+    "opcoes": [
+      "3125",
+      "20",
+      "626",
+      "625"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 311,
+    "pergunta": "Qual é √16?",
+    "opcoes": [
+      "3",
+      "8",
+      "4",
+      "5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 312,
+    "pergunta": "Se f(x)=3x−2, determine f(4).",
+    "opcoes": [
+      "2",
+      "10",
+      "14",
+      "13"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 313,
+    "pergunta": "Qual é o 6º termo da PG que começa em 3 e tem razão 3?",
+    "opcoes": [
+      "729",
+      "2187",
+      "21",
+      "732"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 314,
+    "pergunta": "Calcule 4^2.",
+    "opcoes": [
+      "64",
+      "8",
+      "17",
+      "16"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 315,
+    "pergunta": "Qual é √64?",
+    "opcoes": [
+      "7",
+      "32",
+      "8",
+      "9"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 316,
+    "pergunta": "Se f(x)=3x−2, determine f(1).",
+    "opcoes": [
+      "-1",
+      "1",
+      "5",
+      "4"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 317,
+    "pergunta": "Qual é o 6º termo da PG que começa em 2 e tem razão 3?",
+    "opcoes": [
+      "486",
+      "1458",
+      "20",
+      "489"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 318,
+    "pergunta": "Calcule 3^3.",
+    "opcoes": [
+      "81",
+      "9",
+      "28",
+      "27"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 319,
+    "pergunta": "Qual é o 4º termo da PA que começa em 2 e tem razão 2?",
+    "opcoes": [
+      "6",
+      "11",
+      "8",
+      "10"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 320,
+    "pergunta": "Qual é o 4º termo da PG que começa em 3 e tem razão 2?",
+    "opcoes": [
+      "26",
+      "24",
+      "48",
+      "11"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 321,
+    "pergunta": "Qual é o 6º termo da PA que começa em 4 e tem razão 4?",
+    "opcoes": [
+      "24",
+      "28",
+      "20",
+      "27"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 322,
+    "pergunta": "Qual é o 6º termo da PG que começa em 5 e tem razão 2?",
+    "opcoes": [
+      "320",
+      "17",
+      "162",
+      "160"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 323,
+    "pergunta": "Qual é o 8º termo da PA que começa em 6 e tem razão 2?",
+    "opcoes": [
+      "18",
+      "23",
+      "20",
+      "22"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 324,
+    "pergunta": "Qual é o 4º termo da PG que começa em 2 e tem razão 2?",
+    "opcoes": [
+      "18",
+      "16",
+      "32",
+      "10"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 325,
+    "pergunta": "Qual é o 5º termo da PA que começa em 2 e tem razão 4?",
+    "opcoes": [
+      "18",
+      "22",
+      "14",
+      "21"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 326,
+    "pergunta": "Qual é o 6º termo da PG que começa em 4 e tem razão 2?",
+    "opcoes": [
+      "256",
+      "16",
+      "130",
+      "128"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 327,
+    "pergunta": "Qual é o 7º termo da PA que começa em 4 e tem razão 2?",
+    "opcoes": [
+      "14",
+      "19",
+      "16",
+      "18"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 328,
+    "pergunta": "Qual é o 4º termo da PG que começa em 6 e tem razão 2?",
+    "opcoes": [
+      "50",
+      "48",
+      "96",
+      "14"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 329,
+    "pergunta": "Qual é o 4º termo da PA que começa em 6 e tem razão 4?",
+    "opcoes": [
+      "18",
+      "22",
+      "14",
+      "21"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 330,
+    "pergunta": "Qual é o 6º termo da PG que começa em 3 e tem razão 2?",
+    "opcoes": [
+      "192",
+      "15",
+      "98",
+      "96"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 331,
+    "pergunta": "Qual é o 6º termo da PA que começa em 2 e tem razão 2?",
+    "opcoes": [
+      "10",
+      "15",
+      "12",
+      "14"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 332,
+    "pergunta": "Qual é o 4º termo da PG que começa em 5 e tem razão 2?",
+    "opcoes": [
+      "42",
+      "40",
+      "80",
+      "13"
+    ],
+    "resposta_correta": 1,
+    "nivel": "medio"
+  },
+  {
+    "id": 333,
+    "pergunta": "Qual é o 8º termo da PA que começa em 4 e tem razão 4?",
+    "opcoes": [
+      "32",
+      "36",
+      "28",
+      "35"
+    ],
+    "resposta_correta": 0,
+    "nivel": "medio"
+  },
+  {
+    "id": 334,
+    "pergunta": "Qual é o 6º termo da PG que começa em 2 e tem razão 2?",
+    "opcoes": [
+      "128",
+      "14",
+      "66",
+      "64"
+    ],
+    "resposta_correta": 3,
+    "nivel": "medio"
+  },
+  {
+    "id": 335,
+    "pergunta": "Qual é o 5º termo da PA que começa em 6 e tem razão 2?",
+    "opcoes": [
+      "12",
+      "17",
+      "14",
+      "16"
+    ],
+    "resposta_correta": 2,
+    "nivel": "medio"
+  },
+  {
+    "id": 336,
+    "pergunta": "Resolva 1x² + 2 = 6, sabendo que x é positivo.",
+    "opcoes": [
+      "6",
+      "2",
+      "-2",
+      "3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 337,
+    "pergunta": "Resolva 2x² + 3 = 21, sabendo que x é positivo.",
+    "opcoes": [
+      "3",
+      "-3",
+      "4",
+      "21"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 338,
+    "pergunta": "Resolva 3x² + 4 = 52, sabendo que x é positivo.",
+    "opcoes": [
+      "-4",
+      "5",
+      "52",
+      "4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 339,
+    "pergunta": "Resolva 1x² + 5 = 30, sabendo que x é positivo.",
+    "opcoes": [
+      "6",
+      "30",
+      "5",
+      "-5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 340,
+    "pergunta": "Resolva 2x² + 2 = 74, sabendo que x é positivo.",
+    "opcoes": [
+      "74",
+      "6",
+      "-6",
+      "7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 341,
+    "pergunta": "Resolva 3x² + 3 = 150, sabendo que x é positivo.",
+    "opcoes": [
+      "7",
+      "-7",
+      "8",
+      "150"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 342,
+    "pergunta": "Resolva 1x² + 4 = 68, sabendo que x é positivo.",
+    "opcoes": [
+      "-8",
+      "9",
+      "68",
+      "8"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 343,
+    "pergunta": "Resolva 2x² + 5 = 167, sabendo que x é positivo.",
+    "opcoes": [
+      "10",
+      "167",
+      "9",
+      "-9"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 344,
+    "pergunta": "Resolva 3x² + 2 = 302, sabendo que x é positivo.",
+    "opcoes": [
+      "302",
+      "10",
+      "-10",
+      "11"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 345,
+    "pergunta": "Resolva 1x² + 3 = 124, sabendo que x é positivo.",
+    "opcoes": [
+      "11",
+      "-11",
+      "12",
+      "124"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 346,
+    "pergunta": "Resolva 2x² + 4 = 292, sabendo que x é positivo.",
+    "opcoes": [
+      "-12",
+      "13",
+      "292",
+      "12"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 347,
+    "pergunta": "Resolva 3x² + 5 = 512, sabendo que x é positivo.",
+    "opcoes": [
+      "14",
+      "512",
+      "13",
+      "-13"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 348,
+    "pergunta": "Resolva 1x² + 2 = 198, sabendo que x é positivo.",
+    "opcoes": [
+      "198",
+      "14",
+      "-14",
+      "15"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 349,
+    "pergunta": "Resolva 2x² + 3 = 453, sabendo que x é positivo.",
+    "opcoes": [
+      "15",
+      "-15",
+      "16",
+      "453"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 350,
+    "pergunta": "Resolva 3x² + 4 = 772, sabendo que x é positivo.",
+    "opcoes": [
+      "-16",
+      "17",
+      "772",
+      "16"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 351,
+    "pergunta": "Qual é a solução de 2x > 4?",
+    "opcoes": [
+      "x ≥ 2",
+      "x ≤ 2",
+      "x > 2",
+      "x < 2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 352,
+    "pergunta": "Qual é a solução de 3x > 9?",
+    "opcoes": [
+      "x ≤ 3",
+      "x > 3",
+      "x < 3",
+      "x ≥ 3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 353,
+    "pergunta": "Qual é a solução de 4x > 16?",
+    "opcoes": [
+      "x > 4",
+      "x < 4",
+      "x ≥ 4",
+      "x ≤ 4"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 354,
+    "pergunta": "Qual é a solução de 2x > 10?",
+    "opcoes": [
+      "x < 5",
+      "x ≥ 5",
+      "x ≤ 5",
+      "x > 5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 355,
+    "pergunta": "Qual é a solução de 3x > 18?",
+    "opcoes": [
+      "x ≥ 6",
+      "x ≤ 6",
+      "x > 6",
+      "x < 6"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 356,
+    "pergunta": "Qual é a solução de 4x > 28?",
+    "opcoes": [
+      "x ≤ 7",
+      "x > 7",
+      "x < 7",
+      "x ≥ 7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 357,
+    "pergunta": "Qual é a solução de 2x > 16?",
+    "opcoes": [
+      "x > 8",
+      "x < 8",
+      "x ≥ 8",
+      "x ≤ 8"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 358,
+    "pergunta": "Qual é a solução de 3x > 27?",
+    "opcoes": [
+      "x < 9",
+      "x ≥ 9",
+      "x ≤ 9",
+      "x > 9"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 359,
+    "pergunta": "Qual é a solução de 4x > 8?",
+    "opcoes": [
+      "x ≥ 2",
+      "x ≤ 2",
+      "x > 2",
+      "x < 2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 360,
+    "pergunta": "Qual é a solução de 2x > 6?",
+    "opcoes": [
+      "x ≤ 3",
+      "x > 3",
+      "x < 3",
+      "x ≥ 3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 361,
+    "pergunta": "Qual é a solução de 3x > 12?",
+    "opcoes": [
+      "x > 4",
+      "x < 4",
+      "x ≥ 4",
+      "x ≤ 4"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 362,
+    "pergunta": "Qual é a solução de 4x > 20?",
+    "opcoes": [
+      "x < 5",
+      "x ≥ 5",
+      "x ≤ 5",
+      "x > 5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 363,
+    "pergunta": "Qual é a solução de 2x > 12?",
+    "opcoes": [
+      "x ≥ 6",
+      "x ≤ 6",
+      "x > 6",
+      "x < 6"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 364,
+    "pergunta": "Qual é a solução de 3x > 21?",
+    "opcoes": [
+      "x ≤ 7",
+      "x > 7",
+      "x < 7",
+      "x ≥ 7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 365,
+    "pergunta": "Qual é a solução de 4x > 32?",
+    "opcoes": [
+      "x > 8",
+      "x < 8",
+      "x ≥ 8",
+      "x ≤ 8"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 366,
+    "pergunta": "Para f(x)=x²−4x+3, quanto vale f(2)?",
+    "opcoes": [
+      "0",
+      "-2",
+      "2",
+      "-1"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 367,
+    "pergunta": "Para f(x)=2x+5, quanto vale f(-3)?",
+    "opcoes": [
+      "-2",
+      "2",
+      "-1",
+      "0"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 368,
+    "pergunta": "Para f(x)=x³, quanto vale f(-2)?",
+    "opcoes": [
+      "0",
+      "-8",
+      "-7",
+      "-9"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 369,
+    "pergunta": "Para f(x)=|x−4|, quanto vale f(1)?",
+    "opcoes": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 370,
+    "pergunta": "Para f(x)=3x²+1, quanto vale f(-1)?",
+    "opcoes": [
+      "5",
+      "3",
+      "0",
+      "4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 371,
+    "pergunta": "Para f(x)=1/x, quanto vale f(2)?",
+    "opcoes": [
+      "-1/2",
+      "0",
+      "1/2",
+      "3/2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 372,
+    "pergunta": "Para f(x)=2^x, quanto vale f(3)?",
+    "opcoes": [
+      "0",
+      "8",
+      "9",
+      "7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 373,
+    "pergunta": "Para f(x)=√x, quanto vale f(9)?",
+    "opcoes": [
+      "3",
+      "4",
+      "2",
+      "0"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 374,
+    "pergunta": "Para f(x)=5−x, quanto vale f(7)?",
+    "opcoes": [
+      "-1",
+      "-3",
+      "0",
+      "-2"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 375,
+    "pergunta": "Para f(x)=x²+2x, quanto vale f(-3)?",
+    "opcoes": [
+      "2",
+      "0",
+      "3",
+      "4"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 376,
+    "pergunta": "Para f(x)=4x−1, quanto vale f(5)?",
+    "opcoes": [
+      "0",
+      "19",
+      "20",
+      "18"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 377,
+    "pergunta": "Para f(x)=x³−x, quanto vale f(2)?",
+    "opcoes": [
+      "6",
+      "7",
+      "5",
+      "0"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 378,
+    "pergunta": "Para f(x)=|2x|, quanto vale f(-3)?",
+    "opcoes": [
+      "7",
+      "5",
+      "0",
+      "6"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 379,
+    "pergunta": "Para f(x)=x²−9, quanto vale f(4)?",
+    "opcoes": [
+      "6",
+      "0",
+      "7",
+      "8"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 380,
+    "pergunta": "Para f(x)=3/(x+1), quanto vale f(2)?",
+    "opcoes": [
+      "4",
+      "1",
+      "2",
+      "0"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 381,
+    "pergunta": "Na geometria analítica, determine o distância entre (1,2) e (4,6).",
+    "opcoes": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 382,
+    "pergunta": "Na geometria analítica, determine o declive de y=3x−7.",
+    "opcoes": [
+      "-3",
+      "7",
+      "1",
+      "3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 383,
+    "pergunta": "Na geometria analítica, determine o ponto médio de (2,4) e (6,8).",
+    "opcoes": [
+      "(2, 2)",
+      "(3, 4)",
+      "(4, 6)",
+      "(8, 12)"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 384,
+    "pergunta": "Na geometria analítica, determine o recta com declive 2 e ordenada na origem 5.",
+    "opcoes": [
+      "y=−2x+5",
+      "y=2x+5",
+      "y=5x+2",
+      "y=2x−5"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 385,
+    "pergunta": "Na geometria analítica, determine o raio de x²+y²=49.",
+    "opcoes": [
+      "7",
+      "14",
+      "49",
+      "3,5"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 386,
+    "pergunta": "Na geometria analítica, determine o centro de (x−3)²+(y+2)²=16.",
+    "opcoes": [
+      "(−3, 2)",
+      "(3, 2)",
+      "(−3, −2)",
+      "(3, −2)"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 387,
+    "pergunta": "Na geometria analítica, determine o intersecção de y=2x com y=8.",
+    "opcoes": [
+      "6",
+      "16",
+      "4",
+      "2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 388,
+    "pergunta": "Na geometria analítica, determine o distância de (3,4) à origem.",
+    "opcoes": [
+      "1",
+      "5",
+      "7",
+      "12"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 389,
+    "pergunta": "Na geometria analítica, determine o declive entre (−1,3) e (2,−3).",
+    "opcoes": [
+      "-2",
+      "2",
+      "-1",
+      "3"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 390,
+    "pergunta": "Na geometria analítica, determine o coordenada x do vértice de y=x²−6x+5.",
+    "opcoes": [
+      "-3",
+      "6",
+      "5",
+      "3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 391,
+    "pergunta": "Na geometria analítica, determine o ordenada na origem de y=−4x+9.",
+    "opcoes": [
+      "4",
+      "13",
+      "9",
+      "-4"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 392,
+    "pergunta": "Na geometria analítica, determine o área do triângulo (0,0),(4,0),(0,3).",
+    "opcoes": [
+      "24",
+      "6",
+      "12",
+      "7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 393,
+    "pergunta": "Na geometria analítica, determine o forma reduzida de 2x+y=6.",
+    "opcoes": [
+      "y=−2x+6",
+      "y=2x+6",
+      "y=−2x−6",
+      "y=x+6"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 394,
+    "pergunta": "Na geometria analítica, determine o distância entre y=3 e y=−5.",
+    "opcoes": [
+      "2",
+      "5",
+      "-8",
+      "8"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 395,
+    "pergunta": "Na geometria analítica, determine o intersecção de x=2 com y=x+1.",
+    "opcoes": [
+      "(2, 1)",
+      "(1, 2)",
+      "(2, 3)",
+      "(3, 2)"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 396,
+    "pergunta": "Em trigonometria, determine sen 30°.",
+    "opcoes": [
+      "1",
+      "1/2",
+      "3/4",
+      "0"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 397,
+    "pergunta": "Em trigonometria, determine cos 60°.",
+    "opcoes": [
+      "1/2",
+      "0",
+      "1",
+      "3/4"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 398,
+    "pergunta": "Em trigonometria, determine tan 45°.",
+    "opcoes": [
+      "0",
+      "2",
+      "1/2",
+      "1"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 399,
+    "pergunta": "Em trigonometria, determine sen 90°.",
+    "opcoes": [
+      "1/2",
+      "-1",
+      "1",
+      "0"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 400,
+    "pergunta": "Em trigonometria, determine cos 0°.",
+    "opcoes": [
+      "-1",
+      "1",
+      "0",
+      "1/2"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 401,
+    "pergunta": "Em trigonometria, determine tan 0°.",
+    "opcoes": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 402,
+    "pergunta": "Em trigonometria, determine sen 0°.",
+    "opcoes": [
+      "1",
+      "1/2",
+      "-1",
+      "0"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 403,
+    "pergunta": "Em trigonometria, determine cos 180°.",
+    "opcoes": [
+      "1",
+      "-1/2",
+      "-1",
+      "0"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 404,
+    "pergunta": "Em trigonometria, determine sen 45°.",
+    "opcoes": [
+      "√3/2",
+      "√2/2",
+      "1/2",
+      "1"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 405,
+    "pergunta": "Em trigonometria, determine cos 45°.",
+    "opcoes": [
+      "√2/2",
+      "1/2",
+      "1",
+      "√3/2"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 406,
+    "pergunta": "Em trigonometria, determine tan 60°.",
+    "opcoes": [
+      "1",
+      "√3/2",
+      "2",
+      "√3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 407,
+    "pergunta": "Em trigonometria, determine cateto oposto a 30° com hipotenusa 10.",
+    "opcoes": [
+      "5√3",
+      "20",
+      "5",
+      "10"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 408,
+    "pergunta": "Em trigonometria, determine lado correspondente ao seno do ângulo oposto.",
+    "opcoes": [
+      "raio",
+      "lado",
+      "ângulo",
+      "perímetro"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 409,
+    "pergunta": "Em trigonometria, determine sen²θ+cos²θ.",
+    "opcoes": [
+      "1",
+      "0",
+      "2",
+      "sen θ cos θ"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 410,
+    "pergunta": "Em trigonometria, determine radianos correspondentes a 180°.",
+    "opcoes": [
+      "π/2",
+      "2π",
+      "1",
+      "π"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 411,
+    "pergunta": "Determine o número de permutações de 4 livros distintos.",
+    "opcoes": [
+      "16",
+      "8",
+      "24",
+      "12"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 412,
+    "pergunta": "Determine o número de combinações de 5 elementos tomados 2 a 2.",
+    "opcoes": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 413,
+    "pergunta": "Determine o número de escolhas de 3 pessoas entre 6.",
+    "opcoes": [
+      "20",
+      "15",
+      "18",
+      "9"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 414,
+    "pergunta": "Determine o número de anagramas de CASA.",
+    "opcoes": [
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 415,
+    "pergunta": "Determine o número de subconjuntos de um conjunto com 3 elementos.",
+    "opcoes": [
+      "6",
+      "9",
+      "8",
+      "3"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 416,
+    "pergunta": "Determine o número de resultados de 3 lançamentos de moeda.",
+    "opcoes": [
+      "12",
+      "8",
+      "6",
+      "9"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 417,
+    "pergunta": "Determine o número de diagonais de um hexágono.",
+    "opcoes": [
+      "9",
+      "6",
+      "12",
+      "15"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 418,
+    "pergunta": "Determine o número de permutações de 5 objectos.",
+    "opcoes": [
+      "60",
+      "100",
+      "25",
+      "120"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 419,
+    "pergunta": "Determine o número de C(7,1).",
+    "opcoes": [
+      "14",
+      "21",
+      "7",
+      "1"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 420,
+    "pergunta": "Determine o número de C(8,3).",
+    "opcoes": [
+      "64",
+      "56",
+      "24",
+      "28"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 421,
+    "pergunta": "Determine o número de mãos de 2 cartas escolhidas de 5.",
+    "opcoes": [
+      "10",
+      "5",
+      "8",
+      "15"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 422,
+    "pergunta": "Determine o número de códigos de 2 algarismos de 0 a 9 com repetição.",
+    "opcoes": [
+      "20",
+      "90",
+      "110",
+      "100"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 423,
+    "pergunta": "Determine o número de maneiras de escolher presidente e secretário entre 5.",
+    "opcoes": [
+      "15",
+      "25",
+      "20",
+      "10"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 424,
+    "pergunta": "Determine o número de permutações distintas de AAB.",
+    "opcoes": [
+      "9",
+      "3",
+      "6",
+      "2"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 425,
+    "pergunta": "Determine o número de caminhos binários em 4 passos.",
+    "opcoes": [
+      "16",
+      "8",
+      "12",
+      "20"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 426,
+    "pergunta": "Qual é a probabilidade de exactamente 2 caras em 3 lançamentos?",
+    "opcoes": [
+      "1/8",
+      "1/2",
+      "5/8",
+      "3/8"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 427,
+    "pergunta": "Qual é a probabilidade de soma 7 em dois dados?",
+    "opcoes": [
+      "1/3",
+      "1/2",
+      "1/6",
+      "1/12"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 428,
+    "pergunta": "Qual é a probabilidade de duas vermelhas sem reposição de 3 vermelhas e 2 azuis?",
+    "opcoes": [
+      "1/2",
+      "3/10",
+      "1/5",
+      "2/5"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 429,
+    "pergunta": "Qual é a probabilidade de pelo menos um 6 em dois dados?",
+    "opcoes": [
+      "11/36",
+      "1/6",
+      "1/3",
+      "25/36"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 430,
+    "pergunta": "Qual é a probabilidade de intersecção de eventos independentes com probabilidades 1/2 e 1/3?",
+    "opcoes": [
+      "5/6",
+      "2/3",
+      "1/5",
+      "1/6"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 431,
+    "pergunta": "Qual é a probabilidade de um ás de um baralho de 52 cartas?",
+    "opcoes": [
+      "1/4",
+      "1/52",
+      "1/13",
+      "4/13"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 432,
+    "pergunta": "Qual é a probabilidade de número par maior que 3 num dado?",
+    "opcoes": [
+      "2/3",
+      "1/3",
+      "1/2",
+      "1/6"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 433,
+    "pergunta": "Qual é a probabilidade de exactamente uma cara em 2 lançamentos?",
+    "opcoes": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 434,
+    "pergunta": "Qual é a probabilidade de intersecção de eventos mutuamente exclusivos?",
+    "opcoes": [
+      "1/5",
+      "1/2",
+      "3/5",
+      "0"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 435,
+    "pergunta": "Qual é a probabilidade de união de eventos independentes com probabilidades 1/2 e 1/2?",
+    "opcoes": [
+      "1/4",
+      "1",
+      "3/4",
+      "1/2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 436,
+    "pergunta": "Qual é a probabilidade de duas bolas da mesma cor de 2 vermelhas e 2 azuis?",
+    "opcoes": [
+      "2/3",
+      "1/3",
+      "1/2",
+      "1/6"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 437,
+    "pergunta": "Qual é a probabilidade de pelo menos um número par em dois dados?",
+    "opcoes": [
+      "3/4",
+      "1/4",
+      "1/2",
+      "5/6"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 438,
+    "pergunta": "Qual é a probabilidade de soma maior que 10 em dois dados?",
+    "opcoes": [
+      "1/6",
+      "1/18",
+      "1/3",
+      "1/12"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 439,
+    "pergunta": "Qual é a probabilidade de escolher 2 raparigas de 3 raparigas e 2 rapazes?",
+    "opcoes": [
+      "2/5",
+      "1/5",
+      "3/10",
+      "1/2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 440,
+    "pergunta": "Qual é a probabilidade de falhar dois componentes independentes com probabilidades 0,1 e 0,2?",
+    "opcoes": [
+      "1/5",
+      "1/50",
+      "3/10",
+      "1/10"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 441,
+    "pergunta": "Calcule o determinante de [[2,1],[3,4]].",
+    "opcoes": [
+      "5",
+      "-5",
+      "11",
+      "8"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 442,
+    "pergunta": "Calcule o elemento (1,1) da soma de [[1,2],[3,4]] e [[2,1],[1,2]].",
+    "opcoes": [
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 443,
+    "pergunta": "Calcule o elemento (1,2) de I por [[3,4],[5,6]].",
+    "opcoes": [
+      "5",
+      "6",
+      "4",
+      "3"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 444,
+    "pergunta": "Calcule o traço de [[2,1],[0,5]].",
+    "opcoes": [
+      "10",
+      "7",
+      "3",
+      "5"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 445,
+    "pergunta": "Calcule o determinante de [[1,2],[2,4]].",
+    "opcoes": [
+      "0",
+      "2",
+      "4",
+      "-2"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 446,
+    "pergunta": "Calcule o inverso de 3.",
+    "opcoes": [
+      "3",
+      "-3",
+      "0",
+      "1/3"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 447,
+    "pergunta": "Calcule o elemento (2,1) de [[1,2,3],[4,5,6]].",
+    "opcoes": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 448,
+    "pergunta": "Calcule o determinante de [[4,0],[0,2]].",
+    "opcoes": [
+      "2",
+      "8",
+      "6",
+      "4"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 449,
+    "pergunta": "Calcule o traço de [[−1,2],[3,6]].",
+    "opcoes": [
+      "5",
+      "7",
+      "-5",
+      "6"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 450,
+    "pergunta": "Calcule o produto escalar (1,2)·(3,4).",
+    "opcoes": [
+      "7",
+      "10",
+      "14",
+      "11"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 451,
+    "pergunta": "Calcule o norma de (3,4).",
+    "opcoes": [
+      "12",
+      "1",
+      "5",
+      "7"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 452,
+    "pergunta": "Calcule o determinante de [[0,1],[-2,3]].",
+    "opcoes": [
+      "6",
+      "2",
+      "-2",
+      "3"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 453,
+    "pergunta": "Calcule o elemento (1,2) da identidade 2×2.",
+    "opcoes": [
+      "0",
+      "1",
+      "-1",
+      "2"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 454,
+    "pergunta": "Calcule o soma diagonal de [[5,2],[1,-1]].",
+    "opcoes": [
+      "6",
+      "-4",
+      "7",
+      "4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 455,
+    "pergunta": "Calcule o det(2A), se A é 2×2 e det(A)=−3.",
+    "opcoes": [
+      "-3",
+      "12",
+      "-12",
+      "-6"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 456,
+    "pergunta": "No polinómio, determine o resto de x²−1 por x−1.",
+    "opcoes": [
+      "2",
+      "0",
+      "1",
+      "-1"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 457,
+    "pergunta": "No polinómio, determine o grau de 4x⁵−x²+1.",
+    "opcoes": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 458,
+    "pergunta": "No polinómio, determine o coeficiente de x² em (x+2)².",
+    "opcoes": [
+      "2",
+      "4",
+      "0",
+      "1"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 459,
+    "pergunta": "No polinómio, determine o menor raiz de x²−5x+6=0.",
+    "opcoes": [
+      "-2",
+      "6",
+      "2",
+      "3"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 460,
+    "pergunta": "No polinómio, determine o soma das raízes de x²−7x+10.",
+    "opcoes": [
+      "5",
+      "7",
+      "10",
+      "-7"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 461,
+    "pergunta": "No polinómio, determine o produto das raízes de 2x²−3x+1.",
+    "opcoes": [
+      "1/2",
+      "1",
+      "2",
+      "3/2"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 462,
+    "pergunta": "No polinómio, determine o coeficiente de x³ em (x−1)³.",
+    "opcoes": [
+      "3",
+      "-1",
+      "0",
+      "1"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 463,
+    "pergunta": "No polinómio, determine o p(2), se p(x)=x³−4x+1.",
+    "opcoes": [
+      "-1",
+      "9",
+      "1",
+      "5"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 464,
+    "pergunta": "No polinómio, determine o factorização de x²−9.",
+    "opcoes": [
+      "(x+9)(x−1)",
+      "(x−3)(x+3)",
+      "(x−9)(x+1)",
+      "(x−3)²"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 465,
+    "pergunta": "No polinómio, determine o derivada de 3x²−2x+1.",
+    "opcoes": [
+      "6x−2",
+      "3x−2",
+      "6x+2",
+      "x²−2"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 466,
+    "pergunta": "No polinómio, determine o integral de 2x.",
+    "opcoes": [
+      "2x²+C",
+      "x+C",
+      "x²",
+      "x²+C"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 467,
+    "pergunta": "No polinómio, determine o termo constante de (x+1)(x−4).",
+    "opcoes": [
+      "-3",
+      "1",
+      "-4",
+      "4"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 468,
+    "pergunta": "No polinómio, determine o raiz real de x³−8=0.",
+    "opcoes": [
+      "8",
+      "2",
+      "-2",
+      "4"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 469,
+    "pergunta": "No polinómio, determine o soma dos coeficientes de 2x³−x+4.",
+    "opcoes": [
+      "5",
+      "4",
+      "6",
+      "-3"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 470,
+    "pergunta": "No polinómio, determine o resto de x³+2x+1 por x.",
+    "opcoes": [
+      "0",
+      "2",
+      "3",
+      "1"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 471,
+    "pergunta": "Numa progressão, determine o 10º termo da PA a1=3, razão 4.",
+    "opcoes": [
+      "43",
+      "40",
+      "39",
+      "35"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 472,
+    "pergunta": "Numa progressão, determine o soma dos 10 primeiros termos da PA a1=2, razão 3.",
+    "opcoes": [
+      "125",
+      "155",
+      "150",
+      "160"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 473,
+    "pergunta": "Numa progressão, determine o razão da PA 7,11,15,....",
+    "opcoes": [
+      "4",
+      "3",
+      "5",
+      "7"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 474,
+    "pergunta": "Numa progressão, determine o 5º termo da PG a1=2, razão 3.",
+    "opcoes": [
+      "54",
+      "81",
+      "243",
+      "162"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 475,
+    "pergunta": "Numa progressão, determine o soma dos 4 primeiros termos da PG 1,2,....",
+    "opcoes": [
+      "16",
+      "31",
+      "15",
+      "8"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 476,
+    "pergunta": "Numa progressão, determine o razão da PG 81,27,9,....",
+    "opcoes": [
+      "-3",
+      "1/3",
+      "3",
+      "1/9"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 477,
+    "pergunta": "Numa progressão, determine o termo geral da PA a1=5,r=2.",
+    "opcoes": [
+      "aₙ=2n+3",
+      "aₙ=5n+2",
+      "aₙ=2n+5",
+      "aₙ=3n+2"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 478,
+    "pergunta": "Numa progressão, determine o soma dos 5 primeiros números ímpares.",
+    "opcoes": [
+      "15",
+      "20",
+      "30",
+      "25"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 479,
+    "pergunta": "Numa progressão, determine o 8º termo da PA 20,17,14,....",
+    "opcoes": [
+      "-4",
+      "-20",
+      "-1",
+      "1"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 480,
+    "pergunta": "Numa progressão, determine o 3º termo da PG a1=5,q=−2.",
+    "opcoes": [
+      "15",
+      "20",
+      "-20",
+      "10"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 481,
+    "pergunta": "Numa progressão, determine o soma infinita da PG a1=6,q=1/2.",
+    "opcoes": [
+      "12",
+      "6",
+      "9",
+      "18"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 482,
+    "pergunta": "Numa progressão, determine o razão da PA com 1º termo 4 e 6º termo 24.",
+    "opcoes": [
+      "5",
+      "20",
+      "3",
+      "4"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 483,
+    "pergunta": "Numa progressão, determine o soma 1+3+9+27.",
+    "opcoes": [
+      "39",
+      "42",
+      "40",
+      "36"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 484,
+    "pergunta": "Numa progressão, determine o 6º termo da sequência aₙ=n².",
+    "opcoes": [
+      "42",
+      "36",
+      "25",
+      "30"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 485,
+    "pergunta": "Numa progressão, determine o factor usado na soma dos n termos de uma PA.",
+    "opcoes": [
+      "n",
+      "n−1",
+      "2n",
+      "razão"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 486,
+    "pergunta": "No cálculo introdutório, determine o limite de (x²−1)/(x−1) quando x→1.",
+    "opcoes": [
+      "0",
+      "1",
+      "3",
+      "2"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 487,
+    "pergunta": "No cálculo introdutório, determine o limite de 3x+2 quando x→4.",
+    "opcoes": [
+      "10",
+      "16",
+      "14",
+      "12"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 488,
+    "pergunta": "No cálculo introdutório, determine o limite de 1/x quando x→∞.",
+    "opcoes": [
+      "-1",
+      "0",
+      "1",
+      "∞"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 489,
+    "pergunta": "No cálculo introdutório, determine o derivada de x³.",
+    "opcoes": [
+      "3x²",
+      "x²",
+      "3x",
+      "x³"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 490,
+    "pergunta": "No cálculo introdutório, determine o derivada de 5x.",
+    "opcoes": [
+      "1",
+      "10",
+      "0",
+      "5"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 491,
+    "pergunta": "No cálculo introdutório, determine o derivada da constante 7.",
+    "opcoes": [
+      "1",
+      "-7",
+      "0",
+      "7"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 492,
+    "pergunta": "No cálculo introdutório, determine o derivada de x²+3x.",
+    "opcoes": [
+      "x²+3",
+      "2x+3",
+      "x+3",
+      "2x"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 493,
+    "pergunta": "No cálculo introdutório, determine o limite de sen(x)/x quando x→0.",
+    "opcoes": [
+      "1",
+      "0",
+      "∞",
+      "-1"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 494,
+    "pergunta": "No cálculo introdutório, determine o derivada de cos x.",
+    "opcoes": [
+      "sen x",
+      "cos x",
+      "−cos x",
+      "−sen x"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 495,
+    "pergunta": "No cálculo introdutório, determine o limite de x+1 quando x→2.",
+    "opcoes": [
+      "2",
+      "4",
+      "3",
+      "1"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 496,
+    "pergunta": "No cálculo introdutório, determine o derivada de 4x²−1.",
+    "opcoes": [
+      "x²",
+      "8x",
+      "4x",
+      "8x−1"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  },
+  {
+    "id": 497,
+    "pergunta": "No cálculo introdutório, determine o limite de x²+2x quando x→−1.",
+    "opcoes": [
+      "-1",
+      "1",
+      "-3",
+      "3"
+    ],
+    "resposta_correta": 0,
+    "nivel": "dificil"
+  },
+  {
+    "id": 498,
+    "pergunta": "No cálculo introdutório, determine o derivada de eˣ.",
+    "opcoes": [
+      "xeˣ",
+      "1",
+      "0",
+      "eˣ"
+    ],
+    "resposta_correta": 3,
+    "nivel": "dificil"
+  },
+  {
+    "id": 499,
+    "pergunta": "No cálculo introdutório, determine o derivada de ln x.",
+    "opcoes": [
+      "x",
+      "−1/x",
+      "1/x",
+      "ln x"
+    ],
+    "resposta_correta": 2,
+    "nivel": "dificil"
+  },
+  {
+    "id": 500,
+    "pergunta": "No cálculo introdutório, determine o limite de 2ˣ quando x→0.",
+    "opcoes": [
+      "∞",
+      "1",
+      "0",
+      "2"
+    ],
+    "resposta_correta": 1,
+    "nivel": "dificil"
+  }
+]

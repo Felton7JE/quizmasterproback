@@ -62,6 +62,7 @@ public class GameService {
     private final RoomRepository roomRepository;
     private final GameQuestionRepository gameQuestionRepository;
     private final GameCategoryQuestionRepository gameCategoryQuestionRepository;
+    private final quizmaster.quiz.repository.UserQuestionHistoryRepository userQuestionHistoryRepository;
     private final quizmaster.quiz.repository.UserCategoryStatsRepository userCategoryStatsRepository;
     private final quizmaster.quiz.repository.UserItemRepository userItemRepository;
     private final SimpMessagingTemplate messagingTemplate;
@@ -84,6 +85,7 @@ public class GameService {
             GameCategoryQuestionRepository gameCategoryQuestionRepository,
             quizmaster.quiz.repository.UserCategoryStatsRepository userCategoryStatsRepository,
             quizmaster.quiz.repository.UserItemRepository userItemRepository,
+            quizmaster.quiz.repository.UserQuestionHistoryRepository userQuestionHistoryRepository,
             SimpMessagingTemplate messagingTemplate,
             PlatformTransactionManager transactionManager,
             quizmaster.quiz.services.GamificationService gamificationService,
@@ -98,6 +100,7 @@ public class GameService {
         this.gameCategoryQuestionRepository = gameCategoryQuestionRepository;
         this.userCategoryStatsRepository = userCategoryStatsRepository;
         this.userItemRepository = userItemRepository;
+        this.userQuestionHistoryRepository = userQuestionHistoryRepository;
         this.messagingTemplate = messagingTemplate;
         this.transactionTemplate = new TransactionTemplate(transactionManager);
         this.gamificationService = gamificationService;
@@ -906,15 +909,32 @@ public class GameService {
     private void generateGameQuestions(Game game, Room room) {
         int limit = room.getQuestionCount() != null ? room.getQuestionCount() : 10;
 
+        List<String> diffs = new ArrayList<>();
+        if (room.getGameMode() == GameMode.KAHOOT) {
+            diffs.add("EASY"); // Forçar fácil para Kahoot / Timer
+        } else {
+            diffs.add(room.getDifficulty().name());
+        }
+
+        List<Long> seenIds = userQuestionHistoryRepository.findAnsweredQuestionIdsByUserId(room.getHost().getId());
+
         List<RoomPlayer> playersWithCategory = room.getPlayers().stream()
                 .filter(p -> p.getAssignedCategory() != null)
                 .collect(Collectors.toList());
 
         if (playersWithCategory.isEmpty()) {
             List<String> catNames = room.getCategories().stream().map(Category::getName).collect(Collectors.toList());
-            List<Question> fallback = questionRepository.findRandomQuestions(catNames, room.getDifficulty().name());
-            if (fallback.size() > limit)
-                fallback = fallback.subList(0, limit);
+            List<Question> fallback = new ArrayList<>();
+            
+            if (seenIds.isEmpty()) {
+                fallback = questionRepository.findRandomQuestionsByDiff(catNames, diffs, org.springframework.data.domain.PageRequest.of(0, limit));
+            } else {
+                fallback = questionRepository.findUnseenRandomQuestionsByDiff(catNames, diffs, seenIds, org.springframework.data.domain.PageRequest.of(0, limit));
+                if (fallback.isEmpty()) {
+                    fallback = questionRepository.findRandomQuestionsByDiff(catNames, diffs, org.springframework.data.domain.PageRequest.of(0, limit));
+                }
+            }
+
             int idx = 0;
             for (Question q : fallback) {
                 GameQuestion gq = new GameQuestion();
@@ -931,7 +951,15 @@ public class GameService {
         int order = 0;
 
         List<String> allCatNames = room.getCategories().stream().map(Category::getName).collect(Collectors.toList());
-        List<Question> fallbackPool = questionRepository.findRandomQuestions(allCatNames, room.getDifficulty().name());
+        List<Question> fallbackPool = new ArrayList<>();
+        if (seenIds.isEmpty()) {
+            fallbackPool = questionRepository.findRandomQuestionsByDiff(allCatNames, diffs, org.springframework.data.domain.PageRequest.of(0, 50));
+        } else {
+            fallbackPool = questionRepository.findUnseenRandomQuestionsByDiff(allCatNames, diffs, seenIds, org.springframework.data.domain.PageRequest.of(0, 50));
+            if (fallbackPool.isEmpty()) {
+                fallbackPool = questionRepository.findRandomQuestionsByDiff(allCatNames, diffs, org.springframework.data.domain.PageRequest.of(0, 50));
+            }
+        }
 
         outer: while (sequence.size() < limit) {
             boolean added = false;
@@ -941,8 +969,17 @@ public class GameService {
                 Category cat = rp.getAssignedCategory();
                 if (cat == null)
                     continue;
-                List<Question> candidates = questionRepository.findRandomByCategory(cat.getId(),
-                        room.getDifficulty().name());
+                
+                List<Question> candidates;
+                if (seenIds.isEmpty()) {
+                    candidates = questionRepository.findRandomByCategoryAndDiff(cat.getId(), diffs, org.springframework.data.domain.PageRequest.of(0, 50));
+                } else {
+                    candidates = questionRepository.findUnseenByCategoryAndDiff(cat.getId(), diffs, seenIds, org.springframework.data.domain.PageRequest.of(0, 50));
+                    if (candidates.isEmpty()) {
+                        candidates = questionRepository.findRandomByCategoryAndDiff(cat.getId(), diffs, org.springframework.data.domain.PageRequest.of(0, 50));
+                    }
+                }
+
                 Question chosen = null;
                 for (Question q : candidates) {
                     if (!used.contains(q.getId())) {

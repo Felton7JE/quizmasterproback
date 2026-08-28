@@ -512,15 +512,35 @@ public class SoloService {
     }
 
     @Transactional(readOnly = true)
-    public List<QuestionResponse> getFreeModeQuestions(List<Long> seenIds, int limit) {
+    public List<QuestionResponse> getFreeModeQuestions(List<Long> seenIds, int limit, String gameMode) {
         List<Question> questions;
+        
+        List<String> diffs = null;
+        if (gameMode != null && !gameMode.isEmpty()) {
+            if (gameMode.equalsIgnoreCase("SURVIVAL")) {
+                diffs = List.of("MEDIUM", "HARD");
+            } else if (gameMode.equalsIgnoreCase("TIMED")) {
+                diffs = List.of("EASY");
+            }
+        }
+
         if (seenIds == null || seenIds.isEmpty()) {
-            questions = questionRepository.findRandomQuestionsWithLimit(PageRequest.of(0, limit));
-        } else {
-            questions = questionRepository.findRandomUnseenQuestions(seenIds, PageRequest.of(0, limit));
-            if (questions.isEmpty()) {
-                // If all questions are seen, fallback to any random question
+            if (diffs != null) {
+                questions = questionRepository.findRandomQuestionsWithLimitAndDifficulty(diffs, PageRequest.of(0, limit));
+            } else {
                 questions = questionRepository.findRandomQuestionsWithLimit(PageRequest.of(0, limit));
+            }
+        } else {
+            if (diffs != null) {
+                questions = questionRepository.findRandomUnseenQuestionsWithDifficulty(seenIds, diffs, PageRequest.of(0, limit));
+                if (questions.isEmpty()) {
+                    questions = questionRepository.findRandomQuestionsWithLimitAndDifficulty(diffs, PageRequest.of(0, limit));
+                }
+            } else {
+                questions = questionRepository.findRandomUnseenQuestions(seenIds, PageRequest.of(0, limit));
+                if (questions.isEmpty()) {
+                    questions = questionRepository.findRandomQuestionsWithLimit(PageRequest.of(0, limit));
+                }
             }
         }
 
