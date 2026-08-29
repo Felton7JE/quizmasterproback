@@ -1,0 +1,1982 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Um ciclista percorre 120 m em 20 s. Qual é a sua velocidade média?",
+    "opcoes": [
+      "6 m/s",
+      "24 m/s",
+      "0,17 m/s",
+      "140 m/s"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Um automóvel viaja a 15 m/s durante 4 s. Que distância percorre?",
+    "opcoes": [
+      "19 m",
+      "60 m",
+      "3,75 m",
+      "11 m"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Que grandeza mede a resistência de um corpo à mudança do seu movimento?",
+    "opcoes": [
+      "Energia",
+      "Inércia",
+      "Potência",
+      "Temperatura"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Uma força de 10 N actua numa massa de 2 kg. Qual é a aceleração produzida?",
+    "opcoes": [
+      "0,2 m/s²",
+      "5 m/s²",
+      "12 m/s²",
+      "20 m/s²"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Considerando g = 10 N/kg, qual é o peso de uma massa de 6 kg?",
+    "opcoes": [
+      "0,6 N",
+      "6 N",
+      "16 N",
+      "60 N"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Qual é a unidade SI da força?",
+    "opcoes": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Uma força de 20 N desloca um objecto 3 m na mesma direcção. Qual é o trabalho realizado?",
+    "opcoes": [
+      "6 J",
+      "17 J",
+      "60 J",
+      "23 J"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Qual é a energia cinética de um corpo de 2 kg que se move a 3 m/s?",
+    "opcoes": [
+      "3 J",
+      "6 J",
+      "9 J",
+      "18 J"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "A energia associada à altura de um objecto num campo gravitacional chama-se:",
+    "opcoes": [
+      "Energia térmica",
+      "Energia potencial gravítica",
+      "Energia eléctrica",
+      "Energia sonora"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Uma máquina realiza 100 J de trabalho em 5 s. Qual é a sua potência média?",
+    "opcoes": [
+      "20 W",
+      "95 W",
+      "105 W",
+      "500 W"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "Uma onda realiza 8 oscilações em 2 s. Qual é a sua frequência?",
+    "opcoes": [
+      "0,25 Hz",
+      "2 Hz",
+      "4 Hz",
+      "16 Hz"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Se a velocidade de uma onda é 10 m/s e a frequência é 2 Hz, qual é o comprimento de onda?",
+    "opcoes": [
+      "0,2 m",
+      "5 m",
+      "12 m",
+      "20 m"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Numa onda, a distância máxima em relação à posição de equilíbrio é a:",
+    "opcoes": [
+      "Frequência",
+      "Amplitude",
+      "Fase",
+      "Velocidade"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "O som é produzido principalmente por:",
+    "opcoes": [
+      "Corpos vibrantes",
+      "Corpos sem massa",
+      "Campos gravitacionais",
+      "Luz reflectida"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Que tipo de onda é uma onda sonora no ar?",
+    "opcoes": [
+      "Electromagnética transversal",
+      "Mecânica longitudinal",
+      "Electromagnética longitudinal",
+      "Mecânica transversal apenas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Qual é aproximadamente a temperatura de 0 °C na escala Kelvin?",
+    "opcoes": [
+      "0 K",
+      "100 K",
+      "273 K",
+      "373 K"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "A transferência de calor através de um sólido ocorre sobretudo por:",
+    "opcoes": [
+      "Condução",
+      "Evaporação",
+      "Reflexão",
+      "Ionização"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "A transferência de calor por movimento de um fluido chama-se:",
+    "opcoes": [
+      "Condução",
+      "Convecção",
+      "Fissão",
+      "Polarização"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "A passagem de líquido para gás à superfície chama-se:",
+    "opcoes": [
+      "Fusão",
+      "Solidificação",
+      "Evaporação",
+      "Condensação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "Durante a fusão de uma substância pura, à pressão constante, a sua temperatura:",
+    "opcoes": [
+      "Aumenta sempre",
+      "Diminui sempre",
+      "Permanece constante",
+      "Torna-se zero"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "A corrente eléctrica é medida em:",
+    "opcoes": [
+      "Volts",
+      "Ohms",
+      "Amperes",
+      "Joules"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "A tensão eléctrica é medida em:",
+    "opcoes": [
+      "Volts",
+      "Amperes",
+      "Teslas",
+      "Newtons"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Pela lei de Ohm, uma resistência de 4 Ω ligada a 12 V conduz uma corrente de:",
+    "opcoes": [
+      "0,33 A",
+      "3 A",
+      "8 A",
+      "48 A"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Em um circuito em série, a corrente eléctrica:",
+    "opcoes": [
+      "É igual em todos os componentes",
+      "É sempre zero",
+      "Aumenta após cada resistor",
+      "Só circula no maior resistor"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Um aparelho de 100 W ligado durante 10 s transforma uma energia de:",
+    "opcoes": [
+      "10 J",
+      "100 J",
+      "1000 J",
+      "10 000 J"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Qual é a unidade SI da resistência eléctrica?",
+    "opcoes": [
+      "Ohm",
+      "Volt",
+      "Ampere",
+      "Weber"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "As extremidades de um íman são chamadas:",
+    "opcoes": [
+      "Cargas",
+      "Pólos",
+      "Focos",
+      "Terminais térmicos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Pólos magnéticos iguais colocados próximos:",
+    "opcoes": [
+      "Atraem-se",
+      "Repelem-se",
+      "Desaparecem",
+      "Ficam sempre neutros"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "A agulha de uma bússola orienta-se principalmente devido ao:",
+    "opcoes": [
+      "Campo magnético terrestre",
+      "Campo eléctrico de uma lâmpada",
+      "Calor do Sol",
+      "Som ambiente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Uma corrente eléctrica pode produzir:",
+    "opcoes": [
+      "Campo magnético",
+      "Massa negativa",
+      "Vácuo perfeito",
+      "Som no espaço"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Quando a luz incide numa superfície e regressa ao mesmo meio, ocorre:",
+    "opcoes": [
+      "Reflexão",
+      "Refração",
+      "Fusão",
+      "Convecção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "A mudança de direcção da luz ao passar de um meio para outro chama-se:",
+    "opcoes": [
+      "Reflexão",
+      "Refração",
+      "Difracção apenas",
+      "Combustão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Uma lente convergente é geralmente mais espessa:",
+    "opcoes": [
+      "No centro",
+      "Nas bordas",
+      "Em toda a parte igual",
+      "Só no foco"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "A separação da luz branca nas suas cores chama-se:",
+    "opcoes": [
+      "Dispersão",
+      "Condução",
+      "Indução",
+      "Inércia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Uma região onde a luz é bloqueada por um objecto opaco forma uma:",
+    "opcoes": [
+      "Sombra",
+      "Imagem virtual apenas",
+      "Onda sonora",
+      "Carga"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "A força que atrai massas para a Terra é a:",
+    "opcoes": [
+      "Força magnética",
+      "Força gravítica",
+      "Força elástica apenas",
+      "Força nuclear forte"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Se a massa de um objecto não muda, ao levá-lo da Terra para a Lua o seu peso:",
+    "opcoes": [
+      "Aumenta muito",
+      "Diminui",
+      "Fica exactamente igual",
+      "Torna-se infinito"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "A massa de um objecto é medida, no SI, em:",
+    "opcoes": [
+      "Quilogramas",
+      "Newtons",
+      "Joules",
+      "Metros"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Num movimento circular, a força dirigida para o centro é chamada:",
+    "opcoes": [
+      "Centrípeta",
+      "Centrífuga externa",
+      "Eléctrica",
+      "Térmica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "A densidade é definida como:",
+    "opcoes": [
+      "Volume dividido pela massa",
+      "Massa dividida pelo volume",
+      "Força dividida pelo tempo",
+      "Distância dividida pelo tempo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "A pressão é a força:",
+    "opcoes": [
+      "Multiplicada pela área",
+      "Dividida pela área",
+      "Somada à área",
+      "Independente da área sempre"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "Um objecto flutua num líquido quando a força de impulsão:",
+    "opcoes": [
+      "É menor que o peso",
+      "É igual ao peso, em equilíbrio",
+      "É sempre zero",
+      "É igual à massa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "A força que se opõe ao deslizamento entre superfícies é o:",
+    "opcoes": [
+      "Atrito",
+      "Peso específico",
+      "Impulso luminoso",
+      "Calor latente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "O momento de uma força depende da força e da:",
+    "opcoes": [
+      "Distância ao eixo",
+      "Temperatura ambiente apenas",
+      "Massa do planeta apenas",
+      "Cor da superfície"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Qual destas grandezas é vectorial?",
+    "opcoes": [
+      "Massa",
+      "Tempo",
+      "Velocidade",
+      "Temperatura"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Um corpo em equilíbrio translacional tem força resultante:",
+    "opcoes": [
+      "Nula",
+      "Máxima",
+      "Sempre vertical",
+      "Sempre horizontal"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "Qual é a unidade SI da energia?",
+    "opcoes": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Hertz"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Qual é a carga eléctrica de um electrão?",
+    "opcoes": [
+      "Positiva",
+      "Negativa",
+      "Nula sempre no átomo",
+      "Dupla positiva"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "O núcleo atómico contém principalmente:",
+    "opcoes": [
+      "Electrões e fotões",
+      "Protões e neutrões",
+      "Neutrões e electrões livres",
+      "Apenas fotões"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "A luz no vácuo propaga-se aproximadamente a:",
+    "opcoes": [
+      "3,0×10^8 m/s",
+      "3,0×10^4 m/s",
+      "9,8 m/s",
+      "300 m/s"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Um fotão é um quantum de:",
+    "opcoes": [
+      "Luz ou radiação electromagnética",
+      "Massa em repouso",
+      "Som no ar",
+      "Pressão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "A unidade de frequência no SI é:",
+    "opcoes": [
+      "Hertz",
+      "Kelvin",
+      "Tesla",
+      "Coulomb"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "A aceleração mede a variação da:",
+    "opcoes": [
+      "Velocidade com o tempo",
+      "Massa com o volume",
+      "Temperatura com a área",
+      "Energia com a carga"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "O deslocamento é uma grandeza que possui:",
+    "opcoes": [
+      "Apenas valor numérico",
+      "Módulo, direcção e sentido",
+      "Só unidade de tempo",
+      "Sempre valor negativo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "Um objecto percorre 30 m em 6 s. A sua velocidade média é:",
+    "opcoes": [
+      "5 m/s",
+      "36 m/s",
+      "0,2 m/s",
+      "180 m/s"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 56,
+    "nivel": "medio",
+    "pergunta": "Qual é a unidade SI da temperatura termodinâmica?",
+    "opcoes": [
+      "Kelvin",
+      "Celsius",
+      "Fahrenheit",
+      "Joule"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 57,
+    "nivel": "medio",
+    "pergunta": "Um comboio parte do repouso e acelera a 2 m/s² durante 6 s. Qual é a velocidade final?",
+    "opcoes": [
+      "3 m/s",
+      "8 m/s",
+      "12 m/s",
+      "18 m/s"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 58,
+    "nivel": "medio",
+    "pergunta": "Um carro a 20 m/s trava com aceleração constante de -4 m/s². Quanto tempo leva a parar?",
+    "opcoes": [
+      "4 s",
+      "5 s",
+      "16 s",
+      "80 s"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 59,
+    "nivel": "medio",
+    "pergunta": "Um móvel com velocidade constante de 8 m/s percorre que distância em 2,5 s?",
+    "opcoes": [
+      "3,2 m",
+      "10,5 m",
+      "20 m",
+      "32 m"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 60,
+    "nivel": "medio",
+    "pergunta": "Uma força resultante de 18 N actua numa massa de 6 kg. A aceleração é:",
+    "opcoes": [
+      "0,33 m/s²",
+      "3 m/s²",
+      "12 m/s²",
+      "108 m/s²"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 61,
+    "nivel": "medio",
+    "pergunta": "Um bloco de 5 kg é puxado horizontalmente por 30 N; o atrito é 10 N. Qual é a aceleração?",
+    "opcoes": [
+      "2 m/s²",
+      "4 m/s²",
+      "6 m/s²",
+      "8 m/s²"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 62,
+    "nivel": "medio",
+    "pergunta": "Uma pessoa levanta verticalmente uma carga de 20 kg por 2 m, usando g=10 N/kg. O trabalho contra o peso é:",
+    "opcoes": [
+      "40 J",
+      "100 J",
+      "400 J",
+      "4000 J"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 63,
+    "nivel": "medio",
+    "pergunta": "Um corpo de 4 kg move-se a 5 m/s. A sua energia cinética é:",
+    "opcoes": [
+      "10 J",
+      "20 J",
+      "50 J",
+      "100 J"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 64,
+    "nivel": "medio",
+    "pergunta": "Uma pedra de 3 kg está a 4 m de altura, com g=10 N/kg. A energia potencial gravítica é:",
+    "opcoes": [
+      "12 J",
+      "30 J",
+      "120 J",
+      "240 J"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 65,
+    "nivel": "medio",
+    "pergunta": "Uma máquina recebe 500 J e fornece 350 J de trabalho útil. O rendimento é:",
+    "opcoes": [
+      "30%",
+      "50%",
+      "70%",
+      "85%"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 66,
+    "nivel": "medio",
+    "pergunta": "Se a velocidade de um objecto duplica, a sua energia cinética fica:",
+    "opcoes": [
+      "Duas vezes maior",
+      "Quatro vezes maior",
+      "Metade",
+      "Inalterada"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 67,
+    "nivel": "medio",
+    "pergunta": "Uma onda tem período 0,25 s. A sua frequência é:",
+    "opcoes": [
+      "0,25 Hz",
+      "2 Hz",
+      "4 Hz",
+      "25 Hz"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 68,
+    "nivel": "medio",
+    "pergunta": "Uma onda com frequência 5 Hz e comprimento de onda 2 m propaga-se a:",
+    "opcoes": [
+      "2,5 m/s",
+      "7 m/s",
+      "10 m/s",
+      "25 m/s"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 69,
+    "nivel": "medio",
+    "pergunta": "O período de uma onda de frequência 8 Hz é:",
+    "opcoes": [
+      "0,125 s",
+      "0,8 s",
+      "8 s",
+      "64 s"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 70,
+    "nivel": "medio",
+    "pergunta": "Duas ondas de mesma frequência e fase oposta encontram-se. A interferência pode ser:",
+    "opcoes": [
+      "Construtiva máxima",
+      "Destrutiva",
+      "Sempre nula antes do encontro",
+      "Somente refracção"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 71,
+    "nivel": "medio",
+    "pergunta": "Um som de frequência 50 Hz é comparado com outro de 500 Hz. O segundo tem:",
+    "opcoes": [
+      "Menor altura (tom)",
+      "Maior altura (tom)",
+      "Menor velocidade no mesmo meio",
+      "Maior amplitude necessariamente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 72,
+    "nivel": "medio",
+    "pergunta": "Quanto calor é necessário para aquecer 2 kg de água em 5 °C? Use c=4200 J/(kg·°C).",
+    "opcoes": [
+      "420 J",
+      "4200 J",
+      "42 000 J",
+      "210 000 J"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 73,
+    "nivel": "medio",
+    "pergunta": "Um material recebe 6000 J e a sua temperatura sobe 10 °C, tendo massa 2 kg. O calor específico é:",
+    "opcoes": [
+      "30 J/(kg·°C)",
+      "300 J/(kg·°C)",
+      "3000 J/(kg·°C)",
+      "120 000 J/(kg·°C)"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 74,
+    "nivel": "medio",
+    "pergunta": "A energia necessária para fundir uma massa m é calculada por:",
+    "opcoes": [
+      "Q=m/L",
+      "Q=mL",
+      "Q=L/m",
+      "Q=m+L"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 75,
+    "nivel": "medio",
+    "pergunta": "Num sistema termicamente isolado, o calor perdido pelo corpo quente é, em módulo:",
+    "opcoes": [
+      "Menor que o ganho do frio",
+      "Igual ao ganho do corpo frio",
+      "Sempre zero",
+      "Igual à massa total"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 76,
+    "nivel": "medio",
+    "pergunta": "Um gás ideal, a volume constante, é aquecido. A sua pressão:",
+    "opcoes": [
+      "Diminui necessariamente",
+      "Aumenta se a temperatura absoluta aumenta",
+      "Fica zero",
+      "Não pode mudar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 77,
+    "nivel": "medio",
+    "pergunta": "Dois resistores de 6 Ω e 3 Ω ligados em série têm resistência equivalente:",
+    "opcoes": [
+      "2 Ω",
+      "3 Ω",
+      "9 Ω",
+      "18 Ω"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 78,
+    "nivel": "medio",
+    "pergunta": "Dois resistores de 6 Ω e 3 Ω ligados em paralelo têm resistência equivalente:",
+    "opcoes": [
+      "2 Ω",
+      "3 Ω",
+      "9 Ω",
+      "18 Ω"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 79,
+    "nivel": "medio",
+    "pergunta": "Uma lâmpada de 60 W funciona 5 h. A energia consumida é:",
+    "opcoes": [
+      "12 Wh",
+      "65 Wh",
+      "300 Wh",
+      "3000 Wh"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 80,
+    "nivel": "medio",
+    "pergunta": "Uma carga de 12 C atravessa um condutor em 3 s. A corrente é:",
+    "opcoes": [
+      "0,25 A",
+      "4 A",
+      "9 A",
+      "36 A"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 81,
+    "nivel": "medio",
+    "pergunta": "A resistência de um fio metálico tende a aumentar quando:",
+    "opcoes": [
+      "A temperatura aumenta",
+      "O comprimento diminui sempre",
+      "A corrente é zero",
+      "A tensão é removida"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 82,
+    "nivel": "medio",
+    "pergunta": "Uma fonte de 24 V alimenta um resistor de 8 Ω. A potência dissipada é:",
+    "opcoes": [
+      "3 W",
+      "16 W",
+      "72 W",
+      "192 W"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 83,
+    "nivel": "medio",
+    "pergunta": "A força magnética sobre uma carga em movimento é máxima quando a velocidade é:",
+    "opcoes": [
+      "Paralela ao campo",
+      "Perpendicular ao campo",
+      "Nula",
+      "Igual à carga"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 84,
+    "nivel": "medio",
+    "pergunta": "A indução electromagnética ocorre quando há variação do:",
+    "opcoes": [
+      "Fluxo magnético",
+      "Massa do circuito",
+      "Som ambiente",
+      "Peso do íman apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 85,
+    "nivel": "medio",
+    "pergunta": "Num transformador ideal, 100 espiras no primário e 500 no secundário ligado a 20 V produzem no secundário:",
+    "opcoes": [
+      "4 V",
+      "20 V",
+      "100 V",
+      "2500 V"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 86,
+    "nivel": "medio",
+    "pergunta": "A unidade SI do campo magnético é:",
+    "opcoes": [
+      "Tesla",
+      "Coulomb",
+      "Ohm",
+      "Farad"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 87,
+    "nivel": "medio",
+    "pergunta": "Um espelho plano forma uma imagem que é:",
+    "opcoes": [
+      "Real e maior",
+      "Virtual e do mesmo tamanho",
+      "Real e invertida verticalmente",
+      "Sempre colorida"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 88,
+    "nivel": "medio",
+    "pergunta": "Um raio passa do ar para o vidro. Em geral, a sua velocidade:",
+    "opcoes": [
+      "Aumenta",
+      "Diminui",
+      "Fica infinita",
+      "Torna-se nula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 89,
+    "nivel": "medio",
+    "pergunta": "Uma lente convergente tem distância focal 0,20 m. A sua potência óptica é:",
+    "opcoes": [
+      "0,20 dioptrias",
+      "2 dioptrias",
+      "5 dioptrias",
+      "20 dioptrias"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 90,
+    "nivel": "medio",
+    "pergunta": "A reflexão interna total pode ocorrer quando a luz passa:",
+    "opcoes": [
+      "De meio mais refringente para menos refringente, com ângulo suficiente",
+      "Do ar para vidro em qualquer ângulo",
+      "Do vácuo para o ar apenas",
+      "Sempre que a luz é branca"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 91,
+    "nivel": "medio",
+    "pergunta": "A difracção é mais evidente quando a abertura é:",
+    "opcoes": [
+      "Muito maior que o comprimento de onda",
+      "Comparável ao comprimento de onda",
+      "Sempre infinita",
+      "Independente da abertura"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 92,
+    "nivel": "medio",
+    "pergunta": "A intensidade da força gravítica entre duas massas aumenta se a distância entre elas:",
+    "opcoes": [
+      "Aumentar",
+      "Diminuir",
+      "Ficar igual",
+      "For zero massa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 93,
+    "nivel": "medio",
+    "pergunta": "Um satélite em órbita circular mantém a sua rapidez, mas a velocidade muda porque muda a:",
+    "opcoes": [
+      "Massa",
+      "Direcção",
+      "Carga eléctrica",
+      "Temperatura"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 94,
+    "nivel": "medio",
+    "pergunta": "Um astronauta em queda livre orbital sente aparente ausência de peso porque:",
+    "opcoes": [
+      "Não existe gravidade",
+      "Ele e a nave têm a mesma aceleração gravitacional",
+      "A sua massa desaparece",
+      "O ar o empurra para cima"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 95,
+    "nivel": "medio",
+    "pergunta": "A aceleração gravítica na superfície de um planeta depende da massa do planeta e do seu:",
+    "opcoes": [
+      "Raio",
+      "Som",
+      "Cor",
+      "Período do relógio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 96,
+    "nivel": "medio",
+    "pergunta": "Se a distância ao centro de um planeta duplica, o campo gravítico ideal fica:",
+    "opcoes": [
+      "Duas vezes maior",
+      "Quatro vezes maior",
+      "Metade",
+      "Um quarto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 97,
+    "nivel": "medio",
+    "pergunta": "Um corpo de densidade 800 kg/m³ é colocado em água de 1000 kg/m³. Ele tende a:",
+    "opcoes": [
+      "Afundar",
+      "Flutuar parcialmente",
+      "Ficar sem peso",
+      "Evaporar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 98,
+    "nivel": "medio",
+    "pergunta": "A pressão hidrostática num líquido aumenta com:",
+    "opcoes": [
+      "A profundidade",
+      "A cor do recipiente apenas",
+      "A área da superfície apenas",
+      "A velocidade da luz"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 99,
+    "nivel": "medio",
+    "pergunta": "Um átomo neutro possui, em número, protões e:",
+    "opcoes": [
+      "Neutrões sempre iguais",
+      "Electrões iguais",
+      "Fotões iguais",
+      "Quarks apenas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 100,
+    "nivel": "medio",
+    "pergunta": "Um núcleo radioactivo tem meia-vida de 4 dias. Após 8 dias, resta:",
+    "opcoes": [
+      "1/2 da amostra",
+      "1/4 da amostra",
+      "1/8 da amostra",
+      "Toda a amostra"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 101,
+    "nivel": "medio",
+    "pergunta": "Na emissão beta menos, um neutrão transforma-se em protão e emite:",
+    "opcoes": [
+      "Um electrão",
+      "Um protão apenas",
+      "Um fotão visível apenas",
+      "Um neutrino sem electrão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 102,
+    "nivel": "medio",
+    "pergunta": "A energia de um fotão é directamente proporcional à sua:",
+    "opcoes": [
+      "Frequência",
+      "Massa clássica",
+      "Temperatura do ar",
+      "Área do espelho"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 103,
+    "nivel": "medio",
+    "pergunta": "O efeito fotoeléctrico evidencia que a luz:",
+    "opcoes": [
+      "Pode comportar-se como quanta",
+      "É sempre uma onda sonora",
+      "Não transporta energia",
+      "Tem apenas carga positiva"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 104,
+    "nivel": "medio",
+    "pergunta": "Um corpo de 2 kg sujeito a uma força constante de 10 N durante 3 s, partindo do repouso, adquire momento linear de:",
+    "opcoes": [
+      "6 kg·m/s",
+      "15 kg·m/s",
+      "30 kg·m/s",
+      "60 kg·m/s"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 105,
+    "nivel": "medio",
+    "pergunta": "Num choque perfeitamente inelástico, os corpos após o choque:",
+    "opcoes": [
+      "Ficam sempre em repouso",
+      "Movem-se juntos",
+      "Trocam toda a massa",
+      "Não conservam momento"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 106,
+    "nivel": "medio",
+    "pergunta": "A quantidade de movimento linear conserva-se quando a força externa resultante sobre o sistema é:",
+    "opcoes": [
+      "Nula",
+      "Máxima",
+      "Constante e não nula sempre",
+      "Igual ao peso de cada corpo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 107,
+    "nivel": "medio",
+    "pergunta": "A vantagem mecânica de uma alavanca ideal é a razão entre:",
+    "opcoes": [
+      "Carga e esforço",
+      "Esforço e tempo",
+      "Massa e volume",
+      "Potência e energia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 108,
+    "nivel": "medio",
+    "pergunta": "Um objecto percorre uma curva com rapidez constante. Existe aceleração porque:",
+    "opcoes": [
+      "A direcção da velocidade muda",
+      "A massa aumenta",
+      "A energia desaparece",
+      "A temperatura muda"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 109,
+    "nivel": "medio",
+    "pergunta": "A unidade de pressão equivalente a N/m² chama-se:",
+    "opcoes": [
+      "Pascal",
+      "Joule",
+      "Tesla",
+      "Hertz"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 110,
+    "nivel": "dificil",
+    "pergunta": "Um projéctil é lançado horizontalmente de uma altura de 45 m, com g=10 m/s². Ignorando o ar, o tempo de queda é:",
+    "opcoes": [
+      "1,5 s",
+      "3 s",
+      "4,5 s",
+      "9 s"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 111,
+    "nivel": "dificil",
+    "pergunta": "Um projéctil é lançado a 20 m/s com ângulo de 30°; use g=10 m/s² e despreze o ar. O alcance horizontal é aproximadamente:",
+    "opcoes": [
+      "17,3 m",
+      "20,0 m",
+      "34,6 m",
+      "40,0 m"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 112,
+    "nivel": "dificil",
+    "pergunta": "Um bloco de 4 kg sobe um plano sem atrito, partindo com 10 m/s. Use g=10 m/s². A altura máxima atingida é:",
+    "opcoes": [
+      "2,5 m",
+      "5 m",
+      "10 m",
+      "50 m"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 113,
+    "nivel": "dificil",
+    "pergunta": "Uma força variável realiza trabalho igual à área sob o gráfico força-deslocamento. Se F cresce linearmente de 0 a 20 N em 4 m, o trabalho é:",
+    "opcoes": [
+      "20 J",
+      "40 J",
+      "80 J",
+      "160 J"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 114,
+    "nivel": "dificil",
+    "pergunta": "Um corpo de 2 kg é puxado por 12 N numa superfície com atrito de 4 N. Partindo do repouso, a velocidade após 5 s é:",
+    "opcoes": [
+      "10 m/s",
+      "20 m/s",
+      "30 m/s",
+      "40 m/s"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 115,
+    "nivel": "dificil",
+    "pergunta": "Uma mola de constante 200 N/m é comprimida 0,10 m. A energia elástica armazenada é:",
+    "opcoes": [
+      "0,5 J",
+      "1 J",
+      "2 J",
+      "20 J"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 116,
+    "nivel": "dificil",
+    "pergunta": "Uma mola ideal lança uma massa de 0,5 kg. Se armazena 25 J e não há perdas, a velocidade de saída é:",
+    "opcoes": [
+      "5 m/s",
+      "10 m/s",
+      "√50 m/s",
+      "50 m/s"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 117,
+    "nivel": "dificil",
+    "pergunta": "Um motor de 2 kW eleva uma carga de 400 kg a velocidade constante, com g=10 m/s². A velocidade máxima ideal é:",
+    "opcoes": [
+      "0,2 m/s",
+      "0,5 m/s",
+      "5 m/s",
+      "20 m/s"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 118,
+    "nivel": "dificil",
+    "pergunta": "Um carro de 1000 kg trava de 20 m/s até parar. O trabalho resultante dos travões e resistências é:",
+    "opcoes": [
+      "-20 kJ",
+      "-100 kJ",
+      "-200 kJ",
+      "+200 kJ"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 119,
+    "nivel": "dificil",
+    "pergunta": "Uma força de 50 N actua durante 0,2 s. O impulso, na direcção da força, é:",
+    "opcoes": [
+      "0,1 N·s",
+      "10 N·s",
+      "50,2 N·s",
+      "250 N·s"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 120,
+    "nivel": "dificil",
+    "pergunta": "Duas forças perpendiculares de 6 N e 8 N actuam num ponto. O módulo da resultante é:",
+    "opcoes": [
+      "2 N",
+      "7 N",
+      "10 N",
+      "14 N"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 121,
+    "nivel": "dificil",
+    "pergunta": "Um disco gira a 120 rotações por minuto. A frequência e a velocidade angular são:",
+    "opcoes": [
+      "2 Hz e 4π rad/s",
+      "1 Hz e 2π rad/s",
+      "120 Hz e 120 rad/s",
+      "0,5 Hz e π rad/s"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 122,
+    "nivel": "dificil",
+    "pergunta": "Uma massa de 2 kg gira num círculo de raio 0,5 m com rapidez 4 m/s. A força centrípeta é:",
+    "opcoes": [
+      "4 N",
+      "8 N",
+      "16 N",
+      "32 N"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 123,
+    "nivel": "dificil",
+    "pergunta": "Um bloco de 10 kg está num plano inclinado de 30°, sem atrito, com g=10 m/s². A componente do peso ao longo do plano é:",
+    "opcoes": [
+      "5 N",
+      "50 N",
+      "86,6 N",
+      "100 N"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 124,
+    "nivel": "dificil",
+    "pergunta": "Um objecto de 3 kg está ligado a uma corda sobre polia ideal a uma massa suspensa de 2 kg. Partindo do repouso, a aceleração do sistema é (g=10 m/s²):",
+    "opcoes": [
+      "2 m/s²",
+      "4 m/s²",
+      "6 m/s²",
+      "10 m/s²"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 125,
+    "nivel": "dificil",
+    "pergunta": "Um gás ideal sofre expansão isotérmica. Se o volume duplica, a pressão final é:",
+    "opcoes": [
+      "O dobro",
+      "A metade",
+      "Quatro vezes maior",
+      "Inalterada"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 126,
+    "nivel": "dificil",
+    "pergunta": "Um gás ideal tem pressão constante. Se a temperatura absoluta passa de 300 K para 450 K, o volume:",
+    "opcoes": [
+      "Diminui para 2/3",
+      "Aumenta 1,5 vezes",
+      "Aumenta 150 m³",
+      "Fica igual"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 127,
+    "nivel": "dificil",
+    "pergunta": "Uma máquina térmica recebe 2000 J da fonte quente e rejeita 1200 J. O rendimento é:",
+    "opcoes": [
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 128,
+    "nivel": "dificil",
+    "pergunta": "O rendimento máximo de Carnot entre 600 K e 300 K é:",
+    "opcoes": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 129,
+    "nivel": "dificil",
+    "pergunta": "Um quilograma de água recebe 84 000 J. Com c=4200 J/(kg·°C), a variação de temperatura é:",
+    "opcoes": [
+      "5 °C",
+      "20 °C",
+      "84 °C",
+      "352 800 °C"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 130,
+    "nivel": "dificil",
+    "pergunta": "Duas fontes sonoras coerentes produzem interferência construtiva num ponto quando a diferença de caminhos é:",
+    "opcoes": [
+      "λ/4",
+      "λ/2",
+      "Um múltiplo inteiro de λ",
+      "Sempre 3λ/4"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 131,
+    "nivel": "dificil",
+    "pergunta": "Uma corda fixa nas duas extremidades tem comprimento 1,2 m e velocidade de onda 240 m/s. A frequência fundamental é:",
+    "opcoes": [
+      "50 Hz",
+      "100 Hz",
+      "200 Hz",
+      "288 Hz"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 132,
+    "nivel": "dificil",
+    "pergunta": "Uma fonte sonora de 680 Hz aproxima-se de um observador parado a 34 m/s; a velocidade do som é 340 m/s. A frequência observada é:",
+    "opcoes": [
+      "612 Hz",
+      "680 Hz",
+      "756 Hz",
+      "1020 Hz"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 133,
+    "nivel": "dificil",
+    "pergunta": "A intensidade de uma onda esférica ideal a 10 m é I. A 20 m, sem absorção, é:",
+    "opcoes": [
+      "4I",
+      "2I",
+      "I/2",
+      "I/4"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 134,
+    "nivel": "dificil",
+    "pergunta": "Num tubo aberto nas duas extremidades, de comprimento 0,85 m, com velocidade do som 340 m/s, a frequência fundamental é:",
+    "opcoes": [
+      "100 Hz",
+      "200 Hz",
+      "340 Hz",
+      "400 Hz"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 135,
+    "nivel": "dificil",
+    "pergunta": "Uma carga de 2 μC está a 0,3 m de outra carga de 3 μC. Com k=9×10^9 N·m²/C², a força eléctrica é:",
+    "opcoes": [
+      "0,06 N",
+      "0,6 N",
+      "6 N",
+      "60 N"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 136,
+    "nivel": "dificil",
+    "pergunta": "O campo eléctrico criado por uma carga puntiforme de 4 μC a 2 m, com k=9×10^9, vale:",
+    "opcoes": [
+      "9×10^3 N/C",
+      "1,8×10^4 N/C",
+      "9×10^4 N/C",
+      "3,6×10^4 N/C"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 137,
+    "nivel": "dificil",
+    "pergunta": "Uma carga de 5 μC desloca-se por uma diferença de potencial de 200 V. O trabalho do campo, em módulo, é:",
+    "opcoes": [
+      "1×10^-3 J",
+      "1×10^-2 J",
+      "1×10^3 J",
+      "4×10^-4 J"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 138,
+    "nivel": "dificil",
+    "pergunta": "Um capacitor de 10 μF é ligado a 100 V. A energia armazenada é:",
+    "opcoes": [
+      "0,005 J",
+      "0,05 J",
+      "0,5 J",
+      "5 J"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 139,
+    "nivel": "dificil",
+    "pergunta": "Resistores de 2 Ω e 4 Ω estão em paralelo ligados a 12 V. A corrente total fornecida é:",
+    "opcoes": [
+      "3 A",
+      "6 A",
+      "9 A",
+      "12 A"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 140,
+    "nivel": "dificil",
+    "pergunta": "Uma bateria de força electromotriz 12 V e resistência interna 1 Ω alimenta um resistor externo de 5 Ω. A corrente é:",
+    "opcoes": [
+      "1 A",
+      "2 A",
+      "2,4 A",
+      "6 A"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 141,
+    "nivel": "dificil",
+    "pergunta": "Um fio com corrente 3 A está num campo de 0,4 T, perpendicular ao campo, e tem 0,5 m. A força magnética é:",
+    "opcoes": [
+      "0,06 N",
+      "0,6 N",
+      "1,2 N",
+      "6 N"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 142,
+    "nivel": "dificil",
+    "pergunta": "Uma espira de 200 voltas e área 0,01 m² tem o campo perpendicular reduzido de 0,5 T a zero em 0,1 s. A fem média induzida é:",
+    "opcoes": [
+      "1 V",
+      "5 V",
+      "10 V",
+      "100 V"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 143,
+    "nivel": "dificil",
+    "pergunta": "Um transformador ideal reduz 240 V para 24 V. Se a corrente secundária é 5 A, a corrente primária é:",
+    "opcoes": [
+      "0,05 A",
+      "0,5 A",
+      "5 A",
+      "50 A"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 144,
+    "nivel": "dificil",
+    "pergunta": "Uma barra condutora de 0,4 m move-se a 5 m/s perpendicularmente a B=0,2 T. A fem de movimento é:",
+    "opcoes": [
+      "0,04 V",
+      "0,4 V",
+      "2,5 V",
+      "4 V"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 145,
+    "nivel": "dificil",
+    "pergunta": "Um objecto está a 30 cm de uma lente convergente de distância focal 20 cm. A distância da imagem é:",
+    "opcoes": [
+      "12 cm",
+      "30 cm",
+      "60 cm",
+      "120 cm"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 146,
+    "nivel": "dificil",
+    "pergunta": "Um objecto está a 30 cm de uma lente convergente que forma uma imagem a 60 cm. O aumento transversal, em módulo, é:",
+    "opcoes": [
+      "0,5",
+      "1",
+      "2",
+      "3"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 147,
+    "nivel": "dificil",
+    "pergunta": "Um espelho côncavo tem raio de curvatura 40 cm. A distância focal é:",
+    "opcoes": [
+      "10 cm",
+      "20 cm",
+      "40 cm",
+      "80 cm"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 148,
+    "nivel": "dificil",
+    "pergunta": "A luz passa do vidro (n=1,5) para o ar (n=1,0). O ângulo crítico, aproximadamente, é:",
+    "opcoes": [
+      "19,5°",
+      "41,8°",
+      "48,6°",
+      "60,0°"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 149,
+    "nivel": "dificil",
+    "pergunta": "Uma rede de difracção tem 500 linhas por milímetro. Para luz de 600 nm, o primeiro máximo ocorre a cerca de:",
+    "opcoes": [
+      "8,6°",
+      "17,5°",
+      "30°",
+      "60°"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 150,
+    "nivel": "dificil",
+    "pergunta": "Pela lei de Stefan-Boltzmann, se a temperatura absoluta de um corpo negro duplica, a potência radiada por área fica:",
+    "opcoes": [
+      "2 vezes maior",
+      "4 vezes maior",
+      "8 vezes maior",
+      "16 vezes maior"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 151,
+    "nivel": "dificil",
+    "pergunta": "Um satélite move-se em órbita circular de raio r. Se o raio orbital passa a 4r, o período, pela terceira lei de Kepler, fica:",
+    "opcoes": [
+      "2 vezes maior",
+      "4 vezes maior",
+      "8 vezes maior",
+      "16 vezes maior"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 152,
+    "nivel": "dificil",
+    "pergunta": "A velocidade de escape de um planeta de massa M e raio R é proporcional a:",
+    "opcoes": [
+      "M/R",
+      "√(M/R)",
+      "M·R",
+      "R/M"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 153,
+    "nivel": "dificil",
+    "pergunta": "Dois satélites orbitam o mesmo planeta. Se o raio do segundo é 9 vezes o do primeiro, a razão dos períodos T2/T1 é:",
+    "opcoes": [
+      "3",
+      "9",
+      "27",
+      "81"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 154,
+    "nivel": "dificil",
+    "pergunta": "Um planeta tem massa 4 vezes maior e raio 2 vezes maior que a Terra. A aceleração gravítica à superfície é:",
+    "opcoes": [
+      "g/4",
+      "g/2",
+      "g",
+      "2g"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 155,
+    "nivel": "dificil",
+    "pergunta": "Um fotão de frequência 6×10^14 Hz tem energia aproximada h f, com h=6,63×10^-34 J·s:",
+    "opcoes": [
+      "1,1×10^-19 J",
+      "4,0×10^-19 J",
+      "9,0×10^-20 J",
+      "3,9×10^-14 J"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 156,
+    "nivel": "dificil",
+    "pergunta": "Um electrão acelerado por 150 V adquire energia cinética de:",
+    "opcoes": [
+      "150 J",
+      "150 eV",
+      "1500 eV",
+      "0,15 eV"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 157,
+    "nivel": "dificil",
+    "pergunta": "A energia de repouso de um corpo de massa 2 g, usando c=3×10^8 m/s, é:",
+    "opcoes": [
+      "1,8×10^5 J",
+      "1,8×10^14 J",
+      "6×10^5 J",
+      "9×10^14 J"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 158,
+    "nivel": "dificil",
+    "pergunta": "Após três meias-vidas de um radionuclídeo, a fracção de núcleos não decaídos é:",
+    "opcoes": [
+      "1/3",
+      "1/6",
+      "1/8",
+      "3/4"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 159,
+    "nivel": "dificil",
+    "pergunta": "No modelo de Bohr, ao passar para uma órbita de maior energia, o electrão:",
+    "opcoes": [
+      "Emite um fotão",
+      "Absorve energia",
+      "Perde carga",
+      "Funde-se com o núcleo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 160,
+    "nivel": "dificil",
+    "pergunta": "A relação de de Broglie para uma partícula de momento p estabelece que o comprimento de onda é:",
+    "opcoes": [
+      "λ=hp",
+      "λ=h/p",
+      "λ=p/h",
+      "λ=hc/p²"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 161,
+    "nivel": "dificil",
+    "pergunta": "Num efeito fotoeléctrico, aumentar a frequência da luz acima da frequência limite aumenta principalmente:",
+    "opcoes": [
+      "A energia cinética máxima dos electrões",
+      "A função trabalho do metal",
+      "A carga do fotão",
+      "A massa do electrão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 162,
+    "nivel": "dificil",
+    "pergunta": "A relatividade especial prevê que, para um objecto em movimento a velocidades próximas de c, o tempo próprio medido pelo objecto é:",
+    "opcoes": [
+      "Maior que o tempo de qualquer observador",
+      "Menor que o intervalo coordenado correspondente",
+      "Sempre zero",
+      "Independente da velocidade"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 163,
+    "nivel": "dificil",
+    "pergunta": "Um corpo em equilíbrio estático sob três forças coplanares não paralelas deve ter as forças:",
+    "opcoes": [
+      "Com resultante nula",
+      "Todas iguais em módulo obrigatoriamente",
+      "Todas verticais",
+      "Sem momentos nulos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 164,
+    "nivel": "dificil",
+    "pergunta": "Para um escoamento incompressível ideal, se a área de um tubo diminui, a velocidade do fluido:",
+    "opcoes": [
+      "Diminui",
+      "Aumenta",
+      "Fica zero",
+      "Não pode ser determinada nunca"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 165,
+    "nivel": "medio",
+    "pergunta": "Na equação de Bernoulli, num mesmo nível e sem perdas, maior velocidade do fluido corresponde a:",
+    "opcoes": [
+      "Maior pressão estática",
+      "Menor pressão estática",
+      "Pressão sempre zero",
+      "Maior densidade necessariamente"
+    ],
+    "resposta_correta": 1
+  }
+]

@@ -25,14 +25,17 @@ import quizmaster.quiz.repository.SeasonRepository;
 import quizmaster.quiz.repository.SeasonRewardRepository;
 import quizmaster.quiz.enums.RewardType;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.jdbc.core.JdbcTemplate;
 import java.io.InputStream;
 
 
@@ -47,6 +50,7 @@ public class DataInitializer implements CommandLineRunner {
     private final TitleRepository titleRepo;
     private final SeasonRepository seasonRepo;
     private final SeasonRewardRepository seasonRewardRepo;
+    private final JdbcTemplate jdbcTemplate;
 
     @Override
     @Transactional
@@ -83,7 +87,20 @@ public class DataInitializer implements CommandLineRunner {
     }
 
     private void initCategories() {
-        if (categoryRepo.count() > 0) return;
+        if (categoryRepo.count() > 0) {
+            // Se já existirem, garantimos apenas que as novas disciplinas (BIOLOGY, PHYSICS, CHEMISTRY) sejam adicionadas
+            List<Category> all = categoryRepo.findAll();
+            Set<String> existing = all.stream().map(Category::getName).collect(Collectors.toSet());
+            List<Category> newCats = new ArrayList<>();
+            if (!existing.contains("BIOLOGY")) newCats.add(new Category("BIOLOGY", "Biologia", "Questões de biologia"));
+            if (!existing.contains("PHYSICS")) newCats.add(new Category("PHYSICS", "Física", "Questões de física"));
+            if (!existing.contains("CHEMISTRY")) newCats.add(new Category("CHEMISTRY", "Química", "Questões de química"));
+            if (!newCats.isEmpty()) {
+                categoryRepo.saveAll(newCats);
+            }
+            return;
+        }
+        
         List<Category> categories = List.of(
                 new Category("MATH", "Matemática", "Questões de matemática"),
                 new Category("PORTUGUESE", "Português", "Questões de língua portuguesa"),
@@ -92,12 +109,26 @@ public class DataInitializer implements CommandLineRunner {
                 new Category("SCIENCE", "Ciências", "Questões de ciências"),
                 new Category("ENGLISH", "Inglês", "Questões de inglês"),
                 new Category("MIXED", "Misto", "Questões variadas"),
-                new Category("POP_CULTURE", "Cultura Pop", "Cinema, TV e Cultura Pop")
+                new Category("POP_CULTURE", "Cultura Pop", "Cinema, TV e Cultura Pop"),
+                new Category("BIOLOGY", "Biologia", "Questões de biologia"),
+                new Category("PHYSICS", "Física", "Questões de física"),
+                new Category("CHEMISTRY", "Química", "Questões de química")
         );
         categoryRepo.saveAll(categories);
     }
 
     private void initQuestions() {
+        // ATENÇÃO: Código temporário para limpar as questões antigas e inserir as novas dos JSONs revisados!
+        System.out.println("TRUNCATING OLD QUESTION TABLES...");
+        jdbcTemplate.execute("SET FOREIGN_KEY_CHECKS = 0;");
+        jdbcTemplate.execute("TRUNCATE TABLE user_question_history;");
+        jdbcTemplate.execute("TRUNCATE TABLE game_question;");
+        jdbcTemplate.execute("TRUNCATE TABLE game_category_question;");
+        jdbcTemplate.execute("TRUNCATE TABLE answer;");
+        jdbcTemplate.execute("TRUNCATE TABLE questions;");
+        jdbcTemplate.execute("SET FOREIGN_KEY_CHECKS = 1;");
+        System.out.println("OLD QUESTIONS TRUNCATED!");
+
         if (questionRepo.count() > 2000) return;
 
         // Mapear categorias pelo nome para fácil acesso
@@ -187,12 +218,15 @@ public class DataInitializer implements CommandLineRunner {
 
         System.out.println("Loading JSON questions...");
         ObjectMapper mapper = new ObjectMapper();
-        loadQuestionsFromJson("questoes/portugues_500_questoes.json", "PORTUGUESE", catMap, mapper);
-        loadQuestionsFromJson("questoes/matematica_500_questoes.json", "MATH", catMap, mapper);
-        loadQuestionsFromJson("questoes/historia_500_questoes.json", "HISTORY", catMap, mapper);
-        loadQuestionsFromJson("questoes/geografia_500_questoes.json", "GEOGRAPHY", catMap, mapper);
-        loadQuestionsFromJson("questoes/ingles_500_questoes.json", "ENGLISH", catMap, mapper);
-        loadQuestionsFromJson("questoes/cultura_pop_500_questoes.json", "POP_CULTURE", catMap, mapper);
+        loadQuestionsFromJson("questoes/portugues_revisado.json", "PORTUGUESE", catMap, mapper);
+        loadQuestionsFromJson("questoes/matematica_revisado.json", "MATH", catMap, mapper);
+        loadQuestionsFromJson("questoes/historia_revisado.json", "HISTORY", catMap, mapper);
+        loadQuestionsFromJson("questoes/geografia_revisado.json", "GEOGRAPHY", catMap, mapper);
+        loadQuestionsFromJson("questoes/ingles_revisado.json", "ENGLISH", catMap, mapper);
+        loadQuestionsFromJson("questoes/cultura_pop_revisado.json", "POP_CULTURE", catMap, mapper);
+        loadQuestionsFromJson("questoes/biologia_revisado.json", "BIOLOGY", catMap, mapper);
+        loadQuestionsFromJson("questoes/fisica_revisado.json", "PHYSICS", catMap, mapper);
+        loadQuestionsFromJson("questoes/quimica_revisado.json", "CHEMISTRY", catMap, mapper);
     }
 
     private void loadQuestionsFromJson(String filePath, String categoryName, Map<String, Category> catMap, ObjectMapper mapper) {

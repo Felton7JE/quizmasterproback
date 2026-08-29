@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Quem dirigiu o filme Titanic de 1997?",
+    "opcoes": [
+      "Peter Jackson",
+      "James Cameron",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Em que ambiente se passa principalmente O Rei Leão?",
+    "opcoes": [
+      "Nova Iorque",
+      "Londres",
+      "A savana africana",
+      "Paris"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do brinquedo cowboy de Toy Story?",
+    "opcoes": [
+      "Buzz",
+      "Andy",
+      "Slinky",
+      "Woody"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Que actriz interpreta Hermione Granger nos filmes Harry Potter?",
+    "opcoes": [
+      "Emma Watson",
+      "Keira Knightley",
+      "Natalie Portman",
+      "Saoirse Ronan"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Qual filme venceu o Óscar de Melhor Filme em 2020?",
+    "opcoes": [
+      "Era uma vez em... Hollywood",
+      "Parasitas",
+      "1917",
+      "Coringa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Quem interpreta Jack Sparrow?",
+    "opcoes": [
+      "Brad Pitt",
+      "Hugh Jackman",
+      "Johnny Depp",
+      "Orlando Bloom"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Qual é o planeta natal do Superman?",
+    "opcoes": [
+      "Vulcano",
+      "Tatooine",
+      "Asgard",
+      "Krypton"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Em Matrix, que pílula Neo escolhe?",
+    "opcoes": [
+      "A vermelha",
+      "A azul",
+      "A verde",
+      "A preta"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do leão protagonista de O Rei Leão?",
+    "opcoes": [
+      "Timon",
+      "Simba",
+      "Mufasa",
+      "Scar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Em Frozen, como se chama a irmã de Elsa?",
+    "opcoes": [
+      "Kristoff",
+      "Sven",
+      "Anna",
+      "Olaf"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "Qual estúdio criou o filme Spirited Away?",
+    "opcoes": [
+      "Pixar",
+      "DreamWorks",
+      "Laika",
+      "Studio Ghibli"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Quem interpretou o personagem Coringa em The Dark Knight?",
+    "opcoes": [
+      "Heath Ledger",
+      "Jared Leto",
+      "Joaquin Phoenix",
+      "Jack Nicholson"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Qual é o título original de À Procura de Nemo?",
+    "opcoes": [
+      "Nemo Quest",
+      "Finding Nemo",
+      "Finding Dory",
+      "The Sea Nemo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "Em Star Wars, quem é o pai de Luke Skywalker?",
+    "opcoes": [
+      "Yoda",
+      "Han Solo",
+      "Darth Vader",
+      "Obi-Wan Kenobi"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Qual actriz protagoniza a série de filmes Jogos da Fome como Katniss?",
+    "opcoes": [
+      "Emma Stone",
+      "Anne Hathaway",
+      "Kristen Stewart",
+      "Jennifer Lawrence"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do ogre protagonista de Shrek?",
+    "opcoes": [
+      "Shrek",
+      "Fiona",
+      "Farquaad",
+      "Donkey"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "Que animal é Dumbo?",
+    "opcoes": [
+      "Cavalo",
+      "Elefante",
+      "Rato",
+      "Leão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "Qual filme apresenta a frase “May the Force be with you”?",
+    "opcoes": [
+      "Rocky",
+      "Alien",
+      "Star Wars",
+      "Avatar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "Quem realizou Pulp Fiction?",
+    "opcoes": [
+      "Christopher Nolan",
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Quentin Tarantino"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da princesa de A Pequena Sereia?",
+    "opcoes": [
+      "Ariel",
+      "Belle",
+      "Jasmine",
+      "Mulan"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "Em Avatar, os habitantes azuis chamam-se como?",
+    "opcoes": [
+      "Pandorianos",
+      "Na’vi",
+      "Klingons",
+      "Ewoks"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "Qual foi o primeiro longa-metragem de animação da Disney?",
+    "opcoes": [
+      "Fantasia",
+      "Cinderela",
+      "Branca de Neve e os Sete Anões",
+      "Pinóquio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Quem interpreta o protagonista de Forrest Gump?",
+    "opcoes": [
+      "Robin Williams",
+      "Matt Damon",
+      "Tom Cruise",
+      "Tom Hanks"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Em O Senhor dos Anéis, que objecto Frodo deve destruir?",
+    "opcoes": [
+      "O Um Anel",
+      "A Pedra Filosofal",
+      "A Coroa de Gondor",
+      "A Espada Andúril"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Qual filme de 1999 acompanha um empregado chamado Neo?",
+    "opcoes": [
+      "American Pie",
+      "The Matrix",
+      "Clube da Luta",
+      "O Sexto Sentido"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Que actriz interpreta a Mulher-Maravilha no filme de 2017?",
+    "opcoes": [
+      "Scarlett Johansson",
+      "Margot Robbie",
+      "Gal Gadot",
+      "Brie Larson"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do robô de WALL-E?",
+    "opcoes": [
+      "EVE",
+      "AUTO",
+      "MO",
+      "WALL-E"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Em Mulan, para que exército Mulan se disfarça?",
+    "opcoes": [
+      "Exército imperial chinês",
+      "Exército romano",
+      "Guarda de Agrabah",
+      "Marinha britânica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "Qual filme de animação tem os personagens Joy e Sadness?",
+    "opcoes": [
+      "Soul",
+      "Inside Out",
+      "Up",
+      "Coco"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Quem interpreta o agente Ethan Hunt em Missão: Impossível?",
+    "opcoes": [
+      "Denzel Washington",
+      "Will Smith",
+      "Tom Cruise",
+      "Keanu Reeves"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Em Rocky, qual é o desporto do protagonista?",
+    "opcoes": [
+      "Futebol",
+      "Basquetebol",
+      "Ténis",
+      "Boxe"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do hotel em The Shining?",
+    "opcoes": [
+      "Overlook Hotel",
+      "Bates Motel",
+      "Grand Budapest",
+      "Hotel California"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Quem dirigiu E.T. the Extra-Terrestrial?",
+    "opcoes": [
+      "Robert Zemeckis",
+      "Steven Spielberg",
+      "George Lucas",
+      "Tim Burton"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "Em O Mágico de Oz, que estrada Dorothy segue?",
+    "opcoes": [
+      "Estrada de madeira",
+      "Estrada de cristal",
+      "Estrada de tijolos amarelos",
+      "Estrada de prata"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da protagonista de Kill Bill?",
+    "opcoes": [
+      "A Raposa",
+      "Mia Wallace",
+      "Beatrix Kiddo",
+      "A Noiva"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "Que filme sul-coreano venceu a Palma de Ouro em 2019?",
+    "opcoes": [
+      "Parasitas",
+      "Oldboy",
+      "Train to Busan",
+      "Minari"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Em Coco, qual é o instrumento de Miguel?",
+    "opcoes": [
+      "Bateria",
+      "Guitarra",
+      "Violino",
+      "Piano"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "Qual filme acompanha o tubarão chamado Bruce?",
+    "opcoes": [
+      "Shark Tale",
+      "Moana",
+      "À Procura de Nemo",
+      "Jaws"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Quem interpreta Neo em Matrix?",
+    "opcoes": [
+      "Laurence Fishburne",
+      "Hugo Weaving",
+      "Christian Bale",
+      "Keanu Reeves"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da nave de Alien?",
+    "opcoes": [
+      "Nostromo",
+      "Serenity",
+      "Millennium Falcon",
+      "Enterprise"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "Em Gladiador, qual é o nome do general interpretado por Russell Crowe?",
+    "opcoes": [
+      "Graco",
+      "Máximo",
+      "Cómodo",
+      "Cômodo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "Qual filme de Christopher Nolan trata de sonhos dentro de sonhos?",
+    "opcoes": [
+      "Dunkirk",
+      "Memento",
+      "A Origem",
+      "Tenet"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "Que personagem diz “Eu sou o teu pai” em Star Wars?",
+    "opcoes": [
+      "Luke Skywalker",
+      "Yoda",
+      "Han Solo",
+      "Darth Vader"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "Qual é a cidade natal de Batman?",
+    "opcoes": [
+      "Gotham City",
+      "Metropolis",
+      "Central City",
+      "Star City"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Em O Pianista, qual é a nacionalidade do pianista Władysław Szpilman?",
+    "opcoes": [
+      "Austríaca",
+      "Polaca",
+      "Alemã",
+      "Francesa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Qual filme tem um parque com dinossauros clonados?",
+    "opcoes": [
+      "Godzilla",
+      "O Mundo Perdido",
+      "Jurassic Park",
+      "King Kong"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "Quem realiza O Grande Hotel Budapeste?",
+    "opcoes": [
+      "David Fincher",
+      "Guillermo del Toro",
+      "Alfonso Cuarón",
+      "Wes Anderson"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Que actriz interpreta Furiosa em Mad Max: Estrada da Fúria?",
+    "opcoes": [
+      "Charlize Theron",
+      "Cate Blanchett",
+      "Emily Blunt",
+      "Uma Thurman"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "Em A Viagem de Chihiro, qual é o nome da protagonista?",
+    "opcoes": [
+      "San",
+      "Chihiro",
+      "Satsuki",
+      "Kiki"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do compositor de muitos filmes de Ennio Morricone?",
+    "opcoes": [
+      "John Williams",
+      "Danny Elfman",
+      "Ennio Morricone",
+      "Hans Zimmer"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Que filme de 1941 apresenta o magnata Charles Foster Kane?",
+    "opcoes": [
+      "Casablanca",
+      "Vertigo",
+      "Sunset Boulevard",
+      "Citizen Kane"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "Qual é a profissão de Amélie Poulain?",
+    "opcoes": [
+      "Empregada de café",
+      "Médica",
+      "Advogada",
+      "Pilota"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "Em Pantera Negra, Wakanda é conhecida principalmente por qual recurso?",
+    "opcoes": [
+      "Energon",
+      "Vibranium",
+      "Kryptonita",
+      "Adamantium"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "Qual foi o primeiro filme do Universo Cinematográfico Marvel?",
+    "opcoes": [
+      "Thor",
+      "Os Vingadores",
+      "Homem de Ferro",
+      "O Incrível Hulk"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "Quem realizou A Lista de Schindler?",
+    "opcoes": [
+      "Roman Polanski",
+      "Clint Eastwood",
+      "Sam Mendes",
+      "Steven Spielberg"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 56,
+    "nivel": "facil",
+    "pergunta": "Em O Silêncio dos Inocentes, qual é o nome do assassino preso?",
+    "opcoes": [
+      "Hannibal Lecter",
+      "Norman Bates",
+      "John Doe",
+      "Patrick Bateman"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 57,
+    "nivel": "facil",
+    "pergunta": "Que filme de animação acompanha Carl Fredricksen?",
+    "opcoes": [
+      "O Bom Dinossauro",
+      "Up",
+      "Bolt",
+      "Ratatouille"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 58,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do reino de Elsa em Frozen?",
+    "opcoes": [
+      "Agraba",
+      "Genovia",
+      "Arendelle",
+      "Corona"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 59,
+    "nivel": "facil",
+    "pergunta": "Quem interpreta a personagem Furiosa em Furiosa: Uma Saga Mad Max?",
+    "opcoes": [
+      "Florence Pugh",
+      "Zendaya",
+      "Alicia Vikander",
+      "Anya Taylor-Joy"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 60,
+    "nivel": "facil",
+    "pergunta": "Qual filme tem a personagem Dorothy Gale?",
+    "opcoes": [
+      "O Mágico de Oz",
+      "Mary Poppins",
+      "Matilda",
+      "Coraline"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 61,
+    "nivel": "facil",
+    "pergunta": "Em O Exterminador do Futuro, quem diz “I’ll be back”?",
+    "opcoes": [
+      "T-1000",
+      "T-800",
+      "John Connor",
+      "Kyle Reese"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 62,
+    "nivel": "facil",
+    "pergunta": "Qual é o género principal de O Bebé de Rosemary?",
+    "opcoes": [
+      "Western",
+      "Musical",
+      "Terror",
+      "Comédia"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 63,
+    "nivel": "facil",
+    "pergunta": "Que realizador fez a trilogia O Senhor dos Anéis?",
+    "opcoes": [
+      "James Cameron",
+      "George Miller",
+      "Joe Russo",
+      "Peter Jackson"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 64,
+    "nivel": "facil",
+    "pergunta": "Em Ratatouille, que animal cozinha?",
+    "opcoes": [
+      "Rato",
+      "Gato",
+      "Cão",
+      "Doninha"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 65,
+    "nivel": "facil",
+    "pergunta": "Qual filme vencedor do Óscar de Melhor Filme é falado maioritariamente em coreano?",
+    "opcoes": [
+      "Argo",
+      "Parasitas",
+      "Moonlight",
+      "O Artista"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 66,
+    "nivel": "facil",
+    "pergunta": "Quem compôs a banda sonora de Star Wars?",
+    "opcoes": [
+      "Alexandre Desplat",
+      "Ryuichi Sakamoto",
+      "John Williams",
+      "Howard Shore"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 67,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da protagonista de Alien?",
+    "opcoes": [
+      "Sarah Connor",
+      "Laurie Strode",
+      "Clarice Starling",
+      "Ellen Ripley"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 68,
+    "nivel": "facil",
+    "pergunta": "Em O Labirinto do Fauno, qual é a língua principal do filme?",
+    "opcoes": [
+      "Espanhol",
+      "Italiano",
+      "Catalão",
+      "Francês"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 69,
+    "nivel": "facil",
+    "pergunta": "Que filme de 1954 foi realizado por Alfred Hitchcock e passa em São Francisco?",
+    "opcoes": [
+      "North by Northwest",
+      "Vertigo",
+      "Psycho",
+      "Rebecca"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 70,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do protagonista de Cidade de Deus?",
+    "opcoes": [
+      "Mané Galinha",
+      "Dadinho",
+      "Buscapé",
+      "Zé Pequeno"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 71,
+    "nivel": "facil",
+    "pergunta": "Em Os Incríveis, qual é o apelido de Helen Parr?",
+    "opcoes": [
+      "Edna Girl",
+      "Violet Woman",
+      "Dash Girl",
+      "Elastigirl"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 72,
+    "nivel": "facil",
+    "pergunta": "Que filme apresenta a personagem Mia Wallace?",
+    "opcoes": [
+      "Pulp Fiction",
+      "Drive",
+      "Heat",
+      "Kill Bill"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 73,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do vilão principal de O Rei Leão?",
+    "opcoes": [
+      "Rafiki",
+      "Scar",
+      "Mufasa",
+      "Zazu"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 74,
+    "nivel": "facil",
+    "pergunta": "Quem realizou O Fabuloso Destino de Amélie Poulain?",
+    "opcoes": [
+      "François Truffaut",
+      "Bong Joon-ho",
+      "Jean-Pierre Jeunet",
+      "Luc Besson"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 75,
+    "nivel": "facil",
+    "pergunta": "Em A Viagem de Chihiro, os pais de Chihiro são transformados em quê?",
+    "opcoes": [
+      "Peixes",
+      "Ratos",
+      "Corvos",
+      "Porcos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 76,
+    "nivel": "facil",
+    "pergunta": "Qual filme de 1972 foi realizado por Francis Ford Coppola?",
+    "opcoes": [
+      "O Padrinho",
+      "Taxi Driver",
+      "Serpico",
+      "O Exorcista"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 77,
+    "nivel": "facil",
+    "pergunta": "Que actor interpretou T. E. Lawrence em Lawrence da Arábia?",
+    "opcoes": [
+      "Richard Burton",
+      "Peter O’Toole",
+      "Alec Guinness",
+      "Omar Sharif"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 78,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do boneco de neve em Frozen?",
+    "opcoes": [
+      "Hans",
+      "Marshmallow",
+      "Olaf",
+      "Sven"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 79,
+    "nivel": "facil",
+    "pergunta": "Em O Iluminado, que número aparece associado ao quarto proibido?",
+    "opcoes": [
+      "13",
+      "666",
+      "101",
+      "237"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 80,
+    "nivel": "facil",
+    "pergunta": "Qual filme de Bong Joon-ho retrata uma família pobre que se infiltra numa casa rica?",
+    "opcoes": [
+      "Parasitas",
+      "Expresso do Amanhã",
+      "Okja",
+      "Memories of Murder"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 81,
+    "nivel": "facil",
+    "pergunta": "Quem interpreta o protagonista em O Pianista?",
+    "opcoes": [
+      "Jude Law",
+      "Adrien Brody",
+      "Ralph Fiennes",
+      "Daniel Day-Lewis"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 82,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da cidade onde se passa Casablanca?",
+    "opcoes": [
+      "Cairo",
+      "Argel",
+      "Casablanca",
+      "Tânger"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 83,
+    "nivel": "facil",
+    "pergunta": "Em Mad Max: Estrada da Fúria, como são chamados os guerreiros do vilão Immortan Joe?",
+    "opcoes": [
+      "Road Kings",
+      "Dust Men",
+      "Chrome Guards",
+      "War Boys"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 84,
+    "nivel": "facil",
+    "pergunta": "Qual é o título do filme em que um homem repete o mesmo dia?",
+    "opcoes": [
+      "O Feitiço do Tempo",
+      "O Show de Truman",
+      "Antes do Amanhecer",
+      "Palm Springs"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 85,
+    "nivel": "facil",
+    "pergunta": "Qual realizador é conhecido por dirigir O Sétimo Selo?",
+    "opcoes": [
+      "Andrei Tarkovsky",
+      "Ingmar Bergman",
+      "Federico Fellini",
+      "Akira Kurosawa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 86,
+    "nivel": "facil",
+    "pergunta": "Em O Senhor dos Anéis, qual é a terra natal dos hobbits?",
+    "opcoes": [
+      "Gondor",
+      "Rohan",
+      "O Condado",
+      "Mordor"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 87,
+    "nivel": "facil",
+    "pergunta": "Que filme de animação da Pixar se passa em grande parte no México durante o Día de los Muertos?",
+    "opcoes": [
+      "Viva: A Vida é uma Festa",
+      "Luca",
+      "Encanto",
+      "Coco"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 88,
+    "nivel": "facil",
+    "pergunta": "Qual actriz interpreta a protagonista de Cisne Negro?",
+    "opcoes": [
+      "Natalie Portman",
+      "Mila Kunis",
+      "Julianne Moore",
+      "Rachel Weisz"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 89,
+    "nivel": "facil",
+    "pergunta": "Quem realizou o filme japonês Os Sete Samurais?",
+    "opcoes": [
+      "Satoshi Kon",
+      "Akira Kurosawa",
+      "Yasujiro Ozu",
+      "Hayao Miyazaki"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 90,
+    "nivel": "facil",
+    "pergunta": "Em O Padrinho, qual é o apelido da família central?",
+    "opcoes": [
+      "Capone",
+      "Gambino",
+      "Corleone",
+      "Soprano"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 91,
+    "nivel": "facil",
+    "pergunta": "Que filme de 2019 acompanha Arthur Fleck?",
+    "opcoes": [
+      "Logan",
+      "Watchmen",
+      "O Abutre",
+      "Coringa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 92,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do navio de Jack Sparrow?",
+    "opcoes": [
+      "Pérola Negra",
+      "Holandês Voador",
+      "Interceptor",
+      "Endeavour"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 93,
+    "nivel": "facil",
+    "pergunta": "Em Friends, qual é o nome do paleontólogo do grupo?",
+    "opcoes": [
+      "Ted Mosby",
+      "Ross Geller",
+      "Chandler Bing",
+      "Joey Tribbiani"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 94,
+    "nivel": "facil",
+    "pergunta": "Qual série acompanha Walter White?",
+    "opcoes": [
+      "Ozark",
+      "Dexter",
+      "Breaking Bad",
+      "Better Call Saul"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 95,
+    "nivel": "facil",
+    "pergunta": "Em Stranger Things, em que cidade se passa a história?",
+    "opcoes": [
+      "Riverdale",
+      "Sunnydale",
+      "Smallville",
+      "Hawkins"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 96,
+    "nivel": "facil",
+    "pergunta": "Qual é o lema da Casa Stark em Game of Thrones?",
+    "opcoes": [
+      "O Inverno Está a Chegar",
+      "Ouvir-me Rugir",
+      "Fogo e Sangue",
+      "Nós Não Semeamos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 97,
+    "nivel": "facil",
+    "pergunta": "Em The Office (EUA), qual é o nome da empresa?",
+    "opcoes": [
+      "Prestige Worldwide",
+      "Dunder Mifflin",
+      "Wernham Hogg",
+      "Initech"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 98,
+    "nivel": "facil",
+    "pergunta": "Quem é o protagonista de Sherlock da BBC?",
+    "opcoes": [
+      "Mycroft Holmes",
+      "Greg Lestrade",
+      "Sherlock Holmes",
+      "John Watson"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 99,
+    "nivel": "facil",
+    "pergunta": "Qual série tem a personagem Eleven?",
+    "opcoes": [
+      "The 100",
+      "Dark",
+      "The OA",
+      "Stranger Things"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 100,
+    "nivel": "facil",
+    "pergunta": "Em The Simpsons, qual é o nome do pai da família?",
+    "opcoes": [
+      "Homer Simpson",
+      "Marge Simpson",
+      "Bart Simpson",
+      "Ned Flanders"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 101,
+    "nivel": "facil",
+    "pergunta": "Qual série acompanha uma família chamada Shelby?",
+    "opcoes": [
+      "Boardwalk Empire",
+      "Peaky Blinders",
+      "Succession",
+      "The Crown"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 102,
+    "nivel": "facil",
+    "pergunta": "Em The Crown, que família é retratada?",
+    "opcoes": [
+      "Família Romanov",
+      "Família Windsor americana",
+      "Família real britânica",
+      "Família Kennedy"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 103,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do café frequentado pelos amigos em Friends?",
+    "opcoes": [
+      "Monk’s Café",
+      "Luke’s Diner",
+      "The Max",
+      "Central Perk"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 104,
+    "nivel": "facil",
+    "pergunta": "Em The Walking Dead, qual é o nome do protagonista no início?",
+    "opcoes": [
+      "Rick Grimes",
+      "Daryl Dixon",
+      "Glenn Rhee",
+      "Negan Smith"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 105,
+    "nivel": "facil",
+    "pergunta": "Que série de fantasia acompanha Geralt de Rívia?",
+    "opcoes": [
+      "Vikings",
+      "The Witcher",
+      "Shadow and Bone",
+      "Merlin"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 106,
+    "nivel": "facil",
+    "pergunta": "Em How I Met Your Mother, quem narra a história?",
+    "opcoes": [
+      "Marshall Eriksen",
+      "Robin Scherbatsky",
+      "Ted Mosby",
+      "Barney Stinson"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 107,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da cidade em Twin Peaks?",
+    "opcoes": [
+      "Mystic Falls",
+      "Batesville",
+      "Westworld",
+      "Twin Peaks"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 108,
+    "nivel": "facil",
+    "pergunta": "Em Lost, os sobreviventes ficam presos em quê?",
+    "opcoes": [
+      "Uma ilha",
+      "Um comboio",
+      "Um submarino",
+      "Uma estação espacial"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 109,
+    "nivel": "facil",
+    "pergunta": "Qual série apresenta o parque temático Westworld?",
+    "opcoes": [
+      "Upload",
+      "Westworld",
+      "Black Mirror",
+      "Devs"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 110,
+    "nivel": "facil",
+    "pergunta": "Em The Mandalorian, qual é o apelido popular de Grogu?",
+    "opcoes": [
+      "Yoda Jr.",
+      "The Child Jedi",
+      "Baby Yoda",
+      "Little Jedi"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 111,
+    "nivel": "facil",
+    "pergunta": "Qual é a profissão de Dexter Morgan?",
+    "opcoes": [
+      "Advogado",
+      "Jornalista",
+      "Cirurgião",
+      "Analista forense"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 112,
+    "nivel": "facil",
+    "pergunta": "Em The Big Bang Theory, qual personagem é físico teórico?",
+    "opcoes": [
+      "Sheldon Cooper",
+      "Howard Wolowitz",
+      "Raj Koothrappali",
+      "Leonard Hofstadter"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 113,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do colégio de Elite?",
+    "opcoes": [
+      "East High",
+      "Las Encinas",
+      "Riverdale High",
+      "Degrassi"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 114,
+    "nivel": "facil",
+    "pergunta": "Em The Last of Us, Joel atravessa os Estados Unidos com quem?",
+    "opcoes": [
+      "Tess",
+      "Marlene",
+      "Ellie",
+      "Abby"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 115,
+    "nivel": "facil",
+    "pergunta": "Qual série é ambientada no mundo de The Walking Dead e acompanha Rick Grimes?",
+    "opcoes": [
+      "Fear the Walking Dead",
+      "World Beyond",
+      "Z Nation",
+      "The Walking Dead"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 116,
+    "nivel": "facil",
+    "pergunta": "Em Vikings, qual personagem é interpretado por Travis Fimmel?",
+    "opcoes": [
+      "Ragnar Lothbrok",
+      "Floki",
+      "Bjorn",
+      "Ivar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 117,
+    "nivel": "facil",
+    "pergunta": "Qual série de comédia tem o personagem Michael Scott?",
+    "opcoes": [
+      "Arrested Development",
+      "The Office",
+      "Parks and Recreation",
+      "Community"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 118,
+    "nivel": "facil",
+    "pergunta": "Em Brooklyn Nine-Nine, qual é o trabalho de Jake Peralta?",
+    "opcoes": [
+      "Advogado",
+      "Médico",
+      "Detective da polícia",
+      "Bombeiro"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 119,
+    "nivel": "facil",
+    "pergunta": "Qual série tem um concurso mortal com participantes vestidos de verde?",
+    "opcoes": [
+      "Alice in Borderland",
+      "3%",
+      "The Purge",
+      "Squid Game"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 120,
+    "nivel": "facil",
+    "pergunta": "Em Dark, a narrativa envolve principalmente o quê?",
+    "opcoes": [
+      "Viagens no tempo",
+      "Viagens espaciais",
+      "Super-heróis",
+      "Robôs domésticos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 121,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da protagonista de The Queen’s Gambit?",
+    "opcoes": [
+      "Anya Taylor",
+      "Beth Harmon",
+      "Beth Cooper",
+      "Jane Harmon"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 122,
+    "nivel": "facil",
+    "pergunta": "Em Chernobyl, que desastre é dramatizado?",
+    "opcoes": [
+      "Colapso de Fukushima",
+      "Acidente de Three Mile Island",
+      "Acidente nuclear de Chernobyl",
+      "Erupção do Vesúvio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 123,
+    "nivel": "facil",
+    "pergunta": "Qual série médica se passa no hospital Grey Sloan Memorial?",
+    "opcoes": [
+      "House",
+      "ER",
+      "New Amsterdam",
+      "Grey’s Anatomy"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 124,
+    "nivel": "facil",
+    "pergunta": "Em House, qual é a especialidade de Gregory House?",
+    "opcoes": [
+      "Diagnóstico médico",
+      "Cardiologia",
+      "Pediatria",
+      "Ortopedia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 125,
+    "nivel": "facil",
+    "pergunta": "Qual série de ficção científica se passa na nave Rocinante?",
+    "opcoes": [
+      "For All Mankind",
+      "The Expanse",
+      "Battlestar Galactica",
+      "Firefly"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 126,
+    "nivel": "facil",
+    "pergunta": "Em Better Call Saul, qual é o nome verdadeiro de Saul Goodman?",
+    "opcoes": [
+      "Howard Hamlin",
+      "Nacho Varga",
+      "Jimmy McGill",
+      "Mike Ehrmantraut"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 127,
+    "nivel": "facil",
+    "pergunta": "Qual série retrata a família Roy?",
+    "opcoes": [
+      "Billions",
+      "Mad Men",
+      "Industry",
+      "Succession"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 128,
+    "nivel": "facil",
+    "pergunta": "Em The Good Place, para onde Eleanor pensa que foi?",
+    "opcoes": [
+      "O Good Place",
+      "O Underworld",
+      "O Purgatório",
+      "O Além Cinzento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 129,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do reino principal em The Mandalorian?",
+    "opcoes": [
+      "Arrakis",
+      "A galáxia de Star Wars",
+      "Westeros",
+      "Terra Média"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 130,
+    "nivel": "facil",
+    "pergunta": "Em Mr. Robot, qual é a profissão de Elliot Alderson?",
+    "opcoes": [
+      "Professor",
+      "Fotógrafo",
+      "Programador e hacker",
+      "Polícia"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 131,
+    "nivel": "facil",
+    "pergunta": "Qual série acompanha a família Addams?",
+    "opcoes": [
+      "Sabrina",
+      "Chilling Adventures",
+      "The Munsters",
+      "Wednesday"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 132,
+    "nivel": "facil",
+    "pergunta": "Em Wednesday, qual instrumento Wednesday Addams toca?",
+    "opcoes": [
+      "Violoncelo",
+      "Violino",
+      "Piano",
+      "Flauta"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 133,
+    "nivel": "facil",
+    "pergunta": "Que série acompanha a rainha Charlotte e a família Bridgerton?",
+    "opcoes": [
+      "Victoria",
+      "Bridgerton",
+      "Downton Abbey",
+      "The Gilded Age"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 134,
+    "nivel": "facil",
+    "pergunta": "Em Downton Abbey, que tipo de propriedade é central?",
+    "opcoes": [
+      "Um hospital",
+      "Uma universidade",
+      "Uma casa senhorial",
+      "Uma fábrica"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 135,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do protagonista de Mad Men?",
+    "opcoes": [
+      "Roger Sterling",
+      "Pete Campbell",
+      "Bert Cooper",
+      "Don Draper"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 136,
+    "nivel": "facil",
+    "pergunta": "Em The Wire, em que cidade se passa a trama?",
+    "opcoes": [
+      "Baltimore",
+      "Chicago",
+      "Detroit",
+      "Boston"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 137,
+    "nivel": "facil",
+    "pergunta": "Qual série acompanha Rue Bennett?",
+    "opcoes": [
+      "13 Reasons Why",
+      "Euphoria",
+      "Skins",
+      "Gossip Girl"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 138,
+    "nivel": "facil",
+    "pergunta": "Em The Boys, que grupo combate os super-heróis corruptos?",
+    "opcoes": [
+      "The Guardians",
+      "The Watchers",
+      "The Boys",
+      "The Seven"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 139,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome da empresa de tecnologia em Silicon Valley?",
+    "opcoes": [
+      "Hooli",
+      "Aviato",
+      "Brotroach",
+      "Pied Piper"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 140,
+    "nivel": "facil",
+    "pergunta": "Em Parks and Recreation, qual é a cidade fictícia do departamento?",
+    "opcoes": [
+      "Pawnee",
+      "Scranton",
+      "Springfield",
+      "Sunnydale"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 141,
+    "nivel": "facil",
+    "pergunta": "Qual série tem o personagem Saul Goodman?",
+    "opcoes": [
+      "Fargo",
+      "Better Call Saul",
+      "Breaking Bad",
+      "Ozark"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 142,
+    "nivel": "facil",
+    "pergunta": "Em The Umbrella Academy, os irmãos foram adoptados por quem?",
+    "opcoes": [
+      "Charles Xavier",
+      "Alfred Pennyworth",
+      "Sir Reginald Hargreeves",
+      "Professor X"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 143,
+    "nivel": "facil",
+    "pergunta": "Qual série se passa no colégio Neptune High?",
+    "opcoes": [
+      "Riverdale",
+      "Glee",
+      "Elite",
+      "Veronica Mars"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 144,
+    "nivel": "facil",
+    "pergunta": "Em Glee, qual é o clube central?",
+    "opcoes": [
+      "New Directions",
+      "Vocal Adrenaline",
+      "The Warblers",
+      "New Voices"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 145,
+    "nivel": "facil",
+    "pergunta": "Qual série animada acompanha BoJack Horseman?",
+    "opcoes": [
+      "Futurama",
+      "BoJack Horseman",
+      "Rick and Morty",
+      "Archer"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 146,
+    "nivel": "facil",
+    "pergunta": "Em Rick and Morty, qual é a relação entre os dois personagens principais?",
+    "opcoes": [
+      "Irmãos",
+      "Professor e aluno",
+      "Avô e neto",
+      "Pai e filho"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 147,
+    "nivel": "facil",
+    "pergunta": "Qual é o nome do planeta natal de Mando?",
+    "opcoes": [
+      "Mandalore",
+      "Tatooine",
+      "Naboo",
+      "Não é especificado como planeta natal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 148,
+    "nivel": "facil",
+    "pergunta": "Em The Sopranos, Tony Soprano é chefe de quê?",
+    "opcoes": [
+      "Uma organização criminosa",
+      "Uma agência espacial",
+      "Uma editora",
+      "Um restaurante"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 149,
+    "nivel": "facil",
+    "pergunta": "Qual série policial tem o detetive Columbo?",
+    "opcoes": [
+      "Luther",
+      "Columbo",
+      "Poirot",
+      "Monk"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 150,
+    "nivel": "facil",
+    "pergunta": "Em Poirot, qual é a nacionalidade do detective Hercule Poirot?",
+    "opcoes": [
+      "Suíça",
+      "Britânica",
+      "Belga",
+      "Francesa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 151,
+    "nivel": "facil",
+    "pergunta": "Qual série é baseada nas personagens de Sir Arthur Conan Doyle?",
+    "opcoes": [
+      "Luther",
+      "Endeavour",
+      "Broadchurch",
+      "Sherlock"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 152,
+    "nivel": "facil",
+    "pergunta": "Em The X-Files, que frase resume a atitude de Mulder?",
+    "opcoes": [
+      "I Want to Believe",
+      "The Truth Is Gone",
+      "Trust Nobody Ever",
+      "Believe the Science"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 153,
+    "nivel": "facil",
+    "pergunta": "Qual série tem os agentes Fox Mulder e Dana Scully?",
+    "opcoes": [
+      "NCIS",
+      "The X-Files",
+      "Fringe",
+      "Bones"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 154,
+    "nivel": "facil",
+    "pergunta": "Em Fleabag, qual é a forma de tratamento da protagonista?",
+    "opcoes": [
+      "Claire",
+      "The Woman",
+      "Fleabag",
+      "Phoebe"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 155,
+    "nivel": "facil",
+    "pergunta": "Qual série acompanha uma família de advogados em Boston?",
+    "opcoes": [
+      "Suits",
+      "The Good Wife",
+      "Boston Legal",
+      "Ally McBeal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 156,
+    "nivel": "facil",
+    "pergunta": "Em Suits, qual é a profissão de Harvey Specter?",
+    "opcoes": [
+      "Advogado",
+      "Juiz",
+      "Médico",
+      "Jornalista"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 157,
+    "nivel": "facil",
+    "pergunta": "Qual série de competição culinária é apresentada por Gordon Ramsay?",
+    "opcoes": [
+      "Drag Race",
+      "MasterChef",
+      "Survivor",
+      "The Voice"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 158,
+    "nivel": "facil",
+    "pergunta": "Em Black Mirror, que tema é frequentemente explorado?",
+    "opcoes": [
+      "Desporto escolar",
+      "Gastronomia tradicional",
+      "Impactos da tecnologia",
+      "História medieval"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 159,
+    "nivel": "facil",
+    "pergunta": "Qual série tem episódios antológicos com histórias independentes?",
+    "opcoes": [
+      "Friends",
+      "Lost",
+      "The Wire",
+      "Black Mirror"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 160,
+    "nivel": "facil",
+    "pergunta": "Em The Handmaid’s Tale, como se chama a protagonista?",
+    "opcoes": [
+      "June Osborne",
+      "Serena Waterford",
+      "Moira Strand",
+      "Emily Malek"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 161,
+    "nivel": "facil",
+    "pergunta": "Qual série se passa na República de Gilead?",
+    "opcoes": [
+      "Homeland",
+      "The Handmaid’s Tale",
+      "The Man in the High Castle",
+      "The Americans"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 162,
+    "nivel": "facil",
+    "pergunta": "Em The Americans, os protagonistas trabalham secretamente para quê?",
+    "opcoes": [
+      "China",
+      "Canadá",
+      "União Soviética",
+      "Reino Unido"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 163,
+    "nivel": "facil",
+    "pergunta": "Qual série acompanha a família Fisher?",
+    "opcoes": [
+      "This Is Us",
+      "Parenthood",
+      "Shameless",
+      "Six Feet Under"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 164,
+    "nivel": "facil",
+    "pergunta": "Em Six Feet Under, qual é o negócio da família Fisher?",
+    "opcoes": [
+      "Uma funerária",
+      "Uma livraria",
+      "Uma clínica",
+      "Uma florista"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 165,
+    "nivel": "facil",
+    "pergunta": "Qual série tem a personagem Lorelai Gilmore?",
+    "opcoes": [
+      "Dawson’s Creek",
+      "Gilmore Girls",
+      "Gilmore Women",
+      "Hart of Dixie"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 166,
+    "nivel": "medio",
+    "pergunta": "Em Gilmore Girls, qual é o nome da filha de Lorelai?",
+    "opcoes": [
+      "Lane",
+      "Emily",
+      "Rory",
+      "Paris"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 167,
+    "nivel": "medio",
+    "pergunta": "Qual série acompanha a adolescente Buffy Summers?",
+    "opcoes": [
+      "Charmed",
+      "Angel",
+      "iZombie",
+      "Buffy the Vampire Slayer"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 168,
+    "nivel": "medio",
+    "pergunta": "Em Buffy, que tipo de criatura Buffy caça?",
+    "opcoes": [
+      "Vampiros",
+      "Dragões",
+      "Zombies apenas",
+      "Robôs"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 169,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome da cidade de Supernatural onde os irmãos Winchester cresceram?",
+    "opcoes": [
+      "Sunnydale",
+      "Lawrence",
+      "Mystic Falls",
+      "Smallville"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 170,
+    "nivel": "medio",
+    "pergunta": "Em Supernatural, quem são os irmãos centrais?",
+    "opcoes": [
+      "Will e Mike",
+      "Damon e Stefan",
+      "Sam e Dean Winchester",
+      "Luke e Owen"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 171,
+    "nivel": "medio",
+    "pergunta": "Qual série espanhola tem o Professor como estratega?",
+    "opcoes": [
+      "Elite",
+      "Vis a Vis",
+      "Gran Hotel",
+      "La Casa de Papel"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 172,
+    "nivel": "medio",
+    "pergunta": "Em La Casa de Papel, qual cidade dá nome à personagem Tóquio?",
+    "opcoes": [
+      "Tóquio",
+      "Madrid",
+      "Lisboa",
+      "Roma"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 173,
+    "nivel": "medio",
+    "pergunta": "Qual série sul-coreana acompanha o advogado Woo Young-woo?",
+    "opcoes": [
+      "Kingdom",
+      "Uma Advogada Extraordinária",
+      "Jardim de Meteoros",
+      "Round 6"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 174,
+    "nivel": "medio",
+    "pergunta": "Em The Haunting of Hill House, o que é Hill House?",
+    "opcoes": [
+      "Uma escola",
+      "Um navio",
+      "Uma casa assombrada",
+      "Um hospital"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 175,
+    "nivel": "medio",
+    "pergunta": "Qual série de antologia acompanha crimes reais dramatizados em cada temporada?",
+    "opcoes": [
+      "American Horror Story",
+      "True Detective",
+      "Fargo",
+      "American Crime Story"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 176,
+    "nivel": "medio",
+    "pergunta": "Em True Detective, qual é o género predominante?",
+    "opcoes": [
+      "Crime policial",
+      "Sitcom",
+      "Fantasia épica",
+      "Reality show"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 177,
+    "nivel": "medio",
+    "pergunta": "Qual série criada por Vince Gilligan acompanha Jimmy McGill?",
+    "opcoes": [
+      "The Path",
+      "Better Call Saul",
+      "Breaking Bad",
+      "El Camino"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 178,
+    "nivel": "medio",
+    "pergunta": "Em The Leftovers, que acontecimento inexplicável ocorre?",
+    "opcoes": [
+      "A Terra muda de órbita",
+      "Cai um meteorito",
+      "Desaparecem 2% da população",
+      "Todos perdem a memória"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 179,
+    "nivel": "medio",
+    "pergunta": "Qual série de época retrata a família Crawley?",
+    "opcoes": [
+      "The Crown",
+      "Poldark",
+      "Outlander",
+      "Downton Abbey"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 180,
+    "nivel": "medio",
+    "pergunta": "Em Outlander, a protagonista chama-se como?",
+    "opcoes": [
+      "Claire Fraser",
+      "Brianna Randall",
+      "Ellen Fraser",
+      "Murtagh Fraser"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 181,
+    "nivel": "medio",
+    "pergunta": "Qual série tem a personagem Villanelle?",
+    "opcoes": [
+      "The Killing",
+      "Killing Eve",
+      "Orphan Black",
+      "Homeland"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 182,
+    "nivel": "medio",
+    "pergunta": "Em Killing Eve, qual é a profissão de Eve Polastri?",
+    "opcoes": [
+      "Médica",
+      "Professora",
+      "Agente de inteligência",
+      "Chef"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 183,
+    "nivel": "medio",
+    "pergunta": "Quem é conhecido como o Rei do Pop?",
+    "opcoes": [
+      "Elvis Presley",
+      "Prince",
+      "Stevie Wonder",
+      "Michael Jackson"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 184,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o álbum The Dark Side of the Moon?",
+    "opcoes": [
+      "Pink Floyd",
+      "The Beatles",
+      "Queen",
+      "Led Zeppelin"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 185,
+    "nivel": "medio",
+    "pergunta": "Quem cantou Like a Virgin?",
+    "opcoes": [
+      "Whitney Houston",
+      "Madonna",
+      "Cher",
+      "Cyndi Lauper"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 186,
+    "nivel": "medio",
+    "pergunta": "Qual instrumento tem 88 teclas normalmente?",
+    "opcoes": [
+      "Flauta",
+      "Trompete",
+      "Piano",
+      "Violino"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 187,
+    "nivel": "medio",
+    "pergunta": "Que banda britânica teve Freddie Mercury como vocalista?",
+    "opcoes": [
+      "Oasis",
+      "Blur",
+      "The Smiths",
+      "Queen"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 188,
+    "nivel": "medio",
+    "pergunta": "Quem é a cantora de Rolling in the Deep?",
+    "opcoes": [
+      "Adele",
+      "Rihanna",
+      "Beyoncé",
+      "Sia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 189,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome verdadeiro de The Weeknd?",
+    "opcoes": [
+      "Donald Glover",
+      "Abel Tesfaye",
+      "Shawn Mendes",
+      "Bruno Mars"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 190,
+    "nivel": "medio",
+    "pergunta": "Que género musical nasceu em Nova Orleães no início do século XX?",
+    "opcoes": [
+      "Reggae",
+      "K-pop",
+      "Jazz",
+      "Fado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 191,
+    "nivel": "medio",
+    "pergunta": "Qual banda gravou Hey Jude?",
+    "opcoes": [
+      "The Rolling Stones",
+      "The Who",
+      "The Doors",
+      "The Beatles"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 192,
+    "nivel": "medio",
+    "pergunta": "Quem compôs a Nona Sinfonia?",
+    "opcoes": [
+      "Ludwig van Beethoven",
+      "Wolfgang Mozart",
+      "Johann Bach",
+      "Frédéric Chopin"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 193,
+    "nivel": "medio",
+    "pergunta": "Qual cantora lançou o álbum Lemonade?",
+    "opcoes": [
+      "Lady Gaga",
+      "Beyoncé",
+      "Nicki Minaj",
+      "Alicia Keys"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 194,
+    "nivel": "medio",
+    "pergunta": "Que instrumento é associado a Jimi Hendrix?",
+    "opcoes": [
+      "Bateria",
+      "Contrabaixo",
+      "Guitarra eléctrica",
+      "Saxofone"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 195,
+    "nivel": "medio",
+    "pergunta": "Qual grupo sul-coreano lançou Dynamite?",
+    "opcoes": [
+      "EXO",
+      "BLACKPINK",
+      "TWICE",
+      "BTS"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 196,
+    "nivel": "medio",
+    "pergunta": "Quem cantou a música Thriller?",
+    "opcoes": [
+      "Michael Jackson",
+      "Prince",
+      "Usher",
+      "Justin Timberlake"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 197,
+    "nivel": "medio",
+    "pergunta": "Qual banda portuguesa é conhecida por A Minha Casinha?",
+    "opcoes": [
+      "Delfins",
+      "Xutos & Pontapés",
+      "Madredeus",
+      "The Gift"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 198,
+    "nivel": "medio",
+    "pergunta": "Quem é o compositor de As Quatro Estações?",
+    "opcoes": [
+      "Gioachino Rossini",
+      "Claudio Monteverdi",
+      "Antonio Vivaldi",
+      "Giuseppe Verdi"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 199,
+    "nivel": "medio",
+    "pergunta": "Qual cantora é conhecida pela canção Hips Don’t Lie?",
+    "opcoes": [
+      "Katy Perry",
+      "Dua Lipa",
+      "Anitta",
+      "Shakira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 200,
+    "nivel": "medio",
+    "pergunta": "Que banda lançou Bohemian Rhapsody?",
+    "opcoes": [
+      "Queen",
+      "ABBA",
+      "U2",
+      "R.E.M."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 201,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome artístico de Robyn Fenty?",
+    "opcoes": [
+      "Lorde",
+      "Rihanna",
+      "Cardi B",
+      "M.I.A."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 202,
+    "nivel": "medio",
+    "pergunta": "Quem lançou o álbum Back to Black?",
+    "opcoes": [
+      "Duffy",
+      "Adele",
+      "Amy Winehouse",
+      "Norah Jones"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 203,
+    "nivel": "medio",
+    "pergunta": "Qual género jamaicano é associado a Bob Marley?",
+    "opcoes": [
+      "Blues",
+      "Ska punk",
+      "Flamenco",
+      "Reggae"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 204,
+    "nivel": "medio",
+    "pergunta": "Qual rapper lançou o álbum The Miseducation of Lauryn Hill?",
+    "opcoes": [
+      "Lauryn Hill",
+      "Missy Elliott",
+      "Eminem",
+      "Nas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 205,
+    "nivel": "medio",
+    "pergunta": "Quem canta Shape of You?",
+    "opcoes": [
+      "Shawn Mendes",
+      "Ed Sheeran",
+      "Sam Smith",
+      "Lewis Capaldi"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 206,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o álbum Nevermind?",
+    "opcoes": [
+      "Soundgarden",
+      "Alice in Chains",
+      "Nirvana",
+      "Pearl Jam"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 207,
+    "nivel": "medio",
+    "pergunta": "Que cantora interpreta Bad Guy?",
+    "opcoes": [
+      "Olivia Rodrigo",
+      "Lana Del Rey",
+      "Halsey",
+      "Billie Eilish"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 208,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do vocalista dos Rolling Stones?",
+    "opcoes": [
+      "Mick Jagger",
+      "Keith Richards",
+      "Ronnie Wood",
+      "Charlie Watts"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 209,
+    "nivel": "medio",
+    "pergunta": "Quem compôs a ópera A Flauta Mágica?",
+    "opcoes": [
+      "Puccini",
+      "Wolfgang Amadeus Mozart",
+      "Beethoven",
+      "Wagner"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 210,
+    "nivel": "medio",
+    "pergunta": "Qual banda irlandesa lançou With or Without You?",
+    "opcoes": [
+      "Snow Patrol",
+      "Westlife",
+      "U2",
+      "The Cranberries"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 211,
+    "nivel": "medio",
+    "pergunta": "Quem cantou I Will Always Love You na versão mais famosa dos anos 1990?",
+    "opcoes": [
+      "Dolly Parton",
+      "Mariah Carey",
+      "Celine Dion",
+      "Whitney Houston"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 212,
+    "nivel": "medio",
+    "pergunta": "Qual é a função principal do maestro?",
+    "opcoes": [
+      "Dirigir a execução musical",
+      "Afinar todos os instrumentos",
+      "Vender bilhetes",
+      "Construir instrumentos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 213,
+    "nivel": "medio",
+    "pergunta": "Quem lançou o álbum 21?",
+    "opcoes": [
+      "P!nk",
+      "Adele",
+      "Taylor Swift",
+      "Kesha"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 214,
+    "nivel": "medio",
+    "pergunta": "Qual artista é conhecido pelo álbum Purple Rain?",
+    "opcoes": [
+      "Elton John",
+      "Lenny Kravitz",
+      "Prince",
+      "David Bowie"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 215,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou Stairway to Heaven?",
+    "opcoes": [
+      "Deep Purple",
+      "Black Sabbath",
+      "Aerosmith",
+      "Led Zeppelin"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 216,
+    "nivel": "medio",
+    "pergunta": "Quem canta Despacito com Daddy Yankee?",
+    "opcoes": [
+      "Luis Fonsi",
+      "J Balvin",
+      "Maluma",
+      "Enrique Iglesias"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 217,
+    "nivel": "medio",
+    "pergunta": "Qual cantora lançou o álbum Future Nostalgia?",
+    "opcoes": [
+      "Selena Gomez",
+      "Dua Lipa",
+      "Ariana Grande",
+      "Camila Cabello"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 218,
+    "nivel": "medio",
+    "pergunta": "Que instrumento de cordas é típico do fado português?",
+    "opcoes": [
+      "Cítara indiana",
+      "Banjo africano",
+      "Guitarra portuguesa",
+      "Bandolim russo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 219,
+    "nivel": "medio",
+    "pergunta": "Quem é o vocalista da banda Coldplay?",
+    "opcoes": [
+      "Chris Cornell",
+      "Thom Yorke",
+      "Brandon Flowers",
+      "Chris Martin"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 220,
+    "nivel": "medio",
+    "pergunta": "Qual grupo feminino lançou Wannabe?",
+    "opcoes": [
+      "Spice Girls",
+      "Destiny’s Child",
+      "TLC",
+      "Little Mix"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 221,
+    "nivel": "medio",
+    "pergunta": "Quem canta a música Someone Like You?",
+    "opcoes": [
+      "Demi Lovato",
+      "Adele",
+      "Sia",
+      "Beyoncé"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 222,
+    "nivel": "medio",
+    "pergunta": "Qual artista lançou o álbum To Pimp a Butterfly?",
+    "opcoes": [
+      "Kanye West",
+      "J. Cole",
+      "Kendrick Lamar",
+      "Drake"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 223,
+    "nivel": "medio",
+    "pergunta": "Que banda ficou conhecida por Smells Like Teen Spirit?",
+    "opcoes": [
+      "Green Day",
+      "Foo Fighters",
+      "Weezer",
+      "Nirvana"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 224,
+    "nivel": "medio",
+    "pergunta": "Quem compôs O Quebra-Nozes?",
+    "opcoes": [
+      "Piotr Tchaikovsky",
+      "Igor Stravinsky",
+      "Sergei Rachmaninoff",
+      "Nikolai Rimsky-Korsakov"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 225,
+    "nivel": "medio",
+    "pergunta": "Qual cantora lançou o álbum Born This Way?",
+    "opcoes": [
+      "Miley Cyrus",
+      "Lady Gaga",
+      "Madonna",
+      "Kylie Minogue"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 226,
+    "nivel": "medio",
+    "pergunta": "Quem cantou What’s Going On?",
+    "opcoes": [
+      "Al Green",
+      "Ray Charles",
+      "Marvin Gaye",
+      "Otis Redding"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 227,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do grupo de Freddie Mercury antes da fama solo?",
+    "opcoes": [
+      "Genesis",
+      "Yes",
+      "Cream",
+      "Queen"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 228,
+    "nivel": "medio",
+    "pergunta": "Que cantora brasileira lançou o álbum Acabou Chorare com os Novos Baianos?",
+    "opcoes": [
+      "Não foi cantora dos Novos Baianos",
+      "Gal Costa",
+      "Rita Lee",
+      "Elis Regina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 229,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o álbum OK Computer?",
+    "opcoes": [
+      "Arctic Monkeys",
+      "Radiohead",
+      "Muse",
+      "Oasis"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 230,
+    "nivel": "medio",
+    "pergunta": "Quem é conhecido pela canção Space Oddity?",
+    "opcoes": [
+      "Peter Gabriel",
+      "Morrissey",
+      "David Bowie",
+      "Elton John"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 231,
+    "nivel": "medio",
+    "pergunta": "Qual cantor lançou Uptown Funk com Mark Ronson?",
+    "opcoes": [
+      "The Weeknd",
+      "Justin Bieber",
+      "Pharrell Williams",
+      "Bruno Mars"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 232,
+    "nivel": "medio",
+    "pergunta": "Qual cantora venceu o Eurovision de 2017 por Portugal?",
+    "opcoes": [
+      "Salvador Sobral",
+      "Mariza",
+      "Ana Moura",
+      "Dino D’Santiago"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 233,
+    "nivel": "medio",
+    "pergunta": "Que artista lançou o álbum Blue?",
+    "opcoes": [
+      "Patti Smith",
+      "Joni Mitchell",
+      "Carole King",
+      "Joan Baez"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 234,
+    "nivel": "medio",
+    "pergunta": "Qual instrumento é tocado com arco e tem quatro cordas?",
+    "opcoes": [
+      "Harpa",
+      "Acordeão",
+      "Violino",
+      "Oboé"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 235,
+    "nivel": "medio",
+    "pergunta": "Quem cantou Respect?",
+    "opcoes": [
+      "Tina Turner",
+      "Diana Ross",
+      "Nina Simone",
+      "Aretha Franklin"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 236,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou The Wall?",
+    "opcoes": [
+      "Pink Floyd",
+      "The Beatles",
+      "King Crimson",
+      "Yes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 237,
+    "nivel": "medio",
+    "pergunta": "Quem compôs o Bolero?",
+    "opcoes": [
+      "Erik Satie",
+      "Maurice Ravel",
+      "Claude Debussy",
+      "Camille Saint-Saëns"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 238,
+    "nivel": "medio",
+    "pergunta": "Qual cantora lançou Wrecking Ball?",
+    "opcoes": [
+      "Britney Spears",
+      "P!nk",
+      "Miley Cyrus",
+      "Katy Perry"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 239,
+    "nivel": "medio",
+    "pergunta": "Que rapper é conhecido pelo álbum The Marshall Mathers LP?",
+    "opcoes": [
+      "50 Cent",
+      "Jay-Z",
+      "Snoop Dogg",
+      "Eminem"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 240,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o álbum Is This It?",
+    "opcoes": [
+      "The Strokes",
+      "The Killers",
+      "Franz Ferdinand",
+      "Interpol"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 241,
+    "nivel": "medio",
+    "pergunta": "Quem interpreta a canção All of Me?",
+    "opcoes": [
+      "Usher",
+      "John Legend",
+      "John Mayer",
+      "Sam Cooke"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 242,
+    "nivel": "medio",
+    "pergunta": "Qual género tem origem no Bronx, em Nova Iorque?",
+    "opcoes": [
+      "Fado",
+      "Samba-enredo",
+      "Hip-hop",
+      "Disco polo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 243,
+    "nivel": "medio",
+    "pergunta": "Quem foi a vocalista dos Fleetwood Mac no período de Rumours?",
+    "opcoes": [
+      "Karen Carpenter",
+      "Patti Smith",
+      "Grace Slick",
+      "Stevie Nicks"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 244,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o álbum Back in Black?",
+    "opcoes": [
+      "AC/DC",
+      "Metallica",
+      "Iron Maiden",
+      "Motörhead"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 245,
+    "nivel": "medio",
+    "pergunta": "Quem compôs a ópera Carmen?",
+    "opcoes": [
+      "Giacomo Puccini",
+      "Georges Bizet",
+      "Giuseppe Verdi",
+      "Richard Wagner"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 246,
+    "nivel": "medio",
+    "pergunta": "Qual artista lançou o álbum Blonde?",
+    "opcoes": [
+      "Childish Gambino",
+      "The-Dream",
+      "Frank Ocean",
+      "Tyler, the Creator"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 247,
+    "nivel": "medio",
+    "pergunta": "Quem canta a canção Halo?",
+    "opcoes": [
+      "Adele",
+      "Rihanna",
+      "Christina Aguilera",
+      "Beyoncé"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 248,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome da banda de Damon Albarn?",
+    "opcoes": [
+      "Blur",
+      "Pulp",
+      "Suede",
+      "Elbow"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 249,
+    "nivel": "medio",
+    "pergunta": "Quem lançou o álbum Fetch the Bolt Cutters?",
+    "opcoes": [
+      "Lorde",
+      "Fiona Apple",
+      "PJ Harvey",
+      "St. Vincent"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 250,
+    "nivel": "medio",
+    "pergunta": "Qual banda japonesa é associada ao álbum First Love?",
+    "opcoes": [
+      "Babymetal",
+      "One Ok Rock",
+      "Utada Hikaru",
+      "Perfume"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 251,
+    "nivel": "medio",
+    "pergunta": "Que compositor é conhecido pelo Requiem em ré menor?",
+    "opcoes": [
+      "Bach",
+      "Haydn",
+      "Handel",
+      "Mozart"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 252,
+    "nivel": "medio",
+    "pergunta": "Quem cantou a canção Fast Car?",
+    "opcoes": [
+      "Tracy Chapman",
+      "Suzanne Vega",
+      "Alanis Morissette",
+      "Sheryl Crow"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 253,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o disco Rumours?",
+    "opcoes": [
+      "Heart",
+      "Fleetwood Mac",
+      "The Eagles",
+      "Journey"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 254,
+    "nivel": "medio",
+    "pergunta": "Quem lançou o álbum Sour?",
+    "opcoes": [
+      "Sabrina Carpenter",
+      "Megan Thee Stallion",
+      "Olivia Rodrigo",
+      "Taylor Swift"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 255,
+    "nivel": "medio",
+    "pergunta": "Qual cantor é associado ao álbum 25?",
+    "opcoes": [
+      "Adele",
+      "Bruno Mars",
+      "Sam Smith",
+      "Ed Sheeran"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 256,
+    "nivel": "medio",
+    "pergunta": "Que banda lançou Seven Nation Army?",
+    "opcoes": [
+      "The White Stripes",
+      "The Black Keys",
+      "Arctic Monkeys",
+      "The Hives"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 257,
+    "nivel": "medio",
+    "pergunta": "Quem compôs a obra Carmina Burana?",
+    "opcoes": [
+      "Richard Strauss",
+      "Carl Orff",
+      "Gustav Mahler",
+      "Anton Bruckner"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 258,
+    "nivel": "medio",
+    "pergunta": "Qual cantora lançou o álbum Ctrl?",
+    "opcoes": [
+      "M.I.A.",
+      "FKA twigs",
+      "SZA",
+      "Doja Cat"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 259,
+    "nivel": "medio",
+    "pergunta": "Quem foi o vocalista dos Nirvana?",
+    "opcoes": [
+      "Dave Grohl",
+      "Krist Novoselic",
+      "Eddie Vedder",
+      "Kurt Cobain"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 260,
+    "nivel": "medio",
+    "pergunta": "Qual banda brasileira lançou o álbum Cabeça Dinossauro?",
+    "opcoes": [
+      "Titãs",
+      "Legião Urbana",
+      "Paralamas do Sucesso",
+      "Barão Vermelho"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 261,
+    "nivel": "medio",
+    "pergunta": "Quem cantou a música Jolene?",
+    "opcoes": [
+      "Tammy Wynette",
+      "Dolly Parton",
+      "Patsy Cline",
+      "Loretta Lynn"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 262,
+    "nivel": "medio",
+    "pergunta": "Qual compositor escreveu O Messias?",
+    "opcoes": [
+      "Mendelssohn",
+      "Schubert",
+      "George Frideric Handel",
+      "Johann Strauss"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 263,
+    "nivel": "medio",
+    "pergunta": "Que artista lançou o álbum The Rise and Fall of Ziggy Stardust?",
+    "opcoes": [
+      "Iggy Pop",
+      "Lou Reed",
+      "T. Rex",
+      "David Bowie"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 264,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o álbum Disintegration?",
+    "opcoes": [
+      "The Cure",
+      "Depeche Mode",
+      "New Order",
+      "Joy Division"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 265,
+    "nivel": "medio",
+    "pergunta": "Quem canta a canção Rehab?",
+    "opcoes": [
+      "Paloma Faith",
+      "Amy Winehouse",
+      "Lily Allen",
+      "Duffy"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 266,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do festival de música realizado na Califórnia desde 1999?",
+    "opcoes": [
+      "Lollapalooza",
+      "Primavera Sound",
+      "Coachella",
+      "Glastonbury"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 267,
+    "nivel": "medio",
+    "pergunta": "Que cantora lançou o álbum Norman Fucking Rockwell!",
+    "opcoes": [
+      "Marina",
+      "Florence Welch",
+      "Lorde",
+      "Lana Del Rey"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 268,
+    "nivel": "medio",
+    "pergunta": "Quem compôs a ópera Turandot?",
+    "opcoes": [
+      "Giacomo Puccini",
+      "Giuseppe Verdi",
+      "Rossini",
+      "Berlioz"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 269,
+    "nivel": "medio",
+    "pergunta": "Qual grupo lançou o álbum Discovery?",
+    "opcoes": [
+      "The Chemical Brothers",
+      "Daft Punk",
+      "Justice",
+      "Air"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 270,
+    "nivel": "medio",
+    "pergunta": "Quem lançou o álbum The College Dropout?",
+    "opcoes": [
+      "Common",
+      "Travis Scott",
+      "Kanye West",
+      "Kid Cudi"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 271,
+    "nivel": "medio",
+    "pergunta": "Qual banda lançou o álbum Funeral?",
+    "opcoes": [
+      "The National",
+      "Vampire Weekend",
+      "Modest Mouse",
+      "Arcade Fire"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 272,
+    "nivel": "medio",
+    "pergunta": "Quem canta a canção Nothing Compares 2 U na versão célebre de 1990?",
+    "opcoes": [
+      "Sinéad O’Connor",
+      "Enya",
+      "Dolores O’Riordan",
+      "Neneh Cherry"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 273,
+    "nivel": "medio",
+    "pergunta": "Qual cantora moçambicana é conhecida internacionalmente por música marrabenta e afro-pop?",
+    "opcoes": [
+      "Bonga",
+      "Mingas",
+      "Cesária Évora",
+      "Lura"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 274,
+    "nivel": "medio",
+    "pergunta": "Qual empresa criou Mario?",
+    "opcoes": [
+      "Sony",
+      "Atari",
+      "Nintendo",
+      "Sega"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 275,
+    "nivel": "medio",
+    "pergunta": "Em Minecraft, qual material é necessário para criar uma mesa de trabalho?",
+    "opcoes": [
+      "Diamante",
+      "Obsidiana",
+      "Ferro",
+      "Madeira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 276,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do protagonista de The Legend of Zelda?",
+    "opcoes": [
+      "Link",
+      "Zelda",
+      "Ganon",
+      "Epona"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 277,
+    "nivel": "medio",
+    "pergunta": "Que jogo tem a ilha chamada Fortnite?",
+    "opcoes": [
+      "Fall Guys",
+      "Fortnite",
+      "PUBG",
+      "Apex Legends"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 278,
+    "nivel": "medio",
+    "pergunta": "Em Pokémon, qual é o primeiro Pokémon da Pokédex nacional?",
+    "opcoes": [
+      "Charmander",
+      "Mew",
+      "Bulbasaur",
+      "Pikachu"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 279,
+    "nivel": "medio",
+    "pergunta": "Qual consola foi lançada pela Sony em 1994 no Japão?",
+    "opcoes": [
+      "Dreamcast",
+      "Nintendo 64",
+      "Xbox",
+      "PlayStation"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 280,
+    "nivel": "medio",
+    "pergunta": "Quem é o rival principal de Mario?",
+    "opcoes": [
+      "Bowser",
+      "Luigi",
+      "Yoshi",
+      "Wario"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 281,
+    "nivel": "medio",
+    "pergunta": "Qual jogo de corrida apresenta a série Mario Kart?",
+    "opcoes": [
+      "Need for Speed",
+      "Mario Kart",
+      "Gran Turismo",
+      "Forza Horizon"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 282,
+    "nivel": "medio",
+    "pergunta": "Em Among Us, qual é o papel que elimina jogadores?",
+    "opcoes": [
+      "Capitão",
+      "Engenheiro",
+      "Impostor",
+      "Tripulante"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 283,
+    "nivel": "medio",
+    "pergunta": "Qual estúdio criou The Last of Us?",
+    "opcoes": [
+      "Valve",
+      "Bungie",
+      "Insomniac Games",
+      "Naughty Dog"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 284,
+    "nivel": "medio",
+    "pergunta": "Em The Sims, que recurso determina a personalidade de um Sim?",
+    "opcoes": [
+      "Traços",
+      "Níveis de mana",
+      "Medalhas",
+      "Classes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 285,
+    "nivel": "medio",
+    "pergunta": "Qual personagem é mascote da Sega?",
+    "opcoes": [
+      "Kirby",
+      "Sonic",
+      "Mario",
+      "Crash"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 286,
+    "nivel": "medio",
+    "pergunta": "Que jogo se passa na cidade fictícia de Los Santos?",
+    "opcoes": [
+      "Sleeping Dogs",
+      "Saints Row IV",
+      "Grand Theft Auto V",
+      "Watch Dogs 2"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 287,
+    "nivel": "medio",
+    "pergunta": "Em League of Legends, os personagens jogáveis chamam-se como?",
+    "opcoes": [
+      "Heróis",
+      "Lutadores",
+      "Pilotos",
+      "Campeões"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 288,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do protagonista de God of War?",
+    "opcoes": [
+      "Kratos",
+      "Atreus",
+      "Zeus",
+      "Drake"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 289,
+    "nivel": "medio",
+    "pergunta": "Que jogo da Valve é um shooter baseado em equipas?",
+    "opcoes": [
+      "Dota Underlords",
+      "Team Fortress 2",
+      "Portal",
+      "Half-Life"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 290,
+    "nivel": "medio",
+    "pergunta": "Em Portal, qual é o nome da inteligência artificial antagonista?",
+    "opcoes": [
+      "SHODAN",
+      "EDI",
+      "GLaDOS",
+      "Cortana"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 291,
+    "nivel": "medio",
+    "pergunta": "Qual empresa criou a consola Xbox?",
+    "opcoes": [
+      "Sony",
+      "Nintendo",
+      "Sega",
+      "Microsoft"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 292,
+    "nivel": "medio",
+    "pergunta": "Em Animal Crossing: New Horizons, em que tipo de local o jogador vive?",
+    "opcoes": [
+      "Uma ilha",
+      "Um castelo",
+      "Uma estação espacial",
+      "Uma cidade subterrânea"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 293,
+    "nivel": "medio",
+    "pergunta": "Que jogo apresenta o personagem Master Chief?",
+    "opcoes": [
+      "Doom",
+      "Halo",
+      "Destiny",
+      "Gears of War"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 294,
+    "nivel": "medio",
+    "pergunta": "Qual é o objectivo principal em Tetris?",
+    "opcoes": [
+      "Criar uma cidade",
+      "Derrotar dragões",
+      "Completar linhas com blocos",
+      "Capturar bandeiras"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 295,
+    "nivel": "medio",
+    "pergunta": "Em Zelda: Ocarina of Time, que instrumento dá nome ao jogo?",
+    "opcoes": [
+      "Lira",
+      "Flauta transversal",
+      "Tambor",
+      "Ocarina"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 296,
+    "nivel": "medio",
+    "pergunta": "Qual jogo foi criado pelo estúdio Mojang?",
+    "opcoes": [
+      "Minecraft",
+      "Terraria",
+      "Roblox",
+      "Rust"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 297,
+    "nivel": "medio",
+    "pergunta": "Em Street Fighter, qual personagem lança o Hadouken?",
+    "opcoes": [
+      "Zangief",
+      "Ryu",
+      "Guile",
+      "Chun-Li"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 298,
+    "nivel": "medio",
+    "pergunta": "Qual série de jogos tem a personagem Lara Croft?",
+    "opcoes": [
+      "Assassin’s Creed",
+      "Bayonetta",
+      "Tomb Raider",
+      "Uncharted"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 299,
+    "nivel": "medio",
+    "pergunta": "Em Red Dead Redemption 2, quem é o protagonista principal?",
+    "opcoes": [
+      "John Marston",
+      "Dutch van der Linde",
+      "Sadie Adler",
+      "Arthur Morgan"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 300,
+    "nivel": "medio",
+    "pergunta": "Qual jogo da Nintendo é protagonizado por Samus Aran?",
+    "opcoes": [
+      "Metroid",
+      "Star Fox",
+      "F-Zero",
+      "Kid Icarus"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 301,
+    "nivel": "medio",
+    "pergunta": "Que empresa criou a série Final Fantasy?",
+    "opcoes": [
+      "Namco",
+      "Square Enix",
+      "Capcom",
+      "Konami"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 302,
+    "nivel": "medio",
+    "pergunta": "Em Dark Souls, o jogador perde almas ao morrer?",
+    "opcoes": [
+      "Apenas no modo online",
+      "Apenas no primeiro nível",
+      "Sim",
+      "Não"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 303,
+    "nivel": "medio",
+    "pergunta": "Qual jogo apresenta o mundo de Tamriel?",
+    "opcoes": [
+      "World of Warcraft",
+      "Dragon Age",
+      "Diablo",
+      "The Elder Scrolls"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 304,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do protagonista de Hollow Knight?",
+    "opcoes": [
+      "O Cavaleiro",
+      "O Rei Pálido",
+      "Hornet",
+      "O Vazio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 305,
+    "nivel": "medio",
+    "pergunta": "Em Celeste, qual é o objectivo da personagem Madeline?",
+    "opcoes": [
+      "Construir uma aldeia",
+      "Escalar a montanha Celeste",
+      "Encontrar um tesouro no mar",
+      "Vencer uma corrida"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 306,
+    "nivel": "medio",
+    "pergunta": "Que jogo popularizou o personagem Guybrush Threepwood?",
+    "opcoes": [
+      "Day of the Tentacle",
+      "Sam & Max",
+      "The Secret of Monkey Island",
+      "Grim Fandango"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 307,
+    "nivel": "medio",
+    "pergunta": "Qual é o género de Civilization?",
+    "opcoes": [
+      "Corrida",
+      "Luta",
+      "Ritmo",
+      "Estratégia por turnos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 308,
+    "nivel": "medio",
+    "pergunta": "Em Overwatch, qual é o nome do gorila cientista?",
+    "opcoes": [
+      "Winston",
+      "Reinhardt",
+      "Roadhog",
+      "Doomfist"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 309,
+    "nivel": "medio",
+    "pergunta": "Que jogo se passa no continente de Thedas?",
+    "opcoes": [
+      "Baldur’s Gate",
+      "Dragon Age",
+      "The Witcher",
+      "Mass Effect"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 310,
+    "nivel": "medio",
+    "pergunta": "Qual é a classe de Geralt em The Witcher?",
+    "opcoes": [
+      "Paladino",
+      "Ranger",
+      "Bruxo",
+      "Mago"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 311,
+    "nivel": "medio",
+    "pergunta": "Em Portal 2, quem é o robô esférico interpretado por Stephen Merchant?",
+    "opcoes": [
+      "Atlas",
+      "P-body",
+      "Cave Johnson",
+      "Wheatley"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 312,
+    "nivel": "medio",
+    "pergunta": "Qual jogo de cartas da Nintendo tem personagens de várias séries?",
+    "opcoes": [
+      "Super Smash Bros.",
+      "Mario Party",
+      "Nintendo Land",
+      "Wii Sports"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 313,
+    "nivel": "medio",
+    "pergunta": "Que jogo apresenta a personagem Aloy?",
+    "opcoes": [
+      "Death Stranding",
+      "Horizon Zero Dawn",
+      "Control",
+      "Returnal"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 314,
+    "nivel": "medio",
+    "pergunta": "Em Mass Effect, como se chama a nave do Comandante Shepard?",
+    "opcoes": [
+      "Andromeda",
+      "Serenity",
+      "Normandy",
+      "Tempest"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 315,
+    "nivel": "medio",
+    "pergunta": "Qual é o planeta principal de Death Stranding?",
+    "opcoes": [
+      "Marte",
+      "Eos",
+      "Nirn",
+      "Terra"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 316,
+    "nivel": "medio",
+    "pergunta": "Que jogo usa o motor Source e apresenta Gordon Freeman?",
+    "opcoes": [
+      "Half-Life 2",
+      "Doom 3",
+      "Quake 4",
+      "Prey"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 317,
+    "nivel": "medio",
+    "pergunta": "Em BioShock, qual é a cidade subaquática?",
+    "opcoes": [
+      "Midgar",
+      "Rapture",
+      "Columbia",
+      "Dunwall"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 318,
+    "nivel": "medio",
+    "pergunta": "Qual jogo de estratégia tem as civilizações Terran, Zerg e Protoss?",
+    "opcoes": [
+      "Command & Conquer",
+      "Age of Empires",
+      "StarCraft",
+      "Warcraft"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 319,
+    "nivel": "medio",
+    "pergunta": "Em World of Warcraft, qual é a cidade dos orcs?",
+    "opcoes": [
+      "Stormwind",
+      "Darnassus",
+      "Ironforge",
+      "Orgrimmar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 320,
+    "nivel": "medio",
+    "pergunta": "Qual personagem é o protagonista de Persona 5?",
+    "opcoes": [
+      "Joker",
+      "Morgana",
+      "Ryuji",
+      "Akechi"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 321,
+    "nivel": "medio",
+    "pergunta": "Que jogo de terror tem a personagem Heather Mason?",
+    "opcoes": [
+      "Amnesia",
+      "Silent Hill 3",
+      "Resident Evil 3",
+      "Fatal Frame II"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 322,
+    "nivel": "medio",
+    "pergunta": "Em Resident Evil, que cidade é atingida pelo surto no segundo e terceiro jogos?",
+    "opcoes": [
+      "Rapture",
+      "Midwich",
+      "Raccoon City",
+      "Silent Hill"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 323,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do herói de Bastion?",
+    "opcoes": [
+      "The Stranger",
+      "The Wanderer",
+      "The Scout",
+      "The Kid"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 324,
+    "nivel": "medio",
+    "pergunta": "Que jogo indie tem o sistema de combate com escolha entre lutar e poupar?",
+    "opcoes": [
+      "Undertale",
+      "Deltarune",
+      "OneShot",
+      "EarthBound"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 325,
+    "nivel": "medio",
+    "pergunta": "Em Hades, quem é o protagonista que tenta escapar do submundo?",
+    "opcoes": [
+      "Aquiles",
+      "Zagreus",
+      "Hades",
+      "Orfeu"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 326,
+    "nivel": "medio",
+    "pergunta": "Qual jogo da série Metroid foi lançado em 2002 para Game Boy Advance?",
+    "opcoes": [
+      "Metroid Dread",
+      "Metroid Zero Mission",
+      "Metroid Fusion",
+      "Metroid Prime"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 327,
+    "nivel": "medio",
+    "pergunta": "Que personagem de Mortal Kombat usa um chapéu como arma?",
+    "opcoes": [
+      "Sub-Zero",
+      "Scorpion",
+      "Raiden",
+      "Kung Lao"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 328,
+    "nivel": "medio",
+    "pergunta": "Qual jogo de luta inclui a personagem Chun-Li?",
+    "opcoes": [
+      "Street Fighter",
+      "Tekken",
+      "Mortal Kombat",
+      "Virtua Fighter"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 329,
+    "nivel": "medio",
+    "pergunta": "Em Tekken, qual família é central à história?",
+    "opcoes": [
+      "Joestar",
+      "Mishima",
+      "Belmont",
+      "Kenshiro"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 330,
+    "nivel": "medio",
+    "pergunta": "Qual jogo apresenta o assassino Ezio Auditore?",
+    "opcoes": [
+      "Watch Dogs",
+      "Prince of Persia",
+      "Assassin’s Creed II",
+      "Assassin’s Creed III"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 331,
+    "nivel": "medio",
+    "pergunta": "Em The Legend of Zelda: Breath of the Wild, como se chama a princesa?",
+    "opcoes": [
+      "Mipha",
+      "Urbosa",
+      "Impa",
+      "Zelda"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 332,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome do cavalo de Link em muitos jogos Zelda?",
+    "opcoes": [
+      "Epona",
+      "Agro",
+      "Roach",
+      "Yoshi"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 333,
+    "nivel": "medio",
+    "pergunta": "Que jogo da Blizzard é um MMORPG?",
+    "opcoes": [
+      "StarCraft II",
+      "World of Warcraft",
+      "Diablo IV",
+      "Overwatch"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 334,
+    "nivel": "medio",
+    "pergunta": "Em Dota 2, qual empresa publica o jogo?",
+    "opcoes": [
+      "Blizzard",
+      "Ubisoft",
+      "Valve",
+      "Riot Games"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 335,
+    "nivel": "medio",
+    "pergunta": "Qual jogo de construção usa blocos e criaturas chamadas Creepers?",
+    "opcoes": [
+      "Roblox",
+      "Terraria",
+      "Starbound",
+      "Minecraft"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 336,
+    "nivel": "dificil",
+    "pergunta": "Em Pokémon Red e Blue, qual é o rival do jogador?",
+    "opcoes": [
+      "Blue",
+      "Red",
+      "Gold",
+      "Silver"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 337,
+    "nivel": "dificil",
+    "pergunta": "Qual tipo de Pokémon é Pikachu?",
+    "opcoes": [
+      "Psíquico",
+      "Eléctrico",
+      "Fogo",
+      "Água"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 338,
+    "nivel": "dificil",
+    "pergunta": "Que jogo apresenta a região de Johto?",
+    "opcoes": [
+      "Pokémon Ruby e Sapphire",
+      "Pokémon Black e White",
+      "Pokémon Gold e Silver",
+      "Pokémon Red e Blue"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 339,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome da consola portátil da Nintendo lançada em 1989?",
+    "opcoes": [
+      "Nintendo DS",
+      "Game Gear",
+      "Game Boy Advance",
+      "Game Boy"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 340,
+    "nivel": "dificil",
+    "pergunta": "Em Wii Sports, qual actividade usa uma raquete?",
+    "opcoes": [
+      "Ténis",
+      "Golfe",
+      "Boxe",
+      "Bowling"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 341,
+    "nivel": "dificil",
+    "pergunta": "Que jogo de ritmo usa notas que descem por pistas musicais?",
+    "opcoes": [
+      "Patapon",
+      "Guitar Hero",
+      "Just Dance",
+      "Beat Saber"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 342,
+    "nivel": "dificil",
+    "pergunta": "Qual é o estúdio de Stardew Valley?",
+    "opcoes": [
+      "Team Cherry",
+      "Motion Twin",
+      "ConcernedApe",
+      "Supergiant Games"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 343,
+    "nivel": "dificil",
+    "pergunta": "Em Stardew Valley, que actividade é central?",
+    "opcoes": [
+      "Corridas de carros",
+      "Futebol",
+      "Exploração espacial",
+      "Agricultura"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 344,
+    "nivel": "dificil",
+    "pergunta": "Que jogo apresenta a cidade de Midgar?",
+    "opcoes": [
+      "Final Fantasy VII",
+      "Final Fantasy VI",
+      "Chrono Trigger",
+      "Kingdom Hearts"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 345,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do protagonista de Final Fantasy VII?",
+    "opcoes": [
+      "Noctis",
+      "Cloud Strife",
+      "Squall Leonhart",
+      "Tidus"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 346,
+    "nivel": "dificil",
+    "pergunta": "Em Kingdom Hearts, que arma Sora usa?",
+    "opcoes": [
+      "Buster Sword",
+      "Master Sword",
+      "Keyblade",
+      "Gunblade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 347,
+    "nivel": "dificil",
+    "pergunta": "Qual jogo da Capcom tem o protagonista Phoenix Wright?",
+    "opcoes": [
+      "Devil May Cry",
+      "Dead Rising",
+      "Okami",
+      "Ace Attorney"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 348,
+    "nivel": "dificil",
+    "pergunta": "Que jogo apresenta Dante e Vergil?",
+    "opcoes": [
+      "Devil May Cry",
+      "Bayonetta",
+      "Ninja Gaiden",
+      "Darksiders"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 349,
+    "nivel": "dificil",
+    "pergunta": "Em Okami, a protagonista é uma forma de qual divindade?",
+    "opcoes": [
+      "Tsukuyomi",
+      "Amaterasu",
+      "Susanoo",
+      "Izanagi"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 350,
+    "nivel": "dificil",
+    "pergunta": "Qual jogo da FromSoftware se passa em Yharnam?",
+    "opcoes": [
+      "Sekiro",
+      "Elden Ring",
+      "Bloodborne",
+      "Dark Souls"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 351,
+    "nivel": "dificil",
+    "pergunta": "Que jogo venceu o Game of the Year de 2015 em várias premiações e acompanha Geralt?",
+    "opcoes": [
+      "Fallout 4",
+      "Bloodborne",
+      "Metal Gear Solid V",
+      "The Witcher 3"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 352,
+    "nivel": "dificil",
+    "pergunta": "Em Elden Ring, qual é o título dado ao jogador?",
+    "opcoes": [
+      "Maculado",
+      "Caçador",
+      "Ashen One",
+      "Portador da Maldição"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 353,
+    "nivel": "dificil",
+    "pergunta": "Qual jogo de Kojima acompanha Sam Porter Bridges?",
+    "opcoes": [
+      "Snatcher",
+      "Death Stranding",
+      "Metal Gear Solid V",
+      "Zone of the Enders"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 354,
+    "nivel": "dificil",
+    "pergunta": "Que jogo é conhecido pelo modo battle royale com 100 jogadores?",
+    "opcoes": [
+      "Civilization VI",
+      "The Sims 4",
+      "PlayerUnknown’s Battlegrounds",
+      "Portal 2"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 355,
+    "nivel": "dificil",
+    "pergunta": "Em Fall Guys, os jogadores controlam personagens com aparência de quê?",
+    "opcoes": [
+      "Robôs",
+      "Dragões",
+      "Peixes",
+      "Feijões"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 356,
+    "nivel": "dificil",
+    "pergunta": "Qual jogo tem a personagem Chell?",
+    "opcoes": [
+      "Portal",
+      "Half-Life",
+      "Left 4 Dead",
+      "Counter-Strike"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 357,
+    "nivel": "dificil",
+    "pergunta": "Em Left 4 Dead 2, contra que inimigos se luta?",
+    "opcoes": [
+      "Dragões",
+      "Infectados",
+      "Aliens",
+      "Nazis"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 358,
+    "nivel": "dificil",
+    "pergunta": "Qual jogo da Valve é uma plataforma de distribuição digital?",
+    "opcoes": [
+      "GOG Galaxy",
+      "Uplay",
+      "Steam",
+      "Origin"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 359,
+    "nivel": "dificil",
+    "pergunta": "Que jogo musical permite criar batidas com personagens em caixas?",
+    "opcoes": [
+      "osu!",
+      "Thumper",
+      "Crypt of the NecroDancer",
+      "Incredibox"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 360,
+    "nivel": "dificil",
+    "pergunta": "Qual jogo apresenta o detective virtual Jesse Faden?",
+    "opcoes": [
+      "Control",
+      "Alan Wake",
+      "Quantum Break",
+      "The Medium"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 361,
+    "nivel": "dificil",
+    "pergunta": "Quem é o protagonista de Naruto?",
+    "opcoes": [
+      "Jiraiya",
+      "Naruto Uzumaki",
+      "Sasuke Uchiha",
+      "Kakashi Hatake"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 362,
+    "nivel": "dificil",
+    "pergunta": "Em One Piece, qual é o sonho de Monkey D. Luffy?",
+    "opcoes": [
+      "Ser o maior espadachim",
+      "Tornar-se almirante",
+      "Ser o Rei dos Piratas",
+      "Encontrar o All Blue"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 363,
+    "nivel": "dificil",
+    "pergunta": "Qual anime acompanha Son Goku?",
+    "opcoes": [
+      "Bleach",
+      "Yu Yu Hakusho",
+      "Inuyasha",
+      "Dragon Ball"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 364,
+    "nivel": "dificil",
+    "pergunta": "Em Pokémon, qual é o nome do parceiro de Ash?",
+    "opcoes": [
+      "Pikachu",
+      "Eevee",
+      "Charizard",
+      "Meowth"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 365,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu e desenhou Death Note?",
+    "opcoes": [
+      "Masashi Kishimoto e Tite Kubo",
+      "Tsugumi Ohba e Takeshi Obata",
+      "Eiichiro Oda e Akira Toriyama",
+      "Rumiko Takahashi e CLAMP"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 366,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do caderno em Death Note?",
+    "opcoes": [
+      "Soul Record",
+      "Kira Journal",
+      "Death Note",
+      "Black Book"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 367,
+    "nivel": "dificil",
+    "pergunta": "Em Demon Slayer, qual é o nome da irmã de Tanjiro?",
+    "opcoes": [
+      "Mitsuri",
+      "Shinobu",
+      "Kanao",
+      "Nezuko"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 368,
+    "nivel": "dificil",
+    "pergunta": "Qual estúdio produziu My Neighbor Totoro?",
+    "opcoes": [
+      "Studio Ghibli",
+      "Madhouse",
+      "Bones",
+      "Pierrot"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 369,
+    "nivel": "dificil",
+    "pergunta": "Em Attack on Titan, contra que criaturas os humanos lutam?",
+    "opcoes": [
+      "Quimeras",
+      "Titãs",
+      "Hollows",
+      "Demónios"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 370,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do protagonista de Bleach?",
+    "opcoes": [
+      "Uryu Ishida",
+      "Renji Abarai",
+      "Ichigo Kurosaki",
+      "Rukia Kuchiki"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 371,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem a personagem Sailor Moon?",
+    "opcoes": [
+      "Cardcaptor Sakura",
+      "Magic Knight Rayearth",
+      "Tokyo Mew Mew",
+      "Sailor Moon"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 372,
+    "nivel": "dificil",
+    "pergunta": "Em Fullmetal Alchemist, que irmãos procuram a Pedra Filosofal?",
+    "opcoes": [
+      "Edward e Alphonse Elric",
+      "Roy e Maes",
+      "Ling e Lan Fan",
+      "Scar e Hohenheim"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 373,
+    "nivel": "dificil",
+    "pergunta": "Qual é o título do protagonista de My Hero Academia?",
+    "opcoes": [
+      "All Might",
+      "Izuku Midoriya",
+      "Katsuki Bakugo",
+      "Shoto Todoroki"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 374,
+    "nivel": "dificil",
+    "pergunta": "Em One Punch Man, quem derrota inimigos com um só soco?",
+    "opcoes": [
+      "King",
+      "Garou",
+      "Saitama",
+      "Genos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 375,
+    "nivel": "dificil",
+    "pergunta": "Qual anime se passa na aldeia de Konoha?",
+    "opcoes": [
+      "One Piece",
+      "Bleach",
+      "Fairy Tail",
+      "Naruto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 376,
+    "nivel": "dificil",
+    "pergunta": "Quem é o autor de One Piece?",
+    "opcoes": [
+      "Eiichiro Oda",
+      "Masashi Kishimoto",
+      "Hajime Isayama",
+      "Naoko Takeuchi"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 377,
+    "nivel": "dificil",
+    "pergunta": "Em Spirited Away, qual é o nome do rapaz que ajuda Chihiro?",
+    "opcoes": [
+      "Pazu",
+      "Haku",
+      "Howl",
+      "Ashitaka"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 378,
+    "nivel": "dificil",
+    "pergunta": "Qual anime tem o personagem Totoro?",
+    "opcoes": [
+      "Kiki’s Delivery Service",
+      "Arrietty",
+      "My Neighbor Totoro",
+      "Ponyo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 379,
+    "nivel": "dificil",
+    "pergunta": "Em Jujutsu Kaisen, qual entidade vive dentro de Yuji Itadori?",
+    "opcoes": [
+      "Mahito",
+      "Gojo",
+      "Kenjaku",
+      "Ryomen Sukuna"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 380,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do professor de Jujutsu Kaisen que usa uma venda?",
+    "opcoes": [
+      "Satoru Gojo",
+      "Suguru Geto",
+      "Kento Nanami",
+      "Toji Fushiguro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 381,
+    "nivel": "dificil",
+    "pergunta": "Que anime acompanha Gon Freecss?",
+    "opcoes": [
+      "Black Clover",
+      "Hunter x Hunter",
+      "Yu Yu Hakusho",
+      "JoJo’s Bizarre Adventure"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 382,
+    "nivel": "dificil",
+    "pergunta": "Em Hunter x Hunter, o que Gon procura?",
+    "opcoes": [
+      "Um tesouro pirata",
+      "A Pedra Filosofal",
+      "O pai",
+      "A mãe"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 383,
+    "nivel": "dificil",
+    "pergunta": "Qual anime tem os irmãos Edward e Alphonse?",
+    "opcoes": [
+      "Soul Eater",
+      "Fire Force",
+      "Blue Exorcist",
+      "Fullmetal Alchemist"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 384,
+    "nivel": "dificil",
+    "pergunta": "Em Yu-Gi-Oh!, que jogo de cartas é central?",
+    "opcoes": [
+      "Duel Monsters",
+      "Cardfight",
+      "Magic Duel",
+      "Battle Spirits"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 385,
+    "nivel": "dificil",
+    "pergunta": "Quem é o protagonista de Yu-Gi-Oh!?",
+    "opcoes": [
+      "Atem apenas",
+      "Yugi Muto",
+      "Seto Kaiba",
+      "Joey Wheeler"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 386,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do gato robótico de Doraemon?",
+    "opcoes": [
+      "Gian",
+      "Suneo",
+      "Doraemon",
+      "Nobita"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 387,
+    "nivel": "dificil",
+    "pergunta": "Em Sailor Moon, qual é o nome civil da protagonista?",
+    "opcoes": [
+      "Rei Hino",
+      "Ami Mizuno",
+      "Makoto Kino",
+      "Usagi Tsukino"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 388,
+    "nivel": "dificil",
+    "pergunta": "Que anime de desporto é centrado em Hinata Shoyo?",
+    "opcoes": [
+      "Haikyu!!",
+      "Kuroko’s Basketball",
+      "Free!",
+      "Yowamushi Pedal"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 389,
+    "nivel": "dificil",
+    "pergunta": "Qual é a posição de Hinata no voleibol em Haikyu!!?",
+    "opcoes": [
+      "Líbero suplente",
+      "Atacante central",
+      "Libero",
+      "Levantador"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 390,
+    "nivel": "dificil",
+    "pergunta": "Em JoJo’s Bizarre Adventure, como se chama a família principal?",
+    "opcoes": [
+      "Higashikata apenas",
+      "Zeppeli",
+      "Joestar",
+      "Brando"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 391,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem a personagem Jolyne Cujoh?",
+    "opcoes": [
+      "Nana",
+      "Claymore",
+      "Violet Evergarden",
+      "JoJo’s Bizarre Adventure"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 392,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do protagonista de Cowboy Bebop?",
+    "opcoes": [
+      "Spike Spiegel",
+      "Jet Black",
+      "Vicious",
+      "Faye Valentine"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 393,
+    "nivel": "dificil",
+    "pergunta": "Em Cowboy Bebop, que tipo de trabalho a tripulação realiza?",
+    "opcoes": [
+      "Polícia espacial",
+      "Caça a recompensas",
+      "Exploração arqueológica",
+      "Entregas postais"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 394,
+    "nivel": "dificil",
+    "pergunta": "Qual anime é protagonizado por Rei e Shinji?",
+    "opcoes": [
+      "RahXephon",
+      "Gurren Lagann",
+      "Neon Genesis Evangelion",
+      "Serial Experiments Lain"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 395,
+    "nivel": "dificil",
+    "pergunta": "Em Neon Genesis Evangelion, que máquinas lutam contra os Anjos?",
+    "opcoes": [
+      "Mobile Suits",
+      "Titãs",
+      "Frames",
+      "EVAs"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 396,
+    "nivel": "dificil",
+    "pergunta": "Qual anime acompanha a alquimista Maomao?",
+    "opcoes": [
+      "Diários de uma Apotecária",
+      "Violet Evergarden",
+      "Nana",
+      "Ergo Proxy"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 397,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem a personagem Violet Evergarden?",
+    "opcoes": [
+      "A Silent Voice",
+      "Violet Evergarden",
+      "Your Lie in April",
+      "Clannad"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 398,
+    "nivel": "dificil",
+    "pergunta": "Em Your Name, que fenómeno liga os protagonistas?",
+    "opcoes": [
+      "Telepatia animal",
+      "Viagem no tempo por máquina",
+      "Troca de corpos",
+      "Viagem à Lua"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 399,
+    "nivel": "dificil",
+    "pergunta": "Qual é o título japonês de A Viagem de Chihiro?",
+    "opcoes": [
+      "Mononoke Hime",
+      "Kaze no Tani no Nausicaä",
+      "Mimi wo Sumaseba",
+      "Sen to Chihiro no Kamikakushi"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 400,
+    "nivel": "dificil",
+    "pergunta": "Qual anime tem piratas e a Grand Line?",
+    "opcoes": [
+      "One Piece",
+      "Black Clover",
+      "Dr. Stone",
+      "Fairy Tail"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 401,
+    "nivel": "dificil",
+    "pergunta": "Em Fairy Tail, que tipo de organização é Fairy Tail?",
+    "opcoes": [
+      "Uma agência policial",
+      "Uma guilda de magos",
+      "Uma escola de ninjas",
+      "Uma tripulação pirata"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 402,
+    "nivel": "dificil",
+    "pergunta": "Qual anime acompanha Senku Ishigami?",
+    "opcoes": [
+      "Cells at Work!",
+      "Pluto",
+      "Dr. Stone",
+      "Steins;Gate"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 403,
+    "nivel": "dificil",
+    "pergunta": "Em Dr. Stone, o que petrifica a humanidade?",
+    "opcoes": [
+      "Uma epidemia conhecida",
+      "Uma guerra nuclear",
+      "Um eclipse",
+      "Um misterioso clarão"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 404,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do protagonista de Mob Psycho 100?",
+    "opcoes": [
+      "Shigeo Kageyama",
+      "Arataka Reigen",
+      "Teruki Hanazawa",
+      "Ritsu Kageyama"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 405,
+    "nivel": "dificil",
+    "pergunta": "Em Mob Psycho 100, que poder Shigeo possui?",
+    "opcoes": [
+      "Visão do futuro",
+      "Poderes psíquicos",
+      "Respiração solar",
+      "Alquimia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 406,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem a escola U.A. High School?",
+    "opcoes": [
+      "Blue Exorcist",
+      "Soul Eater",
+      "My Hero Academia",
+      "Assassination Classroom"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 407,
+    "nivel": "dificil",
+    "pergunta": "Em My Hero Academia, como se chamam os poderes?",
+    "opcoes": [
+      "Nen",
+      "Chakra",
+      "Stands",
+      "Individualidades"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 408,
+    "nivel": "dificil",
+    "pergunta": "Qual anime acompanha os irmãos Elric?",
+    "opcoes": [
+      "Fullmetal Alchemist",
+      "Naruto",
+      "D.Gray-man",
+      "Magi"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 409,
+    "nivel": "dificil",
+    "pergunta": "Em Attack on Titan, qual é a muralha exterior no início?",
+    "opcoes": [
+      "Muralha Shiganshina",
+      "Muralha Maria",
+      "Muralha Rose",
+      "Muralha Sina"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 410,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem a personagem Mikasa Ackerman?",
+    "opcoes": [
+      "Black Lagoon",
+      "86",
+      "Attack on Titan",
+      "Claymore"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 411,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do protagonista de Chainsaw Man?",
+    "opcoes": [
+      "Aki Hayakawa",
+      "Kishibe",
+      "Beam",
+      "Denji"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 412,
+    "nivel": "dificil",
+    "pergunta": "Em Chainsaw Man, qual é o demónio ligado a Denji?",
+    "opcoes": [
+      "Demónio Motosserra",
+      "Demónio Raposa",
+      "Demónio Arma",
+      "Demónio Sangue"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 413,
+    "nivel": "dificil",
+    "pergunta": "Qual anime é conhecido pela técnica Bankai?",
+    "opcoes": [
+      "Demon Slayer",
+      "Bleach",
+      "Naruto",
+      "One Piece"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 414,
+    "nivel": "dificil",
+    "pergunta": "Em Bleach, o que é Rukia Kuchiki?",
+    "opcoes": [
+      "Uma ninja",
+      "Uma caçadora de demónios",
+      "Uma shinigami",
+      "Uma pirata"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 415,
+    "nivel": "dificil",
+    "pergunta": "Que anime apresenta o Campeonato Mundial de Beyblade?",
+    "opcoes": [
+      "Bakugan",
+      "Medabots",
+      "Inazuma Eleven",
+      "Beyblade"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 416,
+    "nivel": "dificil",
+    "pergunta": "Qual é o desporto de Inazuma Eleven?",
+    "opcoes": [
+      "Futebol",
+      "Basquetebol",
+      "Voleibol",
+      "Basebol"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 417,
+    "nivel": "dificil",
+    "pergunta": "Em Kuroko’s Basketball, qual é o desporto?",
+    "opcoes": [
+      "Andebol",
+      "Basquetebol",
+      "Futebol",
+      "Ténis"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 418,
+    "nivel": "dificil",
+    "pergunta": "Qual anime acompanha o pianista Kousei Arima?",
+    "opcoes": [
+      "Beck",
+      "Kids on the Slope",
+      "Your Lie in April",
+      "Nodame Cantabile"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 419,
+    "nivel": "dificil",
+    "pergunta": "Em Nana, como se chamam as duas protagonistas?",
+    "opcoes": [
+      "Nana e Yuki",
+      "Hachi e Reira",
+      "Mika e Nana",
+      "Nana Komatsu e Nana Osaki"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 420,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem o protagonista Thorfinn?",
+    "opcoes": [
+      "Vinland Saga",
+      "Berserk",
+      "Kingdom",
+      "Golden Kamuy"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 421,
+    "nivel": "dificil",
+    "pergunta": "Em Vinland Saga, qual era a profissão do pai de Thorfinn?",
+    "opcoes": [
+      "Rei",
+      "Guerreiro",
+      "Ferreiro",
+      "Mercador"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 422,
+    "nivel": "dificil",
+    "pergunta": "Qual anime é baseado no mangá de Kentaro Miura?",
+    "opcoes": [
+      "Kingdom",
+      "Monster",
+      "Berserk",
+      "Vagabond"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 423,
+    "nivel": "dificil",
+    "pergunta": "Em Berserk, qual é o nome do protagonista?",
+    "opcoes": [
+      "Griffith",
+      "Casca",
+      "Puck",
+      "Guts"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 424,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem o detective Conan Edogawa?",
+    "opcoes": [
+      "Detective Conan",
+      "Death Note",
+      "Monster",
+      "Pluto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 425,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome verdadeiro de Conan Edogawa?",
+    "opcoes": [
+      "Kogoro Mouri",
+      "Shinichi Kudo",
+      "Heiji Hattori",
+      "Kaito Kid"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 426,
+    "nivel": "dificil",
+    "pergunta": "Em Code Geass, qual é o poder de Lelouch?",
+    "opcoes": [
+      "Quirk",
+      "Alchemy",
+      "Geass",
+      "Nen"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 427,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do protagonista de Code Geass?",
+    "opcoes": [
+      "Suzaku Kururugi",
+      "C.C.",
+      "Schneizel",
+      "Lelouch Lamperouge"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 428,
+    "nivel": "dificil",
+    "pergunta": "Que anime apresenta a cidade de Amestris?",
+    "opcoes": [
+      "Fullmetal Alchemist",
+      "Attack on Titan",
+      "Magi",
+      "Nier: Automata Ver1.1a"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 429,
+    "nivel": "dificil",
+    "pergunta": "Em Steins;Gate, que objecto é usado para enviar mensagens ao passado?",
+    "opcoes": [
+      "Um relógio",
+      "Um micro-ondas modificado",
+      "Uma televisão",
+      "Um rádio de ondas curtas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 430,
+    "nivel": "dificil",
+    "pergunta": "Qual anime tem os personagens Okabe e Kurisu?",
+    "opcoes": [
+      "Erased",
+      "Paranoia Agent",
+      "Steins;Gate",
+      "Psycho-Pass"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 431,
+    "nivel": "dificil",
+    "pergunta": "Em Erased, o protagonista regressa no tempo para quê?",
+    "opcoes": [
+      "Ganhar uma corrida",
+      "Encontrar um tesouro",
+      "Aprender magia",
+      "Impedir crimes contra crianças"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 432,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome do protagonista de Erased?",
+    "opcoes": [
+      "Satoru Fujinuma",
+      "Kei Nagai",
+      "Satoru Gojo",
+      "Ken Kaneki"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 433,
+    "nivel": "dificil",
+    "pergunta": "Que anime acompanha Ken Kaneki?",
+    "opcoes": [
+      "Devilman Crybaby",
+      "Tokyo Ghoul",
+      "Parasyte",
+      "Ajin"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 434,
+    "nivel": "dificil",
+    "pergunta": "Em Tokyo Ghoul, que tipo de ser é Kaneki após a operação?",
+    "opcoes": [
+      "Humano artificial",
+      "Titã",
+      "Meio ghoul",
+      "Vampiro completo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 435,
+    "nivel": "dificil",
+    "pergunta": "Qual anime tem o protagonista Shinichi Izumi?",
+    "opcoes": [
+      "Tokyo Revengers",
+      "Ajin",
+      "Inuyashiki",
+      "Parasyte"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 436,
+    "nivel": "dificil",
+    "pergunta": "Em Parasyte, que órgão é tomado pelo parasita Migi?",
+    "opcoes": [
+      "A mão direita",
+      "O olho esquerdo",
+      "O coração",
+      "O ouvido"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 437,
+    "nivel": "dificil",
+    "pergunta": "Qual é o nome da protagonista de Kill la Kill?",
+    "opcoes": [
+      "Nui Harime",
+      "Ryuko Matoi",
+      "Satsuki Kiryuin",
+      "Mako Mankanshoku"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 438,
+    "nivel": "dificil",
+    "pergunta": "Que anime tem a escola de assassinos Kunugigaoka?",
+    "opcoes": [
+      "Danganronpa",
+      "Another",
+      "Assassination Classroom",
+      "Classroom of the Elite"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 439,
+    "nivel": "dificil",
+    "pergunta": "Em Assassination Classroom, qual é o professor amarelo?",
+    "opcoes": [
+      "Karma",
+      "Nagisa",
+      "Itona",
+      "Koro-sensei"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 440,
+    "nivel": "dificil",
+    "pergunta": "Qual anime de ficção científica acompanha Motoko Kusanagi?",
+    "opcoes": [
+      "Ghost in the Shell",
+      "Akira",
+      "Patlabor",
+      "Psycho-Pass"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 441,
+    "nivel": "dificil",
+    "pergunta": "Em Ghost in the Shell, Motoko Kusanagi trabalha para qual unidade?",
+    "opcoes": [
+      "Esquadrão Zero",
+      "Secção 9",
+      "Secção 6",
+      "Divisão 13"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 442,
+    "nivel": "dificil",
+    "pergunta": "Qual anime de Satoshi Kon envolve sonhos partilhados?",
+    "opcoes": [
+      "Tokyo Godfathers",
+      "Millennium Actress",
+      "Paprika",
+      "Perfect Blue"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 443,
+    "nivel": "dificil",
+    "pergunta": "Quem dirigiu o anime Paprika?",
+    "opcoes": [
+      "Hayao Miyazaki",
+      "Makoto Shinkai",
+      "Mamoru Hosoda",
+      "Satoshi Kon"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 444,
+    "nivel": "dificil",
+    "pergunta": "Qual anime tem o personagem Ashitaka?",
+    "opcoes": [
+      "Princess Mononoke",
+      "Nausicaä",
+      "Porco Rosso",
+      "The Wind Rises"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 445,
+    "nivel": "dificil",
+    "pergunta": "Em Princess Mononoke, Ashitaka procura curar o quê?",
+    "opcoes": [
+      "A perda da memória",
+      "Uma maldição",
+      "Uma doença do sono",
+      "Uma ferida de guerra"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 446,
+    "nivel": "dificil",
+    "pergunta": "O que significa a sigla URL?",
+    "opcoes": [
+      "User Route Language",
+      "Unified Resource List",
+      "Uniform Resource Locator",
+      "Universal Reading Link"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 447,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma é conhecida por vídeos curtos em formato vertical?",
+    "opcoes": [
+      "LinkedIn",
+      "Wikipédia",
+      "Flickr",
+      "TikTok"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 448,
+    "nivel": "dificil",
+    "pergunta": "O que é um meme da internet?",
+    "opcoes": [
+      "Uma ideia ou conteúdo replicado e transformado online",
+      "Um antivírus",
+      "Um cabo de rede",
+      "Uma conta bancária digital"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 449,
+    "nivel": "dificil",
+    "pergunta": "Qual serviço criou o formato de mensagens de 280 caracteres?",
+    "opcoes": [
+      "Discord",
+      "X, anteriormente Twitter",
+      "Facebook",
+      "Reddit"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 450,
+    "nivel": "dificil",
+    "pergunta": "O que significa DM nas redes sociais?",
+    "opcoes": [
+      "Modo de desenho",
+      "Domínio mundial",
+      "Mensagem directa",
+      "Dados móveis"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 451,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma é principalmente dedicada a uma enciclopédia colaborativa?",
+    "opcoes": [
+      "Twitch",
+      "Pinterest",
+      "Snapchat",
+      "Wikipédia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 452,
+    "nivel": "dificil",
+    "pergunta": "O que é phishing?",
+    "opcoes": [
+      "Fraude para obter dados através de mensagens falsas",
+      "Um formato de vídeo",
+      "Uma ligação rápida",
+      "Um programa de edição"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 453,
+    "nivel": "dificil",
+    "pergunta": "O que significa HTTP?",
+    "opcoes": [
+      "Hyperlink Text Type Process",
+      "Hypertext Transfer Protocol",
+      "High Text Translation Program",
+      "Home Tool Transfer Path"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 454,
+    "nivel": "dificil",
+    "pergunta": "Qual empresa mantém o sistema Android?",
+    "opcoes": [
+      "Adobe",
+      "Nintendo",
+      "Google",
+      "Mozilla"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 455,
+    "nivel": "dificil",
+    "pergunta": "O que é um podcast?",
+    "opcoes": [
+      "Um tipo de fotografia",
+      "Um jogo de cartas",
+      "Um cabo de fibra",
+      "Um programa de áudio distribuído pela internet"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 456,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma é conhecida por transmissões ao vivo de jogos?",
+    "opcoes": [
+      "Twitch",
+      "Pinterest",
+      "LinkedIn",
+      "Tumblr"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 457,
+    "nivel": "dificil",
+    "pergunta": "O que significa a sigla GIF?",
+    "opcoes": [
+      "Graphic Input Folder",
+      "Graphics Interchange Format",
+      "General Internet File",
+      "Global Image Function"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 458,
+    "nivel": "dificil",
+    "pergunta": "Qual extensão é normalmente usada por uma página HTML?",
+    "opcoes": [
+      ".exe",
+      ".zip",
+      ".html",
+      ".mp3"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 459,
+    "nivel": "dificil",
+    "pergunta": "O que é uma hashtag?",
+    "opcoes": [
+      "Uma palavra-passe",
+      "Um vírus",
+      "Um navegador",
+      "Uma palavra ou expressão precedida pelo símbolo cardinal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 460,
+    "nivel": "dificil",
+    "pergunta": "Qual rede social é conhecida por comunidades chamadas subreddits?",
+    "opcoes": [
+      "Reddit",
+      "Instagram",
+      "Telegram",
+      "Vimeo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 461,
+    "nivel": "dificil",
+    "pergunta": "O que é um navegador web?",
+    "opcoes": [
+      "Um editor de som",
+      "Um programa para aceder a páginas da internet",
+      "Um motor de busca apenas",
+      "Um sistema operativo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 462,
+    "nivel": "dificil",
+    "pergunta": "Qual destes é um motor de busca?",
+    "opcoes": [
+      "Spotify",
+      "Steam",
+      "Google",
+      "WhatsApp"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 463,
+    "nivel": "dificil",
+    "pergunta": "O que significa Wi-Fi?",
+    "opcoes": [
+      "Um formato de áudio",
+      "Uma linguagem de programação",
+      "Um tipo de bateria",
+      "Uma tecnologia de rede sem fios"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 464,
+    "nivel": "dificil",
+    "pergunta": "Qual aplicação é conhecida por mensagens cifradas e grupos?",
+    "opcoes": [
+      "Signal",
+      "Paint",
+      "Excel",
+      "VLC"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 465,
+    "nivel": "dificil",
+    "pergunta": "O que é computação em nuvem?",
+    "opcoes": [
+      "Um cabo submarino",
+      "Uso remoto de recursos informáticos pela internet",
+      "Armazenamento em papel",
+      "Um tipo de meteorologia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 466,
+    "nivel": "dificil",
+    "pergunta": "Qual serviço é conhecido por vídeos online e pertence à Google?",
+    "opcoes": [
+      "Vimeo",
+      "Twitch",
+      "YouTube",
+      "Dailymotion"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 467,
+    "nivel": "dificil",
+    "pergunta": "O que é uma palavra-passe forte?",
+    "opcoes": [
+      "O nome do utilizador",
+      "Uma palavra publicada",
+      "Uma sequência simples",
+      "Uma combinação longa e difícil de adivinhar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 468,
+    "nivel": "dificil",
+    "pergunta": "O que significa a sigla PDF?",
+    "opcoes": [
+      "Portable Document Format",
+      "Public Data File",
+      "Personal Download Form",
+      "Printed Document Folder"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 469,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma é usada para repositórios de código?",
+    "opcoes": [
+      "SoundCloud",
+      "GitHub",
+      "Foursquare",
+      "Behance"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 470,
+    "nivel": "dificil",
+    "pergunta": "O que é código aberto?",
+    "opcoes": [
+      "Um programa sem ficheiros",
+      "Um código postal",
+      "Software cujo código pode ser consultado e modificado conforme a licença",
+      "Software sem qualquer licença"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 471,
+    "nivel": "dificil",
+    "pergunta": "Qual linguagem é usada para estruturar páginas web?",
+    "opcoes": [
+      "MP3",
+      "JPEG",
+      "SMTP",
+      "HTML"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 472,
+    "nivel": "dificil",
+    "pergunta": "Qual linguagem é usada principalmente para estilizar páginas web?",
+    "opcoes": [
+      "CSS",
+      "SQL",
+      "PNG",
+      "FTP"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 473,
+    "nivel": "dificil",
+    "pergunta": "O que faz o JavaScript numa página web?",
+    "opcoes": [
+      "Cria cabos",
+      "Permite comportamento e interacção programável",
+      "Substitui sempre o servidor",
+      "Comprime imagens apenas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 474,
+    "nivel": "dificil",
+    "pergunta": "O que é uma aplicação viral na internet?",
+    "opcoes": [
+      "Uma app sem utilizadores",
+      "Um programa de vacinação",
+      "Uma aplicação que se espalha rapidamente entre utilizadores",
+      "Uma aplicação contra vírus"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 475,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma é conhecida por imagens e painéis guardados?",
+    "opcoes": [
+      "Discord",
+      "Reddit",
+      "Mastodon",
+      "Pinterest"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 476,
+    "nivel": "dificil",
+    "pergunta": "O que é streaming?",
+    "opcoes": [
+      "Transmissão de conteúdo enquanto é recebido",
+      "Impressão de documentos",
+      "Edição de fotografias",
+      "Uma chamada telefónica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 477,
+    "nivel": "dificil",
+    "pergunta": "Qual serviço é focado em música em streaming?",
+    "opcoes": [
+      "Zoom",
+      "Spotify",
+      "Dropbox",
+      "GitLab"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 478,
+    "nivel": "dificil",
+    "pergunta": "O que é um influenciador digital?",
+    "opcoes": [
+      "Um programa antivírus",
+      "Um servidor físico",
+      "Pessoa que influencia públicos através de plataformas digitais",
+      "Um cabo de rede"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 479,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma é associada a chamadas e comunidades de voz?",
+    "opcoes": [
+      "Flickr",
+      "Medium",
+      "Dribbble",
+      "Discord"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 480,
+    "nivel": "dificil",
+    "pergunta": "O que é uma cópia de segurança?",
+    "opcoes": [
+      "Uma cópia para recuperar dados",
+      "Uma mensagem pública",
+      "Uma actualização de ecrã",
+      "Uma conta falsa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 481,
+    "nivel": "dificil",
+    "pergunta": "O que é autenticação de dois factores?",
+    "opcoes": [
+      "Duas palavras públicas",
+      "Verificação de identidade usando dois métodos",
+      "Duas contas iguais",
+      "Dois navegadores"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 482,
+    "nivel": "dificil",
+    "pergunta": "Qual protocolo protege muitas ligações web com cifragem?",
+    "opcoes": [
+      "FTP anónimo",
+      "SMTP aberto",
+      "HTTPS",
+      "HTTP simples"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 483,
+    "nivel": "dificil",
+    "pergunta": "O que é malware?",
+    "opcoes": [
+      "Software musical",
+      "Uma imagem comprimida",
+      "Um cabo de dados",
+      "Software malicioso"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 484,
+    "nivel": "dificil",
+    "pergunta": "Qual é a função de um antivírus?",
+    "opcoes": [
+      "Detectar ou remover software malicioso",
+      "Aumentar o volume",
+      "Criar contas",
+      "Editar filmes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 485,
+    "nivel": "dificil",
+    "pergunta": "O que é um troll da internet?",
+    "opcoes": [
+      "Um moderador oficial",
+      "Pessoa que provoca deliberadamente em interacções online",
+      "Um programador certificado",
+      "Um tipo de navegador"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 486,
+    "nivel": "dificil",
+    "pergunta": "O que significa fazer upload?",
+    "opcoes": [
+      "Ler dados offline",
+      "Desligar o computador",
+      "Enviar dados para um serviço ou servidor",
+      "Apagar dados"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 487,
+    "nivel": "dificil",
+    "pergunta": "O que significa fazer download?",
+    "opcoes": [
+      "Publicar uma fotografia em papel",
+      "Criar uma rede",
+      "Bloquear um contacto",
+      "Transferir dados para o dispositivo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 488,
+    "nivel": "dificil",
+    "pergunta": "Qual formato é geralmente usado para fotografias digitais?",
+    "opcoes": [
+      "JPEG",
+      "TXT",
+      "WAV",
+      "HTML"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 489,
+    "nivel": "dificil",
+    "pergunta": "Qual formato é normalmente usado para áudio comprimido?",
+    "opcoes": [
+      "HTML",
+      "MP3",
+      "CSV",
+      "SVG"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 490,
+    "nivel": "dificil",
+    "pergunta": "O que é um QR code?",
+    "opcoes": [
+      "Uma rede social",
+      "Um formato de cinema",
+      "Um código gráfico que pode ser lido por dispositivos",
+      "Um tipo de teclado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 491,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma de mensagens pertence à Meta?",
+    "opcoes": [
+      "Telegram",
+      "Signal",
+      "Viber",
+      "WhatsApp"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 492,
+    "nivel": "dificil",
+    "pergunta": "O que é uma transmissão ao vivo?",
+    "opcoes": [
+      "Emissão de conteúdo em tempo real",
+      "Um vídeo sempre gravado em película",
+      "Uma fotografia impressa",
+      "Um ficheiro apagado"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 493,
+    "nivel": "dificil",
+    "pergunta": "O que é uma conta bot?",
+    "opcoes": [
+      "Uma página sem endereço",
+      "Uma conta automatizada por software",
+      "Uma conta exclusiva de músicos",
+      "Uma conta bancária física"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 494,
+    "nivel": "dificil",
+    "pergunta": "Qual é a finalidade da moderação online?",
+    "opcoes": [
+      "Trocar o sistema operativo",
+      "Criar hardware",
+      "Aplicar regras e reduzir conteúdo abusivo",
+      "Aumentar o preço da internet"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 495,
+    "nivel": "dificil",
+    "pergunta": "O que é desinformação?",
+    "opcoes": [
+      "Toda informação científica",
+      "Uma mensagem cifrada",
+      "Uma fotografia antiga",
+      "Informação falsa ou enganadora apresentada como verdadeira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 496,
+    "nivel": "dificil",
+    "pergunta": "O que é uma bolha de filtro?",
+    "opcoes": [
+      "Personalização que limita a diversidade de conteúdos vistos",
+      "Um filtro de água",
+      "Uma película de ecrã",
+      "Uma rede sem fios"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 497,
+    "nivel": "dificil",
+    "pergunta": "O que significa algoritmo numa plataforma digital?",
+    "opcoes": [
+      "Um monitor",
+      "Conjunto de regras usadas para processar dados ou ordenar conteúdos",
+      "Um cabo",
+      "Uma bateria"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 498,
+    "nivel": "dificil",
+    "pergunta": "O que é realidade virtual?",
+    "opcoes": [
+      "Uma chamada de voz",
+      "Um documento impresso",
+      "Experiência digital imersiva com ambiente simulado",
+      "Uma fotografia de rua"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 499,
+    "nivel": "dificil",
+    "pergunta": "O que é realidade aumentada?",
+    "opcoes": [
+      "Uma rede social",
+      "Um tipo de malware",
+      "Uma cópia de segurança",
+      "Sobreposição de elementos digitais ao ambiente real"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 500,
+    "nivel": "dificil",
+    "pergunta": "Qual plataforma é conhecida por artigos e textos publicados por utilizadores?",
+    "opcoes": [
+      "Medium",
+      "Twitch",
+      "TikTok",
+      "WhatsApp"
+    ],
+    "resposta_correta": 0
+  }
+]

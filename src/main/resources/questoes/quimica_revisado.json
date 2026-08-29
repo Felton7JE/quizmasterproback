@@ -1,0 +1,1982 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Qual estado da matéria tem volume e forma próprios?",
+    "opcoes": [
+      "Sólido",
+      "Líquido",
+      "Gasoso",
+      "Plasma"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Qual mudança de estado ocorre quando um líquido passa a gás?",
+    "opcoes": [
+      "Fusão",
+      "Vaporização",
+      "Solidificação",
+      "Condensação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Qual mudança de estado ocorre quando um gás passa a líquido?",
+    "opcoes": [
+      "Sublimação",
+      "Fusão",
+      "Condensação",
+      "Evaporação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Qual propriedade pode ser medida sem alterar a identidade da substância?",
+    "opcoes": [
+      "Massa",
+      "Inflamabilidade",
+      "Reactividade com ácido",
+      "Combustibilidade"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Qual é uma mistura homogénea?",
+    "opcoes": [
+      "Água e óleo",
+      "Areia e água",
+      "Ar atmosférico filtrado",
+      "Granito"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Qual método separa areia de água?",
+    "opcoes": [
+      "Filtração",
+      "Destilação fraccionada",
+      "Cromatografia",
+      "Imantação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Qual método separa os componentes de uma solução pela diferença dos seus pontos de ebulição?",
+    "opcoes": [
+      "Decantação",
+      "Destilação",
+      "Filtração",
+      "Peneiração"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Qual partícula subatómica tem carga negativa?",
+    "opcoes": [
+      "Protão",
+      "Neutrão",
+      "Electrão",
+      "Núcleo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "Qual partícula subatómica não tem carga eléctrica?",
+    "opcoes": [
+      "Electrão",
+      "Neutrão",
+      "Protão",
+      "Ião"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Onde se concentra quase toda a massa do átomo?",
+    "opcoes": [
+      "Na nuvem electrónica",
+      "No núcleo",
+      "Nas ligações químicas",
+      "No espaço vazio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "O número atómico de um elemento corresponde ao número de quê?",
+    "opcoes": [
+      "Neutrões",
+      "Protões",
+      "Nucleões",
+      "Camadas electrónicas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Átomos do mesmo elemento com diferente número de neutrões são chamados de quê?",
+    "opcoes": [
+      "Iões",
+      "Isótopos",
+      "Isóbaros",
+      "Moléculas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Qual espécie tem carga eléctrica positiva?",
+    "opcoes": [
+      "Anião",
+      "Catião",
+      "Isótopo neutro",
+      "Molécula apolar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "Em qual região da tabela periódica estão os metais alcalinos?",
+    "opcoes": [
+      "Grupo 1",
+      "Grupo 2",
+      "Grupo 17",
+      "Grupo 18"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Qual elemento pertence aos halogéneos?",
+    "opcoes": [
+      "Sódio",
+      "Cloro",
+      "Magnésio",
+      "Hélio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Qual elemento é um gás nobre?",
+    "opcoes": [
+      "Oxigénio",
+      "Azoto",
+      "Néon",
+      "Cloro"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "Ao avançar da esquerda para a direita num período, o número atómico geralmente quê?",
+    "opcoes": [
+      "Diminui",
+      "Aumenta",
+      "Fica sempre igual",
+      "Torna-se zero"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "Qual elemento é representado pelo símbolo O?",
+    "opcoes": [
+      "Ouro",
+      "Oxigénio",
+      "Ósmio",
+      "Prata"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "Qual é o símbolo químico do sódio?",
+    "opcoes": [
+      "S",
+      "So",
+      "Na",
+      "Sd"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "Qual ligação resulta, tipicamente, da transferência de electrões entre um metal e um não metal?",
+    "opcoes": [
+      "Covalente",
+      "Iónica",
+      "Metálica",
+      "De hidrogénio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "Qual ligação envolve partilha de pares de electrões?",
+    "opcoes": [
+      "Covalente",
+      "Iónica",
+      "Metálica",
+      "Nuclear"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "Qual partícula representa a unidade mais pequena de um composto covalente?",
+    "opcoes": [
+      "Molécula",
+      "Protão",
+      "Metal",
+      "Cristal iónico"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Qual substância é formada por moléculas de dois átomos de oxigénio?",
+    "opcoes": [
+      "O",
+      "O2",
+      "O3",
+      "CO2"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Qual é a fórmula da água?",
+    "opcoes": [
+      "HO",
+      "H2O",
+      "H2O2",
+      "OH2O"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Qual transformação química ocorre quando o ferro enferruja?",
+    "opcoes": [
+      "Oxidação",
+      "Fusão",
+      "Dissolução física",
+      "Evaporação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Como se chama a substância que existe antes de uma reacção química?",
+    "opcoes": [
+      "Produto",
+      "Reagente",
+      "Catalisador",
+      "Solvente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "Como se chama a substância formada numa reacção química?",
+    "opcoes": [
+      "Reagente",
+      "Soluto",
+      "Produto",
+      "Indicador"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Qual lei afirma que a massa total se conserva numa reacção química?",
+    "opcoes": [
+      "Lei de Boyle",
+      "Lei da conservação da massa",
+      "Lei de Avogadro",
+      "Lei de Charles"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "Qual gás é necessário para a combustão comum?",
+    "opcoes": [
+      "Oxigénio",
+      "Hélio",
+      "Azoto",
+      "Dióxido de carbono"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Qual é o produto gasoso principal da combustão completa de um hidrocarboneto?",
+    "opcoes": [
+      "Dióxido de carbono",
+      "Ozono",
+      "Azoto",
+      "Cloro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Qual unidade SI mede a quantidade de matéria?",
+    "opcoes": [
+      "Grama",
+      "Mol",
+      "Litro",
+      "Pascal"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "A massa molar da água é aproximadamente quanto? (H = 1; O = 16)",
+    "opcoes": [
+      "10 g/mol",
+      "16 g/mol",
+      "18 g/mol",
+      "20 g/mol"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Qual instrumento é adequado para medir o volume de um líquido com precisão num laboratório?",
+    "opcoes": [
+      "Balança",
+      "Proveta",
+      "Termómetro",
+      "Espátula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "Numa solução de sal em água, qual é o solvente?",
+    "opcoes": [
+      "Sal",
+      "Água",
+      "Iões cloreto",
+      "Cristais"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Numa solução, a substância geralmente presente em menor quantidade chama-se quê?",
+    "opcoes": [
+      "Solvente",
+      "Soluto",
+      "Catalisador",
+      "Precipitado"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "Qual unidade pode expressar concentração comum?",
+    "opcoes": [
+      "g/L",
+      "mol/s",
+      "N/m",
+      "J/K"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Uma solução com pH 3 é classificada como quê?",
+    "opcoes": [
+      "Ácida",
+      "Básica",
+      "Neutra",
+      "Metálica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "Uma solução com pH 7, a 25 °C, é geralmente quê?",
+    "opcoes": [
+      "Ácida",
+      "Básica",
+      "Neutra",
+      "Saturada"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Qual substância é uma base comum?",
+    "opcoes": [
+      "HCl",
+      "NaOH",
+      "CO2",
+      "H2SO4"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "Qual substância é um ácido comum?",
+    "opcoes": [
+      "NaCl",
+      "KOH",
+      "HCl",
+      "NH3"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "Qual cor indica meio ácido no tornassol azul?",
+    "opcoes": [
+      "Azul permanece",
+      "Vermelho",
+      "Verde",
+      "Amarelo sempre"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "A reacção entre um ácido e uma base, formando sal e água, chama-se quê?",
+    "opcoes": [
+      "Neutralização",
+      "Polimerização",
+      "Sublimação",
+      "Fermentação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "Qual grupo funcional caracteriza os álcoois?",
+    "opcoes": [
+      "-OH",
+      "-COOH",
+      "-NH2",
+      "-CHO"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "Qual é o hidrocarboneto mais simples?",
+    "opcoes": [
+      "Metano",
+      "Etano",
+      "Eteno",
+      "Propano"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Qual fórmula geral representa um alcano acíclico?",
+    "opcoes": [
+      "CnH2n",
+      "CnH2n+2",
+      "CnHn",
+      "CnH2n-2"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Qual composto contém uma ligação dupla carbono-carbono?",
+    "opcoes": [
+      "Etano",
+      "Eteno",
+      "Metano",
+      "Propano"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "A queima de madeira é uma transformação de que tipo?",
+    "opcoes": [
+      "Química",
+      "Apenas física",
+      "Nuclear",
+      "Mecânica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Qual gás contribui directamente para o efeito de estufa?",
+    "opcoes": [
+      "Dióxido de carbono",
+      "Hélio",
+      "Hidrogénio",
+      "Néon"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "Qual processo natural usa plantas para retirar dióxido de carbono do ar?",
+    "opcoes": [
+      "Fotossíntese",
+      "Combustão",
+      "Fermentação",
+      "Destilação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "A chuva com pH inferior ao natural devido a óxidos poluentes é chamada de quê?",
+    "opcoes": [
+      "Chuva ácida",
+      "Chuva neutra",
+      "Chuva salina",
+      "Chuva básica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Qual prática reduz a quantidade de resíduos enviados para aterros?",
+    "opcoes": [
+      "Reciclagem",
+      "Queima indiscriminada",
+      "Despejo no rio",
+      "Uso único"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "Qual gás constitui a maior parte do ar atmosférico?",
+    "opcoes": [
+      "Oxigénio",
+      "Azoto",
+      "Dióxido de carbono",
+      "Vapor de água"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "Qual recurso energético é renovável?",
+    "opcoes": [
+      "Carvão mineral",
+      "Petróleo",
+      "Energia solar",
+      "Gás natural"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "O ozono da estratosfera ajuda a proteger a vida de qual radiação?",
+    "opcoes": [
+      "Infravermelha",
+      "Ultravioleta",
+      "Ondas de rádio",
+      "Micro-ondas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "Qual ião resulta de um átomo de cloro que ganhou um electrão?",
+    "opcoes": [
+      "Cl+",
+      "Cl−",
+      "Cl2+",
+      "Cl0"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 56,
+    "nivel": "medio",
+    "pergunta": "Quantos protões tem um átomo neutro de cálcio, Z = 20?",
+    "opcoes": [
+      "10",
+      "20",
+      "40",
+      "60"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 57,
+    "nivel": "medio",
+    "pergunta": "Quantos neutrões existem no isótopo 23Na, sabendo que Z = 11?",
+    "opcoes": [
+      "11",
+      "12",
+      "23",
+      "34"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 58,
+    "nivel": "medio",
+    "pergunta": "Qual é a distribuição electrónica por camadas do átomo de sódio, Z = 11?",
+    "opcoes": [
+      "2,8,1",
+      "2,7,2",
+      "8,2,1",
+      "2,9"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 59,
+    "nivel": "medio",
+    "pergunta": "Qual ião é isoeletrónico com o néon (10 electrões)?",
+    "opcoes": [
+      "Na+",
+      "Na",
+      "Na2+",
+      "F2+"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 60,
+    "nivel": "medio",
+    "pergunta": "Qual elemento tem maior raio atómico entre Li, Na, K e Rb?",
+    "opcoes": [
+      "Li",
+      "Na",
+      "K",
+      "Rb"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 61,
+    "nivel": "medio",
+    "pergunta": "Qual elemento tem maior electronegatividade entre F, Cl, Br e I?",
+    "opcoes": [
+      "F",
+      "Cl",
+      "Br",
+      "I"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 62,
+    "nivel": "medio",
+    "pergunta": "Qual composto apresenta ligação iónica predominante?",
+    "opcoes": [
+      "MgO",
+      "CO2",
+      "CH4",
+      "Cl2"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 63,
+    "nivel": "medio",
+    "pergunta": "Qual molécula é apolar devido à sua geometria linear simétrica?",
+    "opcoes": [
+      "H2O",
+      "NH3",
+      "CO2",
+      "HCl"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 64,
+    "nivel": "medio",
+    "pergunta": "Qual é a geometria aproximada da molécula NH3?",
+    "opcoes": [
+      "Linear",
+      "Angular",
+      "Piramidal trigonal",
+      "Tetraédrica perfeita"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 65,
+    "nivel": "medio",
+    "pergunta": "Quantos electrões de valência tem o oxigénio, Z = 8?",
+    "opcoes": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 66,
+    "nivel": "medio",
+    "pergunta": "Qual equação está balanceada?",
+    "opcoes": [
+      "H2 + O2 → H2O",
+      "2H2 + O2 → 2H2O",
+      "H2 + 2O2 → H2O",
+      "2H2 + 2O2 → H2O"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 67,
+    "nivel": "medio",
+    "pergunta": "Na equação 2H2 + O2 → 2H2O, qual é a razão molar H2:O2?",
+    "opcoes": [
+      "1:1",
+      "2:1",
+      "1:2",
+      "2:2"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 68,
+    "nivel": "medio",
+    "pergunta": "Quantos mols há em 36 g de H2O? (M = 18 g/mol)",
+    "opcoes": [
+      "0,5 mol",
+      "1 mol",
+      "2 mol",
+      "18 mol"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 69,
+    "nivel": "medio",
+    "pergunta": "Qual massa corresponde a 0,50 mol de CO2? (M = 44 g/mol)",
+    "opcoes": [
+      "22 g",
+      "44 g",
+      "88 g",
+      "11 g"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 70,
+    "nivel": "medio",
+    "pergunta": "Quantas moléculas existem aproximadamente em 1 mol de qualquer substância?",
+    "opcoes": [
+      "6,02 × 10^23",
+      "3,01 × 10^8",
+      "9,81",
+      "1,00 × 10^3"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 71,
+    "nivel": "medio",
+    "pergunta": "Quantos mols de NaCl existem em 5,85 g? (M = 58,5 g/mol)",
+    "opcoes": [
+      "0,010 mol",
+      "0,100 mol",
+      "1,00 mol",
+      "10,0 mol"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 72,
+    "nivel": "medio",
+    "pergunta": "Na reacção N2 + 3H2 → 2NH3, quantos mols de NH3 se formam a partir de 2 mol de N2 com H2 suficiente?",
+    "opcoes": [
+      "1 mol",
+      "2 mol",
+      "3 mol",
+      "4 mol"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 73,
+    "nivel": "medio",
+    "pergunta": "Na reacção 2H2 + O2 → 2H2O, 3 mol de H2 precisam de quantos mols de O2?",
+    "opcoes": [
+      "1,5 mol",
+      "2 mol",
+      "3 mol",
+      "6 mol"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 74,
+    "nivel": "medio",
+    "pergunta": "Qual é a concentração molar de 0,50 mol de soluto em 2,0 L de solução?",
+    "opcoes": [
+      "0,10 M",
+      "0,25 M",
+      "1,0 M",
+      "2,5 M"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 75,
+    "nivel": "medio",
+    "pergunta": "Quantos mols de soluto existem em 250 mL de solução 0,20 M?",
+    "opcoes": [
+      "0,005 mol",
+      "0,050 mol",
+      "0,200 mol",
+      "0,800 mol"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 76,
+    "nivel": "medio",
+    "pergunta": "Ao diluir uma solução, mantendo a quantidade de soluto, o que acontece à concentração?",
+    "opcoes": [
+      "Aumenta",
+      "Diminui",
+      "Fica sempre igual",
+      "Torna-se infinita"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 77,
+    "nivel": "medio",
+    "pergunta": "Que volume de solução 1,0 M contém 0,20 mol de soluto?",
+    "opcoes": [
+      "0,020 L",
+      "0,20 L",
+      "1,20 L",
+      "5,0 L"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 78,
+    "nivel": "medio",
+    "pergunta": "Uma solução contém 10 g de NaCl em 200 mL. Qual é a concentração comum?",
+    "opcoes": [
+      "2 g/L",
+      "20 g/L",
+      "50 g/L",
+      "2000 g/L"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 79,
+    "nivel": "medio",
+    "pergunta": "Qual pH corresponde a [H+] = 1,0 × 10^-3 mol/L?",
+    "opcoes": [
+      "3",
+      "-3",
+      "10",
+      "11"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 80,
+    "nivel": "medio",
+    "pergunta": "Uma solução de pH 2 tem quantas vezes mais H+ que uma de pH 5?",
+    "opcoes": [
+      "3 vezes",
+      "30 vezes",
+      "100 vezes",
+      "1000 vezes"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 81,
+    "nivel": "medio",
+    "pergunta": "Qual é a concentração de OH− numa solução neutra a 25 °C?",
+    "opcoes": [
+      "1,0 × 10^-14 M",
+      "1,0 × 10^-7 M",
+      "7,0 M",
+      "14 M"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 82,
+    "nivel": "medio",
+    "pergunta": "Qual sal resulta da neutralização completa de HCl por NaOH?",
+    "opcoes": [
+      "NaCl",
+      "Na2SO4",
+      "KCl",
+      "CaCl2"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 83,
+    "nivel": "medio",
+    "pergunta": "Quantos mols de NaOH neutralizam 1 mol de H2SO4 completamente?",
+    "opcoes": [
+      "0,5 mol",
+      "1 mol",
+      "2 mol",
+      "4 mol"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 84,
+    "nivel": "medio",
+    "pergunta": "Qual indicador é incolor em meio ácido e rosa em meio básico?",
+    "opcoes": [
+      "Fenolftaleína",
+      "Tornassol azul",
+      "Amido",
+      "Cloreto de sódio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 85,
+    "nivel": "medio",
+    "pergunta": "Qual óxido é básico em água?",
+    "opcoes": [
+      "CO2",
+      "SO3",
+      "CaO",
+      "NO2"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 86,
+    "nivel": "medio",
+    "pergunta": "Qual óxido é ácido e contribui para a acidificação da chuva?",
+    "opcoes": [
+      "SO2",
+      "Na2O",
+      "CaO",
+      "MgO"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 87,
+    "nivel": "medio",
+    "pergunta": "Qual é o nome de CH3CH2OH?",
+    "opcoes": [
+      "Metanol",
+      "Etanol",
+      "Etanal",
+      "Ácido etanoico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 88,
+    "nivel": "medio",
+    "pergunta": "Qual é a fórmula molecular do propano?",
+    "opcoes": [
+      "C3H6",
+      "C3H8",
+      "C2H6",
+      "C4H10"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 89,
+    "nivel": "medio",
+    "pergunta": "Qual grupo funcional existe nos ácidos carboxílicos?",
+    "opcoes": [
+      "-COOH",
+      "-OH apenas",
+      "-NH2",
+      "-O-"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 90,
+    "nivel": "medio",
+    "pergunta": "Qual composto é um aldeído?",
+    "opcoes": [
+      "CH3COCH3",
+      "CH3CHO",
+      "CH3COOH",
+      "CH3CH2OH"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 91,
+    "nivel": "medio",
+    "pergunta": "A polimerização do eteno produz principalmente qual polímero?",
+    "opcoes": [
+      "Polieteno",
+      "PVC",
+      "Náilon",
+      "Poliestireno"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 92,
+    "nivel": "medio",
+    "pergunta": "Qual reacção transforma um ácido carboxílico e um álcool em éster e água?",
+    "opcoes": [
+      "Esterificação",
+      "Combustão",
+      "Neutralização nuclear",
+      "Hidrólise de sal"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 93,
+    "nivel": "medio",
+    "pergunta": "Qual processo converte óleos vegetais em biodiesel por formação de ésteres?",
+    "opcoes": [
+      "Transesterificação",
+      "Sublimação",
+      "Electrólise da água",
+      "Nitração"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 94,
+    "nivel": "medio",
+    "pergunta": "A dureza temporária da água está associada principalmente a iões de quê?",
+    "opcoes": [
+      "Bicarbonato de cálcio e magnésio",
+      "Cloreto de sódio",
+      "Nitrato de potássio",
+      "Fluoreto de lítio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 95,
+    "nivel": "medio",
+    "pergunta": "Qual processo remove microrganismos da água por aquecimento até ebulição?",
+    "opcoes": [
+      "Fervura",
+      "Filtração por areia apenas",
+      "Decantação",
+      "Adsorção magnética"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 96,
+    "nivel": "medio",
+    "pergunta": "Qual nutriente em excesso pode causar eutrofização?",
+    "opcoes": [
+      "Nitrato",
+      "Hélio",
+      "Silício elementar",
+      "Argónio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 97,
+    "nivel": "medio",
+    "pergunta": "A eutrofização de um lago pode causar principalmente quê?",
+    "opcoes": [
+      "Aumento de oxigénio dissolvido indefinidamente",
+      "Diminuição de oxigénio pela decomposição",
+      "Formação de ouro",
+      "Evaporação instantânea"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 98,
+    "nivel": "medio",
+    "pergunta": "Qual poluente é formado na combustão incompleta por falta de oxigénio?",
+    "opcoes": [
+      "CO",
+      "CO2 apenas",
+      "O2",
+      "H2"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 99,
+    "nivel": "medio",
+    "pergunta": "Qual é o principal efeito da emissão de CFCs na estratosfera?",
+    "opcoes": [
+      "Destruição catalítica do ozono",
+      "Formação de chuva alcalina",
+      "Aumento do oxigénio molecular",
+      "Redução da evaporação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 100,
+    "nivel": "medio",
+    "pergunta": "Qual gás é um dos principais responsáveis pela acidificação dos oceanos?",
+    "opcoes": [
+      "CO2",
+      "He",
+      "N2",
+      "Ne"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 101,
+    "nivel": "medio",
+    "pergunta": "Qual técnica separa pigmentos de uma tinta pela diferente migração num suporte?",
+    "opcoes": [
+      "Cromatografia",
+      "Filtração",
+      "Decantação",
+      "Cristalização simples"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 102,
+    "nivel": "medio",
+    "pergunta": "Qual propriedade coligativa aumenta quando se adiciona soluto não volátil à água?",
+    "opcoes": [
+      "Ponto de ebulição",
+      "Massa do recipiente",
+      "Número atómico da água",
+      "Carga do protão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 103,
+    "nivel": "medio",
+    "pergunta": "Qual força intermolecular explica a elevada temperatura de ebulição da água?",
+    "opcoes": [
+      "Ligações de hidrogénio",
+      "Forças nucleares",
+      "Ligações metálicas",
+      "Forças magnéticas macroscópicas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 104,
+    "nivel": "medio",
+    "pergunta": "Qual é o número de oxidação do oxigénio na maioria dos óxidos?",
+    "opcoes": [
+      "+2",
+      "+1",
+      "−1",
+      "−2"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 105,
+    "nivel": "medio",
+    "pergunta": "Na reacção Zn + Cu2+ → Zn2+ + Cu, qual espécie é oxidada?",
+    "opcoes": [
+      "Zn",
+      "Cu2+",
+      "Cu",
+      "Nenhuma"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 106,
+    "nivel": "medio",
+    "pergunta": "Na reacção Zn + Cu2+ → Zn2+ + Cu, qual espécie é o agente oxidante?",
+    "opcoes": [
+      "Zn",
+      "Cu2+",
+      "Zn2+",
+      "Cu"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 107,
+    "nivel": "medio",
+    "pergunta": "Qual condição aumenta a rapidez de dissolução de um sólido, sem alterar a sua identidade?",
+    "opcoes": [
+      "Agitar a mistura",
+      "Adicionar um gás nobre",
+      "Diminuir toda a superfície",
+      "Congelar sempre"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 108,
+    "nivel": "medio",
+    "pergunta": "Qual é a unidade de pressão no SI?",
+    "opcoes": [
+      "Pascal",
+      "Mol",
+      "Joule",
+      "Watt"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 109,
+    "nivel": "medio",
+    "pergunta": "Qual princípio explica que um catalisador aumenta a velocidade sem ser consumido globalmente?",
+    "opcoes": [
+      "Diminui a energia de activação",
+      "Aumenta a massa dos produtos",
+      "Muda os elementos",
+      "Elimina o equilíbrio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 110,
+    "nivel": "medio",
+    "pergunta": "Qual material é geralmente um bom condutor eléctrico no estado sólido?",
+    "opcoes": [
+      "Cobre metálico",
+      "Enxofre molecular",
+      "Açúcar sólido",
+      "Vidro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 111,
+    "nivel": "dificil",
+    "pergunta": "Um átomo neutro tem 17 protões e 18 neutrões. Qual é o seu número de massa?",
+    "opcoes": [
+      "17",
+      "18",
+      "35",
+      "36"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 112,
+    "nivel": "dificil",
+    "pergunta": "Qual conjunto representa isótopos do mesmo elemento?",
+    "opcoes": [
+      "12C e 14C",
+      "14C e 14N",
+      "23Na e 24Mg",
+      "35Cl e 37Ar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 113,
+    "nivel": "dificil",
+    "pergunta": "Qual configuração electrónica corresponde ao ião Fe2+ (Z = 26)?",
+    "opcoes": [
+      "[Ar]3d6",
+      "[Ar]3d4",
+      "[Ar]4s2 3d4",
+      "[Ne]3s2 3p6"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 114,
+    "nivel": "dificil",
+    "pergunta": "Qual é o número de electrões desemparelhados no átomo de azoto no estado fundamental (1s2 2s2 2p3)?",
+    "opcoes": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 115,
+    "nivel": "dificil",
+    "pergunta": "Qual espécie tem o menor raio entre O2−, F−, Na+ e Mg2+, todas isoeletrónicas?",
+    "opcoes": [
+      "O2−",
+      "F−",
+      "Na+",
+      "Mg2+"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 116,
+    "nivel": "dificil",
+    "pergunta": "Qual elemento tem a primeira energia de ionização mais elevada?",
+    "opcoes": [
+      "Na",
+      "Mg",
+      "Al",
+      "Ne"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 117,
+    "nivel": "dificil",
+    "pergunta": "Qual composto tem maior carácter covalente segundo as regras de Fajans?",
+    "opcoes": [
+      "LiI",
+      "LiF",
+      "NaF",
+      "CsF"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 118,
+    "nivel": "dificil",
+    "pergunta": "Qual molécula possui geometria trigonal plana no átomo central?",
+    "opcoes": [
+      "BF3",
+      "NH3",
+      "CH4",
+      "H2O"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 119,
+    "nivel": "dificil",
+    "pergunta": "Qual molécula possui momento dipolar global nulo apesar de conter ligações polares?",
+    "opcoes": [
+      "H2O",
+      "NH3",
+      "CCl4",
+      "SO2"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 120,
+    "nivel": "dificil",
+    "pergunta": "Qual é a hibridação do carbono no etino, HC≡CH?",
+    "opcoes": [
+      "sp3",
+      "sp2",
+      "sp",
+      "d2sp3"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 121,
+    "nivel": "dificil",
+    "pergunta": "Qual é a entalpia aproximada da reacção H2 + Cl2 → 2HCl, usando H-H = 436, Cl-Cl = 243 e H-Cl = 431 kJ/mol?",
+    "opcoes": [
+      "−183 kJ/mol",
+      "+183 kJ/mol",
+      "−862 kJ/mol",
+      "+679 kJ/mol"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 122,
+    "nivel": "dificil",
+    "pergunta": "Na decomposição CaCO3 → CaO + CO2, quantos gramas de CO2 se obtêm de 100 g de CaCO3? (M: 100 e 44 g/mol)",
+    "opcoes": [
+      "22 g",
+      "44 g",
+      "56 g",
+      "100 g"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 123,
+    "nivel": "dificil",
+    "pergunta": "Qual massa de O2 é necessária para queimar completamente 16 g de CH4? (CH4 + 2O2 → CO2 + 2H2O; M(CH4)=16, M(O2)=32)",
+    "opcoes": [
+      "16 g",
+      "32 g",
+      "64 g",
+      "128 g"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 124,
+    "nivel": "dificil",
+    "pergunta": "Uma amostra contém 0,30 mol de N2 e 0,80 mol de H2. Em N2 + 3H2 → 2NH3, qual é o reagente limitante?",
+    "opcoes": [
+      "N2",
+      "H2",
+      "NH3",
+      "Nenhum"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 125,
+    "nivel": "dificil",
+    "pergunta": "Na reacção N2 + 3H2 → 2NH3, 0,30 mol de N2 e 0,80 mol de H2 podem formar no máximo quantos mols de NH3?",
+    "opcoes": [
+      "0,267 mol",
+      "0,533 mol",
+      "0,800 mol",
+      "1,10 mol"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 126,
+    "nivel": "dificil",
+    "pergunta": "Uma reacção prevê 10,0 g de produto, mas produz 8,0 g. Qual é o rendimento percentual?",
+    "opcoes": [
+      "20%",
+      "50%",
+      "80%",
+      "125%"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 127,
+    "nivel": "dificil",
+    "pergunta": "Qual é a fórmula empírica de um composto com 40,0% C, 6,7% H e 53,3% O (massas atómicas 12, 1 e 16)?",
+    "opcoes": [
+      "CH2O",
+      "C2H4O2",
+      "CHO",
+      "C3H6O3"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 128,
+    "nivel": "dificil",
+    "pergunta": "A fórmula empírica de um composto é CH2O e a massa molar é 180 g/mol. Qual é a fórmula molecular?",
+    "opcoes": [
+      "CH2O",
+      "C2H4O2",
+      "C6H12O6",
+      "C12H24O12"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 129,
+    "nivel": "dificil",
+    "pergunta": "Qual é a molalidade de 1,0 mol de soluto dissolvido em 2,0 kg de solvente?",
+    "opcoes": [
+      "0,50 m",
+      "1,0 m",
+      "2,0 m",
+      "3,0 m"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 130,
+    "nivel": "dificil",
+    "pergunta": "Misturam-se 100 mL de HCl 0,20 M com 100 mL de NaOH 0,10 M. Qual é o pH aproximado após a reacção?",
+    "opcoes": [
+      "1,30",
+      "7,00",
+      "12,70",
+      "0,70"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 131,
+    "nivel": "dificil",
+    "pergunta": "Qual volume de NaOH 0,100 M neutraliza 25,0 mL de H2SO4 0,100 M?",
+    "opcoes": [
+      "12,5 mL",
+      "25,0 mL",
+      "50,0 mL",
+      "100 mL"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 132,
+    "nivel": "dificil",
+    "pergunta": "Qual é o pH aproximado de uma solução de HCl 1,0 × 10^-3 M?",
+    "opcoes": [
+      "2",
+      "3",
+      "10",
+      "11"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 133,
+    "nivel": "dificil",
+    "pergunta": "Qual é o pOH de uma solução com pH 9,20 a 25 °C?",
+    "opcoes": [
+      "4,80",
+      "5,80",
+      "9,20",
+      "14,00"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 134,
+    "nivel": "dificil",
+    "pergunta": "Qual é a concentração de H+ numa solução de pH 4?",
+    "opcoes": [
+      "1 × 10^-4 M",
+      "4 M",
+      "1 × 10^4 M",
+      "1 × 10^-10 M"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 135,
+    "nivel": "dificil",
+    "pergunta": "Para um ácido fraco HA, o que acontece ao grau de ionização quando a solução é diluída?",
+    "opcoes": [
+      "Diminui",
+      "Aumenta geralmente",
+      "Fica exactamente zero",
+      "Não existe ionização"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 136,
+    "nivel": "dificil",
+    "pergunta": "Qual expressão corresponde à constante de acidez de HA ⇌ H+ + A−?",
+    "opcoes": [
+      "[HA]/([H+][A−])",
+      "[H+][A−]/[HA]",
+      "[H+][HA]/[A−]",
+      "[A−]/([H+][HA])"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 137,
+    "nivel": "dificil",
+    "pergunta": "Qual sal produz solução básica por hidrólise do anião?",
+    "opcoes": [
+      "NaCl",
+      "NH4Cl",
+      "CH3COONa",
+      "KNO3"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 138,
+    "nivel": "dificil",
+    "pergunta": "Qual par constitui um tampão ácido?",
+    "opcoes": [
+      "HCl e NaCl",
+      "CH3COOH e CH3COONa",
+      "NaOH e KOH",
+      "HNO3 e H2SO4"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 139,
+    "nivel": "dificil",
+    "pergunta": "Segundo Henderson–Hasselbalch, quando [A−] = [HA], qual relação se aplica?",
+    "opcoes": [
+      "pH = pKa",
+      "pH = 2pKa",
+      "pH = 14 − pKa",
+      "pH = 0"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 140,
+    "nivel": "dificil",
+    "pergunta": "Qual é o número de oxidação do Cr no dicromato Cr2O7^2−?",
+    "opcoes": [
+      "+3",
+      "+6",
+      "+7",
+      "−6"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 141,
+    "nivel": "dificil",
+    "pergunta": "Na reacção MnO4− + 5Fe2+ + 8H+ → Mn2+ + 5Fe3+ + 4H2O, quantos electrões são transferidos por MnO4−?",
+    "opcoes": [
+      "1",
+      "3",
+      "5",
+      "8"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 142,
+    "nivel": "dificil",
+    "pergunta": "Na pilha Zn|Zn2+||Cu2+|Cu, qual eléctrodo é o ânodo?",
+    "opcoes": [
+      "Zn",
+      "Cu",
+      "Ponte salina",
+      "Ambos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 143,
+    "nivel": "dificil",
+    "pergunta": "Numa pilha galvânica espontânea, os electrões circulam externamente de onde para onde?",
+    "opcoes": [
+      "Cátodo para ânodo",
+      "Ânodo para cátodo",
+      "Solução para ânodo",
+      "Ponte salina para cátodo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 144,
+    "nivel": "dificil",
+    "pergunta": "Qual alteração aumenta a solubilidade de um gás num líquido?",
+    "opcoes": [
+      "Aumentar a pressão parcial do gás",
+      "Aumentar a temperatura sempre",
+      "Retirar o solvente",
+      "Adicionar vácuo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 145,
+    "nivel": "dificil",
+    "pergunta": "Para um sólido cuja dissolução é endotérmica, qual alteração tende a aumentar a solubilidade?",
+    "opcoes": [
+      "Aumentar a temperatura",
+      "Diminuir a temperatura",
+      "Adicionar catalisador",
+      "Reduzir a área superficial do sólido"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 146,
+    "nivel": "dificil",
+    "pergunta": "No equilíbrio N2 + 3H2 ⇌ 2NH3, qual alteração favorece a formação de NH3?",
+    "opcoes": [
+      "Adicionar H2",
+      "Adicionar NH3",
+      "Aumentar o volume",
+      "Retirar N2"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 147,
+    "nivel": "dificil",
+    "pergunta": "Para a reacção exotérmica A ⇌ B + calor, o aumento da temperatura favorece qual lado?",
+    "opcoes": [
+      "A",
+      "B",
+      "Ambos igualmente",
+      "Nenhum equilíbrio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 148,
+    "nivel": "dificil",
+    "pergunta": "Qual é a expressão de Kc para 2SO2 + O2 ⇌ 2SO3?",
+    "opcoes": [
+      "[SO3]^2/([SO2]^2[O2])",
+      "[SO2]^2[O2]/[SO3]^2",
+      "[SO3]/([SO2][O2])",
+      "[SO2][O2]/[SO3]"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 149,
+    "nivel": "dificil",
+    "pergunta": "Qual condição define equilíbrio químico dinâmico?",
+    "opcoes": [
+      "Reacção parou completamente",
+      "Velocidades directa e inversa são iguais",
+      "Concentrações são sempre iguais",
+      "Só existem produtos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 150,
+    "nivel": "dificil",
+    "pergunta": "Qual é a fórmula do benzeno?",
+    "opcoes": [
+      "C6H6",
+      "C6H12",
+      "C5H6",
+      "C6H14"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 151,
+    "nivel": "dificil",
+    "pergunta": "Qual produto se forma principalmente na oxidação branda de um álcool primário?",
+    "opcoes": [
+      "Aldeído",
+      "Cetona apenas",
+      "Alcano",
+      "Éster"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 152,
+    "nivel": "dificil",
+    "pergunta": "Qual produto se forma pela oxidação de um álcool secundário?",
+    "opcoes": [
+      "Aldeído",
+      "Cetona",
+      "Ácido mineral",
+      "Alquino"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 153,
+    "nivel": "dificil",
+    "pergunta": "Qual reacção do propeno com HBr, sem peróxidos, dá principalmente 2-bromopropano?",
+    "opcoes": [
+      "Adição electrofílica segundo Markovnikov",
+      "Substituição aromática",
+      "Eliminação anti-Markovnikov",
+      "Oxidação completa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 154,
+    "nivel": "dificil",
+    "pergunta": "Qual monómero é usado para produzir PVC?",
+    "opcoes": [
+      "CH2=CHCl",
+      "CH2=CH2",
+      "C6H5CH=CH2",
+      "CF2=CF2"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 155,
+    "nivel": "dificil",
+    "pergunta": "Qual processo transforma triglicéridos em sabão na presença de base forte?",
+    "opcoes": [
+      "Saponificação",
+      "Esterificação",
+      "Hidratação",
+      "Combustão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 156,
+    "nivel": "dificil",
+    "pergunta": "A procura bioquímica de oxigénio elevada num rio indica geralmente quê?",
+    "opcoes": [
+      "Muita matéria orgânica biodegradável",
+      "Água sem nutrientes",
+      "Ausência de microrganismos",
+      "Alta concentração de oxigénio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 157,
+    "nivel": "dificil",
+    "pergunta": "Qual estratégia reduz emissões de SO2 numa central que queima carvão?",
+    "opcoes": [
+      "Dessulfurização dos gases",
+      "Adicionar mais enxofre",
+      "Remover filtros",
+      "Aumentar combustão incompleta"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 158,
+    "nivel": "dificil",
+    "pergunta": "Qual processo fixa azoto atmosférico em formas aproveitáveis por plantas?",
+    "opcoes": [
+      "Fixação biológica do azoto",
+      "Combustão do metano",
+      "Oxidação do ozono",
+      "Destilação do ar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 159,
+    "nivel": "dificil",
+    "pergunta": "Qual metal pesado pode bioacumular-se e causar danos neurológicos?",
+    "opcoes": [
+      "Mercúrio",
+      "Sódio",
+      "Cálcio",
+      "Potássio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 160,
+    "nivel": "dificil",
+    "pergunta": "Qual fenómeno explica a concentração crescente de um poluente ao longo da cadeia alimentar?",
+    "opcoes": [
+      "Biomagnificação",
+      "Neutralização",
+      "Fotólise da água",
+      "Diluição infinita"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 161,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa representa uma fonte secundária de poluição fotoquímica urbana?",
+    "opcoes": [
+      "Ozono troposférico formado a partir de NOx e COVs",
+      "Oxigénio do ar",
+      "Vapor de água puro",
+      "Azoto molecular"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 162,
+    "nivel": "dificil",
+    "pergunta": "Qual é a massa de Na2CO3 necessária para preparar 500 mL de solução 0,200 M? (M = 106 g/mol)",
+    "opcoes": [
+      "5,30 g",
+      "10,6 g",
+      "21,2 g",
+      "106 g"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 163,
+    "nivel": "dificil",
+    "pergunta": "Que volume de solução 2,0 M é necessário para preparar 250 mL de solução 0,40 M?",
+    "opcoes": [
+      "20 mL",
+      "50 mL",
+      "100 mL",
+      "200 mL"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 164,
+    "nivel": "dificil",
+    "pergunta": "Uma solução tem 5,0 g de glicose em 95,0 g de água. Qual é a percentagem massa/massa de glicose?",
+    "opcoes": [
+      "5,0%",
+      "5,26%",
+      "95,0%",
+      "0,50%"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 165,
+    "nivel": "dificil",
+    "pergunta": "Qual é a fracção molar de etanol numa mistura com 1 mol de etanol e 3 mol de água?",
+    "opcoes": [
+      "0,10",
+      "0,25",
+      "0,33",
+      "0,75"
+    ],
+    "resposta_correta": 1
+  }
+]

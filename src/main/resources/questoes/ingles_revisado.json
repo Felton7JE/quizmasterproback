@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “apple”?",
+    "opcoes": [
+      "maçã",
+      "banana",
+      "laranja",
+      "cenoura"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “table”?",
+    "opcoes": [
+      "cadeira",
+      "mesa",
+      "janela",
+      "tapete"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “window”?",
+    "opcoes": [
+      "porta",
+      "parede",
+      "janela",
+      "escada"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “school”?",
+    "opcoes": [
+      "hospital",
+      "mercado",
+      "biblioteca",
+      "escola"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “teacher”?",
+    "opcoes": [
+      "professor",
+      "médico",
+      "motorista",
+      "agricultor"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “student”?",
+    "opcoes": [
+      "vizinho",
+      "estudante",
+      "cliente",
+      "chefe"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “family”?",
+    "opcoes": [
+      "cidade",
+      "equipa",
+      "família",
+      "turma"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “mother”?",
+    "opcoes": [
+      "irmã",
+      "tia",
+      "avó",
+      "mãe"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “father”?",
+    "opcoes": [
+      "pai",
+      "irmão",
+      "filho",
+      "marido"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “sister”?",
+    "opcoes": [
+      "prima",
+      "irmã",
+      "filha",
+      "mãe"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “brother”?",
+    "opcoes": [
+      "pai",
+      "tio",
+      "irmão",
+      "avô"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “water”?",
+    "opcoes": [
+      "leite",
+      "sumo",
+      "óleo",
+      "água"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “bread”?",
+    "opcoes": [
+      "pão",
+      "arroz",
+      "carne",
+      "peixe"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “market”?",
+    "opcoes": [
+      "teatro",
+      "mercado",
+      "aeroporto",
+      "farmácia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “hospital”?",
+    "opcoes": [
+      "escola",
+      "estação",
+      "hospital",
+      "hotel"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “road”?",
+    "opcoes": [
+      "ponte",
+      "rio",
+      "praia",
+      "estrada"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “city”?",
+    "opcoes": [
+      "cidade",
+      "aldeia",
+      "país",
+      "província"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “country”?",
+    "opcoes": [
+      "bairro",
+      "país",
+      "cidade",
+      "continente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “morning”?",
+    "opcoes": [
+      "noite",
+      "tarde",
+      "manhã",
+      "semana"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “evening”?",
+    "opcoes": [
+      "manhã",
+      "madrugada",
+      "meio-dia",
+      "noite"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “today”?",
+    "opcoes": [
+      "hoje",
+      "ontem",
+      "amanhã",
+      "agora"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “tomorrow”?",
+    "opcoes": [
+      "hoje",
+      "amanhã",
+      "ontem",
+      "depois"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “yesterday”?",
+    "opcoes": [
+      "hoje",
+      "amanhã",
+      "ontem",
+      "antes"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “happy”?",
+    "opcoes": [
+      "triste",
+      "zangado",
+      "cansado",
+      "feliz"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “tired”?",
+    "opcoes": [
+      "cansado",
+      "feliz",
+      "doente",
+      "ocupado"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “big”?",
+    "opcoes": [
+      "pequeno",
+      "grande",
+      "baixo",
+      "estreito"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “small”?",
+    "opcoes": [
+      "grande",
+      "largo",
+      "pequeno",
+      "alto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “hot”?",
+    "opcoes": [
+      "frio",
+      "molhado",
+      "escuro",
+      "quente"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “cold”?",
+    "opcoes": [
+      "frio",
+      "quente",
+      "seco",
+      "claro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “fast”?",
+    "opcoes": [
+      "lento",
+      "rápido",
+      "fraco",
+      "tarde"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “slow”?",
+    "opcoes": [
+      "rápido",
+      "forte",
+      "lento",
+      "cedo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “clean”?",
+    "opcoes": [
+      "sujo",
+      "cheio",
+      "vazio",
+      "limpo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “open”?",
+    "opcoes": [
+      "aberto",
+      "fechado",
+      "quente",
+      "barulhento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “book”?",
+    "opcoes": [
+      "caderno",
+      "livro",
+      "jornal",
+      "carta"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “pen”?",
+    "opcoes": [
+      "lápis",
+      "régua",
+      "caneta",
+      "borracha"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “chair”?",
+    "opcoes": [
+      "mesa",
+      "cama",
+      "banco",
+      "cadeira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “car”?",
+    "opcoes": [
+      "carro",
+      "barco",
+      "avião",
+      "comboio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “bus”?",
+    "opcoes": [
+      "táxi",
+      "autocarro",
+      "bicicleta",
+      "motorizada"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “money”?",
+    "opcoes": [
+      "tempo",
+      "trabalho",
+      "dinheiro",
+      "nome"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “name”?",
+    "opcoes": [
+      "idade",
+      "endereço",
+      "número",
+      "nome"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “job”?",
+    "opcoes": [
+      "emprego",
+      "casa",
+      "viagem",
+      "salário"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “help”?",
+    "opcoes": [
+      "resposta",
+      "ajuda",
+      "pergunta",
+      "conselho"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “question”?",
+    "opcoes": [
+      "resposta",
+      "exemplo",
+      "pergunta",
+      "história"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “answer”?",
+    "opcoes": [
+      "pergunta",
+      "regra",
+      "notícia",
+      "resposta"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “buy”?",
+    "opcoes": [
+      "comprar",
+      "vender",
+      "pagar",
+      "emprestar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “sell”?",
+    "opcoes": [
+      "comprar",
+      "vender",
+      "guardar",
+      "usar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “read”?",
+    "opcoes": [
+      "escrever",
+      "ouvir",
+      "ler",
+      "falar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “write”?",
+    "opcoes": [
+      "ler",
+      "desenhar",
+      "contar",
+      "escrever"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “listen”?",
+    "opcoes": [
+      "ouvir",
+      "falar",
+      "olhar",
+      "correr"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “speak”?",
+    "opcoes": [
+      "ouvir",
+      "falar",
+      "dormir",
+      "andar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “sleep”?",
+    "opcoes": [
+      "acordar",
+      "correr",
+      "dormir",
+      "sentar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “run”?",
+    "opcoes": [
+      "andar",
+      "parar",
+      "nadar",
+      "correr"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "Qual é a tradução de “beautiful”?",
+    "opcoes": [
+      "bonito",
+      "feio",
+      "difícil",
+      "vazio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "She ___ my friend.",
+    "opcoes": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "They ___ at home.",
+    "opcoes": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 56,
+    "nivel": "facil",
+    "pergunta": "I ___ from Mozambique.",
+    "opcoes": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 57,
+    "nivel": "facil",
+    "pergunta": "He ___ English every day.",
+    "opcoes": [
+      "study",
+      "studying",
+      "studied",
+      "studies"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 58,
+    "nivel": "facil",
+    "pergunta": "We ___ tea in the morning.",
+    "opcoes": [
+      "drink",
+      "drinks",
+      "drinking",
+      "drank"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 59,
+    "nivel": "facil",
+    "pergunta": "My brother ___ football.",
+    "opcoes": [
+      "play",
+      "plays",
+      "playing",
+      "played"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 60,
+    "nivel": "facil",
+    "pergunta": "___ you like rice?",
+    "opcoes": [
+      "Does",
+      "Are",
+      "Do",
+      "Is"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 61,
+    "nivel": "facil",
+    "pergunta": "___ she work here?",
+    "opcoes": [
+      "Do",
+      "Is",
+      "Are",
+      "Does"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 62,
+    "nivel": "facil",
+    "pergunta": "There ___ a pen on the desk.",
+    "opcoes": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 63,
+    "nivel": "facil",
+    "pergunta": "There ___ three books here.",
+    "opcoes": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 64,
+    "nivel": "facil",
+    "pergunta": "This is ___ umbrella.",
+    "opcoes": [
+      "a",
+      "the",
+      "an",
+      "some"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 65,
+    "nivel": "facil",
+    "pergunta": "I have ___ new bag.",
+    "opcoes": [
+      "an",
+      "the",
+      "any",
+      "a"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 66,
+    "nivel": "facil",
+    "pergunta": "The keys are ___ the table.",
+    "opcoes": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 67,
+    "nivel": "facil",
+    "pergunta": "The children are ___ the room.",
+    "opcoes": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 68,
+    "nivel": "facil",
+    "pergunta": "We arrive ___ eight o’clock.",
+    "opcoes": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 69,
+    "nivel": "facil",
+    "pergunta": "She was born ___ May.",
+    "opcoes": [
+      "at",
+      "on",
+      "to",
+      "in"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 70,
+    "nivel": "facil",
+    "pergunta": "I visit my aunt ___ Sunday.",
+    "opcoes": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 71,
+    "nivel": "facil",
+    "pergunta": "He goes ___ school by bus.",
+    "opcoes": [
+      "at",
+      "to",
+      "in",
+      "on"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 72,
+    "nivel": "facil",
+    "pergunta": "This book is ___ than that one.",
+    "opcoes": [
+      "best",
+      "good",
+      "better",
+      "well"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 73,
+    "nivel": "facil",
+    "pergunta": "A car is ___ than a bicycle.",
+    "opcoes": [
+      "fastest",
+      "fast",
+      "more fast",
+      "faster"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 74,
+    "nivel": "facil",
+    "pergunta": "Please ___ the door.",
+    "opcoes": [
+      "open",
+      "opens",
+      "opening",
+      "opened"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 75,
+    "nivel": "facil",
+    "pergunta": "She can ___ well.",
+    "opcoes": [
+      "sings",
+      "sing",
+      "singing",
+      "sang"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 76,
+    "nivel": "facil",
+    "pergunta": "You must ___ quiet.",
+    "opcoes": [
+      "are",
+      "being",
+      "be",
+      "been"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 77,
+    "nivel": "facil",
+    "pergunta": "I ___ to town yesterday.",
+    "opcoes": [
+      "go",
+      "goes",
+      "going",
+      "went"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 78,
+    "nivel": "facil",
+    "pergunta": "They ___ dinner last night.",
+    "opcoes": [
+      "cooked",
+      "cook",
+      "cooks",
+      "cooking"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 79,
+    "nivel": "facil",
+    "pergunta": "Did he ___ the letter?",
+    "opcoes": [
+      "writes",
+      "write",
+      "wrote",
+      "writing"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 80,
+    "nivel": "facil",
+    "pergunta": "We ___ studying now.",
+    "opcoes": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 81,
+    "nivel": "facil",
+    "pergunta": "Look! It ___.",
+    "opcoes": [
+      "rains",
+      "rain",
+      "rained",
+      "is raining"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 82,
+    "nivel": "facil",
+    "pergunta": "I ___ call you tomorrow.",
+    "opcoes": [
+      "will",
+      "am",
+      "was",
+      "did"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 83,
+    "nivel": "facil",
+    "pergunta": "She ___ like coffee.",
+    "opcoes": [
+      "don’t",
+      "doesn’t",
+      "isn’t",
+      "not"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 84,
+    "nivel": "facil",
+    "pergunta": "How ___ students are there?",
+    "opcoes": [
+      "much",
+      "often",
+      "many",
+      "long"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 85,
+    "nivel": "facil",
+    "pergunta": "How ___ water do you need?",
+    "opcoes": [
+      "many",
+      "few",
+      "often",
+      "much"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 86,
+    "nivel": "facil",
+    "pergunta": "There isn’t ___ sugar.",
+    "opcoes": [
+      "any",
+      "some",
+      "many",
+      "few"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 87,
+    "nivel": "facil",
+    "pergunta": "I would like ___ tea.",
+    "opcoes": [
+      "any",
+      "some",
+      "many",
+      "a"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 88,
+    "nivel": "facil",
+    "pergunta": "This bag is ___.",
+    "opcoes": [
+      "my",
+      "me",
+      "mine",
+      "I"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 89,
+    "nivel": "facil",
+    "pergunta": "That is ___ house.",
+    "opcoes": [
+      "they",
+      "them",
+      "theirs",
+      "their"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 90,
+    "nivel": "facil",
+    "pergunta": "Please help ___.",
+    "opcoes": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 91,
+    "nivel": "facil",
+    "pergunta": "She visits ___ grandmother.",
+    "opcoes": [
+      "she",
+      "her",
+      "hers",
+      "herself"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 92,
+    "nivel": "facil",
+    "pergunta": "We travel ___ train.",
+    "opcoes": [
+      "on",
+      "in",
+      "by",
+      "at"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 93,
+    "nivel": "facil",
+    "pergunta": "He is good ___ maths.",
+    "opcoes": [
+      "in",
+      "on",
+      "for",
+      "at"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 94,
+    "nivel": "facil",
+    "pergunta": "Listen ___ the teacher.",
+    "opcoes": [
+      "to",
+      "at",
+      "in",
+      "on"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 95,
+    "nivel": "facil",
+    "pergunta": "I am afraid ___ dogs.",
+    "opcoes": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 96,
+    "nivel": "facil",
+    "pergunta": "She arrived ___ Maputo.",
+    "opcoes": [
+      "at",
+      "on",
+      "in",
+      "to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 97,
+    "nivel": "facil",
+    "pergunta": "Turn ___ the light.",
+    "opcoes": [
+      "in",
+      "at",
+      "to",
+      "on"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 98,
+    "nivel": "facil",
+    "pergunta": "Sit ___.",
+    "opcoes": [
+      "down",
+      "up",
+      "out",
+      "over"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 99,
+    "nivel": "facil",
+    "pergunta": "What time do you ___ up?",
+    "opcoes": [
+      "gets",
+      "get",
+      "got",
+      "getting"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 100,
+    "nivel": "facil",
+    "pergunta": "He ___ his teeth twice a day.",
+    "opcoes": [
+      "brush",
+      "brushing",
+      "brushes",
+      "brushed"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 101,
+    "nivel": "facil",
+    "pergunta": "My parents ___ television.",
+    "opcoes": [
+      "watches",
+      "watching",
+      "watched",
+      "watch"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 102,
+    "nivel": "facil",
+    "pergunta": "The plural of “child” is ___.",
+    "opcoes": [
+      "children",
+      "childs",
+      "childes",
+      "childrens"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 103,
+    "nivel": "facil",
+    "pergunta": "The past of “go” is ___.",
+    "opcoes": [
+      "goed",
+      "went",
+      "goes",
+      "gone"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 104,
+    "nivel": "facil",
+    "pergunta": "“Quickly” is a ___.",
+    "opcoes": [
+      "noun",
+      "verb",
+      "adverb",
+      "adjective"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 105,
+    "nivel": "facil",
+    "pergunta": "“Teacher” is a ___.",
+    "opcoes": [
+      "verb",
+      "adjective",
+      "adverb",
+      "noun"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 106,
+    "nivel": "facil",
+    "pergunta": "Choose the article: ___ hour.",
+    "opcoes": [
+      "an",
+      "a",
+      "the",
+      "some"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 107,
+    "nivel": "facil",
+    "pergunta": "Choose the correct form: He ___ tall.",
+    "opcoes": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 108,
+    "nivel": "facil",
+    "pergunta": "Traduza “Good morning.”",
+    "opcoes": [
+      "Boa noite.",
+      "Boa tarde.",
+      "Até logo.",
+      "Bom dia."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 109,
+    "nivel": "facil",
+    "pergunta": "Traduza “Thank you.”",
+    "opcoes": [
+      "Obrigado.",
+      "Desculpa.",
+      "Por favor.",
+      "Bem-vindo."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 110,
+    "nivel": "facil",
+    "pergunta": "Traduza “See you later.”",
+    "opcoes": [
+      "Bom dia.",
+      "Até logo.",
+      "Boa viagem.",
+      "Muito prazer."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 111,
+    "nivel": "facil",
+    "pergunta": "Traduza “I am tired.”",
+    "opcoes": [
+      "Tenho fome.",
+      "Estou atrasado.",
+      "Estou cansado.",
+      "Estou perdido."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 112,
+    "nivel": "facil",
+    "pergunta": "Traduza “She is my neighbour.”",
+    "opcoes": [
+      "Ela é minha irmã.",
+      "Ela é minha professora.",
+      "Ela é minha chefe.",
+      "Ela é minha vizinha."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 113,
+    "nivel": "facil",
+    "pergunta": "Traduza “We live in Beira.”",
+    "opcoes": [
+      "Vivemos na Beira.",
+      "Visitamos a Beira.",
+      "Saímos da Beira.",
+      "Chegámos à Beira."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 114,
+    "nivel": "facil",
+    "pergunta": "Traduza “Close the door.”",
+    "opcoes": [
+      "Abra a porta.",
+      "Feche a porta.",
+      "Pinte a porta.",
+      "Lave a porta."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 115,
+    "nivel": "facil",
+    "pergunta": "Traduza “I need a ticket.”",
+    "opcoes": [
+      "Quero uma chave.",
+      "Comprei uma mala.",
+      "Preciso de um bilhete.",
+      "Tenho um mapa."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 116,
+    "nivel": "facil",
+    "pergunta": "Traduza “Where is the station?”",
+    "opcoes": [
+      "Quando abre a estação?",
+      "Quem está na estação?",
+      "Como é a estação?",
+      "Onde fica a estação?"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 117,
+    "nivel": "facil",
+    "pergunta": "Traduza “How much is it?”",
+    "opcoes": [
+      "Quanto custa?",
+      "Quanto pesa?",
+      "Que horas são?",
+      "Que tamanho tem?"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 118,
+    "nivel": "facil",
+    "pergunta": "Traduza “I don’t understand.”",
+    "opcoes": [
+      "Não me lembro.",
+      "Não compreendo.",
+      "Não concordo.",
+      "Não me levanto."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 119,
+    "nivel": "facil",
+    "pergunta": "Traduza “Can I help you?”",
+    "opcoes": [
+      "Posso visitar-te?",
+      "Devo chamar-te?",
+      "Posso ajudar-te?",
+      "Quero ouvir-te."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 120,
+    "nivel": "facil",
+    "pergunta": "Traduza “He is at work.”",
+    "opcoes": [
+      "Ele está em casa.",
+      "Ele vai trabalhar.",
+      "Ele deixou o trabalho.",
+      "Ele está no trabalho."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 121,
+    "nivel": "facil",
+    "pergunta": "Traduza “They are waiting for the bus.”",
+    "opcoes": [
+      "Estão à espera do autocarro.",
+      "Estão a conduzir o autocarro.",
+      "Estão a limpar o autocarro.",
+      "Estão a perder o autocarro."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 122,
+    "nivel": "facil",
+    "pergunta": "Traduza “I went home.”",
+    "opcoes": [
+      "Fiquei na escola.",
+      "Fui para casa.",
+      "Vim do trabalho.",
+      "Voltei ao mercado."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 123,
+    "nivel": "facil",
+    "pergunta": "Traduza “Don’t worry.”",
+    "opcoes": [
+      "Não te atrases.",
+      "Não te sentes.",
+      "Não te preocupes.",
+      "Não te esqueças."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 124,
+    "nivel": "facil",
+    "pergunta": "Traduza “Take your time.”",
+    "opcoes": [
+      "Corre depressa.",
+      "Marca a hora.",
+      "Pega no teu relógio.",
+      "Leva o teu tempo."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 125,
+    "nivel": "facil",
+    "pergunta": "Traduza “I get up at six.”",
+    "opcoes": [
+      "Levanto-me às seis.",
+      "Deito-me às seis.",
+      "Chego às seis.",
+      "Saio às seis."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 126,
+    "nivel": "facil",
+    "pergunta": "Traduza “She looks happy.”",
+    "opcoes": [
+      "Ela procura ajuda.",
+      "Ela parece feliz.",
+      "Ela fica cansada.",
+      "Ela ouve música."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 127,
+    "nivel": "facil",
+    "pergunta": "Traduza “Fill in this form.”",
+    "opcoes": [
+      "Assina esta carta.",
+      "Envia este pacote.",
+      "Preenche este formulário.",
+      "Lê este jornal."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 128,
+    "nivel": "facil",
+    "pergunta": "Traduza “He turns off the radio.”",
+    "opcoes": [
+      "Ele liga o rádio.",
+      "Ele compra o rádio.",
+      "Ele conserta o rádio.",
+      "Ele desliga o rádio."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 129,
+    "nivel": "facil",
+    "pergunta": "Traduza “We have to leave now.”",
+    "opcoes": [
+      "Temos de sair agora.",
+      "Podemos voltar amanhã.",
+      "Queremos ficar aqui.",
+      "Devemos chegar tarde."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 130,
+    "nivel": "facil",
+    "pergunta": "Traduza “It is raining.”",
+    "opcoes": [
+      "Está a nevar.",
+      "Está a chover.",
+      "Está a ventar.",
+      "Está a trovejar."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 131,
+    "nivel": "facil",
+    "pergunta": "Traduza “The room is clean.”",
+    "opcoes": [
+      "A sala está cheia.",
+      "A sala está fechada.",
+      "A sala está limpa.",
+      "A sala está vazia."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 132,
+    "nivel": "facil",
+    "pergunta": "Traduza “I forgot my keys.”",
+    "opcoes": [
+      "Encontrei as minhas chaves.",
+      "Perdi o meu dinheiro.",
+      "Guardei as minhas chaves.",
+      "Esqueci-me das minhas chaves."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 133,
+    "nivel": "facil",
+    "pergunta": "Traduza “She is afraid of snakes.”",
+    "opcoes": [
+      "Ela tem medo de cobras.",
+      "Ela gosta de cobras.",
+      "Ela cuida de cobras.",
+      "Ela procura cobras."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 134,
+    "nivel": "facil",
+    "pergunta": "Escolha a preposição: She is interested ___ music.",
+    "opcoes": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 135,
+    "nivel": "facil",
+    "pergunta": "Escolha a preposição: He depends ___ his brother.",
+    "opcoes": [
+      "at",
+      "of",
+      "on",
+      "to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 136,
+    "nivel": "facil",
+    "pergunta": "Escolha a preposição: I am proud ___ my work.",
+    "opcoes": [
+      "with",
+      "at",
+      "from",
+      "of"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 137,
+    "nivel": "facil",
+    "pergunta": "Escolha a preposição: She is good ___ languages.",
+    "opcoes": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 138,
+    "nivel": "facil",
+    "pergunta": "Escolha o verbo: Please ___ a photo.",
+    "opcoes": [
+      "make",
+      "take",
+      "do",
+      "put"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 139,
+    "nivel": "facil",
+    "pergunta": "Escolha o verbo: We ___ a mistake.",
+    "opcoes": [
+      "did",
+      "took",
+      "made",
+      "had"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 140,
+    "nivel": "facil",
+    "pergunta": "Escolha o verbo: He ___ me the truth.",
+    "opcoes": [
+      "said",
+      "spoke",
+      "talked",
+      "told"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 141,
+    "nivel": "facil",
+    "pergunta": "Escolha o verbo: She ___ a question.",
+    "opcoes": [
+      "asked",
+      "made",
+      "said",
+      "told"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 142,
+    "nivel": "facil",
+    "pergunta": "“Wake up” significa:",
+    "opcoes": [
+      "adormecer",
+      "acordar",
+      "sentar-se",
+      "voltar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 143,
+    "nivel": "facil",
+    "pergunta": "“Sit down” significa:",
+    "opcoes": [
+      "levantar-se",
+      "sair",
+      "sentar-se",
+      "entrar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 144,
+    "nivel": "facil",
+    "pergunta": "“Come back” significa:",
+    "opcoes": [
+      "partir",
+      "desligar",
+      "continuar",
+      "voltar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 145,
+    "nivel": "facil",
+    "pergunta": "“Look for” significa:",
+    "opcoes": [
+      "procurar",
+      "cuidar de",
+      "parecer",
+      "olhar para cima"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 146,
+    "nivel": "facil",
+    "pergunta": "“Give up” significa:",
+    "opcoes": [
+      "continuar",
+      "desistir",
+      "dar entrada",
+      "acordar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 147,
+    "nivel": "facil",
+    "pergunta": "Complete: I ___ coffee yesterday.",
+    "opcoes": [
+      "drink",
+      "drinks",
+      "drank",
+      "drinking"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 148,
+    "nivel": "facil",
+    "pergunta": "Complete: She ___ her homework now.",
+    "opcoes": [
+      "does",
+      "did",
+      "do",
+      "is doing"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 149,
+    "nivel": "facil",
+    "pergunta": "Complete: They ___ visit us next week.",
+    "opcoes": [
+      "will",
+      "were",
+      "have",
+      "did"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 150,
+    "nivel": "facil",
+    "pergunta": "Complete: He has ___ his lunch.",
+    "opcoes": [
+      "eat",
+      "eaten",
+      "ate",
+      "eating"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 151,
+    "nivel": "facil",
+    "pergunta": "Complete: We ___ here since 2020.",
+    "opcoes": [
+      "live",
+      "lived",
+      "have lived",
+      "are living"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 152,
+    "nivel": "facil",
+    "pergunta": "Complete: If it rains, we ___ home.",
+    "opcoes": [
+      "stayed",
+      "stay",
+      "staying",
+      "will stay"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 153,
+    "nivel": "facil",
+    "pergunta": "Complete: You should ___ a doctor.",
+    "opcoes": [
+      "see",
+      "seeing",
+      "saw",
+      "sees"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 154,
+    "nivel": "facil",
+    "pergunta": "Complete: He ___ up early every day.",
+    "opcoes": [
+      "get",
+      "gets",
+      "got",
+      "getting"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 155,
+    "nivel": "facil",
+    "pergunta": "Complete: She ___ a letter last night.",
+    "opcoes": [
+      "write",
+      "writes",
+      "wrote",
+      "writing"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 156,
+    "nivel": "facil",
+    "pergunta": "Complete: They ___ finished the task.",
+    "opcoes": [
+      "has",
+      "are",
+      "did",
+      "have"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 157,
+    "nivel": "facil",
+    "pergunta": "Complete: I ___ never seen snow.",
+    "opcoes": [
+      "have",
+      "has",
+      "am",
+      "did"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 158,
+    "nivel": "facil",
+    "pergunta": "Complete: We ___ watching a film.",
+    "opcoes": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 159,
+    "nivel": "facil",
+    "pergunta": "Complete: He ___ swim when he was five.",
+    "opcoes": [
+      "can",
+      "will",
+      "could",
+      "should"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 160,
+    "nivel": "facil",
+    "pergunta": "Complete: Please ___ the window.",
+    "opcoes": [
+      "opens",
+      "opened",
+      "opening",
+      "open"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 161,
+    "nivel": "facil",
+    "pergunta": "Complete: Don’t ___ late.",
+    "opcoes": [
+      "arrive",
+      "arrives",
+      "arrived",
+      "arriving"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 162,
+    "nivel": "facil",
+    "pergunta": "Complete: She ___ breakfast every day.",
+    "opcoes": [
+      "eat",
+      "eats",
+      "eating",
+      "ate"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 163,
+    "nivel": "facil",
+    "pergunta": "Complete: They ___ at the market yesterday.",
+    "opcoes": [
+      "was",
+      "are",
+      "were",
+      "be"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 164,
+    "nivel": "facil",
+    "pergunta": "Traduza “Good evening.”",
+    "opcoes": [
+      "Bom dia.",
+      "Boa tarde.",
+      "Até amanhã.",
+      "Boa noite."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 165,
+    "nivel": "facil",
+    "pergunta": "“Look after” significa:",
+    "opcoes": [
+      "cuidar de",
+      "procurar",
+      "desligar",
+      "adiar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 166,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “borrow”?",
+    "opcoes": [
+      "pedir emprestado",
+      "emprestar",
+      "devolver",
+      "comprar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 167,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “lend”?",
+    "opcoes": [
+      "pedir emprestado",
+      "emprestar",
+      "guardar",
+      "perder"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 168,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “receipt”?",
+    "opcoes": [
+      "receta",
+      "retrato",
+      "recibo",
+      "relatório"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 169,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “appointment”?",
+    "opcoes": [
+      "apartamento",
+      "apontamento",
+      "aposta",
+      "marcação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 170,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “afford”?",
+    "opcoes": [
+      "ter dinheiro para",
+      "evitar",
+      "oferecer",
+      "confirmar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 171,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “crowded”?",
+    "opcoes": [
+      "silencioso",
+      "cheio de gente",
+      "distante",
+      "vazio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 172,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “reliable”?",
+    "opcoes": [
+      "caro",
+      "raro",
+      "fiável",
+      "formal"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 173,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “improve”?",
+    "opcoes": [
+      "remover",
+      "provar",
+      "medir",
+      "melhorar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 174,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “avoid”?",
+    "opcoes": [
+      "evitar",
+      "convidar",
+      "explicar",
+      "seguir"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 175,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “achieve”?",
+    "opcoes": [
+      "perder",
+      "alcançar",
+      "traduzir",
+      "dividir"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 176,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “although”?",
+    "opcoes": [
+      "portanto",
+      "porque",
+      "embora",
+      "enquanto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 177,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “unless”?",
+    "opcoes": [
+      "desde que",
+      "apesar de",
+      "logo que",
+      "a menos que"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 178,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “nearly”?",
+    "opcoes": [
+      "quase",
+      "exactamente",
+      "raramente",
+      "novamente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 179,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “eventually”?",
+    "opcoes": [
+      "imediatamente",
+      "finalmente",
+      "possivelmente",
+      "recentemente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 180,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “accurate”?",
+    "opcoes": [
+      "antigo",
+      "útil",
+      "exacto",
+      "barulhento"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 181,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “issue”?",
+    "opcoes": [
+      "edição",
+      "entrada",
+      "resultado",
+      "questão ou problema"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 182,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “evidence”?",
+    "opcoes": [
+      "prova ou evidência",
+      "opinião",
+      "promessa",
+      "tradição"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 183,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “advice”?",
+    "opcoes": [
+      "notícia",
+      "conselho",
+      "aviso",
+      "convite"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 184,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “sensible”?",
+    "opcoes": [
+      "sensível",
+      "sensitivo",
+      "sensato",
+      "carinhoso"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 185,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “sensitive”?",
+    "opcoes": [
+      "sensato",
+      "secreto",
+      "simples",
+      "sensível"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 186,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “journey”?",
+    "opcoes": [
+      "viagem",
+      "jornal",
+      "juventude",
+      "jardim"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 187,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “supply”?",
+    "opcoes": [
+      "sucesso",
+      "fornecimento",
+      "suplemento",
+      "surpresa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 188,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “demand”?",
+    "opcoes": [
+      "entrega",
+      "diminuição",
+      "exigência ou procura",
+      "desenho"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 189,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “purchase”?",
+    "opcoes": [
+      "publicidade",
+      "preço",
+      "processo",
+      "compra"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 190,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “refund”?",
+    "opcoes": [
+      "reembolso",
+      "resposta",
+      "recibo",
+      "redução"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 191,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “complaint”?",
+    "opcoes": [
+      "complemento",
+      "reclamação",
+      "competição",
+      "composição"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 192,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “deadline”?",
+    "opcoes": [
+      "linha de partida",
+      "data de nascimento",
+      "prazo final",
+      "semana de trabalho"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 193,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “require”?",
+    "opcoes": [
+      "recomendar",
+      "repetir",
+      "reconhecer",
+      "exigir"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 194,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “permit”?",
+    "opcoes": [
+      "permitir",
+      "prevenir",
+      "persuadir",
+      "preparar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 195,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “attend”?",
+    "opcoes": [
+      "atender telefone",
+      "frequentar ou participar",
+      "tentar",
+      "anunciar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 196,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “raise”?",
+    "opcoes": [
+      "raiar",
+      "arrasar",
+      "levantar ou aumentar",
+      "reduzir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 197,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “rise”?",
+    "opcoes": [
+      "levantar alguém",
+      "alugar",
+      "arriscar",
+      "subir ou erguer-se"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 198,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “set up”?",
+    "opcoes": [
+      "montar ou configurar",
+      "cancelar",
+      "descobrir",
+      "recolher"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 199,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “find out”?",
+    "opcoes": [
+      "inventar",
+      "descobrir",
+      "procurar emprego",
+      "preencher"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 200,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “carry on”?",
+    "opcoes": [
+      "transportar",
+      "cancelar",
+      "continuar",
+      "carregar para fora"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 201,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “put off”?",
+    "opcoes": [
+      "vestir",
+      "desligar",
+      "colocar dentro",
+      "adiar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 202,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “run out of”?",
+    "opcoes": [
+      "ficar sem",
+      "correr para fora de",
+      "encontrar",
+      "funcionar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 203,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “look after”?",
+    "opcoes": [
+      "procurar",
+      "cuidar de",
+      "admirar",
+      "parecer"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 204,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “look forward to”?",
+    "opcoes": [
+      "olhar para trás",
+      "procurar",
+      "aguardar com expectativa",
+      "esperar parado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 205,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “turn down”?",
+    "opcoes": [
+      "aumentar",
+      "virar à direita",
+      "devolver",
+      "recusar ou reduzir"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 206,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “work out”?",
+    "opcoes": [
+      "resolver ou fazer exercício",
+      "trabalhar no exterior",
+      "falhar",
+      "acordar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 207,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “break down”?",
+    "opcoes": [
+      "construir",
+      "avariar ou fracassar",
+      "partir para cima",
+      "descer"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 208,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “bring up”?",
+    "opcoes": [
+      "trazer para baixo",
+      "comprar",
+      "mencionar ou criar",
+      "levantar voo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 209,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “call off”?",
+    "opcoes": [
+      "convocar",
+      "telefonar novamente",
+      "chamar para fora",
+      "cancelar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 210,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “go over”?",
+    "opcoes": [
+      "rever ou examinar",
+      "passar por cima",
+      "partir",
+      "ir abaixo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 211,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “make up”?",
+    "opcoes": [
+      "maquilhar apenas",
+      "inventar ou reconciliar",
+      "desfazer",
+      "fabricar roupas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 212,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “take part”?",
+    "opcoes": [
+      "partir",
+      "tomar emprestado",
+      "participar",
+      "assumir responsabilidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 213,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “keep up with”?",
+    "opcoes": [
+      "manter aberto",
+      "continuar a dormir",
+      "guardar",
+      "acompanhar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 214,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “get along with”?",
+    "opcoes": [
+      "dar-se bem com",
+      "chegar depois de",
+      "conseguir sair",
+      "alcançar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 215,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “turn up”?",
+    "opcoes": [
+      "desaparecer",
+      "aparecer ou aumentar",
+      "virar abaixo",
+      "recusar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 216,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “cut down on”?",
+    "opcoes": [
+      "cortar em pedaços",
+      "derrubar árvore",
+      "reduzir o consumo de",
+      "dividir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 217,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “deal with”?",
+    "opcoes": [
+      "negociar apenas",
+      "deitar fora",
+      "sonhar com",
+      "lidar com"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 218,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “point out”?",
+    "opcoes": [
+      "salientar",
+      "apontar fisicamente",
+      "perder a direcção",
+      "pontuar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 219,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “carry out”?",
+    "opcoes": [
+      "carregar para fora",
+      "realizar",
+      "cancelar",
+      "recolher"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 220,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “back up”?",
+    "opcoes": [
+      "recusar",
+      "andar para trás",
+      "fazer cópia de segurança ou apoiar",
+      "acelerar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 221,
+    "nivel": "medio",
+    "pergunta": "Qual opção traduz melhor “break into”?",
+    "opcoes": [
+      "partir em dois",
+      "começar conversa",
+      "interromper",
+      "entrar à força"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 222,
+    "nivel": "medio",
+    "pergunta": "By next June, she ___ here for five years.",
+    "opcoes": [
+      "will have worked",
+      "will work",
+      "has worked",
+      "worked"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 223,
+    "nivel": "medio",
+    "pergunta": "I ___ this book since Monday.",
+    "opcoes": [
+      "read",
+      "have been reading",
+      "am reading",
+      "was reading"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 224,
+    "nivel": "medio",
+    "pergunta": "When I arrived, they ___ dinner.",
+    "opcoes": [
+      "have",
+      "had",
+      "were having",
+      "are having"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 225,
+    "nivel": "medio",
+    "pergunta": "If he studied more, he ___ better marks.",
+    "opcoes": [
+      "gets",
+      "got",
+      "will get",
+      "would get"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 226,
+    "nivel": "medio",
+    "pergunta": "If you had called, I ___.",
+    "opcoes": [
+      "would have helped",
+      "help",
+      "would help",
+      "helped"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 227,
+    "nivel": "medio",
+    "pergunta": "The letter ___ yesterday.",
+    "opcoes": [
+      "sent",
+      "was sent",
+      "is sending",
+      "has sent"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 228,
+    "nivel": "medio",
+    "pergunta": "The bridge ___ next year.",
+    "opcoes": [
+      "will repair",
+      "repaired",
+      "will be repaired",
+      "is repairing"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 229,
+    "nivel": "medio",
+    "pergunta": "She said that she ___ tired.",
+    "opcoes": [
+      "is",
+      "has",
+      "will",
+      "was"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 230,
+    "nivel": "medio",
+    "pergunta": "He asked me where I ___.",
+    "opcoes": [
+      "lived",
+      "live",
+      "am living",
+      "have lived"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 231,
+    "nivel": "medio",
+    "pergunta": "I wish I ___ more time.",
+    "opcoes": [
+      "have",
+      "had",
+      "will have",
+      "am having"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 232,
+    "nivel": "medio",
+    "pergunta": "It’s time we ___ home.",
+    "opcoes": [
+      "go",
+      "have gone",
+      "went",
+      "are going"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 233,
+    "nivel": "medio",
+    "pergunta": "You ___ have told me earlier.",
+    "opcoes": [
+      "must to",
+      "can to",
+      "ought to",
+      "should"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 234,
+    "nivel": "medio",
+    "pergunta": "She ___ in Maputo before moving to Tete.",
+    "opcoes": [
+      "had lived",
+      "has lived",
+      "is living",
+      "will live"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 235,
+    "nivel": "medio",
+    "pergunta": "They ___ the project by Friday.",
+    "opcoes": [
+      "finish",
+      "will have finished",
+      "finished",
+      "are finishing"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 236,
+    "nivel": "medio",
+    "pergunta": "I ___ him three times this week.",
+    "opcoes": [
+      "saw",
+      "see",
+      "have seen",
+      "am seeing"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 237,
+    "nivel": "medio",
+    "pergunta": "He ___ to work when the rain started.",
+    "opcoes": [
+      "walks",
+      "has walked",
+      "is walking",
+      "was walking"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 238,
+    "nivel": "medio",
+    "pergunta": "The train ___ before we reached the station.",
+    "opcoes": [
+      "had left",
+      "leaves",
+      "has left",
+      "was leaving"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 239,
+    "nivel": "medio",
+    "pergunta": "Neither answer ___ correct.",
+    "opcoes": [
+      "are",
+      "is",
+      "were",
+      "be"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 240,
+    "nivel": "medio",
+    "pergunta": "The news ___ surprising.",
+    "opcoes": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 241,
+    "nivel": "medio",
+    "pergunta": "Each student ___ a dictionary.",
+    "opcoes": [
+      "have",
+      "having",
+      "are having",
+      "has"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 242,
+    "nivel": "medio",
+    "pergunta": "This is the man ___ helped me.",
+    "opcoes": [
+      "who",
+      "which",
+      "whose",
+      "where"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 243,
+    "nivel": "medio",
+    "pergunta": "That is the village ___ I grew up.",
+    "opcoes": [
+      "who",
+      "where",
+      "which",
+      "whose"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 244,
+    "nivel": "medio",
+    "pergunta": "The book ___ cover is blue is mine.",
+    "opcoes": [
+      "who",
+      "where",
+      "whose",
+      "which"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 245,
+    "nivel": "medio",
+    "pergunta": "The road was closed, ___ delayed us.",
+    "opcoes": [
+      "who",
+      "where",
+      "what",
+      "which"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 246,
+    "nivel": "medio",
+    "pergunta": "I prefer tea ___ coffee.",
+    "opcoes": [
+      "to",
+      "than",
+      "from",
+      "over"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 247,
+    "nivel": "medio",
+    "pergunta": "She is responsible ___ the budget.",
+    "opcoes": [
+      "of",
+      "for",
+      "to",
+      "with"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 248,
+    "nivel": "medio",
+    "pergunta": "We are looking ___ a solution.",
+    "opcoes": [
+      "at",
+      "on",
+      "for",
+      "to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 249,
+    "nivel": "medio",
+    "pergunta": "He apologised ___ being late.",
+    "opcoes": [
+      "to",
+      "of",
+      "with",
+      "for"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 250,
+    "nivel": "medio",
+    "pergunta": "They succeeded ___ solving the problem.",
+    "opcoes": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 251,
+    "nivel": "medio",
+    "pergunta": "I am used ___ waking up early.",
+    "opcoes": [
+      "for",
+      "to",
+      "with",
+      "at"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 252,
+    "nivel": "medio",
+    "pergunta": "She is interested ___ learning French.",
+    "opcoes": [
+      "on",
+      "at",
+      "in",
+      "to"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 253,
+    "nivel": "medio",
+    "pergunta": "He stopped ___ smoking.",
+    "opcoes": [
+      "to smoke",
+      "smoked",
+      "smoke",
+      "smoking"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 254,
+    "nivel": "medio",
+    "pergunta": "We stopped ___ buy bread.",
+    "opcoes": [
+      "to buy",
+      "buying",
+      "bought",
+      "buy"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 255,
+    "nivel": "medio",
+    "pergunta": "Remember ___ the door.",
+    "opcoes": [
+      "locking",
+      "to lock",
+      "locked",
+      "lock"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 256,
+    "nivel": "medio",
+    "pergunta": "I remember ___ him at school.",
+    "opcoes": [
+      "meet",
+      "to meet",
+      "meeting",
+      "met"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 257,
+    "nivel": "medio",
+    "pergunta": "She made me ___ the report.",
+    "opcoes": [
+      "to rewrite",
+      "rewriting",
+      "rewrote",
+      "rewrite"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 258,
+    "nivel": "medio",
+    "pergunta": "They let us ___ early.",
+    "opcoes": [
+      "leave",
+      "to leave",
+      "leaving",
+      "left"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 259,
+    "nivel": "medio",
+    "pergunta": "The film was ___ than expected.",
+    "opcoes": [
+      "interesting",
+      "more interesting",
+      "most interesting",
+      "interest"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 260,
+    "nivel": "medio",
+    "pergunta": "This is the ___ route.",
+    "opcoes": [
+      "short",
+      "shorter",
+      "shortest",
+      "most short"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 261,
+    "nivel": "medio",
+    "pergunta": "He speaks English ___.",
+    "opcoes": [
+      "fluent",
+      "more fluent",
+      "fluency",
+      "fluently"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 262,
+    "nivel": "medio",
+    "pergunta": "She works ___ than her colleague.",
+    "opcoes": [
+      "more carefully",
+      "careful",
+      "most careful",
+      "carefully"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 263,
+    "nivel": "medio",
+    "pergunta": "The task is ___ difficult for beginners.",
+    "opcoes": [
+      "enough",
+      "too",
+      "many",
+      "very much"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 264,
+    "nivel": "medio",
+    "pergunta": "The room is large ___.",
+    "opcoes": [
+      "too",
+      "very",
+      "enough",
+      "many"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 265,
+    "nivel": "medio",
+    "pergunta": "I have ___ finished the report.",
+    "opcoes": [
+      "yet",
+      "still",
+      "ever",
+      "already"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 266,
+    "nivel": "medio",
+    "pergunta": "Have you called him ___?",
+    "opcoes": [
+      "yet",
+      "already",
+      "still",
+      "ever"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 267,
+    "nivel": "medio",
+    "pergunta": "She has ___ visited Malawi.",
+    "opcoes": [
+      "ever",
+      "never",
+      "yet",
+      "still"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 268,
+    "nivel": "medio",
+    "pergunta": "We have lived here ___ 2019.",
+    "opcoes": [
+      "for",
+      "during",
+      "since",
+      "from"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 269,
+    "nivel": "medio",
+    "pergunta": "He has worked there ___ six months.",
+    "opcoes": [
+      "since",
+      "during",
+      "at",
+      "for"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 270,
+    "nivel": "medio",
+    "pergunta": "Unless you hurry, you ___ the bus.",
+    "opcoes": [
+      "will miss",
+      "missed",
+      "miss",
+      "would miss"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 271,
+    "nivel": "medio",
+    "pergunta": "I will call you as soon as I ___.",
+    "opcoes": [
+      "will arrive",
+      "arrive",
+      "arrived",
+      "am arriving"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 272,
+    "nivel": "medio",
+    "pergunta": "She used to ___ near the sea.",
+    "opcoes": [
+      "lived",
+      "living",
+      "live",
+      "lives"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 273,
+    "nivel": "medio",
+    "pergunta": "I am not accustomed to ___ early.",
+    "opcoes": [
+      "wake",
+      "woke",
+      "wakes",
+      "waking"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 274,
+    "nivel": "medio",
+    "pergunta": "He denied ___ the money.",
+    "opcoes": [
+      "taking",
+      "take",
+      "to take",
+      "took"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 275,
+    "nivel": "medio",
+    "pergunta": "Would you mind ___ the window?",
+    "opcoes": [
+      "open",
+      "opening",
+      "to open",
+      "opened"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 276,
+    "nivel": "medio",
+    "pergunta": "The report needs ___.",
+    "opcoes": [
+      "edit",
+      "to editing",
+      "editing",
+      "edited"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 277,
+    "nivel": "medio",
+    "pergunta": "Although it was late, they ___ working.",
+    "opcoes": [
+      "continue",
+      "continuing",
+      "had continue",
+      "continued"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 278,
+    "nivel": "medio",
+    "pergunta": "The manager ___ the proposal last week.",
+    "opcoes": [
+      "approved",
+      "approve",
+      "approves",
+      "approving"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 279,
+    "nivel": "medio",
+    "pergunta": "Aviso: “The library closes at 16:30 on Fridays.” A que horas fecha?",
+    "opcoes": [
+      "Às 16:30.",
+      "Às 15:30.",
+      "Às 16:00.",
+      "Às 17:30."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 280,
+    "nivel": "medio",
+    "pergunta": "Mensagem: “Bring a copy of your ID and two photos.” O que deve levar?",
+    "opcoes": [
+      "Um passaporte e três fotos.",
+      "Uma cópia do documento e duas fotos.",
+      "Duas cópias e uma foto.",
+      "Apenas o documento original."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 281,
+    "nivel": "medio",
+    "pergunta": "Anúncio: “Buy two notebooks and get one free.” O que recebe gratuitamente?",
+    "opcoes": [
+      "Dois cadernos.",
+      "Três canetas.",
+      "Um caderno.",
+      "Uma mochila."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 282,
+    "nivel": "medio",
+    "pergunta": "Bilhete: “Bus 7 leaves from platform 3 at noon.” De onde parte?",
+    "opcoes": [
+      "Da plataforma 1.",
+      "Da plataforma 2.",
+      "Da bilheteira.",
+      "Da plataforma 3."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 283,
+    "nivel": "medio",
+    "pergunta": "E-mail: “The meeting moved from Tuesday to Thursday.” Em que dia será?",
+    "opcoes": [
+      "Quinta-feira.",
+      "Segunda-feira.",
+      "Terça-feira.",
+      "Quarta-feira."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 284,
+    "nivel": "medio",
+    "pergunta": "Rótulo: “Keep refrigerated. Consume within three days of opening.” O que deve fazer?",
+    "opcoes": [
+      "Congelar por um mês.",
+      "Guardar no frigorífico e consumir em três dias depois de abrir.",
+      "Aquecer antes de abrir.",
+      "Guardar ao sol."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 285,
+    "nivel": "medio",
+    "pergunta": "Nota: “Maria cannot attend because she is caring for her sick son.” Por que não participa?",
+    "opcoes": [
+      "Porque está a viajar.",
+      "Porque trabalha numa loja.",
+      "Porque cuida do filho doente.",
+      "Porque perdeu o bilhete."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 286,
+    "nivel": "medio",
+    "pergunta": "Cartaz: “Pool closed until 10 May.” Até quando fica fechada?",
+    "opcoes": [
+      "Até 1 de Maio.",
+      "Até 5 de Maio.",
+      "Durante todo o ano.",
+      "Até 10 de Maio."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 287,
+    "nivel": "medio",
+    "pergunta": "Anúncio: “The train is delayed by twenty minutes.” O que aconteceu?",
+    "opcoes": [
+      "Está vinte minutos atrasado.",
+      "Foi cancelado.",
+      "Chegou vinte minutos cedo.",
+      "Mudou de estação."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 288,
+    "nivel": "medio",
+    "pergunta": "Recado: “Call Mr Ali after 14:00.” Quando telefonar?",
+    "opcoes": [
+      "Antes das 12:00.",
+      "Depois das 14:00.",
+      "Às 13:00.",
+      "A qualquer hora."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 289,
+    "nivel": "medio",
+    "pergunta": "Texto: “João saves part of his salary to pay for evening classes.” Para que poupa?",
+    "opcoes": [
+      "Para comprar comida.",
+      "Para viajar de manhã.",
+      "Para pagar aulas nocturnas.",
+      "Para reparar o carro."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 290,
+    "nivel": "medio",
+    "pergunta": "Aviso: “No parking in front of the emergency entrance.” Onde é proibido estacionar?",
+    "opcoes": [
+      "Atrás da escola.",
+      "Ao lado do mercado.",
+      "Dentro do autocarro.",
+      "Em frente da entrada de emergência."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 291,
+    "nivel": "medio",
+    "pergunta": "E-mail: “Submit the report before 5 p.m. on 2 August.” Qual é o prazo?",
+    "opcoes": [
+      "2 de Agosto antes das 17:00.",
+      "2 de Julho às 17:00.",
+      "5 de Agosto às 14:00.",
+      "2 de Agosto depois das 17:00."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 292,
+    "nivel": "medio",
+    "pergunta": "Menu: “Vegetable soup contains no meat, but may contain milk.” O que é garantido?",
+    "opcoes": [
+      "Não contém leite.",
+      "Não contém carne.",
+      "É picante.",
+      "É servido frio."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 293,
+    "nivel": "medio",
+    "pergunta": "História: “Lina missed the bus, so she walked to work.” Como foi?",
+    "opcoes": [
+      "De comboio.",
+      "De bicicleta.",
+      "A pé.",
+      "De táxi."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 294,
+    "nivel": "medio",
+    "pergunta": "Instrução: “Press the green button, then wait for blue light.” O que fazer primeiro?",
+    "opcoes": [
+      "Esperar pela luz azul.",
+      "Desligar a máquina.",
+      "Abrir a tampa.",
+      "Premir o botão verde."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 295,
+    "nivel": "medio",
+    "pergunta": "Aviso: “Visitors must sign in at reception.” O que devem fazer?",
+    "opcoes": [
+      "Registar-se na recepção.",
+      "Sair pela recepção.",
+      "Pagar na recepção.",
+      "Dormir na recepção."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 296,
+    "nivel": "medio",
+    "pergunta": "Texto: “The shop reduced prices to sell old stock.” Por que reduziu?",
+    "opcoes": [
+      "Para contratar pessoal.",
+      "Para vender o stock antigo.",
+      "Para fechar a rua.",
+      "Para importar roupa."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 297,
+    "nivel": "medio",
+    "pergunta": "Recado: “I left your keys under the flowerpot.” Onde estão?",
+    "opcoes": [
+      "Dentro do armário.",
+      "Sobre a cama.",
+      "Debaixo do vaso de flores.",
+      "Na caixa de correio."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 298,
+    "nivel": "medio",
+    "pergunta": "E-mail: “The doctor recommends more water and rest.” O que recomenda?",
+    "opcoes": [
+      "Correr todos os dias.",
+      "Comer menos fruta.",
+      "Trabalhar até tarde.",
+      "Beber mais água e descansar."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 299,
+    "nivel": "medio",
+    "pergunta": "Aviso: “Use the side entrance while the main entrance is painted.” Qual usar?",
+    "opcoes": [
+      "A entrada lateral.",
+      "A principal.",
+      "A de emergência apenas.",
+      "A do estacionamento."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 300,
+    "nivel": "medio",
+    "pergunta": "Texto: “Although the road was long, the journey was comfortable.” Como foi?",
+    "opcoes": [
+      "Longa e desconfortável.",
+      "Longa, mas confortável.",
+      "Curta e perigosa.",
+      "Impossível de concluir."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 301,
+    "nivel": "medio",
+    "pergunta": "Nota: “The office is closed on public holidays.” Quando fecha?",
+    "opcoes": [
+      "Todas as segundas-feiras.",
+      "Durante o almoço.",
+      "Aos feriados públicos.",
+      "Aos sábados apenas."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 302,
+    "nivel": "medio",
+    "pergunta": "Anúncio: “Free delivery applies to orders over 2,000 meticais.” Quando é gratuita?",
+    "opcoes": [
+      "Em qualquer encomenda.",
+      "Apenas em encomendas de comida.",
+      "Em encomendas inferiores.",
+      "Em encomendas acima de 2 000 meticais."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 303,
+    "nivel": "medio",
+    "pergunta": "Texto: “Rui borrowed a bicycle and returned it before sunset.” O que fez?",
+    "opcoes": [
+      "Pediu uma bicicleta emprestada e devolveu-a antes do pôr do sol.",
+      "Comprou e vendeu uma bicicleta.",
+      "Reparou-a durante a noite.",
+      "Perdeu a bicicleta."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 304,
+    "nivel": "medio",
+    "pergunta": "Cartaz: “Applications after the deadline will not be considered.” O que sucede?",
+    "opcoes": [
+      "Serão automaticamente aceites.",
+      "Não serão consideradas.",
+      "Receberão um prémio.",
+      "Serão traduzidas."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 305,
+    "nivel": "medio",
+    "pergunta": "Mensagem: “Bring a jacket; temperatures will fall after dark.” Por que levar?",
+    "opcoes": [
+      "Vai chover de manhã.",
+      "A loja estará fechada.",
+      "As temperaturas vão baixar depois de escurecer.",
+      "O autocarro parte cedo."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 306,
+    "nivel": "medio",
+    "pergunta": "Texto: “Solar lamps made the paths safer at night.” Qual foi o efeito?",
+    "opcoes": [
+      "Aumentaram o preço da energia.",
+      "Fecharam os caminhos.",
+      "Iluminaram apenas as casas.",
+      "Tornaram os caminhos mais seguros à noite."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 307,
+    "nivel": "medio",
+    "pergunta": "Aviso: “Do not enter unless you have a staff card.” Quem pode entrar?",
+    "opcoes": [
+      "Pessoas com cartão de funcionário.",
+      "Qualquer visitante.",
+      "Crianças sem acompanhamento.",
+      "Apenas motoristas."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 308,
+    "nivel": "medio",
+    "pergunta": "E-mail: “The picnic was postponed because heavy rain is expected.” Por que?",
+    "opcoes": [
+      "Porque haverá muito calor.",
+      "Porque se espera chuva intensa.",
+      "Porque faltam cadeiras.",
+      "Porque o parque abriu cedo."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 309,
+    "nivel": "medio",
+    "pergunta": "Texto: “Amina checks the timetable before leaving home.” O que consulta?",
+    "opcoes": [
+      "A ementa.",
+      "O mapa do tempo.",
+      "O horário.",
+      "O recibo."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 310,
+    "nivel": "medio",
+    "pergunta": "Instrução: “Mix the powder with warm water, not boiling water.” Que água usar?",
+    "opcoes": [
+      "Água gelada.",
+      "Água a ferver.",
+      "Sumo.",
+      "Água morna."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 311,
+    "nivel": "medio",
+    "pergunta": "Aviso: “The clinic accepts patients by appointment only.” Como são atendidos?",
+    "opcoes": [
+      "Somente com marcação.",
+      "Sem marcação.",
+      "Apenas à noite.",
+      "Por ordem alfabética."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 312,
+    "nivel": "medio",
+    "pergunta": "Texto: “The farmer sold maize and bought a new pump.” O que comprou?",
+    "opcoes": [
+      "Um tractor.",
+      "Uma bomba nova.",
+      "Sementes de arroz.",
+      "Um celeiro."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 313,
+    "nivel": "medio",
+    "pergunta": "Anúncio: “Return library books within fourteen days.” Em quanto tempo?",
+    "opcoes": [
+      "Sete dias.",
+      "Dez dias.",
+      "Catorze dias.",
+      "Trinta dias."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 314,
+    "nivel": "medio",
+    "pergunta": "Mensagem: “I cannot join the call; my internet is unstable.” Por que?",
+    "opcoes": [
+      "Não tem telefone.",
+      "Está no aeroporto.",
+      "Esqueceu a senha.",
+      "A ligação à internet é instável."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 315,
+    "nivel": "medio",
+    "pergunta": "Texto: “The course includes practice, discussion and a final test.” O que inclui?",
+    "opcoes": [
+      "Prática, discussão e teste final.",
+      "Apenas leitura.",
+      "Viagem e alojamento.",
+      "Duas entrevistas."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 316,
+    "nivel": "medio",
+    "pergunta": "Aviso: “Keep the receipt if you want to exchange the item.” Por que guardar?",
+    "opcoes": [
+      "Para obter emprego.",
+      "Para trocar o artigo.",
+      "Para entrar no edifício.",
+      "Para cozinhar."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 317,
+    "nivel": "medio",
+    "pergunta": "E-mail: “The manager approved the request after reviewing the budget.” O que fez antes?",
+    "opcoes": [
+      "Mudou a data.",
+      "Telefonou ao cliente.",
+      "Reviu o orçamento.",
+      "Fechou a loja."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 318,
+    "nivel": "medio",
+    "pergunta": "Texto: “Sofia took an umbrella although the sky was clear.” O que indica?",
+    "opcoes": [
+      "Já estava a chover.",
+      "Queria vendê-lo.",
+      "Perdeu o chapéu.",
+      "Levou-o como precaução apesar do céu limpo."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 319,
+    "nivel": "medio",
+    "pergunta": "Anúncio: “The museum discounts students with valid cards.” Quem beneficia?",
+    "opcoes": [
+      "Estudantes com cartões válidos.",
+      "Todos os turistas.",
+      "Crianças sem cartões.",
+      "Funcionários de outras lojas."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 320,
+    "nivel": "medio",
+    "pergunta": "Mensagem: “Switch off all equipment before leaving.” O que fazer?",
+    "opcoes": [
+      "Ligar todo o equipamento.",
+      "Desligar todo o equipamento.",
+      "Levar o equipamento.",
+      "Pintar o equipamento."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 321,
+    "nivel": "medio",
+    "pergunta": "Texto: “The team reached its target earlier than expected.” O que aconteceu?",
+    "opcoes": [
+      "Abandonou o objectivo.",
+      "Mudou de cidade.",
+      "Atingiu o objectivo mais cedo do que esperava.",
+      "Perdeu o prazo."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 322,
+    "nivel": "medio",
+    "pergunta": "Aviso: “Food and drinks are not allowed inside the laboratory.” O que é proibido?",
+    "opcoes": [
+      "Ler instruções.",
+      "Usar bata.",
+      "Lavar as mãos.",
+      "Levar comida e bebidas."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 323,
+    "nivel": "medio",
+    "pergunta": "Texto: “The nurse measured the patient’s temperature before giving advice.” O que mediu primeiro?",
+    "opcoes": [
+      "A temperatura do paciente.",
+      "A pressão da sala.",
+      "A altura do médico.",
+      "O peso do medicamento."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 324,
+    "nivel": "medio",
+    "pergunta": "E-mail: “If you need assistance, contact the number below.” O que fazer?",
+    "opcoes": [
+      "Esperar um mês.",
+      "Contactar o número abaixo.",
+      "Enviar uma fotografia.",
+      "Ir a outra cidade."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 325,
+    "nivel": "medio",
+    "pergunta": "Anúncio: “The course fee includes materials but not transport.” O que não inclui?",
+    "opcoes": [
+      "Materiais.",
+      "Aulas.",
+      "Transporte.",
+      "Exercícios."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 326,
+    "nivel": "medio",
+    "pergunta": "Texto: “David changed route to avoid the flooded street.” Por que?",
+    "opcoes": [
+      "Para encontrar uma loja.",
+      "Para chegar mais tarde.",
+      "Para visitar um amigo.",
+      "Para evitar a rua inundada."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 327,
+    "nivel": "medio",
+    "pergunta": "Nota: “Leave the parcel with the security guard if nobody answers.” Com quem deixar?",
+    "opcoes": [
+      "Com o segurança.",
+      "Com o vizinho.",
+      "Com o motorista.",
+      "Com o professor."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 328,
+    "nivel": "medio",
+    "pergunta": "Aviso: “The first 20 customers receive a reusable bag.” Quem recebe?",
+    "opcoes": [
+      "Os últimos clientes.",
+      "Os primeiros 20 clientes.",
+      "Todos os empregados.",
+      "Apenas crianças."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 329,
+    "nivel": "medio",
+    "pergunta": "Texto: “The project succeeded because volunteers worked together.” Por que?",
+    "opcoes": [
+      "O projecto foi cancelado.",
+      "Faltaram materiais.",
+      "Os voluntários trabalharam juntos.",
+      "A equipa trabalhou separadamente."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 330,
+    "nivel": "medio",
+    "pergunta": "E-mail: “Confirm whether you can attend by Friday.” O que confirmar?",
+    "opcoes": [
+      "Quanto dinheiro tem.",
+      "Onde mora.",
+      "Quando nasceu.",
+      "Se pode participar."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 331,
+    "nivel": "medio",
+    "pergunta": "Texto: “After repairing the roof, the school reopened.” O que aconteceu depois?",
+    "opcoes": [
+      "A escola reabriu.",
+      "Mudou de nome.",
+      "O telhado caiu.",
+      "As aulas foram canceladas."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 332,
+    "nivel": "medio",
+    "pergunta": "Instrução: “Use one tablet twice daily after meals.” Como usar?",
+    "opcoes": [
+      "Uma cápsula antes de cada refeição.",
+      "Um comprimido duas vezes por dia depois das refeições.",
+      "Dois comprimidos por semana.",
+      "Um comprimido apenas à noite."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 333,
+    "nivel": "medio",
+    "pergunta": "Aviso: “Queue on the left; the right side is for staff.” Onde formar fila?",
+    "opcoes": [
+      "No lado direito.",
+      "Atrás do edifício.",
+      "No lado esquerdo.",
+      "Na rua seguinte."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 334,
+    "nivel": "medio",
+    "pergunta": "Mensagem: “The alarm may sound briefly during the light test.” O que pode ocorrer?",
+    "opcoes": [
+      "A escola fechará uma semana.",
+      "As luzes serão removidas.",
+      "O alarme ficará desligado todo o dia.",
+      "O alarme pode soar brevemente."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 335,
+    "nivel": "medio",
+    "pergunta": "Texto: “Nadia saved the file under another name to keep the original.” Por que?",
+    "opcoes": [
+      "Para conservar o original.",
+      "Para apagar o original.",
+      "Para o imprimir a cores.",
+      "Para o enviar por correio."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 336,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “accountability”?",
+    "opcoes": [
+      "responsabilização",
+      "contabilidade bancária",
+      "acumulação",
+      "contagem"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 337,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “alleviate”?",
+    "opcoes": [
+      "agravar",
+      "atenuar",
+      "calcular",
+      "rejeitar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 338,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “ambiguous”?",
+    "opcoes": [
+      "ambicioso",
+      "inflexível",
+      "ambíguo",
+      "preciso"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 339,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “comprehensive”?",
+    "opcoes": [
+      "breve",
+      "controverso",
+      "comercial",
+      "abrangente"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 340,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “constraint”?",
+    "opcoes": [
+      "limitação",
+      "construtor",
+      "concessão",
+      "contrato"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 341,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “convey”?",
+    "opcoes": [
+      "transportar fisicamente",
+      "transmitir",
+      "convencer pela força",
+      "conservar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 342,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “discrepancy”?",
+    "opcoes": [
+      "semelhança",
+      "descoberta",
+      "discrepância",
+      "disciplina"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 343,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “feasible”?",
+    "opcoes": [
+      "visível",
+      "fiel",
+      "final",
+      "viável"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 344,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “fluctuate”?",
+    "opcoes": [
+      "oscilar",
+      "fixar",
+      "duplicar",
+      "deslocar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 345,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “incentive”?",
+    "opcoes": [
+      "incidente",
+      "incentivo",
+      "intenção",
+      "inquérito"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 346,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “inevitable”?",
+    "opcoes": [
+      "evitável",
+      "invisível",
+      "inevitável",
+      "inicial"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 347,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “notwithstanding”?",
+    "opcoes": [
+      "devido a",
+      "antes de",
+      "a fim de",
+      "apesar de"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 348,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “pervasive”?",
+    "opcoes": [
+      "generalizado",
+      "perigoso",
+      "permanente",
+      "periférico"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 349,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “plausible”?",
+    "opcoes": [
+      "planificado",
+      "plausível",
+      "agradável ao público",
+      "político"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 350,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “redundant”?",
+    "opcoes": [
+      "essencial",
+      "rentável",
+      "desnecessário",
+      "recente"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 351,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “rigorous”?",
+    "opcoes": [
+      "rápido",
+      "regular",
+      "rígido fisicamente",
+      "rigoroso"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 352,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “substantial”?",
+    "opcoes": [
+      "considerável",
+      "substituível",
+      "subterrâneo",
+      "simbólico"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 353,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “tentative”?",
+    "opcoes": [
+      "tentador",
+      "provisório",
+      "tenso",
+      "teórico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 354,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “underpin”?",
+    "opcoes": [
+      "minar",
+      "substituir",
+      "servir de base a",
+      "descobrir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 355,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “withstand”?",
+    "opcoes": [
+      "compreender",
+      "retirar",
+      "substituir",
+      "resistir a"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 356,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “coherent”?",
+    "opcoes": [
+      "coerente",
+      "corajoso",
+      "contínuo",
+      "conveniente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 357,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “concise”?",
+    "opcoes": [
+      "conclusivo",
+      "conciso",
+      "consciente",
+      "consecutivo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 358,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “controversial”?",
+    "opcoes": [
+      "conservador",
+      "completo",
+      "controverso",
+      "conversacional"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 359,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “deteriorate”?",
+    "opcoes": [
+      "determinar",
+      "desviar",
+      "detectar",
+      "deteriorar-se"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 360,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “disclose”?",
+    "opcoes": [
+      "divulgar",
+      "ocultar",
+      "discutir",
+      "desligar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 361,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “encompass”?",
+    "opcoes": [
+      "encarar",
+      "abranger",
+      "encontrar",
+      "encerrar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 362,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “enhance”?",
+    "opcoes": [
+      "reduzir",
+      "herdar",
+      "reforçar",
+      "impedir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 363,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “exacerbate”?",
+    "opcoes": [
+      "aliviar",
+      "examinar",
+      "estender",
+      "agravar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 364,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “facilitate”?",
+    "opcoes": [
+      "facilitar",
+      "dificultar",
+      "financiar",
+      "formalizar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 365,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “hinder”?",
+    "opcoes": [
+      "ajudar",
+      "dificultar",
+      "esconder",
+      "honrar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 366,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “impartial”?",
+    "opcoes": [
+      "impaciente",
+      "imperfeito",
+      "imparcial",
+      "impossível"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 367,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “inadvertently”?",
+    "opcoes": [
+      "deliberadamente",
+      "de imediato",
+      "em segredo",
+      "sem intenção"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 368,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “inept”?",
+    "opcoes": [
+      "incompetente",
+      "competente",
+      "independente",
+      "inédito"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 369,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “intricate”?",
+    "opcoes": [
+      "simples",
+      "complexo e detalhado",
+      "integral",
+      "interior"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 370,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “meticulous”?",
+    "opcoes": [
+      "descuidado",
+      "misterioso",
+      "meticuloso",
+      "moderado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 371,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “mitigate”?",
+    "opcoes": [
+      "imitar",
+      "misturar",
+      "medir",
+      "mitigar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 372,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “obsolete”?",
+    "opcoes": [
+      "obsoleto",
+      "observável",
+      "obrigatório",
+      "obscuro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 373,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “predominantly”?",
+    "opcoes": [
+      "ocasionalmente",
+      "predominantemente",
+      "previamente",
+      "precisamente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 374,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “profound”?",
+    "opcoes": [
+      "superficial",
+      "produtivo",
+      "profundo",
+      "provável"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 375,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “scrutinise”?",
+    "opcoes": [
+      "ignorar",
+      "escrever rapidamente",
+      "resumir",
+      "examinar minuciosamente"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 376,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “speculate”?",
+    "opcoes": [
+      "especular",
+      "confirmar",
+      "especificar",
+      "separar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 377,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “stringent”?",
+    "opcoes": [
+      "flexível",
+      "rigoroso e exigente",
+      "extenso",
+      "estranho"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 378,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “tangible”?",
+    "opcoes": [
+      "intangível",
+      "temporário",
+      "tangível e concreto",
+      "tardio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 379,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “undermine”?",
+    "opcoes": [
+      "fortalecer",
+      "unir",
+      "entender",
+      "enfraquecer"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 380,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “unprecedented”?",
+    "opcoes": [
+      "sem precedentes",
+      "previsível",
+      "incompleto",
+      "uniforme"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 381,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “allocate”?",
+    "opcoes": [
+      "alugar",
+      "atribuir recursos",
+      "localizar",
+      "alterar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 382,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “assert”?",
+    "opcoes": [
+      "perguntar",
+      "assistir",
+      "afirmar categoricamente",
+      "assumir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 383,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “comply with”?",
+    "opcoes": [
+      "competir com",
+      "compor",
+      "completar",
+      "cumprir"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 384,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “derive from”?",
+    "opcoes": [
+      "derivar de",
+      "desviar-se de",
+      "descrever",
+      "depender"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 385,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “rule out”?",
+    "opcoes": [
+      "governar",
+      "excluir como possibilidade",
+      "regular",
+      "reunir"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 386,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “stem from”?",
+    "opcoes": [
+      "parar de",
+      "começar a",
+      "resultar de",
+      "separar-se de"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 387,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “turnover”?",
+    "opcoes": [
+      "viragem física",
+      "torneio",
+      "queda",
+      "volume de negócios"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 388,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “workforce”?",
+    "opcoes": [
+      "força de trabalho",
+      "local de trabalho",
+      "trabalho forçado",
+      "oficina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 389,
+    "nivel": "dificil",
+    "pergunta": "Em linguagem formal, o que significa “yield”?",
+    "opcoes": [
+      "gritar",
+      "rendimento ou ceder",
+      "proteger",
+      "prender"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 390,
+    "nivel": "dificil",
+    "pergunta": "Rarely ___ such a well-organised response.",
+    "opcoes": [
+      "have we seen",
+      "we have seen",
+      "we saw",
+      "did we see"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 391,
+    "nivel": "dificil",
+    "pergunta": "Had I known, I ___.",
+    "opcoes": [
+      "act",
+      "would have acted",
+      "would act",
+      "acted"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 392,
+    "nivel": "dificil",
+    "pergunta": "No sooner ___ than the lights went out.",
+    "opcoes": [
+      "he arrived",
+      "has he arrived",
+      "had he arrived",
+      "did he arrive"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 393,
+    "nivel": "dificil",
+    "pergunta": "The proposal, ___ details remain confidential, was approved.",
+    "opcoes": [
+      "which",
+      "that",
+      "what",
+      "whose"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 394,
+    "nivel": "dificil",
+    "pergunta": "It is essential that every applicant ___ the form.",
+    "opcoes": [
+      "complete",
+      "completes",
+      "completed",
+      "will complete"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 395,
+    "nivel": "dificil",
+    "pergunta": "She insisted that the contract ___.",
+    "opcoes": [
+      "is revised",
+      "be revised",
+      "was revised",
+      "revises"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 396,
+    "nivel": "dificil",
+    "pergunta": "The committee recommended ___ the deadline.",
+    "opcoes": [
+      "extend",
+      "to extend",
+      "extending",
+      "extended"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 397,
+    "nivel": "dificil",
+    "pergunta": "He is believed ___ the country.",
+    "opcoes": [
+      "leaving",
+      "left",
+      "that he left",
+      "to have left"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 398,
+    "nivel": "dificil",
+    "pergunta": "The findings appear ___ the hypothesis.",
+    "opcoes": [
+      "to contradict",
+      "contradicting",
+      "contradicted",
+      "contradict"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 399,
+    "nivel": "dificil",
+    "pergunta": "I would rather you ___ this confidential.",
+    "opcoes": [
+      "keep",
+      "kept",
+      "will keep",
+      "keeping"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 400,
+    "nivel": "dificil",
+    "pergunta": "It was the shortage of fuel ___ caused the delay.",
+    "opcoes": [
+      "what",
+      "who",
+      "that",
+      "where"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 401,
+    "nivel": "dificil",
+    "pergunta": "Only after the audit ___ the discrepancy.",
+    "opcoes": [
+      "they noticed",
+      "they did notice",
+      "noticed they",
+      "did they notice"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 402,
+    "nivel": "dificil",
+    "pergunta": "Under no circumstances ___ the device unattended.",
+    "opcoes": [
+      "should you leave",
+      "you should leave",
+      "you leave should",
+      "leave you should"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 403,
+    "nivel": "dificil",
+    "pergunta": "The manager had the report ___ by an expert.",
+    "opcoes": [
+      "check",
+      "checked",
+      "checking",
+      "to check"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 404,
+    "nivel": "dificil",
+    "pergunta": "She got her passport ___ before travelling.",
+    "opcoes": [
+      "renew",
+      "renewing",
+      "renewed",
+      "to renew"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 405,
+    "nivel": "dificil",
+    "pergunta": "The data are consistent ___ the conclusion.",
+    "opcoes": [
+      "to",
+      "for",
+      "at",
+      "with"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 406,
+    "nivel": "dificil",
+    "pergunta": "He objected ___ treated unfairly.",
+    "opcoes": [
+      "to being",
+      "to be",
+      "being to",
+      "for being"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 407,
+    "nivel": "dificil",
+    "pergunta": "There is little point ___ about the past.",
+    "opcoes": [
+      "worry",
+      "in worrying",
+      "to worry",
+      "worried"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 408,
+    "nivel": "dificil",
+    "pergunta": "The witness denied ___ the document.",
+    "opcoes": [
+      "sign",
+      "to sign",
+      "having signed",
+      "to have signed"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 409,
+    "nivel": "dificil",
+    "pergunta": "Having ___ the evidence, the judge decided.",
+    "opcoes": [
+      "review",
+      "reviewing",
+      "reviews",
+      "reviewed"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 410,
+    "nivel": "dificil",
+    "pergunta": "The policy aims to prevent prices ___ sharply.",
+    "opcoes": [
+      "rising",
+      "rise",
+      "to rise",
+      "rose"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 411,
+    "nivel": "dificil",
+    "pergunta": "Were the plan ___, costs would increase.",
+    "opcoes": [
+      "fail",
+      "to fail",
+      "failing",
+      "failed"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 412,
+    "nivel": "dificil",
+    "pergunta": "If it were not for her help, we ___ the target.",
+    "opcoes": [
+      "miss",
+      "missed",
+      "would miss",
+      "will miss"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 413,
+    "nivel": "dificil",
+    "pergunta": "The equipment must ___ before use.",
+    "opcoes": [
+      "tested be",
+      "be testing",
+      "have tested",
+      "be tested"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 414,
+    "nivel": "dificil",
+    "pergunta": "By the time results arrive, the trial ___.",
+    "opcoes": [
+      "will have ended",
+      "ends",
+      "ended",
+      "has ended"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 415,
+    "nivel": "dificil",
+    "pergunta": "He speaks as though he ___ the answer.",
+    "opcoes": [
+      "knows",
+      "knew",
+      "has known",
+      "will know"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 416,
+    "nivel": "dificil",
+    "pergunta": "She needn’t ___ so early.",
+    "opcoes": [
+      "to arrive",
+      "arrived",
+      "have arrived",
+      "arriving"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 417,
+    "nivel": "dificil",
+    "pergunta": "You ought ___ the instructions.",
+    "opcoes": [
+      "read",
+      "reading",
+      "have read",
+      "to read"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 418,
+    "nivel": "dificil",
+    "pergunta": "The document is worth ___.",
+    "opcoes": [
+      "reading",
+      "to read",
+      "read",
+      "to reading"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 419,
+    "nivel": "dificil",
+    "pergunta": "This is an issue that cannot ___.",
+    "opcoes": [
+      "overlook",
+      "be overlooked",
+      "overlooking",
+      "been overlooked"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 420,
+    "nivel": "dificil",
+    "pergunta": "The more carefully you plan, ___ the result.",
+    "opcoes": [
+      "the good",
+      "better",
+      "the better",
+      "the best"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 421,
+    "nivel": "dificil",
+    "pergunta": "It is high time the authorities ___ action.",
+    "opcoes": [
+      "take",
+      "will take",
+      "have taken",
+      "took"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 422,
+    "nivel": "dificil",
+    "pergunta": "He denied that he ___ responsible.",
+    "opcoes": [
+      "was",
+      "is",
+      "be",
+      "will"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 423,
+    "nivel": "dificil",
+    "pergunta": "The lecturer made the concept ___.",
+    "opcoes": [
+      "clearly",
+      "clear",
+      "clarity",
+      "cleared"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 424,
+    "nivel": "dificil",
+    "pergunta": "I had difficulty ___ the accent.",
+    "opcoes": [
+      "understand",
+      "to understand",
+      "understanding",
+      "understood"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 425,
+    "nivel": "dificil",
+    "pergunta": "The report suggests that demand ___.",
+    "opcoes": [
+      "decline",
+      "declined only",
+      "will declining",
+      "declines"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 426,
+    "nivel": "dificil",
+    "pergunta": "What matters ___ the accuracy.",
+    "opcoes": [
+      "is",
+      "are",
+      "be",
+      "have"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 427,
+    "nivel": "dificil",
+    "pergunta": "Neither the director nor the assistants ___ available.",
+    "opcoes": [
+      "was",
+      "were",
+      "is",
+      "be"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 428,
+    "nivel": "dificil",
+    "pergunta": "A number of employees ___ requested training.",
+    "opcoes": [
+      "has",
+      "is",
+      "have",
+      "was"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 429,
+    "nivel": "dificil",
+    "pergunta": "The number of complaints ___ decreased.",
+    "opcoes": [
+      "have",
+      "are",
+      "were",
+      "has"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 430,
+    "nivel": "dificil",
+    "pergunta": "She is one of those researchers who ___ data carefully.",
+    "opcoes": [
+      "analyse",
+      "analyses",
+      "analysing",
+      "has analysed"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 431,
+    "nivel": "dificil",
+    "pergunta": "The figures, together with the notes, ___ attached.",
+    "opcoes": [
+      "is",
+      "are",
+      "be",
+      "has"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 432,
+    "nivel": "dificil",
+    "pergunta": "He works remotely, ___ allows him to live farther away.",
+    "opcoes": [
+      "that",
+      "what",
+      "which",
+      "who"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 433,
+    "nivel": "dificil",
+    "pergunta": "The company is expected ___ its policy.",
+    "opcoes": [
+      "revise",
+      "revising",
+      "revised",
+      "to revise"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 434,
+    "nivel": "dificil",
+    "pergunta": "There is no reason ___ the figures.",
+    "opcoes": [
+      "to doubt",
+      "doubting",
+      "doubt",
+      "for doubt"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 435,
+    "nivel": "dificil",
+    "pergunta": "She left without ___ anyone.",
+    "opcoes": [
+      "tell",
+      "telling",
+      "to tell",
+      "told"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 436,
+    "nivel": "dificil",
+    "pergunta": "He succeeded ___ the obstacles.",
+    "opcoes": [
+      "although of",
+      "even",
+      "despite",
+      "however"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 437,
+    "nivel": "dificil",
+    "pergunta": "Despite ___ exhausted, they continued.",
+    "opcoes": [
+      "be",
+      "to be",
+      "been",
+      "being"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 438,
+    "nivel": "dificil",
+    "pergunta": "The contract expires ___ less than a month.",
+    "opcoes": [
+      "in",
+      "at",
+      "on",
+      "by"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 439,
+    "nivel": "dificil",
+    "pergunta": "“However” usually introduces ___.",
+    "opcoes": [
+      "a cause",
+      "a contrast",
+      "a condition only",
+      "a sequence of times"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 440,
+    "nivel": "dificil",
+    "pergunta": "Choose correct inversion.",
+    "opcoes": [
+      "Never I have seen this.",
+      "Never seen I have this.",
+      "Never have I seen this.",
+      "Never did I saw this."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 441,
+    "nivel": "dificil",
+    "pergunta": "Reported speech: “I am busy,” he said.",
+    "opcoes": [
+      "He said he is busy.",
+      "He said that I was busy.",
+      "He said he busy.",
+      "He said that he was busy."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 442,
+    "nivel": "dificil",
+    "pergunta": "Correct conditional:",
+    "opcoes": [
+      "If I knew, I would tell you.",
+      "If I will know, I tell you.",
+      "If I know, I would told you.",
+      "If I had know, I tell you."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 443,
+    "nivel": "dificil",
+    "pergunta": "Correct participle clause:",
+    "opcoes": [
+      "Having finish the work, she left.",
+      "Having finished the work, she left.",
+      "Finished having the work, she left.",
+      "She left having finish work."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 444,
+    "nivel": "dificil",
+    "pergunta": "The lights are off; they ___ have left.",
+    "opcoes": [
+      "should",
+      "can",
+      "must",
+      "would"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 445,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The subsidy was intended to lower fares, but operators reduced services instead.” Qual foi o efeito não pretendido?",
+    "opcoes": [
+      "Os operadores reduziram os serviços.",
+      "As tarifas subiram sempre.",
+      "Os passageiros receberam subsídios directos.",
+      "A rede foi ampliada."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 446,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The survey is representative only of households with internet access.” Qual é a limitação?",
+    "opcoes": [
+      "Inclui apenas turistas.",
+      "Exclui agregados sem acesso à internet.",
+      "Foi feita apenas por telefone.",
+      "Não tem perguntas."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 447,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Although rainfall increased, the reservoir remained below capacity because the preceding drought was severe.” Por que não encheu?",
+    "opcoes": [
+      "A chuva foi inexistente.",
+      "A barragem foi demolida.",
+      "A seca anterior foi severa.",
+      "A capacidade aumentou."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 448,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The committee deferred a decision pending an independent review.” O que fez?",
+    "opcoes": [
+      "Tomou decisão final.",
+      "Rejeitou a revisão.",
+      "Publicou resultados imediatamente.",
+      "Adiou a decisão até haver revisão independente."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 449,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The policy is unlikely to yield benefits unless enforcement improves.” O que condiciona os benefícios?",
+    "opcoes": [
+      "A melhoria da aplicação da política.",
+      "A redução dos salários.",
+      "A eliminação das regras.",
+      "A chegada do Inverno."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 450,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Correlation does not establish causation.” Que advertência é feita?",
+    "opcoes": [
+      "Correlação prova sempre causalidade.",
+      "Correlação não prova causalidade.",
+      "Causalidade não existe.",
+      "Os dados são necessariamente falsos."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 451,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The proposal was financially viable but politically contentious.” Como é caracterizada?",
+    "opcoes": [
+      "Inviável e consensual.",
+      "Financeiramente controversa e popular.",
+      "Financeiramente viável e politicamente controversa.",
+      "Ilegal e barata."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 452,
+    "nivel": "dificil",
+    "pergunta": "Texto: “By allocating funds to prevention, the agency hoped to mitigate future costs.” Qual era o objectivo?",
+    "opcoes": [
+      "Aumentar custos imediatos.",
+      "Eliminar toda a despesa.",
+      "Financiar apenas publicidade.",
+      "Reduzir custos futuros através da prevenção."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 453,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The witness gave a tentative account and later disclosed that she had not seen the event clearly.” Por que era provisório?",
+    "opcoes": [
+      "Ela não tinha visto o evento claramente.",
+      "Tinha observado tudo claramente.",
+      "Era a organizadora.",
+      "Recusou falar."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 454,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The amendment broadened eligibility, thereby including informal workers.” Qual foi a consequência?",
+    "opcoes": [
+      "Excluiu trabalhadores informais.",
+      "Passou a incluir trabalhadores informais.",
+      "Reduziu a elegibilidade.",
+      "Cancelou o programa."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 455,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The report’s conclusions are qualified by a small sample size.” O que limita as conclusões?",
+    "opcoes": [
+      "O excesso de participantes.",
+      "A ausência de conclusões.",
+      "A amostra pequena.",
+      "A tradução do título."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 456,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Modest expenditure produced substantial gains.” O que significa?",
+    "opcoes": [
+      "Gastou muito sem resultado.",
+      "Não houve despesa.",
+      "Os ganhos foram apenas simbólicos.",
+      "Pequena despesa produziu ganhos consideráveis."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 457,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The minister attributed the discrepancy to a change in methodology.” Como explicou a diferença?",
+    "opcoes": [
+      "Atribuiu-a a uma mudança de metodologia.",
+      "Negou que existisse.",
+      "Culpou o clima.",
+      "Atribuiu-a a erro de tradução."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 458,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The findings cannot be generalised beyond the sampled districts.” O que se conclui?",
+    "opcoes": [
+      "Aplicam-se ao país inteiro.",
+      "Não devem ser generalizados para além dos distritos estudados.",
+      "Foram recolhidos em todos os países.",
+      "Não têm qualquer valor."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 459,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The initiative hinges on sustained community participation.” De que depende?",
+    "opcoes": [
+      "De uma única reunião.",
+      "Da redução da participação.",
+      "Da participação comunitária contínua.",
+      "De financiamento estrangeiro apenas."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 460,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The audit found no evidence of fraud, although procedures were inadequate.” O que revelou?",
+    "opcoes": [
+      "Provou fraude.",
+      "Considerou procedimentos perfeitos.",
+      "Não analisou procedimentos.",
+      "Não encontrou prova de fraude, mas achou procedimentos inadequados."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 461,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The timetable is intended to streamline transfers, not increase routes.” Qual é a finalidade?",
+    "opcoes": [
+      "Simplificar as ligações.",
+      "Criar mais rotas.",
+      "Eliminar os transferes.",
+      "Aumentar tarifas."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 462,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The village opposed the mine on environmental grounds despite promised jobs.” Por que se opôs?",
+    "opcoes": [
+      "Porque não queria empregos.",
+      "Por razões ambientais.",
+      "Por razões desportivas.",
+      "Porque a mina já fechara."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 463,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The device is compatible with older networks, provided that its software is updated.” Que condição existe?",
+    "opcoes": [
+      "A rede antiga deve ser desligada.",
+      "A bateria deve ser removida.",
+      "O software deve ser actualizado.",
+      "O preço deve duplicar."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 464,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The findings were robust across several sensitivity analyses.” O que indica?",
+    "opcoes": [
+      "Mudaram completamente em cada análise.",
+      "Foram obtidos sem dados.",
+      "Foram apenas opiniões.",
+      "Mantiveram-se consistentes em várias análises."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 465,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The company phased out the product after safety concerns.” O que fez?",
+    "opcoes": [
+      "Retirou-o gradualmente.",
+      "Lançou-o novamente.",
+      "Baixou o preço para sempre.",
+      "Ignorou os reguladores."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 466,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The agreement is non-binding, so neither party is legally compelled.” Qual é a implicação?",
+    "opcoes": [
+      "As partes são obrigadas.",
+      "Nenhuma parte é legalmente obrigada a implementá-lo.",
+      "É uma lei nacional.",
+      "Só uma parte pode alterá-lo."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 467,
+    "nivel": "dificil",
+    "pergunta": "Texto: “A shortage of skilled technicians constrained expansion.” O que limitou?",
+    "opcoes": [
+      "Excesso de técnicos.",
+      "Aumento da procura apenas.",
+      "A falta de técnicos qualificados.",
+      "Novas salas de aula."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 468,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The forecast remains uncertain owing to volatile prices.” Por que é incerta?",
+    "opcoes": [
+      "Os preços estão fixos.",
+      "Não há previsão.",
+      "A procura desapareceu.",
+      "Os preços são voláteis."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 469,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The author distinguishes between access and effective use.” Que distinção faz?",
+    "opcoes": [
+      "Entre acesso e uso efectivo.",
+      "Entre preço e qualidade.",
+      "Entre oferta e procura apenas.",
+      "Entre passado e futuro."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 470,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The project was completed on schedule, albeit at higher cost.” O que ocorreu?",
+    "opcoes": [
+      "Terminou atrasado e barato.",
+      "Terminou no prazo, mas custou mais do que previsto.",
+      "Foi abandonado.",
+      "Custou menos e terminou cedo."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 471,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The regulation seeks to deter dumping without restricting legitimate trade.” O que procura?",
+    "opcoes": [
+      "Impedir todo o comércio.",
+      "Promover dumping.",
+      "Desencorajar dumping sem limitar comércio legítimo.",
+      "Proibir exportações legais."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 472,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Data were anonymised before analysis to protect participants.” Por que?",
+    "opcoes": [
+      "Para aumentar a amostra.",
+      "Para identificar participantes.",
+      "Para acelerar transporte.",
+      "Para proteger os participantes."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 473,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Success depended less on technology than on staff training.” O que foi mais decisivo?",
+    "opcoes": [
+      "A formação do pessoal.",
+      "A tecnologia apenas.",
+      "A falta de financiamento.",
+      "O tamanho do edifício."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 474,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The effect was statistically significant but practically small.” Como se descreve?",
+    "opcoes": [
+      "Sem significado estatístico e grande.",
+      "Estatisticamente significativo, mas pequeno na prática.",
+      "Grande em ambos os sentidos.",
+      "Inexistente."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 475,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The policy inadvertently shifted costs from employers to households.” O que aconteceu?",
+    "opcoes": [
+      "Os custos desapareceram.",
+      "Os agregados passaram custos aos empregadores.",
+      "Os custos passaram de empregadores para agregados familiares.",
+      "Os salários duplicaram."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 476,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The evidence is suggestive rather than conclusive.” Quão definitiva é?",
+    "opcoes": [
+      "É conclusiva.",
+      "É totalmente irrelevante.",
+      "Prova o contrário.",
+      "Sugere uma possibilidade, mas não é conclusiva."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 477,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The team reconciled conflicting figures by checking original records.” Como resolveu?",
+    "opcoes": [
+      "Verificou os registos originais.",
+      "Ignorou os números.",
+      "Apagou os dados.",
+      "Publicou apenas a média."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 478,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The measure would be feasible if procurement were transparent.” Qual é a condição?",
+    "opcoes": [
+      "Menos auditorias.",
+      "Compras públicas transparentes.",
+      "Mais segredo.",
+      "Eliminação do orçamento."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 479,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The court dismissed the appeal because it was filed out of time.” Por que?",
+    "opcoes": [
+      "Não tinha tradução.",
+      "Foi apresentado cedo.",
+      "Foi apresentado fora do prazo.",
+      "O tribunal estava fechado."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 480,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The programme targets households most vulnerable to food insecurity.” Quem é o alvo?",
+    "opcoes": [
+      "Apenas comerciantes.",
+      "Turistas estrangeiros.",
+      "Pessoas já seguras.",
+      "Agregados vulneráveis à insegurança alimentar."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 481,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The apparent decline may reflect improved reporting.” O que pode explicar a queda?",
+    "opcoes": [
+      "Relatórios melhorados.",
+      "Menos fiscalização.",
+      "Aumento confirmado do problema.",
+      "Ausência de dados."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 482,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Disputes must first be settled through mediation.” O que exige?",
+    "opcoes": [
+      "Processos imediatos em tribunal.",
+      "Mediação inicial para resolver disputas.",
+      "Arbitragem sempre posterior.",
+      "Nenhuma tentativa."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 483,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The intervention was scaled up after a promising pilot.” O que aconteceu?",
+    "opcoes": [
+      "Foi cancelada.",
+      "Os resultados foram ocultados.",
+      "A intervenção foi ampliada.",
+      "O piloto foi repetido sem mudança."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 484,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Replication in a second location strengthened confidence.” Qual foi o efeito?",
+    "opcoes": [
+      "Eliminou os dados.",
+      "Enfraqueceu a evidência.",
+      "Mudou o local original.",
+      "Aumentou a confiança no padrão."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 485,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The assessment separates short-term outputs from long-term outcomes.” O que separa?",
+    "opcoes": [
+      "Resultados imediatos de efeitos a longo prazo.",
+      "Custos de preços.",
+      "Pessoas de instituições.",
+      "Dados de opiniões."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 486,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The recommendation is contingent upon parliamentary approval.” De que depende?",
+    "opcoes": [
+      "Da aprovação de um turista.",
+      "Da aprovação parlamentar.",
+      "Da redução da chuva.",
+      "Da compra de equipamento."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 487,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Profits rose notwithstanding a decline in sales volume.” O que ocorreu?",
+    "opcoes": [
+      "Os lucros caíram com as vendas.",
+      "As vendas e lucros subiram.",
+      "Os lucros subiram apesar da queda nas vendas.",
+      "Não houve alteração."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 488,
+    "nivel": "dificil",
+    "pergunta": "Texto: “A low response rate raised concerns about non-response bias.” Qual é a preocupação?",
+    "opcoes": [
+      "Excesso de respostas.",
+      "Erro no título.",
+      "Ausência de perguntas abertas.",
+      "Possível viés por não resposta."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 489,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The plan prioritises maintenance over new construction.” O que recebe prioridade?",
+    "opcoes": [
+      "Manutenção.",
+      "Nova construção.",
+      "Privatização.",
+      "Demolição."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 490,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The findings undermine the assumption that distance alone explains low attendance.” O que fazem?",
+    "opcoes": [
+      "Fortalecem-na.",
+      "Enfraquecem essa suposição.",
+      "Provam que a distância é a única causa.",
+      "Não abordam a frequência."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 491,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The budget was revised to account for inflation.” Por que?",
+    "opcoes": [
+      "Para ignorar os preços.",
+      "Para eliminar salários.",
+      "Para ter em conta a inflação.",
+      "Para reduzir transparência."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 492,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Evidence points to several interacting causes rather than a single factor.” O que sugere?",
+    "opcoes": [
+      "Uma causa única.",
+      "Nenhuma causa.",
+      "Apenas erro de cálculo.",
+      "Várias causas que interagem."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 493,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The manual is intended for trained users and may be unsuitable for beginners.” Para quem?",
+    "opcoes": [
+      "Utilizadores treinados.",
+      "Apenas principiantes.",
+      "Crianças pequenas.",
+      "Pessoas sem formação."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 494,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The measure was criticised as symbolic rather than substantive.” Como foi criticada?",
+    "opcoes": [
+      "Por ter efeitos profundos.",
+      "Por ser simbólica em vez de substancial.",
+      "Por ser demasiado prática.",
+      "Por aumentar a substância."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 495,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The agency will review the threshold annually in light of new evidence.” Quando?",
+    "opcoes": [
+      "Todos os dias.",
+      "Apenas uma vez.",
+      "Anualmente, considerando novas evidências.",
+      "Nunca."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 496,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The report is cautiously optimistic: risks remain, but indicators improved.” Qual é a atitude?",
+    "opcoes": [
+      "Pessimismo absoluto.",
+      "Certeza de fracasso.",
+      "Indiferença.",
+      "Optimismo cauteloso."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 497,
+    "nivel": "dificil",
+    "pergunta": "Texto: “Findings are consistent with, but do not prove, the mechanism.” O que fazem?",
+    "opcoes": [
+      "São compatíveis com ele, mas não o provam.",
+      "Provam totalmente.",
+      "Contradizem-no sempre.",
+      "Não têm relação."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 498,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The service expanded geographically while retaining the same criteria.” O que mudou?",
+    "opcoes": [
+      "Os critérios foram abolidos.",
+      "A área aumentou, mas os critérios mantiveram-se.",
+      "A área diminuiu.",
+      "Apenas os preços mudaram."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 499,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The authors call for further research before nationwide adoption.” O que recomendam?",
+    "opcoes": [
+      "Adopção imediata.",
+      "Fim do estudo.",
+      "Mais investigação.",
+      "Redução da amostra."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 500,
+    "nivel": "dificil",
+    "pergunta": "Texto: “The measure was implemented provisionally pending a full evaluation.” Como foi implementada?",
+    "opcoes": [
+      "De forma permanente sem avaliação.",
+      "Depois de uma avaliação final.",
+      "Sem qualquer decisão.",
+      "Provisoriamente, enquanto se aguardava uma avaliação completa."
+    ],
+    "resposta_correta": 3
+  }
+]

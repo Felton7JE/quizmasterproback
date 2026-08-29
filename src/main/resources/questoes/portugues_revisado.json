@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___.",
+    "opcoes": [
+      "excessão",
+      "exceção",
+      "exceçam",
+      "escessão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___.",
+    "opcoes": [
+      "exceçam",
+      "escessão",
+      "excessão",
+      "exceção"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'?",
+    "opcoes": [
+      "exceção",
+      "escessão",
+      "exceçam",
+      "excessão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada?",
+    "opcoes": [
+      "excessão",
+      "escessão",
+      "exceção",
+      "exceçam"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ .",
+    "opcoes": [
+      "exceçam",
+      "escessão",
+      "exceção",
+      "excessão"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "privilegio",
+      "privilégio",
+      "privilêgio",
+      "previlégio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "privilegio",
+      "privilégio",
+      "privilêgio",
+      "previlégio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "previlégio",
+      "privilégio",
+      "privilêgio",
+      "privilegio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "privilêgio",
+      "previlégio",
+      "privilégio",
+      "privilegio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "privilegio",
+      "previlégio",
+      "privilégio",
+      "privilêgio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "benificente",
+      "beneficente",
+      "beneficiente",
+      "benefissente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "benefissente",
+      "beneficente",
+      "beneficiente",
+      "benificente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "beneficiente",
+      "benefissente",
+      "beneficente",
+      "benificente"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "benificente",
+      "beneficiente",
+      "beneficente",
+      "benefissente"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "beneficente",
+      "beneficiente",
+      "benificente",
+      "benefissente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "empessilho",
+      "empecílio",
+      "empecilho",
+      "impecilho"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "impecilho",
+      "empecílio",
+      "empessilho",
+      "empecilho"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "impecilho",
+      "empecílio",
+      "empessilho",
+      "empecilho"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "empessilho",
+      "empecilho",
+      "impecilho",
+      "empecílio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "empessilho",
+      "empecílio",
+      "impecilho",
+      "empecilho"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "reinvindicar",
+      "reividicar",
+      "reinvindiquar",
+      "reivindicar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "reinvindiquar",
+      "reivindicar",
+      "reividicar",
+      "reinvindicar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "reividicar",
+      "reivindicar",
+      "reinvindiquar",
+      "reinvindicar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "reivindicar",
+      "reividicar",
+      "reinvindicar",
+      "reinvindiquar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "reinvindiquar",
+      "reividicar",
+      "reivindicar",
+      "reinvindicar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "ansiozo",
+      "anciozo",
+      "ancioso",
+      "ansioso"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "anciozo",
+      "ansioso",
+      "ansiozo",
+      "ancioso"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "anciozo",
+      "ansiozo",
+      "ancioso",
+      "ansioso"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "ansioso",
+      "ansiozo",
+      "ancioso",
+      "anciozo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "ansioso",
+      "ancioso",
+      "anciozo",
+      "ansiozo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "asceção",
+      "assensão",
+      "acensão",
+      "ascensão"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "asceção",
+      "acensão",
+      "assensão",
+      "ascensão"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "acensão",
+      "ascensão",
+      "assensão",
+      "asceção"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "ascensão",
+      "assensão",
+      "asceção",
+      "acensão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "assensão",
+      "ascensão",
+      "asceção",
+      "acensão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "discursão",
+      "discução",
+      "disscussão",
+      "discussão"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "discursão",
+      "disscussão",
+      "discussão",
+      "discução"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "disscussão",
+      "discução",
+      "discussão",
+      "discursão"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "discução",
+      "discussão",
+      "disscussão",
+      "discursão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "discursão",
+      "disscussão",
+      "discussão",
+      "discução"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "conciente",
+      "consciente",
+      "consiente",
+      "conscente"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "consciente",
+      "conciente",
+      "consiente",
+      "conscente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "consciente",
+      "conscente",
+      "conciente",
+      "consiente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "consciente",
+      "conciente",
+      "conscente",
+      "consiente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "consciente",
+      "conciente",
+      "conscente",
+      "consiente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "necesssário",
+      "nescessário",
+      "necesário",
+      "necessário"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "necesário",
+      "necesssário",
+      "necessário",
+      "nescessário"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "necesssário",
+      "necesário",
+      "necessário",
+      "nescessário"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "necesário",
+      "necessário",
+      "nescessário",
+      "necesssário"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "nescessário",
+      "necessário",
+      "necesssário",
+      "necesário"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "higiene",
+      "higiêne",
+      "igiene",
+      "higene"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "higiene",
+      "higene",
+      "higiêne",
+      "igiene"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "higene",
+      "higiêne",
+      "higiene",
+      "igiene"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "higiene",
+      "higiêne",
+      "igiene",
+      "higene"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "igiene",
+      "higiêne",
+      "higiene",
+      "higene"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 56,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "adivinhar-se",
+      "advinhar",
+      "adivinhar",
+      "adivinhá"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 57,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "adivinhar-se",
+      "adivinhar",
+      "adivinhá",
+      "advinhar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 58,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "adivinhá",
+      "advinhar",
+      "adivinhar",
+      "adivinhar-se"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 59,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "adivinhá",
+      "adivinhar-se",
+      "adivinhar",
+      "advinhar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 60,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "adivinhar",
+      "adivinhar-se",
+      "adivinhá",
+      "advinhar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 61,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "espontanio",
+      "expontâneo",
+      "espontâneo",
+      "espontanêo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 62,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "espontanêo",
+      "expontâneo",
+      "espontâneo",
+      "espontanio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 63,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "espontâneo",
+      "espontanio",
+      "expontâneo",
+      "espontanêo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 64,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "espontanio",
+      "espontâneo",
+      "espontanêo",
+      "expontâneo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 65,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "espontanêo",
+      "espontâneo",
+      "espontanio",
+      "expontâneo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 66,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "suscetível",
+      "susceptível",
+      "sucetível",
+      "suscetivel"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 67,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "susceptível",
+      "suscetível",
+      "suscetivel",
+      "sucetível"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 68,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "susceptível",
+      "suscetível",
+      "suscetivel",
+      "sucetível"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 69,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "sucetível",
+      "suscetivel",
+      "susceptível",
+      "suscetível"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 70,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "susceptível",
+      "sucetível",
+      "suscetivel",
+      "suscetível"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 71,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "enteretenimento",
+      "entretimento",
+      "entretenimento",
+      "entretenimeto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 72,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "enteretenimento",
+      "entretenimeto",
+      "entretenimento",
+      "entretimento"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 73,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "enteretenimento",
+      "entretenimento",
+      "entretenimeto",
+      "entretimento"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 74,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "entretimento",
+      "enteretenimento",
+      "entretenimento",
+      "entretenimeto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 75,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "enteretenimento",
+      "entretenimento",
+      "entretenimeto",
+      "entretimento"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 76,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "metereologia",
+      "meteorolojia",
+      "meteoreologia",
+      "meteorologia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 77,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "meteoreologia",
+      "meteorologia",
+      "meteorolojia",
+      "metereologia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 78,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "meteorologia",
+      "meteoreologia",
+      "metereologia",
+      "meteorolojia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 79,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "meteoreologia",
+      "meteorologia",
+      "meteorolojia",
+      "metereologia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 80,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "meteoreologia",
+      "metereologia",
+      "meteorolojia",
+      "meteorologia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 81,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "paralizassão",
+      "paralização",
+      "paralisação",
+      "paralissação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 82,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "paralização",
+      "paralizassão",
+      "paralisação",
+      "paralissação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 83,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "paralisação",
+      "paralizassão",
+      "paralissação",
+      "paralização"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 84,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "paralização",
+      "paralissação",
+      "paralizassão",
+      "paralisação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 85,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "paralizassão",
+      "paralização",
+      "paralissação",
+      "paralisação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 86,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "misciguenização",
+      "misciginação",
+      "miscigenação",
+      "miscegenação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 87,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "misciginação",
+      "miscigenação",
+      "miscegenação",
+      "misciguenização"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 88,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "misciginação",
+      "misciguenização",
+      "miscegenação",
+      "miscigenação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 89,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "misciginação",
+      "misciguenização",
+      "miscigenação",
+      "miscegenação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 90,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "misciginação",
+      "miscegenação",
+      "misciguenização",
+      "miscigenação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 91,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "precindir",
+      "prescindir",
+      "prescindír",
+      "prescendir"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 92,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "prescindír",
+      "precindir",
+      "prescendir",
+      "prescindir"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 93,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "prescindír",
+      "prescendir",
+      "precindir",
+      "prescindir"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 94,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "prescendir",
+      "prescindir",
+      "prescindír",
+      "precindir"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 95,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "precindir",
+      "prescindír",
+      "prescindir",
+      "prescendir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 96,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Complete a frase: A decisão foi uma ___. O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "ressarsir",
+      "resarçir",
+      "resarcir",
+      "ressarcir"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 97,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Escolha a forma que deve aparecer num texto formal: ___. O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "resarcir",
+      "resarçir",
+      "ressarsir",
+      "ressarcir"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 98,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Qual opção completa corretamente 'A ___ foi anunciada'? O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "resarçir",
+      "ressarcir",
+      "resarcir",
+      "ressarsir"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 99,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Num documento escolar, qual grafia deve ser usada? O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "ressarsir",
+      "resarçir",
+      "ressarcir",
+      "resarcir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 100,
+    "nivel": "facil",
+    "pergunta": "A grafia correta da palavra é: Identifique a única forma ortográfica adequada: ___ . O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "resarçir",
+      "ressarsir",
+      "ressarcir",
+      "resarcir"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 101,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: As crianças ___ cedo.",
+    "opcoes": [
+      "chegaram",
+      "chegastes",
+      "chegou",
+      "chegara"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 102,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: As crianças ___ cedo.",
+    "opcoes": [
+      "chegastes",
+      "chegaram",
+      "chegou",
+      "chegara"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 103,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: As crianças ___ cedo.",
+    "opcoes": [
+      "chegara",
+      "chegastes",
+      "chegaram",
+      "chegou"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 104,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: As crianças ___ cedo.",
+    "opcoes": [
+      "chegou",
+      "chegaram",
+      "chegastes",
+      "chegara"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 105,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: As crianças ___ cedo.",
+    "opcoes": [
+      "chegaram",
+      "chegou",
+      "chegastes",
+      "chegara"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 106,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: O grupo de estudantes ___ satisfeito.",
+    "opcoes": [
+      "ficaram",
+      "ficastes",
+      "ficou",
+      "ficarão"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 107,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: O grupo de estudantes ___ satisfeito.",
+    "opcoes": [
+      "ficaram",
+      "ficarão",
+      "ficou",
+      "ficastes"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 108,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: O grupo de estudantes ___ satisfeito.",
+    "opcoes": [
+      "ficastes",
+      "ficaram",
+      "ficou",
+      "ficarão"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 109,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: O grupo de estudantes ___ satisfeito.",
+    "opcoes": [
+      "ficaram",
+      "ficou",
+      "ficastes",
+      "ficarão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 110,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: O grupo de estudantes ___ satisfeito.",
+    "opcoes": [
+      "ficou",
+      "ficastes",
+      "ficarão",
+      "ficaram"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 111,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: ___ muitas razões para a decisão.",
+    "opcoes": [
+      "Havia",
+      "Haviam",
+      "Houveram",
+      "Haviam de"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 112,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: ___ muitas razões para a decisão.",
+    "opcoes": [
+      "Haviam de",
+      "Haviam",
+      "Havia",
+      "Houveram"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 113,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: ___ muitas razões para a decisão.",
+    "opcoes": [
+      "Haviam",
+      "Houveram",
+      "Haviam de",
+      "Havia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 114,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: ___ muitas razões para a decisão.",
+    "opcoes": [
+      "Houveram",
+      "Haviam",
+      "Havia",
+      "Haviam de"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 115,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: ___ muitas razões para a decisão.",
+    "opcoes": [
+      "Haviam",
+      "Haviam de",
+      "Houveram",
+      "Havia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 116,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: Faz dois anos que eles ___ aqui.",
+    "opcoes": [
+      "vivia",
+      "vivem",
+      "vive",
+      "viverá"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 117,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: Faz dois anos que eles ___ aqui.",
+    "opcoes": [
+      "vive",
+      "viverá",
+      "vivem",
+      "vivia"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 118,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: Faz dois anos que eles ___ aqui.",
+    "opcoes": [
+      "viverá",
+      "vivem",
+      "vivia",
+      "vive"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 119,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: Faz dois anos que eles ___ aqui.",
+    "opcoes": [
+      "viverá",
+      "vive",
+      "vivia",
+      "vivem"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 120,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: Faz dois anos que eles ___ aqui.",
+    "opcoes": [
+      "vive",
+      "viverá",
+      "vivia",
+      "vivem"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 121,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: Ela ___ o relatório ontem.",
+    "opcoes": [
+      "entregou",
+      "entregastes",
+      "entregaram",
+      "entregarão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 122,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: Ela ___ o relatório ontem.",
+    "opcoes": [
+      "entregastes",
+      "entregaram",
+      "entregarão",
+      "entregou"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 123,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: Ela ___ o relatório ontem.",
+    "opcoes": [
+      "entregarão",
+      "entregastes",
+      "entregaram",
+      "entregou"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 124,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: Ela ___ o relatório ontem.",
+    "opcoes": [
+      "entregaram",
+      "entregarão",
+      "entregastes",
+      "entregou"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 125,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: Ela ___ o relatório ontem.",
+    "opcoes": [
+      "entregaram",
+      "entregarão",
+      "entregastes",
+      "entregou"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 126,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: Nós ___ a proposta amanhã.",
+    "opcoes": [
+      "analisastes",
+      "analisará",
+      "analisaram",
+      "analisaremos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 127,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: Nós ___ a proposta amanhã.",
+    "opcoes": [
+      "analisaram",
+      "analisará",
+      "analisastes",
+      "analisaremos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 128,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: Nós ___ a proposta amanhã.",
+    "opcoes": [
+      "analisará",
+      "analisaram",
+      "analisaremos",
+      "analisastes"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 129,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: Nós ___ a proposta amanhã.",
+    "opcoes": [
+      "analisará",
+      "analisaremos",
+      "analisastes",
+      "analisaram"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 130,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: Nós ___ a proposta amanhã.",
+    "opcoes": [
+      "analisará",
+      "analisastes",
+      "analisaremos",
+      "analisaram"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 131,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: Se eu ___ tempo, estudaria mais.",
+    "opcoes": [
+      "tivesse",
+      "teria",
+      "tenho",
+      "tivera"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 132,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: Se eu ___ tempo, estudaria mais.",
+    "opcoes": [
+      "tenho",
+      "tivera",
+      "tivesse",
+      "teria"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 133,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: Se eu ___ tempo, estudaria mais.",
+    "opcoes": [
+      "tivera",
+      "tenho",
+      "tivesse",
+      "teria"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 134,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: Se eu ___ tempo, estudaria mais.",
+    "opcoes": [
+      "tenho",
+      "tivera",
+      "teria",
+      "tivesse"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 135,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: Se eu ___ tempo, estudaria mais.",
+    "opcoes": [
+      "tenho",
+      "tivesse",
+      "teria",
+      "tivera"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 136,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: Quando ele ___, começaremos.",
+    "opcoes": [
+      "chegasse",
+      "chegaria",
+      "chegar",
+      "chegou"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 137,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: Quando ele ___, começaremos.",
+    "opcoes": [
+      "chegou",
+      "chegar",
+      "chegaria",
+      "chegasse"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 138,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: Quando ele ___, começaremos.",
+    "opcoes": [
+      "chegar",
+      "chegou",
+      "chegasse",
+      "chegaria"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 139,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: Quando ele ___, começaremos.",
+    "opcoes": [
+      "chegasse",
+      "chegou",
+      "chegaria",
+      "chegar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 140,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: Quando ele ___, começaremos.",
+    "opcoes": [
+      "chegou",
+      "chegasse",
+      "chegaria",
+      "chegar"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 141,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: Espero que vocês ___ o aviso.",
+    "opcoes": [
+      "compreendem",
+      "compreendiam",
+      "compreenderam",
+      "compreendam"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 142,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: Espero que vocês ___ o aviso.",
+    "opcoes": [
+      "compreendem",
+      "compreendiam",
+      "compreendam",
+      "compreenderam"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 143,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: Espero que vocês ___ o aviso.",
+    "opcoes": [
+      "compreendiam",
+      "compreendam",
+      "compreendem",
+      "compreenderam"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 144,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: Espero que vocês ___ o aviso.",
+    "opcoes": [
+      "compreendiam",
+      "compreendam",
+      "compreenderam",
+      "compreendem"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 145,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: Espero que vocês ___ o aviso.",
+    "opcoes": [
+      "compreendem",
+      "compreendam",
+      "compreenderam",
+      "compreendiam"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 146,
+    "nivel": "facil",
+    "pergunta": "Complete corretamente: É importante que ela ___ a verdade.",
+    "opcoes": [
+      "diz",
+      "diga",
+      "disse",
+      "dirá"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 147,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, complete corretamente: É importante que ela ___ a verdade.",
+    "opcoes": [
+      "diga",
+      "dirá",
+      "diz",
+      "disse"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 148,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. Complete corretamente: É importante que ela ___ a verdade.",
+    "opcoes": [
+      "disse",
+      "diz",
+      "dirá",
+      "diga"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 149,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Complete corretamente: É importante que ela ___ a verdade.",
+    "opcoes": [
+      "disse",
+      "diz",
+      "dirá",
+      "diga"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 150,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: Complete corretamente: É importante que ela ___ a verdade.",
+    "opcoes": [
+      "dirá",
+      "diz",
+      "disse",
+      "diga"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 151,
+    "nivel": "facil",
+    "pergunta": "A forma feminina correta de herói é:",
+    "opcoes": [
+      "heroína",
+      "heroinha",
+      "heróia",
+      "heroesa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 152,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, a forma feminina correta de herói é:",
+    "opcoes": [
+      "heróia",
+      "heroína",
+      "heroinha",
+      "heroesa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 153,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. A forma feminina correta de herói é:",
+    "opcoes": [
+      "heróia",
+      "heroesa",
+      "heroína",
+      "heroinha"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 154,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: A forma feminina correta de herói é:",
+    "opcoes": [
+      "heróia",
+      "heroesa",
+      "heroína",
+      "heroinha"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 155,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: A forma feminina correta de herói é:",
+    "opcoes": [
+      "heroína",
+      "heroinha",
+      "heróia",
+      "heroesa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 156,
+    "nivel": "facil",
+    "pergunta": "O plural correto de cidadão é:",
+    "opcoes": [
+      "cidadãos",
+      "cidadões",
+      "cidadães",
+      "cidadans"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 157,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, o plural correto de cidadão é:",
+    "opcoes": [
+      "cidadões",
+      "cidadans",
+      "cidadãos",
+      "cidadães"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 158,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. O plural correto de cidadão é:",
+    "opcoes": [
+      "cidadões",
+      "cidadães",
+      "cidadãos",
+      "cidadans"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 159,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: O plural correto de cidadão é:",
+    "opcoes": [
+      "cidadães",
+      "cidadans",
+      "cidadãos",
+      "cidadões"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 160,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: O plural correto de cidadão é:",
+    "opcoes": [
+      "cidadões",
+      "cidadans",
+      "cidadães",
+      "cidadãos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 161,
+    "nivel": "facil",
+    "pergunta": "O plural correto de papel é:",
+    "opcoes": [
+      "papéus",
+      "papeis",
+      "papeles",
+      "papéis"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 162,
+    "nivel": "facil",
+    "pergunta": "Na norma-padrão, o plural correto de papel é:",
+    "opcoes": [
+      "papeles",
+      "papéis",
+      "papeis",
+      "papéus"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 163,
+    "nivel": "facil",
+    "pergunta": "Escolha a forma adequada. O plural correto de papel é:",
+    "opcoes": [
+      "papéus",
+      "papeles",
+      "papeis",
+      "papéis"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 164,
+    "nivel": "facil",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: O plural correto de papel é:",
+    "opcoes": [
+      "papéis",
+      "papeis",
+      "papéus",
+      "papeles"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 165,
+    "nivel": "facil",
+    "pergunta": "Em português claro, a frase fica correta com: O plural correto de papel é:",
+    "opcoes": [
+      "papeles",
+      "papeis",
+      "papéus",
+      "papéis"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 166,
+    "nivel": "medio",
+    "pergunta": "O plural correto de pão é:",
+    "opcoes": [
+      "pãos",
+      "pãis",
+      "pães",
+      "pãeses"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 167,
+    "nivel": "medio",
+    "pergunta": "Na norma-padrão, o plural correto de pão é:",
+    "opcoes": [
+      "pães",
+      "pãis",
+      "pãos",
+      "pãeses"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 168,
+    "nivel": "medio",
+    "pergunta": "Escolha a forma adequada. O plural correto de pão é:",
+    "opcoes": [
+      "pãos",
+      "pãeses",
+      "pães",
+      "pãis"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 169,
+    "nivel": "medio",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: O plural correto de pão é:",
+    "opcoes": [
+      "pãeses",
+      "pãos",
+      "pãis",
+      "pães"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 170,
+    "nivel": "medio",
+    "pergunta": "Em português claro, a frase fica correta com: O plural correto de pão é:",
+    "opcoes": [
+      "pães",
+      "pãeses",
+      "pãis",
+      "pãos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 171,
+    "nivel": "medio",
+    "pergunta": "O plural correto de qualquer é:",
+    "opcoes": [
+      "quaisqueres",
+      "qualquers",
+      "qualqueres",
+      "quaisquer"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 172,
+    "nivel": "medio",
+    "pergunta": "Na norma-padrão, o plural correto de qualquer é:",
+    "opcoes": [
+      "quaisquer",
+      "qualqueres",
+      "qualquers",
+      "quaisqueres"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 173,
+    "nivel": "medio",
+    "pergunta": "Escolha a forma adequada. O plural correto de qualquer é:",
+    "opcoes": [
+      "qualquers",
+      "quaisqueres",
+      "qualqueres",
+      "quaisquer"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 174,
+    "nivel": "medio",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: O plural correto de qualquer é:",
+    "opcoes": [
+      "qualquers",
+      "quaisquer",
+      "quaisqueres",
+      "qualqueres"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 175,
+    "nivel": "medio",
+    "pergunta": "Em português claro, a frase fica correta com: O plural correto de qualquer é:",
+    "opcoes": [
+      "qualqueres",
+      "quaisquer",
+      "qualquers",
+      "quaisqueres"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 176,
+    "nivel": "medio",
+    "pergunta": "Na frase 'A menina estudiosa venceu', estudiosa é:",
+    "opcoes": [
+      "advérbio",
+      "preposição",
+      "adjetivo",
+      "substantivo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 177,
+    "nivel": "medio",
+    "pergunta": "Na norma-padrão, na frase 'A menina estudiosa venceu', estudiosa é:",
+    "opcoes": [
+      "preposição",
+      "adjetivo",
+      "substantivo",
+      "advérbio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 178,
+    "nivel": "medio",
+    "pergunta": "Escolha a forma adequada. Na frase 'A menina estudiosa venceu', estudiosa é:",
+    "opcoes": [
+      "preposição",
+      "advérbio",
+      "substantivo",
+      "adjetivo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 179,
+    "nivel": "medio",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Na frase 'A menina estudiosa venceu', estudiosa é:",
+    "opcoes": [
+      "adjetivo",
+      "advérbio",
+      "substantivo",
+      "preposição"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 180,
+    "nivel": "medio",
+    "pergunta": "Em português claro, a frase fica correta com: Na frase 'A menina estudiosa venceu', estudiosa é:",
+    "opcoes": [
+      "preposição",
+      "substantivo",
+      "advérbio",
+      "adjetivo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 181,
+    "nivel": "medio",
+    "pergunta": "Na frase 'Eles chegaram rapidamente', rapidamente é:",
+    "opcoes": [
+      "pronome",
+      "conjunção",
+      "advérbio",
+      "adjetivo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 182,
+    "nivel": "medio",
+    "pergunta": "Na norma-padrão, na frase 'Eles chegaram rapidamente', rapidamente é:",
+    "opcoes": [
+      "pronome",
+      "conjunção",
+      "advérbio",
+      "adjetivo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 183,
+    "nivel": "medio",
+    "pergunta": "Escolha a forma adequada. Na frase 'Eles chegaram rapidamente', rapidamente é:",
+    "opcoes": [
+      "conjunção",
+      "adjetivo",
+      "pronome",
+      "advérbio"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 184,
+    "nivel": "medio",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Na frase 'Eles chegaram rapidamente', rapidamente é:",
+    "opcoes": [
+      "advérbio",
+      "conjunção",
+      "pronome",
+      "adjetivo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 185,
+    "nivel": "medio",
+    "pergunta": "Em português claro, a frase fica correta com: Na frase 'Eles chegaram rapidamente', rapidamente é:",
+    "opcoes": [
+      "pronome",
+      "advérbio",
+      "adjetivo",
+      "conjunção"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 186,
+    "nivel": "medio",
+    "pergunta": "Na frase 'O livro de Ana sumiu', de é:",
+    "opcoes": [
+      "interjeição",
+      "preposição",
+      "conjunção",
+      "advérbio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 187,
+    "nivel": "medio",
+    "pergunta": "Na norma-padrão, na frase 'O livro de Ana sumiu', de é:",
+    "opcoes": [
+      "interjeição",
+      "conjunção",
+      "advérbio",
+      "preposição"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 188,
+    "nivel": "medio",
+    "pergunta": "Escolha a forma adequada. Na frase 'O livro de Ana sumiu', de é:",
+    "opcoes": [
+      "conjunção",
+      "preposição",
+      "interjeição",
+      "advérbio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 189,
+    "nivel": "medio",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Na frase 'O livro de Ana sumiu', de é:",
+    "opcoes": [
+      "preposição",
+      "conjunção",
+      "advérbio",
+      "interjeição"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 190,
+    "nivel": "medio",
+    "pergunta": "Em português claro, a frase fica correta com: Na frase 'O livro de Ana sumiu', de é:",
+    "opcoes": [
+      "conjunção",
+      "interjeição",
+      "advérbio",
+      "preposição"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 191,
+    "nivel": "medio",
+    "pergunta": "Na frase 'Nós nos cumprimentámos', nos é:",
+    "opcoes": [
+      "adjetivo",
+      "substantivo",
+      "pronome",
+      "artigo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 192,
+    "nivel": "medio",
+    "pergunta": "Na norma-padrão, na frase 'Nós nos cumprimentámos', nos é:",
+    "opcoes": [
+      "artigo",
+      "pronome",
+      "adjetivo",
+      "substantivo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 193,
+    "nivel": "medio",
+    "pergunta": "Escolha a forma adequada. Na frase 'Nós nos cumprimentámos', nos é:",
+    "opcoes": [
+      "pronome",
+      "artigo",
+      "adjetivo",
+      "substantivo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 194,
+    "nivel": "medio",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: Na frase 'Nós nos cumprimentámos', nos é:",
+    "opcoes": [
+      "substantivo",
+      "adjetivo",
+      "pronome",
+      "artigo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 195,
+    "nivel": "medio",
+    "pergunta": "Em português claro, a frase fica correta com: Na frase 'Nós nos cumprimentámos', nos é:",
+    "opcoes": [
+      "substantivo",
+      "adjetivo",
+      "artigo",
+      "pronome"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 196,
+    "nivel": "medio",
+    "pergunta": "A palavra 'infelizmente' é formada por:",
+    "opcoes": [
+      "derivação apenas prefixal",
+      "abreviação",
+      "derivação prefixal e sufixal",
+      "composição por justaposição"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 197,
+    "nivel": "medio",
+    "pergunta": "Na norma-padrão, a palavra 'infelizmente' é formada por:",
+    "opcoes": [
+      "abreviação",
+      "derivação prefixal e sufixal",
+      "derivação apenas prefixal",
+      "composição por justaposição"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 198,
+    "nivel": "medio",
+    "pergunta": "Escolha a forma adequada. A palavra 'infelizmente' é formada por:",
+    "opcoes": [
+      "composição por justaposição",
+      "abreviação",
+      "derivação prefixal e sufixal",
+      "derivação apenas prefixal"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 199,
+    "nivel": "medio",
+    "pergunta": "Para completar corretamente a frase, escolha uma opção: A palavra 'infelizmente' é formada por:",
+    "opcoes": [
+      "abreviação",
+      "derivação apenas prefixal",
+      "composição por justaposição",
+      "derivação prefixal e sufixal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 200,
+    "nivel": "medio",
+    "pergunta": "Em português claro, a frase fica correta com: A palavra 'infelizmente' é formada por:",
+    "opcoes": [
+      "abreviação",
+      "derivação apenas prefixal",
+      "composição por justaposição",
+      "derivação prefixal e sufixal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 201,
+    "nivel": "medio",
+    "pergunta": "Complete segundo a norma-padrão: Assisti ___ filme moçambicano.",
+    "opcoes": [
+      "no",
+      "pelo",
+      "o",
+      "ao"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 202,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete segundo a norma-padrão: Assisti ___ filme moçambicano.",
+    "opcoes": [
+      "o",
+      "ao",
+      "no",
+      "pelo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 203,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete segundo a norma-padrão: Assisti ___ filme moçambicano.",
+    "opcoes": [
+      "o",
+      "pelo",
+      "ao",
+      "no"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 204,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete segundo a norma-padrão: Assisti ___ filme moçambicano.",
+    "opcoes": [
+      "no",
+      "o",
+      "pelo",
+      "ao"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 205,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete segundo a norma-padrão: Assisti ___ filme moçambicano.",
+    "opcoes": [
+      "no",
+      "pelo",
+      "ao",
+      "o"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 206,
+    "nivel": "medio",
+    "pergunta": "Complete segundo a regência: Prefiro chá ___ café.",
+    "opcoes": [
+      "do que",
+      "com",
+      "a",
+      "que"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 207,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete segundo a regência: Prefiro chá ___ café.",
+    "opcoes": [
+      "que",
+      "a",
+      "do que",
+      "com"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 208,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete segundo a regência: Prefiro chá ___ café.",
+    "opcoes": [
+      "a",
+      "com",
+      "que",
+      "do que"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 209,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete segundo a regência: Prefiro chá ___ café.",
+    "opcoes": [
+      "do que",
+      "a",
+      "com",
+      "que"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 210,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete segundo a regência: Prefiro chá ___ café.",
+    "opcoes": [
+      "que",
+      "do que",
+      "com",
+      "a"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 211,
+    "nivel": "medio",
+    "pergunta": "Complete: O professor informou os alunos ___ mudança.",
+    "opcoes": [
+      "da sobre",
+      "na sobre",
+      "à sobre",
+      "sobre a"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 212,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: O professor informou os alunos ___ mudança.",
+    "opcoes": [
+      "à sobre",
+      "da sobre",
+      "sobre a",
+      "na sobre"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 213,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: O professor informou os alunos ___ mudança.",
+    "opcoes": [
+      "da sobre",
+      "sobre a",
+      "à sobre",
+      "na sobre"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 214,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: O professor informou os alunos ___ mudança.",
+    "opcoes": [
+      "sobre a",
+      "na sobre",
+      "da sobre",
+      "à sobre"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 215,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: O professor informou os alunos ___ mudança.",
+    "opcoes": [
+      "na sobre",
+      "sobre a",
+      "da sobre",
+      "à sobre"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 216,
+    "nivel": "medio",
+    "pergunta": "Complete: Ele obedeceu ___ regras.",
+    "opcoes": [
+      "pelas",
+      "as",
+      "nas",
+      "às"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 217,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: Ele obedeceu ___ regras.",
+    "opcoes": [
+      "nas",
+      "às",
+      "pelas",
+      "as"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 218,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: Ele obedeceu ___ regras.",
+    "opcoes": [
+      "as",
+      "pelas",
+      "nas",
+      "às"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 219,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: Ele obedeceu ___ regras.",
+    "opcoes": [
+      "às",
+      "as",
+      "nas",
+      "pelas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 220,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: Ele obedeceu ___ regras.",
+    "opcoes": [
+      "às",
+      "as",
+      "pelas",
+      "nas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 221,
+    "nivel": "medio",
+    "pergunta": "Complete: A decisão implica ___ custos.",
+    "opcoes": [
+      "nos novos",
+      "em novos",
+      "a novos",
+      "novos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 222,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: A decisão implica ___ custos.",
+    "opcoes": [
+      "a novos",
+      "novos",
+      "nos novos",
+      "em novos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 223,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: A decisão implica ___ custos.",
+    "opcoes": [
+      "a novos",
+      "em novos",
+      "nos novos",
+      "novos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 224,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: A decisão implica ___ custos.",
+    "opcoes": [
+      "nos novos",
+      "a novos",
+      "em novos",
+      "novos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 225,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: A decisão implica ___ custos.",
+    "opcoes": [
+      "nos novos",
+      "em novos",
+      "novos",
+      "a novos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 226,
+    "nivel": "medio",
+    "pergunta": "Complete: Cheguei ___ escola antes das sete.",
+    "opcoes": [
+      "na",
+      "à",
+      "a",
+      "para a"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 227,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: Cheguei ___ escola antes das sete.",
+    "opcoes": [
+      "a",
+      "à",
+      "na",
+      "para a"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 228,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: Cheguei ___ escola antes das sete.",
+    "opcoes": [
+      "na",
+      "para a",
+      "a",
+      "à"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 229,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: Cheguei ___ escola antes das sete.",
+    "opcoes": [
+      "para a",
+      "na",
+      "a",
+      "à"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 230,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: Cheguei ___ escola antes das sete.",
+    "opcoes": [
+      "à",
+      "para a",
+      "a",
+      "na"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 231,
+    "nivel": "medio",
+    "pergunta": "Complete: O relatório foi escrito ___ investigadora.",
+    "opcoes": [
+      "na",
+      "pela",
+      "à",
+      "com a"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 232,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: O relatório foi escrito ___ investigadora.",
+    "opcoes": [
+      "com a",
+      "à",
+      "na",
+      "pela"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 233,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: O relatório foi escrito ___ investigadora.",
+    "opcoes": [
+      "com a",
+      "na",
+      "pela",
+      "à"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 234,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: O relatório foi escrito ___ investigadora.",
+    "opcoes": [
+      "à",
+      "com a",
+      "pela",
+      "na"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 235,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: O relatório foi escrito ___ investigadora.",
+    "opcoes": [
+      "à",
+      "pela",
+      "com a",
+      "na"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 236,
+    "nivel": "medio",
+    "pergunta": "Complete: Entreguei o documento ___ diretora.",
+    "opcoes": [
+      "à",
+      "a",
+      "pela",
+      "na"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 237,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: Entreguei o documento ___ diretora.",
+    "opcoes": [
+      "a",
+      "à",
+      "pela",
+      "na"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 238,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: Entreguei o documento ___ diretora.",
+    "opcoes": [
+      "à",
+      "na",
+      "pela",
+      "a"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 239,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: Entreguei o documento ___ diretora.",
+    "opcoes": [
+      "pela",
+      "na",
+      "a",
+      "à"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 240,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: Entreguei o documento ___ diretora.",
+    "opcoes": [
+      "a",
+      "à",
+      "pela",
+      "na"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 241,
+    "nivel": "medio",
+    "pergunta": "Complete: Lembrei-me ___ compromisso.",
+    "opcoes": [
+      "ao",
+      "no",
+      "o",
+      "do"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 242,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: Lembrei-me ___ compromisso.",
+    "opcoes": [
+      "do",
+      "o",
+      "no",
+      "ao"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 243,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: Lembrei-me ___ compromisso.",
+    "opcoes": [
+      "no",
+      "ao",
+      "o",
+      "do"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 244,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: Lembrei-me ___ compromisso.",
+    "opcoes": [
+      "do",
+      "o",
+      "no",
+      "ao"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 245,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: Lembrei-me ___ compromisso.",
+    "opcoes": [
+      "o",
+      "ao",
+      "do",
+      "no"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 246,
+    "nivel": "medio",
+    "pergunta": "Complete: Esqueci-me ___ chave em casa.",
+    "opcoes": [
+      "à",
+      "na",
+      "a",
+      "da"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 247,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, complete: Esqueci-me ___ chave em casa.",
+    "opcoes": [
+      "a",
+      "da",
+      "à",
+      "na"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 248,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Complete: Esqueci-me ___ chave em casa.",
+    "opcoes": [
+      "na",
+      "à",
+      "a",
+      "da"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 249,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Complete: Esqueci-me ___ chave em casa.",
+    "opcoes": [
+      "à",
+      "na",
+      "da",
+      "a"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 250,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Complete: Esqueci-me ___ chave em casa.",
+    "opcoes": [
+      "da",
+      "à",
+      "a",
+      "na"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 251,
+    "nivel": "medio",
+    "pergunta": "Identifique a voz verbal: 'A ponte foi construída pelos trabalhadores.'",
+    "opcoes": [
+      "ativa",
+      "passiva sintética",
+      "reflexiva",
+      "passiva analítica"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 252,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, identifique a voz verbal: 'A ponte foi construída pelos trabalhadores.'",
+    "opcoes": [
+      "ativa",
+      "reflexiva",
+      "passiva analítica",
+      "passiva sintética"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 253,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Identifique a voz verbal: 'A ponte foi construída pelos trabalhadores.'",
+    "opcoes": [
+      "passiva analítica",
+      "ativa",
+      "reflexiva",
+      "passiva sintética"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 254,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Identifique a voz verbal: 'A ponte foi construída pelos trabalhadores.'",
+    "opcoes": [
+      "reflexiva",
+      "passiva sintética",
+      "ativa",
+      "passiva analítica"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 255,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Identifique a voz verbal: 'A ponte foi construída pelos trabalhadores.'",
+    "opcoes": [
+      "passiva analítica",
+      "reflexiva",
+      "passiva sintética",
+      "ativa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 256,
+    "nivel": "medio",
+    "pergunta": "Identifique a oração destacada: 'Embora chovesse, saímos.'",
+    "opcoes": [
+      "oração subordinada temporal",
+      "oração subordinada adverbial concessiva",
+      "oração subordinada causal",
+      "oração coordenada explicativa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 257,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, identifique a oração destacada: 'Embora chovesse, saímos.'",
+    "opcoes": [
+      "oração subordinada adverbial concessiva",
+      "oração coordenada explicativa",
+      "oração subordinada temporal",
+      "oração subordinada causal"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 258,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Identifique a oração destacada: 'Embora chovesse, saímos.'",
+    "opcoes": [
+      "oração subordinada adverbial concessiva",
+      "oração coordenada explicativa",
+      "oração subordinada causal",
+      "oração subordinada temporal"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 259,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Identifique a oração destacada: 'Embora chovesse, saímos.'",
+    "opcoes": [
+      "oração coordenada explicativa",
+      "oração subordinada temporal",
+      "oração subordinada causal",
+      "oração subordinada adverbial concessiva"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 260,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Identifique a oração destacada: 'Embora chovesse, saímos.'",
+    "opcoes": [
+      "oração subordinada temporal",
+      "oração subordinada causal",
+      "oração subordinada adverbial concessiva",
+      "oração coordenada explicativa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 261,
+    "nivel": "medio",
+    "pergunta": "Identifique a oração destacada: 'Estudou porque queria melhorar.'",
+    "opcoes": [
+      "oração subordinada adverbial causal",
+      "oração final",
+      "oração consecutiva",
+      "oração concessiva"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 262,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, identifique a oração destacada: 'Estudou porque queria melhorar.'",
+    "opcoes": [
+      "oração concessiva",
+      "oração subordinada adverbial causal",
+      "oração consecutiva",
+      "oração final"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 263,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Identifique a oração destacada: 'Estudou porque queria melhorar.'",
+    "opcoes": [
+      "oração consecutiva",
+      "oração subordinada adverbial causal",
+      "oração final",
+      "oração concessiva"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 264,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Identifique a oração destacada: 'Estudou porque queria melhorar.'",
+    "opcoes": [
+      "oração concessiva",
+      "oração final",
+      "oração consecutiva",
+      "oração subordinada adverbial causal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 265,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Identifique a oração destacada: 'Estudou porque queria melhorar.'",
+    "opcoes": [
+      "oração final",
+      "oração consecutiva",
+      "oração concessiva",
+      "oração subordinada adverbial causal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 266,
+    "nivel": "medio",
+    "pergunta": "Em 'Os alunos que chegaram cedo entraram primeiro', que introduz uma oração:",
+    "opcoes": [
+      "subordinada substantiva subjetiva",
+      "coordenada sindética",
+      "subordinada adverbial temporal",
+      "subordinada adjetiva restritiva"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 267,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, em 'Os alunos que chegaram cedo entraram primeiro', que introduz uma oração:",
+    "opcoes": [
+      "coordenada sindética",
+      "subordinada substantiva subjetiva",
+      "subordinada adverbial temporal",
+      "subordinada adjetiva restritiva"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 268,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Em 'Os alunos que chegaram cedo entraram primeiro', que introduz uma oração:",
+    "opcoes": [
+      "subordinada adverbial temporal",
+      "subordinada substantiva subjetiva",
+      "subordinada adjetiva restritiva",
+      "coordenada sindética"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 269,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Em 'Os alunos que chegaram cedo entraram primeiro', que introduz uma oração:",
+    "opcoes": [
+      "subordinada substantiva subjetiva",
+      "subordinada adjetiva restritiva",
+      "subordinada adverbial temporal",
+      "coordenada sindética"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 270,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Em 'Os alunos que chegaram cedo entraram primeiro', que introduz uma oração:",
+    "opcoes": [
+      "subordinada adverbial temporal",
+      "subordinada substantiva subjetiva",
+      "coordenada sindética",
+      "subordinada adjetiva restritiva"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 271,
+    "nivel": "medio",
+    "pergunta": "Em 'É necessário que todos participem', a oração iniciada por que é:",
+    "opcoes": [
+      "subordinada adverbial causal",
+      "subordinada adjetiva explicativa",
+      "subordinada substantiva subjetiva",
+      "coordenada conclusiva"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 272,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, em 'É necessário que todos participem', a oração iniciada por que é:",
+    "opcoes": [
+      "subordinada adverbial causal",
+      "coordenada conclusiva",
+      "subordinada substantiva subjetiva",
+      "subordinada adjetiva explicativa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 273,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Em 'É necessário que todos participem', a oração iniciada por que é:",
+    "opcoes": [
+      "subordinada adverbial causal",
+      "subordinada substantiva subjetiva",
+      "coordenada conclusiva",
+      "subordinada adjetiva explicativa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 274,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Em 'É necessário que todos participem', a oração iniciada por que é:",
+    "opcoes": [
+      "subordinada adjetiva explicativa",
+      "subordinada substantiva subjetiva",
+      "coordenada conclusiva",
+      "subordinada adverbial causal"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 275,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Em 'É necessário que todos participem', a oração iniciada por que é:",
+    "opcoes": [
+      "coordenada conclusiva",
+      "subordinada adverbial causal",
+      "subordinada substantiva subjetiva",
+      "subordinada adjetiva explicativa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 276,
+    "nivel": "medio",
+    "pergunta": "Em 'Maria, a enfermeira, chegou', o trecho entre vírgulas é:",
+    "opcoes": [
+      "aposto explicativo",
+      "predicativo do objeto",
+      "objeto direto",
+      "vocativo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 277,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, em 'Maria, a enfermeira, chegou', o trecho entre vírgulas é:",
+    "opcoes": [
+      "vocativo",
+      "objeto direto",
+      "aposto explicativo",
+      "predicativo do objeto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 278,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Em 'Maria, a enfermeira, chegou', o trecho entre vírgulas é:",
+    "opcoes": [
+      "predicativo do objeto",
+      "aposto explicativo",
+      "vocativo",
+      "objeto direto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 279,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Em 'Maria, a enfermeira, chegou', o trecho entre vírgulas é:",
+    "opcoes": [
+      "aposto explicativo",
+      "objeto direto",
+      "vocativo",
+      "predicativo do objeto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 280,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Em 'Maria, a enfermeira, chegou', o trecho entre vírgulas é:",
+    "opcoes": [
+      "objeto direto",
+      "aposto explicativo",
+      "predicativo do objeto",
+      "vocativo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 281,
+    "nivel": "medio",
+    "pergunta": "Em 'Colegas, leiam o aviso', Colegas exerce a função de:",
+    "opcoes": [
+      "objeto indireto",
+      "vocativo",
+      "sujeito",
+      "aposto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 282,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, em 'Colegas, leiam o aviso', Colegas exerce a função de:",
+    "opcoes": [
+      "vocativo",
+      "sujeito",
+      "aposto",
+      "objeto indireto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 283,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Em 'Colegas, leiam o aviso', Colegas exerce a função de:",
+    "opcoes": [
+      "sujeito",
+      "vocativo",
+      "objeto indireto",
+      "aposto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 284,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Em 'Colegas, leiam o aviso', Colegas exerce a função de:",
+    "opcoes": [
+      "objeto indireto",
+      "aposto",
+      "vocativo",
+      "sujeito"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 285,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Em 'Colegas, leiam o aviso', Colegas exerce a função de:",
+    "opcoes": [
+      "vocativo",
+      "sujeito",
+      "aposto",
+      "objeto indireto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 286,
+    "nivel": "medio",
+    "pergunta": "Em 'A decisão deixou todos tranquilos', tranquilos é:",
+    "opcoes": [
+      "objeto indireto",
+      "predicativo do sujeito",
+      "predicativo do objeto",
+      "adjunto adnominal"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 287,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, em 'A decisão deixou todos tranquilos', tranquilos é:",
+    "opcoes": [
+      "objeto indireto",
+      "adjunto adnominal",
+      "predicativo do sujeito",
+      "predicativo do objeto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 288,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Em 'A decisão deixou todos tranquilos', tranquilos é:",
+    "opcoes": [
+      "predicativo do objeto",
+      "predicativo do sujeito",
+      "objeto indireto",
+      "adjunto adnominal"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 289,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Em 'A decisão deixou todos tranquilos', tranquilos é:",
+    "opcoes": [
+      "predicativo do sujeito",
+      "objeto indireto",
+      "adjunto adnominal",
+      "predicativo do objeto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 290,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Em 'A decisão deixou todos tranquilos', tranquilos é:",
+    "opcoes": [
+      "predicativo do sujeito",
+      "predicativo do objeto",
+      "adjunto adnominal",
+      "objeto indireto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 291,
+    "nivel": "medio",
+    "pergunta": "Em 'Os atletas chegaram cansados', cansados é:",
+    "opcoes": [
+      "aposto",
+      "predicativo do sujeito",
+      "complemento nominal",
+      "objeto direto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 292,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, em 'Os atletas chegaram cansados', cansados é:",
+    "opcoes": [
+      "aposto",
+      "objeto direto",
+      "complemento nominal",
+      "predicativo do sujeito"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 293,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Em 'Os atletas chegaram cansados', cansados é:",
+    "opcoes": [
+      "aposto",
+      "complemento nominal",
+      "predicativo do sujeito",
+      "objeto direto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 294,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Em 'Os atletas chegaram cansados', cansados é:",
+    "opcoes": [
+      "objeto direto",
+      "predicativo do sujeito",
+      "aposto",
+      "complemento nominal"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 295,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Em 'Os atletas chegaram cansados', cansados é:",
+    "opcoes": [
+      "aposto",
+      "objeto direto",
+      "predicativo do sujeito",
+      "complemento nominal"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 296,
+    "nivel": "medio",
+    "pergunta": "Em 'A cidade tem ruas largas', largas é:",
+    "opcoes": [
+      "objeto indireto",
+      "predicativo do objeto",
+      "vocativo",
+      "adjunto adnominal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 297,
+    "nivel": "medio",
+    "pergunta": "Na construção formal, em 'A cidade tem ruas largas', largas é:",
+    "opcoes": [
+      "adjunto adnominal",
+      "predicativo do objeto",
+      "objeto indireto",
+      "vocativo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 298,
+    "nivel": "medio",
+    "pergunta": "Escolha a regência ou análise sintática adequada: Em 'A cidade tem ruas largas', largas é:",
+    "opcoes": [
+      "objeto indireto",
+      "adjunto adnominal",
+      "vocativo",
+      "predicativo do objeto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 299,
+    "nivel": "medio",
+    "pergunta": "A alternativa correta para a frase é: Em 'A cidade tem ruas largas', largas é:",
+    "opcoes": [
+      "objeto indireto",
+      "predicativo do objeto",
+      "vocativo",
+      "adjunto adnominal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 300,
+    "nivel": "medio",
+    "pergunta": "Complete ou classifique a estrutura seguinte: Em 'A cidade tem ruas largas', largas é:",
+    "opcoes": [
+      "vocativo",
+      "adjunto adnominal",
+      "objeto indireto",
+      "predicativo do objeto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 301,
+    "nivel": "medio",
+    "pergunta": "Assinale a frase pontuada corretamente:",
+    "opcoes": [
+      "Quando terminou, a aula os alunos saíram.",
+      "Quando terminou a aula os alunos, saíram.",
+      "Quando terminou a aula, os alunos saíram.",
+      "Quando, terminou a aula os alunos saíram."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 302,
+    "nivel": "medio",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente:",
+    "opcoes": [
+      "Quando terminou, a aula os alunos saíram.",
+      "Quando terminou a aula, os alunos saíram.",
+      "Quando, terminou a aula os alunos saíram.",
+      "Quando terminou a aula os alunos, saíram."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 303,
+    "nivel": "medio",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente:",
+    "opcoes": [
+      "Quando terminou a aula, os alunos saíram.",
+      "Quando terminou, a aula os alunos saíram.",
+      "Quando terminou a aula os alunos, saíram.",
+      "Quando, terminou a aula os alunos saíram."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 304,
+    "nivel": "medio",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente:",
+    "opcoes": [
+      "Quando terminou a aula os alunos, saíram.",
+      "Quando terminou a aula, os alunos saíram.",
+      "Quando, terminou a aula os alunos saíram.",
+      "Quando terminou, a aula os alunos saíram."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 305,
+    "nivel": "medio",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente:",
+    "opcoes": [
+      "Quando terminou, a aula os alunos saíram.",
+      "Quando, terminou a aula os alunos saíram.",
+      "Quando terminou a aula os alunos, saíram.",
+      "Quando terminou a aula, os alunos saíram."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 306,
+    "nivel": "medio",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "Maputo, capital de Moçambique, recebe visitantes.",
+      "Maputo capital, de Moçambique recebe visitantes.",
+      "Maputo capital de Moçambique, recebe visitantes.",
+      "Maputo, capital de Moçambique recebe visitantes."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 307,
+    "nivel": "medio",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "Maputo capital, de Moçambique recebe visitantes.",
+      "Maputo, capital de Moçambique recebe visitantes.",
+      "Maputo capital de Moçambique, recebe visitantes.",
+      "Maputo, capital de Moçambique, recebe visitantes."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 308,
+    "nivel": "medio",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "Maputo, capital de Moçambique recebe visitantes.",
+      "Maputo capital de Moçambique, recebe visitantes.",
+      "Maputo capital, de Moçambique recebe visitantes.",
+      "Maputo, capital de Moçambique, recebe visitantes."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 309,
+    "nivel": "medio",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "Maputo, capital de Moçambique, recebe visitantes.",
+      "Maputo, capital de Moçambique recebe visitantes.",
+      "Maputo capital, de Moçambique recebe visitantes.",
+      "Maputo capital de Moçambique, recebe visitantes."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 310,
+    "nivel": "medio",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é um relatório de trabalho.",
+    "opcoes": [
+      "Maputo capital de Moçambique, recebe visitantes.",
+      "Maputo, capital de Moçambique recebe visitantes.",
+      "Maputo, capital de Moçambique, recebe visitantes.",
+      "Maputo capital, de Moçambique recebe visitantes."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 311,
+    "nivel": "medio",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "Pedro, fecha a janela por favor.",
+      "Pedro, fecha a janela, por favor.",
+      "Pedro fecha a janela por favor.",
+      "Pedro fecha, a janela, por favor."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 312,
+    "nivel": "medio",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "Pedro, fecha a janela, por favor.",
+      "Pedro, fecha a janela por favor.",
+      "Pedro fecha, a janela, por favor.",
+      "Pedro fecha a janela por favor."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 313,
+    "nivel": "medio",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "Pedro fecha a janela por favor.",
+      "Pedro, fecha a janela, por favor.",
+      "Pedro fecha, a janela, por favor.",
+      "Pedro, fecha a janela por favor."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 314,
+    "nivel": "medio",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "Pedro, fecha a janela, por favor.",
+      "Pedro fecha, a janela, por favor.",
+      "Pedro, fecha a janela por favor.",
+      "Pedro fecha a janela por favor."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 315,
+    "nivel": "medio",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma conversa entre colegas.",
+    "opcoes": [
+      "Pedro, fecha a janela, por favor.",
+      "Pedro, fecha a janela por favor.",
+      "Pedro fecha, a janela, por favor.",
+      "Pedro fecha a janela por favor."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 316,
+    "nivel": "medio",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "Estudou muito, portanto foi aprovado.",
+      "Estudou muito portanto; foi aprovado.",
+      "Estudou muito; portanto, foi aprovado.",
+      "Estudou muito: portanto foi aprovado."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 317,
+    "nivel": "medio",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "Estudou muito portanto; foi aprovado.",
+      "Estudou muito: portanto foi aprovado.",
+      "Estudou muito, portanto foi aprovado.",
+      "Estudou muito; portanto, foi aprovado."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 318,
+    "nivel": "medio",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "Estudou muito: portanto foi aprovado.",
+      "Estudou muito; portanto, foi aprovado.",
+      "Estudou muito portanto; foi aprovado.",
+      "Estudou muito, portanto foi aprovado."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 319,
+    "nivel": "medio",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "Estudou muito; portanto, foi aprovado.",
+      "Estudou muito portanto; foi aprovado.",
+      "Estudou muito: portanto foi aprovado.",
+      "Estudou muito, portanto foi aprovado."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 320,
+    "nivel": "medio",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma notícia publicada no jornal.",
+    "opcoes": [
+      "Estudou muito; portanto, foi aprovado.",
+      "Estudou muito: portanto foi aprovado.",
+      "Estudou muito, portanto foi aprovado.",
+      "Estudou muito portanto; foi aprovado."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 321,
+    "nivel": "medio",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "Levei três materiais, caderno: lápis e régua.",
+      "Levei três materiais caderno, lápis e régua.",
+      "Levei: três materiais caderno, lápis e régua.",
+      "Levei três materiais: caderno, lápis e régua."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 322,
+    "nivel": "medio",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "Levei três materiais, caderno: lápis e régua.",
+      "Levei: três materiais caderno, lápis e régua.",
+      "Levei três materiais: caderno, lápis e régua.",
+      "Levei três materiais caderno, lápis e régua."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 323,
+    "nivel": "medio",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "Levei três materiais: caderno, lápis e régua.",
+      "Levei três materiais, caderno: lápis e régua.",
+      "Levei três materiais caderno, lápis e régua.",
+      "Levei: três materiais caderno, lápis e régua."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 324,
+    "nivel": "medio",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "Levei três materiais caderno, lápis e régua.",
+      "Levei três materiais: caderno, lápis e régua.",
+      "Levei: três materiais caderno, lápis e régua.",
+      "Levei três materiais, caderno: lápis e régua."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 325,
+    "nivel": "medio",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é um aviso afixado na biblioteca.",
+    "opcoes": [
+      "Levei três materiais, caderno: lápis e régua.",
+      "Levei três materiais: caderno, lápis e régua.",
+      "Levei três materiais caderno, lápis e régua.",
+      "Levei: três materiais caderno, lápis e régua."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 326,
+    "nivel": "medio",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "Não se esqueça; a reunião começa às oito.",
+      "Não se esqueça, a reunião começa às oito.",
+      "Não se esqueça a reunião: começa às oito.",
+      "Não se esqueça: a reunião começa às oito."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 327,
+    "nivel": "medio",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "Não se esqueça; a reunião começa às oito.",
+      "Não se esqueça a reunião: começa às oito.",
+      "Não se esqueça, a reunião começa às oito.",
+      "Não se esqueça: a reunião começa às oito."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 328,
+    "nivel": "medio",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "Não se esqueça; a reunião começa às oito.",
+      "Não se esqueça: a reunião começa às oito.",
+      "Não se esqueça a reunião: começa às oito.",
+      "Não se esqueça, a reunião começa às oito."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 329,
+    "nivel": "medio",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "Não se esqueça a reunião: começa às oito.",
+      "Não se esqueça: a reunião começa às oito.",
+      "Não se esqueça, a reunião começa às oito.",
+      "Não se esqueça; a reunião começa às oito."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 330,
+    "nivel": "medio",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma reunião comunitária.",
+    "opcoes": [
+      "Não se esqueça, a reunião começa às oito.",
+      "Não se esqueça: a reunião começa às oito.",
+      "Não se esqueça; a reunião começa às oito.",
+      "Não se esqueça a reunião: começa às oito."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 331,
+    "nivel": "medio",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "A diretora perguntou; 'Todos receberam o aviso?'",
+      "A diretora perguntou: 'Todos receberam o aviso?'",
+      "A diretora perguntou 'Todos receberam o aviso'.",
+      "A diretora perguntou, 'Todos receberam o aviso?'"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 332,
+    "nivel": "medio",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "A diretora perguntou, 'Todos receberam o aviso?'",
+      "A diretora perguntou 'Todos receberam o aviso'.",
+      "A diretora perguntou: 'Todos receberam o aviso?'",
+      "A diretora perguntou; 'Todos receberam o aviso?'"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 333,
+    "nivel": "medio",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "A diretora perguntou; 'Todos receberam o aviso?'",
+      "A diretora perguntou, 'Todos receberam o aviso?'",
+      "A diretora perguntou: 'Todos receberam o aviso?'",
+      "A diretora perguntou 'Todos receberam o aviso'."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 334,
+    "nivel": "medio",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "A diretora perguntou; 'Todos receberam o aviso?'",
+      "A diretora perguntou: 'Todos receberam o aviso?'",
+      "A diretora perguntou 'Todos receberam o aviso'.",
+      "A diretora perguntou, 'Todos receberam o aviso?'"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 335,
+    "nivel": "medio",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma carta dirigida à família.",
+    "opcoes": [
+      "A diretora perguntou; 'Todos receberam o aviso?'",
+      "A diretora perguntou 'Todos receberam o aviso'.",
+      "A diretora perguntou: 'Todos receberam o aviso?'",
+      "A diretora perguntou, 'Todos receberam o aviso?'"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 336,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "Que, excelente notícia!",
+      "Que excelente notícia.",
+      "Que excelente notícia!",
+      "Que excelente, notícia!"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 337,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "Que excelente notícia.",
+      "Que excelente notícia!",
+      "Que excelente, notícia!",
+      "Que, excelente notícia!"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 338,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "Que excelente, notícia!",
+      "Que excelente notícia.",
+      "Que excelente notícia!",
+      "Que, excelente notícia!"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 339,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "Que excelente, notícia!",
+      "Que excelente notícia!",
+      "Que, excelente notícia!",
+      "Que excelente notícia."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 340,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma apresentação em sala de aula.",
+    "opcoes": [
+      "Que, excelente notícia!",
+      "Que excelente notícia!",
+      "Que excelente notícia.",
+      "Que excelente, notícia!"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 341,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "Se houver tempo visitaremos, a biblioteca.",
+      "Se houver tempo, visitaremos a biblioteca.",
+      "Se houver, tempo visitaremos a biblioteca.",
+      "Se, houver tempo visitaremos a biblioteca."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 342,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "Se houver tempo, visitaremos a biblioteca.",
+      "Se, houver tempo visitaremos a biblioteca.",
+      "Se houver, tempo visitaremos a biblioteca.",
+      "Se houver tempo visitaremos, a biblioteca."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 343,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "Se houver tempo visitaremos, a biblioteca.",
+      "Se, houver tempo visitaremos a biblioteca.",
+      "Se houver, tempo visitaremos a biblioteca.",
+      "Se houver tempo, visitaremos a biblioteca."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 344,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "Se houver tempo, visitaremos a biblioteca.",
+      "Se houver tempo visitaremos, a biblioteca.",
+      "Se houver, tempo visitaremos a biblioteca.",
+      "Se, houver tempo visitaremos a biblioteca."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 345,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma descrição de uma actividade cultural.",
+    "opcoes": [
+      "Se houver tempo, visitaremos a biblioteca.",
+      "Se, houver tempo visitaremos a biblioteca.",
+      "Se houver, tempo visitaremos a biblioteca.",
+      "Se houver tempo visitaremos, a biblioteca."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 346,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "O livro que comprei ontem, é interessante.",
+      "O livro que, comprei ontem, é interessante.",
+      "O livro, que comprei ontem, é interessante.",
+      "O livro, que comprei ontem é interessante."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 347,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "O livro que, comprei ontem, é interessante.",
+      "O livro que comprei ontem, é interessante.",
+      "O livro, que comprei ontem, é interessante.",
+      "O livro, que comprei ontem é interessante."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 348,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "O livro que comprei ontem, é interessante.",
+      "O livro, que comprei ontem, é interessante.",
+      "O livro que, comprei ontem, é interessante.",
+      "O livro, que comprei ontem é interessante."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 349,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "O livro que comprei ontem, é interessante.",
+      "O livro, que comprei ontem, é interessante.",
+      "O livro que, comprei ontem, é interessante.",
+      "O livro, que comprei ontem é interessante."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 350,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma mensagem sobre o transporte público.",
+    "opcoes": [
+      "O livro que comprei ontem, é interessante.",
+      "O livro que, comprei ontem, é interessante.",
+      "O livro, que comprei ontem, é interessante.",
+      "O livro, que comprei ontem é interessante."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 351,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "A leitura amplia o vocabulário e, a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário, e a escrita organiza as ideias.",
+      "A leitura amplia, o vocabulário e a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário; e a escrita organiza as ideias."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 352,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "A leitura amplia o vocabulário e, a escrita organiza as ideias.",
+      "A leitura amplia, o vocabulário e a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário, e a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário; e a escrita organiza as ideias."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 353,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "A leitura amplia o vocabulário, e a escrita organiza as ideias.",
+      "A leitura amplia, o vocabulário e a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário; e a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário e, a escrita organiza as ideias."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 354,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "A leitura amplia o vocabulário, e a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário e, a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário; e a escrita organiza as ideias.",
+      "A leitura amplia, o vocabulário e a escrita organiza as ideias."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 355,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma nota informativa de saúde.",
+    "opcoes": [
+      "A leitura amplia o vocabulário; e a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário e, a escrita organiza as ideias.",
+      "A leitura amplia o vocabulário, e a escrita organiza as ideias.",
+      "A leitura amplia, o vocabulário e a escrita organiza as ideias."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 356,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "Em primeiro lugar, analisaremos os dados.",
+      "Em primeiro lugar analisaremos, os dados.",
+      "Em primeiro lugar analisaremos os, dados.",
+      "Em, primeiro lugar analisaremos os dados."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 357,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "Em primeiro lugar, analisaremos os dados.",
+      "Em primeiro lugar analisaremos, os dados.",
+      "Em, primeiro lugar analisaremos os dados.",
+      "Em primeiro lugar analisaremos os, dados."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 358,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "Em primeiro lugar analisaremos os, dados.",
+      "Em primeiro lugar analisaremos, os dados.",
+      "Em, primeiro lugar analisaremos os dados.",
+      "Em primeiro lugar, analisaremos os dados."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 359,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "Em, primeiro lugar analisaremos os dados.",
+      "Em primeiro lugar analisaremos os, dados.",
+      "Em primeiro lugar, analisaremos os dados.",
+      "Em primeiro lugar analisaremos, os dados."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 360,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma reportagem sobre a cidade.",
+    "opcoes": [
+      "Em, primeiro lugar analisaremos os dados.",
+      "Em primeiro lugar analisaremos, os dados.",
+      "Em primeiro lugar analisaremos os, dados.",
+      "Em primeiro lugar, analisaremos os dados."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 361,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "A resposta é, simples: estudar com regularidade.",
+      "A resposta: é simples estudar com regularidade.",
+      "A resposta é simples, estudar com regularidade.",
+      "A resposta é simples: estudar com regularidade."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 362,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "A resposta: é simples estudar com regularidade.",
+      "A resposta é, simples: estudar com regularidade.",
+      "A resposta é simples, estudar com regularidade.",
+      "A resposta é simples: estudar com regularidade."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 363,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "A resposta é simples: estudar com regularidade.",
+      "A resposta é simples, estudar com regularidade.",
+      "A resposta: é simples estudar com regularidade.",
+      "A resposta é, simples: estudar com regularidade."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 364,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "A resposta: é simples estudar com regularidade.",
+      "A resposta é simples, estudar com regularidade.",
+      "A resposta é simples: estudar com regularidade.",
+      "A resposta é, simples: estudar com regularidade."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 365,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é um texto sobre a preservação ambiental.",
+    "opcoes": [
+      "A resposta é simples, estudar com regularidade.",
+      "A resposta é simples: estudar com regularidade.",
+      "A resposta é, simples: estudar com regularidade.",
+      "A resposta: é simples estudar com regularidade."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 366,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "Embora, estivesse cansada continuou a trabalhar.",
+      "Embora estivesse, cansada continuou a trabalhar.",
+      "Embora estivesse cansada, continuou a trabalhar.",
+      "Embora estivesse cansada continuou, a trabalhar."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 367,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "Embora estivesse cansada, continuou a trabalhar.",
+      "Embora estivesse, cansada continuou a trabalhar.",
+      "Embora, estivesse cansada continuou a trabalhar.",
+      "Embora estivesse cansada continuou, a trabalhar."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 368,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "Embora, estivesse cansada continuou a trabalhar.",
+      "Embora estivesse, cansada continuou a trabalhar.",
+      "Embora estivesse cansada continuou, a trabalhar.",
+      "Embora estivesse cansada, continuou a trabalhar."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 369,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "Embora, estivesse cansada continuou a trabalhar.",
+      "Embora estivesse, cansada continuou a trabalhar.",
+      "Embora estivesse cansada, continuou a trabalhar.",
+      "Embora estivesse cansada continuou, a trabalhar."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 370,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é um comunicado de uma associação local.",
+    "opcoes": [
+      "Embora estivesse cansada, continuou a trabalhar.",
+      "Embora estivesse, cansada continuou a trabalhar.",
+      "Embora estivesse cansada continuou, a trabalhar.",
+      "Embora, estivesse cansada continuou a trabalhar."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 371,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "Os participantes trouxeram água, frutas cadernos e canetas.",
+      "Os participantes trouxeram, água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água frutas cadernos, e canetas."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 372,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "Os participantes trouxeram água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água, frutas cadernos e canetas.",
+      "Os participantes trouxeram água frutas cadernos, e canetas.",
+      "Os participantes trouxeram, água, frutas, cadernos e canetas."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 373,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "Os participantes trouxeram água, frutas cadernos e canetas.",
+      "Os participantes trouxeram, água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água frutas cadernos, e canetas."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 374,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "Os participantes trouxeram água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água frutas cadernos, e canetas.",
+      "Os participantes trouxeram, água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água, frutas cadernos e canetas."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 375,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma entrevista publicada numa revista.",
+    "opcoes": [
+      "Os participantes trouxeram água frutas cadernos, e canetas.",
+      "Os participantes trouxeram água, frutas cadernos e canetas.",
+      "Os participantes trouxeram, água, frutas, cadernos e canetas.",
+      "Os participantes trouxeram água, frutas, cadernos e canetas."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 376,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "A professora, afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou que, a prova seria na sexta-feira.",
+      "A professora afirmou, que a prova seria na sexta-feira."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 377,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "A professora afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou, que a prova seria na sexta-feira.",
+      "A professora, afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou que, a prova seria na sexta-feira."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 378,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "A professora afirmou, que a prova seria na sexta-feira.",
+      "A professora, afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou que, a prova seria na sexta-feira."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 379,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "A professora afirmou, que a prova seria na sexta-feira.",
+      "A professora afirmou que, a prova seria na sexta-feira.",
+      "A professora, afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou que a prova seria na sexta-feira."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 380,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é um registo de uma visita de estudo.",
+    "opcoes": [
+      "A professora afirmou que a prova seria na sexta-feira.",
+      "A professora afirmou que, a prova seria na sexta-feira.",
+      "A professora afirmou, que a prova seria na sexta-feira.",
+      "A professora, afirmou que a prova seria na sexta-feira."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 381,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "Sim compreendi a explicação.",
+      "Sim compreendi, a explicação.",
+      "Sim, compreendi a explicação.",
+      "Sim, compreendi, a explicação."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 382,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "Sim, compreendi a explicação.",
+      "Sim compreendi a explicação.",
+      "Sim compreendi, a explicação.",
+      "Sim, compreendi, a explicação."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 383,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "Sim, compreendi a explicação.",
+      "Sim compreendi a explicação.",
+      "Sim, compreendi, a explicação.",
+      "Sim compreendi, a explicação."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 384,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "Sim, compreendi, a explicação.",
+      "Sim compreendi a explicação.",
+      "Sim, compreendi a explicação.",
+      "Sim compreendi, a explicação."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 385,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma instrução para os participantes.",
+    "opcoes": [
+      "Sim compreendi a explicação.",
+      "Sim compreendi, a explicação.",
+      "Sim, compreendi, a explicação.",
+      "Sim, compreendi a explicação."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 386,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "O resultado uma surpresa, para todos foi divulgado.",
+      "O resultado — uma surpresa para todos, foi divulgado.",
+      "O resultado — uma surpresa para todos — foi divulgado.",
+      "O resultado, uma surpresa para todos — foi divulgado."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 387,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "O resultado uma surpresa, para todos foi divulgado.",
+      "O resultado — uma surpresa para todos, foi divulgado.",
+      "O resultado — uma surpresa para todos — foi divulgado.",
+      "O resultado, uma surpresa para todos — foi divulgado."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 388,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "O resultado — uma surpresa para todos, foi divulgado.",
+      "O resultado uma surpresa, para todos foi divulgado.",
+      "O resultado — uma surpresa para todos — foi divulgado.",
+      "O resultado, uma surpresa para todos — foi divulgado."
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 389,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "O resultado — uma surpresa para todos — foi divulgado.",
+      "O resultado — uma surpresa para todos, foi divulgado.",
+      "O resultado, uma surpresa para todos — foi divulgado.",
+      "O resultado uma surpresa, para todos foi divulgado."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 390,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma crónica sobre a vida quotidiana.",
+    "opcoes": [
+      "O resultado — uma surpresa para todos — foi divulgado.",
+      "O resultado uma surpresa, para todos foi divulgado.",
+      "O resultado — uma surpresa para todos, foi divulgado.",
+      "O resultado, uma surpresa para todos — foi divulgado."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 391,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "Quem estuda com atenção aprende melhor.",
+      "Quem estuda com atenção, aprende melhor.",
+      "Quem estuda, com atenção aprende melhor.",
+      "Quem, estuda com atenção aprende melhor."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 392,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "Quem estuda com atenção aprende melhor.",
+      "Quem, estuda com atenção aprende melhor.",
+      "Quem estuda com atenção, aprende melhor.",
+      "Quem estuda, com atenção aprende melhor."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 393,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "Quem estuda com atenção, aprende melhor.",
+      "Quem, estuda com atenção aprende melhor.",
+      "Quem estuda, com atenção aprende melhor.",
+      "Quem estuda com atenção aprende melhor."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 394,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "Quem, estuda com atenção aprende melhor.",
+      "Quem estuda com atenção aprende melhor.",
+      "Quem estuda com atenção, aprende melhor.",
+      "Quem estuda, com atenção aprende melhor."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 395,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é uma legenda de uma actividade desportiva.",
+    "opcoes": [
+      "Quem estuda, com atenção aprende melhor.",
+      "Quem, estuda com atenção aprende melhor.",
+      "Quem estuda com atenção, aprende melhor.",
+      "Quem estuda com atenção aprende melhor."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 396,
+    "nivel": "dificil",
+    "pergunta": "Assinale a frase pontuada corretamente: O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "A equipa treinou muito mas não, venceu.",
+      "A equipa treinou muito mas, não venceu.",
+      "A equipa treinou, muito mas não venceu.",
+      "A equipa treinou muito, mas não venceu."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 397,
+    "nivel": "dificil",
+    "pergunta": "Num texto formal, assinale a frase pontuada corretamente: O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "A equipa treinou muito mas, não venceu.",
+      "A equipa treinou, muito mas não venceu.",
+      "A equipa treinou muito mas não, venceu.",
+      "A equipa treinou muito, mas não venceu."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 398,
+    "nivel": "dificil",
+    "pergunta": "Escolha a pontuação adequada: Assinale a frase pontuada corretamente: O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "A equipa treinou muito, mas não venceu.",
+      "A equipa treinou muito mas, não venceu.",
+      "A equipa treinou, muito mas não venceu.",
+      "A equipa treinou muito mas não, venceu."
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 399,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa apresenta a frase bem pontuada? Assinale a frase pontuada corretamente: O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "A equipa treinou muito mas, não venceu.",
+      "A equipa treinou muito, mas não venceu.",
+      "A equipa treinou muito mas não, venceu.",
+      "A equipa treinou, muito mas não venceu."
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 400,
+    "nivel": "dificil",
+    "pergunta": "Para preservar o sentido, assinale a frase pontuada corretamente: O contexto é um resumo de uma obra literária.",
+    "opcoes": [
+      "A equipa treinou muito mas não, venceu.",
+      "A equipa treinou muito mas, não venceu.",
+      "A equipa treinou, muito mas não venceu.",
+      "A equipa treinou muito, mas não venceu."
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 401,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Os Lusíadas'?",
+    "opcoes": [
+      "Luís de Camões",
+      "José Craveirinha",
+      "Fernando Pessoa",
+      "Mia Couto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 402,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Os Lusíadas'?",
+    "opcoes": [
+      "Luís de Camões",
+      "Mia Couto",
+      "José Craveirinha",
+      "Fernando Pessoa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 403,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Os Lusíadas'?",
+    "opcoes": [
+      "Mia Couto",
+      "Fernando Pessoa",
+      "José Craveirinha",
+      "Luís de Camões"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 404,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Os Lusíadas'?",
+    "opcoes": [
+      "José Craveirinha",
+      "Fernando Pessoa",
+      "Luís de Camões",
+      "Mia Couto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 405,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Os Lusíadas'?",
+    "opcoes": [
+      "José Craveirinha",
+      "Fernando Pessoa",
+      "Mia Couto",
+      "Luís de Camões"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 406,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Terra Sonâmbula'?",
+    "opcoes": [
+      "Paulina Chiziane",
+      "Mia Couto",
+      "Luís de Camões",
+      "Ungulani Ba Ka Khossa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 407,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Terra Sonâmbula'?",
+    "opcoes": [
+      "Paulina Chiziane",
+      "Mia Couto",
+      "Ungulani Ba Ka Khossa",
+      "Luís de Camões"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 408,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Terra Sonâmbula'?",
+    "opcoes": [
+      "Ungulani Ba Ka Khossa",
+      "Mia Couto",
+      "Paulina Chiziane",
+      "Luís de Camões"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 409,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Terra Sonâmbula'?",
+    "opcoes": [
+      "Luís de Camões",
+      "Paulina Chiziane",
+      "Ungulani Ba Ka Khossa",
+      "Mia Couto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 410,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Terra Sonâmbula'?",
+    "opcoes": [
+      "Luís de Camões",
+      "Mia Couto",
+      "Ungulani Ba Ka Khossa",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 411,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Niketche: Uma História de Poligamia'?",
+    "opcoes": [
+      "Paulina Chiziane",
+      "Noémia de Sousa",
+      "Pepetela",
+      "Mia Couto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 412,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Niketche: Uma História de Poligamia'?",
+    "opcoes": [
+      "Pepetela",
+      "Mia Couto",
+      "Paulina Chiziane",
+      "Noémia de Sousa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 413,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Niketche: Uma História de Poligamia'?",
+    "opcoes": [
+      "Mia Couto",
+      "Pepetela",
+      "Paulina Chiziane",
+      "Noémia de Sousa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 414,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Niketche: Uma História de Poligamia'?",
+    "opcoes": [
+      "Mia Couto",
+      "Pepetela",
+      "Noémia de Sousa",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 415,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Niketche: Uma História de Poligamia'?",
+    "opcoes": [
+      "Mia Couto",
+      "Pepetela",
+      "Paulina Chiziane",
+      "Noémia de Sousa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 416,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Mayombe'?",
+    "opcoes": [
+      "Luís Bernardo Honwana",
+      "Ondjaki",
+      "Pepetela",
+      "José Eduardo Agualusa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 417,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Mayombe'?",
+    "opcoes": [
+      "Ondjaki",
+      "Luís Bernardo Honwana",
+      "José Eduardo Agualusa",
+      "Pepetela"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 418,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Mayombe'?",
+    "opcoes": [
+      "Ondjaki",
+      "Pepetela",
+      "José Eduardo Agualusa",
+      "Luís Bernardo Honwana"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 419,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Mayombe'?",
+    "opcoes": [
+      "Ondjaki",
+      "Pepetela",
+      "Luís Bernardo Honwana",
+      "José Eduardo Agualusa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 420,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Mayombe'?",
+    "opcoes": [
+      "Luís Bernardo Honwana",
+      "Pepetela",
+      "José Eduardo Agualusa",
+      "Ondjaki"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 421,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Nós Matámos o Cão-Tinhoso'?",
+    "opcoes": [
+      "Pepetela",
+      "Mia Couto",
+      "José Craveirinha",
+      "Luís Bernardo Honwana"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 422,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Nós Matámos o Cão-Tinhoso'?",
+    "opcoes": [
+      "José Craveirinha",
+      "Mia Couto",
+      "Pepetela",
+      "Luís Bernardo Honwana"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 423,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Nós Matámos o Cão-Tinhoso'?",
+    "opcoes": [
+      "Mia Couto",
+      "Luís Bernardo Honwana",
+      "Pepetela",
+      "José Craveirinha"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 424,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Nós Matámos o Cão-Tinhoso'?",
+    "opcoes": [
+      "Pepetela",
+      "José Craveirinha",
+      "Luís Bernardo Honwana",
+      "Mia Couto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 425,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Nós Matámos o Cão-Tinhoso'?",
+    "opcoes": [
+      "Mia Couto",
+      "Pepetela",
+      "Luís Bernardo Honwana",
+      "José Craveirinha"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 426,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'A Varanda do Frangipani'?",
+    "opcoes": [
+      "Fernando Pessoa",
+      "Jorge Amado",
+      "Mia Couto",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 427,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'A Varanda do Frangipani'?",
+    "opcoes": [
+      "Mia Couto",
+      "Paulina Chiziane",
+      "Fernando Pessoa",
+      "Jorge Amado"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 428,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'A Varanda do Frangipani'?",
+    "opcoes": [
+      "Fernando Pessoa",
+      "Mia Couto",
+      "Jorge Amado",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 429,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'A Varanda do Frangipani'?",
+    "opcoes": [
+      "Jorge Amado",
+      "Fernando Pessoa",
+      "Mia Couto",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 430,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'A Varanda do Frangipani'?",
+    "opcoes": [
+      "Paulina Chiziane",
+      "Mia Couto",
+      "Fernando Pessoa",
+      "Jorge Amado"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 431,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'O Vendedor de Passados'?",
+    "opcoes": [
+      "Ondjaki",
+      "José Eduardo Agualusa",
+      "Noémia de Sousa",
+      "Pepetela"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 432,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'O Vendedor de Passados'?",
+    "opcoes": [
+      "Noémia de Sousa",
+      "Ondjaki",
+      "José Eduardo Agualusa",
+      "Pepetela"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 433,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'O Vendedor de Passados'?",
+    "opcoes": [
+      "José Eduardo Agualusa",
+      "Ondjaki",
+      "Pepetela",
+      "Noémia de Sousa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 434,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'O Vendedor de Passados'?",
+    "opcoes": [
+      "Noémia de Sousa",
+      "Ondjaki",
+      "José Eduardo Agualusa",
+      "Pepetela"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 435,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'O Vendedor de Passados'?",
+    "opcoes": [
+      "José Eduardo Agualusa",
+      "Ondjaki",
+      "Noémia de Sousa",
+      "Pepetela"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 436,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Bom Dia Camaradas'?",
+    "opcoes": [
+      "Luís Bernardo Honwana",
+      "José Craveirinha",
+      "Ondjaki",
+      "Mia Couto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 437,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Bom Dia Camaradas'?",
+    "opcoes": [
+      "Mia Couto",
+      "José Craveirinha",
+      "Luís Bernardo Honwana",
+      "Ondjaki"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 438,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Bom Dia Camaradas'?",
+    "opcoes": [
+      "Mia Couto",
+      "Ondjaki",
+      "José Craveirinha",
+      "Luís Bernardo Honwana"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 439,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Bom Dia Camaradas'?",
+    "opcoes": [
+      "Luís Bernardo Honwana",
+      "Mia Couto",
+      "José Craveirinha",
+      "Ondjaki"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 440,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Bom Dia Camaradas'?",
+    "opcoes": [
+      "Ondjaki",
+      "Luís Bernardo Honwana",
+      "José Craveirinha",
+      "Mia Couto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 441,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Chiquinho'?",
+    "opcoes": [
+      "Baltasar Lopes",
+      "Corsino Fortes",
+      "Germano Almeida",
+      "Jorge Barbosa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 442,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Chiquinho'?",
+    "opcoes": [
+      "Baltasar Lopes",
+      "Germano Almeida",
+      "Jorge Barbosa",
+      "Corsino Fortes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 443,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Chiquinho'?",
+    "opcoes": [
+      "Germano Almeida",
+      "Baltasar Lopes",
+      "Jorge Barbosa",
+      "Corsino Fortes"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 444,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Chiquinho'?",
+    "opcoes": [
+      "Jorge Barbosa",
+      "Baltasar Lopes",
+      "Corsino Fortes",
+      "Germano Almeida"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 445,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Chiquinho'?",
+    "opcoes": [
+      "Baltasar Lopes",
+      "Germano Almeida",
+      "Corsino Fortes",
+      "Jorge Barbosa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 446,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Hora di Bai'?",
+    "opcoes": [
+      "Mia Couto",
+      "Pepetela",
+      "Manuel Lopes",
+      "Baltasar Lopes"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 447,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Hora di Bai'?",
+    "opcoes": [
+      "Manuel Lopes",
+      "Baltasar Lopes",
+      "Pepetela",
+      "Mia Couto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 448,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Hora di Bai'?",
+    "opcoes": [
+      "Manuel Lopes",
+      "Pepetela",
+      "Mia Couto",
+      "Baltasar Lopes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 449,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Hora di Bai'?",
+    "opcoes": [
+      "Manuel Lopes",
+      "Baltasar Lopes",
+      "Pepetela",
+      "Mia Couto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 450,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Hora di Bai'?",
+    "opcoes": [
+      "Pepetela",
+      "Manuel Lopes",
+      "Baltasar Lopes",
+      "Mia Couto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 451,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'A Geração da Utopia'?",
+    "opcoes": [
+      "Ondjaki",
+      "Luís Bernardo Honwana",
+      "José Eduardo Agualusa",
+      "Pepetela"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 452,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'A Geração da Utopia'?",
+    "opcoes": [
+      "Luís Bernardo Honwana",
+      "Pepetela",
+      "José Eduardo Agualusa",
+      "Ondjaki"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 453,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'A Geração da Utopia'?",
+    "opcoes": [
+      "Luís Bernardo Honwana",
+      "Pepetela",
+      "Ondjaki",
+      "José Eduardo Agualusa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 454,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'A Geração da Utopia'?",
+    "opcoes": [
+      "Ondjaki",
+      "Pepetela",
+      "Luís Bernardo Honwana",
+      "José Eduardo Agualusa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 455,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'A Geração da Utopia'?",
+    "opcoes": [
+      "Luís Bernardo Honwana",
+      "Ondjaki",
+      "José Eduardo Agualusa",
+      "Pepetela"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 456,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'O Último Voo do Flamingo'?",
+    "opcoes": [
+      "Mia Couto",
+      "Pepetela",
+      "José Eduardo Agualusa",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 457,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'O Último Voo do Flamingo'?",
+    "opcoes": [
+      "Pepetela",
+      "José Eduardo Agualusa",
+      "Paulina Chiziane",
+      "Mia Couto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 458,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'O Último Voo do Flamingo'?",
+    "opcoes": [
+      "Mia Couto",
+      "José Eduardo Agualusa",
+      "Pepetela",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 459,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'O Último Voo do Flamingo'?",
+    "opcoes": [
+      "José Eduardo Agualusa",
+      "Pepetela",
+      "Mia Couto",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 460,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'O Último Voo do Flamingo'?",
+    "opcoes": [
+      "Paulina Chiziane",
+      "Pepetela",
+      "José Eduardo Agualusa",
+      "Mia Couto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 461,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Luuanda'?",
+    "opcoes": [
+      "Pepetela",
+      "Agostinho Neto",
+      "Ondjaki",
+      "José Luandino Vieira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 462,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Luuanda'?",
+    "opcoes": [
+      "Pepetela",
+      "Ondjaki",
+      "Agostinho Neto",
+      "José Luandino Vieira"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 463,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Luuanda'?",
+    "opcoes": [
+      "Ondjaki",
+      "Pepetela",
+      "José Luandino Vieira",
+      "Agostinho Neto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 464,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Luuanda'?",
+    "opcoes": [
+      "Ondjaki",
+      "Agostinho Neto",
+      "José Luandino Vieira",
+      "Pepetela"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 465,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Luuanda'?",
+    "opcoes": [
+      "Agostinho Neto",
+      "José Luandino Vieira",
+      "Ondjaki",
+      "Pepetela"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 466,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Mayombe', romance ambientado na luta de libertação de Angola?",
+    "opcoes": [
+      "Pepetela",
+      "Mia Couto",
+      "Baltasar Lopes",
+      "José Craveirinha"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 467,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Mayombe', romance ambientado na luta de libertação de Angola?",
+    "opcoes": [
+      "Baltasar Lopes",
+      "José Craveirinha",
+      "Mia Couto",
+      "Pepetela"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 468,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Mayombe', romance ambientado na luta de libertação de Angola?",
+    "opcoes": [
+      "Baltasar Lopes",
+      "Pepetela",
+      "Mia Couto",
+      "José Craveirinha"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 469,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Mayombe', romance ambientado na luta de libertação de Angola?",
+    "opcoes": [
+      "Mia Couto",
+      "Pepetela",
+      "Baltasar Lopes",
+      "José Craveirinha"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 470,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Mayombe', romance ambientado na luta de libertação de Angola?",
+    "opcoes": [
+      "Pepetela",
+      "José Craveirinha",
+      "Mia Couto",
+      "Baltasar Lopes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 471,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Mensagem'?",
+    "opcoes": [
+      "Jorge de Sena",
+      "Luís de Camões",
+      "José Saramago",
+      "Fernando Pessoa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 472,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Mensagem'?",
+    "opcoes": [
+      "Jorge de Sena",
+      "Fernando Pessoa",
+      "Luís de Camões",
+      "José Saramago"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 473,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Mensagem'?",
+    "opcoes": [
+      "Fernando Pessoa",
+      "José Saramago",
+      "Luís de Camões",
+      "Jorge de Sena"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 474,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Mensagem'?",
+    "opcoes": [
+      "José Saramago",
+      "Fernando Pessoa",
+      "Luís de Camões",
+      "Jorge de Sena"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 475,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Mensagem'?",
+    "opcoes": [
+      "Fernando Pessoa",
+      "Jorge de Sena",
+      "José Saramago",
+      "Luís de Camões"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 476,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Ensaio sobre a cegueira'?",
+    "opcoes": [
+      "José Saramago",
+      "Fernando Pessoa",
+      "Eça de Queirós",
+      "Mia Couto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 477,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Ensaio sobre a cegueira'?",
+    "opcoes": [
+      "Eça de Queirós",
+      "José Saramago",
+      "Fernando Pessoa",
+      "Mia Couto"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 478,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Ensaio sobre a cegueira'?",
+    "opcoes": [
+      "Fernando Pessoa",
+      "Eça de Queirós",
+      "José Saramago",
+      "Mia Couto"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 479,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Ensaio sobre a cegueira'?",
+    "opcoes": [
+      "José Saramago",
+      "Fernando Pessoa",
+      "Mia Couto",
+      "Eça de Queirós"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 480,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Ensaio sobre a cegueira'?",
+    "opcoes": [
+      "José Saramago",
+      "Mia Couto",
+      "Fernando Pessoa",
+      "Eça de Queirós"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 481,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'A cidade e as serras'?",
+    "opcoes": [
+      "Fernando Pessoa",
+      "Camilo Castelo Branco",
+      "Eça de Queirós",
+      "José Saramago"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 482,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'A cidade e as serras'?",
+    "opcoes": [
+      "José Saramago",
+      "Fernando Pessoa",
+      "Eça de Queirós",
+      "Camilo Castelo Branco"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 483,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'A cidade e as serras'?",
+    "opcoes": [
+      "José Saramago",
+      "Eça de Queirós",
+      "Camilo Castelo Branco",
+      "Fernando Pessoa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 484,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'A cidade e as serras'?",
+    "opcoes": [
+      "Eça de Queirós",
+      "Fernando Pessoa",
+      "Camilo Castelo Branco",
+      "José Saramago"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 485,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'A cidade e as serras'?",
+    "opcoes": [
+      "Eça de Queirós",
+      "Fernando Pessoa",
+      "José Saramago",
+      "Camilo Castelo Branco"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 486,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'Sagarana'?",
+    "opcoes": [
+      "João Guimarães Rosa",
+      "José Saramago",
+      "Pepetela",
+      "Jorge Amado"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 487,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'Sagarana'?",
+    "opcoes": [
+      "João Guimarães Rosa",
+      "José Saramago",
+      "Pepetela",
+      "Jorge Amado"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 488,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'Sagarana'?",
+    "opcoes": [
+      "Pepetela",
+      "José Saramago",
+      "Jorge Amado",
+      "João Guimarães Rosa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 489,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'Sagarana'?",
+    "opcoes": [
+      "João Guimarães Rosa",
+      "José Saramago",
+      "Jorge Amado",
+      "Pepetela"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 490,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'Sagarana'?",
+    "opcoes": [
+      "João Guimarães Rosa",
+      "Jorge Amado",
+      "José Saramago",
+      "Pepetela"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 491,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'O quinze'?",
+    "opcoes": [
+      "Rachel de Queiroz",
+      "Clarice Lispector",
+      "Cecília Meireles",
+      "Jorge Amado"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 492,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'O quinze'?",
+    "opcoes": [
+      "Cecília Meireles",
+      "Rachel de Queiroz",
+      "Clarice Lispector",
+      "Jorge Amado"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 493,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'O quinze'?",
+    "opcoes": [
+      "Rachel de Queiroz",
+      "Jorge Amado",
+      "Clarice Lispector",
+      "Cecília Meireles"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 494,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'O quinze'?",
+    "opcoes": [
+      "Jorge Amado",
+      "Clarice Lispector",
+      "Rachel de Queiroz",
+      "Cecília Meireles"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 495,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'O quinze'?",
+    "opcoes": [
+      "Clarice Lispector",
+      "Rachel de Queiroz",
+      "Cecília Meireles",
+      "Jorge Amado"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 496,
+    "nivel": "dificil",
+    "pergunta": "Quem escreveu 'O alegre canto da perdiz'?",
+    "opcoes": [
+      "Paulina Chiziane",
+      "Mia Couto",
+      "Noémia de Sousa",
+      "Lídia Jorge"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 497,
+    "nivel": "dificil",
+    "pergunta": "Na literatura de língua portuguesa, quem escreveu 'O alegre canto da perdiz'?",
+    "opcoes": [
+      "Lídia Jorge",
+      "Mia Couto",
+      "Paulina Chiziane",
+      "Noémia de Sousa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 498,
+    "nivel": "dificil",
+    "pergunta": "Identifique corretamente a autoria: Quem escreveu 'O alegre canto da perdiz'?",
+    "opcoes": [
+      "Mia Couto",
+      "Paulina Chiziane",
+      "Noémia de Sousa",
+      "Lídia Jorge"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 499,
+    "nivel": "dificil",
+    "pergunta": "Qual alternativa responde à questão? Quem escreveu 'O alegre canto da perdiz'?",
+    "opcoes": [
+      "Lídia Jorge",
+      "Paulina Chiziane",
+      "Mia Couto",
+      "Noémia de Sousa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 500,
+    "nivel": "dificil",
+    "pergunta": "Sobre obras lusófonas, assinale a resposta correta: Quem escreveu 'O alegre canto da perdiz'?",
+    "opcoes": [
+      "Mia Couto",
+      "Noémia de Sousa",
+      "Lídia Jorge",
+      "Paulina Chiziane"
+    ],
+    "resposta_correta": 3
+  }
+]

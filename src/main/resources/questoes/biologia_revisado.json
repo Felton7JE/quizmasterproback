@@ -1,0 +1,2042 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Qual é a unidade básica estrutural e funcional dos seres vivos?",
+    "opcoes": [
+      "A célula",
+      "O tecido",
+      "O órgão",
+      "O sistema"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Qual organelo contém a maior parte do material genético numa célula eucariótica?",
+    "opcoes": [
+      "Núcleo",
+      "Ribossoma",
+      "Lisossoma",
+      "Centríolo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Que organelo produz a maior parte do ATP na respiração aeróbia?",
+    "opcoes": [
+      "Mitocôndria",
+      "Complexo de Golgi",
+      "Vacúolo",
+      "Peroxissoma"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Qual estrutura controla a entrada e a saída de substâncias na célula?",
+    "opcoes": [
+      "Membrana plasmática",
+      "Parede celular",
+      "Nucléolo",
+      "Cromossoma"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Em que organelo ocorre a fotossíntese das plantas?",
+    "opcoes": [
+      "Cloroplasto",
+      "Mitocôndria",
+      "Ribossoma",
+      "Lisossoma"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Qual substância é o principal solvente das reacções celulares?",
+    "opcoes": [
+      "Água",
+      "Oxigénio",
+      "Glicose",
+      "Cloreto de sódio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Qual é o açúcar presente no DNA?",
+    "opcoes": [
+      "Desoxirribose",
+      "Ribose",
+      "Glicose",
+      "Frutose"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Qual base nitrogenada existe no DNA, mas não no RNA?",
+    "opcoes": [
+      "Timina",
+      "Uracilo",
+      "Guanina",
+      "Citosina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "Como se chama a divisão celular que origina duas células geneticamente semelhantes?",
+    "opcoes": [
+      "Mitose",
+      "Meiose",
+      "Fecundação",
+      "Mutação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Qual é a função principal dos ribossomas?",
+    "opcoes": [
+      "Produzir proteínas",
+      "Armazenar lípidos",
+      "Digerir partículas",
+      "Produzir celulose"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "Qual molécula armazena informação genética?",
+    "opcoes": [
+      "DNA",
+      "ATP",
+      "Amido",
+      "Colagénio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Em genética, como se chama uma forma alternativa de um gene?",
+    "opcoes": [
+      "Alelo",
+      "Cromátide",
+      "Centrómero",
+      "Cariótipo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Quantos cromossomas existem normalmente numa célula somática humana?",
+    "opcoes": [
+      "46",
+      "23",
+      "44",
+      "92"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "Como se chama o conjunto de alelos de um indivíduo?",
+    "opcoes": [
+      "Genótipo",
+      "Fenótipo",
+      "Cariótipo",
+      "Ecótipo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Como se chama o conjunto de características observáveis de um indivíduo?",
+    "opcoes": [
+      "Fenótipo",
+      "Genótipo",
+      "Alelo",
+      "Locus"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Que molécula transporta aminoácidos para o ribossoma?",
+    "opcoes": [
+      "RNA de transferência",
+      "RNA mensageiro",
+      "DNA",
+      "RNA ribossómico"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "Quem propôs a selecção natural como mecanismo de evolução?",
+    "opcoes": [
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Gregor Mendel",
+      "Robert Hooke"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "Qual processo produz indivíduos geneticamente idênticos a partir de um progenitor?",
+    "opcoes": [
+      "Reprodução assexuada",
+      "Reprodução sexuada",
+      "Fecundação cruzada",
+      "Conjugação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "O que é uma população em ecologia?",
+    "opcoes": [
+      "Indivíduos da mesma espécie numa área e tempo",
+      "Todas as espécies do planeta",
+      "Factores físicos de um local",
+      "A matéria orgânica do solo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "O que é um ecossistema?",
+    "opcoes": [
+      "Comunidade e factores abióticos que interagem",
+      "Apenas os animais de uma região",
+      "Apenas o clima de uma região",
+      "Um indivíduo e os seus órgãos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "Qual organismo é produtor numa cadeia alimentar?",
+    "opcoes": [
+      "Capim",
+      "Gafanhoto",
+      "Rã",
+      "Cobra"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "Que organismos decompõem matéria orgânica morta?",
+    "opcoes": [
+      "Fungos e muitas bactérias",
+      "Apenas plantas",
+      "Apenas mamíferos",
+      "Vírus e algas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Qual é um factor abiótico?",
+    "opcoes": [
+      "Temperatura",
+      "Predação",
+      "Competição",
+      "Parasitismo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Como se chama a relação em que ambas as espécies beneficiam?",
+    "opcoes": [
+      "Mutualismo",
+      "Predação",
+      "Amensalismo",
+      "Competição"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Qual gás é absorvido pelas plantas durante a fotossíntese?",
+    "opcoes": [
+      "Dióxido de carbono",
+      "Oxigénio",
+      "Azoto molecular",
+      "Metano"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Qual gás é libertado na fotossíntese?",
+    "opcoes": [
+      "Oxigénio",
+      "Dióxido de carbono",
+      "Azoto",
+      "Hidrogénio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "Qual tecido vegetal transporta água e sais minerais das raízes?",
+    "opcoes": [
+      "Xilema",
+      "Floema",
+      "Epiderme",
+      "Meristema"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Qual tecido vegetal transporta açúcares produzidos nas folhas?",
+    "opcoes": [
+      "Floema",
+      "Xilema",
+      "Súber",
+      "Colênquima"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "Qual é a principal função das raízes?",
+    "opcoes": [
+      "Fixar a planta e absorver água e sais",
+      "Produzir sementes",
+      "Realizar a polinização",
+      "Libertar oxigénio pela flor"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Que estrutura da flor produz os grãos de pólen?",
+    "opcoes": [
+      "Antera",
+      "Estigma",
+      "Ovário",
+      "Sépalas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Qual órgão bombeia o sangue no corpo humano?",
+    "opcoes": [
+      "Coração",
+      "Fígado",
+      "Pulmão",
+      "Rim"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "Que vasos levam o sangue para fora do coração?",
+    "opcoes": [
+      "Artérias",
+      "Veias",
+      "Capilares",
+      "Vénulas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Qual órgão realiza principalmente as trocas gasosas?",
+    "opcoes": [
+      "Pulmões",
+      "Estômago",
+      "Pâncreas",
+      "Baço"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "Que células transportam oxigénio no sangue?",
+    "opcoes": [
+      "Glóbulos vermelhos",
+      "Plaquetas",
+      "Neurónios",
+      "Glóbulos brancos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Qual sistema coordena respostas rápidas através de impulsos eléctricos?",
+    "opcoes": [
+      "Sistema nervoso",
+      "Sistema digestivo",
+      "Sistema urinário",
+      "Sistema tegumentar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "Onde começa a digestão do amido?",
+    "opcoes": [
+      "Boca",
+      "Estômago",
+      "Intestino grosso",
+      "Esófago"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Qual órgão produz a bílis?",
+    "opcoes": [
+      "Fígado",
+      "Pâncreas",
+      "Vesícula biliar",
+      "Estômago"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "Qual é a principal função dos rins?",
+    "opcoes": [
+      "Filtrar o sangue e formar urina",
+      "Produzir bílis",
+      "Bombear sangue",
+      "Fazer trocas gasosas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Que hormona reduz a concentração de glicose no sangue?",
+    "opcoes": [
+      "Insulina",
+      "Adrenalina",
+      "Tiroxina",
+      "Glucagina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "Qual vitamina pode ser produzida na pele com exposição solar?",
+    "opcoes": [
+      "Vitamina D",
+      "Vitamina C",
+      "Vitamina B12",
+      "Vitamina K"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "Qual doença é causada pelo protozoário Plasmodium?",
+    "opcoes": [
+      "Malária",
+      "Cólera",
+      "Tuberculose",
+      "Gripe"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "Qual agente causa a tuberculose?",
+    "opcoes": [
+      "Uma bactéria",
+      "Um vírus",
+      "Um fungo",
+      "Um protozoário"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "Como se reproduzem os vírus dentro de um hospedeiro?",
+    "opcoes": [
+      "Usando a maquinaria da célula hospedeira",
+      "Por fotossíntese",
+      "Por mitose autónoma",
+      "Absorvendo nutrientes do solo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "Qual medida ajuda a prevenir a transmissão do HIV?",
+    "opcoes": [
+      "Usar preservativo correctamente",
+      "Partilhar seringas",
+      "Evitar todas as vacinas",
+      "Beber água salgada"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Que microrganismos são usados na produção de pão?",
+    "opcoes": [
+      "Leveduras",
+      "Platelmintos",
+      "Arqueias metanogénicas",
+      "Musgos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Qual estrutura permite que muitos peixes respirem na água?",
+    "opcoes": [
+      "Brânquias",
+      "Pulmões",
+      "Traqueias",
+      "Pele seca"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "Que grupo de animais possui penas?",
+    "opcoes": [
+      "Aves",
+      "Répteis",
+      "Anfíbios",
+      "Aracnídeos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Qual característica é típica dos mamíferos?",
+    "opcoes": [
+      "Produção de leite pelas glândulas mamárias",
+      "Presença de penas",
+      "Respiração apenas por brânquias",
+      "Corpo coberto de escamas em todos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "Qual animal é um invertebrado?",
+    "opcoes": [
+      "Caracol",
+      "Lagarto",
+      "Tilápia",
+      "Galinha"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "Que grupo inclui aranhas e escorpiões?",
+    "opcoes": [
+      "Aracnídeos",
+      "Insectos",
+      "Crustáceos",
+      "Moluscos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Qual nível taxonómico é mais abrangente?",
+    "opcoes": [
+      "Reino",
+      "Espécie",
+      "Género",
+      "Família"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "Qual músculo participa principalmente na inspiração?",
+    "opcoes": [
+      "Diafragma",
+      "Bíceps",
+      "Tríceps",
+      "Masséter"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "Como se chama a perda de água pelas folhas sob a forma de vapor?",
+    "opcoes": [
+      "Transpiração",
+      "Germinação",
+      "Polinização",
+      "Respiração externa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "Qual pigmento dá a cor verde à maioria das folhas?",
+    "opcoes": [
+      "Clorofila",
+      "Hemoglobina",
+      "Melanina",
+      "Queratina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "O que é uma vacina?",
+    "opcoes": [
+      "Preparação que estimula memória imunitária",
+      "Antibiótico contra todas as doenças",
+      "Vitamina que substitui alimentos",
+      "Veneno que destrói todos os micróbios"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 56,
+    "nivel": "facil",
+    "pergunta": "Que células defendem o corpo contra agentes infecciosos?",
+    "opcoes": [
+      "Glóbulos brancos",
+      "Glóbulos vermelhos",
+      "Plaquetas",
+      "Adipócitos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 57,
+    "nivel": "medio",
+    "pergunta": "O que acontece a uma célula animal colocada numa solução hipotónica?",
+    "opcoes": [
+      "Ganha água e pode sofrer lise",
+      "Perde água e encolhe",
+      "Não ocorre movimento de água",
+      "Produz parede celular"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 58,
+    "nivel": "medio",
+    "pergunta": "Qual é o efeito de uma solução hipertónica sobre uma célula vegetal?",
+    "opcoes": [
+      "A água sai e ocorre plasmólise",
+      "A água entra e ocorre lise imediata",
+      "A célula duplica o DNA",
+      "A parede celular desaparece"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 59,
+    "nivel": "medio",
+    "pergunta": "Qual processo move uma substância contra o seu gradiente usando ATP?",
+    "opcoes": [
+      "Transporte activo",
+      "Difusão simples",
+      "Osmose",
+      "Difusão facilitada sem energia"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 60,
+    "nivel": "medio",
+    "pergunta": "Por que razão as enzimas aceleram reacções?",
+    "opcoes": [
+      "Diminuem a energia de activação",
+      "Aumentam a temperatura celular",
+      "São consumidas como reagentes",
+      "Alteram o produto final"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 61,
+    "nivel": "medio",
+    "pergunta": "Em que fase da mitose os cromossomas se alinham no centro da célula?",
+    "opcoes": [
+      "Metáfase",
+      "Prófase",
+      "Anáfase",
+      "Telófase"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 62,
+    "nivel": "medio",
+    "pergunta": "Em que fase da mitose as cromátides-irmãs se separam?",
+    "opcoes": [
+      "Anáfase",
+      "Metáfase",
+      "Prófase",
+      "Interfase"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 63,
+    "nivel": "medio",
+    "pergunta": "Qual é o resultado directo da meiose numa célula diploide?",
+    "opcoes": [
+      "Quatro células haploides geneticamente variadas",
+      "Duas células diploides idênticas",
+      "Quatro células diploides idênticas",
+      "Uma célula haploide sem núcleo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 64,
+    "nivel": "medio",
+    "pergunta": "A replicação do DNA é considerada semiconservativa porque cada molécula nova contém",
+    "opcoes": [
+      "Uma fita antiga e uma fita nova",
+      "Duas fitas antigas",
+      "Duas fitas novas sem molde",
+      "Apenas RNA e proteína"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 65,
+    "nivel": "medio",
+    "pergunta": "Qual enzima separa as duas fitas de DNA durante a replicação?",
+    "opcoes": [
+      "Helicase",
+      "Ligase",
+      "Amilase",
+      "Pepsina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 66,
+    "nivel": "medio",
+    "pergunta": "Qual é a função da DNA-polimerase?",
+    "opcoes": [
+      "Adicionar nucleótidos à nova fita de DNA",
+      "Cortar proteínas no estômago",
+      "Produzir ATP na mitocôndria",
+      "Transportar aminoácidos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 67,
+    "nivel": "medio",
+    "pergunta": "Durante a transcrição, a informação do DNA é copiada para",
+    "opcoes": [
+      "RNA mensageiro",
+      "Lípido",
+      "Polissacarídeo",
+      "ATP"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 68,
+    "nivel": "medio",
+    "pergunta": "Durante a tradução, a sequência de códons do RNA mensageiro determina a sequência de",
+    "opcoes": [
+      "Aminoácidos",
+      "Ácidos gordos",
+      "Nucleótidos de DNA",
+      "Monossacarídeos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 69,
+    "nivel": "medio",
+    "pergunta": "Um codão é",
+    "opcoes": [
+      "Uma sequência de três nucleótidos no RNA mensageiro",
+      "Uma proteína de três aminoácidos",
+      "Um cromossoma inteiro",
+      "Uma enzima de replicação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 70,
+    "nivel": "medio",
+    "pergunta": "Num cruzamento Aa × Aa, qual é a proporção genotípica esperada?",
+    "opcoes": [
+      "1 AA : 2 Aa : 1 aa",
+      "3 AA : 1 aa",
+      "1 Aa : 1 aa",
+      "Todos Aa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 71,
+    "nivel": "medio",
+    "pergunta": "Num cruzamento Aa × Aa, considerando A completamente dominante, qual é a proporção fenotípica esperada?",
+    "opcoes": [
+      "3 dominantes : 1 recessivo",
+      "1 dominante : 3 recessivos",
+      "1 : 1",
+      "Todos recessivos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 72,
+    "nivel": "medio",
+    "pergunta": "Um indivíduo com genótipo Aa é descrito como",
+    "opcoes": [
+      "Heterozigótico",
+      "Homozigótico dominante",
+      "Homozigótico recessivo",
+      "Haploide"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 73,
+    "nivel": "medio",
+    "pergunta": "O que caracteriza uma mutação?",
+    "opcoes": [
+      "Alteração na sequência do material genético",
+      "Qualquer mudança de comportamento",
+      "Sempre uma doença letal",
+      "Uma troca de alimento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 74,
+    "nivel": "medio",
+    "pergunta": "Qual mutação tende a não alterar a proteína codificada?",
+    "opcoes": [
+      "Mutação silenciosa",
+      "Mutação sem sentido",
+      "Mutação de mudança de pauta",
+      "Delecção de cromossoma inteiro"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 75,
+    "nivel": "medio",
+    "pergunta": "O que é fluxo génico?",
+    "opcoes": [
+      "Transferência de alelos entre populações",
+      "Produção de energia na célula",
+      "Degradação de proteínas",
+      "Divisão de um ecossistema"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 76,
+    "nivel": "medio",
+    "pergunta": "A deriva genética tem maior efeito provável em",
+    "opcoes": [
+      "Populações pequenas",
+      "Populações infinitamente grandes",
+      "Populações sem reprodução",
+      "Comunidades sem genes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 77,
+    "nivel": "medio",
+    "pergunta": "Qual condição é necessária para a selecção natural actuar sobre uma característica?",
+    "opcoes": [
+      "Variação hereditária associada a diferenças de sobrevivência ou reprodução",
+      "Ausência total de variação",
+      "Todos os indivíduos terem o mesmo sucesso",
+      "A característica ser adquirida sempre por treino"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 78,
+    "nivel": "medio",
+    "pergunta": "Estruturas homólogas indicam geralmente",
+    "opcoes": [
+      "Ancestralidade comum",
+      "Função sempre idêntica",
+      "Ausência de evolução",
+      "Origem exclusivamente mineral"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 79,
+    "nivel": "medio",
+    "pergunta": "O que é especiação?",
+    "opcoes": [
+      "Formação de novas espécies",
+      "Desaparecimento de todos os genes",
+      "Crescimento de um indivíduo",
+      "Mudança diária do clima"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 80,
+    "nivel": "medio",
+    "pergunta": "Qual barreira pré-zigótica impede a fecundação por ocorrerem épocas reprodutivas diferentes?",
+    "opcoes": [
+      "Isolamento temporal",
+      "Isolamento mecânico",
+      "Inviabilidade do híbrido",
+      "Esterilidade do híbrido"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 81,
+    "nivel": "medio",
+    "pergunta": "Numa cadeia alimentar, a energia disponível geralmente",
+    "opcoes": [
+      "Diminui de um nível trófico para o seguinte",
+      "Aumenta em cada nível",
+      "Permanece sempre igual",
+      "Só existe nos decompositores"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 82,
+    "nivel": "medio",
+    "pergunta": "O que representa a biomassa de uma pirâmide ecológica?",
+    "opcoes": [
+      "Massa de matéria orgânica num nível trófico",
+      "Número de espécies do bioma",
+      "Volume de água do habitat",
+      "Taxa de mutação de uma população"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 83,
+    "nivel": "medio",
+    "pergunta": "A capacidade de suporte de um ambiente é",
+    "opcoes": [
+      "O tamanho máximo de população sustentado pelos recursos disponíveis",
+      "A velocidade máxima de um predador",
+      "O número de genes de uma espécie",
+      "A área de uma folha"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 84,
+    "nivel": "medio",
+    "pergunta": "Qual processo fixa azoto atmosférico em formas utilizáveis por plantas?",
+    "opcoes": [
+      "Fixação do azoto por microrganismos",
+      "Respiração dos animais",
+      "Transpiração foliar",
+      "Digestão no intestino"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 85,
+    "nivel": "medio",
+    "pergunta": "A eutrofização de um lago é frequentemente causada por excesso de",
+    "opcoes": [
+      "Nitratos e fosfatos",
+      "Oxigénio e areia",
+      "Cálcio e hemoglobina",
+      "Glicose e queratina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 86,
+    "nivel": "medio",
+    "pergunta": "O que é sucessão ecológica?",
+    "opcoes": [
+      "Mudança gradual da composição de uma comunidade ao longo do tempo",
+      "Migração diária de um animal",
+      "Duplicação de um cromossoma",
+      "Circulação do sangue"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 87,
+    "nivel": "medio",
+    "pergunta": "Qual relação beneficia o parasita e prejudica o hospedeiro?",
+    "opcoes": [
+      "Parasitismo",
+      "Comensalismo",
+      "Mutualismo",
+      "Neutralismo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 88,
+    "nivel": "medio",
+    "pergunta": "Que estrutura pulmonar é o principal local de difusão de oxigénio para o sangue?",
+    "opcoes": [
+      "Alvéolos",
+      "Brônquios",
+      "Traqueia",
+      "Epiglote"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 89,
+    "nivel": "medio",
+    "pergunta": "O sangue oxigenado vindo dos pulmões chega primeiro ao",
+    "opcoes": [
+      "Átrio esquerdo",
+      "Ventrículo esquerdo",
+      "Átrio direito",
+      "Ventrículo direito"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 90,
+    "nivel": "medio",
+    "pergunta": "Qual válvula impede o refluxo do ventrículo esquerdo para o átrio esquerdo?",
+    "opcoes": [
+      "Válvula mitral",
+      "Válvula tricúspide",
+      "Válvula pulmonar",
+      "Válvula aórtica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 91,
+    "nivel": "medio",
+    "pergunta": "Onde ocorre a maior parte da absorção de nutrientes no sistema digestivo?",
+    "opcoes": [
+      "Intestino delgado",
+      "Intestino grosso",
+      "Estômago",
+      "Esófago"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 92,
+    "nivel": "medio",
+    "pergunta": "Qual enzima pancreática digere proteínas?",
+    "opcoes": [
+      "Tripsina",
+      "Lipase",
+      "Amilase salivar",
+      "Lactase"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 93,
+    "nivel": "medio",
+    "pergunta": "A hormona antidiurética (ADH) aumenta principalmente",
+    "opcoes": [
+      "A reabsorção de água nos rins",
+      "A produção de bílis",
+      "A ventilação pulmonar",
+      "A digestão de lípidos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 94,
+    "nivel": "medio",
+    "pergunta": "Que parte do neurónio recebe geralmente sinais de outros neurónios?",
+    "opcoes": [
+      "Dendritos",
+      "Axónio",
+      "Bainha de mielina",
+      "Terminal muscular"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 95,
+    "nivel": "medio",
+    "pergunta": "A transmissão através de uma sinapse química depende da libertação de",
+    "opcoes": [
+      "Neurotransmissores",
+      "Hemoglobina",
+      "Bílis",
+      "Colagénio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 96,
+    "nivel": "medio",
+    "pergunta": "Qual glândula produz tiroxina?",
+    "opcoes": [
+      "Tiróide",
+      "Hipófise",
+      "Supra-renal",
+      "Pâncreas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 97,
+    "nivel": "medio",
+    "pergunta": "O feedback negativo num sistema hormonal tende a",
+    "opcoes": [
+      "Reduzir o estímulo inicial e estabilizar a variável",
+      "Amplificar indefinidamente o estímulo",
+      "Impedir toda a secreção hormonal",
+      "Transformar hormonas em enzimas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 98,
+    "nivel": "medio",
+    "pergunta": "Na fotossíntese, a fase dependente da luz produz principalmente",
+    "opcoes": [
+      "ATP, NADPH e oxigénio",
+      "Glicose e azoto",
+      "Ácido láctico e CO2",
+      "Ureia e amoníaco"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 99,
+    "nivel": "medio",
+    "pergunta": "Em que estrutura ocorre o ciclo de Calvin?",
+    "opcoes": [
+      "Estroma do cloroplasto",
+      "Membrana do lisossoma",
+      "Matriz do núcleo",
+      "Cristas mitocondriais"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 100,
+    "nivel": "medio",
+    "pergunta": "Qual tecido vegetal é formado por células que se dividem activamente?",
+    "opcoes": [
+      "Meristema",
+      "Esclerênquima",
+      "Xilema maduro",
+      "Súber"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 101,
+    "nivel": "medio",
+    "pergunta": "Os estomas regulam principalmente",
+    "opcoes": [
+      "Trocas gasosas e perda de água",
+      "Transporte de sangue",
+      "Produção de sementes no ovário",
+      "Digestão de amido no caule"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 102,
+    "nivel": "medio",
+    "pergunta": "A fecundação nas angiospérmicas ocorre quando",
+    "opcoes": [
+      "Um gâmeta masculino se funde com a oosfera",
+      "O pólen se transforma em fruto sem fusão",
+      "A raiz se une ao xilema",
+      "Duas folhas se unem"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 103,
+    "nivel": "medio",
+    "pergunta": "Qual característica distingue as gimnospérmicas das angiospérmicas?",
+    "opcoes": [
+      "As sementes das gimnospérmicas não ficam encerradas num fruto",
+      "As gimnospérmicas não possuem vasos",
+      "As angiospérmicas não têm flores",
+      "As gimnospérmicas são sempre aquáticas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 104,
+    "nivel": "medio",
+    "pergunta": "Que filo inclui animais com corpo mole e, frequentemente, concha?",
+    "opcoes": [
+      "Moluscos",
+      "Equinodermes",
+      "Anelídeos",
+      "Cnidários"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 105,
+    "nivel": "medio",
+    "pergunta": "Qual característica é típica dos artrópodes?",
+    "opcoes": [
+      "Exoesqueleto e apêndices articulados",
+      "Notocorda em todos os adultos",
+      "Corpo sem segmentação",
+      "Ausência de quitina"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 106,
+    "nivel": "medio",
+    "pergunta": "Os anfíbios dependem geralmente da água para",
+    "opcoes": [
+      "Reprodução e desenvolvimento inicial",
+      "Produzir penas",
+      "Formar escamas queratinizadas",
+      "Fazer digestão extracelular"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 107,
+    "nivel": "medio",
+    "pergunta": "Qual grupo possui circulação dupla e completa, com quatro cavidades cardíacas?",
+    "opcoes": [
+      "Aves",
+      "Peixes",
+      "A maioria dos anfíbios",
+      "A maioria dos répteis"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 108,
+    "nivel": "medio",
+    "pergunta": "Que estrutura bacteriana pode conferir resistência a antibióticos e replicar-se independentemente?",
+    "opcoes": [
+      "Plasmídeo",
+      "Lisossoma",
+      "Cloroplasto",
+      "Centríolo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 109,
+    "nivel": "medio",
+    "pergunta": "Qual processo permite a uma bactéria adquirir DNA livre do ambiente?",
+    "opcoes": [
+      "Transformação",
+      "Tradução",
+      "Transpiração",
+      "Germinação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 110,
+    "nivel": "medio",
+    "pergunta": "Os antibióticos são geralmente eficazes contra",
+    "opcoes": [
+      "Bactérias susceptíveis",
+      "Todos os vírus",
+      "Todas as células humanas",
+      "Deficiência de vitaminas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 111,
+    "nivel": "medio",
+    "pergunta": "Qual é uma medida eficaz contra a resistência antimicrobiana?",
+    "opcoes": [
+      "Usar antibióticos apenas quando prescritos e completar a orientação",
+      "Interromper sempre ao primeiro alívio",
+      "Usar antibióticos para constipações virais",
+      "Partilhar sobras de medicamentos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 112,
+    "nivel": "medio",
+    "pergunta": "Qual componente do sangue participa principalmente na coagulação?",
+    "opcoes": [
+      "Plaquetas",
+      "Plasma sem proteínas",
+      "Glóbulos vermelhos",
+      "Linfócitos T apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 113,
+    "nivel": "medio",
+    "pergunta": "O que caracteriza a imunidade adquirida activa após vacinação?",
+    "opcoes": [
+      "Formação de memória imunológica pelo próprio organismo",
+      "Recepção imediata de anticorpos prontos",
+      "Ausência de linfócitos",
+      "Destruição de toda a microbiota"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 114,
+    "nivel": "dificil",
+    "pergunta": "Por que razão as mitocôndrias e os cloroplastos apoiam a hipótese endossimbiótica?",
+    "opcoes": [
+      "Têm DNA circular, ribossomas próprios e divisão semelhante à bacteriana",
+      "Possuem apenas DNA linear no núcleo",
+      "São formados exclusivamente no complexo de Golgi",
+      "Não têm membranas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 115,
+    "nivel": "dificil",
+    "pergunta": "A inibição competitiva de uma enzima caracteriza-se por",
+    "opcoes": [
+      "O inibidor competir pelo sítio activo e poder ser superado por mais substrato",
+      "O inibidor destruir permanentemente a enzima em qualquer concentração",
+      "Aumentar sempre a afinidade da enzima pelo substrato",
+      "Impedir a ligação do produto ao DNA"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 116,
+    "nivel": "dificil",
+    "pergunta": "Se o pH se afastar muito do óptimo de uma enzima, a actividade pode cair porque",
+    "opcoes": [
+      "Alterações na ionização e na estrutura afectam o sítio activo",
+      "A enzima se transforma sempre em lípido",
+      "O substrato deixa de ter átomos",
+      "O ATP deixa de conter fósforo"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 117,
+    "nivel": "dificil",
+    "pergunta": "Na respiração aeróbia, a cadeia transportadora de electrões localiza-se principalmente",
+    "opcoes": [
+      "Na membrana interna da mitocôndria",
+      "No citoplasma",
+      "Na membrana externa do núcleo",
+      "No interior dos lisossomas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 118,
+    "nivel": "dificil",
+    "pergunta": "A fosforilação oxidativa produz ATP através de",
+    "opcoes": [
+      "Gradiente de protões e ATP-sintase",
+      "Hidrólise directa de DNA",
+      "Conversão de oxigénio em glicose",
+      "Ligação de aminoácidos ao xilema"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 119,
+    "nivel": "dificil",
+    "pergunta": "Na ausência de oxigénio, a fermentação permite principalmente",
+    "opcoes": [
+      "Regenerar NAD+ para manter a glicólise",
+      "Produzir mais ATP que a respiração aeróbia",
+      "Oxidar completamente a glicose",
+      "Formar clorofila"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 120,
+    "nivel": "dificil",
+    "pergunta": "A crossing-over durante a meiose ocorre entre",
+    "opcoes": [
+      "Cromossomas homólogos emparelhados na prófase I",
+      "Cromátides de cromossomas não replicados na telófase II",
+      "Ribossomas no citoplasma",
+      "Genes de duas células sem contacto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 121,
+    "nivel": "dificil",
+    "pergunta": "A não-disjunção na meiose pode originar gâmetas",
+    "opcoes": [
+      "Com número anormal de cromossomas",
+      "Sempre geneticamente idênticos",
+      "Sem qualquer material genético",
+      "Com parede celular"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 122,
+    "nivel": "dificil",
+    "pergunta": "Uma célula humana com 47 cromossomas devido a uma cópia extra do cromossoma 21 apresenta",
+    "opcoes": [
+      "Trissomia 21",
+      "Monossomia X",
+      "Triploidia",
+      "Dissomia uniparental obrigatória"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 123,
+    "nivel": "dificil",
+    "pergunta": "Na regulação da expressão génica, a metilação intensa de promotores está geralmente associada a",
+    "opcoes": [
+      "Silenciamento transcricional",
+      "Aumento obrigatório da tradução",
+      "Duplicação de todos os cromossomas",
+      "Degradação de lípidos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 124,
+    "nivel": "dificil",
+    "pergunta": "Um intrão é",
+    "opcoes": [
+      "Uma sequência de RNA removida do transcrito durante o processamento",
+      "Um aminoácido incorporado no ribossoma",
+      "Um cromossoma extra",
+      "Uma proteína de membrana"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 125,
+    "nivel": "dificil",
+    "pergunta": "O splicing alternativo permite que uma célula",
+    "opcoes": [
+      "Produza diferentes RNAs mensageiros a partir do mesmo gene",
+      "Duplique todos os genes sem controlo",
+      "Converta proteínas em DNA",
+      "Elimine todos os exões"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 126,
+    "nivel": "dificil",
+    "pergunta": "Uma mutação nonsense normalmente introduz",
+    "opcoes": [
+      "Um codão de terminação prematuro",
+      "Um novo centríolo",
+      "Uma segunda origem de replicação",
+      "Um intrão em todos os genes"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 127,
+    "nivel": "dificil",
+    "pergunta": "Em equilíbrio de Hardy-Weinberg, a frequência de alelos permanece constante quando não há",
+    "opcoes": [
+      "Selecção, mutação, migração, deriva significativa nem acasalamento não aleatório",
+      "Reprodução ou população",
+      "DNA ou cromossomas",
+      "Energia no ecossistema"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 128,
+    "nivel": "dificil",
+    "pergunta": "Numa população em Hardy-Weinberg com frequência de alelo recessivo q = 0,2, a frequência esperada de homozigóticos recessivos é",
+    "opcoes": [
+      "0,04",
+      "0,20",
+      "0,32",
+      "0,64"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 129,
+    "nivel": "dificil",
+    "pergunta": "A selecção estabilizadora tende a favorecer",
+    "opcoes": [
+      "Fenótipos intermédios e reduzir os extremos",
+      "Um extremo e eliminar o intermédio",
+      "Ambos os extremos igualmente",
+      "Apenas mutações novas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 130,
+    "nivel": "dificil",
+    "pergunta": "A selecção disruptiva pode favorecer",
+    "opcoes": [
+      "Dois fenótipos extremos em detrimento do intermédio",
+      "Somente o fenótipo médio",
+      "Todos os genótipos na mesma proporção",
+      "A ausência de reprodução"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 131,
+    "nivel": "dificil",
+    "pergunta": "A especiação alopátrica inicia-se frequentemente por",
+    "opcoes": [
+      "Isolamento geográfico de populações",
+      "Aumento obrigatório do fluxo génico",
+      "Fusão de todos os habitats",
+      "Ausência de mutações"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 132,
+    "nivel": "dificil",
+    "pergunta": "O princípio da parcimónia em filogenia prefere a árvore que",
+    "opcoes": [
+      "Requer o menor número de mudanças evolutivas",
+      "Tem mais espécies em cada ramo",
+      "Coloca sempre plantas no topo",
+      "Usa apenas nomes populares"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 133,
+    "nivel": "dificil",
+    "pergunta": "Uma apomorfia é",
+    "opcoes": [
+      "Um carácter derivado partilhado usado para reconhecer um grupo",
+      "Qualquer carácter ancestral de todos os seres vivos",
+      "Uma doença infecciosa",
+      "Uma molécula de ATP"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 134,
+    "nivel": "dificil",
+    "pergunta": "A transferência horizontal de genes é importante porque",
+    "opcoes": [
+      "Pode transferir genes entre organismos sem relação directa de descendência",
+      "Ocorre apenas entre pais e filhos",
+      "Impede qualquer evolução bacteriana",
+      "Acontece somente em animais multicelulares"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 135,
+    "nivel": "dificil",
+    "pergunta": "A produção de descendentes férteis é um critério central do conceito biológico de espécie porque indica",
+    "opcoes": [
+      "Compatibilidade reprodutiva",
+      "Identidade de habitat em todos os casos",
+      "Tamanho corporal igual",
+      "Ausência de variação genética"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 136,
+    "nivel": "dificil",
+    "pergunta": "O efeito de gargalo populacional ocorre quando",
+    "opcoes": [
+      "Uma redução drástica do tamanho populacional altera frequências alelicas por acaso",
+      "A população cresce sem limites",
+      "Todos os indivíduos migram de modo igual",
+      "A selecção deixa de existir no planeta"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 137,
+    "nivel": "dificil",
+    "pergunta": "A energia incorporada pelos produtores numa comunidade corresponde à",
+    "opcoes": [
+      "Produção primária líquida após descontar a respiração dos produtores",
+      "Respiração total dos consumidores",
+      "Biomassa dos decompositores apenas",
+      "Energia solar reflectida pelas nuvens"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 138,
+    "nivel": "dificil",
+    "pergunta": "A produtividade primária bruta de um ecossistema é",
+    "opcoes": [
+      "A energia fixada pela fotossíntese antes de descontar a respiração vegetal",
+      "A energia perdida nas fezes dos herbívoros",
+      "A massa de predadores no topo",
+      "A energia usada apenas pelos fungos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 139,
+    "nivel": "dificil",
+    "pergunta": "A biomagnificação de um poluente persistente tende a ser maior",
+    "opcoes": [
+      "Nos consumidores de níveis tróficos mais elevados",
+      "Nos produtores, sempre em qualquer ecossistema",
+      "Na água antes de entrar nos organismos",
+      "Nos decompositores sem acumulação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 140,
+    "nivel": "dificil",
+    "pergunta": "A nitrificação no ciclo do azoto converte principalmente",
+    "opcoes": [
+      "Amónio em nitrito e depois em nitrato",
+      "Nitrato em azoto atmosférico apenas",
+      "Azoto atmosférico em proteínas directamente",
+      "Proteínas em fosfato"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 141,
+    "nivel": "dificil",
+    "pergunta": "A desnitrificação contribui para",
+    "opcoes": [
+      "Devolver azoto molecular à atmosfera",
+      "Fixar carbono em glicose",
+      "Produzir oxigénio nos estomas",
+      "Formar hemoglobina nos rins"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 142,
+    "nivel": "dificil",
+    "pergunta": "A fragmentação do habitat pode reduzir a biodiversidade porque",
+    "opcoes": [
+      "Diminui áreas contínuas, isola populações e aumenta efeitos de borda",
+      "Aumenta sempre o fluxo génico",
+      "Elimina todos os predadores sem excepção",
+      "Converte factores abióticos em bióticos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 143,
+    "nivel": "dificil",
+    "pergunta": "Em dinâmica logística, o crescimento populacional abranda perto da capacidade de suporte devido",
+    "opcoes": [
+      "À limitação crescente de recursos e ao aumento de factores dependentes da densidade",
+      "À produção ilimitada de alimentos",
+      "À ausência de competição",
+      "À transformação de indivíduos em produtores"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 144,
+    "nivel": "dificil",
+    "pergunta": "O potencial de acção de um neurónio obedece ao princípio do tudo-ou-nada porque",
+    "opcoes": [
+      "Ultrapassado o limiar, ocorre um impulso de amplitude aproximadamente constante",
+      "A amplitude cresce sempre proporcionalmente ao estímulo",
+      "Só ocorre em células musculares",
+      "Depende de fotossíntese"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 145,
+    "nivel": "dificil",
+    "pergunta": "Durante a despolarização de um potencial de acção, ocorre principalmente",
+    "opcoes": [
+      "Entrada rápida de Na+ por canais dependentes de voltagem",
+      "Saída de Ca2+ do citoplasma por canais de cloro",
+      "Entrada de K+ por canais de sódio",
+      "Bloqueio permanente de todos os canais"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 146,
+    "nivel": "dificil",
+    "pergunta": "A bomba de sódio-potássio mantém gradientes iónicos ao",
+    "opcoes": [
+      "Transportar 3 Na+ para fora e 2 K+ para dentro por ATP",
+      "Transportar 2 Na+ para fora e 3 K+ para dentro sem ATP",
+      "Trocar glicose por oxigénio",
+      "Abrir canais de cálcio na sinapse"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 147,
+    "nivel": "dificil",
+    "pergunta": "A hormona paratiroideia aumenta a concentração de cálcio no sangue ao favorecer",
+    "opcoes": [
+      "Reabsorção renal de cálcio e mobilização óssea",
+      "Deposição de cálcio no osso e excreção renal",
+      "Diminuição da vitamina D activa",
+      "Bloqueio da absorção intestinal de cálcio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 148,
+    "nivel": "dificil",
+    "pergunta": "Na filtração glomerular, passam normalmente para a cápsula de Bowman",
+    "opcoes": [
+      "Água e pequenas moléculas, mas não células sanguíneas intactas",
+      "Eritrócitos e grandes proteínas em abundância",
+      "Apenas lípidos",
+      "Somente hormonas ligadas a células"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 149,
+    "nivel": "dificil",
+    "pergunta": "A alça descendente de Henle é relativamente mais permeável a",
+    "opcoes": [
+      "Água do que a solutos",
+      "Solutos do que a água em toda a sua extensão",
+      "Proteínas plasmáticas",
+      "Células epiteliais"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 150,
+    "nivel": "dificil",
+    "pergunta": "O sistema porta-hepático conduz sangue do intestino ao fígado para",
+    "opcoes": [
+      "Processamento e armazenamento de nutrientes absorvidos",
+      "Oxigenação directa nos alvéolos",
+      "Filtração glomerular imediata",
+      "Produção de impulsos nervosos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 151,
+    "nivel": "dificil",
+    "pergunta": "A hemoglobina facilita o transporte de oxigénio porque",
+    "opcoes": [
+      "Se liga reversivelmente ao O2 nos eritrócitos",
+      "Converte O2 em glicose",
+      "Destrói o dióxido de carbono por hidrólise",
+      "É produzida nos alvéolos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 152,
+    "nivel": "dificil",
+    "pergunta": "O deslocamento para a direita da curva de dissociação da hemoglobina indica",
+    "opcoes": [
+      "Menor afinidade pelo oxigénio e maior libertação nos tecidos",
+      "Maior afinidade e menor libertação",
+      "Ausência de hemoglobina",
+      "Saturação impossível nos pulmões"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 153,
+    "nivel": "dificil",
+    "pergunta": "Na fotossíntese C4, a separação entre fixação inicial do carbono e ciclo de Calvin ajuda a",
+    "opcoes": [
+      "Reduzir a fotorrespiração em condições quentes e luminosas",
+      "Impedir toda a perda de água durante a noite",
+      "Substituir completamente o ATP",
+      "Eliminar a necessidade de cloroplastos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 154,
+    "nivel": "dificil",
+    "pergunta": "A fotorrespiração aumenta quando a rubisco",
+    "opcoes": [
+      "Actua como oxigenase, especialmente com alta temperatura e baixa concentração de CO2",
+      "Fixa apenas azoto atmosférico",
+      "Deixa de ligar qualquer gás",
+      "Produz ATP na membrana plasmática"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 155,
+    "nivel": "dificil",
+    "pergunta": "A dominância apical das plantas é promovida principalmente por",
+    "opcoes": [
+      "Auxina produzida no ápice, que inibe o crescimento de gemas laterais",
+      "Etileno produzido nas raízes, que abre estomas",
+      "Giberelina que impede alongamento",
+      "Ácido abscísico que promove floração em todos os casos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 156,
+    "nivel": "dificil",
+    "pergunta": "O ácido abscísico contribui para a resposta das plantas à seca ao",
+    "opcoes": [
+      "Induzir o fecho dos estomas",
+      "Aumentar a abertura dos estomas",
+      "Estimular a germinação em sementes dormentes",
+      "Degradar toda a clorofila em segundos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 157,
+    "nivel": "dificil",
+    "pergunta": "Na alternância de gerações das plantas, o gametófito é a fase",
+    "opcoes": [
+      "Haploide que produz gâmetas por mitose",
+      "Diploide que produz esporos por meiose",
+      "Haploide que produz gâmetas por meiose",
+      "Diploide que resulta sempre de fragmentação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 158,
+    "nivel": "dificil",
+    "pergunta": "A dupla fecundação das angiospérmicas origina",
+    "opcoes": [
+      "Embrião diploide e endosperma geralmente triploide",
+      "Dois embriões haploides e nenhum tecido nutritivo",
+      "Endosperma diploide e zigoto tetraploide",
+      "Apenas pólen e sépalas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 159,
+    "nivel": "dificil",
+    "pergunta": "Nos animais, a segmentação embrionária consiste em",
+    "opcoes": [
+      "Divisões mitóticas sucessivas do zigoto sem aumento proporcional do volume total",
+      "Meiose dos gâmetas após a fecundação",
+      "Formação de gametas no adulto",
+      "Diferenciação exclusiva de neurónios"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 160,
+    "nivel": "dificil",
+    "pergunta": "A simetria bilateral está associada evolutivamente a",
+    "opcoes": [
+      "Cefalização e locomoção direccional",
+      "Ausência total de sistema nervoso",
+      "Vida exclusivamente séssil",
+      "Número infinito de planos corporais"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 161,
+    "nivel": "dificil",
+    "pergunta": "Nos insectos, o sistema traqueal conduz oxigénio",
+    "opcoes": [
+      "Directamente aos tecidos através de tubos e espiráculos",
+      "Pelo sangue com hemoglobina em todos os casos",
+      "Através de brânquias internas",
+      "Somente pela superfície dos olhos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 162,
+    "nivel": "dificil",
+    "pergunta": "A metameria dos anelídeos corresponde a",
+    "opcoes": [
+      "Repetição de unidades corporais ao longo do eixo",
+      "Presença de concha calcária única",
+      "Ausência de cavidade corporal",
+      "Fusão de todos os órgãos num saco"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 163,
+    "nivel": "dificil",
+    "pergunta": "A parede celular bacteriana Gram-positiva distingue-se geralmente por",
+    "opcoes": [
+      "Camada espessa de peptidoglicano e ausência de membrana externa típica",
+      "Camada fina de peptidoglicano e membrana externa rica em LPS",
+      "Ausência total de peptidoglicano em todas as espécies",
+      "Presença de quitina como principal polímero"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 164,
+    "nivel": "dificil",
+    "pergunta": "A coloração de Gram diferencia bactérias principalmente com base",
+    "opcoes": [
+      "Na estrutura das suas paredes celulares",
+      "No tamanho dos seus ribossomas apenas",
+      "Na presença de núcleo verdadeiro",
+      "Na capacidade de fazer fotossíntese"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 165,
+    "nivel": "dificil",
+    "pergunta": "A conjugação bacteriana envolve tipicamente",
+    "opcoes": [
+      "Transferência de DNA por contacto célula-célula, frequentemente através de pilus",
+      "Produção de gâmetas haploides",
+      "Fusão de núcleos eucarióticos",
+      "Infecção obrigatória por fungos"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 166,
+    "nivel": "dificil",
+    "pergunta": "A fase de latência de uma infecção viral é aquela em que",
+    "opcoes": [
+      "O genoma viral permanece no hospedeiro sem produção contínua de partículas",
+      "O vírus produz sempre sintomas máximos",
+      "A bactéria forma endósporos",
+      "O hospedeiro deixa de ter DNA"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 167,
+    "nivel": "dificil",
+    "pergunta": "A apresentação de antigénios por células dendríticas activa linfócitos T porque",
+    "opcoes": [
+      "Exibe fragmentos antigénicos ligados a moléculas do complexo principal de histocompatibilidade",
+      "Liberta apenas hemoglobina",
+      "Converte anticorpos em antibióticos",
+      "Impede qualquer contacto entre células"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 168,
+    "nivel": "dificil",
+    "pergunta": "A imunidade colectiva protege indirectamente pessoas susceptíveis quando",
+    "opcoes": [
+      "A circulação do agente diminui porque uma grande parte da população está imune",
+      "Todos recebem antibióticos diariamente",
+      "As mutações deixam de ocorrer",
+      "A população perde contacto social completamente"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 169,
+    "nivel": "dificil",
+    "pergunta": "A resistência bacteriana adquirida por uma mutação pode espalhar-se rapidamente se",
+    "opcoes": [
+      "O antibiótico seleccionar os mutantes resistentes e estes se reproduzirem",
+      "A mutação ocorrer apenas em células mortas",
+      "O antibiótico eliminar preferencialmente os resistentes",
+      "Não houver reprodução nem transmissão"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 170,
+    "nivel": "dificil",
+    "pergunta": "Na epidemiologia, o número básico de reprodução R0 representa",
+    "opcoes": [
+      "O número médio de novas infecções geradas por um caso numa população totalmente susceptível",
+      "A dose mínima de uma vacina",
+      "A percentagem de pessoas já curadas",
+      "O tempo de incubação em horas"
+    ],
+    "resposta_correta": 0
+  }
+]

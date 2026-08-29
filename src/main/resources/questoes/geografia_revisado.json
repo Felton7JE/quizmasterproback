@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Gaza: Xai-Xai?",
+    "opcoes": [
+      "Chimoio",
+      "Outra opção",
+      "Xai-Xai",
+      "Beira"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 2,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Gaza?",
+    "opcoes": [
+      "Xai-Xai",
+      "Beira",
+      "Chimoio",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 3,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Gaza:",
+    "opcoes": [
+      "Xai-Xai",
+      "Beira",
+      "Chimoio",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 4,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Inhambane: Inhambane?",
+    "opcoes": [
+      "Outra opção",
+      "Inhambane",
+      "Pemba",
+      "Tete"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 5,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Inhambane?",
+    "opcoes": [
+      "Inhambane",
+      "Pemba",
+      "Tete",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 6,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Inhambane:",
+    "opcoes": [
+      "Tete",
+      "Outra opção",
+      "Inhambane",
+      "Pemba"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 7,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Manica: Chimoio?",
+    "opcoes": [
+      "Lichinga",
+      "Outra opção",
+      "Chimoio",
+      "Tete"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 8,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Manica?",
+    "opcoes": [
+      "Outra opção",
+      "Chimoio",
+      "Tete",
+      "Lichinga"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 9,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Manica:",
+    "opcoes": [
+      "Chimoio",
+      "Tete",
+      "Lichinga",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 10,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Maputo: Matola?",
+    "opcoes": [
+      "Beira",
+      "Nampula",
+      "Outra opção",
+      "Matola"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 11,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Maputo?",
+    "opcoes": [
+      "Outra opção",
+      "Matola",
+      "Beira",
+      "Nampula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 12,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Maputo:",
+    "opcoes": [
+      "Outra opção",
+      "Matola",
+      "Beira",
+      "Nampula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 13,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Nampula: Nampula?",
+    "opcoes": [
+      "Nampula",
+      "Pemba",
+      "Quelimane",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 14,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Nampula?",
+    "opcoes": [
+      "Quelimane",
+      "Outra opção",
+      "Nampula",
+      "Pemba"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 15,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Nampula:",
+    "opcoes": [
+      "Quelimane",
+      "Outra opção",
+      "Nampula",
+      "Pemba"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 16,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Niassa: Lichinga?",
+    "opcoes": [
+      "Outra opção",
+      "Lichinga",
+      "Tete",
+      "Pemba"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 17,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Niassa?",
+    "opcoes": [
+      "Tete",
+      "Pemba",
+      "Outra opção",
+      "Lichinga"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 18,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Niassa:",
+    "opcoes": [
+      "Lichinga",
+      "Tete",
+      "Pemba",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 19,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Sofala: Beira?",
+    "opcoes": [
+      "Chimoio",
+      "Outra opção",
+      "Beira",
+      "Pemba"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 20,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Sofala?",
+    "opcoes": [
+      "Outra opção",
+      "Beira",
+      "Pemba",
+      "Chimoio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 21,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Sofala:",
+    "opcoes": [
+      "Outra opção",
+      "Beira",
+      "Pemba",
+      "Chimoio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 22,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Tete: Tete?",
+    "opcoes": [
+      "Outra opção",
+      "Tete",
+      "Xai-Xai",
+      "Nampula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 23,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Tete?",
+    "opcoes": [
+      "Outra opção",
+      "Tete",
+      "Xai-Xai",
+      "Nampula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 24,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Tete:",
+    "opcoes": [
+      "Xai-Xai",
+      "Nampula",
+      "Outra opção",
+      "Tete"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 25,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Zambézia: Quelimane?",
+    "opcoes": [
+      "Pemba",
+      "Outra opção",
+      "Quelimane",
+      "Chimoio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 26,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Zambézia?",
+    "opcoes": [
+      "Outra opção",
+      "Quelimane",
+      "Chimoio",
+      "Pemba"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 27,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Zambézia:",
+    "opcoes": [
+      "Outra opção",
+      "Quelimane",
+      "Chimoio",
+      "Pemba"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 28,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Maputo Cidade: Maputo?",
+    "opcoes": [
+      "Outra opção",
+      "Maputo",
+      "Matola",
+      "Beira"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 29,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Maputo Cidade?",
+    "opcoes": [
+      "Outra opção",
+      "Maputo",
+      "Matola",
+      "Beira"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 30,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Maputo Cidade:",
+    "opcoes": [
+      "Matola",
+      "Beira",
+      "Outra opção",
+      "Maputo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 31,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Angola: Luanda?",
+    "opcoes": [
+      "Lusaca",
+      "Windhoek",
+      "Outra opção",
+      "Luanda"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 32,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Angola?",
+    "opcoes": [
+      "Lusaca",
+      "Windhoek",
+      "Outra opção",
+      "Luanda"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 33,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Angola:",
+    "opcoes": [
+      "Lusaca",
+      "Windhoek",
+      "Outra opção",
+      "Luanda"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 34,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre África do Sul: Pretória?",
+    "opcoes": [
+      "Gaborone",
+      "Outra opção",
+      "Pretória",
+      "Maputo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 35,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre África do Sul?",
+    "opcoes": [
+      "Outra opção",
+      "Pretória",
+      "Maputo",
+      "Gaborone"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 36,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente África do Sul:",
+    "opcoes": [
+      "Gaborone",
+      "Outra opção",
+      "Pretória",
+      "Maputo"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 37,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Brasil: Brasília?",
+    "opcoes": [
+      "Outra opção",
+      "Brasília",
+      "Buenos Aires",
+      "Lima"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 38,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Brasil?",
+    "opcoes": [
+      "Brasília",
+      "Buenos Aires",
+      "Lima",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 39,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Brasil:",
+    "opcoes": [
+      "Brasília",
+      "Buenos Aires",
+      "Lima",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 40,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Canadá: Ottawa?",
+    "opcoes": [
+      "Ottawa",
+      "Washington, D.C.",
+      "Londres",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 41,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Canadá?",
+    "opcoes": [
+      "Ottawa",
+      "Washington, D.C.",
+      "Londres",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 42,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Canadá:",
+    "opcoes": [
+      "Washington, D.C.",
+      "Londres",
+      "Outra opção",
+      "Ottawa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 43,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre China: Pequim?",
+    "opcoes": [
+      "Pequim",
+      "Tóquio",
+      "Seul",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 44,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre China?",
+    "opcoes": [
+      "Seul",
+      "Outra opção",
+      "Pequim",
+      "Tóquio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 45,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente China:",
+    "opcoes": [
+      "Pequim",
+      "Tóquio",
+      "Seul",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 46,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Egipto: Cairo?",
+    "opcoes": [
+      "Trípoli",
+      "Outra opção",
+      "Cairo",
+      "Cartum"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 47,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Egipto?",
+    "opcoes": [
+      "Cairo",
+      "Cartum",
+      "Trípoli",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 48,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Egipto:",
+    "opcoes": [
+      "Trípoli",
+      "Outra opção",
+      "Cairo",
+      "Cartum"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 49,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre França: Paris?",
+    "opcoes": [
+      "Madrid",
+      "Roma",
+      "Outra opção",
+      "Paris"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 50,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre França?",
+    "opcoes": [
+      "Madrid",
+      "Roma",
+      "Outra opção",
+      "Paris"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 51,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente França:",
+    "opcoes": [
+      "Madrid",
+      "Roma",
+      "Outra opção",
+      "Paris"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 52,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Índia: Nova Deli?",
+    "opcoes": [
+      "Catmandu",
+      "Outra opção",
+      "Nova Deli",
+      "Islamabad"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 53,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Índia?",
+    "opcoes": [
+      "Catmandu",
+      "Outra opção",
+      "Nova Deli",
+      "Islamabad"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 54,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Índia:",
+    "opcoes": [
+      "Nova Deli",
+      "Islamabad",
+      "Catmandu",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 55,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Japão: Tóquio?",
+    "opcoes": [
+      "Seul",
+      "Outra opção",
+      "Tóquio",
+      "Pequim"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 56,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Japão?",
+    "opcoes": [
+      "Tóquio",
+      "Pequim",
+      "Seul",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 57,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Japão:",
+    "opcoes": [
+      "Seul",
+      "Outra opção",
+      "Tóquio",
+      "Pequim"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 58,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Quénia: Nairobi?",
+    "opcoes": [
+      "Dodoma",
+      "Outra opção",
+      "Nairobi",
+      "Campala"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 59,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Quénia?",
+    "opcoes": [
+      "Campala",
+      "Dodoma",
+      "Outra opção",
+      "Nairobi"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 60,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Quénia:",
+    "opcoes": [
+      "Dodoma",
+      "Outra opção",
+      "Nairobi",
+      "Campala"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 61,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Madagáscar: Antananarivo?",
+    "opcoes": [
+      "Antananarivo",
+      "Maputo",
+      "Moroni",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 62,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Madagáscar?",
+    "opcoes": [
+      "Outra opção",
+      "Antananarivo",
+      "Maputo",
+      "Moroni"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 63,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Madagáscar:",
+    "opcoes": [
+      "Antananarivo",
+      "Maputo",
+      "Moroni",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 64,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Nigéria: Abuja?",
+    "opcoes": [
+      "Abuja",
+      "Lagos",
+      "Acra",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 65,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Nigéria?",
+    "opcoes": [
+      "Lagos",
+      "Acra",
+      "Outra opção",
+      "Abuja"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 66,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Nigéria:",
+    "opcoes": [
+      "Acra",
+      "Outra opção",
+      "Abuja",
+      "Lagos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 67,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Portugal: Lisboa?",
+    "opcoes": [
+      "Porto",
+      "Outra opção",
+      "Lisboa",
+      "Madrid"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 68,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Portugal?",
+    "opcoes": [
+      "Madrid",
+      "Porto",
+      "Outra opção",
+      "Lisboa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 69,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Portugal:",
+    "opcoes": [
+      "Lisboa",
+      "Madrid",
+      "Porto",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 70,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Tanzânia: Dodoma?",
+    "opcoes": [
+      "Outra opção",
+      "Dodoma",
+      "Nairobi",
+      "Lilongwe"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 71,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Tanzânia?",
+    "opcoes": [
+      "Dodoma",
+      "Nairobi",
+      "Lilongwe",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 72,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Tanzânia:",
+    "opcoes": [
+      "Lilongwe",
+      "Outra opção",
+      "Dodoma",
+      "Nairobi"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 73,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Zâmbia: Lusaca?",
+    "opcoes": [
+      "Lusaca",
+      "Harare",
+      "Lilongwe",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 74,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Zâmbia?",
+    "opcoes": [
+      "Lusaca",
+      "Harare",
+      "Lilongwe",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 75,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Zâmbia:",
+    "opcoes": [
+      "Lusaca",
+      "Harare",
+      "Lilongwe",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 76,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Zimbabwe: Harare?",
+    "opcoes": [
+      "Lusaca",
+      "Gaborone",
+      "Outra opção",
+      "Harare"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 77,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Zimbabwe?",
+    "opcoes": [
+      "Gaborone",
+      "Outra opção",
+      "Harare",
+      "Lusaca"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 78,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Zimbabwe:",
+    "opcoes": [
+      "Harare",
+      "Lusaca",
+      "Gaborone",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 79,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Malawi: Lilongwe?",
+    "opcoes": [
+      "Lilongwe",
+      "Lusaca",
+      "Harare",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 80,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Malawi?",
+    "opcoes": [
+      "Outra opção",
+      "Lilongwe",
+      "Lusaca",
+      "Harare"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 81,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Malawi:",
+    "opcoes": [
+      "Lilongwe",
+      "Lusaca",
+      "Harare",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 82,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Moçambique: Maputo?",
+    "opcoes": [
+      "Nampula",
+      "Outra opção",
+      "Maputo",
+      "Beira"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 83,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Moçambique?",
+    "opcoes": [
+      "Nampula",
+      "Outra opção",
+      "Maputo",
+      "Beira"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 84,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Moçambique:",
+    "opcoes": [
+      "Maputo",
+      "Beira",
+      "Nampula",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 85,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Namíbia: Windhoek?",
+    "opcoes": [
+      "Pretória",
+      "Outra opção",
+      "Windhoek",
+      "Gaborone"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 86,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Namíbia?",
+    "opcoes": [
+      "Gaborone",
+      "Pretória",
+      "Outra opção",
+      "Windhoek"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 87,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Namíbia:",
+    "opcoes": [
+      "Outra opção",
+      "Windhoek",
+      "Gaborone",
+      "Pretória"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 88,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Botswana: Gaborone?",
+    "opcoes": [
+      "Outra opção",
+      "Gaborone",
+      "Windhoek",
+      "Mbabane"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 89,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Botswana?",
+    "opcoes": [
+      "Gaborone",
+      "Windhoek",
+      "Mbabane",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 90,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Botswana:",
+    "opcoes": [
+      "Windhoek",
+      "Mbabane",
+      "Outra opção",
+      "Gaborone"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 91,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Senegal: Dacar?",
+    "opcoes": [
+      "Dacar",
+      "Bamaco",
+      "Bissau",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 92,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Senegal?",
+    "opcoes": [
+      "Bissau",
+      "Outra opção",
+      "Dacar",
+      "Bamaco"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 93,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Senegal:",
+    "opcoes": [
+      "Dacar",
+      "Bamaco",
+      "Bissau",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 94,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Etiópia: Adis Abeba?",
+    "opcoes": [
+      "Outra opção",
+      "Adis Abeba",
+      "Nairobi",
+      "Asmara"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 95,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Etiópia?",
+    "opcoes": [
+      "Nairobi",
+      "Asmara",
+      "Outra opção",
+      "Adis Abeba"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 96,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Etiópia:",
+    "opcoes": [
+      "Nairobi",
+      "Asmara",
+      "Outra opção",
+      "Adis Abeba"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 97,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Itália: Roma?",
+    "opcoes": [
+      "Atenas",
+      "Outra opção",
+      "Roma",
+      "Paris"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 98,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Itália?",
+    "opcoes": [
+      "Roma",
+      "Paris",
+      "Atenas",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 99,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Itália:",
+    "opcoes": [
+      "Roma",
+      "Paris",
+      "Atenas",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 100,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Alemanha: Berlim?",
+    "opcoes": [
+      "Berlim",
+      "Viena",
+      "Praga",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 101,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Alemanha?",
+    "opcoes": [
+      "Praga",
+      "Outra opção",
+      "Berlim",
+      "Viena"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 102,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Alemanha:",
+    "opcoes": [
+      "Outra opção",
+      "Berlim",
+      "Viena",
+      "Praga"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 103,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Austrália: Canberra?",
+    "opcoes": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 104,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Austrália?",
+    "opcoes": [
+      "Sydney",
+      "Melbourne",
+      "Outra opção",
+      "Canberra"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 105,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Austrália:",
+    "opcoes": [
+      "Canberra",
+      "Sydney",
+      "Melbourne",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 106,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Argentina: Buenos Aires?",
+    "opcoes": [
+      "Montevidéu",
+      "Outra opção",
+      "Buenos Aires",
+      "Santiago"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 107,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Argentina?",
+    "opcoes": [
+      "Outra opção",
+      "Buenos Aires",
+      "Santiago",
+      "Montevidéu"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 108,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Argentina:",
+    "opcoes": [
+      "Montevidéu",
+      "Outra opção",
+      "Buenos Aires",
+      "Santiago"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 109,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre México: Cidade do México?",
+    "opcoes": [
+      "Cidade do México",
+      "Guatemala",
+      "Havana",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 110,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre México?",
+    "opcoes": [
+      "Guatemala",
+      "Havana",
+      "Outra opção",
+      "Cidade do México"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 111,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente México:",
+    "opcoes": [
+      "Cidade do México",
+      "Guatemala",
+      "Havana",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 112,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre Reino Unido: Londres?",
+    "opcoes": [
+      "Paris",
+      "Outra opção",
+      "Londres",
+      "Dublim"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 113,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre Reino Unido?",
+    "opcoes": [
+      "Londres",
+      "Dublim",
+      "Paris",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 114,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente Reino Unido:",
+    "opcoes": [
+      "Dublim",
+      "Paris",
+      "Outra opção",
+      "Londres"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 115,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre costa de Moçambique: oceano Índico?",
+    "opcoes": [
+      "oceano Índico",
+      "oceano Atlântico",
+      "oceano Pacífico",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 116,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre costa de Moçambique?",
+    "opcoes": [
+      "oceano Pacífico",
+      "Outra opção",
+      "oceano Índico",
+      "oceano Atlântico"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 117,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente costa de Moçambique:",
+    "opcoes": [
+      "Outra opção",
+      "oceano Índico",
+      "oceano Atlântico",
+      "oceano Pacífico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 118,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre maior rio de Moçambique: rio Zambeze?",
+    "opcoes": [
+      "rio Limpopo",
+      "rio Save",
+      "Outra opção",
+      "rio Zambeze"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 119,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre maior rio de Moçambique?",
+    "opcoes": [
+      "Outra opção",
+      "rio Zambeze",
+      "rio Limpopo",
+      "rio Save"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 120,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente maior rio de Moçambique:",
+    "opcoes": [
+      "Outra opção",
+      "rio Zambeze",
+      "rio Limpopo",
+      "rio Save"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 121,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre cidade atravessada pelo Zambeze: Tete?",
+    "opcoes": [
+      "Outra opção",
+      "Tete",
+      "Beira",
+      "Pemba"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 122,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre cidade atravessada pelo Zambeze?",
+    "opcoes": [
+      "Tete",
+      "Beira",
+      "Pemba",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 123,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente cidade atravessada pelo Zambeze:",
+    "opcoes": [
+      "Pemba",
+      "Outra opção",
+      "Tete",
+      "Beira"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 124,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre montanha mais alta de Moçambique: Monte Binga?",
+    "opcoes": [
+      "Monte Namuli",
+      "Monte Gorongosa",
+      "Outra opção",
+      "Monte Binga"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 125,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre montanha mais alta de Moçambique?",
+    "opcoes": [
+      "Monte Binga",
+      "Monte Namuli",
+      "Monte Gorongosa",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 126,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente montanha mais alta de Moçambique:",
+    "opcoes": [
+      "Monte Gorongosa",
+      "Outra opção",
+      "Monte Binga",
+      "Monte Namuli"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 127,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre província do Monte Binga: Manica?",
+    "opcoes": [
+      "Outra opção",
+      "Manica",
+      "Tete",
+      "Niassa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 128,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre província do Monte Binga?",
+    "opcoes": [
+      "Niassa",
+      "Outra opção",
+      "Manica",
+      "Tete"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 129,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente província do Monte Binga:",
+    "opcoes": [
+      "Niassa",
+      "Outra opção",
+      "Manica",
+      "Tete"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 130,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre maior ilha de Moçambique: Ilha de Moçambique?",
+    "opcoes": [
+      "Outra opção",
+      "Ilha de Moçambique",
+      "Ilha da Inhaca",
+      "Ilha do Ibo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 131,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre maior ilha de Moçambique?",
+    "opcoes": [
+      "Ilha de Moçambique",
+      "Ilha da Inhaca",
+      "Ilha do Ibo",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 132,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente maior ilha de Moçambique:",
+    "opcoes": [
+      "Ilha de Moçambique",
+      "Ilha da Inhaca",
+      "Ilha do Ibo",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 133,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre província da Ilha de Moçambique: Nampula?",
+    "opcoes": [
+      "Cabo Delgado",
+      "Zambézia",
+      "Outra opção",
+      "Nampula"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 134,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre província da Ilha de Moçambique?",
+    "opcoes": [
+      "Nampula",
+      "Cabo Delgado",
+      "Zambézia",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 135,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente província da Ilha de Moçambique:",
+    "opcoes": [
+      "Zambézia",
+      "Outra opção",
+      "Nampula",
+      "Cabo Delgado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 136,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre capital nacional de Moçambique: Maputo?",
+    "opcoes": [
+      "Outra opção",
+      "Maputo",
+      "Matola",
+      "Beira"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 137,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre capital nacional de Moçambique?",
+    "opcoes": [
+      "Matola",
+      "Beira",
+      "Outra opção",
+      "Maputo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 138,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente capital nacional de Moçambique:",
+    "opcoes": [
+      "Matola",
+      "Beira",
+      "Outra opção",
+      "Maputo"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 139,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre linha que divide Norte e Sul: Equador?",
+    "opcoes": [
+      "Trópico de Capricórnio",
+      "Outra opção",
+      "Equador",
+      "Meridiano de Greenwich"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 140,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre linha que divide Norte e Sul?",
+    "opcoes": [
+      "Trópico de Capricórnio",
+      "Outra opção",
+      "Equador",
+      "Meridiano de Greenwich"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 141,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente linha que divide Norte e Sul:",
+    "opcoes": [
+      "Outra opção",
+      "Equador",
+      "Meridiano de Greenwich",
+      "Trópico de Capricórnio"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 142,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre meridiano de referência mundial: Greenwich?",
+    "opcoes": [
+      "Equador",
+      "Trópico de Câncer",
+      "Outra opção",
+      "Greenwich"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 143,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre meridiano de referência mundial?",
+    "opcoes": [
+      "Outra opção",
+      "Greenwich",
+      "Equador",
+      "Trópico de Câncer"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 144,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente meridiano de referência mundial:",
+    "opcoes": [
+      "Greenwich",
+      "Equador",
+      "Trópico de Câncer",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 145,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre maior oceano da Terra: Pacífico?",
+    "opcoes": [
+      "Outra opção",
+      "Pacífico",
+      "Atlântico",
+      "Índico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 146,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre maior oceano da Terra?",
+    "opcoes": [
+      "Outra opção",
+      "Pacífico",
+      "Atlântico",
+      "Índico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 147,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente maior oceano da Terra:",
+    "opcoes": [
+      "Pacífico",
+      "Atlântico",
+      "Índico",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 148,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre rio associado ao Egipto: Nilo?",
+    "opcoes": [
+      "Nilo",
+      "Amazonas",
+      "Zambeze",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 149,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre rio associado ao Egipto?",
+    "opcoes": [
+      "Zambeze",
+      "Outra opção",
+      "Nilo",
+      "Amazonas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 150,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente rio associado ao Egipto:",
+    "opcoes": [
+      "Outra opção",
+      "Nilo",
+      "Amazonas",
+      "Zambeze"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 151,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre maior deserto quente: Saara?",
+    "opcoes": [
+      "Saara",
+      "Gobi",
+      "Atacama",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 152,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre maior deserto quente?",
+    "opcoes": [
+      "Atacama",
+      "Outra opção",
+      "Saara",
+      "Gobi"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 153,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente maior deserto quente:",
+    "opcoes": [
+      "Gobi",
+      "Atacama",
+      "Outra opção",
+      "Saara"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 154,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre instrumento de direcção: bússola?",
+    "opcoes": [
+      "bússola",
+      "barómetro",
+      "termómetro",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 155,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre instrumento de direcção?",
+    "opcoes": [
+      "bússola",
+      "barómetro",
+      "termómetro",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 156,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente instrumento de direcção:",
+    "opcoes": [
+      "termómetro",
+      "Outra opção",
+      "bússola",
+      "barómetro"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 157,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre aparelho de temperatura: termómetro?",
+    "opcoes": [
+      "anemómetro",
+      "Outra opção",
+      "termómetro",
+      "barómetro"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 158,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre aparelho de temperatura?",
+    "opcoes": [
+      "anemómetro",
+      "Outra opção",
+      "termómetro",
+      "barómetro"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 159,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente aparelho de temperatura:",
+    "opcoes": [
+      "Outra opção",
+      "termómetro",
+      "barómetro",
+      "anemómetro"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 160,
+    "nivel": "facil",
+    "pergunta": "Qual é a informação geográfica correcta sobre movimento que causa dia e noite: rotação?",
+    "opcoes": [
+      "precessão",
+      "Outra opção",
+      "rotação",
+      "translação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 161,
+    "nivel": "facil",
+    "pergunta": "Qual informação está correcta sobre movimento que causa dia e noite?",
+    "opcoes": [
+      "rotação",
+      "translação",
+      "precessão",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 162,
+    "nivel": "facil",
+    "pergunta": "Qual opção identifica correctamente movimento que causa dia e noite:",
+    "opcoes": [
+      "Outra opção",
+      "rotação",
+      "translação",
+      "precessão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 163,
+    "nivel": "facil",
+    "pergunta": "Qual é a resposta correcta sobre movimento da Terra em torno do Sol: translação?",
+    "opcoes": [
+      "translação",
+      "rotação",
+      "erosão",
+      "Outra opção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 164,
+    "nivel": "facil",
+    "pergunta": "Em relação a movimento da Terra em torno do Sol, qual opção está correcta?",
+    "opcoes": [
+      "erosão",
+      "Outra opção",
+      "translação",
+      "rotação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 165,
+    "nivel": "facil",
+    "pergunta": "Que opção identifica correctamente movimento da Terra em torno do Sol:",
+    "opcoes": [
+      "erosão",
+      "Outra opção",
+      "translação",
+      "rotação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 166,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Amazonas?",
+    "opcoes": [
+      "nenhuma das opções",
+      "América do Sul",
+      "Europa",
+      "África"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 167,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Amazonas?",
+    "opcoes": [
+      "América do Sul",
+      "África",
+      "Europa",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 168,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Danúbio?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Europa",
+      "Ásia",
+      "África"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 169,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Danúbio?",
+    "opcoes": [
+      "Ásia",
+      "uma afirmação sem relação",
+      "Europa",
+      "África"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 170,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Yangtzé?",
+    "opcoes": [
+      "nenhuma das opções",
+      "China",
+      "Índia",
+      "Japão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 171,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Yangtzé?",
+    "opcoes": [
+      "China",
+      "Japão",
+      "Índia",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 172,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Ganges?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Índia",
+      "China",
+      "Nepal"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 173,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Ganges?",
+    "opcoes": [
+      "Nepal",
+      "China",
+      "uma afirmação sem relação",
+      "Índia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 174,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Mekong?",
+    "opcoes": [
+      "Sudeste Asiático",
+      "Europa",
+      "África",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 175,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Mekong?",
+    "opcoes": [
+      "Europa",
+      "uma afirmação sem relação",
+      "Sudeste Asiático",
+      "África"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 176,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Congo?",
+    "opcoes": [
+      "América do Sul",
+      "nenhuma das opções",
+      "África Central",
+      "África Austral"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 177,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Congo?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "África Central",
+      "América do Sul",
+      "África Austral"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 178,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Níger?",
+    "opcoes": [
+      "Ásia Central",
+      "nenhuma das opções",
+      "África Ocidental",
+      "África Oriental"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 179,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Níger?",
+    "opcoes": [
+      "África Oriental",
+      "uma afirmação sem relação",
+      "África Ocidental",
+      "Ásia Central"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 180,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Orange?",
+    "opcoes": [
+      "África Austral",
+      "África Ocidental",
+      "África Oriental",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 181,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Orange?",
+    "opcoes": [
+      "África Austral",
+      "África Oriental",
+      "África Ocidental",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 182,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Limpopo?",
+    "opcoes": [
+      "nenhuma das opções",
+      "África Austral",
+      "Europa",
+      "América do Norte"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 183,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Limpopo?",
+    "opcoes": [
+      "América do Norte",
+      "Europa",
+      "uma afirmação sem relação",
+      "África Austral"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 184,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Rovuma?",
+    "opcoes": [
+      "nenhuma das opções",
+      "África Oriental",
+      "África Ocidental",
+      "Ásia Central"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 185,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Rovuma?",
+    "opcoes": [
+      "África Oriental",
+      "Ásia Central",
+      "África Ocidental",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 186,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Paraná?",
+    "opcoes": [
+      "América do Sul",
+      "Ásia",
+      "África",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 187,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Paraná?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "América do Sul",
+      "África",
+      "Ásia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 188,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Volga?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Rússia",
+      "China",
+      "Índia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 189,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Volga?",
+    "opcoes": [
+      "China",
+      "uma afirmação sem relação",
+      "Rússia",
+      "Índia"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 190,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rio Mississippi?",
+    "opcoes": [
+      "Europa",
+      "nenhuma das opções",
+      "América do Norte",
+      "América do Sul"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 191,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rio Mississippi?",
+    "opcoes": [
+      "Europa",
+      "América do Sul",
+      "uma afirmação sem relação",
+      "América do Norte"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 192,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Canal de Suez?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Mediterrâneo e mar Vermelho",
+      "Atlântico e Pacífico",
+      "Índico e Pacífico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 193,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Canal de Suez?",
+    "opcoes": [
+      "Atlântico e Pacífico",
+      "uma afirmação sem relação",
+      "Mediterrâneo e mar Vermelho",
+      "Índico e Pacífico"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 194,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Canal do Panamá?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Atlântico e Pacífico",
+      "Mediterrâneo e Vermelho",
+      "Índico e Atlântico"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 195,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Canal do Panamá?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "Atlântico e Pacífico",
+      "Índico e Atlântico",
+      "Mediterrâneo e Vermelho"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 196,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra estreito de Gibraltar?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Europa e África",
+      "Ásia e África",
+      "América do Norte e Ásia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 197,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente estreito de Gibraltar?",
+    "opcoes": [
+      "Ásia e África",
+      "uma afirmação sem relação",
+      "Europa e África",
+      "América do Norte e Ásia"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 198,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra cordilheira dos Andes?",
+    "opcoes": [
+      "Ásia",
+      "Europa",
+      "nenhuma das opções",
+      "América do Sul"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 199,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente cordilheira dos Andes?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "América do Sul",
+      "Europa",
+      "Ásia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 200,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra cordilheira dos Urais?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Europa e Ásia",
+      "África e Ásia",
+      "América do Norte e Europa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 201,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente cordilheira dos Urais?",
+    "opcoes": [
+      "Europa e Ásia",
+      "América do Norte e Europa",
+      "África e Ásia",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 202,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra deserto do Gobi?",
+    "opcoes": [
+      "Austrália central",
+      "nenhuma das opções",
+      "Mongólia e China",
+      "África Austral"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 203,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente deserto do Gobi?",
+    "opcoes": [
+      "Austrália central",
+      "África Austral",
+      "uma afirmação sem relação",
+      "Mongólia e China"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 204,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra deserto do Kalahari?",
+    "opcoes": [
+      "América do Sul",
+      "nenhuma das opções",
+      "África Austral",
+      "Ásia Central"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 205,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente deserto do Kalahari?",
+    "opcoes": [
+      "América do Sul",
+      "Ásia Central",
+      "uma afirmação sem relação",
+      "África Austral"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 206,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra lago Baikal?",
+    "opcoes": [
+      "Canadá",
+      "África Oriental",
+      "nenhuma das opções",
+      "Rússia"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 207,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente lago Baikal?",
+    "opcoes": [
+      "Canadá",
+      "uma afirmação sem relação",
+      "Rússia",
+      "África Oriental"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 208,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra lago Superior?",
+    "opcoes": [
+      "América do Norte",
+      "África",
+      "Ásia",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 209,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente lago Superior?",
+    "opcoes": [
+      "África",
+      "uma afirmação sem relação",
+      "América do Norte",
+      "Ásia"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 210,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra montanha Evereste?",
+    "opcoes": [
+      "Andes",
+      "Alpes",
+      "nenhuma das opções",
+      "Himalaias"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 211,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente montanha Evereste?",
+    "opcoes": [
+      "Andes",
+      "uma afirmação sem relação",
+      "Himalaias",
+      "Alpes"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 212,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra montanha Kilimanjaro?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Tanzânia",
+      "Quénia",
+      "Etiópia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 213,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente montanha Kilimanjaro?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "Tanzânia",
+      "Etiópia",
+      "Quénia"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 214,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rocha ígnea?",
+    "opcoes": [
+      "pressão sobre calcário",
+      "nenhuma das opções",
+      "arrefecimento do magma",
+      "compactação de sedimentos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 215,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rocha ígnea?",
+    "opcoes": [
+      "compactação de sedimentos",
+      "uma afirmação sem relação",
+      "arrefecimento do magma",
+      "pressão sobre calcário"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 216,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rocha sedimentar?",
+    "opcoes": [
+      "compactação de sedimentos",
+      "arrefecimento do magma",
+      "metamorfismo",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 217,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rocha sedimentar?",
+    "opcoes": [
+      "compactação de sedimentos",
+      "metamorfismo",
+      "arrefecimento do magma",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 218,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra rocha metamórfica?",
+    "opcoes": [
+      "evaporação",
+      "deposição fluvial",
+      "nenhuma das opções",
+      "pressão e temperatura"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 219,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente rocha metamórfica?",
+    "opcoes": [
+      "pressão e temperatura",
+      "deposição fluvial",
+      "evaporação",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 220,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra limite divergente?",
+    "opcoes": [
+      "nenhuma das opções",
+      "criação de crosta",
+      "deslizamento lateral",
+      "colisão continental"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 221,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente limite divergente?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "criação de crosta",
+      "colisão continental",
+      "deslizamento lateral"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 222,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra limite transformante?",
+    "opcoes": [
+      "nenhuma das opções",
+      "deslizamento lateral",
+      "criação de crosta",
+      "subducção"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 223,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente limite transformante?",
+    "opcoes": [
+      "subducção",
+      "criação de crosta",
+      "uma afirmação sem relação",
+      "deslizamento lateral"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 224,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra subducção?",
+    "opcoes": [
+      "sedimentação costeira",
+      "nenhuma das opções",
+      "mergulho de uma placa sob outra",
+      "afastamento de placas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 225,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente subducção?",
+    "opcoes": [
+      "mergulho de uma placa sob outra",
+      "sedimentação costeira",
+      "afastamento de placas",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 226,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra dorsal oceânica?",
+    "opcoes": [
+      "fossa de subducção",
+      "vale fluvial",
+      "nenhuma das opções",
+      "criação de crosta no fundo marinho"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 227,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente dorsal oceânica?",
+    "opcoes": [
+      "vale fluvial",
+      "fossa de subducção",
+      "uma afirmação sem relação",
+      "criação de crosta no fundo marinho"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 228,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra fossa oceânica?",
+    "opcoes": [
+      "subducção",
+      "dorsal",
+      "planície aluvial",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 229,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente fossa oceânica?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "subducção",
+      "planície aluvial",
+      "dorsal"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 230,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra sismógrafo?",
+    "opcoes": [
+      "nenhuma das opções",
+      "ondas sísmicas",
+      "humidade",
+      "precipitação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 231,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente sismógrafo?",
+    "opcoes": [
+      "ondas sísmicas",
+      "precipitação",
+      "humidade",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 232,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra barómetro?",
+    "opcoes": [
+      "pressão atmosférica",
+      "temperatura",
+      "velocidade do vento",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 233,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente barómetro?",
+    "opcoes": [
+      "pressão atmosférica",
+      "velocidade do vento",
+      "temperatura",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 234,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra higrómetro?",
+    "opcoes": [
+      "humidade do ar",
+      "pressão",
+      "caudal",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 235,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente higrómetro?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "humidade do ar",
+      "caudal",
+      "pressão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 236,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra pluviómetro?",
+    "opcoes": [
+      "velocidade do vento",
+      "nenhuma das opções",
+      "precipitação",
+      "temperatura"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 237,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente pluviómetro?",
+    "opcoes": [
+      "velocidade do vento",
+      "temperatura",
+      "uma afirmação sem relação",
+      "precipitação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 238,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra clima equatorial?",
+    "opcoes": [
+      "invernos polares",
+      "nenhuma das opções",
+      "calor e chuva abundante durante todo o ano",
+      "aridez extrema"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 239,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente clima equatorial?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "calor e chuva abundante durante todo o ano",
+      "invernos polares",
+      "aridez extrema"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 240,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra clima desértico?",
+    "opcoes": [
+      "chuva anual abundante",
+      "neve permanente",
+      "nenhuma das opções",
+      "baixa precipitação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 241,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente clima desértico?",
+    "opcoes": [
+      "baixa precipitação",
+      "neve permanente",
+      "chuva anual abundante",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 242,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra clima mediterrânico?",
+    "opcoes": [
+      "verão seco e inverno chuvoso",
+      "chuva uniforme anual",
+      "frio polar",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 243,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente clima mediterrânico?",
+    "opcoes": [
+      "verão seco e inverno chuvoso",
+      "frio polar",
+      "chuva uniforme anual",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 244,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra monção?",
+    "opcoes": [
+      "corrente submarina",
+      "nenhuma das opções",
+      "vento sazonal",
+      "vento diário constante"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 245,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente monção?",
+    "opcoes": [
+      "corrente submarina",
+      "vento diário constante",
+      "uma afirmação sem relação",
+      "vento sazonal"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 246,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra corrente de Benguela?",
+    "opcoes": [
+      "fria, junto à costa leste africana",
+      "nenhuma das opções",
+      "fria, junto ao sudoeste africano",
+      "quente, junto à Europa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 247,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente corrente de Benguela?",
+    "opcoes": [
+      "fria, junto ao sudoeste africano",
+      "fria, junto à costa leste africana",
+      "quente, junto à Europa",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 248,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra corrente das Agulhas?",
+    "opcoes": [
+      "quente, junto ao oeste sul-americano",
+      "nenhuma das opções",
+      "quente, junto ao sudeste africano",
+      "fria, junto ao sudoeste africano"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 249,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente corrente das Agulhas?",
+    "opcoes": [
+      "fria, junto ao sudoeste africano",
+      "uma afirmação sem relação",
+      "quente, junto ao sudeste africano",
+      "quente, junto ao oeste sul-americano"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 250,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra chuva orográfica?",
+    "opcoes": [
+      "frente sem relevo",
+      "nenhuma das opções",
+      "ascensão de ar húmido sobre relevo",
+      "aquecimento do solo seco"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 251,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente chuva orográfica?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "ascensão de ar húmido sobre relevo",
+      "frente sem relevo",
+      "aquecimento do solo seco"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 252,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra barlavento?",
+    "opcoes": [
+      "vertente protegida e seca",
+      "foz do rio",
+      "nenhuma das opções",
+      "vertente exposta ao vento húmido"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 253,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente barlavento?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "vertente exposta ao vento húmido",
+      "foz do rio",
+      "vertente protegida e seca"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 254,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra sotavento?",
+    "opcoes": [
+      "nascente",
+      "nenhuma das opções",
+      "vertente protegida e mais seca",
+      "vertente exposta à chuva"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 255,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente sotavento?",
+    "opcoes": [
+      "nascente",
+      "vertente exposta à chuva",
+      "uma afirmação sem relação",
+      "vertente protegida e mais seca"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 256,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra isóbara?",
+    "opcoes": [
+      "linha de igual chuva",
+      "linha de igual temperatura",
+      "nenhuma das opções",
+      "linha de igual pressão"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 257,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente isóbara?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "linha de igual pressão",
+      "linha de igual temperatura",
+      "linha de igual chuva"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 258,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra isoieta?",
+    "opcoes": [
+      "linha de igual precipitação",
+      "linha de igual pressão",
+      "linha de igual altitude",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 259,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente isoieta?",
+    "opcoes": [
+      "linha de igual pressão",
+      "uma afirmação sem relação",
+      "linha de igual precipitação",
+      "linha de igual altitude"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 260,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra isoterma?",
+    "opcoes": [
+      "linha de igual chuva",
+      "nenhuma das opções",
+      "linha de igual temperatura",
+      "linha de igual profundidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 261,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente isoterma?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "linha de igual temperatura",
+      "linha de igual chuva",
+      "linha de igual profundidade"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 262,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra curva de nível?",
+    "opcoes": [
+      "nenhuma das opções",
+      "linha de igual altitude",
+      "linha de igual pressão",
+      "linha de igual população"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 263,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente curva de nível?",
+    "opcoes": [
+      "linha de igual população",
+      "linha de igual pressão",
+      "uma afirmação sem relação",
+      "linha de igual altitude"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 264,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra densidade populacional?",
+    "opcoes": [
+      "exportações por habitante",
+      "nenhuma das opções",
+      "habitantes por unidade de área",
+      "nascimentos por ano"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 265,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente densidade populacional?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "habitantes por unidade de área",
+      "exportações por habitante",
+      "nascimentos por ano"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 266,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra crescimento natural?",
+    "opcoes": [
+      "nenhuma das opções",
+      "nascimentos menos mortes",
+      "imigração menos emigração",
+      "exportações menos importações"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 267,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente crescimento natural?",
+    "opcoes": [
+      "exportações menos importações",
+      "imigração menos emigração",
+      "uma afirmação sem relação",
+      "nascimentos menos mortes"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 268,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra saldo migratório?",
+    "opcoes": [
+      "imigração menos emigração",
+      "nascimentos menos mortes",
+      "produção menos consumo",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 269,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente saldo migratório?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "imigração menos emigração",
+      "produção menos consumo",
+      "nascimentos menos mortes"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 270,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra taxa de urbanização?",
+    "opcoes": [
+      "densidade florestal",
+      "nenhuma das opções",
+      "proporção da população urbana",
+      "taxa de mortalidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 271,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente taxa de urbanização?",
+    "opcoes": [
+      "proporção da população urbana",
+      "densidade florestal",
+      "taxa de mortalidade",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 272,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra PIB per capita?",
+    "opcoes": [
+      "nascimentos divididos pela idade",
+      "nenhuma das opções",
+      "produção dividida pela população",
+      "chuva dividida pela área"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 273,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente PIB per capita?",
+    "opcoes": [
+      "nascimentos divididos pela idade",
+      "chuva dividida pela área",
+      "uma afirmação sem relação",
+      "produção dividida pela população"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 274,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra êxodo rural?",
+    "opcoes": [
+      "deslocação diária de maré",
+      "nenhuma das opções",
+      "migração do campo para a cidade",
+      "migração entre continentes"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 275,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente êxodo rural?",
+    "opcoes": [
+      "migração do campo para a cidade",
+      "deslocação diária de maré",
+      "migração entre continentes",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 276,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra migração pendular?",
+    "opcoes": [
+      "deslocação regular entre casa e actividade",
+      "mudança definitiva de país",
+      "migração de animais",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 277,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente migração pendular?",
+    "opcoes": [
+      "deslocação regular entre casa e actividade",
+      "migração de animais",
+      "mudança definitiva de país",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 278,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra transição demográfica?",
+    "opcoes": [
+      "mudança de altas para baixas taxas vitais",
+      "mudança de rochas",
+      "mudança diária do tempo",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 279,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente transição demográfica?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "mudança de altas para baixas taxas vitais",
+      "mudança diária do tempo",
+      "mudança de rochas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 280,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra esperança de vida?",
+    "opcoes": [
+      "nenhuma das opções",
+      "anos médios esperados ao nascer",
+      "número de nascimentos",
+      "habitantes por quilómetro"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 281,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente esperança de vida?",
+    "opcoes": [
+      "anos médios esperados ao nascer",
+      "habitantes por quilómetro",
+      "número de nascimentos",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 282,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Montepuez?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Cabo Delgado",
+      "Tete",
+      "Gaza"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 283,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Montepuez?",
+    "opcoes": [
+      "Tete",
+      "uma afirmação sem relação",
+      "Cabo Delgado",
+      "Gaza"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 284,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Moatize?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Tete",
+      "Manica",
+      "Sofala"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 285,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Moatize?",
+    "opcoes": [
+      "Manica",
+      "uma afirmação sem relação",
+      "Tete",
+      "Sofala"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 286,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Parque Nacional da Gorongosa?",
+    "opcoes": [
+      "Sofala",
+      "Gaza",
+      "Inhambane",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 287,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Parque Nacional da Gorongosa?",
+    "opcoes": [
+      "Sofala",
+      "Inhambane",
+      "Gaza",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 288,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Parque Nacional do Limpopo?",
+    "opcoes": [
+      "Niassa",
+      "Nampula",
+      "nenhuma das opções",
+      "Gaza"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 289,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Parque Nacional do Limpopo?",
+    "opcoes": [
+      "Niassa",
+      "uma afirmação sem relação",
+      "Gaza",
+      "Nampula"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 290,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Arquipélago de Bazaruto?",
+    "opcoes": [
+      "Sofala",
+      "nenhuma das opções",
+      "Inhambane",
+      "Cabo Delgado"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 291,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Arquipélago de Bazaruto?",
+    "opcoes": [
+      "Sofala",
+      "Cabo Delgado",
+      "uma afirmação sem relação",
+      "Inhambane"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 292,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra arquipélago das Quirimbas?",
+    "opcoes": [
+      "nenhuma das opções",
+      "Cabo Delgado",
+      "Nampula",
+      "Maputo"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 293,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente arquipélago das Quirimbas?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "Cabo Delgado",
+      "Maputo",
+      "Nampula"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 294,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra cidade de Nacala?",
+    "opcoes": [
+      "província de Nampula",
+      "província de Tete",
+      "província de Gaza",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 295,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente cidade de Nacala?",
+    "opcoes": [
+      "província de Gaza",
+      "província de Tete",
+      "uma afirmação sem relação",
+      "província de Nampula"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 296,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra cidade de Chimoio?",
+    "opcoes": [
+      "província de Sofala",
+      "nenhuma das opções",
+      "província de Manica",
+      "província de Niassa"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 297,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente cidade de Chimoio?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "província de Manica",
+      "província de Sofala",
+      "província de Niassa"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 298,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra cidade de Lichinga?",
+    "opcoes": [
+      "província de Niassa",
+      "província de Tete",
+      "província de Inhambane",
+      "nenhuma das opções"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 299,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente cidade de Lichinga?",
+    "opcoes": [
+      "província de Niassa",
+      "província de Inhambane",
+      "província de Tete",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 300,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra cidade de Quelimane?",
+    "opcoes": [
+      "nenhuma das opções",
+      "província da Zambézia",
+      "província de Manica",
+      "província de Cabo Delgado"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 301,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente cidade de Quelimane?",
+    "opcoes": [
+      "província da Zambézia",
+      "província de Cabo Delgado",
+      "província de Manica",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 302,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Porto de Maputo?",
+    "opcoes": [
+      "nenhuma das opções",
+      "sul de Moçambique",
+      "norte de Moçambique",
+      "centro de Angola"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 303,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Porto de Maputo?",
+    "opcoes": [
+      "centro de Angola",
+      "norte de Moçambique",
+      "uma afirmação sem relação",
+      "sul de Moçambique"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 304,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra Corredor de Nacala?",
+    "opcoes": [
+      "nenhuma das opções",
+      "liga o interior ao porto de Nacala",
+      "liga o interior ao Atlântico",
+      "liga o sul ao lago Vitória"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 305,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente Corredor de Nacala?",
+    "opcoes": [
+      "liga o interior ao Atlântico",
+      "uma afirmação sem relação",
+      "liga o interior ao porto de Nacala",
+      "liga o sul ao lago Vitória"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 306,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra bacia do Rovuma?",
+    "opcoes": [
+      "cobre do Zambeze",
+      "nenhuma das opções",
+      "gás natural offshore",
+      "carvão de Tete"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 307,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente bacia do Rovuma?",
+    "opcoes": [
+      "cobre do Zambeze",
+      "carvão de Tete",
+      "uma afirmação sem relação",
+      "gás natural offshore"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 308,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra sector secundário?",
+    "opcoes": [
+      "agricultura",
+      "serviços",
+      "nenhuma das opções",
+      "transformação industrial"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 309,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente sector secundário?",
+    "opcoes": [
+      "serviços",
+      "agricultura",
+      "uma afirmação sem relação",
+      "transformação industrial"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 310,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra sector terciário?",
+    "opcoes": [
+      "agricultura",
+      "mineração",
+      "nenhuma das opções",
+      "serviços"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 311,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente sector terciário?",
+    "opcoes": [
+      "mineração",
+      "agricultura",
+      "uma afirmação sem relação",
+      "serviços"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 312,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra economia azul?",
+    "opcoes": [
+      "agricultura de montanha",
+      "mineração de carvão",
+      "nenhuma das opções",
+      "uso sustentável de recursos oceânicos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 313,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente economia azul?",
+    "opcoes": [
+      "agricultura de montanha",
+      "uma afirmação sem relação",
+      "uso sustentável de recursos oceânicos",
+      "mineração de carvão"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 314,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra mangal?",
+    "opcoes": [
+      "floresta de coníferas",
+      "nenhuma das opções",
+      "protege costa e abriga espécies",
+      "bioma polar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 315,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente mangal?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "protege costa e abriga espécies",
+      "floresta de coníferas",
+      "bioma polar"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 316,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra eutrofização?",
+    "opcoes": [
+      "congelamento de rios",
+      "formação de montanhas",
+      "nenhuma das opções",
+      "excesso de nutrientes na água"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 317,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente eutrofização?",
+    "opcoes": [
+      "uma afirmação sem relação",
+      "excesso de nutrientes na água",
+      "formação de montanhas",
+      "congelamento de rios"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 318,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra NDVI?",
+    "opcoes": [
+      "pressão atmosférica",
+      "densidade urbana",
+      "nenhuma das opções",
+      "vigor da vegetação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 319,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente NDVI?",
+    "opcoes": [
+      "pressão atmosférica",
+      "uma afirmação sem relação",
+      "vigor da vegetação",
+      "densidade urbana"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 320,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra GPS?",
+    "opcoes": [
+      "nenhuma das opções",
+      "posicionamento por satélites",
+      "medição de chuva",
+      "classificação de rochas"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 321,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente GPS?",
+    "opcoes": [
+      "medição de chuva",
+      "uma afirmação sem relação",
+      "posicionamento por satélites",
+      "classificação de rochas"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 322,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra SIG?",
+    "opcoes": [
+      "previsão de marés",
+      "medição de temperatura",
+      "nenhuma das opções",
+      "análise de dados geográficos"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 323,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente SIG?",
+    "opcoes": [
+      "análise de dados geográficos",
+      "medição de temperatura",
+      "previsão de marés",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 324,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra escala 1:100 000?",
+    "opcoes": [
+      "1 cm representa 100 km",
+      "1 cm representa 100 m",
+      "nenhuma das opções",
+      "1 cm representa 1 km"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 325,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente escala 1:100 000?",
+    "opcoes": [
+      "1 cm representa 100 km",
+      "uma afirmação sem relação",
+      "1 cm representa 1 km",
+      "1 cm representa 100 m"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 326,
+    "nivel": "medio",
+    "pergunta": "Em que contexto geográfico se enquadra escala 1:50 000?",
+    "opcoes": [
+      "nenhuma das opções",
+      "2 cm representam 1 km",
+      "2 cm representam 10 km",
+      "2 cm representam 100 m"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 327,
+    "nivel": "medio",
+    "pergunta": "Qual afirmação caracteriza correctamente escala 1:50 000?",
+    "opcoes": [
+      "2 cm representam 1 km",
+      "2 cm representam 100 m",
+      "2 cm representam 10 km",
+      "uma afirmação sem relação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 328,
+    "nivel": "medio",
+    "pergunta": "Que conceito descreve a ligação funcional entre habitats?",
+    "opcoes": [
+      "Conectividade ecológica",
+      "Urbanização",
+      "Erosão",
+      "Longitude"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 329,
+    "nivel": "medio",
+    "pergunta": "Qual instrumento mede a humidade relativa do ar?",
+    "opcoes": [
+      "Sismógrafo",
+      "Higrómetro",
+      "Barómetro",
+      "Termómetro"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 330,
+    "nivel": "medio",
+    "pergunta": "Que forma de relevo resulta da acumulação de sedimentos na foz?",
+    "opcoes": [
+      "Duna",
+      "Falésia",
+      "Dorsal",
+      "Delta"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 331,
+    "nivel": "medio",
+    "pergunta": "Qual processo remove substâncias solúveis pela água infiltrada?",
+    "opcoes": [
+      "Lixiviação",
+      "Sedimentação",
+      "Fusão",
+      "Compactação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 332,
+    "nivel": "medio",
+    "pergunta": "Que actividade pertence ao sector terciário?",
+    "opcoes": [
+      "Transporte",
+      "Agricultura",
+      "Mineração",
+      "Pesca"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 333,
+    "nivel": "medio",
+    "pergunta": "Qual ecossistema costeiro funciona como berçário de peixes?",
+    "opcoes": [
+      "Mangal",
+      "Tundra",
+      "Taiga",
+      "Deserto"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 334,
+    "nivel": "medio",
+    "pergunta": "Que indicador mede habitantes por unidade de área?",
+    "opcoes": [
+      "PIB per capita",
+      "Saldo migratório",
+      "Densidade populacional",
+      "Taxa de natalidade"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 335,
+    "nivel": "medio",
+    "pergunta": "Que linha une pontos de igual temperatura?",
+    "opcoes": [
+      "Isoieta",
+      "Isóbata",
+      "Isoterma",
+      "Isóbara"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 336,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Qual é a diferença de longitude entre 30°E e 45°E?",
+    "opcoes": [
+      "75°",
+      "15°",
+      "10°",
+      "20°"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 337,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Qual é a diferença de longitude entre 30°E e 45°E?",
+    "opcoes": [
+      "10°",
+      "20°",
+      "75°",
+      "15°"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 338,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Qual é a diferença de longitude entre 30°E e 45°E?",
+    "opcoes": [
+      "20°",
+      "75°",
+      "15°",
+      "10°"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 339,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A 4 minutos por grau, qual é a diferença horária entre 30°E e 45°E?",
+    "opcoes": [
+      "30 minutos",
+      "90 minutos",
+      "60 minutos",
+      "15 minutos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 340,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A 4 minutos por grau, qual é a diferença horária entre 30°E e 45°E?",
+    "opcoes": [
+      "90 minutos",
+      "60 minutos",
+      "15 minutos",
+      "30 minutos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 341,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A 4 minutos por grau, qual é a diferença horária entre 30°E e 45°E?",
+    "opcoes": [
+      "30 minutos",
+      "90 minutos",
+      "60 minutos",
+      "15 minutos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 342,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Qual é a latitude aproximada do Trópico de Capricórnio?",
+    "opcoes": [
+      "0°",
+      "23,5°S",
+      "23,5°N",
+      "66,5°S"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 343,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Qual é a latitude aproximada do Trópico de Capricórnio?",
+    "opcoes": [
+      "66,5°S",
+      "0°",
+      "23,5°S",
+      "23,5°N"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 344,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Qual é a latitude aproximada do Trópico de Capricórnio?",
+    "opcoes": [
+      "23,5°S",
+      "23,5°N",
+      "66,5°S",
+      "0°"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 345,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Qual é a latitude aproximada do Círculo Polar Antártico?",
+    "opcoes": [
+      "66,5°N",
+      "23,5°S",
+      "0°",
+      "66,5°S"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 346,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Qual é a latitude aproximada do Círculo Polar Antártico?",
+    "opcoes": [
+      "66,5°S",
+      "66,5°N",
+      "23,5°S",
+      "0°"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 347,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Qual é a latitude aproximada do Círculo Polar Antártico?",
+    "opcoes": [
+      "0°",
+      "66,5°S",
+      "66,5°N",
+      "23,5°S"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 348,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Qual é a longitude do meridiano de Greenwich?",
+    "opcoes": [
+      "23,5°N",
+      "0°",
+      "180°",
+      "90°W"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 349,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Qual é a longitude do meridiano de Greenwich?",
+    "opcoes": [
+      "180°",
+      "90°W",
+      "23,5°N",
+      "0°"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 350,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Qual é a longitude do meridiano de Greenwich?",
+    "opcoes": [
+      "0°",
+      "180°",
+      "90°W",
+      "23,5°N"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 351,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Num mapa 1:25 000, quanto representam 4 cm?",
+    "opcoes": [
+      "100 m",
+      "4 km",
+      "10 km",
+      "1 km"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 352,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Num mapa 1:25 000, quanto representam 4 cm?",
+    "opcoes": [
+      "1 km",
+      "100 m",
+      "4 km",
+      "10 km"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 353,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Num mapa 1:25 000, quanto representam 4 cm?",
+    "opcoes": [
+      "10 km",
+      "1 km",
+      "100 m",
+      "4 km"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 354,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Num mapa 1:200 000, quanto representam 3 cm?",
+    "opcoes": [
+      "60 km",
+      "1,5 km",
+      "6 km",
+      "600 m"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 355,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Num mapa 1:200 000, quanto representam 3 cm?",
+    "opcoes": [
+      "60 km",
+      "1,5 km",
+      "6 km",
+      "600 m"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 356,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Num mapa 1:200 000, quanto representam 3 cm?",
+    "opcoes": [
+      "60 km",
+      "1,5 km",
+      "6 km",
+      "600 m"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 357,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Uma população de 120 000 numa área de 600 km² tem densidade de",
+    "opcoes": [
+      "720 hab./km²",
+      "2 000 hab./km²",
+      "200 hab./km²",
+      "20 hab./km²"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 358,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Uma população de 120 000 numa área de 600 km² tem densidade de",
+    "opcoes": [
+      "20 hab./km²",
+      "720 hab./km²",
+      "2 000 hab./km²",
+      "200 hab./km²"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 359,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Uma população de 120 000 numa área de 600 km² tem densidade de",
+    "opcoes": [
+      "200 hab./km²",
+      "20 hab./km²",
+      "720 hab./km²",
+      "2 000 hab./km²"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 360,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, 30 milhões de habitantes em 300 000 km² correspondem a",
+    "opcoes": [
+      "10 hab./km²",
+      "1 000 hab./km²",
+      "90 hab./km²",
+      "100 hab./km²"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 361,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, 30 milhões de habitantes em 300 000 km² correspondem a",
+    "opcoes": [
+      "90 hab./km²",
+      "100 hab./km²",
+      "10 hab./km²",
+      "1 000 hab./km²"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 362,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: 30 milhões de habitantes em 300 000 km² correspondem a",
+    "opcoes": [
+      "1 000 hab./km²",
+      "90 hab./km²",
+      "100 hab./km²",
+      "10 hab./km²"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 363,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, 2 400 nascimentos em 120 000 habitantes correspondem a",
+    "opcoes": [
+      "2‰",
+      "200‰",
+      "0,2‰",
+      "20‰"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 364,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, 2 400 nascimentos em 120 000 habitantes correspondem a",
+    "opcoes": [
+      "0,2‰",
+      "20‰",
+      "2‰",
+      "200‰"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 365,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: 2 400 nascimentos em 120 000 habitantes correspondem a",
+    "opcoes": [
+      "2‰",
+      "200‰",
+      "0,2‰",
+      "20‰"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 366,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, 900 mortes em 150 000 habitantes correspondem a",
+    "opcoes": [
+      "15‰",
+      "6‰",
+      "0,6‰",
+      "60‰"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 367,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, 900 mortes em 150 000 habitantes correspondem a",
+    "opcoes": [
+      "15‰",
+      "6‰",
+      "0,6‰",
+      "60‰"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 368,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: 900 mortes em 150 000 habitantes correspondem a",
+    "opcoes": [
+      "0,6‰",
+      "60‰",
+      "15‰",
+      "6‰"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 369,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Uma população que passa de 80 000 para 84 000 cresceu",
+    "opcoes": [
+      "0,5%",
+      "5%",
+      "4%",
+      "20%"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 370,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Uma população que passa de 80 000 para 84 000 cresceu",
+    "opcoes": [
+      "0,5%",
+      "5%",
+      "4%",
+      "20%"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 371,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Uma população que passa de 80 000 para 84 000 cresceu",
+    "opcoes": [
+      "4%",
+      "20%",
+      "0,5%",
+      "5%"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 372,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Se 45 000 pessoas são activas numa população de 100 000, a taxa de actividade é",
+    "opcoes": [
+      "45%",
+      "4,5%",
+      "55%",
+      "90%"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 373,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Se 45 000 pessoas são activas numa população de 100 000, a taxa de actividade é",
+    "opcoes": [
+      "90%",
+      "45%",
+      "4,5%",
+      "55%"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 374,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Se 45 000 pessoas são activas numa população de 100 000, a taxa de actividade é",
+    "opcoes": [
+      "55%",
+      "90%",
+      "45%",
+      "4,5%"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 375,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A diferença angular entre 15°S e 5°N é",
+    "opcoes": [
+      "20°",
+      "10°",
+      "15°",
+      "25°"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 376,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A diferença angular entre 15°S e 5°N é",
+    "opcoes": [
+      "20°",
+      "10°",
+      "15°",
+      "25°"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 377,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A diferença angular entre 15°S e 5°N é",
+    "opcoes": [
+      "25°",
+      "20°",
+      "10°",
+      "15°"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 378,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A rotação de 360° em 24 horas equivale a",
+    "opcoes": [
+      "24° por hora",
+      "30° por hora",
+      "15° por hora",
+      "10° por hora"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 379,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A rotação de 360° em 24 horas equivale a",
+    "opcoes": [
+      "15° por hora",
+      "10° por hora",
+      "24° por hora",
+      "30° por hora"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 380,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A rotação de 360° em 24 horas equivale a",
+    "opcoes": [
+      "15° por hora",
+      "10° por hora",
+      "24° por hora",
+      "30° por hora"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 381,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O antimeridiano aproximado de 30°E é",
+    "opcoes": [
+      "60°E",
+      "180°E",
+      "150°W",
+      "30°W"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 382,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O antimeridiano aproximado de 30°E é",
+    "opcoes": [
+      "180°E",
+      "150°W",
+      "30°W",
+      "60°E"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 383,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O antimeridiano aproximado de 30°E é",
+    "opcoes": [
+      "180°E",
+      "150°W",
+      "30°W",
+      "60°E"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 384,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A distância do paralelo 20°S ao polo sul é",
+    "opcoes": [
+      "110°S",
+      "70°",
+      "20°",
+      "70°N"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 385,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A distância do paralelo 20°S ao polo sul é",
+    "opcoes": [
+      "110°S",
+      "70°",
+      "20°",
+      "70°N"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 386,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A distância do paralelo 20°S ao polo sul é",
+    "opcoes": [
+      "20°",
+      "70°N",
+      "110°S",
+      "70°"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 387,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Azimute de 90° aponta para",
+    "opcoes": [
+      "Oeste",
+      "Este",
+      "Norte",
+      "Sul"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 388,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Azimute de 90° aponta para",
+    "opcoes": [
+      "Norte",
+      "Sul",
+      "Oeste",
+      "Este"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 389,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Azimute de 90° aponta para",
+    "opcoes": [
+      "Este",
+      "Norte",
+      "Sul",
+      "Oeste"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 390,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Curvas de nível muito próximas indicam",
+    "opcoes": [
+      "baixa altitude obrigatória",
+      "um rio",
+      "declive acentuado",
+      "superfície plana"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 391,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Curvas de nível muito próximas indicam",
+    "opcoes": [
+      "um rio",
+      "declive acentuado",
+      "superfície plana",
+      "baixa altitude obrigatória"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 392,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Curvas de nível muito próximas indicam",
+    "opcoes": [
+      "um rio",
+      "declive acentuado",
+      "superfície plana",
+      "baixa altitude obrigatória"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 393,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Curvas fechadas com valores crescentes para o centro indicam",
+    "opcoes": [
+      "elevação",
+      "depressão",
+      "delta",
+      "foz"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 394,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Curvas fechadas com valores crescentes para o centro indicam",
+    "opcoes": [
+      "depressão",
+      "delta",
+      "foz",
+      "elevação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 395,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Curvas fechadas com valores crescentes para o centro indicam",
+    "opcoes": [
+      "elevação",
+      "depressão",
+      "delta",
+      "foz"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 396,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Uma área de 2 km² equivale a",
+    "opcoes": [
+      "20 hectares",
+      "2 000 hectares",
+      "0,2 hectares",
+      "200 hectares"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 397,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Uma área de 2 km² equivale a",
+    "opcoes": [
+      "20 hectares",
+      "2 000 hectares",
+      "0,2 hectares",
+      "200 hectares"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 398,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Uma área de 2 km² equivale a",
+    "opcoes": [
+      "20 hectares",
+      "2 000 hectares",
+      "0,2 hectares",
+      "200 hectares"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 399,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Cinco centímetros representam 25 km; a escala numérica é",
+    "opcoes": [
+      "1:50 000",
+      "1:5 000",
+      "1:2 500 000",
+      "1:500 000"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 400,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Cinco centímetros representam 25 km; a escala numérica é",
+    "opcoes": [
+      "1:2 500 000",
+      "1:500 000",
+      "1:50 000",
+      "1:5 000"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 401,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Cinco centímetros representam 25 km; a escala numérica é",
+    "opcoes": [
+      "1:5 000",
+      "1:2 500 000",
+      "1:500 000",
+      "1:50 000"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 402,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Uma escala que conserva áreas relativas é",
+    "opcoes": [
+      "conforme",
+      "perspectiva",
+      "sem projecção",
+      "equivalente"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 403,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Uma escala que conserva áreas relativas é",
+    "opcoes": [
+      "equivalente",
+      "conforme",
+      "perspectiva",
+      "sem projecção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 404,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Uma escala que conserva áreas relativas é",
+    "opcoes": [
+      "equivalente",
+      "conforme",
+      "perspectiva",
+      "sem projecção"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 405,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Uma projecção que conserva ângulos locais é",
+    "opcoes": [
+      "azimutal sempre",
+      "conforme",
+      "equivalente",
+      "sem distorção"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 406,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Uma projecção que conserva ângulos locais é",
+    "opcoes": [
+      "sem distorção",
+      "azimutal sempre",
+      "conforme",
+      "equivalente"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 407,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Uma projecção que conserva ângulos locais é",
+    "opcoes": [
+      "azimutal sempre",
+      "conforme",
+      "equivalente",
+      "sem distorção"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 408,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A projecção de Mercator exagera sobretudo",
+    "opcoes": [
+      "áreas em altas latitudes",
+      "áreas no Equador",
+      "distâncias no centro apenas",
+      "temperaturas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 409,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A projecção de Mercator exagera sobretudo",
+    "opcoes": [
+      "distâncias no centro apenas",
+      "temperaturas",
+      "áreas em altas latitudes",
+      "áreas no Equador"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 410,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A projecção de Mercator exagera sobretudo",
+    "opcoes": [
+      "áreas no Equador",
+      "distâncias no centro apenas",
+      "temperaturas",
+      "áreas em altas latitudes"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 411,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O problema de representar uma esfera num plano chama-se",
+    "opcoes": [
+      "erro de legenda",
+      "erro de maré",
+      "erro de amostragem",
+      "distorção de projecção"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 412,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O problema de representar uma esfera num plano chama-se",
+    "opcoes": [
+      "distorção de projecção",
+      "erro de legenda",
+      "erro de maré",
+      "erro de amostragem"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 413,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O problema de representar uma esfera num plano chama-se",
+    "opcoes": [
+      "distorção de projecção",
+      "erro de legenda",
+      "erro de maré",
+      "erro de amostragem"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 414,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Dados em células regulares são dados",
+    "opcoes": [
+      "raster",
+      "vectoriais",
+      "textuais",
+      "tabulares sem localização"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 415,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Dados em células regulares são dados",
+    "opcoes": [
+      "raster",
+      "vectoriais",
+      "textuais",
+      "tabulares sem localização"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 416,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Dados em células regulares são dados",
+    "opcoes": [
+      "textuais",
+      "tabulares sem localização",
+      "raster",
+      "vectoriais"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 417,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Pontos, linhas e polígonos são dados",
+    "opcoes": [
+      "raster",
+      "meteorológicos",
+      "demográficos apenas",
+      "vectoriais"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 418,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Pontos, linhas e polígonos são dados",
+    "opcoes": [
+      "demográficos apenas",
+      "vectoriais",
+      "raster",
+      "meteorológicos"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 419,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Pontos, linhas e polígonos são dados",
+    "opcoes": [
+      "raster",
+      "meteorológicos",
+      "demográficos apenas",
+      "vectoriais"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 420,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Um pixel de 8 bits pode representar",
+    "opcoes": [
+      "512 níveis",
+      "256 níveis",
+      "8 níveis",
+      "64 níveis"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 421,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Um pixel de 8 bits pode representar",
+    "opcoes": [
+      "8 níveis",
+      "64 níveis",
+      "512 níveis",
+      "256 níveis"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 422,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Um pixel de 8 bits pode representar",
+    "opcoes": [
+      "512 níveis",
+      "256 níveis",
+      "8 níveis",
+      "64 níveis"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 423,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A resolução temporal de um sensor indica",
+    "opcoes": [
+      "número de bandas",
+      "frequência de aquisição",
+      "tamanho do pixel",
+      "número de níveis"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 424,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A resolução temporal de um sensor indica",
+    "opcoes": [
+      "frequência de aquisição",
+      "tamanho do pixel",
+      "número de níveis",
+      "número de bandas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 425,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A resolução temporal de um sensor indica",
+    "opcoes": [
+      "número de níveis",
+      "número de bandas",
+      "frequência de aquisição",
+      "tamanho do pixel"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 426,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A resolução radiométrica indica",
+    "opcoes": [
+      "capacidade de distinguir níveis de energia",
+      "frequência de imagens",
+      "tamanho do pixel",
+      "número de satélites"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 427,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A resolução radiométrica indica",
+    "opcoes": [
+      "capacidade de distinguir níveis de energia",
+      "frequência de imagens",
+      "tamanho do pixel",
+      "número de satélites"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 428,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A resolução radiométrica indica",
+    "opcoes": [
+      "tamanho do pixel",
+      "número de satélites",
+      "capacidade de distinguir níveis de energia",
+      "frequência de imagens"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 429,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, NDVI alto geralmente indica",
+    "opcoes": [
+      "solo nu",
+      "água profunda",
+      "área urbana densa",
+      "vegetação verde densa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 430,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, NDVI alto geralmente indica",
+    "opcoes": [
+      "solo nu",
+      "água profunda",
+      "área urbana densa",
+      "vegetação verde densa"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 431,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: NDVI alto geralmente indica",
+    "opcoes": [
+      "vegetação verde densa",
+      "solo nu",
+      "água profunda",
+      "área urbana densa"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 432,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O SAR pode observar à noite e através de nuvens porque usa",
+    "opcoes": [
+      "termómetro",
+      "bússola",
+      "radar activo",
+      "fotografia visível"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 433,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O SAR pode observar à noite e através de nuvens porque usa",
+    "opcoes": [
+      "bússola",
+      "radar activo",
+      "fotografia visível",
+      "termómetro"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 434,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O SAR pode observar à noite e através de nuvens porque usa",
+    "opcoes": [
+      "termómetro",
+      "bússola",
+      "radar activo",
+      "fotografia visível"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 435,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A linha que une pontos de igual profundidade é",
+    "opcoes": [
+      "isóbara",
+      "isoieta",
+      "isoterma",
+      "isóbata"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 436,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A linha que une pontos de igual profundidade é",
+    "opcoes": [
+      "isóbata",
+      "isóbara",
+      "isoieta",
+      "isoterma"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 437,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A linha que une pontos de igual profundidade é",
+    "opcoes": [
+      "isoieta",
+      "isoterma",
+      "isóbata",
+      "isóbara"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 438,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A taxa média de diminuição térmica na troposfera é aproximadamente",
+    "opcoes": [
+      "0,65 °C por km",
+      "65 °C por km",
+      "15 °C por km",
+      "6,5 °C por km"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 439,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A taxa média de diminuição térmica na troposfera é aproximadamente",
+    "opcoes": [
+      "6,5 °C por km",
+      "0,65 °C por km",
+      "65 °C por km",
+      "15 °C por km"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 440,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A taxa média de diminuição térmica na troposfera é aproximadamente",
+    "opcoes": [
+      "15 °C por km",
+      "6,5 °C por km",
+      "0,65 °C por km",
+      "65 °C por km"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 441,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A camada onde ocorre a maioria do tempo meteorológico é",
+    "opcoes": [
+      "termosfera",
+      "troposfera",
+      "estratosfera",
+      "mesosfera"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 442,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A camada onde ocorre a maioria do tempo meteorológico é",
+    "opcoes": [
+      "troposfera",
+      "estratosfera",
+      "mesosfera",
+      "termosfera"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 443,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A camada onde ocorre a maioria do tempo meteorológico é",
+    "opcoes": [
+      "mesosfera",
+      "termosfera",
+      "troposfera",
+      "estratosfera"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 444,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O gás mais abundante da atmosfera é",
+    "opcoes": [
+      "oxigénio",
+      "dióxido de carbono",
+      "hélio",
+      "azoto"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 445,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O gás mais abundante da atmosfera é",
+    "opcoes": [
+      "azoto",
+      "oxigénio",
+      "dióxido de carbono",
+      "hélio"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 446,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O gás mais abundante da atmosfera é",
+    "opcoes": [
+      "dióxido de carbono",
+      "hélio",
+      "azoto",
+      "oxigénio"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 447,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O aquecimento anómalo do Pacífico equatorial chama-se",
+    "opcoes": [
+      "El Niño",
+      "La Niña",
+      "monção",
+      "ressurgência"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 448,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O aquecimento anómalo do Pacífico equatorial chama-se",
+    "opcoes": [
+      "La Niña",
+      "monção",
+      "ressurgência",
+      "El Niño"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 449,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O aquecimento anómalo do Pacífico equatorial chama-se",
+    "opcoes": [
+      "monção",
+      "ressurgência",
+      "El Niño",
+      "La Niña"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 450,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A fase fria do ENSO chama-se",
+    "opcoes": [
+      "La Niña",
+      "El Niño",
+      "Zonda",
+      "Mistral"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 451,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A fase fria do ENSO chama-se",
+    "opcoes": [
+      "El Niño",
+      "Zonda",
+      "Mistral",
+      "La Niña"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 452,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A fase fria do ENSO chama-se",
+    "opcoes": [
+      "El Niño",
+      "Zonda",
+      "Mistral",
+      "La Niña"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 453,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O efeito de Coriolis desvia ventos para a direita no",
+    "opcoes": [
+      "Hemisfério Norte",
+      "Hemisfério Sul",
+      "Equador exactamente",
+      "polo Sul apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 454,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O efeito de Coriolis desvia ventos para a direita no",
+    "opcoes": [
+      "Hemisfério Sul",
+      "Equador exactamente",
+      "polo Sul apenas",
+      "Hemisfério Norte"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 455,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O efeito de Coriolis desvia ventos para a direita no",
+    "opcoes": [
+      "Hemisfério Norte",
+      "Hemisfério Sul",
+      "Equador exactamente",
+      "polo Sul apenas"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 456,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A subsidência em torno de 30° favorece",
+    "opcoes": [
+      "chuvas equatoriais",
+      "baixas polares",
+      "neve tropical",
+      "altas pressões subtropicais"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 457,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A subsidência em torno de 30° favorece",
+    "opcoes": [
+      "chuvas equatoriais",
+      "baixas polares",
+      "neve tropical",
+      "altas pressões subtropicais"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 458,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A subsidência em torno de 30° favorece",
+    "opcoes": [
+      "chuvas equatoriais",
+      "baixas polares",
+      "neve tropical",
+      "altas pressões subtropicais"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 459,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A convergência de alísios e convecção ocorre na",
+    "opcoes": [
+      "zona polar",
+      "corrente de Benguela",
+      "estratosfera",
+      "ZCIT"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 460,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A convergência de alísios e convecção ocorre na",
+    "opcoes": [
+      "corrente de Benguela",
+      "estratosfera",
+      "ZCIT",
+      "zona polar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 461,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A convergência de alísios e convecção ocorre na",
+    "opcoes": [
+      "corrente de Benguela",
+      "estratosfera",
+      "ZCIT",
+      "zona polar"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 462,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Um vale em U é geralmente formado por",
+    "opcoes": [
+      "erosão fluvial",
+      "acção eólica",
+      "dissolução cársica",
+      "erosão glacial"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 463,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Um vale em U é geralmente formado por",
+    "opcoes": [
+      "erosão glacial",
+      "erosão fluvial",
+      "acção eólica",
+      "dissolução cársica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 464,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Um vale em U é geralmente formado por",
+    "opcoes": [
+      "acção eólica",
+      "dissolução cársica",
+      "erosão glacial",
+      "erosão fluvial"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 465,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Uma depressão cársica fechada chama-se",
+    "opcoes": [
+      "fiorde",
+      "meandro",
+      "delta",
+      "dolina"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 466,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Uma depressão cársica fechada chama-se",
+    "opcoes": [
+      "fiorde",
+      "meandro",
+      "delta",
+      "dolina"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 467,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Uma depressão cársica fechada chama-se",
+    "opcoes": [
+      "fiorde",
+      "meandro",
+      "delta",
+      "dolina"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 468,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A dissolução de calcário por água com CO2 é",
+    "opcoes": [
+      "laterização",
+      "salinização",
+      "gelifracção",
+      "carbonatação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 469,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A dissolução de calcário por água com CO2 é",
+    "opcoes": [
+      "gelifracção",
+      "carbonatação",
+      "laterização",
+      "salinização"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 470,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A dissolução de calcário por água com CO2 é",
+    "opcoes": [
+      "salinização",
+      "gelifracção",
+      "carbonatação",
+      "laterização"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 471,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A remoção de substâncias solúveis pela água infiltrada é",
+    "opcoes": [
+      "compactação",
+      "sedimentação",
+      "oxidação",
+      "lixiviação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 472,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A remoção de substâncias solúveis pela água infiltrada é",
+    "opcoes": [
+      "sedimentação",
+      "oxidação",
+      "lixiviação",
+      "compactação"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 473,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A remoção de substâncias solúveis pela água infiltrada é",
+    "opcoes": [
+      "oxidação",
+      "lixiviação",
+      "compactação",
+      "sedimentação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 474,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A acumulação de óxidos de ferro após forte lixiviação é",
+    "opcoes": [
+      "dolina",
+      "erosão glacial",
+      "laterização",
+      "salinização"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 475,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A acumulação de óxidos de ferro após forte lixiviação é",
+    "opcoes": [
+      "laterização",
+      "salinização",
+      "dolina",
+      "erosão glacial"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 476,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A acumulação de óxidos de ferro após forte lixiviação é",
+    "opcoes": [
+      "salinização",
+      "dolina",
+      "erosão glacial",
+      "laterização"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 477,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A retirada de cobertura florestal chama-se",
+    "opcoes": [
+      "conservação",
+      "desflorestação",
+      "reflorestamento",
+      "urbanização"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 478,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A retirada de cobertura florestal chama-se",
+    "opcoes": [
+      "urbanização",
+      "conservação",
+      "desflorestação",
+      "reflorestamento"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 479,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A retirada de cobertura florestal chama-se",
+    "opcoes": [
+      "desflorestação",
+      "reflorestamento",
+      "urbanização",
+      "conservação"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 480,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O excesso de nutrientes que provoca algas chama-se",
+    "opcoes": [
+      "acidificação",
+      "desertificação",
+      "salinização",
+      "eutrofização"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 481,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O excesso de nutrientes que provoca algas chama-se",
+    "opcoes": [
+      "salinização",
+      "eutrofização",
+      "acidificação",
+      "desertificação"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 482,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O excesso de nutrientes que provoca algas chama-se",
+    "opcoes": [
+      "eutrofização",
+      "acidificação",
+      "desertificação",
+      "salinização"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 483,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A absorção de CO2 que reduz o pH marinho é",
+    "opcoes": [
+      "acidificação oceânica",
+      "eutrofização",
+      "erosão",
+      "inversão térmica"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 484,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A absorção de CO2 que reduz o pH marinho é",
+    "opcoes": [
+      "erosão",
+      "inversão térmica",
+      "acidificação oceânica",
+      "eutrofização"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 485,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A absorção de CO2 que reduz o pH marinho é",
+    "opcoes": [
+      "inversão térmica",
+      "acidificação oceânica",
+      "eutrofização",
+      "erosão"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 486,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O efeito urbano de temperaturas mais elevadas chama-se",
+    "opcoes": [
+      "inversão oceânica",
+      "albedo polar",
+      "ilha de calor urbana",
+      "brisa marítima"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 487,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O efeito urbano de temperaturas mais elevadas chama-se",
+    "opcoes": [
+      "inversão oceânica",
+      "albedo polar",
+      "ilha de calor urbana",
+      "brisa marítima"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 488,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O efeito urbano de temperaturas mais elevadas chama-se",
+    "opcoes": [
+      "ilha de calor urbana",
+      "brisa marítima",
+      "inversão oceânica",
+      "albedo polar"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 489,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, Uma faixa que liga habitats isolados é um",
+    "opcoes": [
+      "fuso horário",
+      "corredor ecológico",
+      "porto seco",
+      "buffer urbano"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 490,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, Uma faixa que liga habitats isolados é um",
+    "opcoes": [
+      "porto seco",
+      "buffer urbano",
+      "fuso horário",
+      "corredor ecológico"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 491,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: Uma faixa que liga habitats isolados é um",
+    "opcoes": [
+      "fuso horário",
+      "corredor ecológico",
+      "porto seco",
+      "buffer urbano"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 492,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, A deslocação de pessoas entre residência e trabalho no mesmo dia é",
+    "opcoes": [
+      "migração pendular",
+      "êxodo rural definitivo",
+      "migração internacional",
+      "transumância"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 493,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, A deslocação de pessoas entre residência e trabalho no mesmo dia é",
+    "opcoes": [
+      "migração pendular",
+      "êxodo rural definitivo",
+      "migração internacional",
+      "transumância"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 494,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: A deslocação de pessoas entre residência e trabalho no mesmo dia é",
+    "opcoes": [
+      "transumância",
+      "migração pendular",
+      "êxodo rural definitivo",
+      "migração internacional"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 495,
+    "nivel": "dificil",
+    "pergunta": "Em cartografia ou geografia física, O princípio que exige que o poluidor pague custos é",
+    "opcoes": [
+      "precaução",
+      "equidade cartográfica",
+      "Coriolis",
+      "poluidor-pagador"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 496,
+    "nivel": "dificil",
+    "pergunta": "Considerando a definição geográfica, O princípio que exige que o poluidor pague custos é",
+    "opcoes": [
+      "Coriolis",
+      "poluidor-pagador",
+      "precaução",
+      "equidade cartográfica"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "id": 497,
+    "nivel": "dificil",
+    "pergunta": "Qual conclusão é correcta: O princípio que exige que o poluidor pague custos é",
+    "opcoes": [
+      "equidade cartográfica",
+      "Coriolis",
+      "poluidor-pagador",
+      "precaução"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "id": 498,
+    "nivel": "dificil",
+    "pergunta": "Qual análise SIG combina camadas para localizar áreas adequadas?",
+    "opcoes": [
+      "Sobreposição espacial",
+      "Geocodificação",
+      "Generalização",
+      "Nivelamento"
+    ],
+    "resposta_correta": 0
+  },
+  {
+    "id": 499,
+    "nivel": "dificil",
+    "pergunta": "Que processo aumenta a concentração de contaminantes nos níveis tróficos superiores?",
+    "opcoes": [
+      "Bioacumulação",
+      "Eutrofização",
+      "Lixiviação",
+      "Biomagnificação"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "id": 500,
+    "nivel": "dificil",
+    "pergunta": "Qual princípio recomenda agir perante ameaça séria mesmo com incerteza?",
+    "opcoes": [
+      "Equidistância",
+      "Coriolis",
+      "Precaução",
+      "Poluidor-pagador"
+    ],
+    "resposta_correta": 2
+  }
+]
