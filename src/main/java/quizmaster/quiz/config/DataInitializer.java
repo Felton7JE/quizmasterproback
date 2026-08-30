@@ -118,17 +118,6 @@ public class DataInitializer implements CommandLineRunner {
     }
 
     private void initQuestions() {
-        // ATENÇÃO: Código temporário para limpar as questões antigas e inserir as novas dos JSONs revisados!
-        System.out.println("TRUNCATING OLD QUESTION TABLES...");
-        jdbcTemplate.execute("SET FOREIGN_KEY_CHECKS = 0;");
-        jdbcTemplate.execute("TRUNCATE TABLE user_question_history;");
-        jdbcTemplate.execute("TRUNCATE TABLE game_question;");
-        jdbcTemplate.execute("TRUNCATE TABLE game_category_question;");
-        jdbcTemplate.execute("TRUNCATE TABLE answer;");
-        jdbcTemplate.execute("TRUNCATE TABLE questions;");
-        jdbcTemplate.execute("SET FOREIGN_KEY_CHECKS = 1;");
-        System.out.println("OLD QUESTIONS TRUNCATED!");
-
         if (questionRepo.count() > 2000) return;
 
         // Mapear categorias pelo nome para fácil acesso

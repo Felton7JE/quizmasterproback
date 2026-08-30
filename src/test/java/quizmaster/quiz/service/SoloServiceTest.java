@@ -12,6 +12,7 @@ import quizmaster.quiz.models.SoloBossProgress;
 import quizmaster.quiz.models.SoloLevelProgress;
 import quizmaster.quiz.models.User;
 import quizmaster.quiz.repository.*;
+import quizmaster.quiz.service.SeasonService;
 
 import java.util.Optional;
 
@@ -28,6 +29,7 @@ class SoloServiceTest {
     @Mock private UserQuestionHistoryRepository userQuestionHistoryRepository;
     @Mock private SoloLevelProgressRepository soloLevelProgressRepository;
     @Mock private SoloBossProgressRepository soloBossProgressRepository;
+    @Mock private SeasonService seasonService;
 
     @InjectMocks
     private SoloService soloService;
@@ -104,6 +106,11 @@ class SoloServiceTest {
                 
         when(soloBossProgressRepository.findByUserIdAndBossLevelNumber(1L, 5))
                 .thenReturn(Optional.of(bossProgress));
+
+        SoloLevelProgress previousProgress = new SoloLevelProgress(user, 1, true, false);
+        previousProgress.setStarsCount(10);
+        when(soloLevelProgressRepository.findByUserIdOrderByLevelNumberAsc(1L))
+                .thenReturn(java.util.List.of(previousProgress, bossLevelProgress));
 
         SoloFinishLevelResponse response = soloService.finishLevel(request);
 
