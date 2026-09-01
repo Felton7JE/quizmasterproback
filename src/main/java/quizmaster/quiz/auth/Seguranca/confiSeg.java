@@ -53,9 +53,9 @@ public class confiSeg {
                 .exceptionHandling(exception -> exception.authenticationEntryPoint(acessoNaoAuth))
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(auth -> auth.requestMatchers("/api/auth/**").permitAll())
-                .authorizeHttpRequests(auth -> auth.requestMatchers("/cadastro/**").permitAll()
-
-                .anyRequest().authenticated());
+                .authorizeHttpRequests(auth -> auth.requestMatchers("/cadastro/**").permitAll())
+                .authorizeHttpRequests(auth -> auth.requestMatchers("/error").permitAll())
+                .authorizeHttpRequests(auth -> auth.anyRequest().authenticated());
             
         http.addFilterBefore(authFilterToken(), UsernamePasswordAuthenticationFilter.class);
         return http.build();
