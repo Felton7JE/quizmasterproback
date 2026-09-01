@@ -57,7 +57,7 @@ public class DataInitializer implements CommandLineRunner {
     public void run(String... args) {
         initUsers();
         initCategories();
-        initQuestions();
+        // initQuestions();
         initStoreItems();
         initTitles();
         initSeasons();
