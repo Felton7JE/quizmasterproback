@@ -371,6 +371,25 @@ public class GameService {
             System.err.println("Failed to broadcast leaderboard update: " + e.getMessage());
         }
 
+        try {
+            int activePlayers = room.getPlayers().size();
+            int questionsPerPlayer = room.getQuestionCount() != null ? room.getQuestionCount() : 10;
+            long expectedAnswers = (long) activePlayers * questionsPerPlayer;
+            long totalAnswers = answerRepository.countByGame(game);
+
+            if (totalAnswers >= expectedAnswers && game.getStatus() != quizmaster.quiz.enums.GameStatus.FINISHED) {
+                // Fechar automaticamente se atingir o limite
+                finishGame(game.getId(), null);
+                
+                GameEventMessage finishEvent = new GameEventMessage();
+                finishEvent.setType("GAME_FINISHED");
+                finishEvent.setRoomCode(room.getRoomCode());
+                messagingTemplate.convertAndSend("/topic/room/" + room.getRoomCode(), finishEvent);
+            }
+        } catch (Exception e) {
+            System.err.println("Erro na finalização automática do jogo: " + e.getMessage());
+        }
+
         return response;
     }
 
@@ -623,8 +642,16 @@ public class GameService {
         if (cat != null) {
             pool = questionRepository.findRandomByCategory(cat.getId(), room.getDifficulty().name());
         } else {
-            List<String> allCatNames = room.getCategories().stream().map(Category::getName).collect(Collectors.toList());
-            pool = questionRepository.findRandomQuestions(allCatNames, room.getDifficulty().name());
+            java.util.List<Category> roomCategories = room.getCategories();
+            if (roomCategories == null || roomCategories.isEmpty()) {
+                pool = questionRepository.findRandomQuestionsWithLimitAndDifficulty(
+                        java.util.List.of(room.getDifficulty().name()),
+                        org.springframework.data.domain.PageRequest.of(0, 100)
+                );
+            } else {
+                List<String> allCatNames = roomCategories.stream().map(Category::getName).collect(Collectors.toList());
+                pool = questionRepository.findRandomQuestions(allCatNames, room.getDifficulty().name());
+            }
         }
 
         // Por ora, seleciona dinamicamente a próxima não respondida dessa categoria
@@ -667,7 +694,7 @@ public class GameService {
         Game game = gameRepository.findById(gameId)
                 .orElseThrow(() -> new RuntimeException("Game not found"));
 
-        if (!game.getRoom().getHost().getId().equals(hostId)) {
+        if (hostId != null && !game.getRoom().getHost().getId().equals(hostId)) {
             throw new RuntimeException("Only host can finish the game");
         }
 
@@ -817,7 +844,17 @@ public class GameService {
                 }
                 
                 // Sempre contar a partida como jogada para missões e histórico
-                user.setGamesPlayed((user.getGamesPlayed() != null ? user.getGamesPlayed() : 0) + 1);
+                int gamesPlayed = user.getGamesPlayed() != null ? user.getGamesPlayed() : 0;
+                user.setGamesPlayed(gamesPlayed + 1);
+                
+                // Atualizar precisão global do jogador
+                double currentAcc = user.getAccuracy() != null ? user.getAccuracy() : 0.0;
+                double gameAcc = res.getAccuracy() != null ? res.getAccuracy() : 0.0;
+                if (gamesPlayed == 0) {
+                    user.setAccuracy(gameAcc);
+                } else {
+                    user.setAccuracy(((currentAcc * gamesPlayed) + gameAcc) / (gamesPlayed + 1));
+                }
                 
                 // Atualizar o nível com base na curva exponencial centralizada
                 int oldLevel = user.getLevel() != null ? user.getLevel() : 1;

@@ -38,7 +38,7 @@ public class User {
     // Gamification & Economy
     private Integer coins = 500;
     private Integer crystals = 100; // Começa com 100 cristais mágicos grátis para IA e VIP
-    private Integer energy = 5; // Starting energy (Max 5)
+    private Integer energy = 100; // Starting energy (Max 100)
     private LocalDateTime lastEnergyUpdate;
 
     // AI Quiz Quota & Cooldown

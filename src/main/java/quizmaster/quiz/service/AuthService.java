@@ -44,7 +44,7 @@ public class AuthService {
                             newUser.setActive(true);
                             newUser.setCoins(500);
                             newUser.setCrystals(100);
-                            newUser.setEnergy(5);
+                            newUser.setEnergy(100);
                             newUser.setLevel(1);
                             newUser.setTotalPoints(0);
                             newUser.setCurrentLeague(quizmaster.quiz.enums.League.BRONZE);

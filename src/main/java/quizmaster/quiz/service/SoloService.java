@@ -7,6 +7,7 @@ import quizmaster.quiz.dto.*;
 import quizmaster.quiz.enums.Difficulty;
 import quizmaster.quiz.models.*;
 import quizmaster.quiz.repository.*;
+import quizmaster.quiz.services.GamificationService;
 import org.springframework.data.domain.PageRequest;
 
 import java.time.Duration;
@@ -28,14 +29,15 @@ public class SoloService {
     private final SoloBossProgressRepository soloBossProgressRepository;
     private final SeasonService seasonService;
     private final FreeModeScoreRepository freeModeScoreRepository;
+    private final GamificationService gamificationService;
 
     private static final int TOTAL_MAP_LEVELS = 100;
 
     private void calculateAndRefreshEnergy(User user) {
-        int maxEnergy = 5;
+        int maxEnergy = 100;
         int rechargeMinutes = 30;
 
-        if (user.getEnergy() == null) user.setEnergy(5);
+        if (user.getEnergy() == null) user.setEnergy(100);
         if (user.getEnergy() >= maxEnergy) {
             user.setLastEnergyUpdate(LocalDateTime.now());
             return;
@@ -50,11 +52,11 @@ public class SoloService {
         long minutesPassed = duration.toMinutes();
 
         if (minutesPassed >= rechargeMinutes) {
-            int energyToAdd = (int) (minutesPassed / rechargeMinutes);
+            int energyToAdd = (int) (minutesPassed / rechargeMinutes) * 10;
             int newEnergy = Math.min(maxEnergy, user.getEnergy() + energyToAdd);
             user.setEnergy(newEnergy);
             
-            user.setLastEnergyUpdate(user.getLastEnergyUpdate().plusMinutes((long) energyToAdd * rechargeMinutes));
+            user.setLastEnergyUpdate(user.getLastEnergyUpdate().plusMinutes((long) (energyToAdd / 10) * rechargeMinutes));
         }
     }
 
@@ -124,7 +126,7 @@ public class SoloService {
         }
 
         long secondsUntilNextEnergy = 0;
-        if (user.getEnergy() < 5 && user.getLastEnergyUpdate() != null) {
+        if (user.getEnergy() < 100 && user.getLastEnergyUpdate() != null) {
             Duration duration = Duration.between(user.getLastEnergyUpdate(), LocalDateTime.now());
             long secondsPassed = duration.getSeconds();
             secondsUntilNextEnergy = Math.max(0, (30 * 60) - secondsPassed);
@@ -139,12 +141,12 @@ public class SoloService {
                 .orElseThrow(() -> new RuntimeException("Utilizador não encontrado"));
 
         calculateAndRefreshEnergy(user);
-        if (user.getEnergy() < 1) {
+        if (user.getEnergy() < 10) {
             throw new RuntimeException("Energia insuficiente!");
         }
 
-        user.setEnergy(user.getEnergy() - 1);
-        if (user.getEnergy() == 4) {
+        user.setEnergy(user.getEnergy() - 10);
+        if (user.getEnergy() == 90) {
             user.setLastEnergyUpdate(LocalDateTime.now());
         }
         userRepository.save(user);
@@ -562,6 +564,12 @@ public class SoloService {
         user.setCoins((user.getCoins() != null ? user.getCoins() : 0) + coinsEarned);
         user.updateLevelBasedOnXp();
         userRepository.save(user);
+
+        gamificationService.progressMission(user, "PLAY_ANY");
+        gamificationService.progressMission(user, "PLAY_SOLO");
+        if (request.getScore() >= 100) {
+            gamificationService.progressMission(user, "WIN_ANY");
+        }
 
         Optional<FreeModeScore> existingOpt = freeModeScoreRepository.findByUserAndGameMode(user, request.getGameMode());
         FreeModeScore existingScore;

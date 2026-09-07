@@ -16,4 +16,5 @@ public interface AnswerRepository extends JpaRepository<Answer, Long> {
     List<Answer> findByGameAndUser(Game game, User user);
     List<Answer> findByGame(Game game);
     boolean existsByGameAndUserAndQuestion(Game game, User user, quizmaster.quiz.models.Question question);
+    int countByGame(Game game);
 }

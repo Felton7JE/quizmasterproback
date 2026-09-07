@@ -41,6 +41,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
     void resetMonthlyPoints();
 
     @org.springframework.data.jpa.repository.Modifying
-    @Query("UPDATE User u SET u.energy = u.energy + 10 WHERE u.energy < 100")
+    @Query("UPDATE User u SET u.energy = CASE WHEN u.energy + 10 > 100 THEN 100 ELSE u.energy + 10 END WHERE u.energy < 100")
     void regenerateEnergy();
 }

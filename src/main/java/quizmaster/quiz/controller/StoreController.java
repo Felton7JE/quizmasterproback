@@ -38,11 +38,15 @@ public class StoreController {
     }
 
     @PostMapping("/buy")
-    public ResponseEntity<String> buyItem(@RequestParam Long userId, @RequestParam Long itemId) {
-        User user = userRepository.findById(userId)
-            .orElseThrow(() -> new RuntimeException("User not found"));
-        storeService.buyItem(user, itemId);
-        return ResponseEntity.ok("Item purchased successfully");
+    public ResponseEntity<?> buyItem(@RequestParam Long userId, @RequestParam Long itemId) {
+        try {
+            User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("User not found"));
+            storeService.buyItem(user, itemId);
+            return ResponseEntity.ok("Item purchased successfully");
+        } catch (RuntimeException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
     }
 
     @PostMapping("/equip")
