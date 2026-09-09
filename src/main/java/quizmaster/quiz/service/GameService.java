@@ -69,6 +69,7 @@ public class GameService {
     private final TransactionTemplate transactionTemplate;
     private final quizmaster.quiz.services.GamificationService gamificationService;
     private final ActivityService activityService;
+    private final TitleService titleService;
 
     // Scheduler for Kahoot mode auto-advance
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(4);
@@ -89,7 +90,8 @@ public class GameService {
             SimpMessagingTemplate messagingTemplate,
             PlatformTransactionManager transactionManager,
             quizmaster.quiz.services.GamificationService gamificationService,
-            ActivityService activityService) {
+            ActivityService activityService,
+            TitleService titleService) {
         this.gameRepository = gameRepository;
         this.questionRepository = questionRepository;
         this.answerRepository = answerRepository;
@@ -105,6 +107,7 @@ public class GameService {
         this.transactionTemplate = new TransactionTemplate(transactionManager);
         this.gamificationService = gamificationService;
         this.activityService = activityService;
+        this.titleService = titleService;
     }
 
 
@@ -1103,6 +1106,8 @@ public class GameService {
                 user.setXp((user.getXp() != null ? user.getXp() : 0) + xpGained);
                 user.updateLevelBasedOnXp();
                 userRepository.save(user);
+
+                titleService.evaluateTitles(user);
 
                 // Progressão de Missões
                 try {

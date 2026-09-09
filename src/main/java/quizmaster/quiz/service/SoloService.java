@@ -30,6 +30,7 @@ public class SoloService {
     private final SeasonService seasonService;
     private final FreeModeScoreRepository freeModeScoreRepository;
     private final GamificationService gamificationService;
+    private final TitleService titleService;
 
     private static final int TOTAL_MAP_LEVELS = 100;
 
@@ -564,6 +565,8 @@ public class SoloService {
         user.setCoins((user.getCoins() != null ? user.getCoins() : 0) + coinsEarned);
         user.updateLevelBasedOnXp();
         userRepository.save(user);
+
+        titleService.evaluateTitles(user);
 
         gamificationService.progressMission(user, "PLAY_ANY");
         gamificationService.progressMission(user, "PLAY_SOLO");

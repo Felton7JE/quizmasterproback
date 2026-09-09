@@ -12,5 +12,6 @@ public class StoreItemDTO {
     private ItemType type;
     private String value;
     private String rarity;
+    private quizmaster.quiz.enums.CurrencyType currencyType;
     private boolean isOwned;
 }

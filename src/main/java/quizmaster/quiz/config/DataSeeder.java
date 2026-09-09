@@ -13,101 +13,122 @@ public class DataSeeder implements CommandLineRunner {
     @Autowired
     private MissionRepository missionRepository;
 
+    @Autowired
+    private quizmaster.quiz.repository.PromoCampaignRepository promoCampaignRepository;
+
+    @Autowired
+    private quizmaster.quiz.repository.PromoCodeRepository promoCodeRepository;
+
     @Override
     public void run(String... args) throws Exception {
-        if (missionRepository.count() == 0) {
-            // Daily / Starter Missions
-            Mission m1 = new Mission();
-            m1.setDescription("Jogar 1 partida de Quiz");
-            m1.setTargetValue(1);
-            m1.setRewardCoins(50);
-            m1.setActionType("PLAY_ANY");
-            m1.setType(MissionType.DAILY);
-            m1.setRewardItemType("EMOTE");
-            m1.setRewardItemName("Emoji: Raio Veloz ⚡");
-            m1.setRewardItemValue("⚡");
-            
-            Mission m2 = new Mission();
-            m2.setDescription("Vencer 1 partida de Quiz");
-            m2.setTargetValue(1);
-            m2.setRewardCoins(100);
-            m2.setActionType("WIN_ANY");
-            m2.setType(MissionType.DAILY);
-            m2.setRewardItemType("EMOTE");
-            m2.setRewardItemName("Emoji: Na Mosca 🎯");
-            m2.setRewardItemValue("🎯");
-            
-            Mission m3 = new Mission();
-            m3.setDescription("Acertar 10 perguntas no Quiz");
-            m3.setTargetValue(10);
-            m3.setRewardCoins(150);
-            m3.setActionType("ANSWER_CORRECT");
-            m3.setType(MissionType.DAILY);
-            m3.setRewardItemType("TEXT_PHRASE");
-            m3.setRewardItemName("Frase: Sou o Novo Campeão! 👑");
-            m3.setRewardItemValue("Sou o Novo Campeão! 👑");
+        initMissions();
+        initPromoCodes();
+    }
 
-            Mission m4 = new Mission();
-            m4.setDescription("Vencer 1 partida de Duelo");
-            m4.setTargetValue(1);
-            m4.setRewardCoins(150);
-            m4.setActionType("WIN_DUEL");
-            m4.setType(MissionType.DAILY);
+    private void initPromoCodes() {
+        if (promoCampaignRepository.count() > 0) return;
 
-            // Monthly Missions
-            Mission m5 = new Mission();
-            m5.setDescription("Responder 500 perguntas este mês");
-            m5.setTargetValue(500);
-            m5.setRewardCoins(1500);
-            m5.setActionType("ANSWER_ANY");
-            m5.setType(MissionType.MONTHLY);
+        // Campanha 1: Cristais para testar VIP
+        quizmaster.quiz.models.PromoCampaign c1 = new quizmaster.quiz.models.PromoCampaign();
+        c1.setName("Campanha de Boas-Vindas");
+        c1.setRewardType("CRYSTALS");
+        c1.setRewardAmount(100);
+        c1.setIsActive(true);
+        c1.setGlobalUsageLimit(20);
+        promoCampaignRepository.save(c1);
 
-            Mission m6 = new Mission();
-            m6.setDescription("Jogar 50 partidas num mês");
-            m6.setTargetValue(50);
-            m6.setRewardCoins(2000);
-            m6.setActionType("PLAY_ANY");
-            m6.setType(MissionType.MONTHLY);
+        quizmaster.quiz.models.PromoCode code1 = new quizmaster.quiz.models.PromoCode();
+        code1.setCampaign(c1);
+        code1.setCode("QUIZPRO100");
+        code1.setIsSingleUse(false);
+        promoCodeRepository.save(code1);
 
-            // Milestone Missions
-            Mission m7 = new Mission();
-            m7.setDescription("Jogar 10 partidas totais");
-            m7.setTargetValue(10);
-            m7.setRewardCoins(500);
-            m7.setActionType("PLAY_ANY");
-            m7.setType(MissionType.MILESTONE);
+        // Campanha 2: Moedas
+        quizmaster.quiz.models.PromoCampaign c2 = new quizmaster.quiz.models.PromoCampaign();
+        c2.setName("Campanha Milionária");
+        c2.setRewardType("COINS");
+        c2.setRewardAmount(5000);
+        c2.setIsActive(true);
+        c2.setGlobalUsageLimit(40);
+        promoCampaignRepository.save(c2);
 
-            Mission m8 = new Mission();
-            m8.setDescription("Jogar 50 partidas totais");
-            m8.setTargetValue(50);
-            m8.setRewardCoins(2500);
-            m8.setActionType("PLAY_ANY");
-            m8.setType(MissionType.MILESTONE);
+        quizmaster.quiz.models.PromoCode code2 = new quizmaster.quiz.models.PromoCode();
+        code2.setCampaign(c2);
+        code2.setCode("RICO2026");
+        code2.setIsSingleUse(false);
+        promoCodeRepository.save(code2);
+    }
 
-            Mission m9 = new Mission();
-            m9.setDescription("Jogar 100 partidas totais");
-            m9.setTargetValue(100);
-            m9.setRewardCoins(5000);
-            m9.setActionType("PLAY_ANY");
-            m9.setType(MissionType.MILESTONE);
+    private void initMissions() {
+        if (missionRepository.count() > 0) return;
 
-            Mission m10 = new Mission();
-            m10.setDescription("Acertar 100 perguntas corretamente");
-            m10.setTargetValue(100);
-            m10.setRewardCoins(4000);
-            m10.setActionType("ANSWER_CORRECT");
-            m10.setType(MissionType.MILESTONE);
-            
-            missionRepository.save(m1);
-            missionRepository.save(m2);
-            missionRepository.save(m3);
-            missionRepository.save(m4);
-            missionRepository.save(m5);
-            missionRepository.save(m6);
-            missionRepository.save(m7);
-            missionRepository.save(m8);
-            missionRepository.save(m9);
-            missionRepository.save(m10);
-        }
+        java.util.List<Mission> missions = java.util.List.of(
+            // --- Diárias ---
+            createMission("Jogar 1 partida de Quiz", 1, 50, "PLAY_ANY", MissionType.DAILY),
+            createMission("Jogar 3 partidas", 3, 100, "PLAY_ANY", MissionType.DAILY),
+            createMission("Jogar 5 partidas", 5, 200, "PLAY_ANY", MissionType.DAILY),
+            createMission("Jogar 10 partidas", 10, 500, "PLAY_ANY", MissionType.DAILY),
+            createMission("Vencer 1 partida", 1, 100, "WIN_ANY", MissionType.DAILY),
+            createMission("Vencer 3 partidas", 3, 300, "WIN_ANY", MissionType.DAILY),
+            createMission("Vencer 5 partidas", 5, 500, "WIN_ANY", MissionType.DAILY),
+            createMission("Acertar 10 perguntas", 10, 100, "ANSWER_CORRECT", MissionType.DAILY),
+            createMission("Acertar 25 perguntas", 25, 250, "ANSWER_CORRECT", MissionType.DAILY),
+            createMission("Acertar 50 perguntas", 50, 500, "ANSWER_CORRECT", MissionType.DAILY),
+            createMission("Jogar 1 partida Solo", 1, 100, "PLAY_SOLO", MissionType.DAILY),
+            createMission("Jogar 3 partidas Solo", 3, 300, "PLAY_SOLO", MissionType.DAILY),
+            createMission("Jogar 1 partida Multiplayer", 1, 150, "PLAY_MULTIPLAYER", MissionType.DAILY),
+            createMission("Gastar 50 de Energia", 50, 100, "SPEND_ENERGY", MissionType.DAILY),
+            createMission("Gastar 100 de Energia", 100, 250, "SPEND_ENERGY", MissionType.DAILY),
+
+            // --- Mensais ---
+            createMission("Jogar 25 partidas", 25, 1000, "PLAY_ANY", MissionType.MONTHLY),
+            createMission("Jogar 50 partidas", 50, 2500, "PLAY_ANY", MissionType.MONTHLY),
+            createMission("Jogar 100 partidas", 100, 6000, "PLAY_ANY", MissionType.MONTHLY),
+            createMission("Vencer 10 partidas", 10, 1200, "WIN_ANY", MissionType.MONTHLY),
+            createMission("Vencer 25 partidas", 25, 3000, "WIN_ANY", MissionType.MONTHLY),
+            createMission("Vencer 50 partidas", 50, 7000, "WIN_ANY", MissionType.MONTHLY),
+            createMission("Acertar 100 perguntas", 100, 2000, "ANSWER_CORRECT", MissionType.MONTHLY),
+            createMission("Acertar 500 perguntas", 500, 10000, "ANSWER_CORRECT", MissionType.MONTHLY),
+            createMission("Comprar 1 item na Loja", 1, 500, "BUY_ITEM", MissionType.MONTHLY),
+            createMission("Comprar 3 itens na Loja", 3, 2000, "BUY_ITEM", MissionType.MONTHLY),
+            createMission("Comprar 5 itens na Loja", 5, 4000, "BUY_ITEM", MissionType.MONTHLY),
+            createMission("Gastar 500 de Energia", 500, 2000, "SPEND_ENERGY", MissionType.MONTHLY),
+            createMission("Convidar 1 amigo", 1, 1000, "INVITE_FRIEND", MissionType.MONTHLY),
+            createMission("Acertar 250 perguntas", 250, 4500, "ANSWER_CORRECT", MissionType.MONTHLY),
+            createMission("Acertar 750 perguntas", 750, 15000, "ANSWER_CORRECT", MissionType.MONTHLY),
+            createMission("Jogar 75 partidas", 75, 4000, "PLAY_ANY", MissionType.MONTHLY),
+            createMission("Gastar 1000 de Energia", 1000, 5000, "SPEND_ENERGY", MissionType.MONTHLY),
+            createMission("Vencer 75 partidas", 75, 10000, "WIN_ANY", MissionType.MONTHLY),
+
+            // --- Milestone (Vitalícias / Iniciante) ---
+            createMission("Jogar a 1ª partida", 1, 200, "PLAY_ANY", MissionType.MILESTONE),
+            createMission("Jogar 10 partidas totais", 10, 1000, "PLAY_ANY", MissionType.MILESTONE),
+            createMission("Jogar 100 partidas totais", 100, 5000, "PLAY_ANY", MissionType.MILESTONE),
+            createMission("Jogar 500 partidas totais", 500, 25000, "PLAY_ANY", MissionType.MILESTONE),
+            createMission("Vencer a 1ª partida", 1, 300, "WIN_ANY", MissionType.MILESTONE),
+            createMission("Vencer 10 partidas totais", 10, 1500, "WIN_ANY", MissionType.MILESTONE),
+            createMission("Vencer 50 partidas totais", 50, 8000, "WIN_ANY", MissionType.MILESTONE),
+            createMission("Vencer 100 partidas totais", 100, 20000, "WIN_ANY", MissionType.MILESTONE),
+            createMission("Acertar 100 perguntas totais", 100, 3000, "ANSWER_CORRECT", MissionType.MILESTONE),
+            createMission("Acertar 1000 perguntas totais", 1000, 40000, "ANSWER_CORRECT", MissionType.MILESTONE),
+            createMission("Comprar 1 item na Loja", 1, 1000, "BUY_ITEM", MissionType.MILESTONE),
+            createMission("Comprar 10 itens na Loja", 10, 10000, "BUY_ITEM", MissionType.MILESTONE),
+            createMission("Convidar 1 amigo", 1, 2500, "INVITE_FRIEND", MissionType.MILESTONE),
+            createMission("Convidar 5 amigos", 5, 15000, "INVITE_FRIEND", MissionType.MILESTONE),
+            createMission("Atingir o Nível 10", 10, 5000, "REACH_LEVEL", MissionType.MILESTONE),
+            createMission("Atingir o Nível 50", 50, 50000, "REACH_LEVEL", MissionType.MILESTONE),
+            createMission("Tornar-se VIP", 1, 10000, "BECOME_VIP", MissionType.MILESTONE)
+        );
+        missionRepository.saveAll(missions);
+    }
+
+    private Mission createMission(String desc, int target, int coins, String actionType, MissionType type) {
+        Mission m = new Mission();
+        m.setDescription(desc);
+        m.setTargetValue(target);
+        m.setRewardCoins(coins);
+        m.setActionType(actionType);
+        m.setType(type);
+        return m;
     }
 }

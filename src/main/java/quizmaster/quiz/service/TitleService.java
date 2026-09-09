@@ -95,4 +95,40 @@ public class TitleService {
         user.setActiveTitleId(null);
         userRepository.save(user);
     }
+
+    @Transactional
+    public void evaluateTitles(User user) {
+        List<Title> allTitles = titleRepository.findAll();
+        for (Title title : allTitles) {
+            boolean hasTitle = userTitleRepository.existsByUserAndTitle_Id(user, title.getId());
+            if (!hasTitle) {
+                boolean meetsCondition = false;
+                switch (title.getConditionType()) {
+                    case WINS:
+                        meetsCondition = user.getGamesWon() != null && user.getGamesWon() >= title.getConditionValue();
+                        break;
+                    case GAMES_PLAYED:
+                        meetsCondition = user.getGamesPlayed() != null && user.getGamesPlayed() >= title.getConditionValue();
+                        break;
+                    case LEVEL:
+                        meetsCondition = user.getLevel() != null && user.getLevel() >= title.getConditionValue();
+                        break;
+                    case INVITES:
+                        meetsCondition = user.getReferralCount() != null && user.getReferralCount() >= title.getConditionValue();
+                        break;
+                    case VIP:
+                        // Assuming VIP condition value 1 means "is VIP" but we will just leave it false for now or skip if not tracked 
+                        break;
+                }
+
+                if (meetsCondition) {
+                    UserTitle newTitle = new UserTitle();
+                    newTitle.setUser(user);
+                    newTitle.setTitle(title);
+                    newTitle.setIsEquipped(false);
+                    userTitleRepository.save(newTitle);
+                }
+            }
+        }
+    }
 }

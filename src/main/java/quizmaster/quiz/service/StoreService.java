@@ -39,6 +39,7 @@ public class StoreService {
             dto.setType(item.getType());
             dto.setValue(item.getValue());
             dto.setRarity(item.getRarity());
+            dto.setCurrencyType(item.getCurrencyType());
             dto.setOwned(userItemRepository.existsByUserAndStoreItem_Id(user, item.getId()));
             return dto;
         }).collect(Collectors.toList());
@@ -58,6 +59,7 @@ public class StoreService {
             storeDto.setType(ui.getStoreItem().getType());
             storeDto.setValue(ui.getStoreItem().getValue());
             storeDto.setRarity(ui.getStoreItem().getRarity());
+            storeDto.setCurrencyType(ui.getStoreItem().getCurrencyType());
             
             dto.setStoreItem(storeDto);
             return dto;
@@ -73,11 +75,18 @@ public class StoreService {
             throw new RuntimeException("Item already owned");
         }
         
-        if (user.getCoins() < item.getPrice()) {
-            throw new RuntimeException("Insufficient coins");
+        if (quizmaster.quiz.enums.CurrencyType.CRYSTALS.equals(item.getCurrencyType())) {
+            if (user.getCrystals() == null || user.getCrystals() < item.getPrice()) {
+                throw new RuntimeException("Insufficient crystals");
+            }
+            user.setCrystals(user.getCrystals() - item.getPrice());
+        } else {
+            if (user.getCoins() == null || user.getCoins() < item.getPrice()) {
+                throw new RuntimeException("Insufficient coins");
+            }
+            user.setCoins(user.getCoins() - item.getPrice());
         }
         
-        user.setCoins(user.getCoins() - item.getPrice());
         userRepository.save(user);
         
         UserItem userItem = new UserItem();

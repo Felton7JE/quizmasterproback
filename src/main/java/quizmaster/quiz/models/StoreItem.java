@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import quizmaster.quiz.enums.CurrencyType;
 import quizmaster.quiz.enums.ItemType;
 
 @Entity
@@ -27,6 +28,10 @@ public class StoreItem {
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private ItemType type;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private CurrencyType currencyType = CurrencyType.COINS;
 
     @Column(nullable = false)
     private String value; // The image URL or the text phrase
