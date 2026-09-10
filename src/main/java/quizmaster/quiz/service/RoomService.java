@@ -28,6 +28,7 @@ import quizmaster.quiz.repository.UserSeasonProgressRepository;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.scheduling.annotation.Scheduled;
 
 
 import java.time.LocalDateTime;
@@ -785,5 +786,16 @@ public class RoomService {
         wsEvent.setPlayerCategories(emptyList);
         messagingTemplate.convertAndSend("/topic/room/" + room.getRoomCode(), wsEvent);
     }
+
+    // Lixeiro Supremo: Roda a cada 30 minutos para apagar salas inativas (com mais de 1 hora sem finalizar jogo)
+    @Scheduled(fixedRate = 1800000)
+    public void cleanupAbandonedRooms() {
+        LocalDateTime timeLimit = LocalDateTime.now().minusHours(1);
+        List<Room> abandonedRooms = roomRepository.findAbandonedRooms(timeLimit);
+        
+        if (!abandonedRooms.isEmpty()) {
+            System.out.println("Lixeiro Automático encontrou " + abandonedRooms.size() + " sala(s) abandonada(s) (Ghosts). Realizando faxina...");
+            roomRepository.deleteAll(abandonedRooms);
+        }
+    }
 }
- 

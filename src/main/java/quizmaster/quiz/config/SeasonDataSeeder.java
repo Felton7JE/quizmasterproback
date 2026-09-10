@@ -13,7 +13,7 @@ import quizmaster.quiz.repository.SeasonRewardRepository;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Component
+// @Component
 @RequiredArgsConstructor
 public class SeasonDataSeeder implements CommandLineRunner {
 

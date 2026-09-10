@@ -23,6 +23,9 @@ public interface FriendshipRepository extends JpaRepository<Friendship, Long> {
     // Para encontrar apenas pedidos que o utilizador RECEBEU e estão pendentes
     List<Friendship> findByFriendAndStatus(User friend, FriendshipStatus status);
     
+    // Para encontrar apenas pedidos que o utilizador ENVIOU e estão pendentes
+    List<Friendship> findByUserAndStatus(User user, FriendshipStatus status);
+    
     // Para contar quantos amigos aceites o utilizador tem (limite de 30)
     @Query("SELECT COUNT(f) FROM Friendship f WHERE (f.user = :user OR f.friend = :user) AND f.status = 'ACCEPTED'")
     long countAcceptedFriends(@Param("user") User user);

@@ -43,7 +43,7 @@ public class DataInitializer implements CommandLineRunner {
     public void run(String... args) {
         initStoreItems();
         initTitles();
-        initSeasons();
+        // initSeasons(); // Desativado para que as seasons sejam inseridas e gerenciadas diretamente via SQL (MySQL)
     }
 
     private void initStoreItems() {
@@ -66,19 +66,19 @@ public class DataInitializer implements CommandLineRunner {
         items.add(createStoreItem("Chamas Ardentes", "Aquece a competição",               1200, ItemType.BANNER, "images/banners/banner_fogo.jpg", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Oceano Profundo", "Mergulha num mar de perguntas",     1200, ItemType.BANNER, "images/banners/banner_agua.jpg", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Gelo Eterno",     "Mente fria e calculista",           1200, ItemType.BANNER, "images/banners/banner_gelo.jpg", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Luzes de Néon",   "O teu perfil a brilhar na escuridão",1200, ItemType.BANNER, "images/banners/banner_neon.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("Luzes de Néon",   "O teu perfil a brilhar na escuridão",100, ItemType.BANNER, "images/banners/banner_neon.png", "Épico", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Apocalipse (Dia)", "O fim do mundo começou de dia",    1200, ItemType.BANNER, "images/banners/banner_apocalipse_zumbi_dia.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
 
         // Lendários (1800 moedas)
         items.add(createStoreItem("Apocalipse (Tóxico)","Tudo o que restou foi a radiação",1800, ItemType.BANNER, "images/banners/banner_apocalipse_zumbi_grean.png", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Apocalipse (Noite)","A escuridão esconde os piores medos",1800, ItemType.BANNER, "images/banners/banner_apocalipse_zumbi_night.png", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Galáxia",         "O universo inteiro num só banner",  1800, ItemType.BANNER, "images/banners/banner_galaxia.jpg", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("The Best",        "Um título para os verdadeiros campeões",1800, ItemType.BANNER, "images/banners/banner_the_best.png", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("The Best",        "Um título para os verdadeiros campeões",150, ItemType.BANNER, "images/banners/banner_the_best.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
 
         // Supremos (3500 moedas)
-        items.add(createStoreItem("Aura Divina",     "Energia suprema emana de ti",       3500, ItemType.BANNER, "images/banners/banner_aura.png", "Supremo", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("Aura Divina",     "Energia suprema emana de ti",       200, ItemType.BANNER, "images/banners/banner_aura.png", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Multiverso",      "Controlas o espaço e o tempo",      3500, ItemType.BANNER, "images/banners/banner_multiverso.png", "Supremo", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Banner Supremo",  "O topo da cadeia alimentar do Quiz",3500, ItemType.BANNER, "images/banners/banner_supremo.png", "Supremo", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("Banner Supremo",  "O topo da cadeia alimentar do Quiz",200, ItemType.BANNER, "images/banners/banner_supremo.png", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
 
         // ── FRASES PROVOCATIVAS & VITÓRIA ────────────────────────────────────
         // Comuns (150 - 200 moedas)
@@ -116,10 +116,20 @@ public class DataInitializer implements CommandLineRunner {
         items.add(createStoreItem("Frase: Génio em Ação! 🧪",       "Ciência e conhecimento no topo",    500, ItemType.TEXT_PHRASE, "Génio em Ação! 🧪", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Frase: Mente de Titânio! 🛡️",     "Inabalável contra qualquer pressão", 450, ItemType.TEXT_PHRASE, "Mente de Titânio! 🛡️", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
 
-        // Lendários & Supremos (750 - 1500 moedas)
+        // Lendários & Supremos (Cristais)
         items.add(createStoreItem("Frase: Impossível de Derrotar! 🌟", "Apenas para os invictos",        750, ItemType.TEXT_PHRASE, "Impossível de Derrotar! 🌟", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Frase: Domínio Absoluto! 👑",    "Controle total sobre o tabuleiro",  900, ItemType.TEXT_PHRASE, "Domínio Absoluto! 👑", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Frase: Lenda Viva do Quiz! 🌌",  "Conhecimento de outra dimensão",   1500, ItemType.TEXT_PHRASE, "Lenda Viva do Quiz! 🌌", "Supremo", quizmaster.quiz.enums.CurrencyType.COINS));
+        
+        // Novas frases em Cristais solicitadas pelo usuário:
+        items.add(createStoreItem("Frase: Sou o Novo Campeão! 👑",  "Exclusivo Supremo",                 50, ItemType.TEXT_PHRASE, "Sou o Novo Campeão! 👑", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: Lenda Viva do Quiz! 🌌",  "Conhecimento de outra dimensão",    100, ItemType.TEXT_PHRASE, "Lenda Viva do Quiz! 🌌", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: Eu sou o supremo! ✨",    "Avisa a todos quem manda aqui",     80, ItemType.TEXT_PHRASE, "Eu sou o supremo! ✨", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: Farmando aura! ✨",       "A acumular respeito na partida",    50, ItemType.TEXT_PHRASE, "Farmando aura! ✨", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: Eu sou cheese! 🧀",       "Sabor inconfundível da vitória",    50, ItemType.TEXT_PHRASE, "Eu sou cheese! 🧀", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: É só isso? 😂",           "Quando o nível está muito baixo",   40, ItemType.TEXT_PHRASE, "É só isso? 😂", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: Meu pequenote! 🤏",       "Superioridade esmagadora",          60, ItemType.TEXT_PHRASE, "Meu pequenote! 🤏", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: Você não me vence! 🛡️",   "A barreira impenetrável",           60, ItemType.TEXT_PHRASE, "Você não me vence! 🛡️", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Frase: Me solta! 😤",             "Imparável e furioso",               50, ItemType.TEXT_PHRASE, "Me solta! 😤", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
 
         // ── EMOJIS & REAÇÕES RÁPIDAS ──────────────────────────────────────────
         // Comuns (150 - 200 moedas)
@@ -128,10 +138,6 @@ public class DataInitializer implements CommandLineRunner {
         items.add(createStoreItem("Emoji: Palmas de Respeito 👏",   "Reconhecimento da boa jogada",      200, ItemType.EMOTE, "👏", "Comum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Rindo Demais 😂",         "Gargalhada contagiante",            150, ItemType.EMOTE, "😂", "Comum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Chocado 😱",              "Surpresa inacreditável",            150, ItemType.EMOTE, "😱", "Comum", quizmaster.quiz.enums.CurrencyType.COINS));
-
-        // Emojis e Frases Premium (Cristais)
-        items.add(createStoreItem("Emoji: Coroa Dourada 👑",        "Para quem é o rei da partida",      15, ItemType.EMOTE, "👑", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
-        items.add(createStoreItem("Frase: Eu sou O Supremo! ✨",   "Avisa a todos quem manda aqui",     20, ItemType.TEXT_PHRASE, "Eu sou O Supremo! ✨", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Emoji: Força Total 💪",          "Determinação inabalável",           180, ItemType.EMOTE, "💪", "Comum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Trevo da Sorte 🍀",       "Abençoado pelos deuses do Quiz",    180, ItemType.EMOTE, "🍀", "Comum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Piscadela 😉",            "Cumplicidade e diversão",           150, ItemType.EMOTE, "😉", "Comum", quizmaster.quiz.enums.CurrencyType.COINS));
@@ -146,26 +152,26 @@ public class DataInitializer implements CommandLineRunner {
 
         // Raros (300 - 380 moedas)
         items.add(createStoreItem("Emoji: Raio Veloz ⚡",           "Velocidade eletrizante",            300, ItemType.EMOTE, "⚡", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Emoji: Cérebro Supremo 🧠",      "Pura inteligência em ação",         350, ItemType.EMOTE, "🧠", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Foguete Cósmico 🚀",      "Rumo ao topo do ranking",           300, ItemType.EMOTE, "🚀", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Mente a Explodir 🤯",     "Perguntas que desafiam a mente",    320, ItemType.EMOTE, "🤯", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Mágico do Quiz 🎩",       "Truques de conhecimento",           350, ItemType.EMOTE, "🎩", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Emoji: Bola de Cristal 🔮",      "Previsões infalíveis",              350, ItemType.EMOTE, "🔮", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Estrela Brilhante ⭐",    "Brilho de uma estrela",             380, ItemType.EMOTE, "⭐", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Tubarão dos Quizzes 🦈",  "Predador implacável nas partidas",  380, ItemType.EMOTE, "🦈", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
 
         // Épicos (400 - 600 moedas)
-        items.add(createStoreItem("Emoji: Coroa da Vitória 👑",     "Digno de um verdadeiro mestre",     400, ItemType.EMOTE, "👑", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Leão Majestoso 🦁",       "O rei da selva do saber",           450, ItemType.EMOTE, "🦁", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Anjo Sábio 😇",           "Respostas iluminadas",              450, ItemType.EMOTE, "😇", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Robô Inteligente 🤖",     "Processador de alto rendimento",    500, ItemType.EMOTE, "🤖", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Emoji: Sol Radiante ☀️",         "Ilumina a sala com respostas",      450, ItemType.EMOTE, "☀️", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
 
-        // Lendários & Supremos (750 - 1500 moedas)
+        // Lendários & Supremos Premium (Cristais)
+        items.add(createStoreItem("Emoji: Coroa da Vitória 👑",     "Digno de um verdadeiro mestre",     40, ItemType.EMOTE, "👑", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Emoji: Bola de Cristal 🔮",      "Previsões infalíveis",              30, ItemType.EMOTE, "🔮", "Raro", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Emoji: Cérebro Supremo 🧠",      "Pura inteligência em ação",         45, ItemType.EMOTE, "🧠", "Raro", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Emoji: Dragão Místico 🐉",       "Poder ancestral e indomável",       60, ItemType.EMOTE, "🐉", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Emoji: Fénix Imortal 🦅",        "Ressurge sempre com mais força",    70, ItemType.EMOTE, "🦅", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Emoji: Galáxia Suprema 🌌",      "Conexão com todo o cosmos",         90, ItemType.EMOTE, "🌌", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Emoji: Diamante Brilhante 💎",   "Precioso e imbatível",              750, ItemType.EMOTE, "💎", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Emoji: Dragão Místico 🐉",       "Poder ancestral e indomável",       900, ItemType.EMOTE, "🐉", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Emoji: Fénix Imortal 🦅",        "Ressurge sempre com mais força",   1000, ItemType.EMOTE, "🦅", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Emoji: Galáxia Suprema 🌌",      "Conexão com todo o cosmos",        1500, ItemType.EMOTE, "🌌", "Supremo", quizmaster.quiz.enums.CurrencyType.COINS));
 
         // ── AVATARES REAIS ───────────────────────────────────────────────────
         
@@ -189,14 +195,13 @@ public class DataInitializer implements CommandLineRunner {
         items.add(createStoreItem("Pixel: A Estudiosa",     "Primeira da turma, sempre",          400, ItemType.AVATAR, "images/avatars/avatar_pixel_estudante_f.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Pixel: O Construtor",    "Cada erro é só mais código",         400, ItemType.AVATAR, "images/avatars/avatar_pixel_engenheiro.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Pixel: O Herói 8-Bit",   "Lenda nos 32 pixels de altura",      450, ItemType.AVATAR, "images/avatars/avatar_pixel_heroi.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Pixel: O Dev",           "Código é o seu superpoder",          450, ItemType.AVATAR, "images/avatars/avatar_pixel_it.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Pixel: O Doutor",        "Diagnóstico: muita inteligência",    450, ItemType.AVATAR, "images/avatars/avatar_pixel_medico.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Pixel: O Mestre",        "Sabe a resposta antes da pergunta",  450, ItemType.AVATAR, "images/avatars/avatar_pixel_professor.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Pixel: O Vilão",         "O lado sombrio do saber",            500, ItemType.AVATAR, "images/avatars/avatar_pixel_vilao.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("Pixel: O Dev",           "Código é o seu superpoder",          80, ItemType.AVATAR, "images/avatars/avatar_pixel_it.png", "Incomum", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Pixel: O Vilão",         "O lado sombrio do saber",            80, ItemType.AVATAR, "images/avatars/avatar_pixel_vilao.png", "Incomum", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Raposa Exploradora",     "Caiu no mundo Pixel a explorar",     550, ItemType.AVATAR, "images/avatars/avatar_raposa_full_pixel_art.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("IA Consciente",          "Processamento a 100%. Erro não encontrado.", 550, ItemType.AVATAR, "images/avatars/avatar_ia.png", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
 
-        // Personagens Especiais (Raros - 600-900 moedas)
+        // Personagens Especiais (Raros)
         items.add(createStoreItem("O Herói Retro",          "Nasceu para ser épico",              600, ItemType.AVATAR, "images/avatars/avatar_heroi_retro.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("A Heroína Retro",         "A rainha dos jogos antigos",         600, ItemType.AVATAR, "images/avatars/avatar_heroina_retro.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("O Vampiro Eterno",        "Imortal, elegante e letal",          650, ItemType.AVATAR, "images/avatars/avatar_vampiro.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
@@ -204,34 +209,35 @@ public class DataInitializer implements CommandLineRunner {
         items.add(createStoreItem("Caçador do Paranormal",   "O impossível é a sua especialidade", 700, ItemType.AVATAR, "images/avatars/avatar_detetive_sobrenatural.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("O Ninja das Sombras",     "Invisível. Rápido. Certeiro.",       700, ItemType.AVATAR, "images/avatars/avatar_ninja_sombrio_refinado.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Raposa Shinobi",          "A astúcia como única arma",          700, ItemType.AVATAR, "images/avatars/avatar_rapousa_ninja.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Urso do Conhecimento",    "Grande, poderoso e sábio", 30, ItemType.AVATAR, "images/avatars/avatar_urso_fixe.png", "Raro", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("A Génio Numérica",        "Vê equações onde os outros veem caos", 750, ItemType.AVATAR, "images/avatars/avatar_genia_matematica.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("A Coruja Omnisciente",    "Vê na escuridão, sabe tudo",         750, ItemType.AVATAR, "images/avatars/avatar_coruja_sabia.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("IA Dominante",            "A máquina que aprendeu tudo",        800, ItemType.AVATAR, "images/avatars/avatar_ia_dominante.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("O Vigilante Encapuzado",  "Protege o quiz das respostas erradas", 800, ItemType.AVATAR, "images/avatars/avatar_super_heroi_encapuzado.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("A Musa do Pop",           "Estrela do palco e da loja",         850, ItemType.AVATAR, "images/avatars/avatar_musa_do_pop.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("Urso do Conhecimento",    "Grande, poderoso e sábio",          80, ItemType.AVATAR, "images/avatars/avatar_urso_fixe.png", "Raro", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("A Coruja Omnisciente",    "Vê na escuridão, sabe tudo",        80, ItemType.AVATAR, "images/avatars/avatar_coruja_sabia.png", "Raro", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("IA Dominante",            "A máquina que aprendeu tudo",       100, ItemType.AVATAR, "images/avatars/avatar_ia_dominante.png", "Raro", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
 
-        // Épicos com Auras (1000-1500 moedas)
+        // Épicos com Auras (Cristais e Moedas)
         items.add(createStoreItem("Senhor das Águas",        "O oceano obedece à sua vontade",    1000, ItemType.AVATAR, "images/avatars/avatar_aura_agua.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Mestre do Vento",         "Livre como o ar, ágil como o pensamento", 1000, ItemType.AVATAR, "images/avatars/avatar_aura_ar.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Filho das Chamas",        "Ardente, imparável, lendário",      1000, ItemType.AVATAR, "images/avatars/avatar_aura_fogo.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Ser de Partículas",        "Feito de energia pura do cosmos", 50, ItemType.AVATAR, "images/avatars/avatar_aura_particulas.png", "Épico", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Guardião da Terra",       "A força da natureza em pessoa",     1000, ItemType.AVATAR, "images/avatars/avatar_aura_terra.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("O Homem da Aura",         "A energia dele é contagiante",      1200, ItemType.AVATAR, "images/avatars/avatar_homem_aura.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("O Invisível Cósmico",     "Além do visível, além da percepção", 50, ItemType.AVATAR, "images/avatars/avatar_invisivel_aura.png", "Épico", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("O Cérebro Iluminado",     "A mente mais brilhante da loja",    1200, ItemType.AVATAR, "images/avatars/avatar_cerebro_brilhante.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Raposa da Sorte",         "A própria fortuna escolheu-te",     1250, ItemType.AVATAR, "images/avatars/avatar_raposa_transicao_sorte.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("Ser de Partículas",        "Feito de energia pura do cosmos",  120, ItemType.AVATAR, "images/avatars/avatar_aura_particulas.png", "Épico", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("O Invisível Cósmico",     "Além do visível, além da percepção", 120, ItemType.AVATAR, "images/avatars/avatar_invisivel_aura.png", "Épico", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("IA Consciente",          "Processamento a 100%. Erro não encontrado.", 100, ItemType.AVATAR, "images/avatars/avatar_ia.png", "Incomum", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
 
-        // Lendários (1500-2000 moedas)
+        // Lendários Premium
         items.add(createStoreItem("I'm Genius",              "QI acima de qualquer medição",      1500, ItemType.AVATAR, "images/avatars/avatar_im_genius.png", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("I'm King",                "O trono pertence a quem sabe",      1500, ItemType.AVATAR, "images/avatars/avatar_im_king.png", "Lendário", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("I'm Legend",              "Uma lenda não se apaga", 100, ItemType.AVATAR, "images/avatars/avatar_im_legend.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
-        items.add(createStoreItem("I'm Rich",                "Rico em conhecimento e moedas", 100, ItemType.AVATAR, "images/avatars/avatar_im_rich.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
-        items.add(createStoreItem("I'm Sorry",               "Humildade épica. Classe rara.", 100, ItemType.AVATAR, "images/avatars/avatar_im_sorry.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
-        items.add(createStoreItem("No One Beats Me",         "Imbatível. Palavra final.", 100, ItemType.AVATAR, "images/avatars/avatar_no_one_beats_me.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
-        items.add(createStoreItem("Try Me",                  "Desafia-me. Tens coragem?", 100, ItemType.AVATAR, "images/avatars/avatar_try_me.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("I'm Legend",              "Uma lenda não se apaga", 150, ItemType.AVATAR, "images/avatars/avatar_im_legend.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("I'm Rich",                "Rico em conhecimento e cristais", 150, ItemType.AVATAR, "images/avatars/avatar_im_rich.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("I'm Sorry",               "Humildade épica. Classe rara.", 150, ItemType.AVATAR, "images/avatars/avatar_im_sorry.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("No One Beats Me",         "Imbatível. Palavra final.", 180, ItemType.AVATAR, "images/avatars/avatar_no_one_beats_me.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Try Me",                  "Desafia-me. Tens coragem?", 180, ItemType.AVATAR, "images/avatars/avatar_try_me.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         
-        // Supremos (A Elite Máxima - 3000+ moedas)
+        // Supremos (Todos do Supremo em Cristais)
         items.add(createStoreItem("Guardiã do Multiverso",   "Protege todas as realidades", 250, ItemType.AVATAR, "images/avatars/avatar_guardiao_do_multiverso.png", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Guardião do Tempo",       "O relógio do universo", 250, ItemType.AVATAR, "images/avatars/avatar_guardiao_do_tempo.png", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
         items.add(createStoreItem("Mestre do Quiz",          "O criador. O único. O lendário.", 250, ItemType.AVATAR, "images/avatars/avatar_mestre_do_quiz.png", "Supremo", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
@@ -242,11 +248,11 @@ public class DataInitializer implements CommandLineRunner {
         items.add(createStoreItem("Moldura de Gelo",        "Aura congelante e impenetrável",         800, ItemType.PROFILE_FRAME, "images/frames/moldura_gelo_v2.png", "Raro", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Moldura de Terra",       "Força e estabilidade da natureza",       1000, ItemType.PROFILE_FRAME, "images/frames/moldura_terra_v2.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
         items.add(createStoreItem("Moldura de Ar",          "Ventos rápidos e cortantes",             1000, ItemType.PROFILE_FRAME, "images/frames/moldura_ar_v2.png", "Épico", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Moldura de Energia",     "Pura energia cósmica pulsante", 50, ItemType.PROFILE_FRAME, "images/frames/moldura_energia_v2.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
+        items.add(createStoreItem("Moldura de Energia",     "Pura energia cósmica pulsante", 80, ItemType.PROFILE_FRAME, "images/frames/moldura_energia_v2.png", "Lendário", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
 
         // ── EXTRAS CONSUMÍVEIS ───────────────────────────────────────────────
         items.add(createStoreItem("Recarga de Energia",     "Restaura a energia para 100",   150, ItemType.ENERGY_REFILL, "energy_refill", "Comum", quizmaster.quiz.enums.CurrencyType.COINS));
-        items.add(createStoreItem("Boost de XP (1h)",       "Dobra o XP ganho por 1 hora",   500, ItemType.XP_BOOST,     "xp_boost_1h", "Incomum", quizmaster.quiz.enums.CurrencyType.COINS));
+        items.add(createStoreItem("Boost de XP (1h)",       "Dobra o XP ganho por 1 hora",   40, ItemType.XP_BOOST,     "xp_boost_1h", "Incomum", quizmaster.quiz.enums.CurrencyType.CRYSTALS));
 
         for (StoreItem item : items) {
             if (storeItemRepo.findFirstByName(item.getName()).isEmpty()) {

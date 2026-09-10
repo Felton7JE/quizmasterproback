@@ -143,6 +143,19 @@ public class FriendshipService {
         }).collect(Collectors.toList());
     }
 
+    public List<FriendDTO> getSentRequests(Long userId) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("Utilizador não encontrado"));
+                
+        // Queremos ver os pedidos onde NÓS somos o "user" (o remetente)
+        List<Friendship> pending = friendshipRepository.findByUserAndStatus(user, FriendshipStatus.PENDING);
+        
+        return pending.stream().map(f -> {
+            // O destinatário é o "friend"
+            return mapToDTO(f.getFriend(), f.getId());
+        }).collect(Collectors.toList());
+    }
+
     private FriendDTO mapToDTO(User user, Long friendshipId) {
         return FriendDTO.builder()
                 .id(user.getId())

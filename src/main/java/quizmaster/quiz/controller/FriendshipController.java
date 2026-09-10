@@ -65,4 +65,9 @@ public class FriendshipController {
     public ResponseEntity<List<FriendDTO>> getPendingRequests(@RequestParam Long userId) {
         return ResponseEntity.ok(friendshipService.getPendingRequests(userId));
     }
+
+    @GetMapping("/requests/sent")
+    public ResponseEntity<List<FriendDTO>> getSentRequests(@RequestParam Long userId) {
+        return ResponseEntity.ok(friendshipService.getSentRequests(userId));
+    }
 }

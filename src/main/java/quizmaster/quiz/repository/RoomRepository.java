@@ -21,6 +21,8 @@ public interface RoomRepository extends JpaRepository<Room, Long> {
     @Query("SELECT r FROM Room r WHERE r.host.id = :hostId")
     List<Room> findByHostId(@Param("hostId") Long hostId);
 
+    // ✅ Lixeiro Supremo: Busca salas antigas que NUNCA tiveram um jogo concluído (FINISHED)
+    @Query("SELECT r FROM Room r WHERE r.createdAt < :time AND r.id NOT IN (SELECT g.room.id FROM Game g WHERE g.status = 'FINISHED')")
+    List<Room> findAbandonedRooms(@Param("time") java.time.LocalDateTime time);
 
-
-}  
+}
