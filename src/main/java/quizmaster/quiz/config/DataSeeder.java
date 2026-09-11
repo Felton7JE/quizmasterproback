@@ -23,6 +23,7 @@ public class DataSeeder implements CommandLineRunner {
     public void run(String... args) throws Exception {
         initMissions();
         initPromoCodes();
+        initSeason();
     }
 
     private void initPromoCodes() {
@@ -57,6 +58,29 @@ public class DataSeeder implements CommandLineRunner {
         code2.setCode("RICO2026");
         code2.setIsSingleUse(false);
         promoCodeRepository.save(code2);
+    }
+
+    @Autowired
+    private quizmaster.quiz.repository.SeasonRepository seasonRepository;
+
+    @Autowired
+    private quizmaster.quiz.repository.CategoryEntityRepository categoryRepository;
+
+    private void initSeason() {
+        if (seasonRepository.count() > 0) return;
+
+        quizmaster.quiz.models.Category seasonCat = categoryRepository.findByNameIgnoreCase("Temporada").orElse(null);
+
+        quizmaster.quiz.models.Season s = new quizmaster.quiz.models.Season();
+        s.setName("Temporada Inicial");
+        s.setDescription("A primeira temporada do QuizMaster Pro!");
+        s.setActive(true);
+        s.setStartDate(java.time.LocalDateTime.now().minusDays(1));
+        s.setEndDate(java.time.LocalDateTime.now().plusMonths(3));
+        if (seasonCat != null) {
+            s.setExclusiveCategoryId(seasonCat.getId());
+        }
+        seasonRepository.save(s);
     }
 
     private void initMissions() {

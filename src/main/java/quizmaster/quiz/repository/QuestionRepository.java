@@ -32,13 +32,11 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
     @Query(value = "SELECT q.* FROM questions q ORDER BY RAND()", nativeQuery = true)
     List<Question> findRandomQuestionsWithLimit(org.springframework.data.domain.Pageable pageable);
 
-    @Query(value = "SELECT q.* FROM questions q JOIN categories c ON q.category_id = c.id " +
-        "WHERE c.name IN (:categories) AND q.difficulty IN (:difficulties) AND q.id NOT IN (:seenIds) ORDER BY RAND()", nativeQuery = true)
-    List<Question> findUnseenRandomQuestionsByDiff(@org.springframework.data.repository.query.Param("categories") List<String> categories, @org.springframework.data.repository.query.Param("difficulties") List<String> difficulties, @org.springframework.data.repository.query.Param("seenIds") List<Long> seenIds, org.springframework.data.domain.Pageable pageable);
+    @Query(value = "SELECT q.* FROM questions q WHERE q.category_id IN (:categoryIds) AND q.difficulty IN (:difficulties) AND q.id NOT IN (:seenIds) ORDER BY RAND()", nativeQuery = true)
+    List<Question> findUnseenRandomQuestionsByDiff(@org.springframework.data.repository.query.Param("categoryIds") List<Long> categoryIds, @org.springframework.data.repository.query.Param("difficulties") List<String> difficulties, @org.springframework.data.repository.query.Param("seenIds") List<Long> seenIds, org.springframework.data.domain.Pageable pageable);
 
-    @Query(value = "SELECT q.* FROM questions q JOIN categories c ON q.category_id = c.id " +
-        "WHERE c.name IN (:categories) AND q.difficulty IN (:difficulties) ORDER BY RAND()", nativeQuery = true)
-    List<Question> findRandomQuestionsByDiff(@org.springframework.data.repository.query.Param("categories") List<String> categories, @org.springframework.data.repository.query.Param("difficulties") List<String> difficulties, org.springframework.data.domain.Pageable pageable);
+    @Query(value = "SELECT q.* FROM questions q WHERE q.category_id IN (:categoryIds) AND q.difficulty IN (:difficulties) ORDER BY RAND()", nativeQuery = true)
+    List<Question> findRandomQuestionsByDiff(@org.springframework.data.repository.query.Param("categoryIds") List<Long> categoryIds, @org.springframework.data.repository.query.Param("difficulties") List<String> difficulties, org.springframework.data.domain.Pageable pageable);
 
     @Query(value = "SELECT q.* FROM questions q WHERE q.category_id = :categoryId AND q.difficulty IN (:difficulties) AND q.id NOT IN (:seenIds) ORDER BY RAND()", nativeQuery = true)
     List<Question> findUnseenByCategoryAndDiff(@org.springframework.data.repository.query.Param("categoryId") Long categoryId, @org.springframework.data.repository.query.Param("difficulties") List<String> difficulties, @org.springframework.data.repository.query.Param("seenIds") List<Long> seenIds, org.springframework.data.domain.Pageable pageable);

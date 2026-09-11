@@ -59,13 +59,12 @@ public class TitleService {
     }
 
     @Transactional
-    public void equipTitle(User user, Long userTitleId) {
-        UserTitle titleToEquip = userTitleRepository.findById(userTitleId)
-            .orElseThrow(() -> new RuntimeException("Title not found"));
-            
-        if (!titleToEquip.getUser().getId().equals(user.getId())) {
-            throw new RuntimeException("Not authorized");
-        }
+    public void equipTitle(User user, Long titleId) {
+        UserTitle titleToEquip = userTitleRepository.findByUser(user)
+            .stream()
+            .filter(ut -> ut.getTitle().getId().equals(titleId))
+            .findFirst()
+            .orElseThrow(() -> new RuntimeException("Title not found or not unlocked by user"));
         
         List<UserTitle> currentlyEquipped = userTitleRepository.findByUser(user)
             .stream().filter(UserTitle::getIsEquipped).collect(Collectors.toList());
