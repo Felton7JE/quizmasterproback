@@ -10,4 +10,6 @@ import java.util.Optional;
 @Repository
 public interface SeasonRepository extends JpaRepository<Season, Long> {
     Optional<Season> findFirstByActiveTrueAndStartDateBeforeAndEndDateAfter(LocalDateTime now1, LocalDateTime now2);
+    Optional<Season> findFirstByActiveTrueOrderByIdDesc();
+    Optional<Season> findTopByOrderByIdDesc();
 }

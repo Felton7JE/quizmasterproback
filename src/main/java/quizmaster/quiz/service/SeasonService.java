@@ -26,6 +26,7 @@ import quizmaster.quiz.enums.TitleConditionType;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -42,7 +43,35 @@ public class SeasonService {
 
     public Season getActiveSeason() {
         LocalDateTime now = LocalDateTime.now();
-        return seasonRepository.findFirstByActiveTrueAndStartDateBeforeAndEndDateAfter(now, now).orElse(null);
+        Optional<Season> opt = seasonRepository.findFirstByActiveTrueAndStartDateBeforeAndEndDateAfter(now, now);
+        if (opt.isPresent()) {
+            return opt.get();
+        }
+
+        // Fallback 1: Qualquer temporada marcada como ativa
+        Optional<Season> activeOpt = seasonRepository.findFirstByActiveTrueOrderByIdDesc();
+        if (activeOpt.isPresent()) {
+            return activeOpt.get();
+        }
+
+        // Fallback 2: Qualquer temporada existente no banco, reativando a data
+        Optional<Season> anyOpt = seasonRepository.findTopByOrderByIdDesc();
+        if (anyOpt.isPresent()) {
+            Season s = anyOpt.get();
+            s.setActive(true);
+            s.setStartDate(now.minusDays(5));
+            s.setEndDate(now.plusYears(1));
+            return seasonRepository.save(s);
+        }
+
+        // Fallback 3: Criar temporada padrão se o banco estiver vazio
+        Season season = new Season();
+        season.setName("Temporada 1: Desafio Supremo");
+        season.setDescription("Participe da temporada e receba recompensas exclusivas!");
+        season.setStartDate(now.minusDays(1));
+        season.setEndDate(now.plusYears(1));
+        season.setActive(true);
+        return seasonRepository.save(season);
     }
 
     @Transactional

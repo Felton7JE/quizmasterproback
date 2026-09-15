@@ -238,11 +238,21 @@ public class SoloService {
         Integer levelNumber = request.getLevelNumber();
         SoloLevelProgress progress = soloLevelProgressRepository
                 .findByUserIdAndLevelNumber(user.getId(), levelNumber)
-                .orElseThrow(() -> new RuntimeException("Nível não encontrado"));
+                .orElseGet(() -> {
+                    List<SoloLevelProgress> progressList = soloLevelProgressRepository.findByUserIdOrderByLevelNumberAsc(user.getId());
+                    if (progressList.isEmpty()) {
+                        progressList = initializeMapForUser(user);
+                    }
+                    return progressList.stream()
+                            .filter(p -> p.getLevelNumber().equals(levelNumber))
+                            .findFirst()
+                            .orElseThrow(() -> new RuntimeException("Nível " + levelNumber + " não encontrado"));
+                });
 
         // Registar perguntas no UserQuestionHistory
         if (request.getAnsweredQuestions() != null) {
             for (SoloFinishLevelRequest.QuestionAnswerDto dto : request.getAnsweredQuestions()) {
+                if (dto == null || dto.getQuestionId() == null) continue;
                 Question q = questionRepository.findById(dto.getQuestionId()).orElse(null);
                 if (q != null) {
                     Optional<UserQuestionHistory> existing = userQuestionHistoryRepository
@@ -251,14 +261,14 @@ public class SoloService {
                         UserQuestionHistory hist = existing.get();
                         hist.setAnsweredAt(LocalDateTime.now());
                         hist.setWasCorrect(dto.getWasCorrect());
-                        if (dto.getWasCorrect()) {
+                        if (Boolean.TRUE.equals(dto.getWasCorrect())) {
                             hist.setConsecutiveCorrect(hist.getConsecutiveCorrect() + 1);
                         } else {
                             hist.setConsecutiveCorrect(0);
                         }
                         userQuestionHistoryRepository.save(hist);
                     } else {
-                        userQuestionHistoryRepository.save(new UserQuestionHistory(user, q, dto.getWasCorrect()));
+                        userQuestionHistoryRepository.save(new UserQuestionHistory(user, q, Boolean.TRUE.equals(dto.getWasCorrect())));
                     }
                 }
             }
@@ -404,6 +414,21 @@ public class SoloService {
                 response.setBossLivesRemaining(3);
                 response.setMessage("O BOT fez mais pontos. Tenta novamente!");
             }
+        }
+
+        // Progresso de Missões & Títulos
+        try {
+            gamificationService.progressMission(user, "PLAY_ANY");
+            gamificationService.progressMission(user, "PLAY_SOLO");
+            if (request.getCorrectCount() != null && request.getCorrectCount() > 0) {
+                gamificationService.progressMission(user, "ANSWER_CORRECT", request.getCorrectCount());
+            }
+            if (victory) {
+                gamificationService.progressMission(user, "WIN_ANY");
+            }
+            titleService.evaluateTitles(user);
+        } catch (Exception e) {
+            System.err.println("Erro ao progredir missões no Solo: " + e.getMessage());
         }
 
         return response;

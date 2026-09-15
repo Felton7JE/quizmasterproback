@@ -143,13 +143,20 @@ public class GamificationService {
 
     @Transactional
     public void progressMission(User user, String actionType) {
-        // Obter as missões atuais para o usuário (já cuida da lógica diária vs mensal)
+        progressMission(user, actionType, 1);
+    }
+
+    @Transactional
+    public void progressMission(User user, String actionType, int amount) {
+        if (amount <= 0) return;
         List<UserMission> missions = getOrGenerateMissions(user);
         
         for (UserMission um : missions) {
             if (!um.getIsCompleted() && um.getMission().getActionType().equals(actionType)) {
-                um.setCurrentValue(um.getCurrentValue() + 1);
+                int newValue = um.getCurrentValue() + amount;
+                um.setCurrentValue(newValue);
                 if (um.getCurrentValue() >= um.getMission().getTargetValue()) {
+                    um.setCurrentValue(um.getMission().getTargetValue());
                     um.setIsCompleted(true);
                     activityService.logAchievement(user, "Nova Conquista!", "Completou a missão: " + um.getMission().getDescription(), "+" + um.getMission().getRewardCoins() + " Moedas");
                 }
