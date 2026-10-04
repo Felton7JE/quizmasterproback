@@ -8,6 +8,6 @@ import java.util.Optional;
 
 @Repository
 public interface UserSeasonProgressRepository extends JpaRepository<UserSeasonProgress, Long> {
-    Optional<UserSeasonProgress> findByUserIdAndSeasonId(Long userId, Long seasonId);
+    Optional<UserSeasonProgress> findFirstByUserIdAndSeasonIdOrderByIdDesc(Long userId, Long seasonId);
     boolean existsByUserIdAndSeason_ActiveTrueAndIsPremiumPassTrue(Long userId);
 }

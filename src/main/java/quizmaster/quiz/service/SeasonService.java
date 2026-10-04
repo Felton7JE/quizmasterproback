@@ -83,7 +83,7 @@ public class SeasonService {
 
         User user = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("User not found"));
         
-        UserSeasonProgress progress = progressRepository.findByUserIdAndSeasonId(userId, activeSeason.getId())
+        UserSeasonProgress progress = progressRepository.findFirstByUserIdAndSeasonIdOrderByIdDesc(userId, activeSeason.getId())
                 .orElseGet(() -> {
                     UserSeasonProgress newProgress = new UserSeasonProgress();
                     newProgress.setUser(user);
@@ -117,7 +117,7 @@ public class SeasonService {
         Season activeSeason = getActiveSeason();
         if (activeSeason == null) return;
         
-        progressRepository.findByUserIdAndSeasonId(userId, activeSeason.getId()).ifPresent(progress -> {
+        progressRepository.findFirstByUserIdAndSeasonIdOrderByIdDesc(userId, activeSeason.getId()).ifPresent(progress -> {
             progress.setSeasonPoints(progress.getSeasonPoints() + points);
             // Example logic: 100 points per level
             int newLevel = 1 + (progress.getSeasonPoints() / 100);
@@ -132,7 +132,7 @@ public class SeasonService {
         if (activeSeason == null) return;
         
         User user = userRepository.findById(userId).orElseThrow();
-        UserSeasonProgress progress = progressRepository.findByUserIdAndSeasonId(userId, activeSeason.getId()).orElseThrow();
+        UserSeasonProgress progress = progressRepository.findFirstByUserIdAndSeasonIdOrderByIdDesc(userId, activeSeason.getId()).orElseThrow();
         
         if (level > progress.getCurrentLevel()) return; // Not reached yet
         
@@ -226,7 +226,7 @@ public class SeasonService {
         user.setCrystals(user.getCrystals() - vipPrice);
         userRepository.save(user);
 
-        UserSeasonProgress progress = progressRepository.findByUserIdAndSeasonId(userId, activeSeason.getId())
+        UserSeasonProgress progress = progressRepository.findFirstByUserIdAndSeasonIdOrderByIdDesc(userId, activeSeason.getId())
                 .orElseGet(() -> {
                     UserSeasonProgress newProgress = new UserSeasonProgress();
                     newProgress.setUser(user);

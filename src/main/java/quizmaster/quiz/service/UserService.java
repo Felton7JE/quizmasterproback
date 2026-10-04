@@ -121,7 +121,7 @@ public class UserService {
         
         // --- Season Stats ---
         seasonRepository.findFirstByActiveTrueAndStartDateBeforeAndEndDateAfter(LocalDateTime.now(), LocalDateTime.now())
-            .flatMap(activeSeason -> userSeasonProgressRepository.findByUserIdAndSeasonId(userId, activeSeason.getId()))
+            .flatMap(activeSeason -> userSeasonProgressRepository.findFirstByUserIdAndSeasonIdOrderByIdDesc(userId, activeSeason.getId()))
             .ifPresent(progress -> {
                 stats.setSeasonLevel(progress.getCurrentLevel());
                 stats.setSeasonPoints(progress.getSeasonPoints());
