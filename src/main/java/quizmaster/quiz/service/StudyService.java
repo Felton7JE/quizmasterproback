@@ -244,7 +244,7 @@ public class StudyService {
             } catch (Exception e) {
                 log.warn("Falha no modelo principal {}: {}. Tentando modelo fallback...", geminiModel, e.getMessage());
                 try {
-                    String fallbackModel = geminiModel.equals("gemini-3.6-flash") ? "gemini-3.1-pro-preview" : "gemini-3.6-flash";
+                    String fallbackModel = geminiModel.startsWith("gemini-3.8") ? "gemini-3.5-flash-lite" : "gemini-3.8-flash";
                     finalResponse = callGeminiForQuiz(fallbackModel, title, topic, content, targetQuestions, difficulty, request.getSourceFileName(), request.getSourceType());
                     if (finalResponse != null && finalResponse.getQuestions() != null && !finalResponse.getQuestions().isEmpty()) {
                         topicQuizCache.put(cacheKey, new CachedQuizEntry(finalResponse));
