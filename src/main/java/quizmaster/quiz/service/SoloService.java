@@ -2,6 +2,8 @@ package quizmaster.quiz.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import quizmaster.quiz.models.Category;
+import quizmaster.quiz.enums.Difficulty;
 import org.springframework.transaction.annotation.Transactional;
 import quizmaster.quiz.dto.*;
 import quizmaster.quiz.enums.Difficulty;
@@ -526,7 +528,10 @@ public class SoloService {
         // Ordem aleatória a cada pedido: a resposta certa muda de posição de vez em quando
         int[] perm = QuestionShuffler.permutation(q, QuestionShuffler.randomSeed());
         resp.setOptions(QuestionShuffler.shuffledOptions(q, perm));
-        resp.setCorrectAnswer(QuestionShuffler.shuffledCorrectIndex(q, perm));
+        
+        // Fase 2: Esconder a resposta correta no tráfego de rede para modos Solo/Livre/Survival/TimeAttack
+        resp.setCorrectAnswer(null);
+
         if (q.getCategory() != null) {
             quizmaster.quiz.models.Category cat = new quizmaster.quiz.models.Category();
             cat.setId(q.getCategory().getId());
@@ -648,5 +653,11 @@ public class SoloService {
         return topScores.stream()
                 .map(score -> new LeaderboardEntryDto(score.getUser().getUsername(), score.getScore(), score.getHighestStreak()))
                 .collect(Collectors.toList());
+    }
+
+    public java.util.Map<String, String> getCorrectAnswer(Long questionId) {
+        Question q = questionRepository.findById(questionId)
+                .orElseThrow(() -> new RuntimeException("Question not found"));
+        return java.util.Map.of("correctAnswerText", q.getOptions().get(q.getCorrectAnswer()));
     }
 }

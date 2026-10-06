@@ -9,8 +9,11 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import quizmaster.quiz.dto.GenerateStudyQuizRequest;
 import quizmaster.quiz.dto.StudyQuizResponse;
+import quizmaster.quiz.dto.SavedQuestionRequest;
+import quizmaster.quiz.dto.SavedQuestionResponse;
 import quizmaster.quiz.service.StudyService;
 import quizmaster.quiz.service.UserService;
+import java.util.List;
 
 import java.util.Map;
 
@@ -175,6 +178,110 @@ public class StudyController {
             log.error("Erro ao registrar score de estudo: {}", e.getMessage(), e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .body(Map.of("error", "Erro ao registrar pontuação: " + e.getMessage()));
+        }
+    }
+
+    /**
+     * Adicionar uma dúvida ao Caderno de Erros
+     */
+    @PostMapping("/doubts")
+    public ResponseEntity<?> addDoubt(@RequestBody SavedQuestionRequest request) {
+        try {
+            SavedQuestionResponse response = studyService.saveDoubt(request);
+            return ResponseEntity.status(HttpStatus.CREATED).body(response);
+        } catch (IllegalArgumentException | IllegalStateException e) {
+            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+        } catch (Exception e) {
+            log.error("Erro ao salvar dúvida: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Erro interno ao salvar a dúvida."));
+        }
+    }
+
+    /**
+     * Listar dúvidas de um utilizador
+     */
+    @GetMapping("/doubts/{userId}")
+    public ResponseEntity<?> getDoubts(@PathVariable Long userId) {
+        try {
+            List<SavedQuestionResponse> doubts = studyService.getDoubts(userId);
+            return ResponseEntity.ok(doubts);
+        } catch (Exception e) {
+            log.error("Erro ao listar dúvidas: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Erro ao carregar caderno de dúvidas."));
+        }
+    }
+
+    /**
+     * Remover dúvida
+     */
+    @DeleteMapping("/doubts/{userId}/{doubtId}")
+    public ResponseEntity<?> deleteDoubt(@PathVariable Long userId, @PathVariable Long doubtId) {
+        try {
+            studyService.deleteDoubt(userId, doubtId);
+            return ResponseEntity.ok(Map.of("success", true));
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+        } catch (Exception e) {
+            log.error("Erro ao deletar dúvida: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Erro ao apagar a dúvida."));
+        }
+    }
+
+    /**
+     * Study Plans Endpoints
+     */
+    @PostMapping("/plans")
+    public ResponseEntity<?> createStudyPlan(@RequestBody quizmaster.quiz.dto.CreateStudyPlanRequest request) {
+        try {
+            quizmaster.quiz.dto.StudyPlanDto plan = studyService.generateStudyPlan(request);
+            return ResponseEntity.status(HttpStatus.CREATED).body(plan);
+        } catch (Exception e) {
+            log.error("Erro ao gerar plano de estudo: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Erro ao gerar plano de estudo. Tente novamente mais tarde."));
+        }
+    }
+
+    @GetMapping("/plans/user/{userId}")
+    public ResponseEntity<?> getUserStudyPlans(@PathVariable Long userId) {
+        try {
+            List<quizmaster.quiz.dto.StudyPlanDto> plans = studyService.getUserStudyPlans(userId);
+            return ResponseEntity.ok(plans);
+        } catch (Exception e) {
+            log.error("Erro ao listar planos de estudo: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Erro ao carregar os planos de estudo."));
+        }
+    }
+
+    @GetMapping("/plans/{planId}")
+    public ResponseEntity<?> getStudyPlanDetails(@PathVariable Long planId) {
+        try {
+            quizmaster.quiz.dto.StudyPlanDto plan = studyService.getStudyPlanDetails(planId);
+            return ResponseEntity.ok(plan);
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+        } catch (Exception e) {
+            log.error("Erro ao buscar detalhes do plano de estudo: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Erro ao carregar detalhes do plano."));
+        }
+    }
+
+    @PostMapping("/plans/days/{dayId}/complete")
+    public ResponseEntity<?> markDayAsCompleted(@PathVariable Long dayId) {
+        try {
+            quizmaster.quiz.dto.StudyPlanDayDto day = studyService.markDayAsCompleted(dayId);
+            return ResponseEntity.ok(day);
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body(Map.of("error", e.getMessage()));
+        } catch (Exception e) {
+            log.error("Erro ao marcar dia como concluído: {}", e.getMessage(), e);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(Map.of("error", "Erro ao atualizar progresso do plano."));
         }
     }
 }

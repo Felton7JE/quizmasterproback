@@ -53,4 +53,9 @@ public class SoloController {
             @PathVariable String gameMode) {
         return ResponseEntity.ok(soloService.getFreeModeLeaderboard(gameMode));
     }
+
+    @GetMapping("/question/{questionId}/answer")
+    public ResponseEntity<java.util.Map<String, String>> getCorrectAnswer(@PathVariable Long questionId) {
+        return ResponseEntity.ok(soloService.getCorrectAnswer(questionId));
+    }
 }

@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartFile;
 import quizmaster.quiz.dto.*;
 
+import quizmaster.quiz.models.UserSavedQuestion;
 import java.io.InputStream;
 import java.time.LocalDateTime;
 import java.util.*;
@@ -29,6 +30,9 @@ public class StudyService {
     private final RestTemplate restTemplate = new RestTemplate();
     private final quizmaster.quiz.repository.UserRepository userRepository;
     private final quizmaster.quiz.repository.UserSeasonProgressRepository userSeasonProgressRepository;
+    private final quizmaster.quiz.repository.UserSavedQuestionRepository userSavedQuestionRepository;
+    private final quizmaster.quiz.repository.StudyPlanRepository studyPlanRepository;
+    private final quizmaster.quiz.repository.StudyPlanDayRepository studyPlanDayRepository;
 
     @Value("${ai.provider:gemini}")
     private String aiProvider;
@@ -580,5 +584,248 @@ public class StudyService {
             return words[0] + " " + words[1] + " " + words[2];
         }
         return fallbackTopic;
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
+    // GESTÃO DE DÚVIDAS / CADERNO DE ERROS
+    // ─────────────────────────────────────────────────────────────────────────
+
+    public SavedQuestionResponse saveDoubt(SavedQuestionRequest request) {
+        if (request.getUserId() == null || request.getQuestionText() == null) {
+            throw new IllegalArgumentException("Dados inválidos para guardar dúvida.");
+        }
+
+        quizmaster.quiz.models.User user = userRepository.findById(request.getUserId())
+                .orElseThrow(() -> new IllegalArgumentException("Usuário não encontrado."));
+
+        if (userSavedQuestionRepository.existsByUserIdAndQuestionText(user.getId(), request.getQuestionText())) {
+            throw new IllegalStateException("Esta pergunta já está guardada no seu Caderno de Dúvidas.");
+        }
+
+        String optionsJson = "[]";
+        try {
+            if (request.getOptions() != null) {
+                optionsJson = objectMapper.writeValueAsString(request.getOptions());
+            }
+        } catch (Exception e) {
+            log.warn("Erro ao converter opções para JSON", e);
+        }
+
+        UserSavedQuestion saved = UserSavedQuestion.builder()
+                .user(user)
+                .questionText(request.getQuestionText())
+                .optionsJson(optionsJson)
+                .correctAnswer(request.getCorrectAnswer() != null ? request.getCorrectAnswer() : 0)
+                .explanation(request.getExplanation())
+                .topic(request.getTopic() != null ? request.getTopic() : "Geral")
+                .difficulty(request.getDifficulty() != null ? request.getDifficulty() : "MEDIO")
+                .build();
+
+        saved = userSavedQuestionRepository.save(saved);
+        return mapToSavedQuestionResponse(saved);
+    }
+
+    public List<SavedQuestionResponse> getDoubts(Long userId) {
+        return userSavedQuestionRepository.findByUserIdOrderByCreatedAtDesc(userId)
+                .stream()
+                .map(this::mapToSavedQuestionResponse)
+                .toList();
+    }
+
+    public void deleteDoubt(Long userId, Long doubtId) {
+        UserSavedQuestion doubt = userSavedQuestionRepository.findByIdAndUserId(doubtId, userId)
+                .orElseThrow(() -> new IllegalArgumentException("Dúvida não encontrada ou não pertence ao usuário."));
+        userSavedQuestionRepository.delete(doubt);
+    }
+
+    private SavedQuestionResponse mapToSavedQuestionResponse(UserSavedQuestion entity) {
+        List<String> options = new ArrayList<>();
+        try {
+            if (entity.getOptionsJson() != null && !entity.getOptionsJson().equals("[]")) {
+                options = objectMapper.readValue(entity.getOptionsJson(), objectMapper.getTypeFactory().constructCollectionType(List.class, String.class));
+            }
+        } catch (Exception e) {
+            log.warn("Erro ao ler JSON de opções: {}", e.getMessage());
+        }
+
+        return SavedQuestionResponse.builder()
+                .id(entity.getId())
+                .questionText(entity.getQuestionText())
+                .options(options)
+                .correctAnswer(entity.getCorrectAnswer())
+                .explanation(entity.getExplanation())
+                .topic(entity.getTopic())
+                .difficulty(entity.getDifficulty())
+                .createdAt(entity.getCreatedAt())
+                .build();
+    }
+
+    public StudyPlanDto generateStudyPlan(CreateStudyPlanRequest request) {
+        quizmaster.quiz.models.User user = userRepository.findById(request.getUserId())
+                .orElseThrow(() -> new IllegalArgumentException("User not found"));
+
+        int days = request.getDurationDays() > 0 ? request.getDurationDays() : 5;
+        if (days > 30) days = 30; // max limit
+
+        // Build the AI prompt
+        String prompt = "Create a detailed study plan for the topic: '" + request.getTopic() + "'. "
+                + "The plan should be exactly " + days + " days long. "
+                + "For each day, provide a title and a short description of what should be studied. "
+                + "Respond ONLY with a JSON array where each element has: "
+                + "'dayNumber' (int), 'title' (string), and 'description' (string).";
+
+        List<StudyPlanDayDto> planDays = new ArrayList<>();
+        try {
+            acquireGeminiToken();
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_JSON);
+
+            String requestBody = "{\"contents\":[{\"parts\":[{\"text\":\"" + prompt.replace("\"", "\\\"") + "\"}]}]}";
+            HttpEntity<String> entity = new HttpEntity<>(requestBody, headers);
+            String url = "https://generativelanguage.googleapis.com/v1beta/models/" + geminiModel + ":generateContent?key=" + geminiApiKey;
+
+            ResponseEntity<String> response = restTemplate.postForEntity(url, entity, String.class);
+            if (response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                JsonNode root = objectMapper.readTree(response.getBody());
+                String aiText = root.path("candidates").path(0).path("content").path("parts").path(0).path("text").asText();
+                
+                // Clean markdown formatting if present
+                if (aiText.contains("```json")) {
+                    aiText = aiText.substring(aiText.indexOf("```json") + 7);
+                    if (aiText.contains("```")) {
+                        aiText = aiText.substring(0, aiText.lastIndexOf("```"));
+                    }
+                } else if (aiText.contains("```")) {
+                    aiText = aiText.substring(aiText.indexOf("```") + 3);
+                    aiText = aiText.substring(0, aiText.lastIndexOf("```"));
+                }
+                
+                JsonNode daysArray = objectMapper.readTree(aiText.trim());
+                if (daysArray.isArray()) {
+                    for (JsonNode dayNode : daysArray) {
+                        StudyPlanDayDto dayDto = new StudyPlanDayDto();
+                        dayDto.setDayNumber(dayNode.path("dayNumber").asInt());
+                        dayDto.setTitle(dayNode.path("title").asText());
+                        dayDto.setDescription(dayNode.path("description").asText());
+                        planDays.add(dayDto);
+                    }
+                }
+            }
+        } catch (Exception e) {
+            log.error("Failed to generate study plan from AI, falling back to basic generation: " + e.getMessage());
+            // Fallback generation
+            for (int i = 1; i <= days; i++) {
+                StudyPlanDayDto dayDto = new StudyPlanDayDto();
+                dayDto.setDayNumber(i);
+                dayDto.setTitle("Dia " + i + " - " + request.getTopic());
+                dayDto.setDescription("Estudo e prática para o tópico " + request.getTopic() + " (Dia " + i + ")");
+                planDays.add(dayDto);
+            }
+        }
+
+        quizmaster.quiz.models.StudyPlan plan = quizmaster.quiz.models.StudyPlan.builder()
+                .user(user)
+                .topic(request.getTopic())
+                .durationDays(days)
+                .objective(request.getObjective())
+                .progressPercentage(0)
+                .createdAt(LocalDateTime.now())
+                .build();
+        
+        quizmaster.quiz.models.StudyPlan savedPlan = studyPlanRepository.save(plan);
+
+        for (StudyPlanDayDto dto : planDays) {
+            quizmaster.quiz.models.StudyPlanDay day = quizmaster.quiz.models.StudyPlanDay.builder()
+                    .studyPlan(savedPlan)
+                    .dayNumber(dto.getDayNumber())
+                    .title(dto.getTitle())
+                    .description(dto.getDescription())
+                    .isCompleted(false)
+                    .build();
+            studyPlanDayRepository.save(day);
+            dto.setId(day.getId());
+            dto.setIsCompleted(false);
+        }
+
+        StudyPlanDto result = new StudyPlanDto();
+        result.setId(savedPlan.getId());
+        result.setTopic(savedPlan.getTopic());
+        result.setDurationDays(savedPlan.getDurationDays());
+        result.setObjective(savedPlan.getObjective());
+        result.setProgressPercentage(savedPlan.getProgressPercentage());
+        result.setCreatedAt(savedPlan.getCreatedAt());
+        result.setDays(planDays);
+
+        return result;
+    }
+
+    public List<StudyPlanDto> getUserStudyPlans(Long userId) {
+        List<quizmaster.quiz.models.StudyPlan> plans = studyPlanRepository.findByUserIdOrderByCreatedAtDesc(userId);
+        List<StudyPlanDto> result = new ArrayList<>();
+        for (quizmaster.quiz.models.StudyPlan plan : plans) {
+            StudyPlanDto dto = new StudyPlanDto();
+            dto.setId(plan.getId());
+            dto.setTopic(plan.getTopic());
+            dto.setDurationDays(plan.getDurationDays());
+            dto.setObjective(plan.getObjective());
+            dto.setProgressPercentage(plan.getProgressPercentage());
+            dto.setCreatedAt(plan.getCreatedAt());
+            result.add(dto);
+        }
+        return result;
+    }
+
+    public StudyPlanDto getStudyPlanDetails(Long planId) {
+        quizmaster.quiz.models.StudyPlan plan = studyPlanRepository.findById(planId)
+                .orElseThrow(() -> new IllegalArgumentException("Study plan not found"));
+        
+        List<quizmaster.quiz.models.StudyPlanDay> days = studyPlanDayRepository.findByStudyPlanIdOrderByDayNumberAsc(planId);
+        List<StudyPlanDayDto> daysDto = new ArrayList<>();
+        
+        int completedCount = 0;
+        for (quizmaster.quiz.models.StudyPlanDay day : days) {
+            StudyPlanDayDto dto = new StudyPlanDayDto();
+            dto.setId(day.getId());
+            dto.setDayNumber(day.getDayNumber());
+            dto.setTitle(day.getTitle());
+            dto.setDescription(day.getDescription());
+            dto.setIsCompleted(day.getIsCompleted());
+            if (Boolean.TRUE.equals(day.getIsCompleted())) {
+                completedCount++;
+            }
+            daysDto.add(dto);
+        }
+        
+        int progress = days.isEmpty() ? 0 : (int) Math.round((double) completedCount / days.size() * 100);
+        if (progress != (plan.getProgressPercentage() != null ? plan.getProgressPercentage() : 0)) {
+            plan.setProgressPercentage(progress);
+            studyPlanRepository.save(plan);
+        }
+
+        StudyPlanDto result = new StudyPlanDto();
+        result.setId(plan.getId());
+        result.setTopic(plan.getTopic());
+        result.setDurationDays(plan.getDurationDays());
+        result.setObjective(plan.getObjective());
+        result.setProgressPercentage(progress);
+        result.setCreatedAt(plan.getCreatedAt());
+        result.setDays(daysDto);
+        
+        return result;
+    }
+
+    public StudyPlanDayDto markDayAsCompleted(Long dayId) {
+        quizmaster.quiz.models.StudyPlanDay day = studyPlanDayRepository.findById(dayId)
+                .orElseThrow(() -> new IllegalArgumentException("Study plan day not found"));
+        day.setIsCompleted(true);
+        studyPlanDayRepository.save(day);
+        
+        StudyPlanDayDto dto = new StudyPlanDayDto();
+        dto.setId(day.getId());
+        dto.setDayNumber(day.getDayNumber());
+        dto.setTitle(day.getTitle());
+        dto.setDescription(day.getDescription());
+        dto.setIsCompleted(day.getIsCompleted());
+        return dto;
     }
 }
