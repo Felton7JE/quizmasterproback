@@ -39,16 +39,7 @@ public class MissionController {
     private StoreItemRepository storeItemRepository;
 
     @GetMapping("/active")
-    public ResponseEntity<?> getActiveMissions(@RequestHeader("Authorization") String token) {
-        Long userId = 1L;
-        try {
-            if (token != null && token.startsWith("Bearer ")) {
-                String userIdStr = token.replace("Bearer ", "").trim();
-                userId = Long.parseLong(userIdStr);
-            }
-        } catch (NumberFormatException e) {
-            // fallback to 1L
-        }
+    public ResponseEntity<?> getActiveMissions(@RequestParam Long userId) {
 
         User user = userRepository.findById(userId).orElse(null);
         if (user == null) {
@@ -80,16 +71,7 @@ public class MissionController {
     }
 
     @PostMapping("/{missionId}/claim")
-    public ResponseEntity<?> claimReward(@PathVariable Long missionId, @RequestHeader("Authorization") String token) {
-        Long userId = 1L;
-        try {
-            if (token != null && token.startsWith("Bearer ")) {
-                String userIdStr = token.replace("Bearer ", "").trim();
-                userId = Long.parseLong(userIdStr);
-            }
-        } catch (NumberFormatException e) {
-            // fallback to 1L
-        }
+    public ResponseEntity<?> claimReward(@PathVariable Long missionId, @RequestParam Long userId) {
 
         UserMission um = userMissionRepository.findById(missionId).orElse(null);
         if (um == null) {
