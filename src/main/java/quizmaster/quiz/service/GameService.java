@@ -240,16 +240,19 @@ public class GameService {
         event.setTotalQuestions(total);
         event.setIsLastQuestion(isLast);
 
+        // Opções baralhadas de forma determinística: igual para toda a sala, diferente entre jogos
+        int[] perm = QuestionShuffler.permutation(q, QuestionShuffler.seedFor(gameId, q.getId()));
+
         // Dados da pergunta (sem revelar a resposta correta)
         java.util.Map<String, Object> questionData = new java.util.HashMap<>();
         questionData.put("id", q.getId());
         questionData.put("questionText", q.getQuestionText());
-        questionData.put("options", q.getOptions());
+        questionData.put("options", QuestionShuffler.shuffledOptions(q, perm));
         questionData.put("category", q.getCategory() != null ? q.getCategory().getName() : null);
         questionData.put("difficulty", q.getDifficulty() != null ? q.getDifficulty().name() : null);
         questionData.put("points", q.getPoints());
         // Revela a resposta correta APENAS para o frontend mostrar depois do timer
-        questionData.put("correctAnswer", q.getCorrectAnswer());
+        questionData.put("correctAnswer", QuestionShuffler.shuffledCorrectIndex(q, perm));
         event.setQuestionData(questionData);
 
         messagingTemplate.convertAndSend("/topic/room/" + roomCode, event);
@@ -273,17 +276,14 @@ public class GameService {
                 .filter(p -> p.getUser().getId().equals(user.getId()))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Jogador não pertence à sala"));
-        var assignedCategory = roomPlayer.getAssignedCategory();
-        if (assignedCategory == null) {
-            assignedCategory = roomPlayer.getPreferredCategory();
-        }
+        var assignedCategory = resolvePlayerCategory(room, roomPlayer);
 
         Question question;
         // Se veio questionId, validar que pertence à categoria do jogador
         if (request.getQuestionId() != null) {
             question = questionRepository.findById(request.getQuestionId())
                     .orElseThrow(() -> new RuntimeException("Pergunta não encontrada"));
-            if (assignedCategory != null && !assignedCategory.equals(question.getCategory())) {
+            if (room.getGameMode() != GameMode.DUEL && assignedCategory != null && !assignedCategory.equals(question.getCategory())) {
                 throw new RuntimeException("Pergunta não pertence à categoria do jogador");
             }
         } else {
@@ -299,6 +299,7 @@ public class GameService {
                 List<String> allCatNames = room.getCategories().stream().map(quizmaster.quiz.models.Category::getName).collect(java.util.stream.Collectors.toList());
                 pool = questionRepository.findRandomQuestions(allCatNames, room.getDifficulty().name());
             }
+            pool = stabilizePool(pool, gameId, assignedCategory);
             
             question = pool.stream().filter(q -> !answeredIds.contains(q.getId())).findFirst()
                     .orElseThrow(() -> new RuntimeException("Sem novas perguntas para esta categoria"));
@@ -309,7 +310,10 @@ public class GameService {
             throw new RuntimeException("Pergunta já foi respondida");
         }
 
-        boolean isCorrect = question.getCorrectAnswer().equals(request.getSelectedAnswer());
+        // O jogador viu as opções baralhadas: traduz o índice escolhido para o índice original
+        int[] perm = QuestionShuffler.permutation(question, QuestionShuffler.seedFor(gameId, question.getId()));
+        Integer originalSelected = QuestionShuffler.toOriginalIndex(perm, request.getSelectedAnswer());
+        boolean isCorrect = originalSelected != null && question.getCorrectAnswer().equals(originalSelected);
         Integer points = calculatePoints(question, request.getTimeToAnswer(), isCorrect);
 
         Answer answer = new Answer();
@@ -359,7 +363,7 @@ public class GameService {
         // Preparar resposta
         AnswerResponse response = new AnswerResponse();
         response.setIsCorrect(isCorrect);
-        response.setCorrectAnswer(question.getCorrectAnswer());
+        response.setCorrectAnswer(QuestionShuffler.shuffledCorrectIndex(question, perm));
         response.setExplanation(question.getExplanation());
         response.setPoints(points);
         response.setTotalPoints(gameResult.getTotalPoints());
@@ -454,12 +458,13 @@ public class GameService {
         return (int) (basePoints * (1 + timeBonus));
     }
 
-    private QuestionResponse convertToQuestionResponse(Question question) {
+    private QuestionResponse convertToQuestionResponse(Question question, Long gameId) {
+        int[] perm = QuestionShuffler.permutation(question, QuestionShuffler.seedFor(gameId, question.getId()));
         QuestionResponse response = new QuestionResponse();
         response.setId(question.getId());
         response.setQuestionText(question.getQuestionText());
-        response.setOptions(question.getOptions());
-        response.setCorrectAnswer(question.getCorrectAnswer());
+        response.setOptions(QuestionShuffler.shuffledOptions(question, perm));
+        response.setCorrectAnswer(QuestionShuffler.shuffledCorrectIndex(question, perm));
         
         if (question.getCategory() != null) {
             Category cat = new Category();
@@ -581,10 +586,7 @@ public class GameService {
 
         // Categoria atribuída ao jogador (prioridade) senão preferida, senão todas da
         // sala
-        quizmaster.quiz.models.Category playerCategory = roomPlayer.getAssignedCategory();
-        if (playerCategory == null) {
-            playerCategory = roomPlayer.getPreferredCategory();
-        }
+        quizmaster.quiz.models.Category playerCategory = resolvePlayerCategory(room, roomPlayer);
 
         List<Question> questions;
         if (playerCategory != null) {
@@ -598,13 +600,17 @@ public class GameService {
             questions = questionRepository.findRandomQuestions(categoryNames, room.getDifficulty().name());
         }
 
+        // Ordem estável: jogadores do mesmo grupo (duelo: todos; equipa: mesma categoria)
+        // recebem exatamente as mesmas perguntas, mas diferentes entre jogos.
+        questions = stabilizePool(questions, gameId, playerCategory);
+
         // Limitar ao questionCount definido na sala
         int limit = room.getQuestionCount() != null ? room.getQuestionCount() : questions.size();
         if (questions.size() > limit) {
             questions = questions.subList(0, limit);
         }
 
-        return questions.stream().map(this::convertToQuestionResponse).collect(java.util.stream.Collectors.toList());
+        return questions.stream().map(q -> convertToQuestionResponse(q, gameId)).collect(java.util.stream.Collectors.toList());
     }
 
     public QuestionResponse getCurrentQuestion(Long gameId, Integer questionIndex) {
@@ -614,7 +620,7 @@ public class GameService {
         if (questionIndex < 0 || questionIndex >= seq.size()) {
             throw new RuntimeException("Invalid question index");
         }
-        return convertToQuestionResponse(seq.get(questionIndex).getQuestion());
+        return convertToQuestionResponse(seq.get(questionIndex).getQuestion(), gameId);
     }
 
     public QuestionResponse getCurrentQuestion(Long gameId) {
@@ -629,7 +635,7 @@ public class GameService {
         if (idx < 0 || idx >= seq.size()) {
             idx = 0; // fallback
         }
-        return convertToQuestionResponse(seq.get(idx).getQuestion());
+        return convertToQuestionResponse(seq.get(idx).getQuestion(), gameId);
     }
 
     public QuestionResponse getCurrentQuestionForPlayer(Long gameId, Long userId) {
@@ -640,10 +646,7 @@ public class GameService {
                 .filter(p -> p.getUser().getId().equals(userId))
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Player not in room"));
-        Category cat = roomPlayer.getAssignedCategory();
-        if (cat == null) {
-            cat = roomPlayer.getPreferredCategory();
-        }
+        Category cat = resolvePlayerCategory(room, roomPlayer);
         
         List<Question> pool;
         List<String> diffsToUse = new ArrayList<>();
@@ -672,12 +675,48 @@ public class GameService {
             }
         }
 
+        pool = stabilizePool(pool, gameId, cat);
+
         // Por ora, seleciona dinamicamente a próxima não respondida dessa categoria
         List<Answer> playerAnswers = answerRepository.findByGameAndUser(game, roomPlayer.getUser());
         Set<Long> answeredIds = playerAnswers.stream().map(a -> a.getQuestion().getId()).collect(Collectors.toSet());
         Question next = pool.stream().filter(q -> !answeredIds.contains(q.getId())).findFirst()
                 .orElseThrow(() -> new RuntimeException("Sem novas perguntas para o jogador"));
-        return convertToQuestionResponse(next);
+        return convertToQuestionResponse(next, gameId);
+    }
+
+    /**
+     * Categoria usada para escolher as perguntas de um jogador.
+     * - DUELO: ambos os jogadores partilham as perguntas, por isso usa-se o conjunto de categorias
+     *   da sala (null) ou, se a sala não tiver categorias, a categoria do anfitrião.
+     * - Restantes modos: categoria atribuída ao jogador (senão a preferida).
+     */
+    private Category resolvePlayerCategory(Room room, RoomPlayer player) {
+        if (room.getGameMode() == GameMode.DUEL) {
+            if (room.getCategories() != null && !room.getCategories().isEmpty()) {
+                return null;
+            }
+            Long hostId = room.getHost() != null ? room.getHost().getId() : null;
+            RoomPlayer base = room.getPlayers().stream()
+                    .filter(p -> hostId != null && p.getUser().getId().equals(hostId))
+                    .findFirst().orElse(player);
+            Category c = base.getAssignedCategory();
+            return c != null ? c : base.getPreferredCategory();
+        }
+        Category cat = player.getAssignedCategory();
+        return cat != null ? cat : player.getPreferredCategory();
+    }
+
+    /**
+     * Torna a ordem do conjunto de perguntas determinística para (jogo, categoria): ordena por id e
+     * baralha com uma semente fixa. Todos os jogadores do mesmo grupo obtêm a mesma sequência.
+     */
+    private List<Question> stabilizePool(List<Question> pool, Long gameId, Category category) {
+        List<Question> sorted = new ArrayList<>(pool);
+        sorted.sort(java.util.Comparator.comparing(Question::getId));
+        long groupKey = category != null && category.getId() != null ? category.getId() : 0L;
+        java.util.Collections.shuffle(sorted, new java.util.Random(gameId * 1_000_003L + groupKey));
+        return sorted;
     }
 
     public List<PlayerResultResponse> getLiveLeaderboard(Long gameId) {
@@ -932,7 +971,8 @@ public class GameService {
                     response.setQuestionId(answer.getQuestion().getId());
                     response.setQuestion(answer.getQuestion().getQuestionText());
                     response.setPlayerAnswer(String.valueOf(answer.getSelectedAnswer()));
-                    response.setCorrectAnswer(String.valueOf(answer.getQuestion().getCorrectAnswer()));
+                    int[] perm = QuestionShuffler.permutation(answer.getQuestion(), QuestionShuffler.seedFor(gameId, answer.getQuestion().getId()));
+                    response.setCorrectAnswer(String.valueOf(QuestionShuffler.shuffledCorrectIndex(answer.getQuestion(), perm)));
                     response.setIsCorrect(answer.getIsCorrect());
                     response.setTimeToAnswer(answer.getTimeToAnswer().intValue());
                     response.setPointsEarned(answer.getPoints());
@@ -958,7 +998,7 @@ public class GameService {
         }
         game.setCurrentQuestionIndex(current + 1);
         gameRepository.save(game);
-        return convertToQuestionResponse(seq.get(current + 1).getQuestion());
+        return convertToQuestionResponse(seq.get(current + 1).getQuestion(), gameId);
     }
 
     private void generateGameQuestions(Game game, Room room) {

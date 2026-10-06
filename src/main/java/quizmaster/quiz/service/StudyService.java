@@ -344,15 +344,17 @@ public class StudyService {
                 ? "DOCUMENTO / TEXTO BASE PARA ESTUDO:\n\"\"\"\n" + (content.length() > 25000 ? content.substring(0, 25000) + "..." : content) + "\n\"\"\""
                 : "TÓPICO / MATÉRIA DE ESTUDO: " + topic;
 
+        int flashcardCount = Math.max(10, questionCount);
+
         return "Você é um Professor Universitário Especialista e Elaborador de Provas. "
-                + "Crie um exame de estudo rigoroso e didático com exatamente " + questionCount + " perguntas de múltipla escolha no nível " + difficulty + ".\n"
+                + "Crie um exame de estudo rigoroso e didático com exatamente " + questionCount + " perguntas de múltipla escolha e exatamente " + flashcardCount + " flashcards didáticos e explicativos no nível " + difficulty + ".\n"
                 + baseContext + "\n\n"
                 + "REGRAS ESTRITAS DE FORMATAÇÃO JSON (responda APENAS com este JSON válido):\n"
                 + "{\n"
                 + "  \"title\": \"" + title + "\",\n"
-                + "  \"summaryBullets\": [\"ponto chave 1\", \"ponto chave 2\", \"ponto chave 3\", \"ponto chave 4\"],\n"
+                + "  \"summaryBullets\": [\"ponto chave 1\", \"ponto chave 2\", \"ponto chave 3\", \"ponto chave 4\", \"ponto chave 5\"],\n"
                 + "  \"flashcards\": [\n"
-                + "    {\"front\": \"Pergunta ou Conceito fundamental?\", \"back\": \"Resposta detalhada e direta.\"}\n"
+                + "    {\"front\": \"Pergunta ou Conceito fundamental?\", \"back\": \"Explicação detalhada, conceito principal e um exemplo prático de aplicação.\"}\n"
                 + "  ],\n"
                 + "  \"questions\": [\n"
                 + "    {\n"
@@ -366,7 +368,7 @@ public class StudyService {
                 + "    }\n"
                 + "  ]\n"
                 + "}\n"
-                + "Importante: Gere opções plausíveis e educativas. O campo correctAnswer deve ser um inteiro de 0 a 3 indicando o índice exato no array de options.";
+                + "Importante: No array 'flashcards', gere obrigatoriamente " + flashcardCount + " cartões cobrindo os conceitos essenciais do documento. O campo correctAnswer deve ser um inteiro de 0 a 3 indicando o índice exato no array de options.";
     }
 
     private StudyQuizResponse parseGeminiResponse(
@@ -486,8 +488,8 @@ public class StudyService {
             summaryBullets.add(sentences.get(i));
         }
 
-        // Gera Flashcards
-        for (int i = 0; i < Math.min(6, sentences.size()); i++) {
+        // Gera Flashcards (até 10 cartões)
+        for (int i = 0; i < Math.min(10, sentences.size()); i++) {
             String s = sentences.get(i);
             String concept = extractConcept(s, topic);
             flashcards.add(FlashcardDto.builder()

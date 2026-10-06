@@ -523,8 +523,10 @@ public class SoloService {
         QuestionResponse resp = new QuestionResponse();
         resp.setId(q.getId());
         resp.setQuestionText(q.getQuestionText());
-        resp.setOptions(q.getOptions());
-        resp.setCorrectAnswer(q.getCorrectAnswer());
+        // Ordem aleatória a cada pedido: a resposta certa muda de posição de vez em quando
+        int[] perm = QuestionShuffler.permutation(q, QuestionShuffler.randomSeed());
+        resp.setOptions(QuestionShuffler.shuffledOptions(q, perm));
+        resp.setCorrectAnswer(QuestionShuffler.shuffledCorrectIndex(q, perm));
         if (q.getCategory() != null) {
             quizmaster.quiz.models.Category cat = new quizmaster.quiz.models.Category();
             cat.setId(q.getCategory().getId());
