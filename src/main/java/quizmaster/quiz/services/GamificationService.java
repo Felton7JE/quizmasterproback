@@ -42,14 +42,17 @@ public class GamificationService {
             user.setCurrentStreak(1);
             user.setBestStreak(1);
         } else {
-            long hoursSinceLastPlay = ChronoUnit.HOURS.between(lastPlayed, now);
-            if (hoursSinceLastPlay > 48) {
-                user.setCurrentStreak(1);
-            } else if (hoursSinceLastPlay > 12) {
-                user.setCurrentStreak(user.getCurrentStreak() + 1);
-                if (user.getCurrentStreak() > user.getBestStreak()) {
+            java.time.LocalDate today = now.toLocalDate();
+            java.time.LocalDate lastDate = lastPlayed.toLocalDate();
+            long daysBetween = java.time.temporal.ChronoUnit.DAYS.between(lastDate, today);
+
+            if (daysBetween == 1) {
+                user.setCurrentStreak((user.getCurrentStreak() != null ? user.getCurrentStreak() : 0) + 1);
+                if (user.getCurrentStreak() > (user.getBestStreak() != null ? user.getBestStreak() : 0)) {
                     user.setBestStreak(user.getCurrentStreak());
                 }
+            } else if (daysBetween > 1) {
+                user.setCurrentStreak(1);
             }
         }
         

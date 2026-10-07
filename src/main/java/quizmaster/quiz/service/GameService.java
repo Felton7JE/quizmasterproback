@@ -869,14 +869,9 @@ public class GameService {
                     
                     if (isWinner) {
                         user.setGamesWon((user.getGamesWon() != null ? user.getGamesWon() : 0) + 1);
-                        user.setCurrentStreak((user.getCurrentStreak() != null ? user.getCurrentStreak() : 0) + 1);
-                        if (user.getCurrentStreak() > (user.getBestStreak() != null ? user.getBestStreak() : 0)) {
-                            user.setBestStreak(user.getCurrentStreak());
-                        }
-                    } else {
-                        user.setCurrentStreak(0);
                     }
                     
+                    gamificationService.updateStreakOnPlay(user);
                     // Atualizar estatísticas por categoria
                     if (res.getCategoryPoints() != null) {
                         for (java.util.Map.Entry<Category, Integer> entry : res.getCategoryPoints().entrySet()) {

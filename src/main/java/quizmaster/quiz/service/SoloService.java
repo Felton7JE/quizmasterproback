@@ -418,8 +418,9 @@ public class SoloService {
             }
         }
 
-        // Progresso de Missões & Títulos
+        // Progresso de Missões, Títulos e Ofensiva
         try {
+            gamificationService.updateStreakOnPlay(user);
             gamificationService.progressMission(user, "PLAY_ANY");
             gamificationService.progressMission(user, "PLAY_SOLO");
             if (request.getCorrectCount() != null && request.getCorrectCount() > 0) {
@@ -599,7 +600,8 @@ public class SoloService {
         userRepository.save(user);
 
         titleService.evaluateTitles(user);
-
+        
+        gamificationService.updateStreakOnPlay(user);
         gamificationService.progressMission(user, "PLAY_ANY");
         gamificationService.progressMission(user, "PLAY_SOLO");
         if (request.getScore() >= 100) {
