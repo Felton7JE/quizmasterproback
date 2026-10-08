@@ -592,7 +592,7 @@ public class SoloService {
 
         // Calcular e atribuir recompensas (Modo Livre)
         int xpGained = request.getScore() / 20;
-        int coinsEarned = request.getScore() / 100;
+        int coinsEarned = Math.min(10, request.getScore() / 250); // Cap: Max 10 moedas para evitar farm infinito
 
         user.setXp((user.getXp() != null ? user.getXp() : 0) + xpGained);
         user.setCoins((user.getCoins() != null ? user.getCoins() : 0) + coinsEarned);
