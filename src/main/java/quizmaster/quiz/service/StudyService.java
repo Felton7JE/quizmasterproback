@@ -352,6 +352,7 @@ public class StudyService {
 
         return "Você é um Professor Universitário Especialista e Elaborador de Provas. "
                 + "Crie um exame de estudo rigoroso e didático com exatamente " + questionCount + " perguntas de múltipla escolha e exatamente " + flashcardCount + " flashcards didáticos e explicativos no nível " + difficulty + ".\n"
+                + "MUITO IMPORTANTE: Garanta uma alta diversidade de temas. NÃO GERE perguntas similares ou repetidas. Cada pergunta e cada flashcard deve abordar um aspecto, conceito ou parágrafo diferente do material de estudo.\n\n"
                 + baseContext + "\n\n"
                 + "REGRAS ESTRITAS DE FORMATAÇÃO JSON (responda APENAS com este JSON válido):\n"
                 + "{\n"
@@ -505,11 +506,16 @@ public class StudyService {
         }
 
         // Gera Perguntas
-        int count = Math.min(targetCount, Math.max(5, sentences.size()));
+        int count = Math.min(targetCount, sentences.size());
+        if (count == 0) count = 1;
         Random rand = new Random();
 
+        // Embaralha as sentenças para garantir perguntas variadas
+        List<String> shuffledSentences = new ArrayList<>(sentences);
+        Collections.shuffle(shuffledSentences, rand);
+
         for (int i = 0; i < count; i++) {
-            String primarySentence = sentences.get(i % sentences.size());
+            String primarySentence = shuffledSentences.get(i);
             String concept = extractConcept(primarySentence, topic);
 
             String questionText = "Em relação a " + topic + ", assinale a afirmação correta sobre " + concept + ":";
