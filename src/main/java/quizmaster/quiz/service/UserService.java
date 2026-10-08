@@ -238,6 +238,12 @@ public class UserService {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
         user.setActive(false);
+        long timestamp = System.currentTimeMillis();
+        user.setUsername(user.getUsername() + "_del_" + timestamp);
+        user.setEmail(user.getEmail() + "_del_" + timestamp);
+        if (user.getReferralCode() != null) {
+            user.setReferralCode(user.getReferralCode() + "_del_" + timestamp);
+        }
         userRepository.save(user);
     }
     
